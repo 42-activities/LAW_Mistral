@@ -5,7 +5,14 @@ from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
 from app.modules.core.reference import IncomeCategory
-from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyRate
+from app.modules.treaty.models import (
+    MfnClause,
+    MliApplication,
+    Treaty,
+    TreatyArticle,
+    TreatyParty,
+    TreatyRate,
+)
 
 
 class TreatyRepository:
@@ -45,5 +52,25 @@ class TreatyRepository:
         stmt = select(TreatyArticle).where(
             TreatyArticle.treaty_id == treaty_id,
             TreatyArticle.article_category == article_category,
+        )
+        return self.session.scalar(stmt)
+
+    def get_mli(self, treaty_id: int, on_date: date) -> MliApplication | None:
+        stmt = select(MliApplication).where(
+            MliApplication.treaty_id == treaty_id, MliApplication.valid_period.contains(on_date)
+        )
+        return self.session.scalar(stmt)
+
+    def get_mfn(
+        self, treaty_id: int, income_category_code: str, on_date: date
+    ) -> MfnClause | None:
+        stmt = (
+            select(MfnClause)
+            .join(IncomeCategory, MfnClause.income_category_id == IncomeCategory.id)
+            .where(
+                MfnClause.treaty_id == treaty_id,
+                IncomeCategory.code == income_category_code,
+                MfnClause.valid_period.contains(on_date),
+            )
         )
         return self.session.scalar(stmt)

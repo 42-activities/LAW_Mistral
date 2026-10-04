@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_prefix="APP_", env_file=".env")
+    model_config = SettingsConfigDict(env_prefix="APP_", env_file=".env", extra="ignore")
 
     database_url: str = "postgresql+psycopg://app:app@localhost:5432/app"
     api_key_header: str = "X-API-Key"

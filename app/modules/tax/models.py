@@ -62,6 +62,9 @@ class HoldingRegime(Base):
             using="gist",
             name="no_overlap_holding_regime",
         ),
+        CheckConstraint(
+            "exempt_share_pct >= 0 AND exempt_share_pct <= 100", name="exempt_share_pct_range"
+        ),
         {"schema": "tax"},
     )
 
@@ -72,6 +75,12 @@ class HoldingRegime(Base):
     min_holding_pct: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     min_holding_period_months: Mapped[int | None] = mapped_column(Integer, nullable=True)
     subject_to_tax_condition: Mapped[bool] = mapped_column(Boolean, default=False)
+    # Share of qualifying income that is exempt (France: 95, a 5% quote-part stays taxable).
+    exempt_share_pct: Mapped[Decimal] = mapped_column(
+        Numeric(6, 3), default=Decimal("100"), server_default="100"
+    )
+    # Minimum CIT rate the payer must be subject to (UAE: 9). NULL = no rate floor recorded.
+    min_subject_to_tax_rate: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     notes: Mapped[str | None] = mapped_column(String(500), nullable=True)
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
