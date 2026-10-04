@@ -1,7 +1,10 @@
+from datetime import date
+
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.modules.risk.models import ListDefinition
+from app.modules.core.models import Jurisdiction
+from app.modules.risk.models import ListDefinition, ListMembership
 
 
 class ListDefinitionRepository:
@@ -29,3 +32,42 @@ class ListDefinitionRepository:
             )
             self.session.add(row)
         return row
+
+
+class ListRepository:
+    def __init__(self, session: Session) -> None:
+        self.session = session
+
+    def is_listed(
+        self, jurisdiction_code: str, list_code: str, on_date: date
+    ) -> ListMembership | None:
+        stmt = (
+            select(ListMembership)
+            .join(Jurisdiction, ListMembership.jurisdiction_id == Jurisdiction.id)
+            .join(ListDefinition, ListMembership.list_definition_id == ListDefinition.id)
+            .where(
+                Jurisdiction.code == jurisdiction_code,
+                ListDefinition.code == list_code,
+                ListMembership.valid_period.contains(on_date),
+            )
+        )
+        return self.session.scalar(stmt)
+
+    def members(self, list_code: str, on_date: date) -> list[ListMembership]:
+        stmt = (
+            select(ListMembership)
+            .join(ListDefinition, ListMembership.list_definition_id == ListDefinition.id)
+            .where(ListDefinition.code == list_code, ListMembership.valid_period.contains(on_date))
+        )
+        return list(self.session.scalars(stmt))
+
+    def lists_for(self, jurisdiction_code: str, on_date: date) -> list[ListMembership]:
+        stmt = (
+            select(ListMembership)
+            .join(Jurisdiction, ListMembership.jurisdiction_id == Jurisdiction.id)
+            .where(
+                Jurisdiction.code == jurisdiction_code,
+                ListMembership.valid_period.contains(on_date),
+            )
+        )
+        return list(self.session.scalars(stmt))
