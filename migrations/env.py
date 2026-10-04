@@ -6,6 +6,7 @@ from app.db import Base
 
 # Import model modules so their tables register on Base.metadata.
 from app.modules.core import models as _core_models  # noqa: F401
+from app.modules.source import models as _source_models  # noqa: F401
 
 config = context.config
 config.set_main_option("sqlalchemy.url", get_settings().database_url)
