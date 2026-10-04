@@ -152,7 +152,7 @@ class FactorCalculator:
     ) -> tuple[Decimal, tuple[int, ...], dict[str, str]]:
         others = [c for c in profile.counterparties() if c != holding]
         if not others:
-            return HUNDRED, (), {"counterparties": "none besides the holding jurisdiction"}
+            return q2(HUNDRED), (), {"counterparties": "none besides the holding jurisdiction"}
         covered = []
         cites: list[int] = []
         for c in others:

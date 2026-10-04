@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --fg: #16181d;
+  --muted: #5d636e;
+  --line: #e3e3dc;
+  --accent: #0f5c56;
+  --accent-soft: #e2efed;
+  --good: #1f7a4d;
+  --warn: #9a5b00;
+  --warn-soft: #fbf1df;
+  --bad: #a3271f;
+  --bad-soft: #f8e5e3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111317;
+    --surface: #181b21;
+    --fg: #e9eaec;
+    --muted: #9aa1ab;
+    --line: #2a2f37;
+    --accent: #5cc2b4;
+    --accent-soft: #16302d;
+    --good: #5ccf8f;
+    --warn: #f0b45a;
+    --warn-soft: #2e2414;
+    --bad: #f08a80;
+    --bad-soft: #341b19;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-feature-settings: "tnum" 1;
+}
+
+a {
+  text-underline-offset: 3px;
+}

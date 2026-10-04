@@ -6,6 +6,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
+from app.api.v1.product import load_profile
 from app.db import get_session
 from app.deps import require_api_key
 from app.errors import NotFoundError
@@ -53,7 +54,8 @@ class ProfileIn(BaseModel):
 
 
 class RecommendationIn(BaseModel):
-    profile: ProfileIn
+    profile: ProfileIn | None = Field(default=None, description="Inline profile, or profile_id")
+    profile_id: int | None = None
     on_date: date
     candidates: list[str] | None = Field(
         default=None, description="Candidate holding jurisdictions; default: all known."
@@ -71,7 +73,14 @@ def holding_recommendation(
     session: Session = Depends(get_session),
 ) -> dict[str, Any]:
     jurisdictions = JurisdictionRepository(session)
-    profile = body.profile.to_profile()
+    if (body.profile is None) == (body.profile_id is None):
+        raise HTTPException(status_code=422, detail="give exactly one of profile or profile_id")
+    if body.profile is not None:
+        profile = body.profile.to_profile()
+    else:
+        assert body.profile_id is not None
+        stored = load_profile(session, org_id, body.profile_id)
+        profile = ScoringProfile.from_json(stored.derived)
     candidates = body.candidates or [j.code for j in jurisdictions.list()]
     for code in {*candidates, *profile.counterparties()}:
         if jurisdictions.get_by_code(code) is None:
@@ -97,7 +106,7 @@ def holding_recommendation(
     run = ScoringRunRepository(session).save(
         org_id=org_id,
         profile=profile,
-        profile_id=None,
+        profile_id=body.profile_id,
         weight_set=weight_set if body.weights is None else None,
         weights=weights,
         data_asof=body.on_date,

@@ -9,6 +9,7 @@ from app.modules.core.models import Jurisdiction
 from app.modules.core.reference_repo import ReferenceRepository
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.seed.lists import seed_lists
+from app.modules.seed.questions import seed_questions
 from app.modules.seed.scoring import seed_scoring
 from app.modules.seed.sources import upsert_source
 from app.modules.source.models import SourceDocument, SourceEvidence
@@ -320,6 +321,7 @@ def seed(session: Session) -> None:
     seed_lists(session)
     seed_engine_data(session, treaty, article)
     seed_scoring(session)
+    seed_questions(session)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:
