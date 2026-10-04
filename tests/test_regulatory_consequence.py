@@ -29,7 +29,8 @@ def _seed(db_session):
     db_session.add(etnc)
     db_session.flush()
     db_session.add(RegulatoryConsequence(
-        applying_jurisdiction_id=fr.id, list_definition_id=etnc.id, classification_trigger="full_measures",
+        applying_jurisdiction_id=fr.id, list_definition_id=etnc.id,
+        classification_trigger="full_measures",
         consequence_type="withholding_tax", rate=Decimal("75"), legal_ref="CGI art. 238-0 A",
         description="75% WHT on certain payments to ETNC (full measures)",
         source_evidence_id=ev.id,
