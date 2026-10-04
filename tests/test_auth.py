@@ -26,24 +26,40 @@ def test_missing_key_is_401():
     assert client.get("/protected").status_code == 401
 
 
-def test_valid_key_authenticates(db_session, monkeypatch):
-    org = OrganisationAccount(name="Acme Tax")
-    db_session.add(org)
-    db_session.flush()
-    raw, key_hash = generate_api_key()
-    db_session.add(ApiKey(org_id=org.id, key_hash=key_hash, active=True))
-    db_session.flush()
-
-    # Route uses the same db_session via dependency override.
+def _client(db_session) -> TestClient:
     from app.db import get_session
-
-    app = _app_with_protected_route()
 
     def _override():
         yield db_session
 
+    app = _app_with_protected_route()
     app.dependency_overrides[get_session] = _override
-    client = TestClient(app)
-    resp = client.get("/protected", headers={"X-API-Key": raw})
+    return TestClient(app)
+
+
+def _add_key(db_session, active: bool) -> tuple[int, str]:
+    org = OrganisationAccount(name="Acme Tax")
+    db_session.add(org)
+    db_session.flush()
+    raw, key_hash = generate_api_key()
+    db_session.add(ApiKey(org_id=org.id, key_hash=key_hash, active=active))
+    db_session.flush()
+    return org.id, raw
+
+
+def test_valid_key_authenticates(db_session):
+    org_id, raw = _add_key(db_session, active=True)
+    resp = _client(db_session).get("/protected", headers={"X-API-Key": raw})
     assert resp.status_code == 200
-    assert resp.json() == {"org_id": org.id}
+    assert resp.json() == {"org_id": org_id}
+
+
+def test_unknown_key_is_401(db_session):
+    resp = _client(db_session).get("/protected", headers={"X-API-Key": "does-not-exist"})
+    assert resp.status_code == 401
+
+
+def test_inactive_key_is_401(db_session):
+    _, raw = _add_key(db_session, active=False)
+    resp = _client(db_session).get("/protected", headers={"X-API-Key": raw})
+    assert resp.status_code == 401
