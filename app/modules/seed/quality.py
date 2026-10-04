@@ -4,6 +4,9 @@ from sqlalchemy.orm import Session
 from app.modules.tax.models import DomesticTaxRule
 from app.modules.treaty.models import Treaty, TreatyParty, TreatyRate
 
+# Note: the "every figure has a source" invariant (source_evidence_id NOT NULL)
+# is enforced by the schema's NOT NULL FK columns, so it is not re-checked here.
+
 
 def run_checks(session: Session) -> list[str]:
     violations: list[str] = []
