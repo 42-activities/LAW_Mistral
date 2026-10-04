@@ -1,6 +1,7 @@
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from app.modules.risk.models import ListMembership, RegulatoryConsequence
 from app.modules.tax.models import DomesticTaxRule
 from app.modules.treaty.models import Treaty, TreatyParty, TreatyRate
 
@@ -35,5 +36,15 @@ def run_checks(session: Session) -> list[str]:
                 f"{tr.relief_mechanism!r}"
             )
             violations.append(msg)
+
+    # 4. list memberships need a classification
+    for m in session.scalars(select(ListMembership)):
+        if not m.classification:
+            violations.append(f"list_membership {m.id} has an empty classification")
+
+    # 5. withholding-tax consequences need a rate
+    for c in session.scalars(select(RegulatoryConsequence)):
+        if c.consequence_type == "withholding_tax" and c.rate is None:
+            violations.append(f"regulatory_consequence {c.id} (withholding_tax) has no rate")
 
     return violations
