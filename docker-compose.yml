@@ -23,12 +23,32 @@ services:
       APP_DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-app}:${POSTGRES_PASSWORD:-app}@db:5432/${POSTGRES_DB:-app}
       APP_ENVIRONMENT: ${APP_ENVIRONMENT:-local}
     ports:
-      - "${APP_BIND:-127.0.0.1:8000}:8000"
+      # API only; the public entry point is the web service (APP_BIND).
+      - "${API_BIND:-127.0.0.1:8000}:8000"
     depends_on:
       db:
         condition: service_healthy
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  web:
+    build: web
+    image: ghcr.io/42-activities/law_mistral-web:${IMAGE_TAG:-latest}
+    environment:
+      API_URL: http://app:8000
+      # Key of the organisation the website acts as; create with app.cli create-api-key.
+      API_KEY: ${WEB_API_KEY:-}
+    ports:
+      - "${APP_BIND:-127.0.0.1:3000}:3000"
+    depends_on:
+      app:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
       interval: 10s
       timeout: 3s
       retries: 5

@@ -18,7 +18,7 @@ jobs:
     needs: [ci]
     uses: ./.github/workflows/docker-deploy.yml
     with:
-      images: '[{"name": "app", "context": "."}]'
+      images: '[{"name": "app", "context": "."}, {"name": "web", "context": "web"}]'
       deploy-path: ~/projects/LAW_Mistral
       health-url: http://127.0.0.1:8600/health/ready
     secrets: inherit
