@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.modules.core.models import Jurisdiction
 from app.modules.core.reference_repo import ReferenceRepository
 from app.modules.core.repository import JurisdictionRepository
+from app.modules.seed.lists import seed_lists
 from app.modules.seed.sources import upsert_source
 from app.modules.source.models import SourceEvidence
 from app.modules.tax.models import DomesticTaxRule, HoldingRegime, TaxBracket
@@ -292,6 +293,8 @@ def seed(session: Session) -> None:
             )
         )
         session.flush()
+
+    seed_lists(session)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:
