@@ -19,14 +19,14 @@ def run_checks(session: Session) -> list[str]:
         if (count or 0) < 2:
             violations.append(f"treaty {treaty.id} ({treaty.name}) has {count} party rows (< 2)")
 
-    # 3. flat rules need a rate; bracketed rules need brackets
+    # 2. flat rules need a rate; bracketed rules need brackets
     for rule in session.scalars(select(DomesticTaxRule)):
         if rule.is_bracketed and not rule.brackets:
             violations.append(f"bracketed domestic_tax_rule {rule.id} has no brackets")
         if not rule.is_bracketed and rule.rate is None:
             violations.append(f"flat domestic_tax_rule {rule.id} has no rate")
 
-    # 4. relief_mechanism within the allowed set
+    # 3. relief_mechanism within the allowed set
     allowed = {None, "at_source", "refund", "credit"}
     for tr in session.scalars(select(TreatyRate)):
         if tr.relief_mechanism not in allowed:

@@ -141,7 +141,8 @@ def seed(session: Session) -> None:
         "Convention France - United Arab Emirates (impots.gouv.fr)",
         TREATY_URL,
         None,
-        "Convention signed 19 July 1989; protocol of 6 December 1993.",
+        "Convention signed 19 July 1989; protocol of 6 December 1993 (verified dates). "
+        "Entry-into-force date not asserted.",
     )
     art8_src = _src(
         session,
@@ -243,7 +244,7 @@ def seed(session: Session) -> None:
         treaty = Treaty(
             name="Convention between France and the United Arab Emirates",
             signature_date=date(1989, 7, 19),
-            entry_into_force_date=date(1994, 1, 1),
+            entry_into_force_date=None,  # not verified against an official source
             source_evidence_id=treaty_src.id,
         )
         session.add(treaty)
