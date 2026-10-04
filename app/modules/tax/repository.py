@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
 from app.modules.core.reference import IncomeCategory, TaxType
-from app.modules.tax.models import DomesticTaxRule, HoldingRegime
+from app.modules.tax.models import CfcRule, DomesticTaxRule, HoldingRegime, SubstanceRule
 
 
 class TaxRuleRepository:
@@ -63,3 +63,30 @@ class HoldingRegimeRepository:
             )
         )
         return self.session.scalar(stmt)
+
+
+class AntiAbuseRepository:
+    """CFC and substance rules (coarse, spec §3 factor 4)."""
+
+    def __init__(self, session: Session) -> None:
+        self.session = session
+
+    def cfc_rule(self, jurisdiction_code: str, on_date: date) -> CfcRule | None:
+        stmt = (
+            select(CfcRule)
+            .join(Jurisdiction, CfcRule.jurisdiction_id == Jurisdiction.id)
+            .where(Jurisdiction.code == jurisdiction_code, CfcRule.valid_period.contains(on_date))
+        )
+        return self.session.scalar(stmt)
+
+    def substance_rules(self, jurisdiction_code: str, on_date: date) -> list[SubstanceRule]:
+        stmt = (
+            select(SubstanceRule)
+            .join(Jurisdiction, SubstanceRule.jurisdiction_id == Jurisdiction.id)
+            .where(
+                Jurisdiction.code == jurisdiction_code,
+                SubstanceRule.valid_period.contains(on_date),
+            )
+            .order_by(SubstanceRule.regime)
+        )
+        return list(self.session.scalars(stmt))

@@ -4,7 +4,7 @@ from decimal import Decimal
 from sqlalchemy.orm import Session
 
 from app.modules.engine.types import ZERO, Flag, TreatyTerms
-from app.modules.treaty.models import TreatyArticle
+from app.modules.treaty.models import Treaty, TreatyArticle
 from app.modules.treaty.repository import TreatyRepository
 
 
@@ -14,6 +14,12 @@ class TreatyEngine:
     def __init__(self, session: Session) -> None:
         self.session = session
         self.repo = TreatyRepository(session)
+
+    def in_force(self, a: str, b: str, on_date: date) -> Treaty | None:
+        treaty = self.repo.find_by_parties(a, b)
+        if treaty is None or treaty.entry_into_force_date is None:
+            return None
+        return treaty if treaty.entry_into_force_date <= on_date else None
 
     def terms(
         self,
