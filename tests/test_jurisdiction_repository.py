@@ -18,3 +18,14 @@ def test_duplicate_code_raises(db_session):
     with pytest.raises(DuplicateCodeError):
         repo.create(code="FR", name="France Again")
         db_session.flush()
+
+
+def test_duplicate_preserves_outer_transaction(db_session):
+    repo = JurisdictionRepository(db_session)
+    repo.create(code="DE", name="Germany")  # flushed before the duplicate
+    with pytest.raises(DuplicateCodeError):
+        repo.create(code="DE", name="Dup")
+    # outer txn still usable, earlier work intact
+    assert repo.get_by_code("DE").name == "Germany"
+    repo.create(code="IT", name="Italy")
+    assert {j.code for j in repo.list()} == {"DE", "IT"}
