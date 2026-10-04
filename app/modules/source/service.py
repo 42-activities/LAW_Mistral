@@ -24,7 +24,10 @@ class EvidenceService:
         if ev is None:
             return None
         doc = self.session.get(SourceDocument, ev.document_id)
-        assert doc is not None  # FK guarantees presence
+        if doc is None:  # FK guarantees a row; defensive against -O stripping
+            raise RuntimeError(
+                f"evidence {evidence_id} references missing document {ev.document_id}"
+            )
         return EvidenceView(
             id=ev.id,
             document_title=doc.title,

@@ -28,6 +28,7 @@ def test_list_returns_jurisdictions(db_session):
     client = _client_with_session(db_session)
     resp = client.get("/v1/jurisdictions")
     assert resp.status_code == 200
+    assert all(isinstance(j["id"], int) for j in resp.json())
     assert {"code": "AE", "name": "United Arab Emirates"} in [
         {"code": j["code"], "name": j["name"]} for j in resp.json()
     ]
@@ -38,3 +39,13 @@ def test_get_unknown_id_is_404(db_session):
     resp = client.get("/v1/jurisdictions/999999")
     assert resp.status_code == 404
     assert resp.json() == {"detail": "jurisdiction not found"}
+
+
+def test_get_by_id_returns_jurisdiction(db_session):
+    j = Jurisdiction(code="AE", name="United Arab Emirates")
+    db_session.add(j)
+    db_session.flush()
+    client = _client_with_session(db_session)
+    resp = client.get(f"/v1/jurisdictions/{j.id}")
+    assert resp.status_code == 200
+    assert resp.json() == {"id": j.id, "code": "AE", "name": "United Arab Emirates"}

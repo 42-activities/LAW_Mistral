@@ -9,7 +9,7 @@ class Jurisdiction(Base):
     __table_args__ = {"schema": "core"}
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    code: Mapped[str] = mapped_column(String(8), unique=True, index=True)
+    code: Mapped[str] = mapped_column(String(8), unique=True)
     name: Mapped[str] = mapped_column(String(200))
 
     aliases: Mapped[list["JurisdictionAlias"]] = relationship(back_populates="jurisdiction")
