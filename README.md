@@ -30,3 +30,15 @@ The server `.env` sets `POSTGRES_PASSWORD`, `DB_BIND=127.0.0.1:5435`, `APP_BIND=
 git pull && docker compose up -d --build
 docker compose exec app python -m app.cli create-api-key "<org name>"
 ```
+
+## Analysis API (P3 engines)
+
+All endpoints take an `X-API-Key` header. Rates are percentages; every result lists the
+`source_evidence` ids it was derived from and flags any assumption or missing data.
+
+- `POST /v1/analyze/withholding-tax` — domestic rate, list-triggered consequence, treaty cap,
+  amount withheld at payment and final rate for one payment.
+- `GET /v1/analyze/jurisdiction-risk?jurisdiction=AE&on_date=2024-06-30` — list memberships.
+- `POST /v1/analyze/flow` — tax leakage per 100 of income along source → holding → parent.
+
+Seed the France–UAE golden data with `docker compose exec app python -m app.cli seed-france-uae`.

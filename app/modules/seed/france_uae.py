@@ -10,7 +10,7 @@ from app.modules.core.reference_repo import ReferenceRepository
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.seed.lists import seed_lists
 from app.modules.seed.sources import upsert_source
-from app.modules.source.models import SourceEvidence
+from app.modules.source.models import SourceDocument, SourceEvidence
 from app.modules.tax.models import DomesticTaxRule, HoldingRegime, TaxBracket
 from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyProtocol, TreatyRate
 from app.modules.treaty.repository import TreatyRepository
@@ -23,17 +23,34 @@ MOF_URL = "https://mof.gov.ae/corporate-tax/"
 PWC_UAE_URL = "https://taxsummaries.pwc.com/united-arab-emirates/corporate/withholding-taxes"
 PWC_FR_URL = "https://taxsummaries.pwc.com/france/corporate/withholding-taxes"
 LEGIFRANCE_URL = "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006069577/"
-TREATY_URL = (
+# The P1 URL (.../convention-france-emirats-arabes-unis.pdf) returns 404 since 2026-10;
+# this is the consolidated official text (convention + 1993 avenant) on impots.gouv.fr.
+OLD_TREATY_URL = (
     "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/"
     "emirats_arabes_unis/convention-france-emirats-arabes-unis.pdf"
 )
+TREATY_URL = (
+    "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/emirats_arabes_unis/"
+    "emirats-arabes-unis_convention-avec-les-emirats-arabes-unis_fd_2138.pdf"
+)
+BOFIP_IS_URL = "https://bofip.impots.gouv.fr/bofip/2066-PGP"
+UAE_PE_URL = "https://afridi-angell.com/the-participation-exemption-dividends-and-capital-gains/"
+TREATY_EIF = date(1990, 7, 1)
+AVENANT_EIF = date(1995, 6, 1)
 
 
 def _period(start: date) -> Range[date]:
     return Range(start, None, bounds="[)")
 
 
-def _src(session: Session, title: str, url: str, article: str | None, quote: str) -> SourceEvidence:
+def _src(
+    session: Session,
+    title: str,
+    url: str,
+    article: str | None,
+    quote: str,
+    review_status: str = "human_verified",
+) -> SourceEvidence:
     return upsert_source(
         session,
         title=title,
@@ -42,6 +59,7 @@ def _src(session: Session, title: str, url: str, article: str | None, quote: str
         content_hash="fixture-v1",
         article=article,
         quoted_text=quote,
+        review_status=review_status,
     )
 
 
@@ -67,6 +85,10 @@ def _rule_exists(
 
 
 def seed(session: Session) -> None:
+    old_doc = session.scalar(select(SourceDocument).where(SourceDocument.url == OLD_TREATY_URL))
+    if old_doc is not None:
+        old_doc.url = TREATY_URL
+        session.flush()
     ref = ReferenceRepository(session)
     fr = _jurisdiction(session, "FR", "France")
     ae = _jurisdiction(session, "AE", "United Arab Emirates")
@@ -262,7 +284,7 @@ def seed(session: Session) -> None:
             TreatyProtocol(
                 treaty_id=treaty.id,
                 signature_date=date(1993, 12, 6),
-                entry_into_force_date=date(1994, 1, 1),
+                entry_into_force_date=AVENANT_EIF,
                 description="Protocol of 6 December 1993",
                 source_evidence_id=treaty_src.id,
             )
@@ -277,7 +299,7 @@ def seed(session: Session) -> None:
         session.add(article)
         session.flush()
 
-    rate_start = date(1994, 1, 1)
+    rate_start = AVENANT_EIF
     if TreatyRepository(session).get_rate(treaty.id, "DIVIDEND", rate_start) is None:
         session.add(
             TreatyRate(
@@ -295,9 +317,176 @@ def seed(session: Session) -> None:
         session.flush()
 
     seed_lists(session)
+    seed_engine_data(session, treaty, article)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:
     return list(
         session.scalars(select(TreatyProtocol).where(TreatyProtocol.treaty_id == treaty_id))
     )
+
+
+def seed_engine_data(session: Session, treaty: Treaty, dividend_article: TreatyArticle) -> None:
+    """P3 corrections and additions, checked against official texts on 2026-10-04.
+
+    Evidence added here is `unreviewed`: it was checked by the assistant, not by a named human
+    reviewer (spec §10).
+    """
+    ref = ReferenceRepository(session)
+    fr = _jurisdiction(session, "FR", "France")
+    ae = _jurisdiction(session, "AE", "United Arab Emirates")
+
+    eif_src = _src(
+        session,
+        "Convention France - United Arab Emirates (impots.gouv.fr)",
+        TREATY_URL,
+        "Cover page",
+        "signée à Abou Dhabi le 19 juillet 1989 [...] entrée en vigueur le 1er juillet 1990 [...] "
+        "modifiée par l'Avenant signé à Abou Dhabi le 6 décembre 1993 [...] entré en vigueur "
+        "le 1er juin 1995",
+        review_status="unreviewed",
+    )
+    # Corrections to P1 rows (P1 left entry into force blank and dated the avenant 1994-01-01).
+    if treaty.entry_into_force_date is None:
+        treaty.entry_into_force_date = TREATY_EIF
+        treaty.source_evidence_id = eif_src.id
+    for protocol in _protocols(session, treaty.id):
+        if protocol.signature_date == date(1993, 12, 6) and protocol.entry_into_force_date != (
+            AVENANT_EIF
+        ):
+            protocol.entry_into_force_date = AVENANT_EIF
+            protocol.source_evidence_id = eif_src.id
+    div_rate = TreatyRepository(session).get_rate(treaty.id, "DIVIDEND", AVENANT_EIF)
+    if div_rate is not None and div_rate.valid_period.lower != AVENANT_EIF:
+        div_rate.valid_period = _period(AVENANT_EIF)
+    session.flush()
+
+    # Interest (art. 9) and royalties (art. 10): exclusive residence taxation.
+    articles = [
+        (
+            "INTEREST",
+            "INTEREST",
+            "Article 9",
+            "Les revenus de créances provenant d'un Etat et payés à un résident de l'autre Etat "
+            "ne sont imposables que dans cet autre Etat, si ce résident en est le bénéficiaire "
+            "effectif.",
+        ),
+        (
+            "ROYALTIES",
+            "ROYALTY",
+            "Article 10",
+            "Les redevances provenant d'un Etat et payées à un résident de l'autre Etat ne sont "
+            "imposables que dans cet autre Etat, si ce résident en est le bénéficiaire effectif.",
+        ),
+    ]
+    repo = TreatyRepository(session)
+    for category, income_code, article_ref, quote in articles:
+        ev = _src(
+            session,
+            "Convention France - United Arab Emirates (impots.gouv.fr)",
+            TREATY_URL,
+            f"{article_ref}, para. 1",
+            quote,
+            review_status="unreviewed",
+        )
+        article = repo.get_article(treaty.id, category)
+        if article is None:
+            article = TreatyArticle(
+                treaty_id=treaty.id, article_category=category, article_ref=article_ref
+            )
+            session.add(article)
+            session.flush()
+        if repo.get_rate(treaty.id, income_code, AVENANT_EIF) is None:
+            income = ref.income_category(income_code)
+            assert income is not None
+            session.add(
+                TreatyRate(
+                    treaty_id=treaty.id,
+                    treaty_article_id=article.id,
+                    income_category_id=income.id,
+                    max_rate=Decimal("0"),
+                    exclusive_residence_taxation=True,
+                    relief_mechanism=None,  # the treaty text does not set the procedure
+                    beneficial_owner_required=True,
+                    source_evidence_id=ev.id,
+                    valid_period=_period(AVENANT_EIF),
+                )
+            )
+            session.flush()
+
+    # France CIT 25% from fiscal years opened on or after 2022-01-01 (CGI art. 219 I).
+    fr_cit_src = _src(
+        session,
+        "BOI-IS-LIQ-10 - IS - Taux normal (BOFiP)",
+        BOFIP_IS_URL,
+        "CGI art. 219 I",
+        "Exercices ouverts à compter du 01/01/2022 : 25 %",
+        review_status="unreviewed",
+    )
+    cit_type = ref.tax_type("CIT")
+    profit = ref.income_category("CORPORATE_PROFIT")
+    assert cit_type is not None and profit is not None
+    fr_cit_from = date(2022, 1, 1)
+    if not _rule_exists(session, fr.id, cit_type.id, profit.id, "company", fr_cit_from):
+        session.add(
+            DomesticTaxRule(
+                jurisdiction_id=fr.id,
+                tax_type_id=cit_type.id,
+                income_category_id=profit.id,
+                taxpayer_type="company",
+                rate=Decimal("25"),
+                is_bracketed=False,
+                source_evidence_id=fr_cit_src.id,
+                valid_period=_period(fr_cit_from),
+            )
+        )
+        session.flush()
+
+    # France: 95% of qualifying dividends exempt (5% quote-part), per the P1 CGI 145/216 evidence.
+    fr_regime = session.scalar(
+        select(HoldingRegime).where(
+            HoldingRegime.jurisdiction_id == fr.id,
+            HoldingRegime.valid_period.contains(date(2020, 1, 1)),
+        )
+    )
+    if fr_regime is not None and fr_regime.exempt_share_pct != Decimal("95"):
+        fr_regime.exempt_share_pct = Decimal("95")
+
+    # UAE participation exemption, FDL No. 47 of 2022 art. 23.
+    ae_pe_src = _src(
+        session,
+        "UAE Participation Exemption (FDL No. 47 of 2022, art. 23; Ministerial Decision 116/2023)",
+        UAE_PE_URL,
+        "FDL No. 47 of 2022 art. 23",
+        "5% (five percent) or greater ownership interest [...] held, or has the intention to "
+        "hold, the Participating Interest for an uninterrupted period of at least (12) twelve "
+        "months [...] subject to Corporate Tax [...] at a rate not less than [9%] [...] Income "
+        "from a Participating Interest shall be exempt from Corporate Tax",
+        review_status="unreviewed",
+    )
+    if (
+        session.scalar(
+            select(HoldingRegime.id).where(
+                HoldingRegime.jurisdiction_id == ae.id,
+                HoldingRegime.valid_period.contains(UAE_CT_FROM),
+            )
+        )
+        is None
+    ):
+        session.add(
+            HoldingRegime(
+                jurisdiction_id=ae.id,
+                participation_exemption_dividends=True,
+                participation_exemption_capgains=True,
+                min_holding_pct=Decimal("5"),
+                min_holding_period_months=12,
+                subject_to_tax_condition=True,
+                min_subject_to_tax_rate=Decimal("9"),
+                exempt_share_pct=Decimal("100"),
+                notes="Participation exemption (FDL No. 47 of 2022 art. 23); also requires "
+                "the 50% asset test, not modelled",
+                source_evidence_id=ae_pe_src.id,
+                valid_period=_period(UAE_CT_FROM),
+            )
+        )
+    session.flush()

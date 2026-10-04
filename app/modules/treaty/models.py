@@ -1,7 +1,7 @@
 from datetime import date
 from decimal import Decimal
 
-from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Numeric, String
+from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String
 from sqlalchemy.dialects.postgresql import DATERANGE, ExcludeConstraint, Range
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -90,5 +90,51 @@ class TreatyRate(Base):
     relief_mechanism: Mapped[str | None] = mapped_column(String(16), nullable=True)
     beneficial_owner_required: Mapped[bool] = mapped_column(Boolean, default=False)
     ownership_threshold: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class MliApplication(Base):
+    """How the MLI modifies a covered treaty (both parties listed it), from a given date."""
+
+    __tablename__ = "mli_application"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("treaty_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_mli_application",
+        ),
+        {"schema": "treaty"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    treaty_id: Mapped[int] = mapped_column(ForeignKey("treaty.treaty.id"))
+    ppt_applies: Mapped[bool] = mapped_column(Boolean, default=False)
+    # MLI art. 8: minimum holding period for reduced dividend rates keyed to ownership.
+    dividend_min_holding_days: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class MfnClause(Base):
+    """A most-favoured-nation clause. Flagged for review by the engine, never auto-applied."""
+
+    __tablename__ = "mfn_clause"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("treaty_id", "="),
+            ("income_category_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_mfn_clause",
+        ),
+        {"schema": "treaty"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    treaty_id: Mapped[int] = mapped_column(ForeignKey("treaty.treaty.id"))
+    income_category_id: Mapped[int] = mapped_column(ForeignKey("core.income_category.id"))
+    description: Mapped[str] = mapped_column(String(500))
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
