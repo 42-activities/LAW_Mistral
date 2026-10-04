@@ -51,3 +51,27 @@ class TaxBracket(Base):
     position: Mapped[int] = mapped_column(Integer)
 
     rule: Mapped[DomesticTaxRule] = relationship(back_populates="brackets")
+
+
+class HoldingRegime(Base):
+    __tablename__ = "holding_regime"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_holding_regime",
+        ),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    participation_exemption_dividends: Mapped[bool] = mapped_column(Boolean, default=False)
+    participation_exemption_capgains: Mapped[bool] = mapped_column(Boolean, default=False)
+    min_holding_pct: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    min_holding_period_months: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    subject_to_tax_condition: Mapped[bool] = mapped_column(Boolean, default=False)
+    notes: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)

@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
 from app.modules.core.reference import IncomeCategory, TaxType
-from app.modules.tax.models import DomesticTaxRule
+from app.modules.tax.models import DomesticTaxRule, HoldingRegime
 
 
 class TaxRuleRepository:
@@ -47,3 +47,19 @@ def resolve_bracket_rate(rule: DomesticTaxRule, amount: Decimal) -> Decimal:
         if amount >= bracket.lower_bound and upper_ok:
             return bracket.rate
     raise ValueError(f"no bracket covers amount {amount}")
+
+
+class HoldingRegimeRepository:
+    def __init__(self, session: Session) -> None:
+        self.session = session
+
+    def get(self, jurisdiction_code: str, on_date: date) -> HoldingRegime | None:
+        stmt = (
+            select(HoldingRegime)
+            .join(Jurisdiction, HoldingRegime.jurisdiction_id == Jurisdiction.id)
+            .where(
+                Jurisdiction.code == jurisdiction_code,
+                HoldingRegime.valid_period.contains(on_date),
+            )
+        )
+        return self.session.scalar(stmt)
