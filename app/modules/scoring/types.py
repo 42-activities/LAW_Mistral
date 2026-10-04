@@ -42,6 +42,25 @@ class ScoringProfile:
     def counterparties(self) -> tuple[str, ...]:
         return tuple(sorted({f.source for f in self.flows} | {self.parent}))
 
+    @classmethod
+    def from_json(cls, data: dict[str, Any]) -> "ScoringProfile":
+        return cls(
+            parent=data["parent"],
+            flows=tuple(
+                ProfileFlow(
+                    f["income_category"],
+                    f["source"],
+                    None if f.get("annual_amount") is None else Decimal(f["annual_amount"]),
+                )
+                for f in data["flows"]
+            ),
+            holding_pct=Decimal(data.get("holding_pct", "100")),
+            holding_months=int(data.get("holding_months", 24)),
+            substance_capacity=data.get("substance_capacity", "medium"),
+            activity=data.get("activity"),
+            size=data.get("size"),
+        )
+
     def to_json(self) -> dict[str, Any]:
         return {
             "parent": self.parent,

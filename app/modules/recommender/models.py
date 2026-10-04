@@ -64,3 +64,20 @@ class Scorecard(Base):
     flow_breakdown: Mapped[list[Any]] = mapped_column(JSONB)
     guardrail_flags: Mapped[list[Any]] = mapped_column(JSONB)
     citations: Mapped[list[Any]] = mapped_column(JSONB)
+
+
+class QuestionDefinition(Base):
+    """System-owned onboarding question (spec §6). Options are config, never user free text."""
+
+    __tablename__ = "question_definition"
+    __table_args__ = {"schema": "recommender"}
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    code: Mapped[str] = mapped_column(String(48), unique=True)
+    text: Mapped[str] = mapped_column(String(300))
+    help: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    kind: Mapped[str] = mapped_column(String(16))
+    options: Mapped[list[Any]] = mapped_column(JSONB)
+    maps_to: Mapped[str] = mapped_column(String(64))
+    position: Mapped[int] = mapped_column(Integer)
+    active: Mapped[bool] = mapped_column(Boolean, default=True)

@@ -1,0 +1,113 @@
+from datetime import date
+from typing import Any
+
+from fastapi import APIRouter, Depends, HTTPException
+from pydantic import BaseModel
+from sqlalchemy.orm import Session
+
+from app.db import get_session
+from app.deps import require_api_key
+from app.errors import NotFoundError
+from app.modules.browse.overview import BrowseService
+from app.modules.core.repository import JurisdictionRepository
+from app.modules.recommender.builder import InvalidAnswers, build_profile, questions
+from app.modules.recommender.models import Profile
+
+router = APIRouter(prefix="/v1", tags=["product"])
+
+
+@router.get("/onboarding/questions")
+def onboarding_questions(
+    _org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    return {
+        "questions": [
+            {
+                "code": q.code,
+                "text": q.text,
+                "help": q.help,
+                "kind": q.kind,
+                "maps_to": q.maps_to,
+                "options": q.options,
+            }
+            for q in questions(session)
+        ],
+        "jurisdictions": [
+            {"code": j.code, "name": j.name} for j in JurisdictionRepository(session).list()
+        ],
+    }
+
+
+class ProfileIn(BaseModel):
+    answers: dict[str, Any]
+
+
+def _profile_out(p: Profile) -> dict[str, Any]:
+    return {"id": p.id, "answers": p.answers, "derived": p.derived}
+
+
+@router.post("/profiles", status_code=201)
+def create_profile(
+    body: ProfileIn,
+    org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    try:
+        answers, profile = build_profile(session, body.answers)
+    except InvalidAnswers as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    row = Profile(org_id=org_id, answers=answers.to_json(), derived=profile.to_json())
+    session.add(row)
+    session.commit()
+    return _profile_out(row)
+
+
+def load_profile(session: Session, org_id: int, profile_id: int) -> Profile:
+    row = session.get(Profile, profile_id)
+    if row is None or row.org_id != org_id:
+        raise NotFoundError("profile not found")
+    return row
+
+
+@router.get("/profiles/{profile_id}")
+def get_profile(
+    profile_id: int,
+    org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    return _profile_out(load_profile(session, org_id, profile_id))
+
+
+@router.get("/browse/jurisdictions/{code}")
+def browse_jurisdiction(
+    code: str,
+    on_date: date | None = None,
+    _org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    data = BrowseService(session).jurisdiction(code.upper(), on_date or date.today())
+    if data is None:
+        raise NotFoundError(f"jurisdiction {code} not found")
+    return data
+
+
+@router.get("/lists")
+def lists(
+    on_date: date | None = None,
+    _org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> list[dict[str, Any]]:
+    return BrowseService(session).lists(on_date or date.today())
+
+
+@router.get("/evidence/{evidence_id}")
+def evidence(
+    evidence_id: int,
+    _org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    data = BrowseService(session).evidence(evidence_id)
+    if data is None:
+        raise NotFoundError("evidence not found")
+    return data
