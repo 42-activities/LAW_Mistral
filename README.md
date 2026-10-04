@@ -40,5 +40,8 @@ All endpoints take an `X-API-Key` header. Rates are percentages; every result li
   amount withheld at payment and final rate for one payment.
 - `GET /v1/analyze/jurisdiction-risk?jurisdiction=AE&on_date=2024-06-30` — list memberships.
 - `POST /v1/analyze/flow` — tax leakage per 100 of income along source → holding → parent.
+- `POST /v1/analyze/holding-recommendation` — ranked ScoreCards (tax efficiency, compliance,
+  treaty breadth, substance burden) for a profile; guardrails cap FATF-black and
+  counterparty-ETNC jurisdictions; every run is stored in `recommender.scoring_run`.
 
 Seed the France–UAE golden data with `docker compose exec app python -m app.cli seed-france-uae`.

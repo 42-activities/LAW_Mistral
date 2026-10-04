@@ -84,3 +84,53 @@ class HoldingRegime(Base):
     notes: Mapped[str | None] = mapped_column(String(500), nullable=True)
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class CfcRule(Base):
+    """Controlled-foreign-company rule applied by `jurisdiction` (the parent state)."""
+
+    __tablename__ = "cfc_rule"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_cfc_rule",
+        ),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    control_threshold_pct: Mapped[Decimal] = mapped_column(Numeric(6, 3))
+    # The foreign entity is low-taxed when its tax < this % of the parent-state tax.
+    low_tax_relative_pct: Mapped[Decimal] = mapped_column(Numeric(6, 3))
+    effect: Mapped[str] = mapped_column(String(500))
+    legal_ref: Mapped[str] = mapped_column(String(120))
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class SubstanceRule(Base):
+    __tablename__ = "substance_rule"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("regime", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_substance_rule",
+        ),
+        CheckConstraint(
+            "requirement_band IN ('low', 'medium', 'high')", name="substance_band_enum"
+        ),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    regime: Mapped[str] = mapped_column(String(48))
+    requirement_band: Mapped[str] = mapped_column(String(8))
+    activity_scope: Mapped[str | None] = mapped_column(String(200), nullable=True)
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
