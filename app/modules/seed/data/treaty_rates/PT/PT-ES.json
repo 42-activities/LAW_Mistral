@@ -1,0 +1,67 @@
+{
+ "a": "PT",
+ "b": "ES",
+ "treaty_name": "Convention between the Kingdom of Spain and the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, and Protocol (1993)",
+ "signed": "1993-10-26",
+ "entry_into_force": "1995-06-28",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_portugal.pdf",
+ "eif_quote": "El presente Convenio entró en vigor el 28 de junio de 1995, fecha en la que tuvo lugar en Lisboa el intercambio de los respectivos Instrumentos de Ratificación, según se establece en su artículo 28.",
+ "source_title": "BOE 7-11-1995, Instrumento de Ratificación del Convenio España-Portugal y Protocolo (Spanish authentic text), via hacienda.gob.es; MLI synthesised text (hacienda.gob.es)",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_portugal.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, tales dividendos pueden también someterse a imposición en el Estado contratante en que resida la sociedad que paga los dividendos y según la legislación de ese Estado, pero si el perceptor de los dividendos es su beneficiario efectivo, el impuesto así exigido no podrá exceder del: ... b) 15 por 100 del importe bruto de los dividendos en los demás casos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 10 por 100 del importe bruto de los dividendos si el beneficiario efectivo es una sociedad que posea directamente al menos el 25 por 100 del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, dichos intereses pueden también someterse a imposición en el Estado contratante del que procedan, y de acuerdo con la legislación de ese Estado, pero si el perceptor de los intereses es su beneficiario efectivo el impuesto así exigido no podrá exceder del 15 por 100 del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, dichos cánones pueden también someterse a imposición en el Estado contratante del que procedan y conforme a la legislación de ese Estado, pero si el perceptor de los cánones es su beneficiario efectivo el impuesto así exigido no podrá exceder del 5 por 100 del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-portugal-sp.pdf",
+  "quote": "No obstante las disposiciones [del Convenio], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo, excepto cuando se determine que la concesión del beneficio en esas circunstancias es conforme con el objeto y propósito de las disposiciones pertinentes [del Convenio]."
+ },
+ "notes": "Art. 28(2): withholding taxes apply to taxable events from 1 January of the year following EIF (1995-06-28) -> 1996-01-01; Protocol 5: Art. 11 (interest) applies from 1 January 1993 ('las disposiciones del artículo 11 se aplicarán a partir de 1 de enero de 1993'). 365-day holding via MLI Art. 8(1) applied to Art. 10(2)(a) from 2023-01-01 (Spanish synthesised text: 'El siguiente apartado 1 del artículo 8 del MLI se aplica a la letra a) del apartado 2 del artículo 10'; MLI effective for WHT 1 Jan 2023 in both States per Art. 35(1) and 35(7)(a), ES notification 1 June 2022); before 2023 no holding period. Protocol 3 (anti-abuse / LOB not modelled): treaty reductions and exemptions for dividends, interest, royalties and capital gains do not apply where the recipient company is more than 50% owned, directly or indirectly, by non-residents of its residence State, unless it carries on substantive industrial or commercial activities there other than mere management of securities or other assets. Protocol 4: domestic thin-cap rules preserved. EU Directives may give lower rates (not treaty tiers). Portuguese text on Portal das Finanças is a scanned PDF; Spanish authentic text used.",
+ "confidence": "high",
+ "unverified": []
+}

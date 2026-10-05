@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "RO",
+ "treaty_name": "Convention between the Kingdom of Spain and Romania for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2017)",
+ "signed": "2017-10-18",
+ "entry_into_force": "2021-01-14",
+ "eif_source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-15493",
+ "eif_quote": "El presente Convenio entrará en vigor el 14 de enero de 2021, transcurrido un plazo de tres meses a partir de la fecha de recepción de la última de las notificaciones de las Partes informando del cumplimiento de sus requisitos internos, según se establece en su artículo 27.",
+ "source_title": "BOE-A-2020-15493 (BOE 3-12-2020) Convenio España-Rumanía 2017 y Protocolo; Texto sintético MLI (Ministerio de Hacienda)",
+ "source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-15493",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. No obstante lo dispuesto en el apartado 2, el Estado contratante del que sea residente la sociedad que paga los dividendos considerará exentos los dividendos pagados cuando su beneficiario efectivo sea: a) una sociedad residente del otro Estado contratante que posea directa o indirectamente y durante más de un año, al menos el 10 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, los dividendos pagados por una sociedad residente de un Estado contratante pueden someterse también a imposición en ese Estado según su legislación, pero si el beneficiario efectivo de los dividendos es un residente del otro Estado contratante, el impuesto así exigido no excederá del 5 por ciento del importe bruto de los dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, los intereses procedentes de un Estado contratante pueden someterse también a imposición en ese Estado según su legislación, pero si el beneficiario efectivo de los intereses es un residente del otro Estado contratante, el impuesto así exigido no excederá del 3 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, los cánones procedentes de un Estado contratante pueden someterse también a imposición en ese Estado según su legislación, pero si el beneficiario efectivo de los cánones es un residente del otro Estado contratante, el impuesto así exigido no excederá del 3 por ciento del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty Protocol point I(c)",
+  "source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-15493",
+  "quote": "c) No obstante las restantes disposiciones de este Convenio, los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo, excepto cuando se determine que la concesión del beneficio en esas circunstancias es conforme con el objeto y el propósito de las disposiciones pertinentes de este Convenio."
+ },
+ "notes": "New 2017 convention replaced the 1979 convention (Art. 27(3)). Art. 27(2): takes effect for income obtained from 1 January of the calendar year following EIF (2021-01-14) -> 2022-01-01. Treaty itself contains a PPT (Protocol I(c)) effective with the treaty; MLI also covers the pair with WHT effect 2024-01-01 per the Hacienda synthesised text, which shows no separate MLI art. 7 or art. 8 box (so PPT 'from' given as treaty effective date). Dividend exemption requires holding 'durante más de un año' (>1 year, modelled as 365 days). Dividends to a pension plan resident in the other State are exempt (Art. 10(3)(b)) - not modelled. Interest exempt (Art. 11(3)) when paid to the other State, political subdivisions, their bodies/banks/institutions, or on credits guaranteed/insured/financed by a State-owned financial institution; Protocol II: where domestic law exempts the interest, the Art. 11(2) rate is reduced to zero - not modelled. Royalty definition includes software and films. English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

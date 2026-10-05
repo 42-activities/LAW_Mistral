@@ -1,0 +1,67 @@
+{
+ "a": "BH",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Kingdom of Bahrain and the Government of the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2005)",
+ "signed": "2005-11-14",
+ "entry_into_force": "2007-09-02",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "68) Bahreyn 14.11.2005 21.08.2007 - 26620 02.09.2007 01.01.2008",
+ "source_title": "Resmî Gazete 21.08.2007 No. 26620, BKK 2007/12487 (Turkish text of TR-BH Agreement)",
+ "source_url": "https://www.resmigazete.gov.tr/eskiler/2007/08/20070821-1.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Gerçek lehdar, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az % 25’ini elinde tutan bir şirket (ortaklık hariç) ise gayrisafi temettü tutarının % 10’u;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temüttü tutarının % 15’i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faizin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber, sözkonusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının % 10’ unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not applicable",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+  "quote": "Türkiye signed the MLI but has not ratified it (treaty-map), so no MLI PPT; the Agreement text contains no principal purpose clause."
+ },
+ "notes": "valid_from per Art. 28: effective for taxable periods beginning on or after 1 January of the year following entry into force (EIF 2007-09-02) -> 2008-01-01 (GİB list 'yürürlük 01.01.2008'). Dividend 10% tier requires a company (other than a partnership) holding directly at least 25% of capital; no holding period. Art. 10(4) allows Turkish-style branch profits tax on remaining PE profits (not modelled). No separate government-interest exemption found. Quotes are from the official Turkish text; the English text on mofne.gov.bh (ci78-turkey.pdf) is a scan whose Articles 10-12 pages have no text layer. Mofne English pages for Art. 11(1) confirm 'Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State.'",
+ "confidence": "high",
+ "unverified": []
+}

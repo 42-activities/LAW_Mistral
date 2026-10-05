@@ -1,0 +1,70 @@
+{
+ "a": "IT",
+ "b": "DK",
+ "treaty_name": "Convention between the Government of the Kingdom of Denmark and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1999)",
+ "signed": "1999-05-05",
+ "entry_into_force": "2003-01-27",
+ "eif_source_url": "https://www.retsinformation.dk/eli/ltc/2003/8",
+ "eif_quote": "Overenskomsten trådte i medfør af artikel 31 i kraft den 27. januar 2003.",
+ "source_title": "BKI nr 8 af 12/02/2003 (Danish authentic text of the 1999 Convention and Protocol, Retsinformation)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/2003/8",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 pct. af bruttobeløbet af udbyttet, hvis den retmæssige ejer er et selskab (bortset fra et interessentskab), der direkte ejer og har ejet mindst 25 pct. af kapitalen i det selskab, som udbetaler udbyttet, i en 12-måneders periode forud for den dato, udbyttet er fastsat;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pct. af bruttobeløbet af udbyttet i alle andre tilfælde."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sådan rente kan imidlertid også beskattes i den kontraherende stat, hvorfra den hidrører og i overensstemmelse med lovgivningen i denne stat, men hvis den retmæssige ejer af renten er hjemmehørende i den anden kontraherende stat, må den således pålagte skat ikke overstige 10 pct. af bruttobeløbet af renten."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sådanne royalties kan imidlertid også beskattes i den kontraherende stat, hvorfra de hidrører og i overensstemmelse med lovgivningen i denne stat, men hvis den retmæssige ejer af royaltybeløbet er hjemmehørende i den anden kontraherende stat, må den således pålagte skat ikke overstige 5 pct. af bruttobeløbet af royaltybeløbet."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; treaty has no PPT/LOB article)",
+  "source_url": "https://www.retsinformation.dk/eli/ltc/2003/8",
+  "quote": ""
+ },
+ "notes": "Art. 10(2)(a) 0% tier: beneficial owner must be a company (other than a partnership) directly holding >=25% of capital for a 12-month period before the dividend is declared. Protocol para 4: Art. 10(2)(a) does not prevent more favourable treatment under the EU Parent-Subsidiary Directive 90/435/EEC. Interest taxable only in residence State (Art. 11(3)-(4)) on credit sales of equipment or goods between enterprises, when paid by the State/subdivisions/local authorities, or on loans made, guaranteed or insured by the other Government, its central bank or government-owned agencies. Royalties: copyright of literary, artistic or scientific work (excluding software, films and other sound/image recordings) taxable only in residence State (Art. 12(3)). Art. 31(2)(b): provisions effective for taxable periods beginning on or after 1 January following the year of EIF (2003 -> 2004-01-01); SKAT history table also shows 'Virkning 01.01.2004'. Texts in Danish, Italian and English; English prevails in case of doubt (English not read). MLI not applicable (Italy not a Party).",
+ "confidence": "high",
+ "unverified": [
+  "English (prevailing) text not read; Danish authentic text used",
+  "Retsinformation XML metadata for Lov nr. 166/2000 shows an EndDate 2026-06-24 although the document is marked Valid/non-historical; no replacing DK-IT treaty or protocol found in SKAT's history table (Den juridiske vejledning 2026-2)"
+ ]
+}

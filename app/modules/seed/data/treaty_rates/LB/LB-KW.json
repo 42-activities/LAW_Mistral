@@ -1,0 +1,59 @@
+{
+ "a": "LB",
+ "b": "KW",
+ "treaty_name": "Agreement between the Lebanese Republic and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001)",
+ "signed": "2001-01-21",
+ "entry_into_force": "2002-03-20",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC",
+ "eif_quote": "Kuwait | January 21, 2001 | April 3, 2001 | March 20, 2002 | Law N. 293 In O.G N.19 of April 19, 2001 (Lebanon MoF matrix: Signed | Ratified | Enforced, via treaty map)",
+ "source_title": "Lebanon MoF: Lebanon-Kuwait DTA, Arabic text (scanned)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Kuwait%20ar.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١- أرباح الأسهم التي تدفعها شركة مقيمة في دولة متعاقدة إلى مقيم في الدولة المتعاقدة الأخرى والذي هو المالك المستفيد لأرباح الأسهم هذه ، تكون قابلة للخضوع للضريبة فقط في تلك الدولة المتعاقدة الأخرى ."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١- الفائدة التي تنشأ في دولة متعاقدة وتُدفع الى مقيم في الدولة المتعاقدة الأخرى والذي هو المالك المستفيد لهذه الفائدة ، تكون قابلة للخضوع للضريبة فقط في تلك الدولة المتعاقدة الأخرى ."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- ومع ذلك ، يجوز أن تخضع أيضاً تلك الأتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها ووفقاً لقانون تلك الدولة المتعاقدة ، ولكن إذا كان المالك المستفيد من الأتاوات مقيماً في تلك الدولة المتعاقدة فإن الضريبة المفروضة يجب ألا تزيد عن 5% (خمسة بالمائة) من القيمة الإجمالية للأتاوات ."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Lebanon not an MLI signatory; Kuwait has not ratified the MLI; only article-level anti-abuse clause Art. 11(6))",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Kuwait%20ar.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 30(a): WHT applies to amounts paid or credited on or after 1 January of the year following EIF (2002-03-20) -> 2003-01-01. Dividends and interest: residence-only for the beneficial owner; royalties capped at 5%. The Arabic Art. 12(2) literally reads 'if the beneficial owner ... is a resident in that Contracting State' (apparently meaning the other State) - reproduced as written. Art. 11(6): interest article does not apply where the main purpose of creating/assigning the debt-claim was to take advantage of it. Art. 31: initial term of five years, continuing for similar periods unless terminated. Kuwait MoF site unreachable per treaty map; text read from the Lebanese MoF scan.",
+ "confidence": "medium",
+ "unverified": [
+  "Arabic quotes transcribed by reading the scanned image.",
+  "Kuwait-side official text not consulted."
+ ]
+}

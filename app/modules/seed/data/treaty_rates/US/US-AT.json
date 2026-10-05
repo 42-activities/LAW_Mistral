@@ -1,0 +1,69 @@
+{
+ "a": "US",
+ "b": "AT",
+ "treaty_name": "Convention between the United States of America and the Republic of Austria for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1996)",
+ "signed": "1996-05-31",
+ "entry_into_force": "1998-02-01",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+ "eif_quote": "USA / USA Unterzeichnung / Date of Signature | 31.5.1996 | Inkrafttreten / Entry into Force | 1.2.1998 | Anwendbar ab / Effective From | 1998/2000",
+ "source_title": "US-Austria Income Tax Convention signed at Vienna 31 May 1996 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/austria.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-04-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1998-04-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 16, not a PPT)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/austria.pdf",
+  "quote": ""
+ },
+ "notes": "valid_from per Art. 28(2): WHT provisions have effect for amounts paid or credited on or after the first day of the second month next following EIF (EIF 1998-02-01 -> 1998-04-01). Not modelled: Art. 12(2) royalties for cinematograph films / films or tapes for radio or TV broadcasting may be taxed at source up to 10%; Art. 10(2) RIC dividends always 15% tier, REIT dividends excluded from 5% and 15% only for individuals holding <10% of the REIT; Art. 10(6)-(7) US branch profits tax capped at 5%; Art. 11(5) excess inclusions on REMIC residual interests and non-portfolio contingent interest taxable under domestic law. Treaty contains a limitation-on-benefits article (Art. 16), not a principal-purpose test. Art. 28(3) 1956 Convention election for first year (historical).",
+ "confidence": "high",
+ "unverified": [
+  "Exact first WHT date 1998-04-01 computed from Art. 28(2) and EIF 1998-02-01 (BMF list); BMF 'Anwendbar ab 1998/2000' not separately reconciled"
+ ]
+}

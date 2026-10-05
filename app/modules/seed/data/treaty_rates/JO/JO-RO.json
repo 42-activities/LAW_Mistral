@@ -1,0 +1,59 @@
+{
+ "a": "JO",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of the Socialist Republic of Romania and the Government of the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1983)",
+ "signed": "1983-10-10",
+ "entry_into_force": "1984-08-02",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "39. Iordania | 215/26.06.1984 | 51/1984 | 01.01.1985",
+ "source_title": "Text sintetizat al Convenției multilaterale și al Convenției România-Iordania (ANAF, Romanian text)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Iordania.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi, aceste dividende pot fi impuse în statul contractant în care este rezidentă societatea plătitoare de dividende, potrivit legislaţiei acestui stat, dar impozitul astfel stabilit nu poate depăşi 15 la sută din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi, aceste dobânzi pot fi impuse în statul contractant din care provin şi în conformitate cu legislaţia acelui stat, dar impozitul astfel stabilit nu poate depăşi 12,5 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi, aceste redevenţe pot fi impuse în statul contractant din care provin, în conformitate cu legislaţia acelui stat, dar impozitul astfel stabilit nu poate depăşi 15 la sută din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Iordania.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu, cu excepția cazului în care se stabilește că acordarea acelui beneficiu în aceste circumstanţe este conformă cu obiectul şi scopul prevederilor relevante din convenție. [Efecte: impozitele reținute la sursă ... atunci când evenimentul care a dat naștere unor astfel de impozite are loc la sau după 1 ianuarie 2024]"
+ },
+ "notes": "Flat caps, no participation tier. Article 12 'Comisioane' (commissions to brokers/general commission agents) capped at 15% - not modelled. Valid_from per Art. 31(2): income of any taxable year beginning 1 January of the calendar year following EIF (ANAF list: applicable from 01.01.1985). EIF date 1984-08-02 from the merged treaty map (Art. 31(1): 30th day after exchange of notes); ANAF list gives the Decree 215/26.06.1984 and Buletinul Oficial 51/1984 only. MLI effect for WHT: 1 January 2024 (Romania's Art. 35(7)(b) notification received 6 March 2023, per ANAF synthesised text). MLI Art. 8 not applicable (no participation tier; Jordan did not notify this treaty under Art. 8(4)).",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF day 1984-08-02 not re-verified from a primary source",
+  "English/Arabic authentic texts not compared (Romanian text from ANAF)"
+ ]
+}

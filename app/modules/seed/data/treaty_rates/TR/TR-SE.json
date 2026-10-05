@@ -1,0 +1,67 @@
+{
+ "a": "TR",
+ "b": "SE",
+ "treaty_name": "Agreement between the Republic of Turkey and the Kingdom of Sweden for the Avoidance of Double Taxation with respect to Taxes on Income, with Protocol (1988)",
+ "signed": "1988-01-21",
+ "entry_into_force": "1990-11-18",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "14) İsveç 21.01.1988 30.09.1990 - 20651 18.11.1990 01.01.1991",
+ "source_title": "Türkiye-İsveç Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FISVEC.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Temettü elde eden, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25'ini elinde tutan bir şirket ise (ortaklıklar hariç), gayri safi temettü tutarının yüzde 15'i;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1991-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 20'si."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak kendisine ödemede bulunulan kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi faizin gayrisafi tutarının yüzde 15'ini aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak kendisine ödemede bulunulan kişi gayrimaddi hak bedelinin gerçek lehdarı ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but has not ratified the MLI; no principal-purpose clause for WHT articles)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FISVEC.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 28(2): EIF 30 days after the last notification; applies in Türkiye to taxation periods beginning on/after 1 January of the year following EIF and in Sweden to income derived on/after 1 January following EIF -> 1991-01-01. Interest exempt at source (Art. 11(3)) when paid to the other Government or Central Bank (Türkiye Cumhuriyet Merkez Bankası / Sveriges Riksbank). Relief article contains tax-sparing credits (deemed 15%/20% dividends, 15% interest, 10% royalties) - not WHT limits. Protocol para. 2 (ad Art. 7) has a limited force-of-attraction rule with a purpose test; Protocol para. 3: 'beneficial owner' interpreted to deny benefits to third-country residents (not a PPT). Text read from GİB Turkish scan (OCR).",
+ "confidence": "high",
+ "unverified": []
+}

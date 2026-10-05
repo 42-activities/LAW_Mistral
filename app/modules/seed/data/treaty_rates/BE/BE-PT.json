@@ -1,0 +1,58 @@
+{
+ "a": "BE",
+ "b": "PT",
+ "treaty_name": "Convention between Belgium and Portugal for the avoidance of double taxation and the settlement of certain other questions with respect to taxes on income, with Final Protocol (1969, as amended by Additional Convention 1995)",
+ "signed": "1969-07-16",
+ "entry_into_force": "1971-02-19",
+ "eif_source_url": "https://www.ministeriopublico.pt/instrumento/convencao-entre-portugal-e-belgica-para-evitar-dupla-tributacao-e-regular-algumas",
+ "eif_quote": "A Convenção entrará em vigor no décimo quinto dia seguinte ao da troca dos instrumentos de ratificação (Art. 29(2)); PGR record: 'Vigência 04-02-1971 ... Aviso de 17/02/1971 - torna público terem sido trocado os instrumentos de ratificação da Convenção'",
+ "source_title": "Decreto-Lei n.º 619/70 (Diário do Governo I Série n.º 289, 1.º Supl., 15/12/1970), Portuguese text via PGR/GDDC; Additional Convention 1995: Moniteur belge 05.04.2001, Loi du 10 août 1998 (numac 1999015213)",
+ "source_url": "https://dcjri.ministeriopublico.pt//sites/default/files/documentos/instrumentos/dl619-1970.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1972-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser tributados no Estado Contratante de que é residente a sociedade que atribui os dividendos e de acordo com a legislação desse Estado, mas o imposto assim estabelecido não excederá 15 por cento do montante bruto de tais dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1972-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas o imposto assim estabelecido não excederá 15 por cento do montante dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (as replaced by Art. VI of the 1995 Additional Convention)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "§ 2. Toutefois, ces redevances peuvent être imposées dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 10 p.c. de leur montant brut."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends/interest: original 1969 Art. 10(2)/11(2) (15%) unchanged by the 1995 Additional Convention (which replaced only Art. 10(3)-(4), 11(4) and 12(2),(4)); effective for withholding from 1 Jan of the year following EIF (Art. 29(2)) -> 1972-01-01. Royalties: original 5% cap replaced by 10% by Art. VI of the Additional Convention (signed 6 Mar 1995, EIF 5 Apr 2001 per MB: 'L'échange des instruments de ratification a eu lieu le 21 mars 2001. Conformément aux dispositions de son article XV, cette Convention est entrée en vigueur le 5 avril 2001'); applies to withholding taxes whose taxable event occurs from 1 Jan of the year following its EIF -> 2002-01-01. Final Protocol (as amended) para. 3: royalties include technical assistance ancillary to the licensed rights where performed in the source State. Art. 11(3): trade-credit interest and inter-bank current-account interest excluded from Art. 11 (Art. 7 applies) - not modelled. Treaty has no participation-based dividend tier. MLI: both list the treaty; WHT effect 2021-01-01 (treaty map). MLI Art. 8 not relevant (no holding-threshold tier; Portugal Art. 8 reservation). EIF: Portuguese PGR record gives 'Vigência 04-02-1971' which appears to be the exchange of instruments date (Aviso 17/02/1971); 15th day after -> 19 Feb 1971, consistent with Belgium's MLI list (19-02-1971). Portuguese 1969 text quoted from the PGR (Procuradoria-Geral da República) transcription of the Diário do Governo, not the DG image.",
+ "confidence": "high",
+ "unverified": [
+  "Exchange-of-instruments date 4 Feb 1971 inferred from PGR 'Vigência 04-02-1971' entry; EIF 19 Feb 1971 taken from treaty map/Belgian MLI list"
+ ]
+}

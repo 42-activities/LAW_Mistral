@@ -1,0 +1,56 @@
+{
+ "a": "BE",
+ "b": "IT",
+ "treaty_name": "Convention between Belgium and Italy for the avoidance of double taxation and the prevention of tax fraud and fiscal evasion with respect to taxes on income, with Final Protocol (1983, as amended by Additional Protocols 1984 and 2004)",
+ "signed": "1983-04-29",
+ "entry_into_force": "1989-07-29",
+ "eif_source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/bel-en.pdf",
+ "eif_quote": "Ratified in Italy with Law 03/04/1989, n. 148 (G.U. 27/04/1989 n. 97, S.O. n. 31). Exchange of ratification instruments: 14/07/1989. Entry into force: 29/07/1989 (G.U. 07/08/1989, n. 183).",
+ "source_title": "Legge 3 aprile 1989 n. 148, G.U. S.O. n. 31 del 27/04/1989 (Italian authentic text, scan published by MEF Dipartimento Finanze); MEF English translation; Moniteur belge 18.06.2013 (2nd Additional Protocol, numac 2013015140)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/BELGIO_1983-1PROT.1984-Testo_G.U._ita.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali dividendi sono imponibili anche nello Stato contraente di cui la società che paga i dividendi è residente ed in conformità alla legislazione di detto Stato, ma, se il beneficiario effettivo dei dividendi è un residente dell'altro Stato contraente, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare lordo dei dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali interessi sono imponibili anche nello Stato contraente dal quale essi provengono ed in conformità alla legislazione di detto Stato, ma se l'effettivo beneficiario degli interessi è residente dell'altro Stato contraente, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare lordo degli interessi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali canoni sono imponibili anche nello Stato contraente dal quale essi provengono ed in conformità alla legislazione di detto Stato, ma, se l'effettivo beneficiario dei canoni è residente dell'altro Stato contraente, l'imposta così applicata non può eccedere il 5 per cento dell'ammontare lordo dei canoni."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; no PPT in treaty)",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/bel-en.pdf",
+  "quote": ""
+ },
+ "notes": "Effective date: Art. 30(2)(a) - taxes withheld at source on income credited or payable on or after 1 Jan of the year following the exchange of instruments (14 Jul 1989) -> 1990-01-01. Art. 11(3): interest exempt at source on non-bearer loans paid to the other State/its subdivisions/local authorities, and interest paid to credit institutions of the other State on non-bearer loans granted under an inter-governmental agreement - not modelled. 1984 Additional Protocol amended only Final Protocol para. 3 (Art. 19 public bodies); 2004 Second Additional Protocol (EIF 17 Apr 2013, MB 18.06.2013) amended only Art. 19(1)(b). No dividend participation tier. Italy is not an MLI Party (treaty map), and the treaty contains no PPT/LOB. Italian GU text is an image scan (no text layer); quotes transcribed from the rendered scan pages 80-83 of S.O. n. 31 and cross-checked against the MEF English translation (unofficial; Dutch, French and Italian texts authentic).",
+ "confidence": "high",
+ "unverified": []
+}

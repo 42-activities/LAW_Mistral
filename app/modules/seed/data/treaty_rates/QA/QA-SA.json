@@ -1,0 +1,59 @@
+{
+ "a": "QA",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation with respect to taxes on income and for the prevention of tax evasion and avoidance (2024)",
+ "signed": "2024-05-30",
+ "entry_into_force": "2025-01-01",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "\"date\": \"1-يناير-2025\" ... \"description\": \"اتفاقية بين حكومة دولة قطر وحكومة المملكة العربية السعودية بشأن تجنب الازدواج الضريبي فيما يتعلق بالضرائب على الدخل ولمنع التهرب والتجنب الضريبي\"}, \"signature_date\": \"30-مايو-2024\"",
+ "source_title": "GTA Qatar – DTA KSA (AR) 2026, official Arabic text (scanned; sole authentic language)",
+ "source_url": "https://gta.gov.qa/assets/pdf/DTA%20KSA%20(AR)2026.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2- ومع ذلك، يجوز أيضاً أن تخضع الأرباح المدفوعة من قبل شركة مقيمة في دولة متعاقدة للضريبة في تلك الدولة ووفقاً لأنظمة تلك الدولة. ولكن إذا كان المالك المنتفع بأرباح الأسهم مقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تتجاوز (5) في المائة من إجمالي قيمة أرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1- يخضع الدخل من مطالبات الدين الناشئ في دولة متعاقدة ومالكه المنتفع مقيم في الدولة المتعاقدة الأخرى للضريبة في تلك الدولة الأخرى فقط."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2- ومع ذلك، يجوز أن تخضع الإتاوات الناشئة في دولة متعاقدة أيضاً للضريبة في تلك الدولة وفقاً لأنظمة تلك الدولة، لكن إذا كان المالك المنتفع من الإتاوات مقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تزيد على (8) في المائة من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 29",
+  "source_url": "https://gta.gov.qa/assets/pdf/DTA%20KSA%20(AR)2026.pdf",
+  "quote": "على الرغم من الأحكام الأخرى لهذه الاتفاقية، لن يتم منح ميزة بموجب هذه الاتفاقية في شأن بند من بنود الدخل إذا كان من المعقول الاستنتاج - بعد النظر في جميع الحقائق والظروف ذات الصلة - أن الحصول على هذه الميزة كان أحد الأغراض الرئيسة للترتيب أو المعاملة التي نتجت عنها تلك الميزة بشكل مباشر أو غير مباشر، ما لم يكن ثابتاً أن منح تلك الميزة في هذه الظروف سيكون متوافقاً مع الهدف والغرض من الأحكام ذات الصلة في هذه الاتفاقية."
+ },
+ "notes": "Art. 30(1): enters into force on the first day of the second month following the month of the last notification; Art. 30(2)(a): WHT provisions apply to amounts paid on or after 1 January following the date of entry into force => 2026-01-01 for an EIF of 2025-01-01 (and equally for any 2025 EIF date). Art. 10(6): branch profits tax on a PE's profits may be levied but not above 5% — not modelled. Text is Arabic only (two originals in Arabic); quotes transcribed from scanned images. Not covered by the MLI. CONFLICT/DATA GAP: GTA feed gives 1-Jan-2025 as the agreement date (treated as EIF), while secondary reports say the Amiri ratification decree was issued 15 Jan 2025, which sits oddly with a 1 Jan 2025 EIF; ZATCA list not reachable (JS-loaded) to confirm.",
+ "confidence": "medium",
+ "unverified": [
+  "Entry-into-force date 2025-01-01 (GTA feed only; not confirmed by ZATCA or Umm Al-Qura)",
+  "Arabic quotes transcribed from scanned PDF"
+ ]
+}

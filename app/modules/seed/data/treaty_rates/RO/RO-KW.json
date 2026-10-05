@@ -1,0 +1,58 @@
+{
+ "a": "RO",
+ "b": "KW",
+ "treaty_name": "Agreement between Romania and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital (1992)",
+ "signed": "1992-07-25",
+ "entry_into_force": "1994-10-05",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "ANAF list: Kuwait | 5/08.03.1993 | 57/1993 | 01.01.1992; EIF 05-10-1994 per Romania's MLI position (treaty map)",
+ "source_title": "Legea nr. 5/1993 – Acordul România–Kuwait (ANAF text)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Kuwait.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1992-01-01",
+   "max_rate": "1",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este din beneficiarul efectiv al dividendelor, impozitul astfel stabilit nu va depăşi 1% (unu la sută) din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1992-01-01",
+   "max_rate": "1",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 1% (unu la sută) din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 20% (douăzeci la sută) din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "No MLI coverage (Kuwait signed but not ratified the MLI); no PPT in treaty",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 30(2): retroactive effect — WHT on income due/payable on or after 1 January of the calendar year in which the agreement was signed (1992). Dividends/interest exempt (taxable only in residence State) when beneficial owner is the other State's government/institutions (Art. 4(2)(b),(c)) or a company ≥51% (dividends) / ≥25% (interest) government-owned with remaining capital held by resident nationals. Royalty definition excludes equipment rental and know-how. Signature date per treaty text: 25 July 1992 (treaty map has 1992-07-26). Kuwait MLI position reportedly gives EIF 1/1/1995 vs RO 05-10-1994 (map conflict, unresolved).",
+ "confidence": "medium",
+ "unverified": [
+  "entry_into_force 1994-10-05 (RO MLI position; Kuwait MLI position conflict)"
+ ]
+}

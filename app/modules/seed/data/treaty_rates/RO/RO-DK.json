@@ -1,0 +1,67 @@
+{
+ "a": "RO",
+ "b": "DK",
+ "treaty_name": "Convention between the Socialist Republic of Romania and the Kingdom of Denmark for the avoidance of double taxation with respect to taxes on income and on capital (1976)",
+ "signed": "1976-12-13",
+ "entry_into_force": "1977-12-28",
+ "eif_source_url": "https://info.skat.dk/data.aspx?oid=2083420&vid=221020 ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "DBO | 13.12.1976 | ... | BKI nr. 20 af 23.02.1978 | 28.12.1977 | Virkning 01.01.1978 (skat.dk); ANAF list: Danemarca | 389/27.10.1977 | 118/1977 | 01.01.1974",
+ "source_title": "Decretul nr. 389/1977 – Convenția România–Danemarca (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Danemarca.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as modified by MLI art. 8(1))",
+   "valid_from": "1974-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 10 la sută din suma brută a dividendelor, dacă primitorul este o societate (se exclud societăţile de persoane) care deţine direct cel puţin 25 la sută din capitalul societăţii plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1974-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) în toate celelalte cazuri, 15 la sută din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1974-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar impozitul astfel stabilit nu poate depăşi 10 la sută din suma dobînzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1974-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "însă impozitul astfel stabilit nu poate depăşi 10 la sută din suma redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Danemarca.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital (de avere) atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "MLI Art. 8(1) adds a 365-day holding period (including payment date) to the 10% dividend tier from 1 January 2024; before that the tier had no holding period (valid_from reflects the treaty rate). Art. 31: first application in Romania to taxes paid or withheld from 1 January 1974 (Denmark: income year 1974); skat.dk lists 'Virkning 01.01.1978'. Article 12 = commissions capped at 4%. No beneficial-ownership wording in Arts. 10–13. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": []
+}

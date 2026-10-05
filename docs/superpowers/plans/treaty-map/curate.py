@@ -18,6 +18,10 @@ DROP = {
     ("LU-US", "DIVIDEND", "25", True): "LU-side 0% needs the active-business test — not modelled",
     ("LU-AT", "ROYALTY", None, True): "exempt only below a 50% holding; the 10% tier is the "
     "conservative general rate for group payments",
+    ("PT-IL", "DIVIDEND", "25", False, "IL", "10"): "10% applies only to profits taxed at a "
+    "reduced Israeli rate — not modelled",
+    ("US-BE", "DIVIDEND", "80", True, "US", None): "US-source 0% needs the LOB test and a "
+    "Treasury certification that could not be confirmed",
     ("NL-HK", "DIVIDEND", "10", True): "0% needs a listing, bank or HQ test or competent-authority "
     "approval — not modelled",
 }
@@ -29,6 +33,31 @@ RETIER = {
 }
 
 
+def _cap(r: dict) -> float:
+    return 0.0 if r.get("exclusive") else float(r["max_rate"])
+
+
+def _invert_upper_tiers(rates: list[dict], d: dict) -> list[dict]:
+    """A threshold tier with a HIGHER rate than the general tier (e.g. Austrian treaties:
+    royalties exempt, but 10% if the recipient holds >50%) cannot be expressed — the engine
+    applies the lowest qualifying cap. Keep the higher rate as the general rate (correct for
+    group payments, conservative for small holdings)."""
+    out = list(rates)
+    for r in rates:
+        if r.get("ownership_threshold") in (None, "0") or r.get("max_rate") is None:
+            continue
+        general = [g for g in out if g["category"] == r["category"]
+                   and g.get("ownership_threshold") is None
+                   and g.get("source_state") == r.get("source_state")]
+        if general and all(_cap(r) > _cap(g) for g in general):
+            out = [g for g in out if g not in general and g is not r]
+            out.append({**r, "ownership_threshold": None})
+            d["notes"] = (f"{d.get('notes', '')} [curated: {r['category']} {r['max_rate']}% tier "
+                          f"above {r['ownership_threshold']}% used as the general rate — a higher "
+                          f"rate for larger holdings is not modelled]")
+    return out
+
+
 def curate(src: Path) -> int:
     n = 0
     for p in sorted(src.glob("*/*-*.json")):
@@ -36,12 +65,14 @@ def curate(src: Path) -> int:
         kept = []
         for r in d.get("rates", []):
             key = (p.stem, r["category"], r.get("ownership_threshold"), bool(r.get("exclusive")))
-            if key in DROP:
-                d["notes"] = f"{d.get('notes', '')} [curated: dropped {key[1]} tier — {DROP[key]}]"
+            long_key = (*key, r.get("source_state"), r.get("max_rate"))
+            reason = DROP.get(key) or DROP.get(long_key)
+            if reason:
+                d["notes"] = f"{d.get('notes', '')} [curated: dropped {key[1]} tier — {reason}]"
             else:
                 change = RETIER.get((p.stem, r["category"], r.get("ownership_threshold")))
                 kept.append({**r, **change} if change else r)
-        d["rates"] = kept
+        d["rates"] = _invert_upper_tiers(kept, d)
         out = DEST / p.parent.name / p.name
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -1,0 +1,58 @@
+{
+ "a": "QA",
+ "b": "AT",
+ "treaty_name": "Agreement between the Government of the Republic of Austria and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2010)",
+ "signed": "2010-12-30",
+ "entry_into_force": "2012-03-07",
+ "eif_source_url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2012_III_52/BGBLA_2012_III_52.pdf",
+ "eif_quote": "Die Mitteilungen gemäß Art. 29 Abs. 1 des Abkommens wurden am 26. September 2011 bzw. 6. Februar 2012 abgegeben; das Abkommen tritt gemäß derselben Bestimmung mit 7. März 2012 in Kraft.",
+ "source_title": "BGBl. III Nr. 52/2012 – Abkommen Österreich–Katar samt Protokoll (English text, Anlage)",
+ "source_url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2012_III_52/COO_2026_100_2_734112.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2012_III_52/COO_2026_100_2_734112.pdf",
+  "quote": "No principal purpose test in the 2010 Agreement; treaty not covered by the MLI (neither AT nor QA lists it)."
+ },
+ "notes": "Valid_from per Art. 29(2)(a): WHT on amounts paid or credited on or after 1 January of the year following entry into force (2012) = 2013-01-01; BMF list confirms 'Anwendbar ab 2013'. Dividends: exclusive residence taxation; Protocol para. 1 only commits parties to negotiate a 15% portfolio-dividend rate if Austria revises its GCC treaties — no amending protocol found. Not covered by the MLI (per treaty map).",
+ "confidence": "high",
+ "unverified": [
+  "No amending protocol after 2010 (none in BMF DBA list)"
+ ]
+}

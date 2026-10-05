@@ -1,0 +1,37 @@
+{
+ "a": "IQ",
+ "b": "EG",
+ "treaty_name": "Convention between the United Arab Republic and the Republic of Iraq for the avoidance of double taxation and prevention of tax evasion with regard to income and capital taxes (1968)",
+ "signed": "1968-03-31",
+ "entry_into_force": "1968-12-02",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+ "eif_quote": "EG MLI: 'Iraq  Original  31-Mar1968  02-Dec-1968'",
+ "source_title": "Egyptian Tax Authority: English guiding translation of the UAR-Iraq Convention (from Official Gazette no. 50 of 16/12/1971; Arabic authentic)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/iraq.pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1969-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IQ",
+   "quote": "Interest paid by a resident of Iraq to a resident of the United Arab Republic shall not be subject to tax in Iraq at a rate exceeding 10 % plus the national defence tax."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: Art. 9 allows the source State to tax dividends 'in accordance with the laws of that State' with no treaty cap. Interest: Iraq-source interest capped at 10% PLUS the Iraqi national defence tax (the 10% cap is therefore not an all-in limit; modelled as 10 with source_state IQ); Egypt-source interest (Art. 10(2)) remains subject to Egyptian movable-capital tax, defence tax, national security tax and supplementary taxes without a stated cap (only general income tax waived for individuals) - not modelled. ROYALTIES omitted: Art. 11(1) allows source taxation 'at a rate equal to half that of the applicable tax rate' (relative, not a fixed percentage). Art. 27(2): Iraq - from the first financial year beginning after EIF (EIF 1968-12-02; valid_from 1969-01-01 assumes a calendar financial year - not verified); Egypt - movable-capital tax due on or after EIF. Text read is ETA's English guiding translation; the Arabic text is authentic (Arabic only). Iraq is not an MLI signatory - no PPT; no treaty-level PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "Iraqi financial year start for valid_from",
+  "Arabic authentic text not compared"
+ ]
+}

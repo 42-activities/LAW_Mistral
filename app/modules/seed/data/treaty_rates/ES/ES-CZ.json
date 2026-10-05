@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "CZ",
+ "treaty_name": "Convention between Spain and the Czechoslovak Socialist Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1980; applied with the Czech Republic)",
+ "signed": "1980-05-08",
+ "entry_into_force": "1981-06-05",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_rschecoslovaquia.pdf",
+ "eif_quote": "De conformidad con su artículo 28.2, el presente Convenio entró en vigor el día 5 de junio de 1981, fecha del Canje de los Instrumentos de Ratificación realizado en Praga.",
+ "source_title": "Texto sintético del MLI y del Convenio España-Checoslovaquia (Ministerio de Hacienda) + BOE 14-7-1981",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-republica-checa-sp.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Del 5 por 100 del importe bruto de los dividendos si el beneficiario efectivo fuera una sociedad (excluidas las sociedades de personas) que posea al menos el 25 por 100 del capital de la sociedad que abone los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Del 15 por 100 del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Los intereses procedentes de un Estado Contratante pagados a un residente del otro Estado Contratante sólo podrán someterse a imposición en ese otro Estado."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos cánones podrán someterse a imposición en al Estado Contratante de donde procedan y de conformidad con la legislación de este otro Estado, pero el impuesto así exigido no excederá cuando los cánones sean imponibles en el otro Estado Contratante del cinco por ciento del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-republica-checa-sp.pdf",
+  "quote": "No obstante las disposiciones [del Convenio], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta o de patrimonio cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo... (TS: MLI effective for taxes withheld at source in Spain and the Czech Republic from 1 January 2023)"
+ },
+ "notes": "Art. 28(2): WHT provisions apply to amounts accrued on or after 1 January of the calendar year following EIF (1981-06-05) -> 1982-01-01. Art. 12(3): copyright royalties for literary, dramatic, musical or artistic works (excluding cinematograph films and film/videotape for TV) taxable only in the residence State (0% at source) - not modelled. Interest taxable only in residence State (Art. 11(1)). No MLI art. 8 holding period shown in the synthesised text for the 5% dividend tier.",
+ "confidence": "high",
+ "unverified": []
+}

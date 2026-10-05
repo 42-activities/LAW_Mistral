@@ -1,0 +1,59 @@
+{
+ "a": "QA",
+ "b": "GR",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-10-26",
+ "entry_into_force": "2010-03-20",
+ "eif_source_url": "https://www.gta.gov.qa/en/ajax/agreements-json",
+ "eif_quote": "\"date\": \"20-Mar-2010\" ... \"description\": \"Agreement between the Government of The State of Qatar and the Government of the Hellenic republic for the avoidance of double taxation\"}, \"signature_date\": \"26-Oct-2008\"",
+ "source_title": "GTA Qatar – DTA Greece (EN), official English text with Protocol",
+ "source_url": "https://gta.gov.qa/assets/images/contact-us/DTA%20Greece%20(EN).pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+  "quote": "Treaty covered by the MLI for both Greece and Qatar (treaty map); MLI art. 7(1) PPT applies to WHT from 2022-01-01. The 2008 Agreement itself contains no principal purpose test."
+ },
+ "notes": "Valid_from per Art. 28(2)(a): WHT on amounts paid or credited on or after 1 January of the year following entry into force (2010) = 2011-01-01. Interest exempt (Art. 11(3)) when derived by the other Contracting State, defined to include for Qatar the Government, QIA, local authorities, statutory bodies, Qatar Central Bank, Qatar Development Bank and other financial institutions fully owned or financed by the Government (and corresponding Greek entities) — not modelled. Protocol deals only with Arts. 18 and 24. Entry into force 2010-03-20 from Qatar GTA agreements feed (Greek national list not accessible); EIF article: 30th day after the later notification. MLI Art. 8 not applicable (Qatar reserved).",
+ "confidence": "high",
+ "unverified": [
+  "Greek official (FEK) text not cross-checked",
+  "MLI WHT effective date from treaty map"
+ ]
+}

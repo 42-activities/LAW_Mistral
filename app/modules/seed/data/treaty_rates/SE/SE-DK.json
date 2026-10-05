@@ -1,0 +1,69 @@
+{
+ "a": "SE",
+ "b": "DK",
+ "treaty_name": "Convention between the Nordic countries (Denmark, Faroe Islands, Finland, Iceland, Norway, Sweden) for the avoidance of double taxation with respect to taxes on income and on capital (1996, as amended 1997, 2008 and 2018)",
+ "signed": "1996-09-23",
+ "entry_into_force": "1997-05-11",
+ "eif_source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19961512-om-dubbelbeskattningsavtal-mellan_sfs-1996-1512/",
+ "eif_quote": "Avtalet trädde i kraft den 11 maj 1997.",
+ "source_title": "Lag (1996:1512) om dubbelbeskattningsavtal mellan de nordiska länderna, consolidated t.o.m. SFS 2024:1276, Bilaga 1 (treaty text as amended); Prop. 1996/97:44; Prop. 2018/19:126",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19961512-om-dubbelbeskattningsavtal-mellan_sfs-1996-1512/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3), second sentence",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sådan utdelning skall emellertid vara undantagen från beskattning i den förstnämnda staten om den verklige innehavaren av förmånen av utdelningen är ett bolag (med undantag för personsammanslutning och dödsbo) som direkt äger minst 10 procent av det utbetalande bolagets kapital."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3), first sentence",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Utdelning från bolag med hemvist i en avtalsslutande stat till person med hemvist i annan avtalsslutande stat får beskattas också i den avtalsslutande stat där det bolag som betalar utdelningen har hemvist, enligt lagstiftningen i denna stat, men om den verklige innehavaren av förmånen av utdelningen är en person med hemvist i den andra avtalsslutande staten får den skatt som sålunda påförs inte överstiga 15 procent av utdelningens bruttobelopp."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ränta, som härrör från en avtalsslutande stat och som betalas till person med hemvist i annan avtalsslutande stat, beskattas endast i denna andra stat om personen i fråga är den verklige innehavaren av förmånen av räntan."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty, som härrör från en avtalsslutande stat och som betalas till person med hemvist i annan avtalsslutande stat, beskattas endast i denna andra stat om personen i fråga är den verklige innehavaren av förmånen av royaltyn."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 26(4) (inserted by 2018-08-29 protocol)",
+  "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19961512-om-dubbelbeskattningsavtal-mellan_sfs-1996-1512/",
+  "quote": "4. Utan hinder av övriga bestämmelser i detta avtal ska en förmån enligt avtalet inte kunna åtnjutas i fråga om en inkomst eller en förmögenhetstillgång, om det med hänsyn till alla relevanta omständigheter rimligen kan antas att ett av de huvudsakliga syftena med det arrangemang eller den transaktion som direkt eller indirekt resulterade i förmånen var att komma i åtnjutande av förmånen. Detta gäller dock inte om det fastställs att åtnjutandet av förmånen under dessa omständigheter är i enlighet med avtalets ändamål och syfte."
+ },
+ "notes": "Multilateral Nordic convention; this record covers SE-DK only. Art. 31(2)(a): withholding provisions apply to income derived on/after 1 January of the year following EIF; Prop. 2018/19:126: 'Det trädde i kraft den 11 maj 1997 och tillämpas från och med den 1 januari 1998.' Dividend 0% tier: beneficial owner is a company (other than a partnership/estate) owning directly >=10% of capital; holdings through partnerships are treated as direct (look-through sentence in consolidated text, added by a later protocol). Art. 10(4) Icelandic special rule irrelevant for SE-DK. Art. 10(7): charitable institutions may be exempted by competent-authority agreement (not modelled). 2018-08-29 protocol (Art. V: in force 30th day after last notification; treaty map: in force 2019-11-28; Swedish law SFS 2019:604 in force 2019-12-31) inserted PPT in Art. 26(4), applicable to taxes for tax years beginning on/after 1 Jan 2020. Treaty not covered by the MLI (neither DK nor SE lists it); PPT applies via the treaty itself. Faroe Islands are a separate party under the convention and are not covered by this DK record.",
+ "confidence": "high",
+ "unverified": [
+  "2018 protocol entry-into-force date 2019-11-28 taken from treaty map (skat.dk), not re-read."
+ ]
+}

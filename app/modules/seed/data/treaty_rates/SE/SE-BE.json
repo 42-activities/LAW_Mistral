@@ -1,0 +1,67 @@
+{
+ "a": "SE",
+ "b": "BE",
+ "treaty_name": "Convention between Sweden and Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1991)",
+ "signed": "1991-02-05",
+ "entry_into_force": "1993-02-24",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Suède | Original | 05-02-1991  24-02-1993",
+ "source_title": "Prop. 1990/91:173 Om dubbelbeskattningsavtal mellan Sverige och Belgien (Swedish and French treaty text)",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/om-dubbelbeskattningsavtal-mellan-sverige-och_ge03173/html/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1991-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement au moins 25 pour cent du Capital de la société qui paie les dividendes; / a) 5 procent av utdelningens bruttobelopp, om den som har rätt till utdelningen är ett bolag som direkt behärskar minst 25 procent av det utbetalande bolagets kapital;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procent av utdelningens bruttobelopp i övriga fall. Punkt a i föregående stycke tillämpas inte om den som har rätt till utdelningen är ett handelsbolag som har sin verkliga ledning i Sverige."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Räntan får emellertid beskattas även i den avtalsslutande stat från vilken den härrör, enligt lagstiftningen i denna stat, men om den som har rätt till räntan har hemvist i den andra avtalsslutande staten får skatten inte överstiga 10 procent av räntans bruttobelopp."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat, om personen i fråga har rätt till royaltyn."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (not yet effective)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Treaty map: MLI WHT effect computed: SE reserved Art. 35(7)(a); no 35(7)(b) notification for this treaty found in OECD documents."
+ },
+ "notes": "Art. 30(2)(a): withholding provisions apply to income attributed/payable on or after 1 Jan 1991 ('beträffande skatter som innehålls vid källan, på inkomster som blir tillgängliga för lyftning eller förfaller till betalning den 1 januari 1991 eller senare'), retroactive relative to EIF 1993-02-24. Dividend 5% tier: company directly holding >=25% of capital; not available where the recipient is a Swedish handelsbolag effectively managed in Sweden. Interest exempt at source (Art. 11(3)) for (a) commercial credit on sale of goods/services, (b) loans of any kind granted by banking enterprises not represented by bearer instruments, (c) deposits with banks/public credit institutions not represented by bearer instruments - not modelled as separate tiers. Covered by MLI on both sides, but Sweden reserved Art. 35(7) and has not notified completion, so MLI (incl. PPT) not yet effective for this treaty. No amending protocol known (treaty map latest_protocol null).",
+ "confidence": "high",
+ "unverified": []
+}

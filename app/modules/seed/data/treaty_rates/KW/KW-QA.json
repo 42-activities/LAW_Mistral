@@ -1,0 +1,59 @@
+{
+ "a": "KW",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2025)",
+ "signed": "2025-06-01",
+ "entry_into_force": "2025-10-06",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "\"date\":\"6-أكتوبر-2025\" ... \"description\":\"اتفاقية بين حكومة دولة قطر وحكومة دولة الكويت لتجنب الازدواج الضريبي ومنع التهرب المالي فيما يتعلق بالضرائب على الدخل وعلى رأس المال\"},\"signature_date\":\"1-يونيو-2025\" (GTA Arabic agreements feed; 'date' field read as entry into force per treaty map)",
+ "source_title": "Qatar–Kuwait DTA 2025, Arabic text (GTA PDF 'Kuwait (AR)2026.pdf')",
+ "source_url": "https://www.gta.gov.qa/assets/pdf/Kuwait%20(AR)2026.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1- تخضع أرباح الأسهم التي تدفعها شركة مقيمة في دولة متعاقدة إلى مقيم في الدولة المتعاقدة الأخرى للضريبة فقط في تلك الدولة الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1- تخضع الفائدة التي تنشأ في دولة متعاقدة وتُدفع إلى مقيم في الدولة المتعاقدة الأخرى ويكون هو المالك المستفيد من تلك الفائدة للضريبة فقط في تلك الدولة الأخرى."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2- ومع ذلك، يجوز أن تخضع أيضاً تلك الأتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها ووفقاً لقانون تلك الدولة المتعاقدة، ولكن إذا كان المالك المستفيد من الإتاوات مقيماً في الدولة المتعاقدة الأخرى فإن الضريبة المفروضة يجب ألا تزيد عن 8% من القيمة الإجمالية للإتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 30 (entitlement to benefits - principal purpose test)",
+  "source_url": "https://www.gta.gov.qa/assets/pdf/Kuwait%20(AR)2026.pdf",
+  "quote": "على الرغم من أي أحكام هذه الاتفاقية، يجب عدم منح مزايا بموجب هذه اتفاقية فيما يتعلق بعنصر دخل إذا كان من المعقول منحها، مع الأخذ بالاعتبار كافة الحقائق والظروف ذات الصلة، والتي تدل على أن الحصول على هذه المزايا كان إحدى الغايات الرئيسية لأي ترتيب أو عملية أدت بصورة مباشرة أو غير مباشرة إلى الانتفاع من تلك المزايا، ما لم يثبت أن منح تلك المزايا في هذه الظروف يتوافق مع غرض وهدف الأحكام ذات الصلة من هذه الاتفاقية."
+ },
+ "notes": "Art. 32(2)(a): WHT provisions apply to amounts paid or credited on/after 1 January of the calendar year immediately following EIF (EIF 2025-10-06 -> 2026-01-01). Dividends and interest (beneficial owner) taxable only in residence State. Royalty definition includes know-how. Not modelled: technical service fees (Art. 13) may be taxed at source at max 8% of gross. Treaty-based PPT in Art. 30 (Kuwait not an MLI Party). Arabic text only (no English on GTA). EIF date relies on the GTA feed 'date' field (single source; Kuwait MoF not cross-checked) - note the PDF itself does not show the EIF date.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF 2025-10-06 from GTA feed 'date' field only",
+  "Signature date from GTA feed"
+ ]
+}

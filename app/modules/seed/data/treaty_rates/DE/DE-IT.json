@@ -1,0 +1,80 @@
+{
+ "a": "DE",
+ "b": "IT",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Italian Republic for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion (1989)",
+ "signed": "1989-10-18",
+ "entry_into_force": "1992-12-27",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Italien/1993-01-16-Italien-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "wird bekanntgemacht, daß das Abkommen nach seinem Artikel 31 Abs. 2 sowie das dazugehörige Protokoll vom selben Tag am 27. Dezember 1992 in Kraft treten werden. Die Ratifikationsurkunden sind am 27. November 1992 in Rom ausgetauscht worden. (BGBl. 1993 II S. 59; OCR)",
+ "source_title": "BGBl. 1990 II S. 742: Gesetz zu dem DBA Deutschland-Italien vom 18.10.1989 (scanned; German/Italian)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Italien/1990-08-18-Italien-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Dividenden der Nutzungsberechtigte ist, 15 vom Hundert des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "(3) Abweichend von Absatz 2 darf die Steuer auf Dividenden, die eine in der Italienischen Republik ansässige Kapitalgesellschaft an eine Gesellschaft der Bundesrepublik Deutschland zahlt, die unmittelbar über mindestens 25 vom Hundert des Gesellschaftskapitals der erstgenannten Gesellschaft verfügt, 10 vom Hundert des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Zinsen der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (copyright royalties for literary, dramatic, musical or artistic works incl. films)",
+   "valid_from": "1993-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(3) Ungeachtet des Absatzes 2 können Lizenzgebühren für Urheberrechte und andere ähnliche Zahlungen für die Schaffung oder die Vervielfältigung literarischer, dramaturgischer, musikalischer oder künstlerischer Werke, einschließlich kinematographischer Filme und Filme oder Bandaufnahmen für Rundfunk und Fernsehen, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, die Nutzungsberechtigte der Lizenzgebühren ist, nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; no PPT in treaty)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Italien/1990-08-18-Italien-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile",
+  "quote": ""
+ },
+ "notes": "Art. 31(2)(b): WHT on dividends, interest and royalties paid on or after 1 January of the year following the year in which ratification instruments were exchanged (1992-11-27) -> 1993-01-01. Art. 10(3): 10% applies only to dividends paid by an Italian-resident Kapitalgesellschaft to a German company holding directly >=25% (one-directional, source_state IT); German-source dividends to Italian companies remain at 15% under the treaty (EU Parent-Subsidiary Directive relief not modelled). Art. 10(4)-(5): historic corporate-tax credit/maggiorazione di conguaglio refund rules (obsolete). Art. 11(3): interest taxable only in residence State where paid on credit sales of goods between enterprises, credit sales of equipment, government bonds/obligations of a Contracting State, Land or local authority, and further cases (not modelled). Art. 12(3): cultural copyright royalties (literary, dramatic, musical, artistic works, films/tapes for radio and TV) residence-only (modelled as separate exclusive entry); the 5% entry is the general royalty tier. Text read from scanned BGBl. via OCR and page images (right edge of the German column partly cropped in OCR).",
+ "confidence": "medium",
+ "unverified": [
+  "Art. 11(3) list beyond items (a)-(c) not fully read."
+ ]
+}

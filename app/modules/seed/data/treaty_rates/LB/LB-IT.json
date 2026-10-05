@@ -1,0 +1,67 @@
+{
+ "a": "LB",
+ "b": "IT",
+ "treaty_name": "Convention between the Italian Republic and the Lebanese Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion, with Additional Protocol (2000)",
+ "signed": "2000-11-22",
+ "entry_into_force": "2011-11-21",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Libano: Stipula - Firma: Beirut 22.11.2000; Ratifica: L. 03.06.2011, n.87 / In vigore dal: 21.11.2011 (Italian MoF list, via treaty map)",
+ "source_title": "Gazzetta Ufficiale n. 142 of 21.6.2011: Legge 3 giugno 2011 n. 87 with Convention Italy-Lebanon (Italian/English text, scanned)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/LIBANO_2000-Testo_G.U._ita_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) il 5 per cento dell'ammontare lordo dei dividendi se l'effettivo beneficiario è una società che ha detenuto almeno il 10 per cento del capitale della società che distribuisce i dividendi per un periodo di almeno 12 mesi antecedente alla data in cui sono stati dichiarati i dividendi;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) il 15 per cento dell'ammontare lordo dei dividendi, in tutti gli altri casi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Gli interessi provenienti da uno Stato contraente e pagati ad un residente dell'altro Stato contraente sono imponibili soltanto in detto altro Stato."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. I canoni provenienti da uno Stato contraente e pagati ad un residente dell'altro Stato contraente sono imponibili soltanto in detto altro Stato se tale residente ne è il beneficiario effettivo."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; Lebanon not a signatory; Protocol item 8 only preserves domestic anti-avoidance law)",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/LIBANO_2000-Testo_G.U._ita_en.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 30(2)(a): WHT applies to amounts realised on or after 1 January of the year following EIF (2011-11-21) -> 2012-01-01. 5% dividend tier requires a holding of at least 10% for at least 12 months before the dividend declaration date (treaty condition; modelled as 365 days). Interest and royalties: residence-only (the Italian Art. 11(1) text has no beneficial-owner wording). Protocol item 8: 'Le disposizioni della presente Convenzione non pregiudicano il diritto degli Stati contraenti di applicare la propria legislazione fiscale interna per prevenire l'evasione e l'elusione fiscale.' English text prevails in case of doubt; the Italian text was read.",
+ "confidence": "high",
+ "unverified": []
+}

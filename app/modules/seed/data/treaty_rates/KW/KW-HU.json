@@ -1,0 +1,59 @@
+{
+ "a": "KW",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Hungary and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital and for the promotion of economic relations (1994, as amended by Protocol 2001)",
+ "signed": "1994-01-17",
+ "entry_into_force": "1994-12-21",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=99900016.tv",
+ "eif_quote": "(Az Egyezmény megerősítéséről szóló jegyzékváltás 1994. december 21-én megtörtént, és az Egyezmény 1994. december 21-én lépett hatályba.)",
+ "source_title": "1999. évi XVI. törvény (promulgation of HU–KW Convention), consolidated text 'Hatályos Jogszabályok Gyűjteménye' (secondary: net.jogtar.hu, Wolters Kluwer)",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=99900016.tv",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1995-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Az osztalék, amelyet az egyik Szerződő Államban illetőséggel bíró társaság a másik Szerződő Államban illetőséggel bíró személynek fizet, csak ebben a másik Államban adóztatható."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1995-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "A kamat, amely az egyik Szerződő Államból származik, és amelyet a másik Szerződő Államban illetőséggel bíró személynek fizetnek, csak ebben a másik Államban adóztatható."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mindazonáltal az ilyen jogdíj abban a Szerződő Államban is amelyikben keletkezik, ennek az Államnak a jogszabályai szerint megadóztatható, de ha a kedvezményezett a jogdíj haszonhúzója, az így megállapított adó nem haladhatja meg a jogdíj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable - Kuwait not an MLI Party)",
+  "source_url": "https://net.jogtar.hu/jogszabaly?docid=99900016.tv",
+  "quote": "(no principal purpose test in the Convention as amended)"
+ },
+ "notes": "Art. 29(2)(a) and §3 of Act XVI of 1999: WHT provisions apply to income derived on/after 1 January 1995. Dividends and interest taxable only in the residence State. The 2001 Protocol (promulgated by Act LXX of 2003, applicable from 2003-01-01) amended Arts. 2(3), 6, 7, 9, 13(1) and inserted Art. 15/A per the consolidated-text footnotes; Arts. 10-12 not amended. Official njt.hu unreachable (connection reset); consolidated text read on net.jogtar.hu. Kuwait signed but not ratified the MLI -> no MLI PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "Consolidated text from net.jogtar.hu rather than njt.hu/Magyar Közlöny",
+  "Protocol text itself not read (only amendment footnotes)"
+ ]
+}

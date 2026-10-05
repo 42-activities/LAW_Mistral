@@ -1,0 +1,69 @@
+{
+ "a": "GR",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2004, as amended 2010)",
+ "signed": "2004-05-25",
+ "entry_into_force": "2005-12-30",
+ "eif_source_url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2004052536&table_name=loi",
+ "eif_quote": "Art. N. Cette Convention entre en vigueur le 30 décembre 2005, conformément à son article 28.",
+ "source_title": "Justel (Moniteur belge 2006-02-02, 2005A15141): Convention Belgique–Grèce du 25 mai 2004, consolidated",
+ "source_url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2004052536&table_name=loi",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement ou indirectement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent du montant brut des dividendes dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder : ... b) 10 pour cent du montant brut des intérêts dans tous les autres cas."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 7(17)(a) of the Convention, the Hellenic Republic considers that the following agreements ... contain a provision described in Article 7(2) ... 7 Belgium Articles 11(8) and 12(7)"
+ },
+ "notes": "Art. 28(2)(a): applies to withholding taxes on income attributed or paid from 1 January 2005. Not modelled: interest 5% on loans of any kind not represented by bearer securities granted by banking enterprises (Art. 11(2)(a)); interest exempt when paid to the other State, its subdivisions, the Bank of Greece or National Bank of Belgium (Art. 11(3)). 2010 Protocol (in force 2017-07-24) amends only Art. 26 (exchange of information) per Justel. MLI: Greece reserved Art. 8 entirely, so no 365-day holding requirement. PPT (MLI Art. 7(1)) replaces anti-abuse clauses Arts. 11(8)/12(7); effective date 2022-01-01 from treaty map (Art. 35(1)(a)). No Belgian MLI synthesised text was located; PPT basis read from the OECD Greece deposit position.",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text BE–GR not read"
+ ]
+}

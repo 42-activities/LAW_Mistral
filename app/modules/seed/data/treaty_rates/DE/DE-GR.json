@@ -1,0 +1,56 @@
+{
+ "a": "DE",
+ "b": "GR",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Kingdom of Greece for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital and trade tax (1966), as modified by the MLI",
+ "signed": "1966-04-18",
+ "entry_into_force": "1967-12-08",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Griechenland/1968-01-20-Griechenland-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "wird hiermit bekanntgemacht, daß das Abkommen nach seinem Artikel XXIII Abs. 2 am 8. Dezember 1967 in Kraft tritt. (BGBl. 1968 II S. 30; OCR of scanned notice)",
+ "source_title": "BMF: Synthetisierter Text des BEPS-MLI und des Abkommens mit der Hellenischen Republik (DBA 18.4.1966, BGBl. 1967 II S. 852)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Griechenland/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VI(2)",
+   "valid_from": "1964-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Dividenden können jedoch in dem Vertragstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 25 vom Hundert des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article VII(2)",
+   "valid_from": "1964-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Zinsen können jedoch in dem Vertragstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 10 vom Hundert des Betrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article VIII(1)",
+   "valid_from": "1964-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Lizenzgebühren, die aus einem Vertragstaat stammen und an eine in dem anderen Vertragstaat ansässige Person gezahlt werden, können nur in dem anderen Staate besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Griechenland/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+  "quote": "Ungeachtet dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... [Fußnote 7: Wirksam ab dem 1. Januar 2025.]"
+ },
+ "notes": "Art. XXIII(2): applies to Greek tax on income derived in 1964 and later and to German taxes levied for 1964 and later -> valid_from 1964-01-01 (retroactive). Single dividend rate 25% (no participation tier); dividends include German KAG distributions and silent partner income. Art. VII(3): interest paid by Greece to Deutsche Bundesbank / KfW and by Germany to the Bank of Greece exempt (not modelled). Art. VII(8): Greek domestic interest exemptions preserved. Royalties: residence-only. No MLI Art. 8 holding period (no reduced dividend tier). DE notified Art. 35(7)(b) for GR on 2024-10-02.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "US",
+ "b": "GR",
+ "treaty_name": "Convention between the United States of America and the Kingdom of Greece for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1950, with Protocol 1953)",
+ "signed": "1950-02-20",
+ "entry_into_force": "1953-12-30",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/greece.pdf",
+ "eif_quote": "Ratifications Exchanged at Athens December 30, 1953 ... Entered into Force December 30, 1953; Operative Retroactively January 1, 1953",
+ "source_title": "US-Greece Income Tax Convention signed at Athens 20 Feb 1950 with Protocol of 20 April 1953 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/greece.pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article VI(1)",
+   "valid_from": "1953-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "US",
+   "quote": "(1) Interest (on bonds, securities, notes, debentures, or on any other form of indebtedness) received from sources within the United States by a resident or corporation of Greece not engaged in trade or business in the United States through a permanent establishment therein, shall be exempt from United States tax; but such exemption shall not apply to such interest paid by a United States corporation to a Greek corporation controlling directly or indirectly, more than 50 percent of the entire voting power in the paying corporation."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article VI(2)",
+   "valid_from": "1953-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "(2) Interest (on bonds, securities, notes, debentures, or on any other form of indebtedness) received from sources within Greece by a resident or corporation of the United States not engaged in trade or business in Greece through a permanent establishment therein, shall be exempt from Greek tax but only to the extent that such interest does not exceed 9 percent per annum; but such exemption shall not apply to such interest paid by a Greek corporation to a United States corporation controlling, directly or indirectly, more than 50 percent of the entire voting power in the paying corporation."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article VII",
+   "valid_from": "1953-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties for the right to use copyrights, patents, designs, secret processes and formulae, trade marks and other analogous property, and royalties (including rentals), (other than those in respect of motion picture films) for the use of industrial, commercial or scientific equipment, derived from sources within one of the Contracting States by a resident or corporation of the other Contracting State not engaged in trade or business in the former State through a permanent establishment therein, shall be exempt from tax by the former State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; no PPT in the 1950 Convention)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/greece.pdf",
+  "quote": ""
+ },
+ "notes": "Old-style asymmetric 1950 treaty; effective from 1 January 1953 (Art. XXI(2): effective 1 January of the year of exchange of ratifications). DIVIDENDS omitted: the Convention contains no source-State limit on dividends in either direction; Art. IX only provides that 'Dividends and interest paid by a Greek corporation shall be exempt from United States tax except where the recipient is a citizen, resident or corporation of the United States' (no reduction of US WHT on US-source dividends; IRS Table 1 shows 30% for Greece dividends). INTEREST: exemption at source both ways is denied where the payer's parent in the other State controls directly or indirectly more than 50% of the voting power (domestic rates then apply); for Greek-source interest the exemption covers only interest up to 9% per annum (excess taxable under Greek law). ROYALTY: exemption excludes motion-picture film royalties/rentals; royalties in respect of mines/quarries/natural resources fall under Art. VIII (net-basis election). The schema cannot express the >50% control exclusion, the 9% p.a. cap, or the film carve-out.",
+ "confidence": "medium",
+ "unverified": [
+  "Greek official text/consolidation not consulted (aade.gr inaccessible per treaty map); relied on IRS English text"
+ ]
+}

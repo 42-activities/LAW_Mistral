@@ -1,0 +1,67 @@
+{
+ "a": "GR",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Austria and the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (2007)",
+ "signed": "2007-07-18",
+ "entry_into_force": "2009-04-01",
+ "eif_source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006231",
+ "eif_quote": "Die ... Ratifikationsurkunde wurde am 11. Februar 2009 ausgetauscht; das Abkommen tritt daher gemäß seinem Art. 28 Abs. 1 am 1. April 2009 in Kraft.",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Griechenland, BGBl. III Nr. 16/2009 (German translation; authentic English), Fassung vom 05.10.2026",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20006231",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 vom Hundert des Bruttobetrages der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Zinsen ist, 8 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Lizenzgebühren ist, 7 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40235077/III_93_2018_DBA_Griechenland_synthesised_deutsch_final.pdf",
+  "quote": "Ungeachtet der Bestimmungen dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn ... der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... [wirksam] bei den im Abzugsweg erhobenen Steuern ... am oder nach dem 1. Jänner 2022"
+ },
+ "notes": "Art. 28(1): provisions apply to income derived on or after 1 January of the year following entry into force (2010-01-01). MLI synthesised text (RIS Anlage 2) contains no MLI Art. 8 holding-period change to Art. 10. MLI Art. 7(1) PPT replaces the Protocol anti-abuse clauses on Arts. 11/12. EU Parent-Subsidiary / Interest-Royalties Directives not modelled.",
+ "confidence": "high",
+ "unverified": []
+}

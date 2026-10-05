@@ -47,6 +47,17 @@ def s(seeded_session):
         ("IT", "MT", "ROYALTY", None, None, "10.000"),
         ("DE", "CH", "DIVIDEND", "10", 400, "0.000"),  # 2023 protocol, from 2026
         ("TR", "CH", "ROYALTY", None, None, "10.000"),
+        # Non-hub network
+        ("US", "DE", "DIVIDEND", "10", 400, "5.000"),
+        ("US", "PL", "DIVIDEND", "5", 400, "15.000"),
+        ("SA", "ES", "ROYALTY", None, None, "8.000"),
+        ("EG", "SA", "INTEREST", None, None, "10.000"),
+        ("IL", "US", "INTEREST", None, None, "17.500"),
+        ("JO", "SA", "ROYALTY", None, None, "7.000"),
+        ("RO", "KW", "DIVIDEND", "100", 730, "1.000"),
+        ("IT", "SA", "DIVIDEND", "30", 400, "5.000"),
+        ("DK", "KW", "DIVIDEND", "100", 400, "0.000"),
+        ("AT", "IT", "ROYALTY", None, None, "10.000"),  # curated Austrian >50% pattern
         # Ireland hub
         ("CH", "IE", "DIVIDEND", "10", 400, "0.000"),
         ("CH", "IE", "DIVIDEND", "5", 400, "15.000"),

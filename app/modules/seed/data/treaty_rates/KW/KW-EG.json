@@ -1,0 +1,69 @@
+{
+ "a": "KW",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Arab Republic of Egypt and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2014)",
+ "signed": "2014-12-16",
+ "entry_into_force": "2016-11-23",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kuwait.pdf (per treaty map; Egypt MLI position: 'Kuwait Original 16-Dec2014 23-Nov-2016')",
+ "eif_quote": "المادة التاسعة والعشرون ... 2 - تدخل هذه الاتفاقية حيز النفاذ من تاريخ استلام آخر الإخطارين ... (أ) بالنسبة للضرائب التي تحجز من المنبع ، المفروضة على الدخل في أو بعد اليوم الأول من يناير من السنة الميلادية التالية لدخول الاتفاقية حيز النفاذ . [EIF date 23-11-2016 from MLI positions per treaty map]",
+ "source_title": "Presidential Decree 155/2016 approving the EG–KW Agreement, Official Gazette (الجريدة الرسمية) no. 8, 23 Feb 2017 (Arabic, ETA scan)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2026-01/alkwyt.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(أ) (5%) من إجمالي قيمة أرباح/ توزيعات الأسهم إذا كان المالك المستفيد شركة (بخلاف شركات الأشخاص) تمتلك بشكل مباشر (10%) على الأقل من رأس مال الشركة الدافعة لتلك الأرباح/ التوزيعات ."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ب) (10%) من إجمالي قيمة أرباح/ توزيعات الأسهم في جميع الحالات الأخرى"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 - ومع ذلك فإن هذه الفوائد/ العوائد يجوز أن تخضع للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقًا لقوانين تلك الدولة ، ولكن إذا كان المالك المستفيد من الفوائد/ العوائد مقيمًا في الدولة المتعاقدة الأخرى ، في هذه الحالة يجب ألا تزيد الضريبة المفروضة عن (10%) من إجمالي مبلغ الفوائد/ العوائد ."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 - ومع ذلك ، يجوز أن تخضع أيضًا تلك الإتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقًا لقوانين تلك الدولة المتعاقدة ، ولكن إذا كان المالك المستفيد من الإتاوات مقيمًا في تلك الدولة المتعاقدة ، فإن الضريبة المفروضة يجب ألا تزيد عن (10%) من القيمة الإجمالية للإتاوات ."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable - Kuwait not an MLI Party)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2026-01/alkwyt.pdf",
+  "quote": "(المادة السابعة والعشرون) أحكام متنوعة ... (no principal purpose test in the Agreement)"
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to income on/after 1 January of the calendar year following EIF (EIF 2016-11-23 -> 2017-01-01). Art. 29(3): replaces the 2004 EG–KW agreement (in force 2006-05-02). Not modelled: dividends paid to the Government of a Contracting State (incl. Central Bank of Egypt, Social Insurance Fund, NIB; Central Bank of Kuwait, Kuwait Investment Authority and wholly-owned entities, other agreed entities) taxable only in the State of residence (Art. 10(3)); interest beneficially owned by such Governments exempt (Art. 11(3)). Dividend 5% tier requires a company (other than a partnership) holding directly >=10% of capital; no holding period. Royalty definition includes software and equipment rental. Gazette scan does not state the EIF date; date taken from the treaty map (MLI positions). Kuwait signed but not ratified the MLI.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2016-11-23 from treaty map, not from an Egyptian gazette notice"
+ ]
+}

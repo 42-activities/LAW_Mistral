@@ -1,0 +1,48 @@
+{
+ "a": "IL",
+ "b": "GR",
+ "treaty_name": "Convention between the Hellenic Republic and the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1995)",
+ "signed": "1995-10-24",
+ "entry_into_force": "1998-03-06",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+ "eif_quote": "23 Convention between the Hellenic Republic and the State of Israel for the avoidance of double taxation and for the prevention of fiscal evasion with respect to taxes on income Israel Original 24-10-1995 06-03-1998",
+ "source_title": "ΦΕΚ Α' 12/13.01.1998 – Ν. 2572/1998 κύρωση Σύμβασης Ελλάδας–Ισραήλ (Greek and English texts; scanned, manually transcribed)",
+ "source_url": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=19980100012",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1) (per treaty map; synthesised text not read)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": null
+ },
+ "notes": "DIVIDEND omitted: Art. 10(1) lets the source State tax dividends 'according to the laws of that State' with no rate limit (Greek text: 'μπορούν επίσης να φορολογούνται στο Συμβαλλόμενο Κράτος, του οποίου η εταιρεία που καταβάλλει τα μερίσματα είναι κάτοικος, και σύμφωνα με τη νομοθεσία αυτού του Κράτους'). Interest: no source exemption paragraph for governments found in Art. 11. Royalty definition includes equipment rental, films, video and radio/TV recordings. Art. 28(2)(a): WHT for income derived from 1 January of the year following EIF (EIF 6.3.1998 -> 1.1.1999). Official FEK is a scanned image; quotes were transcribed manually from the English text (pp. 249-250) and checked against the Greek text — minor transcription risk. The FEK was obtained via et.gr download API (served from a redirect host with a certificate mismatch). Greek national treaty list blocked (aade.gr 403); EIF from Greece's MLI position. MLI: both Parties list the treaty; treaty map MLI WHT effect 2022-01-01; synthesised text not read.",
+ "confidence": "medium",
+ "unverified": [
+  "Quotes transcribed manually from a scanned FEK",
+  "MLI PPT effective date 2022-01-01 (treaty map)"
+ ]
+}

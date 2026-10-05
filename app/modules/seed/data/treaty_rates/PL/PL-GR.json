@@ -1,0 +1,47 @@
+{
+ "a": "PL",
+ "b": "GR",
+ "treaty_name": "Agreement between the Government of the Polish People's Republic and the Government of the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1987)",
+ "signed": "1987-11-20",
+ "entry_into_force": "1991-09-28",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/1991/524",
+ "eif_quote": "Dz.U. 1991 nr 120 poz. 524 ... entryIntoForce: 1991-09-28 (ISAP metadata); podatki.gov.pl list: 20.11.1987 28.09.1991 01.01.1992",
+ "source_title": "Synthesised text of the MLI and the PL-GR Agreement (podatki.gov.pl, EN); authentic EN text scan (podatki.gov.pl) for Art. 29",
+ "source_url": "https://www.podatki.gov.pl/media/cwbnq0ew/dta-greece-pl-mli-synthesised-text.pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10% of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.podatki.gov.pl/media/cwbnq0ew/dta-greece-pl-mli-synthesised-text.pdf",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income or capital if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Art. 7(1) MLI has effect ... with respect to taxes withheld at source ... on or after 1 January 2022); Article 7(1) of the MLI replaces Article 11(7) and 12(7) of the Agreement."
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(1) 'Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State are taxed in both Contracting States.' - no source-State limit. Art. 29(2) (authentic EN scan): provisions have effect 'for any calendar year beginning on or after the first day of January in which the Agreement enters into force' -> valid_from 1991-01-01; podatki.gov.pl list instead shows applicability from 01.01.1992 (conflict; immaterial for current rates). Former anti-abuse Arts. 11(7)/12(7) replaced by MLI PPT.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1991-01-01 vs podatki.gov.pl 1992-01-01"
+ ]
+}

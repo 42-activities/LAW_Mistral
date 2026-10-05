@@ -1,0 +1,56 @@
+{
+ "a": "PL",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Poland and the Republic of Hungary for the avoidance of double taxation with respect to taxes on income and on capital (1992, as amended 2000)",
+ "signed": "1992-09-23",
+ "entry_into_force": "1995-09-10",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/1995/602",
+ "eif_quote": "Dz.U. 1995 nr 125 poz. 602 ... entryIntoForce: 1995-09-10 (ISAP metadata); podatki.gov.pl list: 23.09.1992 10.09.1995 01.01.1996",
+ "source_title": "Synthesised text of the MLI and the PL-HU Convention as amended by the 2000 Protocol (podatki.gov.pl, EN)",
+ "source_url": "https://www.podatki.gov.pl/media/vwyk5ltu/dta-pl-hungary-mli-synthesised-text.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.podatki.gov.pl/media/vwyk5ltu/dta-pl-hungary-mli-synthesised-text.pdf",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (MLI Art. 7(1) has effect ... with respect to taxes withheld at source ... on or after 1 January 2022)"
+ },
+ "notes": "Art. 11(3): interest derived by the other State's Government, local authorities, Central Bank or government-controlled financial institution, or on government-guaranteed loans, exempt at source (not modelled). Art. 29(2)(a): WHT provisions apply to income derived on or after 1 January following the year of entry into force -> 1996-01-01. 2000 Protocol (in force 2002-05-01) amended Arts. 18-19, not Arts. 10-12 per synthesised text.",
+ "confidence": "high",
+ "unverified": []
+}

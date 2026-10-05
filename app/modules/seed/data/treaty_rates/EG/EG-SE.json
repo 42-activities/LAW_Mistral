@@ -1,0 +1,69 @@
+{
+ "a": "EG",
+ "b": "SE",
+ "treaty_name": "Agreement between the Government of the Kingdom of Sweden and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1994)",
+ "signed": "1994-12-26",
+ "entry_into_force": "1996-03-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+ "eif_quote": "17 Convention between the Government of the Kingdom of Sweden and the Government of the Arab Republic of Egypt ... Egypt Original 26-12-1994 [4] 16-03-1996 [5] ... 4 Sweden understands that Egypt considers that the treaty was signed on 25-12-1994. 5 Sweden understands that Egypt considers that the treaty entered into force on 15-02-1996.",
+ "source_title": "ETA synthesised text of the MLI and the Egypt-Sweden Convention (English) + SFS 1995:543 Swedish text (riksdagen.se)",
+ "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/sweden.pdf ; https://data.riksdagen.se/dokument/sfs-1995-543.text (Lag (1995:543) om dubbelbeskattningsavtal mellan Sverige och Egypten; https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1995543-om-dubbelbeskattningsavtal-mellan_sfs-1995-543/)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(1) and (b)(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: (a) In the case of Sweden: (i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends; ... (b) In the case of Egypt: (i) 5 percent of the gross amount of dividands if the beeficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "(a) In the case of Sweden: ... (ii) 20 percent of the gross amount of the dividands in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "14",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties is the tax so charged shall not exceed 14 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (not yet effective)",
+  "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/sweden.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "ETA synthesised text: 'The application of the MLI will be suspended until completing the required procedures with the OECD, by making a Notification pursuant to the provision of Article (35( paragraph 7 of the MLI.' | Sweden: 'Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to “the latest of the dates on which this Convention enters into force ...” ... with references to “30 days after the date of receipt by the Depositary of the latest notification by each Contracting Jurisdiction making the reservation described in paragraph 7 of Article 35 ... that it has completed its internal procedures ...”'. OECD status (15 Sep 2026): no Article 35(7)(b) notification linked for Sweden."
+ },
+ "notes": "Dividends: Egypt-source dividends - 5% for companies (not partnerships) directly holding >=25%; for individuals resident in Sweden Egypt may levy its general income tax but 'not in any case exceeding an average of 15 percent of the net dividend' (not a WHT cap on gross, not modelled); Egypt-source dividends to other recipients (e.g. companies <25%) have no treaty cap - so the 20% general tier applies only where Sweden is the source State (source_state SE). Art. 11(3): interest between governments, central banks, local authorities or wholly state-owned financial institutions exempt - not modelled. Art. 29(2)(a): WHT applies to amounts paid or credited on/after 1 January of the year following EIF (EIF 1996 by either date -> 1997-01-01). EIF conflict: Sweden 16-03-1996 vs Egypt 15-02-1996; signature Sweden 26-12-1994 vs Egypt 25-12-1994 (SFS 1995:543 says 'undertecknade den 26 december 1994'). MLI: both Parties list the treaty, Egypt made no Art. 7 reservation, Sweden made no Art. 7 reservation, but Sweden reserved Art. 35(7)(a) and the OECD status list shows no Swedish 35(7)(b) notification, so MLI provisions (PPT) have not yet taken effect; ppt.applies=false. Sweden reserved Art. 8 entirely ('Pursuant to Article 8(3)(a) of the Convention, the Kingdom of Sweden reserves the right for the entirety of Article 8 not to apply'), so no 365-day holding period even once effective. Rates cross-checked between the English text in the ETA synthesised document and the Swedish SFS text (identical); English prevails in case of doubt.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date conflict 1996-03-16 vs 1996-02-15 (no effect on 1997-01-01 WHT start)"
+ ]
+}

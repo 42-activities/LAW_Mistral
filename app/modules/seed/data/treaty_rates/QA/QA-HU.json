@@ -1,0 +1,70 @@
+{
+ "a": "QA",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of Hungary and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012)",
+ "signed": "2012-01-18",
+ "entry_into_force": "2012-04-21",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=a1200015.tv",
+ "eif_quote": "Hatályba lépett 2012. április 21-én a 25/2012. (V. 8.) KüM közlemény alapján.",
+ "source_title": "2012. évi XV. törvény (promulgating HU–QA Agreement, Hungarian and English text) as reproduced in Hatályos Jogszabályok Gyűjteménye (net.jogtar.hu); njt.hu unreachable",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=a1200015.tv",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: ... (b) 5 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "0",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+  "quote": "Treaty covered by the MLI for both Hungary and Qatar (treaty map); MLI art. 7(1) PPT applies to withholding taxes from 2022-01-01. The Agreement itself contains no principal purpose test."
+ },
+ "notes": "Dividend 0% tier (Art. 10(2)(a)) applies whenever the beneficial owner is a company — there is NO minimum shareholding; ownership_threshold '0' is used only to mark it as the company tier (5% applies to all other beneficial owners). Valid_from per Art. 28(2)(a): WHT on amounts paid or credited on or after 1 January of the year following entry into force (2012) = 2013-01-01 (Hungary list: applicable from 2013-01-01). MLI Art. 8 holding period not applicable (Qatar reserved entire Art. 8).",
+ "confidence": "high",
+ "unverified": [
+  "Text read from net.jogtar.hu reproduction, not the Magyar Közlöny PDF (njt.hu connection reset)",
+  "MLI WHT effective date from treaty map"
+ ]
+}

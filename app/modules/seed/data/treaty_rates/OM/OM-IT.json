@@ -1,0 +1,69 @@
+{
+ "a": "OM",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Sultanate of Oman and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1998)",
+ "signed": "1998-05-06",
+ "entry_into_force": "2002-10-22",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Oman: Stipula - Firma: Mascate 06.05.1998; Ratifica: L. 11.03.2002, n.50 / In vigore dal: 22.10.2002",
+ "source_title": "Oman Tax Authority: Convention Oman-Italy (English text with Additional Protocol)",
+ "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Italy.pdf/24ae43bb-d8e0-d90c-c660-a48d1370868c?t=1738135306104",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 15 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties or of fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+  "quote": ""
+ },
+ "notes": "Art. 29: retroactive effect - WHT on amounts derived on or after 1 January 1996 in both States (air transport from 1993), with refund claims for 1996 onwards to be lodged within two years of EIF; valid_from set to 1996-01-01. Interest exempt at source (Art. 11(3)) when paid by the Government/local authority of the source State, to the other State's Government/local authority or wholly-owned agencies (incl. financial institutions), or to agencies for loans under an intergovernmental agreement - not modelled. Art. 11(1) wording ('may be taxed only in that other State') is followed by the 5% source-tax allowance in Art. 11(2); the 5% cap is modelled. Art. 12 also covers fees for technical services (managerial/technical/consultancy) at the same 10% cap. Additional Protocol 5: Oman's State General Reserve Fund exempt from all Italian taxes on income/profits from its investments in Italy. MLI: Italy is a signatory but not yet a Party (treaty map) - no PPT; no treaty-level PPT found.",
+ "confidence": "high",
+ "unverified": [
+  "Italian-language text on finanze.gov.it not cross-checked"
+ ]
+}

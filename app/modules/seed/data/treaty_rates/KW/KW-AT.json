@@ -1,0 +1,58 @@
+{
+ "a": "KW",
+ "b": "AT",
+ "treaty_name": "Agreement between Austria and Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital and for the promotion of economic relations (2002)",
+ "signed": "2002-06-13",
+ "entry_into_force": "2004-03-01",
+ "eif_source_url": "https://www.ris.bka.gv.at/eli/bgbl/iii/2004/30/P0/NOR30003666",
+ "eif_quote": "Die vom Bundespräsidenten unterzeichnete und vom Bundeskanzler gegengezeichnete Ratifikationsurkunde wurde am 6. Dezember 2003 ausgetauscht; das Abkommen ist gemäß seinem Art. 30 Abs. 2 mit 1. März 2004 in Kraft getreten.",
+ "source_title": "DBA Österreich–Kuwait, BGBl. III Nr. 30/2004 (RIS, German authentic text)",
+ "source_url": "https://www.ris.bka.gv.at/eli/bgbl/iii/2004/30/P0/NOR30003666",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2005-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividenden, die eine in einem Vertragsstaat ansässige Gesellschaft an eine im anderen Vertragsstaat ansässige Person zahlt, dürfen nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2005-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, dürfen, wenn diese Person der Nutzungsberechtigte der Zinsen ist, nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty has no PPT/LOB; MLI not applicable)",
+  "source_url": "https://www.ris.bka.gv.at/eli/bgbl/iii/2004/30/A28/NOR40052228",
+  "quote": "Artikel 28 VERSCHIEDENES ... (no principal purpose test in the 2002 Agreement or its Protocol)"
+ },
+ "notes": "Art. 30(2)(a): WHT provisions apply to amounts paid on or after 1 January of the year following entry into force (EIF 2004-03-01 -> 2005-01-01; BMF list 'Anwendbar ab 2005'). Dividends and interest exclusively taxable in residence State (dividends: no beneficial-ownership wording in Art. 10(1)). Royalty definition excludes equipment rentals and know-how (Protocol item 4: treated as business profits). Amending protocol signed 2025-06-17 ('Österreich und Kuwait unterzeichnen modernes Steuerabkommen', BMF) is not published in BGBl/RIS and BMF DBA list still shows only BGBl III 30/2004 -> not in force on 2026-10-05; 2002 text applied. MLI: Kuwait signatory but not a Party, and AT does not list the KW treaty -> no MLI PPT.",
+ "confidence": "high",
+ "unverified": [
+  "Status of the 2025 amending protocol inferred from its absence in RIS/BMF list"
+ ]
+}

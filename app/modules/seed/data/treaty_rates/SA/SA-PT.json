@@ -1,0 +1,69 @@
+{
+ "a": "SA",
+ "b": "PT",
+ "treaty_name": "Convention between the Kingdom of Saudi Arabia and the Portuguese Republic for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income (2015)",
+ "signed": "2015-04-08",
+ "entry_into_force": "2016-09-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Agreement between the government of the kingdom of Saudi Arabia and the government of Portugal for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 8/4/2015 and entered into force on 1/9/2016.",
+ "source_title": "ZATCA: SA-PT Convention 2015 with Protocol (English text, Art. 10-12, 27, 28)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Portuguese.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 5% tier also applies (without holding threshold) where beneficial owner is the Saudi State/subdivision/local authority (incl. SAMA) and wholly owned State entities, or the Portuguese State/subdivision/local authority or Banco de Portugal - not modelled. Art. 11(3): interest paid to and beneficially owned by those same government bodies taxable only in residence State - not modelled. Art. 27(2): main-purpose rule for creation/assignment of property or rights; Art. 27(3) beneficial-owner requirement (Art. 27(2) notified by Saudi Arabia under MLI Art. 7(17)(a)). Art. 28(2): for Saudi WHT, amounts paid on or after 1 January next following EIF; for Portuguese WHT, fact giving rise on or after 1 January of year following EIF (EIF 2016-09-01 -> 2017-01-01). Saudi Arabia reserved MLI Art. 8 entirely, so no 365-day holding for the 10% tier. PPT WHT effective 2021-01-01 per treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date taken from treaty map, not re-derived"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "LB",
+ "b": "EG",
+ "treaty_name": "Agreement between the Lebanese Republic and the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996)",
+ "signed": "1996-03-17",
+ "entry_into_force": "1998-03-22",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC",
+ "eif_quote": "Egypt | March 17, 1996 | July 24, 1996 | March 22, 1998 | Law N. 582 In O.G N.35 of August 8, 1996 (Lebanon MoF matrix: Signed | Ratified | Enforced, via treaty map)",
+ "source_title": "Lebanon MoF: Lebanon-Egypt DTA, Arabic text (scanned)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Egypt%20DT.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢) بيد أن توزيعات أرباح الاسهم هذه يمكن أن تخضع أيضا للضريبة في الدولة المتعاقدة التي تقيم فيها الشركة التي توزع الارباح وفقا لقوانين تلك الدولة ، ولكن اذا كان قابض الارباح هو مالكها الفعلي ، فان الضريبة المفروضة هكذا ينبغي أن لاتتجاوز (١٠٪) بالمئة من اجمالي توزيعات أرباح الاسهم ."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢) بيد أن مثل هذه الفوائد يمكن أن تخضع للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقا لقوانين تلك الدولة ، ولكن اذا كان قابض الفائدة هو المالك الفعلي ، فان الضريبة المفروضة هكذا يجب أن لاتتجاوز (١٠٪) بالمئة من المبلغ الاجمالي للفائدة"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢) بيد ان هذه الاتاوات (العائدات) يمكن ان تخضع أيضا للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقا لقوانين تلك الدولة ، ولكن اذا كان قابض العائدات هو المالك الفعلي لها ، فان الضريبة المفروضة يجب أن لاتتجاوز (٥٪) بالمئة من المبلغ الاجمالي للاتاوات (العائدات)"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Lebanon not an MLI signatory; no PPT in treaty)",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Egypt%20DT.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29(1): WHT applies to income derived on or after 1 January of the calendar year following the year of EIF (1998-03-22) -> 1999-01-01 ('في ما يتعلق بالضرائب المقتطعة عند المصدر ، على الدخل الحاصل في ، أو بعد اليوم الاول من يناير (كانون الثاني) من السنة الميلادية التي تلي السنة التي يبدأ فيها سريان مفعول الاتفاقيه'). Single rates: dividends 10%, interest 10%, royalties 5%. Art. 11(3): interest derived by the other State's government, local authority or administrative unit exempt (not modelled). Royalties include industrial/commercial/scientific equipment and satellite/cable transmission. Quotes transcribed from the scanned Arabic text (no text layer).",
+ "confidence": "medium",
+ "unverified": [
+  "Arabic quotes transcribed by reading the scanned image; minor orthographic deviations possible."
+ ]
+}

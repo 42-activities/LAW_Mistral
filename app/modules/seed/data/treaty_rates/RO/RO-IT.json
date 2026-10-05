@@ -1,0 +1,67 @@
+{
+ "a": "RO",
+ "b": "IT",
+ "treaty_name": "Convention between Romania and the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (2015)",
+ "signed": "2015-04-25",
+ "entry_into_force": "2017-09-25",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/ ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "Romania: Stipula - Firma: Riga 25.04.2015; Ratifica: L. 16.05.2017, n.78 / In vigore dal: 25.09.2017 (finanze.gov.it); ANAF list: Italia (Nouă) | 28/17.03.2016 | 217/2016 | 01.01.2018",
+ "source_title": "Legea nr. 28/2016 – Convenția România–Italia 2015 și Protocolul adițional (ANAF text)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Italia2.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "(a) 0 la sută din suma brută a dividendelor, dacă beneficiarul efectiv este o societate (alta decât un parteneriat) care deține în mod direct cel puțin 10 la sută din capitalul societății plătitoare de dividende la data plății dividendelor și care a făcut acest lucru sau va face acest lucru pentru o perioadă neîntreruptă de doi ani în decursul căreia se regăsește acea dată"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 5 la sută din suma brută a dividendelor în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăși 5 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al redevențelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăși 5 la sută din suma brută a redevențelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "No MLI coverage (Italy not an MLI Party); treaty has only article-specific main-purpose rules (Art. 10(6), 11(8), 12(7))",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividend 0% tier requires a 2-year uninterrupted holding (modelled as 730 days); a 'company' excludes partnerships. Art. 11(3): interest exempt if paid by the source Government/local entity, or paid to the other State's Government/local authorities/wholly-owned agencies (incl. financial institutions), or to agencies funded under intergovernmental agreements. Protocol para. 3: Art. 10(2) does not apply to dividends exempt under the Parent-Subsidiary Directive 2011/96/EU; para. 4: Interest & Royalties Directive 2003/49/EC applies in any case. Treaty anti-abuse main-purpose clauses in Art. 10(6), 11(8), 12(7) (not a general PPT). Replaced 1977 convention (applied until 31.12.2017). MLI: not covered (Italy signatory, not a Party).",
+ "confidence": "high",
+ "unverified": []
+}

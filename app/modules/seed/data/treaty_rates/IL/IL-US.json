@@ -1,0 +1,69 @@
+{
+ "a": "IL",
+ "b": "US",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the State of Israel with respect to taxes on income (1975, as amended by Protocols 1980 and 1993)",
+ "signed": "1975-11-20",
+ "entry_into_force": "1994-12-30",
+ "eif_source_url": "https://www.irs.gov/pub/irs-lbi/table-3-list-of-tax-treaties.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-israel-instrument-deposit.pdf ; https://www.irs.gov/pub/irs-trty/israel.pdf",
+ "eif_quote": "Table 3: \"Israel TIAS Jan. 1, 1995\"; Israel MLI list: United States Original 20-11-1975 30-12-1994; IRS text header: GENERAL EFFECTIVE DATE UNDER ARTICLE 31: 1 JANUARY 1995",
+ "source_title": "IRS – US–Israel Income Tax Convention 1975 with Protocols of 30 May 1980 and 26 January 1993",
+ "source_url": "https://www.irs.gov/pub/irs-trty/israel.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 12(2)(b) (as amended by Protocol 1980 Art. VIII and Protocol 1993 Art. VII)",
+   "valid_from": "1995-02-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "When a corporation is the recipient of a dividend from a paying corporation of income derived during any period for which the paying corporation is not entitled to the reduced tax rate applicable to an approved enterprise under Israel's Encouragement of Capital Investments Law (1959), 12.5 percent of the gross amount of the dividend paid, but only if-"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1995-02-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 25 percent of the gross amount of the dividend paid; or"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 13(2)(a)",
+   "valid_from": "1995-02-01",
+   "max_rate": "17.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "shall not be taxed by the other Contracting State at a rate in excess of 17.5 percent of the gross amount of such interest"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 14(1)(b)",
+   "valid_from": "1995-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Shall not be taxed by the other Contracting State at a rate in excess of 10 percent of the gross amount of a copyright or film royalty or at a rate in excess of 15 percent of the gross amount of an industrial royalty."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "No MLI coverage (US not an MLI signatory); treaty has Limitation on Benefits (Art. 25 as replaced by 1993 Protocol), not a PPT",
+  "source_url": "https://www.irs.gov/pub/irs-trty/israel.pdf",
+  "quote": null
+ },
+ "notes": "Dividends: 12.5% tier requires the recipient corporation to own >=10% of voting stock during the part of the payer's taxable year preceding payment and the whole prior taxable year (not a fixed day count; min_holding_days left null) and the payer's prior-year gross income not >25% passive interest/dividends; 15% (Art. 12(2)(c), Protocol 1980) applies instead for dividends out of income from an Israeli 'approved enterprise' period (same conditions) — not modelled. Art. 12(3) (1993 Protocol): US RIC dividends limited to 25% only; REIT dividends 25% only for individuals holding <10%, otherwise domestic law; Israel: para. 2 not applicable to dividends of corporations taxed under ss. 64/64A ITO. Interest: 10% for interest on loans granted by a bank, savings institution, insurance company or the like (not modelled); exempt for a Contracting State/tax-exempt instrumentality and State-guaranteed/insured debt; Art. 13(2)(b) election for net-basis taxation; REMIC excess inclusions excluded. Royalties: 10% for copyright/film royalties (not modelled separately); 15% industrial royalties (modelled). Branch tax Art. 14-A. Art. 31(a): withholding rates effective for amounts paid on/after the first day of the second month following EIF (EIF 30.12.1994 -> 1.2.1995); IRS header gives general effective date 1 January 1995. Saving clause Art. 6(3).",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from 1995-02-01 computed from Art. 31(a) and EIF 1994-12-30 (IRS shows 1 January 1995 general effective date)"
+ ]
+}

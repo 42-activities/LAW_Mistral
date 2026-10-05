@@ -1,0 +1,92 @@
+{
+ "a": "OM",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the Sultanate of Oman and the Government of the Republic of Mauritius for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998)",
+ "signed": "1998-03-30",
+ "entry_into_force": "1998-07-20",
+ "eif_source_url": "https://www.mra.mu/index.php/taxes-duties/international-taxation/double-taxation-agreements",
+ "eif_quote": "MRA: 'The treaties currently in force are: ... Oman ...' (EIF date 1998-07-20 from treaty map; not printed on the sources read)",
+ "source_title": "MRA: Synthesised text of the MLI and the Mauritius-Oman Agreement; Oman Tax Authority DTA Mauritius (English)",
+ "source_url": "https://www.mra.mu/download/SultanateOfOmanSynthesised.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "OM",
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1999-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "OM",
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1999-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "OM",
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1999-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-07-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mra.mu/download/SultanateOfOmanSynthesised.pdf",
+  "quote": "(a) with respect to the application of the Agreement by Oman, in accordance with paragraph 1 of Article 35 of the MLI: - with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2021; ... b) with respect to the application of the Agreement by Mauritius, in accordance with paragraphs 1 and 2 of Article 35 of the MLI: - with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 01 July 2021"
+ },
+ "notes": "Dividends, interest and royalties are taxable only in the residence State (no beneficial-ownership condition in Art. 10(1)/11(1)/12(1)). Art. 27 effective dates differ: Oman - income arising on or after 1 January of the year following the later notification; Mauritius - income arising in fiscal years beginning on or after 1 July next following the later notification. With EIF/later notification 1998-07-20 this gives 1999-01-01 (Oman source) and 1999-07-01 (Mauritius source); entries split by source_state accordingly. PPT (MLI Art. 7(1)) has effect for WHT from 2021-01-01 in Oman and from 2021-07-01 in Mauritius; ppt.from = 2021-07-01 (date from which it applies in both directions). Conflict on signature date: MRA synthesised text says 'signed on 30 March 1998' / 'this thirty day of March', the Oman-hosted English text reads 'this Third day of March 1998', and the Oman portal table says sign-date 16/11/1997 (royal decree 10/1998 of 10/05/1998); 1998-03-30 kept (treaty map + MRA). Authentic languages Arabic and English.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF date 1998-07-20 (taken from treaty map; affects valid_from of 1999 dates)",
+  "Signature date conflict (3 vs 30 March 1998)"
+ ]
+}

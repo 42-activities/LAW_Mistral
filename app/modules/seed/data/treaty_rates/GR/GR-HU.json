@@ -1,0 +1,69 @@
+{
+ "a": "GR",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Hungarian People's Republic and the Government of the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1983)",
+ "signed": "1983-05-25",
+ "entry_into_force": "1985-02-17",
+ "eif_source_url": "https://njt.jog.gov.hu/jogszabaly/1985-33-20-65",
+ "eif_quote": "(Az Egyezmény, valamint az ahhoz kapcsolódó jegyzőkönyv jóváhagyásáról szóló jegyzékváltás az 1984. évi december hó 19. napján megtörtént.) ... Az Egyezmény az (1) bekezdésben említett értesítések közül a későbbinek a kelte után 60 nappal lép hatályba",
+ "source_title": "Nemzeti Jogszabálytár: 33/1985. (VII. 1.) MT rendelet (official Hungarian translation of HU–GR Convention 1983, with Protocol)",
+ "source_url": "https://njt.jog.gov.hu/jogszabaly/1985-33-20-65",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1985-01-01",
+   "max_rate": "45",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "de ha a kedvezményeket az osztalék haszonhúzója, az így megállapított adó nem haladhatja meg: a) az osztalék bruttó összegének 45%-át, ha az osztalékot fizető társaság a Görög Köztársaságban bír illetőséggel;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1985-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HU",
+   "quote": "b) az osztalék bruttó összegének 10%-át, ha az osztalékot fizető társaság a Magyar Népköztársaságban bír illetőséggel."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mindazonáltal ez a kamat abban a Szerződő Államban is, amelyből származik, ennek az Államnak jogszabályai szerint megadóztatható, de ha a kedvezményezett a kamat haszonhúzója, az így megállapított adó nem haladhatja meg a kamat bruttó összegének 10%-át."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mindazonáltal a (3) bekezdés b) pontjában meghatározott licencdíj abban a Szerződő Államban is, amelyikben keletkezett, ennek a Szerződő Államnak jogszabályai szerint megadóztatható, de az így megállapított adó nem haladhatja meg a licencdíj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+  "quote": "Hungary MLI deposit list of Covered Tax Agreements: 'Greece Original 25-05-1983 17-02-1985'; MLI Art. 7(1) PPT applies as minimum standard (no Art. 7 opt-out by Greece or Hungary)."
+ },
+ "notes": "Dividends are capped by source State: 45% where the paying company is resident in Greece, 10% where resident in Hungary (Protocol ad Art. 10: cumulative Greek tax on dividends and underlying profits may not exceed 45% pending review). Interest: Art. 11(3) exempts interest derived by the other State's government/local authorities or central bank (not modelled). Royalties: 10% cap applies only to industrial royalties under Art. 12(3)(b) (patents, trademarks, designs, secret formulae, equipment, know-how); copyright/film royalties (Art. 12(3)(a)) are not covered by para 2 and are taxable only in the residence State (not modelled). Effective date: the promulgating decree, §3(1), applies the convention to withholding taxes from 1 January 1985 (exchange of notes 19 December 1984; Art. 29(2)(a): year following the later notification). MLI: Greece and Hungary both reserved Art. 8 entirely; PPT effective 2022-01-01 per treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "HU–GR MLI synthesised text not read"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "PT",
+ "b": "CZ",
+ "treaty_name": "Convention between the Portuguese Republic and the Czech Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1994)",
+ "signed": "1994-05-24",
+ "entry_into_force": "1997-10-01",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "REP. CHECA Resolução da Assembleia da República n.º 26/1997 de 9 de Maio Aviso n.º 288/1997 publicado em 08-11-1997 EM VIGOR DESDE 01-10-1997",
+ "source_title": "Diário da República I Série-A n.º 107, 9-5-1997 (Resolução AR n.º 26/97), Portuguese and English texts, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/republica%20checa.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos e de acordo com a legislação desse Estado, mas, se a pessoa que recebe os dividendos for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 15% do montante bruto dos dividendos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "Não obstante o disposto no n.º 2, se o beneficiário efectivo for uma sociedade que, durante um período ininterrupto de dois anos anteriormente ao pagamento dos dividendos, detenha directamente pelo menos 25% do capital social da sociedade que paga os dividendos, o imposto assim estabelecido não poderá exceder 10% do montante bruto dos dividendos pagos depois de 31 de Dezembro de 1996."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas, se a pessoa que recebe os juros for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 10% do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Todavia, essas royalties podem ser igualmente tributadas no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas, se a pessoa que receber as royalties for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 10% do montante bruto das royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(2): withholding taxes apply from 1 January of the year following entry into force (PT: taxable event on/after; CZ: amounts derived on/after) -> 1998-01-01. Art. 10(3): 10% tier requires direct holding of at least 25% for an uninterrupted two-year period before payment (modelled as 730 days). Art. 11(3): interest exempt at source when paid by/to the Governments or local authorities, under inter-governmental financing agreements, or on loans by Česká národní banka, Konsolidační banka, Caixa Geral de Depósitos, BNU, BFE, Banco Borges & Irmão and ICEP - not modelled. English text (prevails in case of divergence) contains typos in Art. 12(2) ('shall exceed'); Portuguese text quoted. MLI: covered by both, PPT (Art. 7(1)) effective for WHT from 2021-01-01 per treaty map. MLI Art. 8 not applicable: Czech Republic reserved Art. 8(3)(a) and Portugal reserved Art. 8(3)(b)(i) for Art. 10(3) of this treaty (already has a holding period). EU Parent-Subsidiary and Interest-Royalties Directives may give lower rates (not treaty tiers).",
+ "confidence": "high",
+ "unverified": []
+}

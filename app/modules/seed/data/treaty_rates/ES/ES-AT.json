@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "AT",
+ "treaty_name": "Convention between Spain and Austria for the avoidance of double taxation with respect to taxes on income and on capital (1966, as amended 1995)",
+ "signed": "1966-12-20",
+ "entry_into_force": "1968-01-01",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_austria.pdf",
+ "eif_quote": "El Canje de Instrumentos de Ratificación se efectuó en Madrid el 8 de noviembre de 1967, y entrará en vigor en 1 de enero de 1968, conforme a su artículo 29.",
+ "source_title": "Texto sintético del MLI y del Convenio España-Austria (Ministerio de Hacienda) + BOE 6-1-1968 and BOE 2-10-1995 (Protocol 1995)",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-austria-sp.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1968-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) Diez por ciento del importe bruto de los dividendos, si el beneficiario en una Sociedad (excluidas las Sociedades de personas) que posea directamente al menos el 50 por 100 del capital de la Sociedad que los abona, siempre que esta participación esté representada por acciones poseídas, al menos, con un año de antelación a la fecha de distribución."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1968-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Quince por ciento del importe bruto de los dividendos, en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as replaced by Protocol 1995, point 3)",
+   "valid_from": "1995-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, estos intereses pueden someterse a imposición en el Estado Contratante del que procedan, de acuerdo con la legislación de este Estado, pero el impuesto así exigido no puede exceder del 5 por 100 del importe de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1968-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, estos cánones pueden someterse a imposición en el Estado contratante del que procedan y de acuerdo con la legislación de este Estado, pero el impuesto así exigido no puede exceder del 5 por 100 del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-austria-sp.pdf",
+  "quote": "No obstante las disposiciones [del Convenio], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta o de patrimonio cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo... (TS: MLI effective in Spain and Austria for taxes withheld at source from 1 January 2023)"
+ },
+ "notes": "Protocol 1995-02-24 in force 1995-11-01; its Art. 11 replacement applies to income obtained from the exchange of instruments (1995-09-19) 'pero nunca más tarde del 1 de enero de 1995, cualquiera que fuere la primera' -> 1995-01-01. Dividend 10% tier requires a company (not partnership) beneficial holder with >=50% direct holding held at least one year before distribution (already a treaty condition; MLI art. 8 not shown in synthesised text). Valid_from for dividend/royalty set to treaty EIF 1968-01-01 (Art. 29(2): provisions take effect from that date). MLI WHT effect 2023-01-01 per synthesised text (matches treaty map).",
+ "confidence": "high",
+ "unverified": []
+}

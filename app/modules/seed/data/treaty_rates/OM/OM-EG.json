@@ -1,0 +1,59 @@
+{
+ "a": "OM",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Sultanate of Oman and the Government of the Arab Republic of Egypt for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2023)",
+ "signed": "2023-05-22",
+ "entry_into_force": null,
+ "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
+ "eif_quote": "{ \"id\": \"EG\", \"name\": \"Egypt\", \"sign-date\": \"22/05/2023\", \"sign-decree\": \"2033/43\", \"effective\": \"1/1/2026\", \"royal-date\": \"26/06/2023\" }",
+ "source_title": "Oman Tax Authority: DTA Oman-Egypt (Arabic text)",
+ "source_url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/-54?download=true",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، فإن توزيعات (أرباح) الأسهم يجوز أن تخضع أيضاً للضريبة في الدولة المتعاقدة التي تقيم فيها الشركة الدافعة للتوزيعات (للأرباح) وفقاً لقوانين تلك الدولة، ولكن إذا كان المالك المستفيد من توزيعات الأسهم مقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تزيد على عشرة بالمائة (10%) من إجمالي قيمة توزيعات (أرباح) الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، فإن هذه الفوائد يجوز أن تخضع للضريبة في الدولة المتعاقدة التي تنشأ فيها، وطبقاً لقوانين تلك الدولة، ولكن إذا كان المالك المستفيد من الفوائد مقيماً في الدولة المتعاقدة الأخرى، ففي هذه الحالة يجب ألا تزيد الضريبة المفروضة على (12%) اثني عشر بالمائة من إجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، يجوز أن تخضع هذه الإتاوات وأتعاب الخدمات الفنية للضريبة في الدولة المتعاقدة التي تنشأ فيها، وطبقاً لقوانين تلك الدولة، ولكن إذا كان المالك المستفيد للإتاوات وأتعاب الخدمات الفنية مقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا يزيد سعرها على (10%) عشرة بالمائة من إجمالي مبلغ الإتاوات وأتعاب الخدمات الفنية."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://tms.taxoman.gov.om/portal/documents/d/taxportal/-54?download=true",
+  "quote": "استثناء من الأحكام الأخرى لهذه الاتفاقية لن يسمح بأي من مزايا هذه الاتفاقية بالنسبة لعناصر الدخل إذا كان بالنظر إلى كافة الحقائق والظروف ذات الصلة قد ثبت أن الحصول على هذه المزايا هو الهدف أو أحد الأهداف الرئيسية لأي ترتيب أو تعامل قد أدى بطريقة مباشرة أو غير مباشرة للحصول على تلك المزايا، إلا إذا كان الحصول على هذه المزايا في هذه الظروف يتفق مع أحكام هذه الاتفاقية."
+ },
+ "notes": "Entry into force date not found: the treaty (Art. 29) enters into force on the date of receipt of the last notification and applies to WHT on income from 1 January of the year following EIF; the Oman portal gives only 'effective 1/1/2026' (implying EIF during 2025) and Egypt approved it by Presidential Decree 320/2024 (published January 2025, press reports only). entry_into_force left null; valid_from = 2026-01-01 per Oman's stated effective date. Arabic text from the Oman portal PDF has a reversed visual-order text layer; quotes reconstructed (digits read reversed: '01'->10, '21'->12 confirmed by words 'عشرة' / 'اثني عشر'). Art. 10(3): dividends beneficially owned by a Contracting State's government are exempt - not modelled. Art. 10(7): branch remittance tax on PE profits up to 5% - not modelled. Art. 12 also covers fees for technical services at 10%. Interest Art. 11(3): government-owned exemptions - not modelled. MLI: treaty postdates MLI positions, not a covered agreement (treaty map). Treaty Art. 28 ('مكافحة سوء استخدام الاتفاقية' - prevention of treaty abuse) is a principal-purpose test; quote reconstructed.",
+ "confidence": "low",
+ "unverified": [
+  "Entry into force date",
+  "Arabic quotes reconstructed from reversed text layer"
+ ]
+}

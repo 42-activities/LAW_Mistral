@@ -1,0 +1,58 @@
+{
+ "a": "SA",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of Hungary for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital (2014)",
+ "signed": "2014-03-24",
+ "entry_into_force": "2015-05-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Agreement between the government of the kingdom of Saudi Arabia and the government of Hungary for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 24/3/2014 and entered into force on 1/5/2015.",
+ "source_title": "ZATCA: SA-HU Convention 2014 with Protocol (English text, Art. 10-12, 28, 29)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Hungary.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2016-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed: [...] (b) 8 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties Art. 12(2)(a): 5% for the use of, or the right to use, industrial, commercial or scientific equipment - not modelled as separate tier (general 8% kept). Interest exempt at source. Signing date: treaty text reads 'Done in duplicate at Riyadh on this 23rd day of Jumada First 1435h Corresponding to 24th day of March 2014' (the '23' is the Hijri day), so 2014-03-24 (resolves 23/24 conflict in map). Art. 29(2)(a): WHT from 1 January next following EIF (2015-05-01 -> 2016-01-01, matches Hungary list). Art. 28: domestic anti-abuse rules preserved where competent authority determines main purpose was to obtain treaty benefits (notified by Saudi Arabia under MLI Art. 7(17)(a)). Saudi Arabia and Hungary both reserved MLI Art. 8 entirely. PPT WHT effective 2022-01-01 per treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date taken from treaty map, not re-derived"
+ ]
+}

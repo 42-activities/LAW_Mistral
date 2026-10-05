@@ -1,0 +1,58 @@
+{
+ "a": "TR",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Czech Republic and the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (1999)",
+ "signed": "1999-11-12",
+ "entry_into_force": "2003-12-16",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "49) Çek Cumhuriyeti 12.11.1999 15.12.2003 - 25317 16.12.2003 01.01.2004; Sdělení č. 19/2004 Sb. m. s.: \"Smlouva vstoupila v platnost na základě svého článku 27 dne 16. prosince 2003\"",
+ "source_title": "Sdělení č. 19/2004 Sb. m. s. - Smlouva mezi Českou republikou a Tureckou republikou o zamezení dvojího zdanění (secondary: zakonyprolidi.cz reproduction of the Sbírka mezinárodních smluv text)",
+ "source_url": "https://www.zakonyprolidi.cz/ms/2004-19",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye not an MLI Party; no principal-purpose clause)",
+  "source_url": "https://www.zakonyprolidi.cz/ms/2004-19",
+  "quote": ""
+ },
+ "notes": "Art. 27: EIF on the date of the later notification (2003-12-16); applies to taxes for taxation periods beginning on/after 1 January of the year following EIF -> 2004-01-01 (GİB list). Single 10% dividend rate (no participation tier). Interest exempt at source (Art. 11(3)) when received and beneficially owned by the other State's government/subdivisions/local authorities, the Central Bank of Turkey and Eximbank of Turkey, the Czech National Bank and Czech Export Bank, or other wholly government-owned institutions as agreed. Protocol contains no WHT provisions. GİB Turkish text for this treaty not located on cdn.gib.gov.tr; Czech text read via zakonyprolidi.cz (private reproduction of the official Sbírka mezinárodních smluv) - hence 'secondary'.",
+ "confidence": "medium",
+ "unverified": [
+  "Text from secondary reproduction (zakonyprolidi.cz) of Sb. m. s. 19/2004; official e-Sbírka page not machine-readable"
+ ]
+}

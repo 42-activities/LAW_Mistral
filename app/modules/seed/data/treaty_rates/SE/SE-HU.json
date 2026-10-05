@@ -1,0 +1,67 @@
+{
+ "a": "SE",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Kingdom of Sweden and the Government of the Hungarian People's Republic for the avoidance of double taxation with respect to taxes on income and on capital (1981)",
+ "signed": "1981-10-12",
+ "entry_into_force": "1982-08-15",
+ "eif_source_url": "https://www.regeringen.se/contentassets/0d9d96877b47449c860fbe849b398110/avtal-med-ungern-for-undvikande-av-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-stockholm-den-12-oktober-1981.pdf",
+ "eif_quote": "Regeringen beslöt ratificera avtalet den 27 maj 1982. Avtalet träder i kraft den 15 augusti 1982, efter noteväxling enligt art. 28. (SÖ 1982:21)",
+ "source_title": "SÖ 1982:21 Avtal med Ungern för undvikande av dubbelbeskattning beträffande skatter på inkomst och förmögenhet (English authentic text + Swedish translation); cross-checked with Prop. 1981/82:147",
+ "source_url": "https://www.regeringen.se/contentassets/0d9d96877b47449c860fbe849b398110/avtal-med-ungern-for-undvikande-av-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-stockholm-den-12-oktober-1981.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Sweden reserved Art. 35(7)(a); no Swedish Art. 35(7)(b) notification for this treaty (per treaty map / OECD status list 15 Sep 2026)."
+ },
+ "notes": "Valid from 1983-01-01 per Art. 28(2)(a) (income derived on or after 1 January next following the year of entry into force, EIF 1982-08-15). Art. 10(4): Hungarian dividends to Swedish companies exempt from Swedish tax to extent exempt under Swedish law (residence-side rule, not modelled). Protocol point 3: Art. 10 applies correspondingly to dividends paid by Hungarian economic associations with foreign participation established as unlimited partnerships. Royalty definition includes industrial, commercial or scientific equipment. No amending protocol (SFSR shows only 2011 amendment of the Swedish law itself). MLI: covered by both, but Sweden reserved Art. 35(7)(a) without notification, so MLI PPT not in effect. Quotes taken from the SÖ PDF text layer (scan OCR) with OCR artefacts corrected; wording matches Prop. 1981/82:147.",
+ "confidence": "high",
+ "unverified": []
+}

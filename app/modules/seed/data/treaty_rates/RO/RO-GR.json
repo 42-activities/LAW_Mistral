@@ -1,0 +1,67 @@
+{
+ "a": "RO",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of Romania and the Government of the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1991)",
+ "signed": "1991-09-17",
+ "entry_into_force": "1995-04-07",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "Romania Original 17-09-1991 07-04-1995 (Greece MLI position); ANAF list: Grecia | 25/12.03.1992 | 46/1992 | 01.01.1996",
+ "source_title": "Legea nr. 25/1992 – Convenția România–Grecia (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Grecia.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "45",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "a) 45 la sută din suma brută a dividendelor, dacă societatea care le distribuie este rezidentă a Greciei, şi"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "RO",
+   "quote": "b) 25 la sută din suma brută a dividendelor, dacă societatea care le distribuie este rezidentă a României."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă primitorul este beneficiarul efectiv al dobînzilor, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a dobînzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "şi 7 la sută din suma brută a redevenţelor plătite pentru folosirea sau dreptul de folosire a oricărui brevet de invenţie, marcă de fabrică, design sau model, plan, formulă sau procedeu secret, ca şi pentru folosirea unui echipament industrial, comercial sau ştiinţific sau pentru informaţiile relative la experienţa cîştigată în domeniul industrial, comercial sau ştiinţific."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Grecia.pdf",
+  "quote": "Prin derogare de la prevederile convenției, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de avere atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "Dividend caps are directional: 45% where the paying company is Greek-resident (source GR), 25% where Romanian-resident (source RO) — both exceed current domestic rates/EU PSD outcomes, so effectively non-binding; 45% is outside the validator's 0–35 range but is the treaty text. Royalties: 5% for copyright of literary/artistic/scientific works incl. films and radio/TV tapes (Art. 13(2), not modelled as separate tier); 7% for patents, trademarks, designs, secret formulas, equipment and know-how (modelled as general). Article 12 = commissions capped at 5%. Art. 30(2): applies to income derived on/after 1 January of the year following EIF. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": []
+}

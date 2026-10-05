@@ -1,0 +1,70 @@
+{
+ "a": "OM",
+ "b": "ES",
+ "treaty_name": "Agreement between the Sultanate of Oman and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2014)",
+ "signed": "2014-04-30",
+ "entry_into_force": "2015-09-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+ "eif_quote": "he prevention of fiscal evasion with respect to taxes on income. Oman Original 30-04-2014 19-09-2015 17 64 Convenio entre el Reino",
+ "source_title": "Oman Tax Authority: Agreement Oman-Spain (English text with Protocol)",
+ "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA-SPAAIN-ENG.pdf/326e024d-d6fe-dfc1-71b0-34065708e721?t=1738135322039",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-09-19",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 20 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2015-09-19",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-09-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-09-19",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+  "quote": "Treaty map: MLI WHT effect computed: Art. 35(7): 30 days after latest 35(7)(b) notification (ES:2022-06-01), then Art. 35(1)(a)."
+ },
+ "notes": "Dividends and interest paid to the Government of the other State are exempt (Art. 10(3), 11(3)) - not modelled. Art. 29(2)(i): WHT provisions have effect for amounts paid or credited on or after the EIF date (three months after the later notification) - valid_from = EIF 2015-09-19. Treaty-level anti-abuse in Protocol I: A.4 main-purpose rule for Arts. 10-13 (creation/assignment of shares, debt-claims, rights), A.2 beneficial-owner requirement, and B: Arts. 10-13 do not apply where the paying entity derives its income from a jurisdiction with no DTA with the other State and that income is exempt/untaxed in the first State (unless competent authorities agree). MLI: Spain made an Art. 35(7) reservation; WHT effect 2023-01-01 per treaty map. Spain notified Art. 10(2)(a) of this treaty under MLI Art. 8(4); whether the MLI Art. 8 365-day holding period applies to the 0% tier depends on Oman's matching notification, which could not be read (Oman MLI position PDF is a scan) - min_holding_days left null.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether MLI Art. 8 (365-day holding period) applies to the 0% dividend tier (Oman's Art. 8 notification not readable)",
+  "PPT effective date taken from treaty map (no synthesised text read)"
+ ]
+}

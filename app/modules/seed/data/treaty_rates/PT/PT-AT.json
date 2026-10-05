@@ -1,0 +1,56 @@
+{
+ "a": "PT",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Austria and the Portuguese Republic for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (1970)",
+ "signed": "1970-12-29",
+ "entry_into_force": "1972-02-27",
+ "eif_source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004117",
+ "eif_quote": "Die Ratifikationsurkunden zum vorliegenden Abkommen samt Notenwechsel sind am 27. Jänner 1972 ausgetauscht worden; das Vertragswerk ist somit gemäß Art. 29 Abs. 2 des Abkommens am 27. Feber 1972 in Kraft getreten.",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Portugal (BGBl. Nr. 85/1972, German authentic text), Fassung vom 05.10.2026",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004117",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1973-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden dürfen jedoch in dem Vertragstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 15 vom Hundert des Bruttobetrages dieser Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1973-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch in dem Vertragstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 10 vom Hundert des Bruttobetrages der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1973-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 vom Hundert des Bruttobetrages der Lizenzgebühren, die von einer in diesem Vertragstaat ansässigen Gesellschaft an eine in dem anderen Vertragstaat ansässige Person gezahlt werden, die zu mehr als 50 vom Hundert am Kapital der die Lizenzgebühren zahlenden Gesellschaft beteiligt ist;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40227177/III_93_2018_DBA_Portugal_synthesised_deutsch_final.pdf",
+  "quote": "Ungeachtet der Bestimmungen dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu dieser Vergünstigung geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieser Vergünstigung unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Art. 29(2): WHT first applies in Austria to income accruing after 31 December of the EIF year, in Portugal to taxable events on/after 1 January of the following year -> 1973-01-01. EIF date: RIS (Austrian promulgation) 27.2.1972; Portal das Finanças table says 'EM VIGOR DESDE 28-02-1972' (minor conflict; irrelevant for valid_from). ROYALTY tier is INVERTED: Art. 12(2)(a) imposes the HIGHER 10% cap where the recipient holds MORE THAN 50% of the capital of the paying company; 5% applies in all other cases. The ownership_threshold '50' entry is a higher-rate tier (strictly >50%) - an engine that picks the lowest rate for holdings above a threshold must not apply 5% to >50% holders. Dividends: single 15% cap, no participation tier. No government interest exemption. Portuguese text read is a scanned PDF (not machine-readable); the German authentic text in RIS was used. MLI: covered by both; synthesised text (RIS Anlage 2) confirms PPT (Art. 7(1) MLI) effective for WHT on events on/after 1 January 2021 for both States. MLI Art. 8 not applicable (Austria reserved Art. 8(3)(a); no participation tier). [curated: ROYALTY 10% tier above 50% used as the general rate — a higher rate for larger holdings is not modelled]",
+ "confidence": "high",
+ "unverified": []
+}

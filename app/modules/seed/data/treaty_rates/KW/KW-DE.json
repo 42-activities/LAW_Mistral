@@ -1,0 +1,67 @@
+{
+ "a": "KW",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital and for the promotion of economic relations (1999)",
+ "signed": "1999-05-18",
+ "entry_into_force": "2000-08-02",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Kuwait/1989-04-15-Kuwait-Abkommen-DBA.html",
+ "eif_quote": "Abkommen vom 18. Mai 1999 Inkrafttreten: 2. August 2000 Fundstellen: Bundesgesetzblatt 2000 Teil II S. 390 Bundessteuerblatt 2000 Teil I S. 439 Bundesgesetzblatt 2000 Teil II S. 1156",
+ "source_title": "DBA Deutschland–Kuwait vom 18.5.1999 mit Protokoll, BGBl. 2000 II S. 390 (German/English, BMF PDF)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Kuwait/2000-03-09-Kuwait-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner (other than an individual or a partnership) holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "1998-01-01",
+  "basis": "treaty art. 23(2) (limitation on benefits with principal-purpose condition; applies only to Kuwaiti companies claiming German relief)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Kuwait/2000-03-09-Kuwait-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+  "quote": "2. A further prerequisite for relief from German taxes under paragraph 1 is that the company resident in the State of Kuwait proves that it was not a principal purpose of the company or of the conduct of its business or of the acquisition or maintenance by it of the shareholding or other property from which the income in question is derived to obtain any of such benefits to the advantage of a person who is not a resident of the State of Kuwait."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts paid after 31 Dec 1997 (retroactive; EIF 2000-08-02); replaces the 1987 Agreement (applied 1984-1997). Art. 10(2) last sentence: extra 5% relief for portfolio dividends only while Germany grants the corporation-tax imputation credit (abolished under German law; not modelled, interpretive). Protocol item 5: dividends and interest from profit-participating rights/debt (silent partnership, partiarisches Darlehen, Gewinnobligationen) deductible for the debtor may be taxed at source under domestic law (not modelled). Art. 23 LOB: Kuwaiti residents get Art. 8, 10-13 and 22(4) benefits in Germany only if the State of Kuwait, a government institution, an individual, or a company >=51% Kuwaiti-owned/controlled (GIC, UASC excepted) that also passes the principal-purpose and base-erosion (>50% gross income) tests, certified by the Kuwaiti competent authority; German anti-avoidance law preserved (Art. 23(3)). Royalties include equipment rentals and know-how, exclude services. Revision protocol initialled 2025-05-08, not signed (treaty map). Kuwait not an MLI Party; treaty not in either MLI list.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "US",
+ "b": "CZ",
+ "treaty_name": "Convention between the United States of America and the Czech Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital (1993)",
+ "signed": "1993-09-16",
+ "entry_into_force": "1993-12-23",
+ "eif_source_url": "https://mf.gov.cz/cs/zahranici-a-eu/smlouvy-o-zamezeni-dvojiho-zdaneni/prehled-platnych-smluv",
+ "eif_quote": "USA (Spojené státy americké) | 23.12.1993 | 32/1994 Sb.",
+ "source_title": "US-Czech Republic Income and Capital Tax Convention signed at Prague 16 September 1993 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/czech.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 percent of the voting shares of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1994-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1994-02-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties described in subparagraph b) of paragraph 3 may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; CZ does not list the US treaty; treaty has LOB Article 17)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/czech.pdf",
+  "quote": ""
+ },
+ "notes": "valid_from per Art. 29(2)(a): taxes withheld at source for amounts paid or credited on or after the first day of the second month next following EIF (1993-12-23 -> 1994-02-01). ROYALTY split by type (Art. 12(2)-(3)): copyright royalties (literary, artistic, scientific works incl. films, tapes) in Art. 12(3)(a) are taxable only in the residence State (0% at source); the 10% cap applies to Art. 12(3)(b) royalties (patents, trademarks, designs, models, plans, secret formulas/processes, industrial/commercial/scientific equipment, know-how). The single ROYALTY entry records the 10% industrial-royalty cap. Not modelled: RIC/REIT dividend rules (Art. 10(3)); branch tax max 5% (Art. 10(6)); US REMIC excess inclusions under domestic law (Art. 11(2)).",
+ "confidence": "high",
+ "unverified": []
+}

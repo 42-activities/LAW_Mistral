@@ -1,0 +1,56 @@
+{
+ "a": "BH",
+ "b": "AT",
+ "treaty_name": "Convention between the Government of the Republic of Austria and the Government of the Kingdom of Bahrain with respect to Taxes on Income and on Capital (2009)",
+ "signed": "2009-07-02",
+ "entry_into_force": "2011-02-01",
+ "eif_source_url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2011_III_14/BGBLA_2011_III_14.pdf",
+ "eif_quote": "Ratifikationsurkunde wurde gemäß Art. 27 Abs. 1 des Abkommens am 30. November 2010 ausgetauscht; das Abkommen tritt daher gemäß seinem Art. 27 Abs. 2 am 1. Februar 2011 in Kraft.",
+ "source_title": "BGBl. III Nr. 14/2011, Anlage: English text of AT-BH Convention (RIS)",
+ "source_url": "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2011_III_14/COO_2026_100_2_648597.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may only be taxed in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not applicable",
+  "source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+  "quote": "Austria does not list the Bahrain treaty as a Covered Tax Agreement (treaty-map: 'Bahrain lists the AT treaty under MLI but Austria does not -> not covered'); the convention itself contains no principal purpose test."
+ },
+ "notes": "valid_from per Art. 27(2): provisions effective for fiscal years beginning after 31 Dec of the year of exchange of ratification instruments (30 Nov 2010) -> 2011-01-01 (BMF list: 'Anwendbar ab 2011'). Article 11 is titled 'Income from debt-claims'. No source-State taxation on dividends, interest or royalties. MLI not in effect for this pair (AT does not list BH).",
+ "confidence": "high",
+ "unverified": []
+}

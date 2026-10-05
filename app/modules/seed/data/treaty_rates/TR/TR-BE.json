@@ -1,0 +1,70 @@
+{
+ "a": "TR",
+ "b": "BE",
+ "treaty_name": "Convention between the Republic of Turkey and the Kingdom of Belgium for the Avoidance of Double Taxation with respect to Taxes on Income, with Protocol (1987)",
+ "signed": "1987-06-02",
+ "entry_into_force": "1991-10-08",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "15) Belçika 02.06.1987 15.09.1991 - 20992 08.10.1991 01.01.1992 (3)",
+ "source_title": "Türkiye-Belçika Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FBELCIKA.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1992-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Temettü elde eden, temettü Ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 10'unu elinde tutan bir şirket ise (ortaklıklar hariç) gayri safi temettü tutarının yüzde 15'i;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1992-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 20'si."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, bu faiz elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak faizin gerçek lehdarı diğer Akit Devletin bir mukimi ise bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 15'ini aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayri safi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but is not an MLI Party; no principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FBELCIKA.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29: EIF on the 15th day after the last notification; applies in Türkiye to taxation periods beginning on/after 1 January of the year after EIF and in Belgium to WHT on amounts paid or credited on/after 1 January of the year after EIF -> 1992-01-01 (GİB list 'uygulanmaya başlandığı tarih 01.01.1992'). NOT MODELLED - Protocol para. 4 (ad Art. 10(2)) conditional reductions tied to domestic participation-exemption rules: (a) as long as under Turkish law the relevant company is not subject to income tax on the dividends, the Art. 10(2)(a)/(b) rates are reduced to 5% for dividends received by a Turkish-resident company from a Belgian-resident company; (b) as long as under Belgian law a Belgian-resident company is not subject to corporate tax on dividends received from a Turkish-resident company, the rates are reduced to (i) 10% for dividends paid by a Turkish company to a Belgian company and (ii) 5% for dividends paid by a Belgian company to a Turkish company. Whether these conditions are currently met depends on domestic law and was not verified; the OCR text of para. 4(a) is partly garbled. Interest exempt when paid to the other Government or Central Bank (Art. 11(3)); deferred-payment sales of equipment not treated as interest (Protocol para. 6); technical/consulting service fees not know-how (Protocol para. 7). Protocol para. 5: 'beneficial owner' interpreted to deny benefits to third-country residents. An amending instrument signed 2013-07-09 is listed in Belgium's MLI position without EIF and is absent from the GİB in-force list (23.04.2025) - treated as not in force.",
+ "confidence": "medium",
+ "unverified": [
+  "Current applicability of Protocol para. 4 conditional dividend rates (5%/10%)",
+  "Status of 2013-07-09 amending protocol (absent from GİB in-force list)"
+ ]
+}

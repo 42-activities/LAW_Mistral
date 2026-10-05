@@ -1,0 +1,69 @@
+{
+ "a": "PT",
+ "b": "HU",
+ "treaty_name": "Convention between the Portuguese Republic and the Republic of Hungary for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1995)",
+ "signed": "1995-05-16",
+ "entry_into_force": "1999-01-28",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=A0000019.TV",
+ "eif_quote": "(Az Egyezmény megerősítéséről szóló jegyzékváltás 1999. január 28-án megtörtént, és az Egyezmény 1999. január 28-án hatályba lépett.) ... az Egyezmény rendelkezéseit azonban Portugáliában az Egyezmény 28. Cikk 2. bekezdés b) pontja (i) alpontja alá eső adók tekintetében 2000. január 1-jén vagy azt követően keletkezett jövedelmekre ... Magyarországon az Egyezmény 28. Cikk 2. bekezdés a) pontja (i) alpontja alá eső adók tekintetében 2000. január 1-jén vagy azt követően keletkezett jövedelmekre",
+ "source_title": "Diário da República I Série-A n.º 23, 28-1-1999 (Resolução AR n.º 4/99), Portuguese text, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/hungria.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos e de acordo com a legislação desse Estado, mas se a pessoa que recebe os dividendos for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 15 % do montante bruto dos dividendos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "Não obstante o disposto no n.º 2, se o beneficiário efectivo for uma sociedade que, durante um período ininterrupto de dois anos anteriormente ao pagamento dos dividendos, detenha directamente pelo menos 25 % do capital social da sociedade que paga os dividendos, o imposto assim estabelecido não poderá exceder 10 % do montante bruto dos dividendos pagos depois de 31 de Dezembro de 1996."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se a pessoa que recebe os juros for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 10 % do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Todavia, essas royalties podem ser igualmente tributadas no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se a pessoa que receber as royalties for o seu beneficiário efectivo, o imposto assim estabelecido não poderá exceder 10 % do montante bruto das royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "EIF CONFLICT: Hungarian promulgating Act XIX of 2000 states exchange of ratification notes and entry into force on 1999-01-28; Portal das Finanças table says 'EM VIGOR DESDE 08-05-2000' (Aviso n.º 126/2000); treaty map had 1999-02-22. Used 1999-01-28 (official Hungarian act); valid_from 2000-01-01 is confirmed explicitly for both States by § 3 of Act XIX of 2000 (and follows Art. 28(2): 1 January of the year after EIF). Art. 10(3): 10% tier requires direct holding of at least 25% for an uninterrupted two-year period before payment (modelled as 730 days). Art. 11(3): interest exempt at source when paid by/to Governments or local authorities, under inter-governmental financing agreements, or on loans by central banks / agreed State-controlled financial institutions - not modelled. MLI: covered by both, PPT (Art. 7(1)) effective for WHT from 2022-01-01 per treaty map. MLI Art. 8 not applicable (Hungary reserved Art. 8(3)(a); Portugal reserved Art. 8(3)(b)(i) for Art. 10(3)). EU Directives may give lower rates (not treaty tiers).",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force date (1999-01-28 per HU act vs 2000-05-08 per PT table)"
+ ]
+}

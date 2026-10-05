@@ -1,0 +1,56 @@
+{
+ "a": "RO",
+ "b": "CZ",
+ "treaty_name": "Convention between the Government of Romania and the Government of the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993)",
+ "signed": "1993-11-08",
+ "entry_into_force": "1994-08-10",
+ "eif_source_url": "https://mf.gov.cz/cs/zahranici-a-eu/smlouvy-o-zamezeni-dvojiho-zdaneni/prehled-platnych-smluv ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "Rumunsko | 10.8.1994 | 180/1994 Sb. (MF CZ); ANAF list: Cehia | 37/16.06.1994 | 157/1994 | 01.01.1995",
+ "source_title": "Legea nr. 37/1994 – Convenția România–Cehia (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Cehia.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dividendelor, impozitul stabilit nu va depăşi 10% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dobânzilor, impozitul astfel stabilit nu va depăşi 7% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 10% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Cehia.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "Art. 11(3): interest exempt when derived by the other State's government/local authorities/government banking institutions or on non-commercial loans guaranteed/financed by a wholly government-owned financial institution. Art. 29(2)(a): WHT provisions effective from 1 January of the year following EIF. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024. Equipment rental is within the royalty definition. EU directives (PSD/IRD) may give lower domestic rates; not modelled.",
+ "confidence": "high",
+ "unverified": []
+}

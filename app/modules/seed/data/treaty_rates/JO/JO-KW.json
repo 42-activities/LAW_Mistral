@@ -1,0 +1,26 @@
+{
+ "a": "JO",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Hashemite Kingdom of Jordan and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "signed": "2001-05-21",
+ "entry_into_force": "2002-03-23",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "16 [Arabic title] Kuwait Original 21-05-2001 23-03-2002",
+ "source_title": "Treaty text not obtained (Jordan MLI position used only for dates)",
+ "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) - not applicable (Kuwait has not ratified the MLI)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "RATES EMPTY: no official text of the treaty could be retrieved. mof.gov.kw, kuwaitalyawm.media.gov.kw (Kuwait Al-Yawm gazette), istd.gov.jo and pm.gov.jo all timed out; lob.gov.jo (Jordanian Legislation Bureau) is a JavaScript app with no fetchable treaty text; only private law databases/press were found. The Jordan MLI position lists Art. 10(2)(a) of this treaty under Art. 8(4) (dividend participation tier exists) but gives no rates. Kuwait ratified the 2001 treaty by Law No. 29 of 2002. AMENDING PROTOCOL: Kuwaiti Decree-Law No. 12 of 2026 (published in Kuwait Al-Yawm, March 2026, per Al-Rai press report 2026-03-15 - secondary) approves a 6-article protocol amending Art. 2 (taxes covered) and exchange of information; its signature date, entry into force and any effect on Arts. 10-12 are unverified. Not MLI-covered: Kuwait signed the MLI but has not deposited ratification.",
+ "confidence": "low",
+ "unverified": [
+  "All rates",
+  "2026 amending protocol content and entry into force",
+  "EIF 2002-03-23 taken from Jordan MLI position"
+ ]
+}

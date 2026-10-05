@@ -1,0 +1,58 @@
+{
+ "a": "JO",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Italian Republic and the Government of the Hashemite Kingdom of Jordan for the Avoidance of Double Taxation with respect to Taxes on Income and the Prevention of Fiscal Evasion, with Additional Protocol (2004)",
+ "signed": "2004-03-16",
+ "entry_into_force": "2010-05-10",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Giordania (italiano e inglese) - pdf. Stipula - Firma: Amman 16.03.2004; Ratifica: L. 23.10.2009, n.160. In vigore dal: 10.05.2010",
+ "source_title": "Legge 23 ottobre 2009, n. 160 (GU Serie generale n. 265 del 13-11-2009, S.O. n. 208/L) - Italian and English texts of the IT-JO Convention and Additional Protocol (scan, OCR)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/GIORDANIA_2004-Testo_G.U._ita_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not applicable (Italy signatory, not a Party); no treaty PPT",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/GIORDANIA_2004-Testo_G.U._ita_en.pdf",
+  "quote": "8. Nessuna disposizione della presente Convenzione pregiudichera l'applicazione delle legislazioni nazionali in materia fiscale da parte degli Stati Contraenti per prevenire l'evasione e l'elusione fiscale. [Additional Protocol, para. 8 - domestic anti-avoidance savings clause, not a PPT]"
+ },
+ "notes": "Flat 10% caps (no participation tier). Interest exempt at source where the payer is the source-State Government/local authority, or where paid to the other State's Government, local authority or wholly owned agency/instrumentality incl. financial institutions (Art. 11(3)) - not modelled. Valid_from per Art. 29(2)(a): 'in respect of taxes withheld at source, to amounts derived on or after 1st January of the calendar year next following that in which the Convention enters into force' (EIF 2010-05-10 -> 2011-01-01). Additional Protocol para. 8 preserves domestic anti-avoidance legislation; para. 7 allows competent authorities to agree procedures for applying the limitations. Not MLI-covered: Italy has signed but not ratified the MLI. Text read via OCR of the scanned GU supplement (English and Italian texts compared; OCR spacing/typos normalised in quotes). Jordan's MLI position also lists this treaty (Italy Original 16-03-2004 10-05-2010), consistent with the finanze.gov.it EIF.",
+ "confidence": "high",
+ "unverified": [
+  "Quotes come from OCR of a scanned PDF (normalised)"
+ ]
+}

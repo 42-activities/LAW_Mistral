@@ -1,0 +1,67 @@
+{
+ "a": "RO",
+ "b": "PT",
+ "treaty_name": "Convention between Romania and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (1997)",
+ "signed": "1997-09-16",
+ "entry_into_force": "1999-07-14",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "ROMÉNIA ... Aviso nº 96/1999 publicado em 18-08-1999 EM VIGOR DESDE 14-07-1999; ANAF list: Portugalia | 63/15.04.1999 | 194/1999 | 01.01.2000",
+ "source_title": "Legea nr. 63/1999 – Convenția România–Portugalia și Protocol (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Portugalia.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "dacă beneficiarul efectiv al dividendelor este o societate care, pentru o perioadă neîntreruptă de 2 ani anteriori plăţii dividendelor, deţine direct cel puţin 25% din capitalul social al societăţii care plăteşte dividendele, impozitul astfel stabilit nu va depăşi 10% din suma brută a dividendelor."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al dividendelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 15% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 10% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Portugalia.pdf",
+  "quote": "Prin derogare de la prevederile acestei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "10% dividend tier requires an uninterrupted 2-year holding before payment (modelled as 730 days); synthesised text shows no MLI Art. 8 change. Art. 11(3): interest exempt if debtor is the source State/subdivision/local authority, if paid to the other State's government bodies/institutions for financing under an intergovernmental agreement, or on loans by central banks/state-controlled export-finance institutions agreed by competent authorities. Protocol: 'dividends' for Portugal include profits attributed under an associação em participação. Art. 29(2): WHT effective from 1 January of the year following EIF. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": []
+}

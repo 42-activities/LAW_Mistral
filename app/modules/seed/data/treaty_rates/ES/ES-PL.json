@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "PL",
+ "treaty_name": "Convention between the Government of Spain and the Government of the Polish People's Republic for the avoidance of double taxation with respect to taxes on income and on capital (1979)",
+ "signed": "1979-11-15",
+ "entry_into_force": "1982-05-06",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_polonia.pdf",
+ "eif_quote": "El presente Convenio y su Protocolo entraron en vigor el 6 de mayo de 1982, fecha del intercambio de Instrumentos de Ratificación de ambos países, de conformidad con su artículo 29.",
+ "source_title": "Texto sintético del MLI y del Convenio España-Polonia (Ministerio de Hacienda) + BOE 15-6-1982",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-polonia-sp.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) el 5 por 100 del importe bruto de los dividendos en el caso de que el perceptor fuere una Sociedad (siempre que no se tratare de una Sociedad civil) que fuere titular directo del 25 por 100, por lo menos, de los derechos de voto de la Sociedad que pagare los dividendos; [MLI art. 8(1):] ... se aplicarán únicamente si las condiciones de propiedad descritas en dichas disposiciones se cumplen durante un período de 365 días que comprenda el día del pago de los dividendos"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) el 15 por 100 del importe bruto de Ios dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Los intereses devengados en un Estado Contratante y pagados a un residente del otro Estado Contratante serán imponibles solamente en dicho otro Estado."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. No obstante, tales cánones podrán ser gravados en el Estado Contratante en el cual se devengaren y de conformidad con la legislación de dicho Estado. Sin embargo, el impuesto con el cual fueren gravados no excederá del 10 por 100 del importe brute, de los cánones, siempre que los cánones fueren imponibles en el otro Estado Contratante."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-polonia-sp.pdf",
+  "quote": "No obstante las disposiciones [del Convenio], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta o de patrimonio cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo... (TS: MLI effective for taxes withheld at source in Spain and Poland from 1 January 2023)"
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts received on or after 1 January of the calendar year following EIF (1982-05-06) -> 1983-01-01. 5% dividend tier: >=25% of voting rights held directly by a company (not a 'Sociedad civil'); MLI art. 8(1) 365-day holding period from 2023-01-01. Art. 12(3): copyright royalties for literary, dramatic, musical or artistic works (excluding films/TV) taxable only in residence State; Protocol III: film/TV royalties exempt at source when supplied under cultural agreements - not modelled. 10% royalty cap applies 'siempre que los cánones fueren imponibles en el otro Estado Contratante'.",
+ "confidence": "high",
+ "unverified": []
+}

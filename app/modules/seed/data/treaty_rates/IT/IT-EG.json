@@ -1,0 +1,48 @@
+{
+ "a": "IT",
+ "b": "EG",
+ "treaty_name": "Convention between the Republic of Italy and the Arab Republic of Egypt for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1979)",
+ "signed": "1979-05-07",
+ "entry_into_force": "1982-04-28",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Egitto ... Firma: Roma 07.05.1979; Ratifica: L. 25.05.1981, n.387 In vigore dal : 28.04.1982",
+ "source_title": "Legge 25 maggio 1981 n. 387, Suppl. ord. G.U. n. 202 del 24 luglio 1981 (English authentic text + Italian translation, scanned)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/EGITTO_1979-Testo_G.U._ita_en.pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 25 per cent of the amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State but, if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; treaty has no PPT/LOB article)",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/EGITTO_1979-Testo_G.U._ita_en.pdf",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(1) 'Dividends ... may be taxed in both Contracting States'; Art. 10(2) gives no percentage cap — dividends paid by an Egyptian company to an Italian resident are subject only to the Egyptian tax on income from movable capital, defence tax, national security tax, Jehad tax and supplementary taxes, plus for individuals the general income tax at a rate not exceeding 20 per cent ('If the dividends are paid to an individual, the general income tax levied on the total income may also be imposed at the rate not exceeding 20 per cent'); no limit at all for dividends paid by an Italian company. Interest exempt at source (Art. 11(3)) when payer is the Government/local authority, paid to the other Government/local authority or wholly owned agencies incl. financial institutions, or on loans under an intergovernmental agreement. Art. 12(7): payments on founders' shares treated as dividends. Art. 29(2): effective for taxable periods commencing on or after 1 January of the year following the exchange of instruments of ratification (EIF 1982-04-28 -> 1983-01-01). English is the sole authentic language ('Done in duplicate at Rome the 7th day of May 1979 in the English language'). Additional Protocol (c) preserves certain Egyptian domestic exemptions. MLI not applicable (Italy not a Party).",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from page images of a scanned G.U. (no text layer); EIF date from MEF treaty list (exchange-of-instruments communiqué not fetched)",
+  "Egyptian domestic taxes named in Art. 10(2) have since been reformed; how the clause applies under current Egyptian law not assessed"
+ ]
+}

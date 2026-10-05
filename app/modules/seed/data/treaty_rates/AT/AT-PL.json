@@ -1,0 +1,67 @@
+{
+ "a": "AT",
+ "b": "PL",
+ "treaty_name": "Convention between the Republic of Austria and the Republic of Poland for the avoidance of double taxation with respect to taxes on income and on capital (2004, as amended 2008)",
+ "signed": "2004-01-13",
+ "entry_into_force": "2005-04-01",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR30004309/NOR30004309.html",
+ "eif_quote": "Die Mitteilungen gemäß Art. 29 Abs. 1 des Abkommens wurden am 22. Juli 2004 bzw. 18. Jänner 2005 vorgenommen; das Abkommen tritt gemäß seinem Art. 29 Abs. 2 am 1. April 2005 in Kraft.",
+ "source_title": "RIS: DBA Österreich-Polen, BGBl. III Nr. 12/2005 idF BGBl. III Nr. 161/2008 (Art. 10-12, 29, Protokoll) + MLI synthesised text (Anl. 2)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003964",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine im anderen Staat ansässige Peron ist, nicht übersteigen: a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 10 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40208797/III_93_2018_DBA_Polen_synthesised_deutsch.pdf",
+  "quote": "Gemäß den Absätzen 1 und 3 des Artikels 35 des MLI ist Artikel 7 Absatz 1 des MLI in Bezug auf die Anwendung dieses Abkommens durch die Republik Österreich wirksam: a) bei den im Abzugsweg erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben werden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem 1. Jänner 2019 eintritt"
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) when paid to the governments, on loans granted/secured/guaranteed by a public export-promotion entity (KUKE / OeKB per Protocol III), on credit sales of equipment, and on any bank loan; Protocol III(2) denies the credit-sale and bank-loan exemptions for claims created/assigned mainly to obtain them or in thin-capitalisation cases - not modelled. Art. 29(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 2005-04-01 -> 2006-01-01). The 2008 protocol (BGBl. III Nr. 161/2008, in force 2008-10-10) amended Art. 24 only; Art. 10-12 unchanged. MLI: PPT effective for WHT from 2019-01-01 for both States; no MLI Art. 8 holding period in the synthesised text. Authentic languages German, Polish, English (English prevails); German text quoted.",
+ "confidence": "high",
+ "unverified": []
+}

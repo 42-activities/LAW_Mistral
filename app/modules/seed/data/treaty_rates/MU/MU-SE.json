@@ -1,0 +1,70 @@
+{
+ "a": "MU",
+ "b": "SE",
+ "treaty_name": "Convention between the Republic of Mauritius and the Kingdom of Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011)",
+ "signed": "2011-12-01",
+ "entry_into_force": "2012-12-07",
+ "eif_source_url": "https://www.mra.mu/index.php/taxes-duties/international-taxation/double-taxation-agreements",
+ "eif_quote": "MRA: 'The treaties currently in force are: ... Sweden (New) ...' (EIF date 2012-12-07 from treaty map; not printed in the text read)",
+ "source_title": "MRA: GN No. 39 of 2012 - Mauritius-Sweden Convention (2011) with Protocol",
+ "source_url": "https://www.mra.mu/download/GNNo39of2012SWEDEN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, if the beneficial owner is a company (other than a partnership) which holds at least 10 per cent of the voting power of the company paying the dividends, the dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Dividend 0% tier (exemption at source) is based on holding at least 10% of the VOTING POWER (not capital) of the paying company; modelled with ownership_threshold 10. Art. 26 'Limitations of benefits': exemptions/reductions do not apply to income of, and dividends paid by, companies deriving income primarily from other States from financial services/shipping or headquarters/coordination activities that bear significantly lower tax than comparable domestic activities; Protocol extends this to Mauritian companies with deemed foreign tax credit (reg. 8(3) FTC Regs 1996) or s.73A ITA companies and similar later regimes - not modelled, but highly relevant for Mauritian GBC structures. Art. 28(2): WHT effective for amounts paid or credited on or after 1 January of the year following EIF (2013-01-01); replaces the 1992 Convention. MLI: both list the treaty, but Sweden made an Art. 35(7)(a) reservation and no Art. 35(7)(b) notification is shown (treaty map), so the MLI PPT is not yet in effect - ppt.applies=false; no treaty-level PPT. Authentic text English only.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2012-12-07 from treaty map",
+  "Swedish Art. 35(7)(b) notification status (treaty map)"
+ ]
+}

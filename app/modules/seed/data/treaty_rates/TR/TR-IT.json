@@ -1,0 +1,56 @@
+{
+ "a": "TR",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Turkey and the Government of the Italian Republic for the Avoidance of Double Taxation with respect to Taxes on Income and the Prevention of Fiscal Evasion, with Protocol (1990)",
+ "signed": "1990-07-27",
+ "entry_into_force": "1993-12-01",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "17) İtalya 27.07.1990 09.09.1993 - 21693 01.12.1993 01.01.1994; Italian MEF: \"Turchia: Stipula - Firma: Ankara 27.07.1990; Ratifica: L. 07.06.1993, n.195 / In vigore dal: 01.12.1993\"",
+ "source_title": "Türkiye-İtalya Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FITALYA.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber sözkonusu temettüler, ödemeyi yapan şirketin mukimi olduğu Akit Devletçe de kendi mevzuatına göre vergilendirilebilir; ancak temettü elde eden kişi temettünün gerçek lehdarı ise bu şekilde alınacak vergi gayri safi temettü tutarının yüzde 15'ini aşamaz."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, faiz elde eden kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi faizin gayrisafi tutarının yüzde 15'ini aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "gayrimaddi hak bedeli elde eden kişi gayrimaddi hak bedelinin gerçek lehdarı ise, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayri safi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy and Türkiye MLI signatories but not both Parties; no principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FITALYA.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29: EIF on the first day of the second month after the last notification; applies to taxation periods beginning on/after 1 January of the year following EIF -> 1994-01-01 (GİB list). Single 15% dividend rate (no participation tier). No interest exemption for government/central bank in Art. 11. Protocol para. V: 'beneficial owner' interpreted to deny benefits to third-country residents (not a PPT); para. VI: Turkish dividends include income from investment funds/trusts. Text read from GİB Turkish scan (OCR).",
+ "confidence": "high",
+ "unverified": []
+}

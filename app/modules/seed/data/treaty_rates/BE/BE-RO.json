@@ -1,0 +1,67 @@
+{
+ "a": "BE",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of the Kingdom of Belgium and the Government of Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996)",
+ "signed": "1996-03-04",
+ "entry_into_force": "1998-10-17",
+ "eif_source_url": "https://www.ejustice.just.fgov.be/eli/loi/1998/08/10/1998015166/moniteur",
+ "eif_quote": "Conformément à son atrticle 30, cette Convention est entrée en vigueur le 17 octobre 1998.",
+ "source_title": "Moniteur belge 18.12.1998, Loi du 10 août 1998 portant assentiment à la Convention Belgique-Roumanie (numac 1998015166)",
+ "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1998/08/10/1998015166/moniteur",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement ou indirectement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1999-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'Etat Contractant d'où ils proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat Contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'Etat Contractant d'où elles proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat Contractant, l'impôt ainsi établi ne peut excéder 5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective date: Art. 30(2)(a) - withholding taxes on income attributed or paid from 1 January of the year following EIF (1998) -> 1999-01-01. Art. 11(3): interest on loans granted, guaranteed or insured by the other State, its territorial units/local authorities or their institutions is exempt at source (not modelled). MLI: both Belgium and Romania list the treaty; MLI WHT effect 2024-01-01 (treaty map; Romania Art. 35(7) reservation, notification 2023-03-06). MLI Art. 8 (365-day holding) applies to Art. 10(2)(a): Belgium's MLI position notifies 'Roumanie Article 10(2)(a)' and Romania's notifies 'Belgium Article 10(2)(a)'; Romania's Art. 8(3)(b)(iii) reservation applies only where a holding period already exists (none here). Both apply PPT (Art. 7(1)); treaty contains no existing PPT, so Romania's Art. 7(15)(b) reservation is not engaged. The 365-day holding condition applies to dividends paid on or after 2024-01-01 (MLI WHT effective date); the 5% tier itself applies since 1999-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

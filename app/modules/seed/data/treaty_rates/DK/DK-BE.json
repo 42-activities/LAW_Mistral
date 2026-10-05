@@ -1,0 +1,69 @@
+{
+ "a": "DK",
+ "b": "BE",
+ "treaty_name": "Convention between Denmark and Belgium for the avoidance of double taxation and the settlement of certain other questions with respect to taxes on income and on capital (1969, as amended 1999 and 2009)",
+ "signed": "1969-10-16",
+ "entry_into_force": "1970-12-31",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+ "eif_quote": "Belgium Original 16-10-1969 31-12-1970 Amending Instrument (a) 27-09-1999 29-04-2003 Amending Instrument (b) 07-07-2009 18-07-2013",
+ "source_title": "BKI nr 5 af 20/01/1971 (convention, DA) + BKI nr 13 af 30/05/2003 (protocol 27.9.1999) + BKI nr 14 af 29/08/2013 (protocol 7.7.2009, art. 26 only)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/2003/13",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1) (as amended by 1999 Protocol art. 6)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "»2.1) Sådant udbytte kan også beskattes i den kontraherende stat, hvori det udbyttebetalende selskab er hjemmehørende, og i henhold til lovgivningen i denne stat, men hvis modtageren af udbyttet er hjemmehørende i den anden kontraherende stat, må den skat, der pålignes, ikke overstige 15 pct. af bruttobeløbet af det nævnte udbytte."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2) (as amended by 1999 Protocol art. 6) + MLI art. 8(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2) Når imidlertid et selskab, der er hjemmehørende i en kontraherende stat, direkte ejer mindst 25 pct. af kapitalen i et selskab, der er hjemmehørende i den anden kontraherende stat, skal det udbytte, som det modtager fra det sidstnævnte selskab, være fritaget for beskatning i den stat, i hvilken det udloddende selskab er hjemmehørende, hvis denne stats lovgivning, der finder anvendelse i så henseende, tillader en sådan fritagelse, og i overensstemmelse med de bestemmelser, der er indeholdt i denne lovgivning om fritagelse."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as amended by 1999 Protocol art. 7)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "»2. Sådan rente kan imidlertid beskattes i den kontraherende stat, hvorfra den hidrører, og i overensstemmelse med lovgivningen i denne stat; men den skat, der pålignes, må ikke overstige 10 pct. af bruttobeløbet af renten.«"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1971-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties, der hidrører fra en af de kontraherende stater og betales til en person, som er hjemmehørende i den anden kontraherende stat, kan kun beskattes i denne anden stat."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "1999 Protocol in force 2003-04-29 (art. 16: WHT on income paid after 31 Dec of year of entry into force -> 2004-01-01); before that dividends and interest were capped at 15% (original art. 10(2)/11(2)). The 0% tier for >=25% direct holding is conditional: exemption applies only 'if the legislation of that State permits such exemption' and per its conditions - treated as exclusive here but it is a domestic-law-dependent exemption, otherwise the 15% cap applies. MLI art. 8 applies (DK notified art. 10(2), BE notified 'Article 10(2)(2)'; neither reserved art. 8): 365-day holding period for the 25% tier from MLI WHT effective date 2020-01-01 (not before). Art. 11(3): interest on commercial credit for goods/services, current accounts/deposits between banks, and non-bearer deposits with banks are excluded from 'interest' and taxed under art. 7 or 21. 2009 Protocol (in force 2013-07-18) replaces art. 26 only. No Art. 35(7) reservation by either party.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether the 0% >=25% tier requires domestic-law exemption in practice (treaty text makes it conditional)"
+ ]
+}

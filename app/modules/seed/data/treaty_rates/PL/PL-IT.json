@@ -1,0 +1,56 @@
+{
+ "a": "PL",
+ "b": "IT",
+ "treaty_name": "Agreement between the Government of the Polish People's Republic and the Government of the Republic of Italy for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1985)",
+ "signed": "1985-06-21",
+ "entry_into_force": "1989-09-26",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/1989/374",
+ "eif_quote": "Dz.U. 1989 nr 62 poz. 374 ... entryIntoForce: 1989-09-26 (ISAP metadata); Art. 29(2): 'The Agreement shall enter into force on the date of the exchange of instruments of ratification'; podatki.gov.pl: 21.06.1985 26.09.1989 01.01.1984",
+ "source_title": "PL-IT Agreement 1985, Dz.U. 1989 nr 62 poz. 374, PL/EN text (scan, podatki.gov.pl)",
+ "source_url": "https://www.podatki.gov.pl/media/4jejsxjb/wlochy-konwencja-tekst-polski-angielski.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise and according to the law of that State but, if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-poland-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Italy has signed but not ratified the MLI (treaty map: not MLI-covered) -> no PPT. Art. 29(2)(a): effective 'in respect of taxes withheld at source, to amounts derived on or after 1st January 1984' (retroactive). Art. 11(3): interest exempt at source where the payer is the Government/local authority, or paid to the other State's Government/local authority or wholly-owned entities, or to entities in relation to loans under intergovernmental agreements (not modelled). English text prevails in case of doubt. MFA corrections (Dz.U. 2019 poz. 597, 2022 poz. 1572) concern Arts. 18-19 Polish text only.",
+ "confidence": "high",
+ "unverified": []
+}

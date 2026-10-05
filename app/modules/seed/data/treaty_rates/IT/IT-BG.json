@@ -1,0 +1,56 @@
+{
+ "a": "IT",
+ "b": "BG",
+ "treaty_name": "Convention between the Italian Republic and the People's Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion (1988)",
+ "signed": "1988-09-21",
+ "entry_into_force": "1991-06-10",
+ "eif_source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/bulg-en.pdf",
+ "eif_quote": "Ratified in Italy with Law 29 novembre 1990, n. 389 (G.U. 21 December 1990, n. 297, S.O). Exchang of ratification instruments: 10 giugno 1991. Entry into force: 10 June 1991 (G.U. 2 September 1991, n. 205).",
+ "source_title": "Legge 29 novembre 1990 n. 389, Suppl. ord. G.U. n. 297 del 21-12-1990 (Italian text, scanned) + MEF English translation bulg-en.pdf",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/BULGARIA_1988-Testo_G.U._ita_fr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali dividendi possono essere tassati nello Stato contraente di cui la società che paga i dividendi è residente ed in conformità alla legislazione di detto Stato, ma, se la persona che percepisce i dividendi ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 10 per cento dell'ammontare lordo dei dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(1)",
+   "valid_from": "1992-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Gli interessi provenienti da uno Stato contraente e pagati ad un residente dell'altro Stato contraente sono imponibili soltanto in detto altro Stato, se detto residente ne è l'effettivo beneficiario."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali canoni possono essere tassati nello Stato contraente dal quale essi provengono e in conformità della legislazione di detto Stato, ma, se la persona che riceve i canoni ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 5 per cento dell'ammontare lordo dei canoni."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; treaty has no PPT/LOB article)",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/bulg-en.pdf",
+  "quote": ""
+ },
+ "notes": "Article numbering in this treaty is non-standard: Art. 8 dividends, Art. 9 interest, Art. 10 royalties. Art. 28(1)(a): WHT provisions apply to income attributed or payable on or after 1 January of the year following entry into force (1991-06-10 -> 1992-01-01). Protocol (e): excess interest/royalties over the normal amount taxable under domestic law. French text prevails. MLI not applicable (Italy not a Party).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "EG",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Republic of Poland and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1996)",
+ "signed": "1996-06-24",
+ "entry_into_force": "2001-07-16",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2003/690/text.pdf",
+ "eif_quote": "Oświadczenie rządowe z dnia 16 maja 2002 r.: ... sporządzona w Warszawie dnia 24 czerwca 1996 r., została ratyfikowana przez Prezydenta Rzeczypospolitej Polskiej dnia 11 września 1996 r. Zgodnie z art. 29 ust. 2 powyższej umowy weszła ona w życie w dniu 16 lipca 2001 r.",
+ "source_title": "Dziennik Ustaw 2003 nr 78 poz. 690: Umowa między Rządem RP a Rządem Arabskiej Republiki Egiptu (Polish text; authentic text English)",
+ "source_url": "https://api.sejm.gov.pl/eli/acts/DU/2003/690/text.pdf (Dz.U. 2003 nr 78 poz. 690; also https://dziennikustaw.gov.pl/D2003078069001.pdf)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Jednakże takie dywidendy mogą być opodatkowane także w tym Umawiającym się Państwie, w którym spółka wypłacająca dywidendy ma swoją siedzibę i zgodnie z ustawodawstwem tego Państwa, lecz jeżeli odbiorca dywidend jest ich właścicielem, podatek ten nie może przekroczyć 12 procent kwoty dywidend brutto."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Jednakże takie odsetki mogą być także opodatkowane w Umawiającym się Państwie, w którym powstają, i zgodnie z ustawodawstwem tego Państwa, ale jeżeli odbiorca odsetek jest ich właścicielem, podatek w ten sposób ustalony nie może przekroczyć 12 procent kwoty brutto tych odsetek."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Jednakże takie należności licencyjne mogą być także opodatkowane w tym Umawiającym się Państwie, w którym powstają, i zgodnie z prawem tego Państwa, ale ustalony podatek nie może przekroczyć 12 procent kwoty brutto należności licencyjnych."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-poland-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+  "quote": "Poland: 'Pursuant to Article 7(17)(a) of the Convention, the Republic of Poland hereby expresses a statement that while the Republic of Poland accepts the application of Article 7(1) alone as an interim measure, it intends where possible to adopt a limitation on benefits provision ...' Egypt: 'Article 7 – Prevention of Treaty Abuse  No Reservation'. Both list the 24.06.1996 agreement as covered."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to income derived on or after 1 January of the calendar year following the year of exchange of ratification documents; EIF 16.07.2001 -> 2002-01-01 assumed (exchange date itself not stated in the Dz.U. text). Single dividend rate 12% (no participation tier), so MLI Art. 8 is irrelevant (Egypt's Art. 8(4) notification does not list Poland). Art. 11(3): interest paid to the Government of the other State incl. local authorities and the Central Bank exempt - not modelled. MLI WHT effect 2021-01-01 from treaty map (neither party reserved Art. 35(7)). Quotes transcribed from the Polish Dz.U. PDF with font-encoding artefacts corrected.",
+ "confidence": "high",
+ "unverified": [
+  "exchange-of-ratification date (assumed 2001, giving WHT effect 2002-01-01)"
+ ]
+}

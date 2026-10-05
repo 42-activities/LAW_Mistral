@@ -1,0 +1,59 @@
+{
+ "a": "IL",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the State of Israel for the avoidance of double taxation with respect to taxes on income and on capital (1972)",
+ "signed": "1972-07-13",
+ "entry_into_force": "1975-11-04",
+ "eif_source_url": "https://bib.kuleuven.be/rbib/collectie/archieven/bullcontr/1975-535.pdf",
+ "eif_quote": "L'échange des instruments de ratification prévu à l'article 28 de la Convention a eu lieu à Bruxelles le 20 octobre 1975. Conformément aux dispositions du même article 28, ces actes entreront en vigueur le 4 novembre 1975.",
+ "source_title": "Bulletin des Contributions n° 535 (1975) – Loi du 2 juin 1975 portant approbation de la Convention Belgique–Israël (Moniteur belge 1.11.1975), French translation; KU Leuven archive copy",
+ "source_url": "https://bib.kuleuven.be/rbib/collectie/archieven/bullcontr/1975-535.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt ainsi établi ne peut excéder 10 pour-cent du montant des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1) (per treaty map; synthesised text not read)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+  "quote": null
+ },
+ "notes": "Authentic text is English only; quotes are from the official French translation published in the Belgian Finance Ministry's Bulletin des Contributions (archived PDF, OCR; e.g. 'pour-cent'). Art. 12(4): copyright royalties for literary, dramatic, musical, artistic or scientific works (excluding cinema/TV films) taxable only in the residence State (0% at source) — not modelled; 10% applies to patents, trademarks, designs, secret formulas, cinema/TV films, equipment, know-how and bare-boat charter. Art. 10(3): for Belgium, 'dividends' include income (even paid as interest) taxable as income from capital invested by partners in non-share companies; such interest excluded from Art. 11. Art. 11(3): interest on current accounts/advances between banks of the two States falls under Art. 7. No beneficial-ownership requirement in Arts. 10–12. Art. 28(2): applies in Belgium to WHT on income attributed/paid from 1 January 1975; in Israel to fiscal years beginning on/after 1 April 1975. MLI: both Parties list the treaty; treaty map MLI WHT effect 2020-01-01; synthesised text not obtained, so MLI modifications (incl. any Art. 8) unverified. No amending protocol known (treaty map).",
+ "confidence": "medium",
+ "unverified": [
+  "MLI PPT effective date 2020-01-01 (treaty map, not verified against synthesised text)",
+  "No later amending protocol (relied on treaty map)"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "HU",
+ "b": "DE",
+ "treaty_name": "Convention between the Federal Republic of Germany and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011), as modified by the MLI",
+ "signed": "2011-02-28",
+ "entry_into_force": "2011-12-30",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Ungarn/2012-01-20-Ungarn-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "wird bekannt gemacht, dass das Abkommen nach seinem Artikel 30 Absatz 2 am 30. Dezember 2011 in Kraft tritt.",
+ "source_title": "BMF: Synthetisierter Text des BEPS-MLI und des Abkommens mit der Republik Ungarn (DBA 28.2.2011, BGBl. 2011 II S. 919)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Ungarn/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrages der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine der Steuer nicht unterworfenen Personengesellschaft) ist, die unmittelbar über mindestens 10 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Ungarn/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+  "quote": "Ungeachtet dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... [Fußnote 3: Wirksam ab dem 1. Januar 2025.]"
+ },
+ "notes": "Art. 30(2)(a): withholding taxes apply to amounts paid on or after 1 January of the year following EIF (2011-12-30) -> 2012-01-01; the 1977 treaty ceased for amounts paid from 2012-01-01 (BGBl. 2012 II S. 47). 5% tier excludes non-taxable partnerships. Protocol No. 4 (Arts 10 and 11): dividends/interest on profit-participating rights (stille Gesellschaft, partiarische Darlehen, Gewinnobligationen) deductible at the payer, and dividends from REITs or similar tax-exempt entities, may be taxed at source under domestic law without treaty cap (not modelled). The synthesised text shows no MLI Art. 8 holding-period box for Art. 10 (not applicable between DE and HU). DE notified Art. 35(7)(b) for HU on 2024-10-02.",
+ "confidence": "high",
+ "unverified": []
+}

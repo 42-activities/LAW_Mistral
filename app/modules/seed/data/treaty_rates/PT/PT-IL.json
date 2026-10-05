@@ -1,0 +1,67 @@
+{
+ "a": "PT",
+ "b": "IL",
+ "treaty_name": "Convention between the Portuguese Republic and the Government of the State of Israel for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2006)",
+ "signed": "2006-09-26",
+ "entry_into_force": "2008-02-18",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "ISRAEL Resolução da Assembleia da República n.º 2/2008 de 15 de Janeiro Aviso n.º 94/2008 publicado em 13-06-2008 e rectificado pelo Aviso n.º 129/2008 publicado em 22-07-2008 EM VIGOR DESDE 18-02-2008",
+ "source_title": "Diário da República 1.ª série n.º 10, 15-1-2008 (Resolução AR n.º 2/2008), Convention and Protocol, Portuguese text, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Resol_Assemb_Republica_2-2008.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2008-03-19",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos e de acordo com a legislação desse Estado, mas, se o beneficiário efectivo dos dividendos for um residente do outro Estado Contratante, o imposto assim estabelecido não poderá exceder: ... c) 15 % do montante bruto dos dividendos, nos restantes casos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-03-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 % do montante bruto dos dividendos, se o seu beneficiário efectivo for uma sociedade (com excepção de uma sociedade de pessoas) que detenha, directamente, pelo menos 25 % do capital da sociedade que paga os dividendos;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-03-19",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos juros for um residente do outro Estado Contratante, o imposto assim estabelecido não poderá exceder 10 % do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-03-19",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, essas royalties podem ser igualmente tributadas no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo das royalties for um residente do outro Estado Contratante, o imposto assim estabelecido não poderá exceder 10 % do montante bruto das royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(2)(a): withholding taxes apply 30 days after entry into force (2008-02-18) -> 2008-03-19. Art. 10(2)(b): 10% (instead of 5%) for >=25% corporate holdings where the paying company is an Israeli resident and dividends are paid out of profits taxed in Israel below the normal Israeli corporate rate (Israeli-source only, hence source_state IL; profit-origin condition not modelled). 365-day holding via MLI Art. 8 from 2021-01-01 (MLI WHT effective date per treaty map): Portugal and Israel both notified Art. 10(2)(a) and (b) under MLI Art. 8(4) (Israel's Art. 8(3)(b)(iii) reservation lists only the US treaty); before 2021 no holding period. Art. 11(3): interest exempt at source where paid on loans made or guaranteed by the other State's Government, subdivision, local authority or central bank, or to an export-credit insurer acting for the other State - not modelled. Protocol 7: interest on sales on credit of up to six months is not 'interest'. MLI: covered by both, PPT (Art. 7(1)) effective for WHT from 2021-01-01 per treaty map. [curated: dropped DIVIDEND tier — 10% applies only to profits taxed at a reduced Israeli rate — not modelled]",
+ "confidence": "high",
+ "unverified": []
+}

@@ -173,7 +173,7 @@ def test_turkiye_participation_needs_15pct_payer_tax(s):
 
 
 def test_no_treaty_flag_is_a_data_gap_and_notes_zero_domestic_rate(s):
-    r = WithholdingEngine(s).compute("BH", "AT", "DIVIDEND", D, Decimal("100"), 730)
+    r = WithholdingEngine(s).compute("BH", "US", "DIVIDEND", D, Decimal("100"), 730)
     msg = next(f.message for f in r.flags if f.code == "no_treaty")
     assert "recorded in the database" in msg and "not a finding" in msg
     assert "domestic rate is already 0%" in msg

@@ -1,0 +1,58 @@
+{
+ "a": "JO",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006, as modified by the MLI)",
+ "signed": "2006-04-10",
+ "entry_into_force": "2007-11-07",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2007/88/0000-00-00?f=88%2F2007&zalozka=text",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 28 dne 7. listopadu 2007 a její ustanovení se budou provádět v souladu se zněním písmen a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 88/2007 Sb. m. s. (Czech text of the CZ-JO treaty, e-Sbírka) + MF ČR Sdělení on MLI modifications (Finanční zpravodaj 13/2024)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2007/88/0000-00-00?f=88%2F2007&zalozka=text",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1) (replacing treaty art. 27(2))",
+  "source_url": "https://mf.gov.cz/assets/attachments/2024-11-25_Financni-zpravodaj-cislo-13-2024.pdf",
+  "quote": "3) Text článku 27 odstavce 2 Smlouvy se nahrazuje následujícím textem: „2. Jestliže se dá usuzovat s ohledem na všechny relevantní skutečnosti a okolnosti, že získání výhody plynoucí ze Smlouvy bylo jedním z hlavních cílů jakéhokoliv opatření nebo jakékoliv transakce přímo nebo nepřímo vedoucích k této výhodě, tato výhoda, bez ohledu na jiná ustanovení Smlouvy, nebude poskytnuta ve vztahu k části příjmu, pokud není prokázáno, že poskytnutí této výhody v dané situaci by bylo v souladu s účelem a cílem příslušných ustanovení Smlouvy.“ ... 1) pokud jde o daně vybírané srážkou u zdroje z částek vyplácených nebo připisovaných nerezidentům, jestliže skutečnost dávající vzniknout takovým daním nastala k 1. lednu 2025 nebo později"
+ },
+ "notes": "Flat 10% caps for dividends, interest and royalties (no participation tier). Interest beneficially owned by the other State's government, political subdivisions, local authorities, central bank or wholly government-owned financial institutions is exempt (Art. 11(3)) - not modelled. Valid_from per Art. 28(a): income paid or credited on or after 1 January of the year after EIF (2007-11-07 -> 2008-01-01). Art. 27(1) (limitation of benefits) denies treaty benefits to companies/persons enjoying a special tax regime and to income received from them; Art. 27(3) preserves domestic anti-avoidance rules. MLI: treaty added by Czech extension of its list (2024); MF ČR Sdělení (FZ 13/2024) confirms MLI Art. 7(1) PPT replaces Art. 27(2), effective for WHT where the event occurs on or after 1 January 2025 (other taxes: periods beginning on or after 13 June 2025). MLI Art. 8 not applicable (Czech Republic reserved the entirety of Art. 8). Czech text read; the English text prevails in case of divergence but was not consulted.",
+ "confidence": "high",
+ "unverified": [
+  "English (prevailing) text not compared"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "a": "US",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of Sweden for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1994, as amended by Protocol 2005)",
+ "signed": "1994-09-01",
+ "entry_into_force": "1995-10-26",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+ "eif_quote": "60 Convention between the United States ... USA Original 01-09-1994 26-10-1995; Instrument (a) 30-09-2005 31-08-2006",
+ "source_title": "US-Sweden Income Tax Convention signed at Stockholm 1 Sept 1994 (English text in Swedish Government Bill Prop. 1994/95:60, riksdagen.se) and Protocol signed at Washington 30 Sept 2005 (IRS text)",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/dubbelbeskattningsavtal-mellan-sverige-och_gi0360/html/ ; https://www.irs.gov/pub/irs-trty/swedenprot05.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (as substituted by Protocol 2005 Art. IV)",
+   "valid_from": "2006-10-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, such dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner is: a) a company that is a resident of the other Contracting State that has owned, directly or indirectly through one or more residents of either Contracting State, shares representing 80 percent or more of the voting power in the company paying the dividends for a 12-month period ending on the date on which entitlement to the dividends is determined, and: i) satisfies the conditions of clause i) or ii) of subparagraph c) of paragraph 2 of Article 17 (Limitation on Benefits); ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as substituted by Protocol 2005 Art. IV)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns shares representing at least 10 percent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as substituted by Protocol 2005 Art. IV)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State which is derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State which are derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 17, replaced by Protocol 2005)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/swedenprot05.pdf",
+  "quote": ""
+ },
+ "notes": "Convention Art. 29(2): US WHT for amounts paid or credited on or after 1 January following EIF; Sweden: income derived on or after 1 January following EIF (EIF 1995-10-26 -> 1996-01-01). Protocol 2005 (EIF 2006-08-31) Art. VIII(2): WHT for amounts paid or credited on or after the first day of the second month after EIF -> 2006-10-01; it replaced Art. 10 retaining the 5%/15% tiers (original 5% tier referred to 10% of voting stock) and adding the 0% tier. 0% 80% tier requires LOB conditions (Art. 17 as substituted). Not modelled: 0% for pension-fund dividends (Art. 10(3)(b), holding not sold within 2 months); RIC/REIT rules (Art. 10(4)); branch profits tax max 5% (Art. 10(9)-(10)); US contingent interest treated as dividends (Art. 10(5)); REMIC excess inclusions defined as interest (Art. 11(2)). The US-Sweden treaty text is not posted on the IRS site (only TE/Protocol); English text read from the Swedish Government Bill (official).",
+ "confidence": "high",
+ "unverified": [
+  "Protocol EIF 2006-08-31 from Sweden MLI position via treaty map, not re-fetched"
+ ]
+}

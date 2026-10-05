@@ -1,0 +1,69 @@
+{
+ "a": "MU",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Mauritius and the Federal Republic of Germany for the avoidance of double taxation and of tax evasion with respect to taxes on income (2011, as amended 2021)",
+ "signed": "2011-10-07",
+ "entry_into_force": "2012-12-07",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-mauritius-instrument-deposit.pdf",
+ "eif_quote": "X EVASION WITH RESPECT TO TAXES ON INCOME Federal Republic of Germany Original 07-10-2011 07-12-2012 11 AGREEMENT BETWEEN THE REPU",
+ "source_title": "MRA: GN No. 210 of 2012 (Mauritius-Germany Agreement and Protocol) and GN No. 301 of 2021 (amending Protocol of 29 Oct 2021)",
+ "source_url": "https://www.mra.mu/download/GNNo210of2012Germany.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the interest, be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2013-01-01",
+  "basis": "treaty art. 22(1)",
+  "source_url": "https://www.mra.mu/download/GNNo210of2012Germany.pdf",
+  "quote": "A prerequisite for relief from German tax is that a person resident in Mauritius proves that it was not the main purpose or one of the main purposes of its business or of the conduct of its business or of the acquisition or maintenance by it of the shareholding or other property from which the income in question is derived to obtain any of such benefits."
+ },
+ "notes": "Anti-abuse: Art. 22(1) main-purpose test applies only to relief from German tax claimed by Mauritian residents (one-directional), and Art. 22(2) requires Mauritian companies to be 'qualified companies' (ownership by Mauritius/Mauritian or treaty-state residents and base-erosion test) - LOB not modelled; Art. 29 preserves domestic anti-avoidance rules. Protocol para. 5: dividends and interest from rights/debt-claims carrying a right to participate in profits (e.g. silent partnerships, profit-participating loans) may be taxed in the source State under domestic law - not modelled. Art. 28: Germany may withhold at domestic rate and refund. Art. 32(2): effective for WHT on amounts paid on or after 1 January of the year following EIF (EIF 2012-12-07 -> 2013-01-01). The 2021 amending Protocol (GN 301 of 2021; MLI-style preamble and mandatory arbitration, no rate changes) - its entry into force date was not found. MLI: Germany does not list this treaty, so MLI not applicable (treaty map).",
+ "confidence": "high",
+ "unverified": [
+  "Entry into force of the 29 Oct 2021 amending Protocol (does not affect rates)"
+ ]
+}

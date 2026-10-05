@@ -1,0 +1,60 @@
+{
+ "a": "JO",
+ "b": "LB",
+ "treaty_name": "Agreement between the Government of the Lebanese Republic and the Government of the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002)",
+ "signed": "2002-10-31",
+ "entry_into_force": "2004-04-05",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "17 [Arabic title] Lebanon Original 31-10-2002 05-04-2004",
+ "source_title": "اتفاقية بين حكومة الجمهورية اللبنانية وحكومة المملكة الأردنية الهاشمية لتجنب الإزدواج الضريبي (Arabic scanned copy, Lebanese Ministry of Finance)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Jordan.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "الا ان حصص الارباح هذه يمكن أن تخضع ايضا للضريبة في الدولة المتعاقدة التي تقيم فيها الشركة التي توزع الارباح ووفقاً لقوانين تلك الدولة، ولكن اذا كان المستفيد هو المالك الفعلي لارباح الأسهم ومقيماً في الدولة المتعاقدة الأخرى، فان الضريبة المفروضة هكذا، ينبغي ان لا تتجاوز عشرة بالمئة من اجمالي ارباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا ان مثل هذه الفائدة يمكن ان تخضع للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقاً لقوانين تلك الدولة، ولكن اذا كان المستفيد هو المالك الفعلي للفائدة ومقيماً في الدولة المتعاقدة الأخرى، فان الضريبة المفروضة هكذا، يجب ان لا تتجاوز عشرة بالمئة من المبلغ الاجمالي للفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا ان هذه الاتاوات يمكن ان تخضع ايضاً للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقاً لقوانين تلك الدولة، ولكن اذا كان المستفيد هو المالك الفعلي للاتاوات ومقيماً في الدولة المتعاقدة الأخرى،فان الضريبة المفروضة يجب ان لا تتجاوز عشرة بالمئة من المبلغ الاجمالي للعائدات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 11(8), 12(7) (main-purpose rules, not a general PPT); MLI not applicable",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Jordan.pdf",
+  "quote": "لا تسري احكام هذه المادة اذا كان الغرض الرئيسي، او احد الاغراض الرئيسية لاي شخص له علاقة بانشاء او تحويل الدين الذي يُدفع بشأنه الفائدة، هو استغلال هذه المادة لمنفعته بصورة غير قانونية خلال ذلك الانشاء او التحويل."
+ },
+ "notes": "Flat 10% caps for dividends, interest and royalties. Interest arising in a State and beneficially owned by the other State's government, local authority, political subdivision or any agency/bank/institution of that government is exempt (Art. 11(3)) - not modelled. Arts. 11(8) and 12(7) deny the interest/royalty articles where the main purpose of creating/assigning the debt-claim or right was to take advantage of them (article-specific main-purpose rules; no general PPT). Not MLI-covered (Lebanon is not an MLI signatory, although Jordan lists the treaty). Valid_from per Art. 27(1): withholding taxes on income derived on or after 1 January of the year following the year of entry into force. CONFLICT on EIF: Jordan's MLI position gives 05-04-2004 (used -> valid_from 2005-01-01); Lebanon MoF matrix gives 12-12-2003 (-> 2004-01-01). Irrelevant to rates applicable in 2026. Quotes transcribed by reading the Arabic scan (no text layer); Arabic is the only text seen.",
+ "confidence": "medium",
+ "unverified": [
+  "Arabic quotes transcribed manually from scanned images",
+  "EIF date conflict (2003-12-12 vs 2004-04-05)",
+  "No later protocol known (none listed on Lebanon MoF page)"
+ ]
+}

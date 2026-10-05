@@ -1,0 +1,58 @@
+{
+ "a": "KW",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Turkey and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital (1997)",
+ "signed": "1997-10-06",
+ "entry_into_force": "1999-12-13",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "GİB list (as of 23.04.2025): signed 06.10.1997, Official Gazette 28.11.1999 no.23890, in force 13.12.1999 (per treaty map)",
+ "source_title": "Türkiye–Kuveyt Çifte Vergilendirmeyi Önleme Anlaşması ve Protokol (Turkish text, GİB)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/KUVEYT.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber sözkonusu temettüler, aynı zamanda ödemeyi yapan şirketin mukim olduğu Akit Devlette ve bu Devletin mevzuatına göre de vergilendirilebilir; ancak, sözkonusu mukim temettünün gerçek lehdarı ise, bu şekilde alınacak vergi gayrisafı temettü tutarının yüzde 10’unu aşmayacaktır."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, sözkonusu mukim faizin gerçek lehdan ise, bu şekilde alınacak vergi faizin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber sözkonusu gayrimaddi hak bedelleri, elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, sözkonusu mukimin gayrimaddi hak bedelinin gerçek lehdarı olması halinde, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable - neither Kuwait nor Türkiye is an MLI Party)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/KUVEYT.pdf",
+  "quote": "Protokol 2: ... 'gerçek lehdar' teriminin, bir üçüncü ülke mukiminin Türkiye veya Kuveyt'den elde ettiği temettü, faiz ve gayrimaddi hak bedelleri için bu Anlaşmanın sağladığı avantajlardan yararlanmayacağı şeklinde yorumlanacağı ... (beneficial-ownership clarification, not a PPT)"
+ },
+ "notes": "Art. 30(2)(b): WHT provisions apply to dividends, interest and royalties paid on/after 1 January of the year of signature (1997-01-01), i.e. retroactively before EIF 1999-12-13. Single 10% dividend rate, no participation tier. Art. 10(4): branch profits of a PE may be taxed under para. 2 after Art. 7 tax. Protocol item 1: payments for industrial/commercial/scientific equipment and know-how treated as business profits (Art. 7). Protocol item 2: third-country residents cannot claim benefits via beneficial-owner concept. No government interest exemption found in Art. 11. EIF date from the treaty map (GİB list). Neither State is an MLI Party.",
+ "confidence": "high",
+ "unverified": [
+  "Turkish text read (English prevails in case of divergence)"
+ ]
+}

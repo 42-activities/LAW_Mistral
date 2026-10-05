@@ -1,0 +1,58 @@
+{
+ "a": "SA",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Hellenic Republic for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-06-19",
+ "entry_into_force": "2010-05-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Convention between the government of the kingdom of Saudi Arabia and the government of the Hellenic republic for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital, signed on 19/6/2008 and entered into force on 1/5/2010.",
+ "source_title": "ZATCA: SA-GR Convention 2008 with Protocol (English text, Art. 10-12, 29)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Greece.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts paid or credited on or after 1 January of the calendar year next following EIF (2010-05-01 -> 2011-01-01). No government/bank exemptions in Art. 10-12. Protocol 4 preserves domestic anti-avoidance rules; no treaty PPT. Saudi Arabia and Greece both reserved MLI Art. 8 entirely. PPT WHT effective 2022-01-01 per treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date taken from treaty map, not re-derived"
+ ]
+}

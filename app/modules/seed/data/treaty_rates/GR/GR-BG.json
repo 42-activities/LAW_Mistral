@@ -1,0 +1,58 @@
+{
+ "a": "GR",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Bulgaria and the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1991, as amended by Protocol 2000)",
+ "signed": "1991-02-15",
+ "entry_into_force": "2002-01-22",
+ "eif_source_url": "https://eknigi.trudipravo.bg/ndz/spogodba-mezhdu-republika-balgariya-i-republika-garcziya-za-izbyagvane-na-dvojnoto-danachno-oblagane-na-dohodite-i-imusthestvoto/",
+ "eif_quote": "Ратифицирана със закон, приет от 38-о Народно събрание на 20.12.2000 г. – ДВ, бр. 108 от 29.12.2000 г. Издадена от Министерството на икономиката, обн., ДВ, бр. 33 от 2.04.2002 г., в сила от 22.01.2002 г.",
+ "source_title": "Official: ΦΕΚ Α' 195/18.11.1994 (Ν. 2255/1994, Convention) and ΦΕΚ Α' 140/27.06.2001 (Ν. 2927/2001, Protocol of 18.07.2000, English text) via et.gr; Bulgarian consolidated text (ДВ бр. 33/2002) from kik-info.com used for Bulgarian quotes (secondary)",
+ "source_url": "https://et.gr/api/DownloadFeksApi/?fek_pdf=20010100140 ; https://et.gr/api/DownloadFeksApi/?fek_pdf=19940100195 ; https://kik-info.com/normativna-baza/siddo/0X-12041212/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) (as amended by Protocol 2000)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Protocol Art. 5: Article 10 \"DIVIDENDS\" of the Convention - paragraph 2 shall be replaced by a new text that reads as follows: \"2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends.\""
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Въпреки това тези лихви могат да бъдат облагани с данък и в договарящата държава, в която възникват, и съобразно законодателството на тази държава, но когато получателят е и притежател на лихвите, така наложеният данък няма да надвишава 10 на сто от брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Такива авторски и лицензионни възнаграждения обаче могат да се облагат с данъци и в договарящата държава, от която произхождат, и съобразно законодателството на тази държава, но ако получателят е и притежател на авторските и лицензионните възнаграждения, така наложеният данък няма да надвишава 10 на сто от брутния размер на доходите от авторските и лицензионните възнаграждения."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Greece MLI deposit list of Covered Tax Agreements: '9 Convention between the Hellenic Republic and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital — Bulgaria Original 15-02-1991 22-01-2002; Amending Instrument 18-07-2000'"
+ },
+ "notes": "Original Art. 10(2) (40% where paying company resident in Greece / 10% where resident in Bulgaria) was replaced by the 2000 Protocol with a uniform 10% cap. Art. 28(2): provisions apply to income derived on or after 1 January of the calendar year in which the Convention enters into force (2002-01-01); Protocol Art. 6(2): 'This Protocol shall be ratified and it shall enter into force together with the Convention in accordance with Article 28 of the Convention.' Interest and royalty 10% caps confirmed in the Greek text of FEK A' 195/1994 (Arts. 11(2), 12(2), read from page scans). MLI: Greece reserved Art. 8 entirely; PPT effective date 2023-01-01 from treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "BG–GR MLI synthesised text not read"
+ ]
+}

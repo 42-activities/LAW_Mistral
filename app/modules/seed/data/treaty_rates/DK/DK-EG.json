@@ -1,0 +1,78 @@
+{
+ "a": "DK",
+ "b": "EG",
+ "treaty_name": "Convention between the Government of the Kingdom of Denmark and the Government of the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1989)",
+ "signed": "1989-02-09",
+ "entry_into_force": "1990-04-12",
+ "eif_source_url": "https://www.retsinformation.dk/eli/ltc/1990/49",
+ "eif_quote": "Overenskomsten, der ikke omfatter Færøerne og Grønland, trådte i medfør af artikel 30 i kraft den 12. april 1990.",
+ "source_title": "BKI nr 49 af 24/04/1990 (convention, DA)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/1990/49",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1990-06-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "DK",
+   "quote": "a) For så vidt angår Danmark: i) 15 pct. af bruttobeløbet af udbyttet, hvis den retmæssige ejer er et selskab (bortset fra et interessentskab og et kommanditselskab), der direkte ejer mindst 25 pct. af kapitalen i det selskab, som udbetaler udbyttet;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "1990-06-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DK",
+   "quote": "ii) 20 pct. af bruttobeløbet af udbyttet i alle andre tilfælde."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "1990-06-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "EG",
+   "quote": "b) For så vidt angår Egypten: i) 15 pct. af bruttobeløbet af udbyttet;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-06-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sådan rente kan imidlertid også beskattes i den kontraherende stat, hvorfra den hidrører, og i overensstemmelse med lovgivningen i denne stat, men den skat der pålignes må, såfremt modtageren er rentebeløbets retmæssige ejer, ikke overstige 15 pct. af bruttobeløbet af renten."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1990-06-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sådanne royalties kan imidlertid også beskattes i den kontraherende stat, hvorfra de hidrører, og i overensstemmelse med lovgivningen i denne stat, men den skat der pålignes må, såfremt modtageren er royalty-beløbets retmæssige ejer, ikke overstige 20 pct. af bruttobeløbet af royaltybeløbet."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 30(2)(a): WHT provisions effective for amounts paid on/after the first day of the second month following entry into force (1990-04-12) -> 1990-06-01. Dividend limits are asymmetric: Denmark as source 15% (company >=25% direct) / 20% other; Egypt as source 15%, but art. 10(2)(b)(ii) allows Egypt to subject dividends paid to Danish-resident individuals to its general income tax on total net income, capped at an average of 20% of the net dividend - not modelled. MLI art. 8 applies (DK notified art. 10(2), EG notified art. 10(2)(a)(i); neither reserved): 365-day holding period for the DK-source 25% tier, effective from MLI WHT date 2021-01-01 only. MLI covered by both; no art. 35(7) reservation. The '365' on the 25% tier applies only from 2021-01-01; earlier no holding period.",
+ "confidence": "high",
+ "unverified": []
+}

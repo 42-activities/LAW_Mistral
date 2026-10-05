@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "BG",
+ "treaty_name": "Convention between Spain and the People's Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1990)",
+ "signed": "1990-03-06",
+ "entry_into_force": "1991-06-14",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_bulgaria.pdf",
+ "eif_quote": "El presente Convenio entró en vigor el 14 de junio de 1991, fecha del canje de los Instrumentos de Ratificación, según se establece en su artículo 26.2.",
+ "source_title": "Texto sintético del MLI y del Convenio España-Bulgaria (Ministerio de Hacienda) + BOE 12-7-1991",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-bulgaria-sp.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2)(a)",
+   "valid_from": "1992-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Del 5 por 100 del importe bruto de los dividendos si el beneficiario efectivo es una Sociedad, excluidas las Sociedades de personas («partnerships»), que posee directa o indirectamente al menos el 25 por ciento del capital de la Sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2)(b)",
+   "valid_from": "1992-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Del 15 por 100 del importe bruto de los dividendos en los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(1)",
+   "valid_from": "1992-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Los intereses procedentes de un Estado contratante y pagados a un residente del otro Estado contratante sólo pueden someterse a imposición en ese otro Estado."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(1)",
+   "valid_from": "1992-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Los cánones procedentes de un Estado contratante y pagados a un residente del otro Estado contratante sólo pueden someterse a imposición en ese otro Estado."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/textos-sinteticos/cdi-ts-bulgaria-sp.pdf",
+  "quote": "No obstante las disposiciones [del Convenio], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta o de patrimonio cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo... (TS: MLI effective for taxes withheld at source in Spain and Bulgaria from 1 January 2024)"
+ },
+ "notes": "Non-standard numbering: dividends Art. 8, interest Art. 9, royalties Art. 10. Art. 26(2): provisions apply to taxes for periods beginning on or after 1 January of the year following EIF (1991-06-14) -> 1992-01-01 (no separate WHT rule). Protocol point 2: in Spain's case Art. 8(2) does not apply to income attributed to shareholders of companies under art. 12.2 Ley 44/1978 / art. 19 Ley 61/1978 (transparent companies) - not modelled. No MLI art. 8 holding period shown for the 5% tier in the synthesised text. MLI WHT effect 2024-01-01 (matches treaty map).",
+ "confidence": "high",
+ "unverified": []
+}

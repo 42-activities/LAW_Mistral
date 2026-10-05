@@ -1,0 +1,67 @@
+{
+ "a": "BH",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007, as amended 2009)",
+ "signed": "2007-11-04",
+ "entry_into_force": "2014-12-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Bahreïn Original 04-11-2007 11-12-2014 (a) Instrument subséquent 23-11-2009",
+ "source_title": "Belgian Senate doc. 5-2732/1 (2013/2014), bill of assent with FR/NL texts of the BE-BH Convention 2007 and Protocol 2009",
+ "source_url": "https://www.senate.be/www/webdriver?MItabObj=pdf&MIcolObj=pdf&MInamObj=pdfid&MItypeObj=application/pdf&MIvalObj=83891456",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "2015-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Nonobstant les dispositions précédentes du présent paragraphe, les dividendes ne sont pas imposables dans l’État contractant dont la société qui paie les dividendes est un résident si le bénéficiaire effectif des dividendes est une société qui est un résident de l’autre État contractant et qui, au moment du paiement des dividendes, détient, pendant une période ininterrompue d’au moins douze mois, des actions qui représentent directement au moins 10 pour cent du capital de la société qui paie les dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first sentence",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces dividendes sont aussi imposables dans l’État contractant dont la société qui paie les dividendes est un résident, et selon la législation de cet État, mais si le bénéficiaire effectif des dividendes est un résident de l’autre État contractant, l’impôt ainsi établi ne peut excéder 10 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces revenus sont aussi imposables dans l’État contractant d’où ils proviennent et selon la législation de cet État, mais si le bénéficiaire effectif des revenus est un résident de l’autre État contractant, l’impôt ainsi établi ne peut excéder 5 pour cent du montant brut des revenus."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2015-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Les redevances provenant d’un État contractant et payées à un résident de l’autre État contractant ne sont imposables que dans cet autre État, si ce résident en est le bénéficiaire effectif."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1) (replacing treaty art. 28)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 7(17)(a) of the Convention, the Kingdom of Bahrain considers that the following agreements are not subject to a reservation described in Article 7(15)(b) and contains a provision described in Article 7(2). ... 6 Belgium Article 28 (Belgium position: '8 Bahreïn Article 28')"
+ },
+ "notes": "Interest article is 'Revenus de créances' (income from debt-claims). valid_from per Art. 30(2)(a): source taxes on income attributed or paid from 1 January of the year following EIF (2014-12-11) -> 2015-01-01. Dividend 0% tier: beneficial owner company holding directly >=10% of capital for an uninterrupted period of at least 12 months at the time of payment (modelled as 365 days). Not modelled: Art. 10(6) exemption for dividends paid to the other State's government, local authorities, public bodies, National Bank or wholly-owned companies; Art. 11(3) 0% for commercial debt-claims, export-credit schemes (incl. Finexpo/Creditexport/Ducroire per Protocol pt 3), loans paid to banks (not bearer instruments), bank deposits, and income paid to the State/National Bank/wholly-owned companies. Treaty Art. 28 had a main-purpose rule for Arts 10-12 ('si le principal objectif ou l’un des principaux objectifs ... est de tirer avantage de ces articles'), in force since 2015; both Parties notified it under MLI Art. 7(17)(a), so the MLI PPT replaces it from the MLI WHT effective date 2023-01-01 (treaty-map). MLI Art. 8 not applicable: Bahrain reserved the entirety of Art. 8 (the treaty itself already has the 12-month holding requirement). The 2009 Protocol replaced Art. 26 (exchange of information) and does not change the WHT rates.",
+ "confidence": "high",
+ "unverified": []
+}

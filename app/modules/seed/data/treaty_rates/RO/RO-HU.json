@@ -1,0 +1,67 @@
+{
+ "a": "RO",
+ "b": "HU",
+ "treaty_name": "Convention between Romania and the Republic of Hungary for the avoidance of double taxation with respect to taxes on income and on capital (1993)",
+ "signed": "1993-09-16",
+ "entry_into_force": "1995-12-14",
+ "eif_source_url": "https://nav.gov.hu/en/taxation/double_taxation_treaties ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "Romania | 1993. IX. 16. | Act XCIX of 1996 | 1996. I. 1. (NAV); ANAF list: Ungaria | 91/26.10.1994 | 306/1994 | 01.01.1996",
+ "source_title": "Convenția România–Ungaria (ANAF text, Legea 91/1994) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Ungaria.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "40",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 la sută din suma brută a dividendelor, dacă beneficiarul este o societate care deţine direct cel puţin 40 la sută din capitalul societăţii plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 la sută din suma brută a dividendelor, în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dobânzilor, impozitul astfel stabilit nu va depăşi 15 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Ungaria.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "Royalties are Article 13 (Article 12 = commissions, capped at 5%). Art. 11(3): interest paid to the other State's Government, National Bank or financial institutions (wholly or partly) owned by it exempt. No MLI Art. 8 holding period applies to Art. 10(2)(a) per synthesised text. Art. 30(2)(a): WHT provisions apply from 1 January of the year following EIF. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": []
+}

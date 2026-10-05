@@ -1,0 +1,58 @@
+{
+ "a": "GR",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Hellenic Republic and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-03-02",
+ "entry_into_force": "2005-04-20",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+ "eif_quote": "Greece MLI deposit list: 'Kuwait Original 02-03-2003 20-04-2005'",
+ "source_title": "ΦΕΚ Α' 82/06.04.2005, Ν. 3330/2005 ratifying the GR–KW Agreement (official Greek Government Gazette, English authentic text pp. 921 ff., read from page scans)",
+ "source_url": "https://et.gr/api/DownloadFeksApi/?fek_pdf=20050100082",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5% (five per cent) of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5% (five per cent) of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Greece lists the Kuwait agreement as a CTA ('29 Kuwait'), but Kuwait has signed and not ratified the MLI, so the MLI is not in force for this pair."
+ },
+ "notes": "Not modelled: Arts. 10(3) and 11(3) exempt at source dividends/interest beneficially owned by the other State, its political subdivisions/local authorities, its Central Bank, or other governmental agencies/financial institutions specified by exchange of notes. Art. 30: withholding taxes apply to amounts paid or credited on or after 1 January of the calendar year following entry into force (2006-01-01). No protocol. MLI not applicable (Kuwait signatory, not a Party); the treaty has no general PPT. Greek-language text in FEK uses a legacy font encoding; the English text (prevails in case of divergence) was read from page images.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2005-04-20 taken from the OECD MLI position, not from a Greek/Kuwaiti notice"
+ ]
+}

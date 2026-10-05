@@ -1,0 +1,69 @@
+{
+ "a": "TR",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of the Republic of Turkey and the Government of the Republic of Hungary for the Avoidance of Double Taxation with respect to Taxes on Income, with Protocol (1993)",
+ "signed": "1993-03-10",
+ "entry_into_force": "1995-11-09",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "20) Macaristan 10.03.1993 25.12.1994 - 22152 09.11.1995 01.01.1993",
+ "source_title": "Türkiye-Macaristan Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FMACARISTAN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Temettü elde eden, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25'ini elinde tutan bir şirket ise (ortaklıklar hariç) gayri safi temettü tutarının yüzde 10'u;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15'i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, bu faiz elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faiz elde eden kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, gayrimaddi hak bedeli elde eden kişi gayrimaddi hak bedelinin gerçek lehdarı ise bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but is not an MLI Party; Hungary-Türkiye pair not MLI-covered; no principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FMACARISTAN.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 27(2): provisions apply to taxes for taxation periods beginning on/after 1 January of the year in which the Agreement was SIGNED (retroactive) -> 1993-01-01 (matches GİB list). CONFLICT: Hungarian NAV list (treaty map) gives 'applicable from 1996-01-01'; treaty text and GİB list give 1993-01-01 (used). Interest exempt at source (Art. 11(3)) when paid to the other Government, the Turkish Central Bank / Türk Eximbank, or the Hungarian Central Bank (Magyar Nemzeti Bank); Protocol para. 4: interest paid to a Hungarian bank with activities similar to Türk Eximbank exempt from Turkish tax if notified. Protocol para. 3 (ad Art. 10(4)): Turkish domestic branch-remittance WHT applies as long as lower than the Art. 10(2)(a) rate. Text read from GİB Turkish scan (OCR).",
+ "confidence": "high",
+ "unverified": [
+  "valid_from conflict: HU list 1996-01-01 vs treaty Art. 27(2)/GİB 1993-01-01"
+ ]
+}

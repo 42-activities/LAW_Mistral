@@ -1,0 +1,70 @@
+{
+ "a": "SE",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of Sweden and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital (2015)",
+ "signed": "2015-10-19",
+ "entry_into_force": "2016-08-31",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+ "eif_quote": "Saudi Arabia Original 19-10-2015 31-08-2016 [fn 10] Sweden understands that Saudi Arabia considers that the treaty entered into force on 31-08-2015.",
+ "source_title": "Lag (2016:408) om skatteavtal mellan Sverige och Saudiarabien, incl. annex with Swedish and English treaty text (Riksdagen SFS)",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2016408-om-skatteavtal-mellan-sverige-och_sfs-2016-408/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds at least 10 per cent of the voting power or voting shares of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Income from debt-claims arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 7 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (covered, not yet in effect)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to “the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement”; ... with references to “30 days after the date of receipt by the Depositary of the latest notification by each Contracting Jurisdiction making the reservation described in paragraph 7 of Article 35 ...”"
+ },
+ "notes": "Royalties: lower 5% cap for payments for the use of, or right to use, industrial, commercial or scientific equipment (Art. 12(2)(a): '5 per cent of the gross amount of the royalties for the use of, or the right to use, industrial, commercial or scientific equipment') - not modelled as a separate tier (no ownership threshold). Interest is called 'income from debt-claims' (Art. 11); taxable only in residence State. Valid_from: Art. 29(2)(a) - withholding taxes on amounts paid on or after 1 January of the year next following EIF; EIF 2016-08-31 (Swedish law SFS 2016:408 in force 2016-11-01 per SFSR; either way 2017-01-01). CONFLICT on EIF: Sweden's MLI position records 31-08-2016 but notes Saudi Arabia considers 31-08-2015 (no effect on the 2026 rates). Art. 28(2) denies treaty reductions to low-taxed offshore banking/shipping/finance/insurance/HQ/coordination-centre companies; Art. 28(1) preserves domestic anti-avoidance on deductions (main-purpose test) - neither is a general PPT. MLI: covered by both (SE no. 49), but Sweden reserved Art. 35(7)(a) and no Swedish Art. 35(7)(b) notification is known, so MLI provisions (incl. PPT, Art. 8 holding period) are not yet in effect.",
+ "confidence": "high",
+ "unverified": [
+  "Exact treaty EIF date (31-08-2016 vs 31-08-2015) - irrelevant to current rates",
+  "Absence of a Swedish MLI Art. 35(7)(b) notification taken from merged treaty map / OECD status list, not re-checked"
+ ]
+}

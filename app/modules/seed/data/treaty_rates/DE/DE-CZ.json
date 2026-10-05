@@ -1,0 +1,67 @@
+{
+ "a": "DE",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Czechoslovak Socialist Republic for the avoidance of double taxation with respect to taxes on income and on capital (1980), continued with the Czech Republic, as modified by the MLI",
+ "signed": "1980-12-19",
+ "entry_into_force": "1983-11-17",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Tschechien/1983-11-09-Tschechien-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "Bekanntmachung über das Inkrafttreten des deutsch-tschechoslowakischen Doppelbesteuerungsabkommens vom 24. Oktober 1983 ... (BGBl. 1982 II S. 1022) wird bekanntgemacht, daß das Abkommen nach seinem Artikel 29 Abs. 2 am 17. November 1983 in Kraft treten wird. (OCR of two-column scanned BGBl. 1983 II page; text reassembled)",
+ "source_title": "BMF: Synthetisierter Text des BEPS-MLI und des Abkommens mit der Tschechischen Republik (DBA 19.12.1980, BGBl. 1982 II S. 1022)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Tschechien/2025-06-18-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Empfänger eine Gesellschaft ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Zinsen, die aus einem Vertragsstaat stammen und an eine in dem anderen Vertragsstaat ansässige Person gezahlt werden, können nur in dem anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Lizenzgebühren können jedoch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Tschechien/2025-06-18-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+  "quote": "Ungeachtet dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... [Fußnote 4: Wirksam ab dem 1. Januar 2026.]"
+ },
+ "notes": "Art. 29(2)(b): withholding taxes apply to income paid after 31 December of the EIF year (1983) -> 1984-01-01. Art. 10(3) (split-rate clause: up to 25% plus surcharge where the distributed-profit corporate tax rate is >= 20 points lower than the retained-profit rate, for >= 25% voting holdings) is a legacy provision tied to the former German split-rate system; not modelled. Dividends include silent partnership income, profit-participating bonds and partiarische Darlehen and fund distributions (Art. 10(4)). The synthesised text contains no MLI Art. 8 holding-period box. MLI effective for DE-CZ from 2026-01-01 (BGBl. 2025 II Nr. 179: DE notification of Art. 35(7)(b) for CZ).",
+ "confidence": "high",
+ "unverified": []
+}

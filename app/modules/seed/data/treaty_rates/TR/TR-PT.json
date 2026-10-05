@@ -1,0 +1,67 @@
+{
+ "a": "TR",
+ "b": "PT",
+ "treaty_name": "Convention between the Republic of Turkey and the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (2005)",
+ "signed": "2005-05-11",
+ "entry_into_force": "2006-12-18",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "64) Portekiz 11.05.2005 15.12.2006 - 26377 18.12.2006 01.01.2007; PT table: \"TURQUIA ... Aviso n.º 2/2007 publicado em 10-01-2007 EM VIGOR DESDE 18-12-2006\"",
+ "source_title": "Türkiye-Portekiz Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme ve Vergi Kaçakçılığına Engel Olma Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FPORTEKIZ.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "a) Gerçek lehdar, temettü ödeyen şirketin sermayesinin (capital social) doğrudan doğruya en az yüzde 25'ini, temettü ödemesinden önceki kesintisiz iki yıllık bir dönemde, eğer temettü ödeyen şirket iki yıldan daha az bir süredir var ise bu şirketin var olduğu süre boyunca elinde tutan bir şirket (ortaklık hariç) ise gayrisafi temettü tutarının yüzde 5 i; veya"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15'i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) diğer bütün durumlarda faizin gayrisafi tutarının yüzde 15'i."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but has not ratified the MLI; no principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FPORTEKIZ.pdf",
+  "quote": ""
+ },
+ "notes": "Art. on entry into force: EIF on the date of the last notification; Portugal: WHT on amounts arising on/after 1 January of the year following EIF; Türkiye: taxation periods beginning on/after 1 January following EIF -> 2007-01-01 (GİB list). Dividend 5% tier: >=25% of capital held directly for an uninterrupted 2-year period before payment (or the payer's whole existence if shorter) - recorded as 730 days. Interest 10% on loans/debts exceeding two years (Art. 11(2)(a)); 15% otherwise (recorded); exempt at source (Art. 11(3)) for the other State's Central Bank and Government/political or administrative subdivisions/local authorities. Royalties 10% flat; Protocol (ad Art. 12/14): where an enterprise elects taxation under Art. 7, WHT on such income is creditable. Branch profits remainder taxable at max 5% (Art. 10(4), per OCR). OCR scan of GİB Turkish text; EIF article partly garbled in OCR, dates taken from the GİB list.",
+ "confidence": "high",
+ "unverified": []
+}

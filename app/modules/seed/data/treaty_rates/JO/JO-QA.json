@@ -1,0 +1,58 @@
+{
+ "a": "JO",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Hashemite Kingdom of Jordan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2004)",
+ "signed": "2004-01-12",
+ "entry_into_force": "2008-12-31",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "25 [Arabic title] Qatar Original 12-01-2004 31-12-2008",
+ "source_title": "اتفاقية بشأن تجنب الازدواج الضريبي ومنع التهرب من الضرائب على الدخل بين حكومة دولة قطر وحكومة المملكة الأردنية الهاشمية (GTA Qatar, Arabic authentic text)",
+ "source_url": "https://www.gta.gov.qa/assets/pdf/DTA%20Jordan%20(AR)%20(1)2026.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك ، يجوز أيضاً أن تخضع أرباح تلك الأسهم في الدولة المتعاقدة التي تكون الشركة الدافعة لأرباح الأسهم مقيمة فيها وفقاً لقوانين تلك الدولة. ولكن إذا كان المستفيد هو المالك المنتفع من أرباح الأسهم، فإن الضريبة المفروضة يجب أن لا تتعدى (10%) من المبلغ الإجمالي لأرباح أسهم الشركة الموزعة"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك يجوز أن تخضع هذه الفائدة للضريبة في الدولة المتعاقدة التي نشأت فيها هذه الفائدة وفقاً لأحكام تلك الدولة ، ولكن إذا كان المالك المنتفع من الفائدة يقيم في الدولة المتعاقدة الأخرى ، فإن الضريبة المفروضة يجب أن لا تتجاوز ( 5% ) من إجمالي مبلغ الفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك يجوز أن تخضع أيضاً تلك الأتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها و وفقاً لقوانين تلك الدولة المتعاقدة. أما إذا كان المتلقى هو المالك المنتفع من الأتاوات ومقيم في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب أن لا تزيد على ( 10 %)من إجمالي قيمة تلك الأتاوات"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-instrument-deposit.pdf",
+  "quote": "MLI Art. 7(1) (no Art. 7 reservation by Qatar or Jordan; neither notified an existing Art. 7(2) provision for this treaty): Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Flat caps, no participation tier: dividends 10%, interest 5%, royalties 10%. Interest beneficially owned by the other State's Government, political subdivisions, local authorities, Central Bank or agreed government financial bodies is exempt (Art. 11(3)) - not modelled. Valid_from: Art. 28(2) says the agreement is in force ('تعتبر هذه الاتفاقية نافذة') from 1 January of the calendar year following the year in which the notifications were exchanged; both MLI lists and the GTA list give 31-12-2008 as entry into force, read here as the exchange date -> application from 2009-01-01 (no separate WHT clause). The Art. 12(3) royalty definition paragraph is missing from the PDF text layer. MLI: covered by both (MLI EIF JO 2021-01-01, QA 2020-04-01 -> WHT 2021-01-01). MLI Art. 8 not applicable (Qatar reserved the entirety of Art. 8).",
+ "confidence": "medium",
+ "unverified": [
+  "Exact first application date: 2009-01-01 inferred from Art. 28(2) and the 31-12-2008 date (if 31-12-2008 were itself the in-force date after an earlier exchange, application could be from 2008)"
+ ]
+}

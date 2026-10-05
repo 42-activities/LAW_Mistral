@@ -1,0 +1,58 @@
+{
+ "a": "BE",
+ "b": "BG",
+ "treaty_name": "Convention between the People's Republic of Bulgaria and the Kingdom of Belgium for the avoidance of double taxation with respect to taxes on income and on capital (1988)",
+ "signed": "1988-10-25",
+ "entry_into_force": "1991-11-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Bulgarie Original 25-10-1988 28-11-1991",
+ "source_title": "NRA (Bulgarian National Revenue Agency) text: Спогодба между НР България и Кралство Белгия ... (ДВ бр. 36 от 30.04.1993)",
+ "source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/45b805d5-83b8-4686-8139-1d23100d4b02/DTC_BG_BE_bg.pdf?MOD=AJPERES",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Все пак дивидентите се облагат и в договарящата държава, на която дружеството, плащащо дивидентите, е местно лице, съгласно законодателството на тази държава, но ако действителният получател на дивидентите е местно лице на другата договаряща държава, така определеният данък не може да надвишава 10 на сто върху брутната сума на дивидентите."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Все пак тези лихви могат да бъдат облагани и в договарящата държава, от която произхождат, съгласно законодателството на тази държава, но ако действителният получател на лихвите е местно лице на другата договаряща държава, така определеният данък не може да надвишава 10 на сто върху брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Все пак тези възнаграждения подлежат на облагане и в договарящата държава, от която произхождат, съгласно нейното законодателство, но ако действителният получател на възнагражденията е местно лице на другата договаряща държава, така определеният данък не може да надвишава 5 на сто върху брутната сума на възнагражденията."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective date: Art. 29(2) - in Belgium, withholding taxes on income received/payable after 31 Dec of the year of EIF; in Bulgaria, taxes for tax years beginning after 31 Dec of the EIF year; EIF 28 Nov 1991 -> 1992-01-01. Art. 11(3): interest taxable only in the residence State (exempt at source) where paid by a Contracting State or a wholly state-owned institution, on trade credits, on non-bearer bank loans/advances/credits, and on non-bearer bank current-account/deposit interest - not modelled. No dividend participation tier. MLI: both list the treaty; WHT effect 2023-01-01 (treaty map); MLI Art. 8 not relevant (no participation tier; Belgium's Art. 8 list does not include Bulgaria). Bulgarian MLI position PDF is an image scan, not read; PPT is the MLI minimum standard. Text read is the Bulgarian authentic text (Bulgarian, French, Dutch equally authentic) as published by NRA; EIF taken from Belgium's MLI list/treaty map (the NRA text does not state the EIF date).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 1991-11-28 not stated in the text read; taken from Belgian MLI position / treaty map"
+ ]
+}

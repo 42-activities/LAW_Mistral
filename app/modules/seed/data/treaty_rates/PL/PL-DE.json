@@ -1,0 +1,67 @@
+{
+ "a": "PL",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Poland and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (2003)",
+ "signed": "2003-05-14",
+ "entry_into_force": "2004-12-19",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2005/90",
+ "eif_quote": "Dz.U. 2005 nr 12 poz. 90 ... entryIntoForce: 2004-12-19 (ISAP metadata); podatki.gov.pl: 14.05.2003 19.12.2004 01.01.2005",
+ "source_title": "PL-DE Agreement 2003 with Protocol, Dz.U. 2005 nr 12 poz. 90, PL/DE text (scan, podatki.gov.pl)",
+ "source_url": "https://www.podatki.gov.pl/media/wdxllckt/niemcy-konwencja-tekst-polski-niemiecki.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procent kwoty dywidend brutto, jeżeli osobą uprawnioną jest spółka (inna niż spółka osobowa), której bezpośredni udział w kapitale spółki wypłacającej dywidendy wynosi co najmniej 10 procent,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procent kwoty dywidend brutto we wszystkich pozostałych przypadkach."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Jednakże takie odsetki mogą być także opodatkowane w Umawiającym się Państwie, w którym powstają, i zgodnie z ustawodawstwem tego Państwa, ale jeżeli osoba uprawniona do odsetek ma miejsce zamieszkania lub siedzibę w drugim Umawiającym się Państwie, to podatek w ten sposób ustalony nie może przekroczyć 5 procent kwoty brutto tych odsetek."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Jednakże należności licencyjne, o których mowa w ustępie 1 niniejszego artykułu, mogą być także opodatkowane w Umawiającym się Państwie, w którym powstają, i zgodnie z jego ustawodawstwem, ale jeżeli osoba uprawniona do należności licencyjnych ma miejsce zamieszkania lub siedzibę w drugim Umawiającym się Państwie, to podatek w ten sposób ustalony nie może przekroczyć 5 procent kwoty brutto należności licencyjnych."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-germany-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Not an MLI covered tax agreement (neither PL nor DE lists it) -> no PPT; treaty has only a domestic anti-avoidance saving clause (Art. 30). Art. 11(3): interest taxable only in residence State when paid to the PL/DE Government, on export-promotion guaranteed loans, on credit sales of industrial/commercial/scientific equipment or goods between enterprises, or on any bank loan (not modelled). Protocol point 2: dividends and interest from profit-participating rights/debt (silent partnership, participating loans, profit-sharing bonds) taxable at source under domestic law without cap if deductible for the payer (not modelled). Art. 32(2)(a): WHT from 1 January of the year following EIF -> 2005-01-01; replaced the 1972 agreement.",
+ "confidence": "high",
+ "unverified": []
+}

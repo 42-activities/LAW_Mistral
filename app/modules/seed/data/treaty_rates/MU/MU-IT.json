@@ -1,0 +1,91 @@
+{
+ "a": "MU",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of Mauritius and the Government of the Republic of Italy for the avoidance of double taxation with respect to taxes on income and for the prevention of fiscal evasion (1990, as amended 2010)",
+ "signed": "1990-03-09",
+ "entry_into_force": "1995-04-28",
+ "eif_source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/mauri-en.pdf",
+ "eif_quote": "Date of Conclusion: 9 March 1990. Entry into Force: 28 April 1995. Effective Date: Retroactively, 1 January 1987",
+ "source_title": "Italian Ministry of Economy and Finance (finanze.gov.it): English text of the Italy-Mauritius Convention with Protocol; MRA GN No. 116 of 2011 (2010 amending Protocol)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/dipartimento_pol_fisc/mauri-en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1987-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: (a) 5% of the gross amount of the dividends if the recipient is a company (excluding partnerships) which owns directly at least 25% of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "(b) in all other cases, 15% of the gross amount of the dividends."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15% of the gross amount of the royalties."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1987-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: (a) 5% of the gross amount of the dividends if the recipient is a company (excluding partnerships) which owns directly at least 25% of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1987-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "(b) in all other cases, 15% of the gross amount of the dividends."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+  "quote": ""
+ },
+ "notes": "INTEREST omitted: Art. 11(2) lets the source State tax interest 'according to the law of that State' with no treaty cap; Art. 11(3) makes interest taxable only in the residence State where beneficially owned by and paid to that State, a public body (Protocol (e): entities wholly or partly controlled by the State) or a banking or financial institution of that State - not modelled. Protocol (d): Mauritius may tax dividends paid by Mauritian companies to Italian residents up to 40% as long as such dividends are deductible for the paying company - conditional, not modelled. Protocol (f): MFN consultation clause on royalties. Art. 29: retroactive effect - Italy for taxable periods beginning on/after 1 January 1987, Mauritius for income years beginning on/after 1 July 1987 (entries split by source_state); refund claims within two years of EIF. The 2010 Protocol (signed 9 Dec 2010, in force 19 Nov 2012 per Italian list in treaty map) amended Arts. 2, 3, 9, 23 and 26 only - no rate change. MLI: Italy not yet a Party (treaty map) - no PPT; no treaty-level PPT. The English text on finanze.gov.it is a ministry publication; the Italian G.U. text on the same site is a scan and was not compared.",
+ "confidence": "medium",
+ "unverified": [
+  "English text not compared with the authentic Italian/English signed version (G.U. PDF is scanned)"
+ ]
+}

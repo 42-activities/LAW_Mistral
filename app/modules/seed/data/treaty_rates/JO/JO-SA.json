@@ -1,0 +1,59 @@
+{
+ "a": "JO",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the Kingdom of Saudi Arabia and the Government of the Hashemite Kingdom of Jordan for the Avoidance of Double Taxation and the Prevention of Tax Evasion with respect to Taxes on Income (2016)",
+ "signed": "2016-10-19",
+ "entry_into_force": "2017-09-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Agreement between the kingdom of Saudi Arabia and the Hashemite kingdom of Jordan signed on 19/10/2016 and entered into force on 1/9/2017.",
+ "source_title": "اتفاقية بين حكومة المملكة العربية السعودية وحكومة المملكة الأردنية الهاشمية لتجنب الازدواج الضريبي ولمنع التهرب الضريبي في شأن الضرائب على الدخل (ZATCA, Arabic authentic text)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، يجوز أيضاً أن تخضع أرباح الأسهم تلك للضريبة في الدولة المتعاقدة التي تقيم فيها الشركة الدافعة للأرباح ووفقاً لقوانين وأنظمة تلك الدولة. ولكن إذا كان المالك المنتفع بأرباح الأسهم مقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تتجاوز خمسة بالمائة [...] قيمة أرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، يجوز أن يخضع مثل هذا الدخل من مطالبات الدين للضريبة في الدولة المتعاقدة التي ينشأ فيها وطبقاً لقوانين وأنظمة تلك الدولة المتعاقدة، لكن إذا كان المالك المنتفع بالدخل من مطالبات الدين مقيماً في الدولة المتعاقدة الأخرى، فيجب ألا تتجاوز هذه الضريبة المفروضة نسبة خمسة بالمائة"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك، يجوز أن تخضع تلك الإتاوات أيضاً للضريبة في الدولة المتعاقدة التي تنشأ فيها وفقاً لقوانين وأنظمة تلك الدولة المتعاقدة، لكن إذا كان المالك المنتفع من الإتاوات مقيماً في الدولة المتعاقدة الأخرى، فإن هذه الضريبة المفروضة يجب ألا تزيد عن سبعة بالمائة"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-saudi-arabia-instrument-deposit.pdf",
+  "quote": "Article 7 - Prevention of Treaty Abuse: No Reservation [Saudi Arabia]; Jordan likewise made no Art. 7 reservation. MLI Art. 7(1): Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Flat caps, no participation tier: dividends 5%, interest ('income from debt-claims', الدخل من مطالبات الدين) 5%, royalties 7%. Interest paid to the other State's Government or wholly-owned financial institutions (incl. Central Bank of Jordan / SAMA) is exempt (Art. 11(3)) - not modelled. Valid_from per Art. 30(2)(a): withholding taxes on amounts paid on or after 1 January following EIF (EIF 2017-09-01 -> 2018-01-01). Article numbers inferred from the sequence of 'المادة' headings because the PDF text layer drops the digits (rates themselves are written in words: خمسة = five, سبعة = seven). Art. 29 preserves domestic anti-avoidance rules (not a PPT). MLI: both list the treaty (SA no. 19; Jordan); MLI EIF JO 2021-01-01, SA 2020-05-01 -> WHT effect 2021-01-01; neither State notified Art. 7(2) existing provisions for this treaty, so the PPT is added. MLI Art. 8 not applicable (Saudi Arabia reserved the entirety of Art. 8; no participation tier anyway). No synthesised text for this pair was found on ZATCA.",
+ "confidence": "high",
+ "unverified": [
+  "Article numbering inferred (digits missing from PDF text layer)",
+  "PPT effect date relies on merged-map MLI WHT computation (2021-01-01)"
+ ]
+}

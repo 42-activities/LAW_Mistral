@@ -1,0 +1,56 @@
+{
+ "a": "LB",
+ "b": "BG",
+ "treaty_name": "Convention between the Lebanese Republic and the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999)",
+ "signed": "1999-06-01",
+ "entry_into_force": "2001-11-10",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "Ливан | 01-06-1999 | 10-11-2001 | Спогодба (Bulgarian NRA treaty list, via treaty map)",
+ "source_title": "Lebanon MoF: Lebanon-Bulgaria DTC, English text (scanned)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Bulgaria.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of dividends is a resident of the other Contracting State the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 7 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Lebanon not an MLI signatory; only an article-level anti-abuse clause in Art. 11(8))",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Bulgaria.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29(2)(i): WHT applies to income derived on or after 1 January of the year following EIF (2001-11-10) -> 2002-01-01. Art. 11(3): interest paid to the other State's Government, a governmental institution or the National Bank exempt (not modelled). Art. 11(8): interest article does not apply where the main purpose of creating/assigning the debt-claim was to take advantage of it (article-level anti-abuse, not a general PPT). Royalties include industrial/commercial/scientific equipment and satellite/cable transmission. MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

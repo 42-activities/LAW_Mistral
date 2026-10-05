@@ -1,0 +1,81 @@
+{
+ "a": "US",
+ "b": "BE",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Kingdom of Belgium for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2006)",
+ "signed": "2006-11-27",
+ "entry_into_force": "2007-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Etats-Unis Original 27-11-2006 28-12-2007",
+ "source_title": "US-Belgium Income Tax Convention signed at Brussels 27 November 2006, with Protocol (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/belgiumtt06.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(4)(a)",
+   "valid_from": "2008-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "BE",
+   "quote": "4. Notwithstanding the provisions of paragraph 2, where the company paying the dividends is a resident of Belgium, such dividends shall not be taxed in Belgium if the beneficial owner of the dividends is: a) a company that is a resident of the United States that has owned directly shares representing at least 10 percent of the capital of the company paying the dividends for a 12-month period ending on the date the dividend is declared;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2008-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2008-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 21, not a PPT)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/belgiumtt06.pdf",
+  "quote": ""
+ },
+ "notes": "valid_from per Art. 28(2)(a): taxes withheld at source for amounts paid or credited on or after the first day of the second month next following EIF (2007-12-28 -> 2008-02-01). US-source 0% tier (Art. 10(3)(a)) additionally requires LOB conditions (Art. 21 publicly-traded / ownership-base-erosion / derivative benefits / competent-authority determination); 'directly or indirectly' 80% voting power. Art. 10(12) sunset of para 3 unless Treasury certification by 30 June of the 5th year after EIF: IRS Tax Treaty Table 1 (Rev. May 2023) still shows Belgium 0% with footnote oo (80%-owned subsidiary exemption), indicating para 3 remains in effect. Not modelled: 0% for pension-fund dividends both ways (Art. 10(3)(b), 10(4)(b)); RIC/REIT rules (Art. 10(6)); branch profits tax capped at 5% (Art. 10(10)-(11)); interest exceptions Art. 11(2): US non-portfolio contingent interest and Belgian profit/cash-flow-linked interest up to 15%, REMIC excess inclusions under domestic law. Protocol at signing contains no WHT-rate changes. [curated: dropped DIVIDEND tier — US-source 0% needs the LOB test and a Treasury certification that could not be confirmed]",
+ "confidence": "high",
+ "unverified": [
+  "Treasury certification under Art. 10(12)(a)(i) not seen directly; inferred from IRS Table 1 (Rev. May 2023) footnote oo",
+  "valid_from computed from Art. 28(2)(a)"
+ ]
+}

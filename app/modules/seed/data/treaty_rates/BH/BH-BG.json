@@ -1,0 +1,56 @@
+{
+ "a": "BH",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the Republic of Bulgaria and the Government of the Kingdom of Bahrain for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (2009)",
+ "signed": "2009-06-26",
+ "entry_into_force": "2010-10-06",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "Бахрейн | 26-06-2009 | 06-10-2010 | Спогодба (NRA list; BG MLI list in ДВ бр. 47/2022: 'Бахрейн Оригинал 26-06-2009 06-10-2010')",
+ "source_title": "NRA (Bulgaria) official Bulgarian text of the BG-BH Agreement (DTC_BG_BH_bg.pdf)",
+ "source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/c7038704-209b-4797-9435-39e131933c25/DTC_BG_BH_bg.pdf?MOD=AJPERES",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Въпреки това, такива дивиденти могат да се облагат с данък и в договарящата държава, на която дружеството, изплащащо дивидентите е местно лице и в съответствие със законодателството на тази държава, но ако притежателят на дивидентите е местно лице на другата договаряща държава, така наложения данък няма да надвишава 5 процента от брутната сума на дивидентите."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Въпреки това, такъв доход може да се облага с данък и в договарящата държава, в която възниква и съобразно законодателството на тази държава, но когато притежателят на този доход е местно лице на другата договаряща държава, така наложеният данък няма да надвишава 5 процента от брутната сума на дохода."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Такива авторски и лицензионни възнаградения, обаче, могат да се облагат с данък и в договарящата държава, от която произхождат и съобразно законодателството на тази държава, но когато притежателят на авторските и лицензионните възнаграждения е местно лице на другата договаряща държава, така наложеният данък няма да надвишава 5 процента от брутния размер на авторските и лицензионните възнаграждения."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=174066",
+  "quote": "Both Parties list the agreement as a Covered Tax Agreement (BG: '6 ... Бахрейн Оригинал 26-06-2009 06-10-2010'; BH: 'Bulgaria Original 26-06-2009 09-11-2010'); neither makes an Article 7 reservation for it, so the PPT of Art. 7(1) applies from the MLI WHT effective date."
+ },
+ "notes": "Interest article titled 'Доход от вземане за дълг' (income from debt-claims). valid_from per Art. 29(2)(a): withholding taxes on income derived on or after 1 January of the calendar year following EIF -> 2011-01-01 (same result under either EIF date). Not modelled: Art. 10(6) and Art. 11(3) exemptions for dividends/income from debt-claims paid to the other State's government, local authority, statutory body, agency, National Bank or wholly State-owned company. MLI Art. 8 not applicable (both BG and BH reserved the entirety of Art. 8; no holding-threshold tiers anyway). MLI WHT effective 2023-01-01 taken from treaty-map. EIF CONFLICT: Bahrain MLI position gives 09-11-2010, NRA list and BG MLI give 06-10-2010; no impact on valid_from.",
+ "confidence": "high",
+ "unverified": []
+}

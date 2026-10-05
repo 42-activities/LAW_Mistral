@@ -1,0 +1,70 @@
+{
+ "a": "AT",
+ "b": "EG",
+ "treaty_name": "Convention between the Republic of Austria and the United Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1962)",
+ "signed": "1962-10-16",
+ "entry_into_force": "1963-10-28",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11003999/NOR11003999.html",
+ "eif_quote": "Dieses Abkommen ist gemäß seinem Artikel XXVI Absatz 2 am 28. Oktober 1963 in Kraft getreten.",
+ "source_title": "RIS: DBA Österreich-Ägypten (VAR), BGBl. Nr. 293/1963 + English MLI synthesised text (BGBl. III Nr. 93/2018, Anl. 1)",
+ "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269328/III_93_2018_DBA_Aegypten_synthetisiert_englisch.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VIII(1)",
+   "valid_from": "1961-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AT",
+   "quote": "Tax shall not be imposed in Austria on dividends paid by a company which is a resident of Austria to a resident of the United Arab Republic at a rate exceeding 10 per cent. Tax may, however, be deducted at the full rate from any such dividends but any tax deducted in excess of 10 per cent shall be refunded on a claim being made."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article X(1)",
+   "valid_from": "1961-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AT",
+   "quote": "Interest paid by a resident of Austria to a resident of the United Arab Republic shall not be subject to tax in Austria."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article X(2)",
+   "valid_from": "1961-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "EG",
+   "quote": "Interest paid by a resident of the United Arab Republic to a resident of Austria shall in the United Arab Republic only be subject to the tax on income from movable capital, the defence tax and the supplementary taxes, provided that the rate of those taxes does not exceed 15 per cent."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XI(1)",
+   "valid_from": "1961-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Any royalty derived from sources within one of the Contracting States by a resident of the other State, shall be exempt from tax in that first-mentioned State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269328/III_93_2018_DBA_Aegypten_synthetisiert_englisch.pdf",
+  "quote": "In accordance with paragraphs 3 and 5 of Article 35 of the MLI, paragraph 1 of Article 7 of the MLI has effect in the Republic of Austria with respect to this Convention: a) with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2024"
+ },
+ "notes": "Old-style, asymmetric treaty (articles numbered in Roman numerals; dividends = Art. VIII, interest = Art. X, royalties = Art. XI). Dividends paid by an Egyptian company to an Austrian resident (Art. VIII(2)): '(a) the tax on income from movable capital, the defence tax and the supplementary taxes, which shall be deducted at the source; (b) the general income tax including the defence tax, provided that such dividends shall not be subject to a rate in excess of 15 per cent.' - the 15% limit is attached to the general income tax in (b); the text gives no cap for the source-deducted tax in (a), so no Egypt-source dividend limit is modelled. Art. VIII(3)/(5): dividends of Austrian companies whose activities lie (>=90%) in Egypt are treated under para 2. Art. IX: shipping/air transport company dividends exempt. Royalties: Art. XI(4) cinematograph film rents/royalties remain taxable under domestic law of both States; Art. XI(6) founder shares excluded. Interest term excludes mortgage-secured interest. Effective date Art. XXVI(3): taxes payable/tax years from 1 January 1961. MLI: Austria added this treaty to its list on 30 August 2023 (Art. 35(5)), so PPT has effect for WHT from 2024-01-01 in both States (the treaty-map value 2021-01-01 is superseded by the synthesised text). Authentic text English only.",
+ "confidence": "medium",
+ "unverified": [
+  "Treatment of Egyptian source tax on dividends under Art. VIII(2)(a) (no explicit cap) - check Egyptian practice",
+  "Treaty-map mli_wht_effective 2021-01-01 conflicts with synthesised text (2024-01-01)"
+ ]
+}

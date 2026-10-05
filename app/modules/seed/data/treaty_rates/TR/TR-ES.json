@@ -1,0 +1,78 @@
+{
+ "a": "TR",
+ "b": "ES",
+ "treaty_name": "Convention between the Republic of Turkey and the Kingdom of Spain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (2002)",
+ "signed": "2002-07-05",
+ "entry_into_force": "2003-12-18",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "50) İspanya 05.07.2002 18.12.2003 - 25320 18.12.2003 01.01.2004",
+ "source_title": "Türkiye-İspanya Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme ve Vergi Kaçakçılığına Engel Olma Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FISPANYA.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "a) Türkiye yönünden: i) temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25 ini elinde tutan bir şirkete (ortaklıklar hariç), 5 inci fıkrada belirtilen şekilde vergiye tabi tutulmuş olan kazançlardan ödenen temettülerde gayrisafi temettü tutarının yüzde 5 i;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "ES",
+   "quote": "b) İspanya yönünden: i) temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25 ini elinde tutan bir şirkete, (ortaklıklar hariç) ödenen temettülerde gayrisafi temettü tutarının yüzde 5 i;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii) / (b)(ii)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ii) tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15 i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi faiz tutarının yüzde 15 i."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but is not an MLI Party; no general principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FISPANYA.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 27: EIF on receipt of the last notification; applies to taxation periods beginning on/after 1 January following EIF -> 2004-01-01. TR-source 5% tier only for dividends paid out of profits that were not exempt and were subject to full-rate Turkish corporate tax (Art. 10(5); Protocol para. 3: 'full rate' = general Turkish corporate tax rate; Turkish authorities to notify Spain if a lower rate is adopted); otherwise 15%. Branch profits tax (Art. 10(4)): TR 5%/15%, ES 5%. Interest 10% where derived from a loan granted by a bank (incl. Spanish savings banks, Protocol para. 4) or paid on credit sales of merchandise/equipment to an enterprise (Art. 11(2)(a)); 15% otherwise (recorded). Royalties 10% flat. Protocol para. 8 contains a purpose-based anti-abuse rule limited to the Art. 22(1)(b) double-tax-relief exemption (not a PPT). The English text prevails in case of divergence (final clause); only the Turkish text was read (OCR scan).",
+ "confidence": "high",
+ "unverified": []
+}

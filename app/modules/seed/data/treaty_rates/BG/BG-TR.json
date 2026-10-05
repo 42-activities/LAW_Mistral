@@ -1,0 +1,69 @@
+{
+ "a": "BG",
+ "b": "TR",
+ "treaty_name": "Convention between the Republic of Turkey and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income (1994)",
+ "signed": "1994-07-07",
+ "entry_into_force": "1997-09-17",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "Турция | 07-07-1994 | 17-09-1997 | Спогодба",
+ "source_title": "GİB (Turkish Revenue Administration): Türkiye-Bulgaristan ÇVÖA Turkish text",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FBULGARISTAN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, temettü elde eden kişi temettünün gerçek lehdarı ise, bu şekilde alınacak vergi aşağıdaki oranları aşmayacaktır: a) Temettü elde eden, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25'ini elinde tutan bir şirket (ortaklık hariç) ise gayrisafi temettü tutarının yüzde 10'u;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15'i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber, bu faiz elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faiz elde eden kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber, sözkonusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedeli elde eden kişi gayrimaddi hak bedelinin gerçek lehdarı ise, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bulgaria-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) when paid to the other State's Government or central bank (Central Bank of the Republic of Turkey / Bulgarian National Bank) - not modelled. Art. 10(4): branch profits of a company may additionally be taxed under Art. 10(2) after Art. 7 taxation (branch profits tax) - not modelled. Art. 27(2): provisions apply for taxable periods beginning on or after 1 January of the year following EIF (EIF 1997-09-17 -> 1998-01-01; GİB list also states application from 01.01.1998). Authentic text is English only ('İkişer nüsha olarak İngilizce dilinde Ankara'da 7 Temmuz 1994 tarihinde düzenlenmiştir'); the official Turkish translation published by GİB was read (PDF text layer has OCR artefacts, normalised in quotes). MLI: Türkiye has signed but not ratified the MLI, so the MLI does not apply - no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read; Turkish official translation used"
+ ]
+}

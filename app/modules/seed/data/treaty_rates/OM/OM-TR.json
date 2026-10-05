@@ -1,0 +1,67 @@
+{
+ "a": "OM",
+ "b": "TR",
+ "treaty_name": "Convention between the Government of the Republic of Turkey and the Government of the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006)",
+ "signed": "2006-05-31",
+ "entry_into_force": "2010-03-15",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "73) Umman 31.05.2006 13.03.2010 - 27520 15.03.2010 01.01.2011 (7)",
+ "source_title": "GİB (Turkish Revenue Administration): Türkiye-Umman ÇVÖA Turkish text with Protocol",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FUMMAN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, temettünün gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi aşağıdaki oranları aşmayacaaktır; a) Gerçek lehdar, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az % 15'ini elinde tutan bir şirket (ortaklık hariç) ise gayrisafi temettü tutarının % 10'u;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temüttü tutarının % 15'i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faizin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber, sözkonusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10' unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) when paid to the other State's Government or central bank - not modelled. Protocol 2: the State General Reserve Fund of Oman is treated as an Omani resident. Art. 10(5): branch profits remaining after Art. 7 taxation may be taxed as dividends in the PE State (branch profits tax) - not modelled; Protocol 3 links this to Omani rate harmonisation. Art. 27(2)(a): WHT provisions apply to amounts paid or accrued on or after 1 January following EIF (EIF 2010-03-15 -> 2011-01-01; GİB list also shows 01.01.2011). Authentic texts Turkish, Arabic and English (English prevails); Turkish text read (PDF text layer contains OCR artefacts; quotes as extracted). MLI: Türkiye has not ratified the MLI (treaty map), so no MLI PPT.",
+ "confidence": "high",
+ "unverified": []
+}

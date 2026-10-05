@@ -1,0 +1,69 @@
+{
+ "a": "US",
+ "b": "PL",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Polish People's Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1974)",
+ "signed": "1974-10-08",
+ "entry_into_force": "1976-07-23",
+ "eif_source_url": "https://www.podatki.gov.pl/podatkowa-wspolpraca-miedzynarodowa/wykaz-umow-o-unikaniu-podwojnego-opodatkowania",
+ "eif_quote": "Stany Zjednoczone | Umowa z 1974 r. | 08.10.1974 | 23.07.1976 | 01.01.1974 | 1976 - poz. 178 | | Umowa z 2013 r. | 13.02.2013 | | |",
+ "source_title": "US-Poland Income Tax Convention signed at Washington 8 October 1974 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/poland.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1974-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 5 percent of the gross amount of the dividends if the recipient is a company which holds directly at least 10 percent of the outstanding shares of the voting stock of the company paying the dividends,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1974-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) In all other cases, 15 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1974-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be exempt from tax by the first-mentioned Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1974-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Royalties may be taxed in the Contracting State where they arise, and according to the law of that State, but the tax so charged shall not exceed 10 percent of the gross amount of the royalty."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; 1974 Convention has no PPT or LOB)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/poland.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 25: provisions effective for taxes payable at source on payments made on or after 1 January 1974 (retroactive). The new US-Poland convention signed 13 February 2013 is NOT in force (no EIF on the Polish list) - not applied. EIF date conflict: Polish MoF list gives 23.07.1976; IRS text header says 'Entered into force July 22, 1976' (and proclaimed July 23, 1976); Art. 25 says 30 days after exchange of instruments. Used the Polish list value. Treaty uses 'recipient' (no beneficial-owner wording) and has no limitation-on-benefits article.",
+ "confidence": "high",
+ "unverified": [
+  "EIF day (22 vs 23 July 1976) conflicting between IRS header and Polish list"
+ ]
+}

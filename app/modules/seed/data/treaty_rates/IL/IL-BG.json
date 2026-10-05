@@ -1,0 +1,58 @@
+{
+ "a": "IL",
+ "b": "BG",
+ "treaty_name": "Convention between the Government of the Republic of Bulgaria and the Government of the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000)",
+ "signed": "2000-01-18",
+ "entry_into_force": "2002-12-31",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "Израел | 18-01-2000 | 31-12-2002 | Спогодба | Синтезиран текст",
+ "source_title": "NRA (BG) – Спогодба България–Израел (Bulgarian text) + NRA synthesised MLI text",
+ "source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/91bf9b74-12e2-40bf-a871-1b248558da7c/DTC_BG_IL_bg.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) във всички останали случаи дивидентите се облагат със ставка, която е 50 % от ставката, приложима съгласно вътрешното законодателство на всяка от договарящите държави; въпреки това във всички случаи данъчната ставка няма да е по-голяма от 12,5 % и по-малка от 7,5 %."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) 10 на сто от брутната сума на лихвите във всички останали случаи."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Въпреки това този данък няма да бъде по-голям от 12,5 % и по-малък от 7,5 % от брутната сума на авторските и лицензионните възнаграждения."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/3166333a-0f9b-433e-a436-de26af0e5b02/Synth_DTC_Israel.pdf",
+  "quote": "Независимо от разпоредбите на тази [Спогодба], облекчение съгласно тази [Спогодба] не се предоставя по отношение на елемент от доход или имущество, ако може обосновано да се приеме, като се имат предвид всички относими факти и обстоятелства, че получаването на това облекчение е една от основните цели на която и да е договореност или сделка, които имат за резултат пряко или непряко това облекчение"
+ },
+ "notes": "Dividends: Art. 10(2)(a) 10% where dividends are paid out of profits exempt or taxed at a reduced rate under investment-encouragement provisions (not modelled); Art. 10(2)(b) general rate = 50% of the domestic rate, but not more than 12.5% and not less than 7.5% (modelled as 12.5% cap). Royalties: same formula (50% of domestic rate, between 7.5% and 12.5%). Interest: 5% (Art. 11(2)(a)) when paid to a bank or other financial institution (not modelled); exempt (Art. 11(3)) when paid to the other State, its local authority or central bank, or on debt guaranteed/insured/financed by them or by the Israel Foreign Trade Risks Insurance Corporation. Art. 28(2)(i): WHT from 1 January of the year following EIF. MLI (NRA synthesised text): effect for WHT in Bulgaria from 1 January 2023 and in Israel from the first day of the taxable period beginning on/after 1 January 2023. PPT quote copied from the synthesised PDF (text-extraction spacing artifacts removed).",
+ "confidence": "medium",
+ "unverified": [
+  "Interpretation of the 50%-of-domestic-rate formula with 7.5% floor (modelled as 12.5% cap)"
+ ]
+}

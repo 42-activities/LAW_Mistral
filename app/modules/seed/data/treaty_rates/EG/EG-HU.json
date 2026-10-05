@@ -1,0 +1,78 @@
+{
+ "a": "EG",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Republic of Hungary and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1991)",
+ "signed": "1991-11-05",
+ "entry_into_force": "1994-05-22",
+ "eif_source_url": "https://nav.gov.hu/en/taxation/double_taxation_treaties ; https://net.jogtar.hu/jogszabaly?docid=99500017.tv (1995. évi XVII. törvény)",
+ "eif_quote": "Treaty map (NAV list): signed 1991-11-05, entry into force 1994-05-22, applicable from 1995-01-01. Art. 28(2): 'This Convention shall enter into force sixty days after the date of the latter of the notifications ... and its provisions shall apply: a) in respect of taxes withheld at source to amounts of income derived on or after the first day of January in the calendar year next following the year in which the latter of the notifications ... is given'.",
+ "source_title": "ETA: Synthesised text of the MLI and the Egypt-Hungary Convention (English); cross-checked with 1995. évi XVII. törvény (Jogtár)",
+ "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/hungary.pdf ; https://net.jogtar.hu/jogszabaly?docid=99500017.tv (1995. évi XVII. törvény)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "EG",
+   "quote": "but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: (a) in the case of Egypt: (i) 15% of the gross amount of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "HU",
+   "quote": "(b) in the case of the Republic of Hungary: (i) 15% of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25% of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(ii)",
+   "valid_from": "1995-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HU",
+   "quote": "(ii) 20% of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15% of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 15% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/hungary.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Convention: ... a benefit under [the Convention] shall not be granted in respect of an item of income if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... | 'with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2022'."
+ },
+ "notes": "Dividend limits differ by source State: Egypt as source 15% (all recipients); Egypt-source dividends to Hungarian resident individuals may instead bear the general income tax capped at 'an average of 20% of the net dividends' - not modelled; Hungary as source 15% (company, not partnership, holding directly >=25%) / 20% otherwise. MLI Art. 8 (365 days) not applicable: Hungary 'reserves the right for the entirety of Article 8 not to apply to its Covered Tax Agreements' (Egypt had notified Art. 10(2)(b)(i)). Art. 11(3): interest paid between governments/central banks/local authorities/wholly-owned financial institutions, or on government-guaranteed/insured loans, exempt - not modelled. WHT first application 1995-01-01 (Art. 28(2)(a); NAV list and Jogtár agree). Hungary chose MLI Art. 7(4) (competent authority discretionary relief).",
+ "confidence": "high",
+ "unverified": []
+}

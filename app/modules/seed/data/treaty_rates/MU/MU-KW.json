@@ -1,0 +1,59 @@
+{
+ "a": "MU",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of Mauritius and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital (1997)",
+ "signed": "1997-03-24",
+ "entry_into_force": "1998-09-01",
+ "eif_source_url": "https://www.mra.mu/index.php/taxes-duties/international-taxation/double-taxation-agreements",
+ "eif_quote": "MRA: 'The treaties currently in force are: ... Kuwait ...' (EIF date 1998-09-01 from treaty map; Art. 30(2): enters into force 30 days after the later notification)",
+ "source_title": "MRA: Government Notice No. 53 of 1997 (Legal Supplement to Government Gazette No. 48 of 31 May 1997) - Mauritius-Kuwait Agreement (scanned; read as page images)",
+ "source_url": "https://www.mra.mu/download/Mtius_Kuwait.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1997-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxed only in the other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1997-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxed only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10% (ten per cent) of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kuwait.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 30(2): provisions have effect for WHT on amounts paid or credited on or after 1 July of the year in which the Agreement was signed (1997-07-01), i.e. retroactively relative to EIF. Royalty definition includes computer software, equipment rentals and 'information concerning industrial, commercial or scientific experience including consultancy and technical assistance'. Art. 11(3) (PE-connected interest) unusually adds that 'the tax so charged shall not be more than (5%) five percent of the gross amount of such interest' - PE case, not modelled. Art. 31: five-year renewable term. MLI: Kuwait is a signatory but not yet a Party (treaty map) - no PPT; no treaty-level PPT found. Source is a scanned Government Gazette PDF; quotes transcribed from page images.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF date 1998-09-01 (treaty map)",
+  "Quotes transcribed manually from scanned page images"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "BG",
+ "b": "SE",
+ "treaty_name": "Convention between the People's Republic of Bulgaria and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1988)",
+ "signed": "1988-06-21",
+ "entry_into_force": "1988-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+ "eif_quote": "11 Convention between the People's Republic ... Bulgaria Original 21-06-1988 28-12-1988",
+ "source_title": "Regeringen.se: SÖ 1988:66, Avtal med Bulgarien för att undvika dubbelbeskattning (English and Swedish texts, scanned with OCR)",
+ "source_url": "https://www.regeringen.se/contentassets/5f551fcece3c4cc0b86afbff8612d4b3/avtal-med-bulgarien-for-att-undvika-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-sofia-den-21-juni-1988.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Article numbering in this treaty: dividends Art. 8, interest Art. 9, royalties Art. 10, entry into force Art. 26. Royalty definition includes industrial/commercial/scientific equipment and data processing programmes. Art. 26(2)(a): provisions effective for income derived on or after 1 January following the year of EIF (EIF 1988-12-28 -> 1989-01-01). Authentic text English only ('Done at Sofia, this 21st day of June 1988, in duplicate in the English language'). Source PDF is a scan; quotes reconstructed from OCR text with spacing normalised. MLI: both list the treaty, but Sweden made an Art. 35(7)(a) reservation and (per the treaty map, OECD status 15 Sep 2026) no Swedish Art. 35(7)(b) notification for this treaty is shown, so the MLI (incl. PPT) is treated as not yet having effect - ppt.applies=false. Swedish implementing law SFS 1988:1614 (riksdagen.se) checked: no rate changes; amended to 2019:1199 for Art. 21 method issues only.",
+ "confidence": "high",
+ "unverified": [
+  "Swedish Art. 35(7)(b) notification status for BG not re-checked in this pass (taken from treaty map)"
+ ]
+}

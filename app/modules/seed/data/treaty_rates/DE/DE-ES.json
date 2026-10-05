@@ -1,0 +1,67 @@
+{
+ "a": "DE",
+ "b": "ES",
+ "treaty_name": "Convention between the Federal Republic of Germany and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011), as modified by the MLI",
+ "signed": "2011-02-03",
+ "entry_into_force": "2012-10-18",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Spanien/2013-03-20-Spanien-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "wird bekannt gemacht, dass das Abkommen nach seinem Artikel 30 Absatz 2 am 18. Oktober 2012 in Kraft getreten ist.",
+ "source_title": "BMF: Synthetisierter Text des BEPS-MLI und des Abkommens mit dem Königreich Spanien (DBA 3.2.2011, BGBl. 2012 II S. 18)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Spanien/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft oder REIT-Gesellschaft) ist, die unmittelbar über mindestens 10 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt; [MLI Art. 8(1), wirksam ab 1.1.2025:] Artikel 10 Absatz 2 Buchstabe a dieses Abkommens gilt nur, wenn die Eigentums- oder Inhaberschaftsvoraussetzungen während eines Zeitraums von 365 Tagen einschließlich des Tages der Dividendenzahlung erfüllt sind"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter im anderen Vertragsstaat ansässig ist, können nur im anderen Vertragsstaat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter im anderen Vertragsstaat ansässig ist, können nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Spanien/2025-01-01-Abkommen-Synthetisierter-Text.pdf?__blob=publicationFile",
+  "quote": "Ungeachtet dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... [Fußnote: Wirksam ab dem 1. Januar 2025.]"
+ },
+ "notes": "Art. 30(2)(a): withholding taxes apply to amounts paid on or after 1 January of the year following entry into force (EIF 2012-10-18 -> 2013-01-01). The 365-day holding requirement (MLI Art. 8(1)) on the 5% tier is effective from 2025-01-01 (BMF synthesised text footnote; DE notified Art. 35(7)(b) on 2024-10-02, ES on 2022-06-01). 5% tier excludes partnerships and REITs. Protocol V (Arts 10 and 11): dividends and interest on profit-participating rights/claims (Genussrechte, stille Gesellschaft, partiarische Darlehen, Gewinnobligationen) deductible at the payer may be taxed at source up to 15%. Interest and royalties: residence-only taxation.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "LB",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Lebanese Republic and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2004)",
+ "signed": "2004-05-12",
+ "entry_into_force": "2006-08-21",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "GİB row: 62) Lübnan 12.05.2004 17.08.2006 - 26262 21.08.2006 01.01.2007 (via treaty map: signature, Official Gazette date-no, entry into force, application start)",
+ "source_title": "Lebanon MoF: Lebanon-Turkey DTA, English authentic text (scanned signed copy)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Turkey%20en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 per cent of the gross amount of the dividends if the effective (beneficial) owner is a company (other than a partnership) which holds directly at least 15 per cent of the capital of the company paying dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the effective (beneficial) owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the effective (beneficial) owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2007-01-01",
+  "basis": "treaty art. 25(1) (Limitation on Benefits: main-purpose test on creation/existence of residency) plus anti-abuse clauses Art. 10(7), 11(8)",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Turkey%20en.pdf",
+  "quote": "Notwithstanding any other provision of this Agreement, a resident of a Contracting State shall not receive the benefit of any reduction or exemption from taxes provided for in this Agreement by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such residency was for the resident or any person connected with such resident to obtain the benefits under this Agreement that would not otherwise be available."
+ },
+ "notes": "Art. 29(2)(a): WHT applies to amounts paid or credited on or after 1 January following EIF (2006-08-21) -> 2007-01-01 (GİB: application 01.01.2007). Not an MLI PPT: Lebanon is not an MLI signatory and Türkiye has not ratified; the treaty's own main-purpose LOB (Art. 25) and article-level anti-abuse rules (Art. 10(7), Art. 11(8)) apply. Art. 10(5): branch profits may be taxed on the remaining amount per Art. 10(2)(a) (10%) - branch tax not modelled. Art. 11(3): interest paid to the other State's Government or Central Bank exempt (not modelled). Royalties definition includes satellite/cable transmission rights.",
+ "confidence": "high",
+ "unverified": []
+}

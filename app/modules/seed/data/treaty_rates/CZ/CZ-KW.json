@@ -1,0 +1,58 @@
+{
+ "a": "CZ",
+ "b": "KW",
+ "treaty_name": "Convention between the Czech Republic and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001)",
+ "signed": "2001-06-05",
+ "entry_into_force": "2004-03-03",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2004/48/0000-00-00",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 29 dne 3. března 2004 a její ustanovení se budou provádět v souladu se zněním písmen a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 48/2004 Sb.m.s. (Czech text of CZ-KW DTT, e-Sbírka)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2004/48/0000-00-00",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto smluvního státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu daň takto uložená nepřesáhne 5 % hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2005-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Úroky mající zdroj v jednom smluvním státě a vyplácené rezidentu druhého smluvního státu podléhají zdanění jen v tomto druhém smluvním státě, jestliže tento rezident je skutečným vlastníkem úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto smluvního státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu daň takto uložená nepřesáhne 10 % hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 27(4)",
+  "source_url": "https://e-sbirka.gov.cz/sm/2004/48/0000-00-00",
+  "quote": "Výhody poskytnuté na základě této smlouvy nebudou přiznány společnostem každého smluvního státu, jestliže důvodem založení těchto společností bylo pouze získat výhody podle této smlouvy, které by jinak nebyly dostupné."
+ },
+ "notes": "Kuwait is not an MLI Party, so no MLI PPT. Treaty Art. 27(4) contains only a 'sole purpose' anti-abuse rule for companies (quoted in ppt), not a principal purpose test. Art. 29(a): WHT applies to income paid/credited on or after 1 Jan of the year after EIF (2004-03-03 -> 2005-01-01). Dividends exempt at source (Art. 10(3)) when beneficially owned by the other State's government/governmental institutions (Art. 4(2)) or by a company controlled or at least 25% owned, directly or indirectly, by them - not modelled. Art. 27(3) MFN clause: more favourable treatment granted by CZ to another GCC State (UAE, Saudi Arabia, Bahrain, Qatar, Oman) under a later-signed treaty applies automatically to Kuwaiti residents - effect not modelled (e.g. CZ-BH 2011 should be compared). Czech, Arabic and English texts are equally authentic; Czech text read.",
+ "confidence": "high",
+ "unverified": [
+  "Effect of Art. 27(3) GCC most-favoured-nation clause not evaluated"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "DK",
+ "b": "DE",
+ "treaty_name": "Convention between the Kingdom of Denmark and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and capital and to estate, inheritance and gift taxes and on assistance in tax matters (1995, as amended 2020)",
+ "signed": "1995-11-22",
+ "entry_into_force": "1996-12-25",
+ "eif_source_url": "https://info.skat.dk/data.aspx?oid=2082988&vid=221020",
+ "eif_quote": "DBO | 22.11.1995 | L 260 af 25.04.1996 L 43 af 13.10.1999 | Lov nr. 492 af 12.06.1996 Lov nr. 861 af 30.11.1999, § 2 | BKI nr. 158 af 06.12.1996 | 25.12.1996 | Virkning 01.01.1997",
+ "source_title": "BKI nr 158 af 06/12/1996 (convention, DA) + BKI nr 1 af 10/01/2022 (amending protocol 1.10.2020)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/1996/158",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Uanset stykke 2 må skatten ikke overstige 5 pct. af bruttobeløbet af udbyttet, hvis den retmæssige ejer af udbyttet er et selskab, som direkte ejer mindst 10 pct. af kapitalen i det udbyttebetalende selskab."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sådant udbytte kan også beskattes i den kontraherende stat, hvori det udbyttebetalende selskab er hjemmehørende, i henhold til lovgivningen i denne stat, men den skat der pålignes må, såfremt modtageren er udbyttets retmæssige ejer, ikke overstige 15 pct. af bruttobeløbet af udbyttet."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter, der hidrører fra en kontraherende stat og betales til en person, der er hjemmehørende i den anden kontraherende stat, kan, hvis denne person er den retmæssige ejer, kun beskattes i denne anden stat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties, der hidrører fra en kontraherende stat og betales til en person, der er hjemmehørende i den anden kontraherende stat, kan, hvis denne person er den retmæssige ejer, kun beskattes i denne anden stat."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 45(3) (added by 2020 amending protocol)",
+  "source_url": "https://www.retsinformation.dk/eli/ltc/2022/1",
+  "quote": "”3. Uanset de øvrige bestemmelser i denne overenskomst gives der ikke fordele efter denne overenskomst for så vidt angår indkomst, hvis det i betragtning af alle relevante fakta og omstændigheder er rimeligt at antage, at opnåelse af denne fordel var et af hovedformålene med noget arrangement eller nogen transaktion, som direkte eller indirekte resulterede i denne fordel, medmindre det godtgøres, at opnåelse af denne fordel under disse omstændigheder ville være i overensstemmelse med genstanden for og formålet med de relevante bestemmelser i denne overenskomst. ”"
+ },
+ "notes": "Art. 49(2)(d): WHT on dividends, interest, royalties for amounts paid or credited on/after 1 January of the year following entry into force (1996-12-25) -> 1997-01-01. Amending protocol of 1.10.2020 in force 2021-12-23 (effect for WHT on amounts paid on/after 2022-01-01): repealed art. 10(3) 2nd sentence (reference to Parent-Subsidiary Directive 90/435), reworded PE clauses of arts 10(6), 11(3), 12(3), and added PPT art. 45(3). Art. 10(5): income from profit-participating rights/claims (silent partnership, partiarisches Darlehen, Gewinnobligationen) may be taxed at source up to 25% if deductible for the debtor - special tier not modelled. MLI does not apply (DE does not list DK; DK did not notify DE).",
+ "confidence": "high",
+ "unverified": []
+}

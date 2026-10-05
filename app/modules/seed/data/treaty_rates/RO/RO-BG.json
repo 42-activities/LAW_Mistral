@@ -1,0 +1,56 @@
+{
+ "a": "RO",
+ "b": "BG",
+ "treaty_name": "Convention between Romania and the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2015)",
+ "signed": "2015-04-24",
+ "entry_into_force": "2016-03-29",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm ; https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "ANAF list: Bulgaria (Nouă) | 29/17.03.2016 | 220/2016 | 01.01.2017; BG NRA list: 24-04-2015 / 29-03-2016",
+ "source_title": "Legea nr. 29/2016 – Convenția România–Bulgaria 2015 (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Bulgaria_2016.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al dividendelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăși 5% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăși 5% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar, dacă beneficiarul efectiv al redevențelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăși 5% din suma brută a redevențelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Bulgaria.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "Art. 10(2) last sentence: the cap does not apply to income assimilated to dividends under Romanian law or to hidden profit distributions under Bulgarian law (domestic law applies). Art. 11(3): interest exempt when derived by the other State, its local authorities, central bank or government agencies/banks, or on debt guaranteed/insured/financed by a wholly state-owned financial institution. Art. 28(2): provisions effective from 1 January of the year following EIF. Replaced 1994 convention. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": []
+}

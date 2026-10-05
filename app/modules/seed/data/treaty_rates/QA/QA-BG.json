@@ -1,0 +1,59 @@
+{
+ "a": "QA",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-03-22",
+ "entry_into_force": "2010-12-23",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+ "eif_quote": "Agreement between the Government of the State of Qatar and the Government of the Republic of Bulgaria for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income Bulgaria Original 22/03/2010 23/12/2010",
+ "source_title": "GTA Qatar – DTA Bulgaria (EN), official English text",
+ "source_url": "https://gta.gov.qa/assets/pdf/DTA%20Bulgaria%20(EN).pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+  "quote": "Treaty listed as a Covered Tax Agreement by both Qatar (No. 11, Bulgaria Original 22/03/2010 23/12/2010) and Bulgaria; MLI art. 7(1) PPT applies to WHT from 2023-01-01 (treaty map). The 2010 Agreement itself contains no principal purpose test."
+ },
+ "notes": "Valid_from per Art. 28(2)(a): WHT on amounts paid or credited on or after 1 January of the year following entry into force (2010) = 2011-01-01. Interest exempt at source (Art. 11(3)) when derived and beneficially owned by the other State's Government/local authority, by Qatar Central Bank, QIA, General Retirement and Pension Authority, statutory bodies, Qatar Development Bank or other wholly government-owned financial institutions (Qatar) / Bulgarian National Bank (Bulgaria), or other mutually agreed institutions — not modelled. Text read from Qatar GTA PDF (text layer with minor OCR artefacts); Bulgarian State Gazette version not retrieved (nra.bg list is JS-loaded). Bulgaria made no Art. 35(7) reservation (DV No. 47/2022 MLI ratification law). MLI Art. 8 not applicable (Qatar reserved).",
+ "confidence": "high",
+ "unverified": [
+  "Bulgarian-language official text (Държавен вестник) not cross-checked",
+  "MLI WHT effective date from treaty map"
+ ]
+}

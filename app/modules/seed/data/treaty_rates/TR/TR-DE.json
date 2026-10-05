@@ -1,0 +1,67 @@
+{
+ "a": "TR",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Republic of Turkey for the Avoidance of Double Taxation and of Tax Evasion with respect to Taxes on Income, with Protocol (2011)",
+ "signed": "2011-09-19",
+ "entry_into_force": "2012-08-01",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "Almanya (Yeni) 19.09.2011 24.01.2012 - 28183 01.08.2012 01.01.2011",
+ "source_title": "Gesetz zu dem Abkommen vom 19. September 2011 zwischen der Bundesrepublik Deutschland und der Republik Türkei (BGBl. 2012 II S. 526; BMF PDF, German/Turkish/English)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Tuerkei/2012-05-30-Tuerkei-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrages der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen im anderen Vertragsstaat ansässig ist, 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren im anderen Vertragsstaat ansässig ist, 10 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but is not an MLI Party; Protocol para. 10 only preserves domestic anti-avoidance rules, not a PPT)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Tuerkei/2012-05-30-Tuerkei-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+  "quote": ""
+ },
+ "notes": "Art. 30(2): EIF on exchange of ratification instruments (2012-08-01); applies retroactively - Germany: WHT on amounts paid on/after 1 January 2011; Türkiye: assessment periods beginning on/after 1 January 2011. The prior 1985 treaty was terminated (GİB list: applied 1990-2010). Interest exempt at source (Art. 11(3)) when paid to the other Government / Central Bank / Deutsche Bundesbank, Turkish-source interest on loans covered by German export or direct-investment guarantees or paid to KfW or DEG, German-source interest paid to Türk Eximbank. Protocol para. 3 (ad Arts. 10-11): profit-participating income (stille Gesellschaft, partiarische Darlehen, Gewinnobligationen, rights with profit participation) deductible by the payer taxable at source under domestic law. Protocol para. 4: late-payment surcharges treated as interest in certain cases. Quotes reconstructed with normal word spacing from the BMF PDF (text layer lacks spaces).",
+ "confidence": "high",
+ "unverified": []
+}

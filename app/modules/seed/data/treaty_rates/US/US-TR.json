@@ -1,0 +1,67 @@
+{
+ "a": "US",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the United States of America and the Government of the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (1996)",
+ "signed": "1996-03-28",
+ "entry_into_force": "1997-12-19",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "35) A.B.D. 28.03.1996 31.12.1997 - 23217 19.12.1997 01.01.1998 (GİB list of treaties in force, 23.04.2025: signature / Resmî Gazete date-no / entry into force / applied from)",
+ "source_title": "US-Turkey Income Tax Agreement with Protocol signed at Washington 28 March 1996 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/turkey.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 15 percent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 20 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 15 percent of the gross amount of the interest, except that, if the interest is derived from a loan of whatever kind granted by a financial institution, such as a bank, savings institution, or insurance company, the interest shall not be taxed at an amount in excess of 10 percent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed by the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of royalties described in subparagraph a) of paragraph 3 and shall not exceed 5 percent of the gross amount of royalties described in subparagraph b) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; Türkiye signed but is not an MLI Party; treaty has LOB Article 22)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/turkey.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 28(2)(a): WHT for amounts paid or credited on or after 1 January following EIF (1997-12-19 -> 1998-01-01). Not modelled: interest on loans granted by financial institutions (bank, savings institution, insurance company) capped at 10% (Art. 11(2)); interest exempt at source when paid to the other Government/Central Bank of Turkey/Federal Reserve Banks or on government-guaranteed/insured loans (Art. 11(3)); REMIC excess inclusions at domestic law and contingent interest taxed as dividends (Art. 11(8)); royalties for the use of industrial, commercial or scientific equipment capped at 5% (Art. 12(2)/(3)(b)) - the ROYALTY entry records the 10% cap for IP royalties (Art. 12(3)(a)); RIC/Turkish securities investment funds always 20% tier and REIT/real-estate investment funds per Art. 10(2) last sentences; Art. 10(4) Turkish branch remittance tax and US branch profits tax capped at 15%.",
+ "confidence": "high",
+ "unverified": []
+}

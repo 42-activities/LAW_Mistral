@@ -1,0 +1,56 @@
+{
+ "a": "BE",
+ "b": "KW",
+ "treaty_name": "Convention between the Kingdom of Belgium and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital and to promote economic relations, with Protocol (1990)",
+ "signed": "1990-03-10",
+ "entry_into_force": "2000-10-28",
+ "eif_source_url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=00-10-06&numac=1999015156",
+ "eif_quote": "Conformément aux dispositions de son article 29, cette Convention entrera en vigueur le 28 octobre 2000.",
+ "source_title": "Moniteur belge 06.10.2000, Loi du 13 juin 1999 portant assentiment à la Convention Belgique-Koweït et au Protocole (numac 1999015156)",
+ "source_url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=00-10-06&numac=1999015156",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces dividendes sont aussi imposables dans l'Etat contractant dont la société qui paie les dividendes est un résident, et selon la législation de cet Etat, mais si le bénéficiaire effectif des dividendes est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Les intérêts provenant d'un Etat contractant et payés à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat si ce résident en est le bénéficiaire effectif."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent, et selon la législation de cet Etat, mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut de ces redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Kuwait not an MLI Party; no PPT in treaty)",
+  "source_url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=00-10-06&numac=1999015156",
+  "quote": ""
+ },
+ "notes": "Effective date: Art. 29(2)(a) - withholding taxes on income attributed or paid from 1 January of the year following the exchange of ratification instruments; EIF 28 Oct 2000 (30th day after exchange, i.e. exchange in 2000) -> 2001-01-01. Art. 10(3): dividends paid by a Belgian company are taxable only in Kuwait (one-direction, BE source) where the beneficial owner is the Government of Kuwait or a Kuwaiti institution/entity under Art. 4(2)(b)-(c), or a Kuwaiti company at least 25% held (directly/indirectly, via government institutions/wholly government-owned companies per Protocol para. 4) by the Kuwaiti Government with the rest held by resident Kuwaiti nationals - government tier not modelled. Royalty definition excludes equipment rental and know-how, which per Protocol para. 2 are business profits (Art. 7). Treaty text lists Belgian/Kuwaiti EIF as 28 Oct 2000 (Kuwait MLI signatory list gives 29 Oct 2000 - 1-day conflict noted in treaty map). English text prevails in case of divergence; quotes are from the equally authentic French text. Kuwait is not an MLI Party; no general PPT/LOB in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

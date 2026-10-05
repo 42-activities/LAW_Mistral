@@ -1,0 +1,67 @@
+{
+ "a": "BH",
+ "b": "PT",
+ "treaty_name": "Convention between the Portuguese Republic and the Kingdom of Bahrain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2015)",
+ "signed": "2015-05-26",
+ "entry_into_force": "2016-11-01",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "BARÉM Resolução da Assembleia da República n.º 196/2016 ... Aviso n.º 71/2017 publicado em 05-07-2017 EM VIGOR DESDE 01-11-2016",
+ "source_title": "Diário da República, 1.ª série, N.º 183, 22-09-2016 (Resolução AR 196/2016), English text of PT-BH Convention",
+ "source_url": "https://files.diariodarepublica.pt/1s/2016/09/18300/0328003302.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the income is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the income."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1) (replacing treaty art. 27(3))",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-portugal-consolidated.pdf",
+  "quote": "Pursuant to Article 7(17)(a) of the Convention, the Portuguese Republic considers that the following agreements ... contain a provision described in Article 7(2) ... 4 Bahrain Article 27(3) (Bahrain position: '32 Portugal Article 27(3)')"
+ },
+ "notes": "Interest article titled 'Income from debt-claims'. valid_from per Art. 29(2): WHT where the fact giving rise to them appears on or after 1 January of the year following EIF (2016-11-01) -> 2017-01-01. Treaty Art. 27(3) already contained a main-purpose rule ('The provisions of the Convention shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the property or right ...') since 2017; both Parties notified it under MLI Art. 7(17)(a), so the MLI PPT replaces it from the MLI WHT effective date 2023-01-01 (treaty-map). Art. 27(1)-(2) also preserve domestic anti-avoidance rules and require beneficial ownership. MLI Art. 8 not applicable (Bahrain reserved the entirety of Art. 8). No government/central-bank exemptions found in Arts 10-12.",
+ "confidence": "high",
+ "unverified": []
+}

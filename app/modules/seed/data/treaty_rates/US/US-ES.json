@@ -1,0 +1,78 @@
+{
+ "a": "US",
+ "b": "ES",
+ "treaty_name": "Convention between the United States of America and the Kingdom of Spain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1990, as amended by Protocol 2013)",
+ "signed": "1990-02-22",
+ "entry_into_force": "1990-11-21",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+ "eif_quote": "United States of America Original 22-02-1990 21-11-1990 Amending Instrument (a) 14-01-2013 27-11-2019",
+ "source_title": "US-Spain Income Tax Convention signed at Madrid 22 Feb 1990 (IRS text) and Protocol signed at Madrid 14 Jan 2013 (US Treasury text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/spain.pdf ; https://home.treasury.gov/system/files/131/Treaty-Spain-Protocol-1-14-2013.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3) (as substituted by Protocol 2013 Art. IV)",
+   "valid_from": "2019-11-27",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, such dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner is a company that is a resident of the other Contracting State that has owned, directly or indirectly through one or more residents of either Contracting State, shares representing 80 percent or more of the voting stock in the company paying the dividends for a 12-month period ending on the date on which entitlement to the dividends is determined and: (a) satisfies the conditions of paragraph 2 (c) of Article 17 (Limitation on Benefits); ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as substituted by Protocol 2013 Art. IV)",
+   "valid_from": "2019-11-27",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as substituted by Protocol 2013 Art. IV)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1) (as substituted by Protocol 2013 Art. V)",
+   "valid_from": "2019-11-27",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (as substituted by Protocol 2013 Art. VI)",
+   "valid_from": "2019-11-27",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 17)",
+  "source_url": "https://home.treasury.gov/system/files/131/Treaty-Spain-Protocol-1-14-2013.pdf",
+  "quote": ""
+ },
+ "notes": "Protocol 2013 Art. XV(2)(a): WHT provisions effective on amounts paid or credited on or after the Protocol's entry into force (2019-11-27). Before that, original 1990 Convention (WHT from 1991-01-01 per Art. 29(2)(a), EIF 1990-11-21): dividends 10% (>=25% voting stock)/15%; interest 10%; royalties 5%/8%/10% - superseded. The 15% general dividend tier is unchanged since 1991. The 0% 80% tier requires LOB conditions (Art. 17). Not modelled: 0% for pension-fund dividends (Art. 10(4)); branch profits tax capped at 5% (Art. 10(8)-(9)); Art. 11(2) US non-portfolio contingent interest up to 10% and REMIC excess inclusions under US domestic law.",
+ "confidence": "high",
+ "unverified": []
+}

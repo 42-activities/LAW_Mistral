@@ -1,0 +1,56 @@
+{
+ "a": "PL",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Republic of Poland and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2011)",
+ "signed": "2011-09-13",
+ "entry_into_force": "2012-06-11",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2015/1976/text.html",
+ "eif_quote": "oświadczeniu rządowym z dnia 31 lipca 2012 r. ... (Dz. U. poz. 992) zamiast wyrazów „dnia 13 czerwca 2012 r.” powinny być wyrazy „dnia 11 czerwca 2012 r.”",
+ "source_title": "Synthesised text of the MLI and the PL-CZ Agreement (podatki.gov.pl, EN)",
+ "source_url": "https://www.podatki.gov.pl/media/wpccdltv/dta-pl-cz-mli-synthesised-text.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.podatki.gov.pl/media/wpccdltv/dta-pl-cz-mli-synthesised-text.pdf",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, ... (Article 6(1) and Article 7(1) of the MLI have effect ... with respect to taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "Art. 11(3): interest exempt at source on bank loans/credits, to the Government/Central Bank/government-owned financial institutions, and on government-guaranteed loans (not modelled). Art. 26: WHT provisions effective from 1 January of the year following entry into force (EIF 2012-06-11 -> 2013-01-01); 1993 agreement ceased on entry into effect. podatki.gov.pl list shows EIF 13.06.2012 but the MFA correction notice Dz.U. 2015 poz. 1976 corrects the government statement to 11 June 2012 (matches treaty map).",
+ "confidence": "high",
+ "unverified": []
+}

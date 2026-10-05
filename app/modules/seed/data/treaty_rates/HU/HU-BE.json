@@ -1,0 +1,58 @@
+{
+ "a": "HU",
+ "b": "BE",
+ "treaty_name": "Convention between the Government of the Hungarian People's Republic and the Government of the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1982), as modified by the MLI",
+ "signed": "1982-07-19",
+ "entry_into_force": "1984-02-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Hongrie Original 19-07-1982 25-02-1984 (Belgium MLI position, via treaty map); Decree 20/1984 § 3(1)(a): a forrásnál beszedendő adókra olyan jövedelmek tekintetében, amelyeket 1984. december 31. napját követően utalnak ki",
+ "source_title": "20/1984. (IV. 18.) MT rendelet (HU-BE DTC 1982, Hungarian text), net.jogtar.hu",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=98400020.mt",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Mindazonáltal ez az osztalék abban a Szerződő Államban is, amelyben az osztalékot fizető társaság illetőséggel bír, ennek az Államnak a jogszabályai szerint megadóztatható, de ha az osztalék tényleges haszonhúzója a másik Szerződő Államban bír illetőséggel, az így megállapított adó nem haladhatja meg az osztalék bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Mindazonáltal ez a kamat abban a Szerződő Államban is, amelyből származik, ennek az Államnak a jogszabályai szerint megadóztatható, de ha a kamat tényleges haszonhúzója a másik Szerződő Államban bír illetőséggel, az így megállapított adó nem haladhatja meg a kamat bruttó összegének 15 százalékát."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1985-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) A licencdíj, amely az egyik Szerződő Államból származik és amelyet a másik Szerződő Államban illetőséggel bíró személynek fizetnek, csak ebben a másik Államban adóztatható, ha az említett személy a licencdíj tényleges haszonhúzója."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+  "quote": "Hungary MLI position: no reservation on Art. 7(1) PPT (Pursuant to Article 7(17)(b) of the Convention, Hungary hereby chooses to apply Article 7(4)); Pursuant to Article 8(3)(a) of the Convention, Hungary reserves the right for the entirety of Article 8 not to apply to its Covered Tax Agreements."
+ },
+ "notes": "Art. 30: WHT applies to income paid or credited after 31 December of the EIF year (1984) -> 1985-01-01. Art. 11(3): interest exempt at source on commercial credit for deliveries of goods/services, on current accounts/loans between banking enterprises, and on deposits (not represented by bearer securities) with banking enterprises incl. public credit institutions (not modelled). Interest treated as dividends under Art. 10(3) second sentence excluded from Art. 11. Single 10% dividend rate. Hungary reserved MLI Art. 8 entirely. MLI WHT effect 2022-01-01 from treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "Belgium's MLI choice on Art. 7 for this treaty not separately read; PPT date from treaty map."
+ ]
+}

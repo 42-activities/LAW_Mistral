@@ -1,0 +1,56 @@
+{
+ "a": "PT",
+ "b": "DK",
+ "treaty_name": "Convention between the Portuguese Republic and the Kingdom of Denmark for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2000)",
+ "signed": "2000-12-14",
+ "entry_into_force": "2002-05-24",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "DINAMARCA Resolução da Assembleia da República n.º 6/2002 de 23 de Fevereiro Aviso n.º 53/2002 publicado em 15-06-2002 EM VIGOR DESDE 24-05-2002 a produzir efeitos após 01-01-03",
+ "source_title": "Diário da República I Série-A n.º 46, 23-2-2002 (Resolução AR n.º 6/2002), Portuguese text, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/dinamarca.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos, e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos dividendos for um residente do outro Estado Contratante, o imposto assim estabelecido não excederá 10% do montante bruto dos dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos juros for um residente do outro Estado Contratante, o imposto assim estabelecido não excederá 10% do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses royalties podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos royalties for um residente do outro Estado Contratante, o imposto assim estabelecido não excederá 10% do montante bruto dos royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29: withholding taxes apply to taxable events on/after 1 January of the year following entry into force (2002-05-24) -> 2003-01-01 (PT table: 'a produzir efeitos após 01-01-03'). Art. 10(2) second sentence: the 10% limit does not apply to company-to-company dividends covered by the EU Parent-Subsidiary Directive 90/435/EEC (Directive governs; not a treaty tier). Art. 11(3): interest exempt at source when paid by/to the State, subdivisions, local authorities, central bank, public-function institutions or agreed institutions - not modelled. No separate participation tier. MLI: covered by both, PPT (Art. 7(1)) effective for WHT from 2021-01-01 per treaty map. MLI Art. 8 not relevant (no participation-threshold tier; Portugal does not list the DK treaty under Art. 8(4)).",
+ "confidence": "high",
+ "unverified": []
+}

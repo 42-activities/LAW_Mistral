@@ -21,3 +21,11 @@ folder and drops tiers the engine cannot condition (LOB / listing / recipient te
 them conservative; each change is noted in the file's `notes`. The loader keeps only the tier
 in force per (category, threshold, direction) and, on ties, the higher (conservative) rate.
 Skipped: IE–DE (no entry-into-force date), IE–GB dividends (protocol start date unknown).
+
+## Remaining treaties (seeded)
+
+The other 235 in-force treaties (pairs without a hub) were extracted the same way and curated
+into the same folder: 471 treaty files in total. `curate.py` now also turns "higher rate above
+a holding threshold" tiers (Austrian royalty pattern, KW–IT dividends) into the general rate and
+drops US–BE's certification-dependent 0% tier and PT–IL's conditional Israeli 10% tier.
+Skipped by the loader: JO–KW (no text), OM–EG (no entry-into-force date).

@@ -1,0 +1,67 @@
+{
+ "a": "EG",
+ "b": "US",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1980)",
+ "signed": "1980-08-24",
+ "entry_into_force": "1981-12-31",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/egypt.pdf",
+ "eif_quote": "Ratifications Exchanged at Washington December 1, 1981; Proclaimed by the President of the United States of America December 15, 1981; Entered into Force December 31, 1981.",
+ "source_title": "IRS: United States - Arab Republic of Egypt Income Tax Convention (signed Cairo 24 August 1980)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/egypt.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1982-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "US",
+   "quote": "(2) The rate of tax imposed by the United States on dividends paid by a United States corporation to a resident of Egypt shall not exceed - ... (b) When the recipient is a corporation, 5 percent of the gross amount of the dividend if- (i) During the part of the paying corporation's taxable year which precedes the date of payment of the dividend and during the whole of its prior taxable year (if any), at least 10 percent of the outstanding shares of the voting stock of the paying corporation was owned by the recipient corporation, and (ii) Not more than 25 percent of the gross income of the paying corporation for such prior taxable year (if any) consists of interest or dividends ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1982-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "US",
+   "quote": "(2) The rate of tax imposed by the United States on dividends paid by a United States corporation to a resident of Egypt shall not exceed - (a) 15 percent of the gross amount of the dividend; or"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1982-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Interest derived by a resident of one of the Contracting States from sources within the other Contracting State shall not be taxed by the other Contracting State at a rate in excess of 15 percent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1982-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties derived by a resident of one of the Contracting States from sources within the other Contracting State may be taxed by both Contracting States. However, royalties shall not be taxed by the other Contracting State at a rate in excess of 15 percent of the gross amount of such royalty."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT in treaty; US not an MLI signatory)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/egypt.pdf",
+  "quote": "ARTICLE 24 Investment or Holding Companies: A corporation of one of the Contracting States deriving dividends, interest, royalties, or capital gains from sources within the other Contracting State shall not be entitled to the benefits of Articles 11 (Dividends), 12 (Interest), 13 (Royalties), or 14 (Capital Gains) if- (a) By reason of special measures the tax imposed on such corporation ... is substantially less than the tax generally imposed ... and (b) 25 percent or more of the capital of such corporation is held ... by one or more persons who are not individual residents of the first-mentioned Contracting State ..."
+ },
+ "notes": "Dividend limits in Art. 11(2) apply only to US-source dividends. Egypt-source dividends paid to US residents (Art. 11(3)) are subject in Egypt to the Egyptian taxes listed (tax on movable capital etc., deducted at source) with no treaty rate cap; for individuals the general income tax 'shall in no case exceed an average of 20 percent of the net dividends' - not a WHT cap, not modelled; DIVIDEND rows therefore carry source_state US. The 5% tier holding requirement is 'during the part of the paying corporation's taxable year which precedes the date of payment ... and during the whole of its prior taxable year' (not a fixed day count) plus a passive-income (<=25% interest/dividends) test. Art. 12(3): interest derived by a Contracting State/instrumentality or on government-made/guaranteed/insured loans exempt - not modelled. Art. 31(a): WHT effect for amounts paid on or after the first day of the second month following EIF (EIF 1981-12-31 -> 1982-02-01). Art. 24 anti-conduit/holding-company rule (not a PPT). No protocol in IRS text. MLI: US not a signatory.",
+ "confidence": "high",
+ "unverified": []
+}

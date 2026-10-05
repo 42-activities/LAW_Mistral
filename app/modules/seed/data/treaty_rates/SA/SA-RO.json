@@ -1,0 +1,58 @@
+{
+ "a": "SA",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of Romania for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income (2011)",
+ "signed": "2011-04-26",
+ "entry_into_force": "2012-07-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Convention between the government of the kingdom of Saudi Arabia and the government of Romania for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 26/4/2011 and entered into force on 1/7/2012.",
+ "source_title": "ZATCA: SA-RO Convention 2011 with Protocol (English text, Art. 10-12, 27, 28)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Romania.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 10(3): dividends paid to the other State's Government, administrative-territorial unit/subdivision/local authority or wholly owned agency/instrumentality (incl. financial institution) exempt. Art. 11(3): interest exempt where payer is Government/local body, paid to the other Government or wholly owned agency, paid on loans under an inter-governmental agreement, or on export-promotion loans granted/insured/guaranteed by a public institution - not modelled. Royalties definition includes computer software. Art. 27: domestic anti-avoidance on expense deductions where main purpose was treaty benefits (notified by Saudi Arabia under MLI Art. 7(17)(a)). Art. 28(2)(a): WHT from 1 January next following EIF (2012-07-01 -> 2013-01-01). MLI: Romania reserved Art. 35(7)(a); PPT WHT effective 2024-01-01 per treaty map (after Romania 35(7)(b) notification). Saudi Arabia reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date taken from treaty map, not re-derived"
+ ]
+}

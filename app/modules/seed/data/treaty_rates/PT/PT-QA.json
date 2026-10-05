@@ -1,0 +1,67 @@
+{
+ "a": "PT",
+ "b": "QA",
+ "treaty_name": "Agreement between the Portuguese Republic and the State of Qatar for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011)",
+ "signed": "2011-12-12",
+ "entry_into_force": "2014-04-04",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "QATAR Resolução da Assembleia da República n.º 51/2012 de 17 de Abril Aviso n.º 51/2014 publicado em 02-05-2014 EM VIGOR DESDE 04-04-2014",
+ "source_title": "Diário da República 1.ª série n.º 76, 17-4-2012 (Resolução AR n.º 51/2012), Agreement and Protocol, Portuguese text, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/CDT_Qatar_DR_RAR_51-2012.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses dividendos podem ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos e de acordo com a legislação desse Estado mas, se o beneficiário efectivo dos dividendos for um residente do outro Estado Contratante, o imposto assim estabelecido não pode exceder: ... b) 10 % do montante bruto dos dividendos nos restantes casos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % do montante bruto dos dividendos, se o beneficiário efectivo for uma sociedade (com excepção das sociedades de pessoas) que detenha, directamente, pelo menos 10 % do capital da sociedade que paga os dividendos"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos juros for um residente do outro Estado Contratante, o imposto assim estabelecido não pode exceder 10 % do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses royalties podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado mas, se o beneficiário efectivo dos royalties for um residente do outro Estado Contratante, o imposto assim estabelecido não pode exceder 10 % do montante bruto dos royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(2): withholding taxes apply from 1 January of the calendar year following entry into force (2014-04-04) -> 2015-01-01. Art. 10(2)(a): the 5% rate also applies to dividends beneficially owned by the PT State/subdivisions/local authorities/Banco de Portugal and the Qatar Government, its subdivisions, statutory bodies, Qatar Central Bank or wholly Government-owned institutions (Protocol 2: incl. Qatar Investment Authority, Qatar Holding, Qatari Diyar) - not modelled. Art. 11(3): interest paid to and beneficially owned by those governmental entities taxable only in residence State - not modelled. Protocol 1(a)-(c): domestic anti-abuse rules preserved; benefits denied to non-beneficial owners and where a main purpose of creating/assigning the right was to obtain the benefits (treaty-level main purpose rule). MLI: covered by both, PPT (Art. 7(1)) effective for WHT from 2021-01-01 per treaty map. MLI Art. 8 (365-day holding) not applicable: Qatar reserved the entirety of Art. 8 under Art. 8(3)(a), although Portugal notified Art. 10(2)(a).",
+ "confidence": "high",
+ "unverified": []
+}

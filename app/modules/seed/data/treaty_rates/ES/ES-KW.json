@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "KW",
+ "treaty_name": "Convention between the Kingdom of Spain and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-05-26",
+ "entry_into_force": "2013-07-19",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_kuwait.pdf",
+ "eif_quote": "El presente Convenio entrará en vigor el 19 de julio de 2013, transcurrido un plazo de tres meses a partir de la fecha de recepción de la última notificación de cumplimiento de los procedimientos internos exigidos en cada Estado, según establece su artículo 28.2.",
+ "source_title": "BOE 5-6-2013: Convenio entre el Reino de España y el Estado de Kuwait (Spanish text, hacienda.gob.es) + English text (boein_kuwait)",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_kuwait.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second subparagraph",
+   "valid_from": "2013-07-19",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No obstante lo dispuesto en el párrafo precedente, el Estado contratante en el que la sociedad que paga los dividendos sea residente considerará exentos los dividendos pagados por esa sociedad a una sociedad cuyo capital esté total o parcialmente dividido en acciones o participaciones y que sea residente del otro Estado contratante, siempre que esta posea directamente al menos el 10 por ciento del capital de la sociedad que paga los dividendos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first subparagraph",
+   "valid_from": "2013-07-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos dividendos pueden someterse también a imposición en el Estado contratante en que resida la sociedad que paga los dividendos y según la legislación de ese Estado, pero si el beneficiario efectivo de los dividendos es un residente del otro Estado contratante, el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de los dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-07-19",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Los intereses procedentes de un Estado contratante cuyo beneficiario efectivo sea un residente del otro Estado contratante sólo pueden someterse a imposición en ese otro Estado."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-07-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos cánones pueden someterse también a imposición en el Estado contratante del que procedan y según la legislación de ese Estado contratante, pero si el beneficiario efectivo de los cánones es un residente del otro Estado contratante el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de dichos cánones."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty Protocol point I (domestic anti-abuse rules; no PPT)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_kuwait.pdf",
+  "quote": "a) Los Estados contratantes declaran que sus normas y procedimientos de Derecho interno respecto a los abusos de la norma (comprendidos los convenios fiscales) son aplicables al tratamiento de tales abusos. b) Se entenderá que los beneficios del presente Convenio no se otorgarán a una persona que no sea el beneficiario efectivo de las rentas..."
+ },
+ "notes": "Kuwait is not an MLI Party -> no MLI PPT. Art. 28(2)(a): for taxes withheld at source the provisions apply to amounts paid or due from the date of entry into force (2013-07-19) -> valid_from 2013-07-19. Dividend exemption applies to a company whose capital is wholly or partly divided into shares holding directly >=10%; no holding period. Royalty definition excludes equipment leasing. Protocol IV: 'resident' includes the State, public institutions (Central Bank, funds, authorities) and State-funded entities. English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

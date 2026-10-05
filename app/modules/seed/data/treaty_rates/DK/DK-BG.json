@@ -1,0 +1,67 @@
+{
+ "a": "DK",
+ "b": "BG",
+ "treaty_name": "Convention between the Kingdom of Denmark and the People's Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1988)",
+ "signed": "1988-12-02",
+ "entry_into_force": "1989-03-27",
+ "eif_source_url": "https://www.retsinformation.dk/eli/ltc/1989/100",
+ "eif_quote": "Overenskomsten, der ikke omfatter Færøerne og Grønland, trådte i medfør af artikel 28 i kraft den 27. marts 1989.",
+ "source_title": "BKI nr 100 af 11/09/1989 (convention, DA)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/1989/100",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)(a)",
+   "valid_from": "1990-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pct. af bruttobeløbet af udbyttet, hvis den retmæssige ejer er et selskab (bortset fra et interessentskab og et kommanditselskab), der direkte ejer mindst 25 pct. af kapitalen i det udbyttebetalende selskab;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)(b)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pct. af bruttobeløbet af udbyttet i alle andre tilfælde."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter, der hidrører fra en kontraherende stat og betales til en person, der er hjemmehørende i den anden kontraherende stat, kan kun beskattes i denne anden stat, hvis denne person er den retmæssige ejer af renterne."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties, der hidrører fra en kontraherende stat og betales til en person, der er hjemmehørende i den anden kontraherende stat, kan kun beskattes i denne anden stat, hvis denne person er den retmæssige ejer af royaltybeløbet."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Article numbering is shifted in this treaty: dividends art. 9, interest art. 10, royalties art. 11. Art. 28(2): effect for income years following the calendar year of entry into force (1989) -> 1990-01-01 (skat.dk: 'Virkning 01.01.1990'). Profits of participants in joint ventures under Bulgarian law are not dividends (art. 9(3)). MLI: covered by both; MLI WHT effective 2023-01-01 (treaty map). MLI art. 8 does not apply (Bulgaria reserved the entirety of art. 8 under art. 8(3)(a), read from scanned OECD position, p. 20). No art. 35(7) reservation by either side. Minor EIF conflict noted in treaty map (BG list 23-03-1989); Danish bekendtgørelse states 27 March 1989.",
+ "confidence": "high",
+ "unverified": []
+}

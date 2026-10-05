@@ -1,0 +1,69 @@
+{
+ "a": "SE",
+ "b": "AT",
+ "treaty_name": "Convention between Austria and Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1959, as amended 1970, 1991, 2006 and 2009)",
+ "signed": "1959-05-14",
+ "entry_into_force": "1959-12-29",
+ "eif_source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10003921",
+ "eif_quote": "Das vorstehende Abkommen ist am 29. Dezember 1959 in Kraft getreten.",
+ "source_title": "RIS Bundesrecht konsolidiert: Doppelbesteuerung – Einkommen- und Vermögensteuern (Schweden), Fassung vom 05.10.2026 (BGBl. Nr. 39/1960 idF BGBl. Nr. 341/1970, 132/1993, III 75/2007, III 55/2010); BGBl. Nr. 341/1970 and 132/1993 PDFs",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10003921",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Empfänger der Dividenden der Nutzungsberechtigte ist, nicht übersteigen: a) 5% des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10A(1)",
+   "valid_from": "1970-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bezieht eine Person mit Wohnsitz in einem der beiden Staaten Zinsen aus dem anderen Staat, so hat vorbehaltlich des Absatzes 2 nur der Wohnsitzstaat das Besteuerungsrecht für diese Einkünfte. Werden diese Einkünfte durch eine im anderen Staat gelegene Betriebstätte erzielt, so steht das Besteuerungsrecht diesem anderen Staat zu."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 9(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren im Sinne des Absatzes 1, die von einer Kapitalgesellschaft mit Wohnsitz in einem der beiden Staaten an eine Person mit Wohnsitz im anderen Staat bezahlt werden, die zu mehr als 50 vom Hundert am Grund- oder Stammkapital der auszahlenden Kapitalgesellschaft beteiligt ist, können abweichend von den Bestimmungen des Absatzes 1 in dem erstgenannten Staat besteuert werden; die Steuer darf jedoch 10 vom Hundert des Rohbetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty not covered by the MLI)",
+  "source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+  "quote": "Treaty map: neither AT nor SE listed the treaty under the MLI."
+ },
+ "notes": "Dividend tiers from 1991-11-05 protocol (BGBl. Nr. 132/1993): ratifications exchanged 1993-02-03, in force 1993-05-01 ('das Protokoll tritt gemäß seinem Artikel 3 Abs. 2 mit 1. Mai 1993 in Kraft'), applicable to assessment years beginning on/after 1 Jan 1994. The 25% threshold is 'mindestens 25' (>=25) held directly by a company (not a partnership). Royalty 10% tier requires MORE THAN 50% of share capital of the paying company (recipient may be any person); otherwise royalties exclusive to residence State; excessive part of royalties taxable under domestic law. Interest (Art. 10A) and royalties (Art. 9(1)-(2)) wording from 1970-04-06 protocol (BGBl. Nr. 341/1970), first applied in Austria to taxes for periods after 31 Dec 1969 and in Sweden to income derived on/after 1 Jan 1970. Art. 10(3): a State that withholds may deduct full domestic tax and must refund the excess over the treaty limit on claim (refund procedure, also applies to interest via Art. 10A(2) for the whole tax). Art. 10(6): intercompany dividend exemption in residence State. No MLI: PPT not applicable; Sweden in any event reserved MLI Art. 35(7) and has not notified completion. [curated: ROYALTY 10% tier above 50% used as the general rate — a higher rate for larger holdings is not modelled]",
+ "confidence": "high",
+ "unverified": [
+  "Exact date 1970 protocol entered into force (exchange of ratifications) not checked; applicability date taken from its Art. II(2)."
+ ]
+}

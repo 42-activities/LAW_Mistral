@@ -1,0 +1,59 @@
+{
+ "a": "HU",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Hungary and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1994), as modified by the MLI",
+ "signed": "1994-06-08",
+ "entry_into_force": "1995-09-07",
+ "eif_source_url": "https://nav.gov.hu/en/taxation/double_taxation_treaties",
+ "eif_quote": "Bulgaria | 1994. VI. 8. | Act XCII of 1996 | 1996. I. 1. (NAV list: applicable from 1996-01-01); EIF date 1995-09-07 taken from treaty map.",
+ "source_title": "1996. évi XCII. törvény (HU-BG DTC 1994, Hungarian text), net.jogtar.hu",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=99600092.tv",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ugyanakkor ez az osztalék abban a Szerződő Államban és annak a Szerződő Államnak a jogszabályai szerint is adóztatható, amelyben az osztalékot fizető társaság belföldi illetőségű, ha azonban a kedvezményezett az osztalék haszonhúzója, az így felszámított adó nem haladhatja meg az osztalék bruttó összegének 10%-át."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ugyanakkor az ilyen kamat abban a Szerződő Államban és annak az Államnak a jogszabályai szerint is adóztatható, amelyben keletkezik, de ha a kedvezményezett a kamat haszonhúzója, az így felszámított adó nem haladhatja meg a kamat bruttó összegének 10%-át."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ugyanakkor az ilyen jogdíj abban a Szerződő Államban is, amelyben keletkezik, annak az Államnak a jogszabályai szerint adóztatható, de ha a kedvezményezett a jogdíj haszonhúzója, az így felszámított adó nem haladhatja meg a jogdíj bruttó összegének 10%-át."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+  "quote": "Hungary MLI position: no reservation on Art. 7(1) PPT (Pursuant to Article 7(17)(b) of the Convention, Hungary hereby chooses to apply Article 7(4)); Pursuant to Article 8(3)(a) of the Convention, Hungary reserves the right for the entirety of Article 8 not to apply to its Covered Tax Agreements."
+ },
+ "notes": "Art. 29(2)(a): WHT on income derived on or after 1 January of the year after EIF -> 1996-01-01 (confirmed by § 3 of the HU promulgating act). Single 10% rate for dividends (no participation tier). Art. 11(3): interest paid to the other State's Government, its central bank, or on government-provided/guaranteed/insured loans agreed by competent authorities is taxable only in the residence State (not modelled). Royalties include equipment rental. MLI WHT effective 2023-01-01 per treaty map; Bulgaria's MLI list was read by the treaty-map agent from its signature-stage position (deposit PDF is image-only).",
+ "confidence": "medium",
+ "unverified": [
+  "EIF date 1995-09-07 not confirmed from a primary source in this run (Bulgarian NRA list not machine-readable).",
+  "Bulgaria's final MLI position for this treaty (PPT date 2023-01-01) not verified from the deposit document (image-only)."
+ ]
+}

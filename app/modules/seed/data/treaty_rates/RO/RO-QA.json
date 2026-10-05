@@ -1,0 +1,58 @@
+{
+ "a": "RO",
+ "b": "QA",
+ "treaty_name": "Convention between the Government of Romania and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999)",
+ "signed": "1999-10-24",
+ "entry_into_force": "2003-07-06",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+ "eif_quote": "ANAF list: Qatar | 84/20.03.2001 | 150/2001 | 01.01.2004",
+ "source_title": "Legea nr. 84/2001 – Convenția România–Qatar (ANAF text) + ANAF MLI synthesised text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Qatar.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dividendelor, impozitul astfel stabilit nu va depăşi 3% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dobânzilor, impozitul astfel stabilit nu va depăşi 3% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 5% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Qatar.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu"
+ },
+ "notes": "Article 12 = commissions capped at 3%; royalties are Article 13. Art. 11(3): interest exempt when derived by the other State's government/local authorities/government agencies or banks, or on debt guaranteed/insured/financed by a wholly government-owned financial institution. Art. 28: WHT effective from 1 January of the year following EIF. MLI: synthesised text (ANAF) states Romania's Art. 35(7)(b) notification received 6 March 2023; MLI effective for WHT on or after 1 January 2024.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2003-07-06 from treaty map (ANAF lists only application date 01.01.2004)"
+ ]
+}

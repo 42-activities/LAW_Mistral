@@ -1,0 +1,59 @@
+{
+ "a": "GR",
+ "b": "PT",
+ "treaty_name": "Convention between the Portuguese Republic and the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999)",
+ "signed": "1999-12-02",
+ "entry_into_force": "2002-08-13",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+ "eif_quote": "Greece MLI deposit list: 'Portugal Original 02-12-1999 13-08-2002' (Portugal MLI list identical: 'Greece Original 02-12-1999 13-08-2002')",
+ "source_title": "Diário da República I Série-A n.º 79, 4.4.2002, pp. 3055 ff. — Resolução da AR n.º 25/2002 with Convention PT–GR (copy of the official DR PDF hosted by a third party, newco.pro — secondary host)",
+ "source_url": "https://www.newco.pro/uploads/fotos_artigos/files/grecia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mas se o beneficiário efectivo dos dividendos for um residente do outro Estado Contratante, o imposto assim estabelecido não excederá 15% do montante bruto desses dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mas se o beneficiário efectivo dos juros for residente do outro Estado Contratante, o imposto assim estabelecido não excederá 15% do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mas se o beneficiário efectivo das royalties for residente do outro Estado Contratante, a imposto assim estabelecido não excederá 10% do montante bruto das royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 7(17)(a) of the Convention, the Hellenic Republic considers that the following agreements ... contain a provision described in Article 7(2) ... 46 Portugal Articles 11(7) and 12(7)"
+ },
+ "notes": "Single dividend tier (15%), no participation reduction in the treaty. Art. 27(2): withholding taxes on income arising on or after 1 January of the calendar year following entry into force (2003-01-01). Treaty anti-abuse clauses Arts. 11(7)/12(7) replaced by MLI Art. 7(1) PPT. MLI: Greece reserved Art. 8 entirely; PPT effective 2022-01-01 per treaty map. EIF date from OECD MLI positions (Aviso n.º 85/2002 not read). EU directives not modelled.",
+ "confidence": "medium",
+ "unverified": [
+  "Official DR text read via a third-party-hosted copy of the DR PDF; diariodarepublica.pt / Portal das Finanças copy not fetched",
+  "Aviso of entry into force not read"
+ ]
+}

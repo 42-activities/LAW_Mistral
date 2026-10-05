@@ -1,0 +1,58 @@
+{
+ "a": "RO",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Socialist Republic of Romania and the Government of the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (1986)",
+ "signed": "1986-07-01",
+ "entry_into_force": "1988-09-15",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm ; https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "ANAF list: Turcia | 331/14.10.1986 | 61/1986 | 01.01.1989",
+ "source_title": "Decretul nr. 331/1986 – Acordul România–Turcia (ANAF text)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Turcia.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dividendelor, impozitul astfel stabilit nu va depăşi 15 la sută din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al dobînzilor, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a dobînzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă primitorul este beneficiarul efectiv al redevenţelor impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "No MLI coverage (Türkiye signed but not ratified the MLI); no PPT in treaty",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 11(3): interest paid to the other State's Government or Central/National Bank exempt. Art. 11(8): deferred-payment sale proceeds are not interest. Royalty definition includes sale ('vînzarea') of rights. Art. 30(2): effective for taxes for fiscal years beginning on/after 1 January of the year following EIF (exchange of ratification instruments; EIF date from treaty map, not stated in text).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 1988-09-15 (from treaty map; ANAF lists only application date 01.01.1989)"
+ ]
+}

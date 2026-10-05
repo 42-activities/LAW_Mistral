@@ -1,0 +1,59 @@
+{
+ "a": "BH",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the State of Bahrain and the Government of the Hashemite Kingdom of Jordan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2000)",
+ "signed": "2000-02-08",
+ "entry_into_force": "2001-12-17",
+ "eif_source_url": "https://www.mofne.gov.bh/en/bilateral-agreements",
+ "eif_quote": "Jordan | 08 Feb 2000 | 17 Dec 2001 | Avoidance of Double Taxation Agreement",
+ "source_title": "Bahrain MOFNE: Arabic text of the BH-JO Agreement (report.pdf)",
+ "source_url": "http://www.mofne.gov.bh/media/hxilnbwv/report.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1), second subparagraph",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك فإن ارباح الاسهم هذه يجوز ان تخضع للضريبة في الدولة المتعاقدة التي توجد بها الشركة الدافعة لهذه الارباح طبقا لقوانين تلك الدولة، ولكن اذا كان المستلم هو المالك المستفيد من أرباح الاسهم فإن الضريبة المفروضة لا يجوز ان تزيد على (10%) من المبلغ الاجمالي للتوزيعات"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1), second subparagraph",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك فإن هذه الفوائد تخضع للضريبة في الدولة المتعاقدة التي نشأت فيها طبقا لقوانين تلك الدولة، ولكن اذا كان المستلم هو المالك المستفيد للفوائد فإن الضريبة التي تفرض يجب الا تزيد على (10%) من اجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1), second subparagraph",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك تخضع هذه الاتاوات للضريبة في الدولة المتعاقدة التي نشأت بها وطبقا لقوانين تلك الدولة ولكن اذا كان المستلم هو المالك المستفيد للاتاوات فإن الضريبة المفروضة يجب ان لا يزيد سعرها على (10%) من اجمالي مبلغ الاتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+  "quote": "Both Parties list the agreement (BH: 'Jordan Original 08-02-2000 16-12-2001'; JO lists Bahrain); neither reserves Art. 7 nor notifies an existing Art. 7(2) provision for this treaty, so the MLI PPT is added."
+ },
+ "notes": "Only the Arabic text was available (typed, not scanned) on mofne.gov.bh; no English official text found. Rates: 10% dividends (no participation tier), 10% interest, 10% royalties (royalty definition includes industrial/commercial/scientific equipment). Not modelled: Art. 11(3) exemption for interest paid to the other State's government, political subdivisions, local authorities and their agencies, and its central bank. valid_from: Art. 29 says WHT provisions apply to amounts paid or credited 'اعتبارا من أول يناير (كانون ثاني) التالي للسنة الميلادية التي تلي تاريخ دخول هذه الإتفاقية حيز النفاذ' — read literally as 1 January following the calendar year after the year of entry into force -> 2003-01-01 (a looser reading gives 2002-01-01); historical only. EIF CONFLICT: MOFNE 17 Dec 2001 vs BH and JO MLI lists 16-12-2001. MLI WHT effective 2023-01-01 from treaty-map. MLI Art. 8 n/a (Bahrain reserved; no tiers).",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from 2003-01-01 vs 2002-01-01 (wording of Art. 29)",
+  "entry_into_force 2001-12-17 vs 2001-12-16"
+ ]
+}

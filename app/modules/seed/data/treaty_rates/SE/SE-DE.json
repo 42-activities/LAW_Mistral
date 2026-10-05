@@ -1,0 +1,80 @@
+{
+ "a": "SE",
+ "b": "DE",
+ "treaty_name": "Agreement between Sweden and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and capital and on estates and gifts and for mutual assistance in tax matters (1992, as amended by Protocol 2023)",
+ "signed": "1992-07-14",
+ "entry_into_force": "1994-10-13",
+ "eif_source_url": "https://www.regeringen.se/contentassets/e4120e64c5ee4e3b9916ff0f95e7ea6f/avtal-med-forbundsrepubliken-tyskland-for-att-undvika-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-och-pa-arv-och-gava-samt-for-att-lamna-omsesidig-handrackning-vid-beskattning.-svenskt-tyskt-skatteavtal",
+ "eif_quote": "Ratifikationsinstrumenten utväxlades i Stockholm den 13 september 1994. Avtalet trädde i kraft den 13 oktober 1994. (SÖ 1994:42, cover page, scanned image)",
+ "source_title": "Prop. 2022/23:118 Ändring i skatteavtalet mellan Sverige och Tyskland (incl. consolidated text of the 1992 agreement as amended by the 18 Jan 2023 protocol, Swedish/German)",
+ "source_url": "https://www.regeringen.se/contentassets/7672019187904a5a80d9b09e33537fe3/andring-i-skatteavtalet-mellan-sverige-och-tyskland-prop.-202223118.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Utdelningen får emellertid beskattas även i den avtalsslutande stat där bolaget som betalar utdelningen har hemvist, enligt lagstiftningen i denna stat, men om mottagaren har rätt till utdelningen får skatten inte överstiga 15 procent av utdelningens bruttobelopp."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "1995-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "3. Med avvikelse från bestämmelserna i punkt 2 får beträffande utdelning som tillfaller bolag som har rätt till utdelningen och som direkt äger minst 10 procent av det utbetalande bolagets kapital, a) skatten inte tas ut om utdelningen betalas av ett i Sverige hemmahörande bolag, och"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b)",
+   "valid_from": "1995-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "b) skatten inte överstiga 5 procent av utdelningens bruttobelopp om utdelningen betalas av ett i Förbundsrepubliken Tyskland hemmahörande bolag vars delägare inte personligen ansvarar för bolagets förbindelser (Kapitalgesellschaft); skatten får emellertid inte tas ut om skillnaden i bolagsskattesats mellan skatt på utdelad vinst och på icke utdelad vinst uppgår till mindre än 5 procentenheter."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1995-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Ränta, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat, om personen i fråga har rätt till räntan."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1995-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalty, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat, om personen i fråga har rätt till royaltyn."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "treaty art. 43(4) (inserted by Protocol of 18 Jan 2023)",
+  "source_url": "https://www.regeringen.se/contentassets/7672019187904a5a80d9b09e33537fe3/andring-i-skatteavtalet-mellan-sverige-och-tyskland-prop.-202223118.pdf ; https://www.recht.bund.de/bgbl/2/2024/66/regelungstext.pdf?__blob=publicationFile&v=1 ; https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19921193-om-dubbelbeskattningsavtal-mellan_sfs-1992-1193/",
+  "quote": "4. Utan hinder av övriga bestämmelser i detta avtal ska en förmån enligt avtalet inte ges i fråga om en inkomst eller en förmögenhetstillgång, om det med hänsyn till alla relevanta fakta och omständigheter rimligen kan antas att ett av de huvudsakliga syftena med det arrangemang eller den transaktion som direkt eller indirekt resulterade i förmånen var att få förmånen, såvida det inte fastställs att det under omständigheterna är förenligt med de relevanta bestämmelsernas ändamål och syfte att förmånen ges. | BGBl. 2024 II Nr. 66: '...dass das Protokoll nach seinem Artikel 22 Absatz 2 am 31. Dezember 2023 in Kraft getreten ist.' | SFS 2023:645 transitional: 'Lagen tillämpas första gången i fråga om a) källskatter, på belopp som betalas eller tillgodoförs den 1 januari det kalenderår som följer närmast efter den dag då lagen träder i kraft eller senare' (law in force 31 Dec 2023)."
+ },
+ "notes": "Art. 10(3)(b) DE-source 5% tier applies only to dividends from a German Kapitalgesellschaft, and tax may not be levied at all where the corporate tax rate difference between distributed and retained profits is below 5 percentage points (so in practice 0% while Germany has a uniform corporate tax rate; modelled as 5% cap with this condition noted). Art. 10(3) requires direct ownership of at least 10% of capital by a company; no holding period. Art. 10(5): income from rights/claims with profit participation (stille Gesellschaft, partiarische Darlehen, Gewinnobligationen) may be taxed in the source State under its domestic law if deductible for the debtor (no cap) - not modelled. Art. 46(3) transitional dividend rules for 1990-1991 are obsolete. Art. 43(3) beneficial-ownership attribution rule applies to Arts. 10-12. Treaty not an MLI covered tax agreement (excluded by DE; not listed by SE). Protocol 2023 in force 2023-12-31 (BGBl. 2024 II Nr. 66); per SFS 2023:645 transitional provisions it applies to source taxes on amounts paid on/after 2024-01-01; Arts 10-12 were not amended by the protocol (no amendment footnotes). Rates valid from 1995-01-01 per Art. 46(2)(a) (income derived from 1 Jan of the year following EIF in 1994).",
+ "confidence": "high",
+ "unverified": [
+  "Protocol Art. 22 effective-date wording read only via the Swedish SFS 2023:645 transitional provision, not the protocol article itself"
+ ]
+}

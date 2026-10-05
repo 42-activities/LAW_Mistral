@@ -1,0 +1,69 @@
+{
+ "a": "BH",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Kingdom of Bahrain and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2016)",
+ "signed": "2016-04-26",
+ "entry_into_force": "2018-08-01",
+ "eif_source_url": "https://www.mofne.gov.bh/en/bilateral-agreements",
+ "eif_quote": "Egypt | Signature Date: 26 Apr 2016 | Force Date: 01 Aug 2018 | Agreement on the Avoidance of Double Taxation",
+ "source_title": "Egyptian Tax Authority synthesised text (MLI + EG-BH Agreement, English guiding translation); checked against the authentic Arabic text on mofne.gov.bh (ci150, scanned)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/bahrain.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% of the gross amount of the dividends if the beneficial owner is a company - other than a partnership - which holds directly at least 25% of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest from debt securities may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest or income from debt claims is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent (10%) of the gross amount of interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent (10%) of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1) (superseding treaty art. 28)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/bahrain.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Agreement: ... a benefit under [the Agreement] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ..."
+ },
+ "notes": "valid_from per Art. 29(2)(a): WHT on income derived on or after 1 January of the year following EIF (2018-08-01) -> 2019-01-01; Art. 29(3) terminates the 1997 Cairo convention. Rates verified visually in the authentic Arabic scan (mofne ci150, pp. 11-14: 5% / 10% dividends, 10% interest 'العائد الناتج من سندات المديونية', 10% royalties). Not modelled: Art. 10(3) dividends beneficially owned by the other State's government (incl. central banks, social security funds, National Investment Bank, entities owned by the government per competent-authority agreement) taxable only in that State; Art. 11(3) interest exemption for government/political subdivision/local authority beneficial owners. Royalty definition includes equipment rental and related technical assistance. Treaty Art. 28 had a main-purpose LOB clause from 2019; both Parties notified it under MLI Art. 7(17)(a) (BH: '13 Egypt Article 28'). CONFLICT on MLI WHT effective date: treaty-map computes 2023-01-01 (Art. 35(1)(a), BH MLI EIF 2022-06-01); the ETA synthesised text states WHT effect for events 'on or after 1 June 2023' (that document also misstates the signing date as 18 January 2015 and mentions Spain, so it appears to be a template error); ppt.from kept at 2023-01-01. MLI Art. 8 not applicable (Bahrain reserved).",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date for PPT: 2023-01-01 (treaty-map) vs 2023-06-01 (ETA synthesised text)"
+ ]
+}

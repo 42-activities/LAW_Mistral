@@ -1,0 +1,67 @@
+{
+ "a": "PT",
+ "b": "KW",
+ "treaty_name": "Convention between the Portuguese Republic and the State of Kuwait for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2010)",
+ "signed": "2010-02-23",
+ "entry_into_force": "2013-12-05",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "KOWEIT Resolução da Assembleia da República n.º 44/2011 de 18 de Março Aviso n.º 11/2014 publicado em 15/01/2014 EM VIGOR DESDE 05-12-2013",
+ "source_title": "Diário da República 1.ª série n.º 55, 18-3-2011 (Resolução AR n.º 44/2011), Convention and Protocol, Portuguese text, via Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Res.Ass.Republica_0149001497_koweit.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Esses dividendos podem, no entanto, ser igualmente tributados no Estado Contratante de que é residente a sociedade que paga os dividendos e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos dividendos for um residente do outro Estado Contratante, o imposto assim estabelecido não excederá: ... b) 10 % do montante bruto dos dividendos, nos restantes casos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % do montante bruto dos dividendos, se o seu beneficiário efectivo for uma sociedade (à excepção de uma sociedade de pessoas) que detenha, directamente, pelo menos 10 % do capital da sociedade que paga os dividendos ou se o beneficiário efectivo dos dividendos for residente do outro Estado Contratante, conforme definido no n.º 2 do artigo 4.º;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, esses juros podem ser igualmente tributados no Estado Contratante de que provêm e de acordo com a legislação desse Estado, mas se o beneficiário efectivo dos juros for um residente do outro Estado Contratante, o imposto assim cobrado não excederá 10 % do montante bruto dos juros."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "No entanto, essas royalties podem ser igualmente tributadas no Estado Contratante de que provêm e de acordo com a legislação desse Estado Contratante, mas se o beneficiário efectivo das royalties for um residente do outro Estado, o imposto assim cobrado não poderá exceder 10 % do montante bruto das royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "",
+  "source_url": "",
+  "quote": ""
+ },
+ "notes": "Art. 29(2): withholding taxes apply from 1 January of the year following entry into force -> 2014-01-01 (EIF 2013-12-05 per PT table; Kuwait MLI position gives 2013-12-04 - same effective date). Art. 10(2)(a): 5% also applies when the beneficial owner is a State/subdivision/local authority or wholly State-owned public-law governmental institution (Art. 4(2) and Protocol: central banks, public enterprises, authorities, agencies, foundations, development funds) - not modelled. No interest exemption for governments in Art. 11. No PPT: Kuwait has not ratified the MLI (treaty map: not covered); no treaty-level PPT found in the Convention or Protocol.",
+ "confidence": "high",
+ "unverified": []
+}

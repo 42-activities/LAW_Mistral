@@ -1,0 +1,67 @@
+{
+ "a": "TR",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Republic of Turkey and the Government of the Republic of Poland for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1993)",
+ "signed": "1993-11-03",
+ "entry_into_force": "1997-04-01",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "30) Polonya 03.11.1993 30.12.1996 - 22863 01.04.1997 01.01.1998; PL MoF list: \"Turcja | Umowa | 03.11.1993 | 01.04.1997 | 01.01.1998 | 1997 - poz. 58\"",
+ "source_title": "Türkiye-Polonya Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi ve Vergi Kaçakçılığını Önleme Anlaşması (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FPOLONYA.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Temettü elde eden, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25'ini elinde tutan bir şirket ise (ortaklıklar hariç) gayri safi temettü tutarının yüzde 10'u;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15'i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, faiz elde eden kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak, gayrimaddi hak bedeli elde eden kişi gayrimaddi hak bedelinin gerçek lehdarı ise bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but has not ratified the MLI; no principal-purpose clause)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FPOLONYA.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 28: EIF on the first day of the month following the last notification; applies to taxation periods beginning on/after 1 January following EIF -> 1998-01-01 (GİB and PL lists). CONFLICT (treaty map): PL MLI position gives EIF 01.10.1996 vs GİB/PL list 01.04.1997 (used); both lists give application from 01.01.1998. Interest exempt at source (Art. 11(3)) when derived by the other Government incl. local authorities and Central Bank, or on government-supported credits. Branch profits tax max 15% of after-tax PE profit (Art. 10(4)). English text prevails in case of divergence; only the Turkish text was read (OCR scan).",
+ "confidence": "high",
+ "unverified": []
+}

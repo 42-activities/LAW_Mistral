@@ -1,0 +1,67 @@
+{
+ "a": "HU",
+ "b": "ES",
+ "treaty_name": "Convention between the Hungarian People's Republic and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1984), as modified by the MLI",
+ "signed": "1984-07-09",
+ "entry_into_force": "1987-05-20",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+ "eif_quote": "Hungary Original 09-07-1984 20-05-1987 (Spain MLI position, via treaty map); Decree 12/1988 § 3(1): Rendelkezéseit alkalmazni kell a forrásnál levont adók tekintetében az 1988. évi január hó 1-jén vagy az után kapott összegekre",
+ "source_title": "12/1988. (III. 10.) MT rendelet (HU-ES DTC 1984, Hungarian text), net.jogtar.hu",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=98800012.mt",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1988-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) az osztalék bruttó összegének 5 százalékát, ha az osztalék haszonhúzója olyan társaság, amelynek az osztalékot fizető társaság tőkéjének legalább 25 százaléka közvetlen tulajdonában van;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) az osztalék bruttó összegének 15 százalékát minden egyéb esetben."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. A kamat, amely az egyik Szerződő Államból származik, és amelyet a másik Szerződő Államban illetőséggel bíró személynek fizetnek, csak ebben a másik Államban adóztatható."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. A licencdíj, amely az egyik Szerződő Államból származik, és amelyet a másik Szerződő Államban illetőséggel bíró személynek fizetnek, csak ebben a másik Államban adóztatható, ha ez a személy a licencdíj haszonhúzója."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+  "quote": "Hungary MLI position: no reservation on Art. 7(1) PPT (Pursuant to Article 7(17)(b) of the Convention, Hungary hereby chooses to apply Article 7(4)); Pursuant to Article 8(3)(a) of the Convention, Hungary reserves the right for the entirety of Article 8 not to apply to its Covered Tax Agreements."
+ },
+ "notes": "Art. 29(2)(a): WHT on amounts received on or after 1 January of the year after EIF -> 1988-01-01 (decree § 3(1)). Note: decree 12/1988 was promulgated in 1988 although treaty map gives EIF 1987-05-20; application date consistent. Hungary reserved MLI Art. 8 entirely (no 365-day holding). MLI WHT effect 2023-01-01 (ES Art. 35(7)(b) notification 2022-06-01) from treaty map.",
+ "confidence": "high",
+ "unverified": []
+}

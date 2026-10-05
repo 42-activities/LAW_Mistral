@@ -1,0 +1,69 @@
+{
+ "a": "SA",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of tax evasion (2007)",
+ "signed": "2007-01-13",
+ "entry_into_force": "2009-12-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "Convention between the government of the kingdom of Saudi Arabia and the government of the Italian republic for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of tax evasion, signed on 13/1/2007 and entered into force on 1/12/2009.",
+ "source_title": "ZATCA: SA-IT Convention 2007 with Additional Protocol (English text, prevailing; Art. 10-12, 30)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Italy.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which has owned directly or indirectly at least 25 per cent of the capital of the company paying the dividends for a period of at least 12 months preceding the date the dividends were declared;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the income from debt-claims, the tax so charged shall not exceed 5 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according with the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; treaty has no PPT in the text read)",
+  "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Italy.pdf",
+  "quote": "15. Nothing in this Convention shall prevent either Contracting State in applying its domestic tax laws in order to prevent tax evasion and tax avoidance."
+ },
+ "notes": "5% dividend tier: company (not partnership) holding directly or indirectly >=25% for at least 12 months preceding the declaration date (modelled as 365 days; treaty holding period, not MLI). Art. 11(3): interest exempt where payer is the Government/local authority, paid to the other Government or wholly owned agency/instrumentality (incl. financial institution), or paid to an agency on loans under an inter-governmental agreement - not modelled. Royalties include computer software. Art. 30(2)(a): WHT on amounts paid on or after 1 January of the year following EIF (2009-12-01 -> 2010-01-01). Art. 28: refund procedure for WHT. MLI: Italy signatory but not a Party, so the MLI does not apply although Saudi Arabia listed the treaty (and notified 'Article 29' as an existing anti-abuse provision under MLI Art. 7(17)(a)). In the ZATCA English PDF, Article 29 'MISCELLANEOUS PROVISIONS' shows only its heading (body missing); the Italian G.U. text (L. 23 ottobre 2009 n. 159, S.O. 208/L) on finanze.gov.it is image-only and could not be machine-read, so Art. 29 content is unverified. Additional Protocol 15 preserves domestic anti-avoidance rules.",
+ "confidence": "high",
+ "unverified": [
+  "Content of treaty Art. 29 (Miscellaneous provisions) - missing in ZATCA PDF; may contain an anti-abuse rule"
+ ]
+}

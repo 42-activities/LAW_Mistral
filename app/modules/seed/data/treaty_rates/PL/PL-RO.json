@@ -1,0 +1,67 @@
+{
+ "a": "PL",
+ "b": "RO",
+ "treaty_name": "Agreement between the Government of the Republic of Poland and the Government of Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "signed": "1994-06-23",
+ "entry_into_force": "1995-09-15",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/1995/530",
+ "eif_quote": "Dz.U. 1995 nr 109 poz. 530 ... entryIntoForce: 1995-09-15 (ISAP metadata); podatki.gov.pl list: 23.06.1994 15.09.1995 01.01.1996",
+ "source_title": "Synthesised text of the MLI and the PL-RO Agreement (podatki.gov.pl, EN)",
+ "source_url": "https://www.podatki.gov.pl/media/uzydcayx/rumunia-en-kopia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;] ... [Subparagraph a) of paragraph 2 of Article 10 of the Agreement] shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, the royalties referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which they arise, and according to the laws of that State, if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.podatki.gov.pl/media/uzydcayx/rumunia-en-kopia.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the MLI ... The relevant notification was received by the Depositary on 6 March 2023. Hence ... Article 7(1), Article 8(1) ... of the MLI have effect ... with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2024"
+ },
+ "notes": "Dividend 5% tier: 365-day holding period (MLI Art. 8(1)) applies only from 2024-01-01; before that the 25% holding sufficed with no period. Art. 11(3): interest to the Government, local/administrative-territorial units, Central Bank, government-controlled financial institutions, or on government-guaranteed loans exempt at source (not modelled). Art. 30(2)(a): WHT provisions apply from 1 January following EIF -> 1996-01-01. Romania 35(7)(b) notification 2023-03-06 matches treaty map MLI WHT date 2024-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

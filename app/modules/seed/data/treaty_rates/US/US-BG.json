@@ -1,0 +1,67 @@
+{
+ "a": "US",
+ "b": "BG",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Republic of Bulgaria for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2007, as amended by Protocol 2008)",
+ "signed": "2007-02-23",
+ "entry_into_force": "2008-12-15",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "САЩ | Спогодба | СИДДО 23-02-2007 | 15-12-2008 | Протокол | 26-02-2008 | 15-12-2008; IRS Table 3: \"Bulgaria TIAS 08-1215.1 Jan. 1, 2009\"",
+ "source_title": "US-Bulgaria Income Tax Convention signed 23 Feb 2007, Protocol at signing, and Amending Protocol signed 26 Feb 2008 (US Treasury texts)",
+ "source_url": "https://home.treasury.gov/system/files/131/Treaty-Bulgaria-2-23-2007.pdf ; https://home.treasury.gov/system/files/131/Treaty-Bulgaria-Protocol-2-26-2008.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 21, not a PPT)",
+  "source_url": "https://home.treasury.gov/system/files/131/Treaty-Bulgaria-2-23-2007.pdf",
+  "quote": ""
+ },
+ "notes": "valid_from per Art. 27(2)(a): taxes withheld at source on income paid or credited on or after 1 January of the year following EIF (EIF 2008-12-15 -> 2009-01-01); Protocol 2008 Art. V enters into force with the Convention. Not modelled: dividends 0% to pension funds (Art. 10(4)); RIC/REIT and similar Bulgarian companies excluded from 5% tier (Art. 10(3)); branch profits tax max 5% (Art. 10(8)); interest exempt at source (Art. 11(3)) when beneficially owned by the State/political subdivision/central bank, government-guaranteed or financed debt, financial institutions (except back-to-back loans), pension funds; Art. 11(8) (as amended by Protocol 2008 Art. II to read 'Notwithstanding the provisions of paragraphs 2 and 3') US non-portfolio contingent interest and Bulgarian profit-linked interest up to 10%, REMIC excess inclusions under domestic law; Protocol 2008 Art. IV new LOB Art. 21(5) triangular PE rule: interest/royalties up to 15% in the US. Protocol at signing para. 7: States to reconsider Arts. 11-12 after the EU Interest & Royalties Directive transition period. LOB Art. 21(5) competent-authority discretionary relief uses a 'principal purposes' test but is not a PPT.",
+ "confidence": "high",
+ "unverified": []
+}

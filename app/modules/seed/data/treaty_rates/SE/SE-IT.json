@@ -1,0 +1,69 @@
+{
+ "a": "SE",
+ "b": "IT",
+ "treaty_name": "Convention between Sweden and Italy for the avoidance of double taxation with respect to taxes on income and on capital and for the prevention of fiscal evasion, with Protocol (1980)",
+ "signed": "1980-03-06",
+ "entry_into_force": "1983-07-05",
+ "eif_source_url": "https://www.regeringen.se/contentassets/bc29ceab15dd47e9bd600bdba42675ea/avtal-med-italien-for-att-undvika-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-och-for-att-forhindra-skatteflykt-jamte-protokoll-rom-den-6-mars-1980.pdf",
+ "eif_quote": "Regeringen beslöt ratificera avtalet den 24 mars 1983. Ratifikationsinstrumenten utväxlades i Stockholm den 5 juli 1983. Avtalet trädde i kraft den 5 juli 1983 enligt art. 30 (SFS 1983:182). (SÖ 1983:46)",
+ "source_title": "SÖ 1983:46 Avtal med Italien för att undvika dubbelbeskattning ... jämte protokoll, Rom den 6 mars 1980 (Swedish/French/Italian texts); cross-checked with Prop. 1982/83:81",
+ "source_url": "https://www.regeringen.se/contentassets/bc29ceab15dd47e9bd600bdba42675ea/avtal-med-italien-for-att-undvika-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-och-for-att-forhindra-skatteflykt-jamte-protokoll-rom-den-6-mars-1980.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "51",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Utdelningen får emellertid beskattas även i den avtalsslutande stat, där bolaget som betalar utdelningen har hemvist, i enlighet med lagstiftningen i denna stat men om utdelningen uppbäres av den som har rätt till densamma, får skatten icke överstiga a. 10 procent av utdelningens bruttobelopp, om mottagaren är ett bolag (med undantag för handelsbolag och enkelt bolag) som direkt behärskar minst 51 procent av det utdelande bolagets kapital;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 procent av utdelningens bruttobelopp i övriga fall."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Räntan får emellertid beskattas även i den avtalsslutande stat från vilken den härrör i enlighet med lagstiftningen i denna stat, men om räntan uppbäres av den som har rätt till densamma, får skatten icke överstiga 15 procent av räntans belopp."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Royaltyn får emellertid beskattas även i den avtalsslutande stat från vilken den härrör i enlighet med lagstiftningen i denna stat, men om royaltyn uppbäres av den som har rätt till densamma, får skatten icke överstiga 5 procent av royaltyns bruttobelopp."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+  "quote": "Not an MLI covered tax agreement: Italy is an MLI signatory but not yet a Party (OECD status 15-09-2026, per treaty map). The treaty itself contains no PPT."
+ },
+ "notes": "Authentic texts: Swedish, French, Italian. Valid from 1984-01-01 per Art. 30(2) (income derived from 1 January of the calendar year following the exchange of ratification instruments on 1983-07-05; in Italy, tax periods beginning on that date). Dividend 10% tier requires a company (other than partnerships) directly holding at least 51% of capital (Italian text: 'dispone direttamente del 51%'). Interest Art. 11(3): exemption at source where payer is the State/local authority, or interest paid to the other State/local authority/wholly-owned institutions (incl. financing institutions), or to institutions financing under intergovernmental agreements - not modelled. Art. 11(5)/12: PE-connected income taxable under domestic law. Competent authorities settle the mode of application of the limitations (Arts. 10(2), 11(2), 12(2)); Protocol (g): Art. 25(2) non-discrimination does not imply exemption of dividends to companies of the other State. No amending protocol found (SFSR shows only 2011 amendment to the Swedish law).",
+ "confidence": "high",
+ "unverified": [
+  "Royalty paragraph quote taken from Prop. 1982/83:81 OCR (Swedish) with OCR errors corrected; the 5% figure also confirmed in the French text ('ne peut excéder 5% du montant brut des redevances')"
+ ]
+}

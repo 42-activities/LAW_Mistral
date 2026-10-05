@@ -1,0 +1,69 @@
+{
+ "a": "AT",
+ "b": "RO",
+ "treaty_name": "Convention between the Republic of Austria and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2005, as amended 2012)",
+ "signed": "2005-03-30",
+ "entry_into_force": "2006-02-01",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR30005034/NOR30005034.html",
+ "eif_quote": "Die Mitteilungen gemäß Art. 29 Abs. 1 des Abkommens wurden am 13. September bzw. 25. November 2005 abgegeben; das Abkommen tritt daher gemäß derselben Bestimmung mit 1. Februar 2006 in Kraft.",
+ "source_title": "RIS: DBA Österreich-Rumänien, BGBl. III Nr. 29/2006 idF BGBl. III Nr. 228/2013 (Art. 10-12, 29, Protokoll, Zusatzprotokoll) + MLI synthesised text (Anl. 3)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004609",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine in dem anderen Vertragsstaat ansässige Person ist, nicht übersteigen: a) 0 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 3 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine im anderen Vertragsstaat ansässige Person ist, 3 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40251709/III_93_2018_DBA_Rumaenien_synthesised_deutsch_final.pdf",
+  "quote": "Gemäß den Absätzen 1, 3 und 7 des Artikels 35 des MLI ist Artikel 7 Absatz 1 des MLI in Bezug auf die Anwendung dieses Abkommens wirksam: a) bei den im Abzugsweg erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben werden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem 1. Jänner 2024 eintritt, welcher dem ersten Tag des Kalenderjahres entspricht, welches dem 30. Tag folgt, nachdem die Notifikation Rumäniens über den Abschluss seiner innerstaatlichen Verfahren für das Wirksamwerden des MLI in Bezug auf dieses Abkommen beim Verwahrer eingegangen ist"
+ },
+ "notes": "Interest taxable only in the residence State (Art. 11(3)) where payer or recipient is a government/political subdivision/central bank, on loans granted/guaranteed/insured by a government, central bank or government-owned financial institution, on loans granted by a bank or other financial institution (incl. insurance companies), on loans granted for more than 2 years, and on credit sales of equipment - not modelled. Protocol point 2 (Art. 11): the 3% interest rate is reduced to 0% if and as long as Austria levies no withholding tax under domestic law on interest paid to residents of the other State - conditional, not modelled. Art. 29(1): WHT provisions apply to income paid on or after 1 January of the year following EIF (EIF 2006-02-01 -> 2007-01-01). The 2012 protocol (BGBl. III Nr. 228/2013, in force 2013-11-01) amended Art. 27 (exchange of information) only. MLI: Romania made Art. 35(7) notification; PPT effective for WHT from 2024-01-01; no MLI Art. 8 in the synthesised text. Authentic languages German, Romanian, English (English prevails); German text quoted.",
+ "confidence": "high",
+ "unverified": [
+  "Whether the Protocol point 2 condition (no Austrian domestic WHT on interest to non-residents) is currently met"
+ ]
+}

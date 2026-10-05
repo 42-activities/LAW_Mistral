@@ -1,0 +1,56 @@
+{
+ "a": "DE",
+ "b": "PT",
+ "treaty_name": "Convention between the Federal Republic of Germany and the Portuguese Republic for the avoidance of double taxation with respect to taxes on income and on capital (1980)",
+ "signed": "1980-07-15",
+ "entry_into_force": "1982-10-08",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Portugal/1982-09-29-Portugal-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile",
+ "eif_quote": "wird bekanntgemacht, daß das Abkommen nach seinem Artikel 30 Abs. 2 sowie das dazugehörige Protokoll vom selben Tage am 8. Oktober 1982 in Kraft treten werden. Die Ratifikationsurkunden sind am 8. September 1982 in Bonn ausgetauscht worden. (BGBl. 1982 II S. 861; OCR)",
+ "source_title": "BGBl. 1982 II S. 129: Gesetz zu dem DBA Deutschland-Portugal vom 15.7.1980 (scanned; German/English)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Portugal/1982-02-13-Portugal-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Dividenden der Nutzungsberechtigte ist, 15 vom Hundert des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrages der Zinsen in allen anderen Fällen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Die Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (MLI not applicable: Germany does not list the Portugal treaty; no PPT in treaty)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Portugal/1982-02-13-Portugal-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile",
+  "quote": ""
+ },
+ "notes": "Art. 30(2)(a): WHT applies for the first time where the fact giving rise to the tax appears after 31 December of the year of exchange of ratification instruments (1982-09-08) -> 1983-01-01. Art. 11(2)(a): 10% for interest on bank loans of any kind; for Portuguese-source interest only if the financed project is of economic or social interest in the view of the Portuguese Government (always met for development-plan projects approved by it) - bank-only tier, not modelled. Art. 11(3): interest paid to Banco de Portugal / Deutsche Bundesbank exempt. Protocol No. 4: profit-participating income (sleeping partner, partiarische Darlehen, Gewinnobligationen) deductible at the debtor may be taxed under domestic law. Protocol No. 3: Portuguese 'conta em participação' profits are dividends. Royalties include equipment rental. EU Directives (PSD, Interest-Royalty) not modelled. Text read from scanned BGBl. page images.",
+ "confidence": "high",
+ "unverified": []
+}

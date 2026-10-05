@@ -1,0 +1,69 @@
+{
+ "a": "BE",
+ "b": "CZ",
+ "treaty_name": "Convention between the Czech Republic and the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (1996, as amended by Protocol 2010)",
+ "signed": "1996-12-16",
+ "entry_into_force": "2000-07-24",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2000/95/0000-00-00",
+ "eif_quote": "Ratifikační listiny byly vyměněny v Praze dne 24. července 2000. Smlouva vstoupila v platnost na základě svého článku 28 odst. 2 dne 24. července 2000",
+ "source_title": "Sdělení MZV č. 95/2000 Sb.m.s. (Czech translation; English text authentic); Sdělení č. 127/2003 Sb.m.s.; Protokol č. 17/2015 Sb.m.s.",
+ "source_url": "https://e-sbirka.gov.cz/sm/2000/95/0000-00-00",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procent hrubé částky dividend, jestliže skutečným vlastníkem je společnost, včetně osobní společnosti, která přímo nebo nepřímo vlastní nejméně 25 procent jmění společnosti vyplácející dividendy;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procent hrubé částky dividend ve všech ostatních případech."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procent hrubé částky licenčních poplatků placených za užití nebo za právo na užití jakéhokoliv autorského práva k dílu literárnímu, uměleckému nebo vědeckému, včetně kinematografických filmů a filmů nebo nahrávek pro televizní nebo rozhlasové vysílání, jakéhokoliv softwaru, patentu, ochranné známky, návrhu nebo modelu, plánu, tajného vzorce nebo výrobního postupu, nebo za informace, které se vztahují na zkušenosti nabyté v oblasti průmyslové, obchodní nebo vědecké."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective date: Art. 28(2)(a) - withholding on income credited/paid on or after 1 Jan of the year following EIF (2000) -> 2001-01-01. ROYALTY special tiers not modelled: (1) Art. 12(2)(a) 5% for royalties for the use of industrial, commercial or scientific equipment; (2) copyright royalties (literary, artistic, scientific works incl. films/TV/radio recordings) taxable only in the residence State from 1 Jan 2004 via the most-favoured-nation clause in Protocol point 1 (Sdělení č. 127/2003 Sb.m.s.: 'Od 1. ledna 2004 ... licenční poplatky placené za užití ... autorského práva ... mohou být zdaněny jen ve státě daňové rezidence skutečného vlastníka'); the MFN clause refers to Czech-source royalties, the Czech notice is phrased for the treaty generally. Interest exempt at source (Art. 11(3)) for trade-credit interest, export-promotion-agency loans, non-bearer bank loans, bank deposits and interest paid to the other State/its subdivisions - not modelled. MLI: both list the treaty; WHT effect 2021-01-01 (treaty map). Czech Republic reserved the entirety of MLI Art. 8, so no 365-day holding rule (Belgium did notify Art. 10(2)(a)). 2010 Protocol (Sb.m.s. 17/2015, EIF 13 Jan 2015) replaced only Art. 26 (exchange of information). Quotes are from the official Czech translation; the English text is authentic.",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read (Czech translation used)"
+ ]
+}

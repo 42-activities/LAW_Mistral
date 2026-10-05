@@ -1,0 +1,58 @@
+{
+ "a": "LB",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of Romania and the Government of the Lebanese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1995)",
+ "signed": "1995-06-28",
+ "entry_into_force": "1997-04-06",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "Liban | 10/21.03.1996 | 62/1996 | 01.01.1998 (ANAF list: ratification law no./date, Monitorul Oficial, application date; EIF date 1997-04-06 from treaty map)",
+ "source_title": "ANAF: Legea nr. 10/1996 privind ratificarea Convenţiei România-Liban (text, M.Of. 62/1996)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Liban.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi aceste dividende pot fi, de asemenea, impuse în statul contractant în care este rezidentă societatea plătitoare de dividende şi potrivit legislaţiei acelui stat contractant, dar dacă primitorul este beneficiarul (proprietarul) efectiv al dividendelor, impozitul astfel stabilit nu va depăşi 5% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi aceste dobânzi pot fi, de asemenea, impuse în statul contractant din care provin şi potrivit legislaţiei acelui stat, dar dacă primitorul este beneficiarul (proprietarul) efectiv al dobânzilor, impozitul astfel stabilit nu va depăşi 5% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi aceste redevenţe pot fi, de asemenea, impuse în statul contractant din care provin şi potrivit legislaţiei acelui stat contractant, dar dacă primitorul este beneficiarul (proprietarul) efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 5% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Lebanon not an MLI signatory; no PPT in treaty)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Liban.htm",
+  "quote": ""
+ },
+ "notes": "Art. 29: EIF on the 30th day after the last notification; WHT applies to income derived on or after 1 January of the year following EIF (ANAF: applicable 01.01.1998). Single 5% rate for all three categories. Art. 11(3): interest exempt at source when derived by the other State's government, local authorities, agencies/banking institutions, or on claims guaranteed/insured/financed by a wholly government-owned financial institution (not modelled). MLI not applicable.",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF day 1997-04-06 from treaty map, not confirmed in this run (ANAF list confirms only the 1998-01-01 application date)."
+ ]
+}

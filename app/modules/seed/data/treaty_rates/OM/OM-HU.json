@@ -1,0 +1,69 @@
+{
+ "a": "OM",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of Hungary and the Government of the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-11-02",
+ "entry_into_force": "2017-03-18",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=a1600177.tv",
+ "eif_quote": "Kihirdetve: 2016. XII. 20. Hatályba lép 2017. III. 18-án a 8/2017. (III. 3.) KKM közlemény alapján.",
+ "source_title": "secondary: Wolters Kluwer net.jogtar.hu reproduction of Act CLXXVII of 2016 (Hungarian and English texts of the HU-OM Agreement); official njt.hu not reachable, Oman-hosted PDF is a scan",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=a1600177.tv",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: (a) 10 per cent of the gross amount of the dividends if the beneficial owner is an individual; (b) 0 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 10 per cent of the gross amount of the dividends if the beneficial owner is an individual;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2018-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2018-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://net.jogtar.hu/jogszabaly?docid=a1600177.tv",
+  "quote": "Notwithstanding the provisions of any other Articles of this Agreement, a Contracting State shall not allow any reduction in or exemption from tax as provided for in the Agreement to a resident of the other Contracting State, if the competent authority of the first-mentioned State determines that the main purpose or one of the main purposes of that resident or a person connected with that resident was to take advantage of the provisions of the Agreement in order to obtain such reduction or exemption."
+ },
+ "notes": "Dividend tiers depend on the type of beneficial owner, not on a holding percentage: 10% where the beneficial owner is an individual, 0% in all other cases (companies etc.); both entries therefore have no ownership threshold - the 0% tier is the general (non-individual) tier and the 10% tier applies to individuals only. Art. 30(2)(a): WHT provisions effective for amounts paid or credited on or after 1 January of the year following EIF (EIF 2017-03-18 -> 2018-01-01; consistent with Hungarian list 'applicable from 2018-01-01'). Treaty Art. 28 'Limitation on benefits' is a main-purpose test (competent-authority determination) used as ppt basis; in addition the MLI covers the treaty (treaty map: mli_covered_both true, WHT effect 2022-01-01) so MLI Art. 7(1) PPT also applies from 2022-01-01. Authentic in Hungarian, Arabic and English (English prevails); English quoted.",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from a secondary (commercial) reproduction of the official gazette; MLI PPT date from treaty map"
+ ]
+}

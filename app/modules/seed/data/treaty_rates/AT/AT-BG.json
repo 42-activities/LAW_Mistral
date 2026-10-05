@@ -1,0 +1,67 @@
+{
+ "a": "AT",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Austria and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (2010)",
+ "signed": "2010-07-20",
+ "entry_into_force": "2011-02-03",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40127620/NOR40127620.html",
+ "eif_quote": "Die Mitteilungen gemäß Art. 28 Abs. 1 des Abkommens wurden am 28. Jänner bzw. 1. Februar 2011 (eingelangt am 3. Februar 2011) abgegeben; das Abkommen ist daher gemäß seinem Art. 28 Abs. 2 mit 3. Februar 2011 in Kraft getreten.",
+ "source_title": "RIS: DBA Österreich-Bulgarien, BGBl. III Nr. 30/2011 (Art. 10-12, 28, Protokoll) + MLI synthesised text (BGBl. III Nr. 93/2018 Anl. 2)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20007199",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine in dem anderen Vertragsstaat ansässige Person ist, nicht übersteigen: a) 0 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Die in Absatz 1 angeführten Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40249003/III_93_2018_DBA_Bulgarien_synthesised_deutsch_final.pdf",
+  "quote": "Gemäß den Absätzen 1 und 3 des Artikels 35 des MLI ist Artikel 7 Absatz 1 des MLI in Bezug auf die Anwendung dieses Abkommens wirksam: a) bei den im Abzugsweg erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben werden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem 1. Jänner 2023 eintritt"
+ },
+ "notes": "Dividend 0% tier applies to any company beneficial owner (not partnerships) with no minimum holding; modelled as general 0% plus 5% 'all other cases' (both without threshold). Interest exempt at source (Art. 11(3)) when paid to the governments, on OeKB/comparable export-promotion loans, on credit sales of equipment, and on any bank loan - not modelled. Art. 28(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 2011-02-03 -> 2012-01-01). Replaces the 1983 treaty (BGBl. 425/1984). MLI synthesised text applies MLI Art. 6(1) and 7(1); no MLI Art. 8 holding period in the synthesised text. Authentic languages German, Bulgarian, English (English prevails); German text read.",
+ "confidence": "high",
+ "unverified": []
+}

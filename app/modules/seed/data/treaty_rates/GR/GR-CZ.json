@@ -1,0 +1,47 @@
+{
+ "a": "GR",
+ "b": "CZ",
+ "treaty_name": "Convention between the Government of the Czechoslovak Socialist Republic and the Government of the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1986)",
+ "signed": "1986-10-23",
+ "entry_into_force": "1989-05-23",
+ "eif_source_url": "https://www.zakonyprolidi.cz/cs/1989-98",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 27 odst. 2 dnem 23. května 1989.",
+ "source_title": "Official: ΦΕΚ Α' 86/28.03.1989 (Ν. 1838/1989) with English text of CZ–GR Agreement (page scans, et.gr); Czech text cross-checked on zakonyprolidi.cz (reproduction of 98/1989 Sb.)",
+ "source_url": "https://et.gr/api/DownloadFeksApi/?fek_pdf=19890100086",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, royalties of the kind referred to in subparagraph a) of paragraph 3 may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Greece MLI deposit list of Covered Tax Agreements: 'Czechoslovak ... Original 23-10-1986 23-05-1989' (Czech Republic, agreement No. 55); MLI Art. 7(1) PPT is the minimum standard applied by both Greece and the Czech Republic."
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(1) 'Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State are taxed in both Contracting States.' (Czech: 'podléhají zdanění v obou smluvních státech') — no source-State limit (source State may tax without treaty cap). INTEREST: Art. 11(3) exempts at source interest on loans granted by the Government of a State or by a bank/institution acting in the name or for account of that Government (not modelled). ROYALTY: 10% cap applies only to industrial royalties (Art. 12(3)(a): patents, trademarks, designs, plans, secret formulae, equipment, know-how); cultural/copyright royalties (Art. 12(3)(b), incl. films) are not covered by para 2 and are taxable only in the residence State (not modelled as a separate tier). Effective date per Art. 27(2): income for tax years beginning on or after 1 January of the year following entry into force (1990-01-01). MLI: Greece and Czech Republic both reserved Art. 8 entirely; PPT effective 2022-01-01 per treaty map (Art. 35(1)(a)).",
+ "confidence": "high",
+ "unverified": [
+  "CZ–GR MLI synthesised text not read"
+ ]
+}

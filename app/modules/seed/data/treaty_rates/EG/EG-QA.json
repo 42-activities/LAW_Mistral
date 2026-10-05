@@ -1,0 +1,69 @@
+{
+ "a": "EG",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Arab Republic of Egypt and the Government of the State of Qatar for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2023)",
+ "signed": "2023-02-27",
+ "entry_into_force": "2024-03-25",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "GTA feed (per treaty map): signature_date '27-فبراير-2023'; entry into force 2024-03-25 (treaty map value, 'Only in GTA Arabic feed').",
+ "source_title": "ETA: Arabic text of the Egypt-Qatar Agreement and Protocol (copy of text published in Egyptian Official Gazette No. 42 of 19/10/2023)",
+ "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/qtr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(أ) 5% من المبلغ الإجمالي لأرباح الأسهم إذا كان المالك المستفيد شركة تمتلك بشكل مباشر ما لا يقل عن 10% من رأس مال الشركة التي تدفع أرباح الأسهم طوال فترة 365 يوماً تتضمن يوم دفع أرباح الأسهم (لغرض حساب تلك الفترة، لا تؤخذ في الاعتبار أي تغييرات في الملكية تنتج مباشرة من إعادة تنظيم الشركة، مثل إعادة التنظيم بالاندماج أو الانقسام، للشركة التي تمسك الأسهم أو التي تدفع أرباح الأسهم)؛"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ب) 10% من المبلغ الإجمالي لأرباح الأسهم في جميع الحالات الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- ومع ذلك، فإن هذه الفوائد يجوز أن تخضع أيضا للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقاً لقوانين تلك الدولة، ولكن إذا كان المالك المستفيد من الفوائد مقيماً في الدولة المتعاقدة الأخرى، ففي هذه الحالة يجب ألا تزيد الضريبة المفروضة عن 10% من إجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢. ومع ذلك، يجوز أن تخضع هذه الإتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقاً لقوانين تلك الدولة، ولكن إذا كان المالك المستفيد للإتاوات مقيماً في الدولة المتعاقدة الأخرى، في هذه الحالة فإن الضريبة المفروضة يجب ألا تزيد عن 10% من إجمالي مبلغ الإتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/qtr.pdf",
+  "quote": "المادة الثامنة والعشرون - تحديد الانتفاع بمزايا الاتفاقية: استثناءً من الأحكام الأخرى لهذه الاتفاقية لن يسمح بأي مزايا تطبيقاً لها بالنسبة لعناصر الدخل إذا كان بالنظر إلى كافة الحقائق والظروف ذات الصلة قد ثبت أن الحصول على هذه المزايا هو الهدف أو أحد الأهداف الرئيسية لأي ترتيب أو معاملة قد أدت بطريقة مباشرة أو غير مباشرة للحصول على تلك المزايا، الا إذا كان الحصول على هذه المزايا في هذه الظروف يتفق مع أحكام هذه الاتفاقية."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts paid or credited on or after 1 January of the calendar year immediately following EIF (EIF 2024-03-25 -> 2025-01-01); EIF on date of receipt of the later notification (Art. 29(1)-(2)). Art. 10(3) and 11(3): dividends and interest beneficially owned by a governmental entity of the other State taxable only in that State (Protocol: State, political subdivisions, local authorities, central bank, recognised pension funds, and entities >=50% state-owned incl. Central Bank of Egypt, Egyptian Social Insurance Fund, National Investment Bank, Sovereign Fund of Egypt / Qatar Central Bank, QIA, Qatar General Retirement and Pension Authority, QatarEnergy...; plus a memorandum of understanding interpreting the 50% ownership test) - not modelled. Protocol: interest includes income from Islamic finance instruments (murabaha, mudaraba, musharaka, ijara). Treaty is not an MLI covered agreement (post-dates both MLI lists) but contains its own PPT (Art. 28). Rates read from rendered page images of the ETA Arabic PDF (text layer garbled). EIF date not independently re-verified from the GTA feed in this run (disk-full error); taken from the treaty map.",
+ "confidence": "medium",
+ "unverified": [
+  "entry_into_force 2024-03-25 taken from treaty map (GTA feed), not re-quoted"
+ ]
+}

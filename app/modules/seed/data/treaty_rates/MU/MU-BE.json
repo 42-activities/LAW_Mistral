@@ -1,0 +1,113 @@
+{
+ "a": "MU",
+ "b": "BE",
+ "treaty_name": "Convention between the Republic of Mauritius and the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1995)",
+ "signed": "1995-07-04",
+ "entry_into_force": "1999-01-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "prévenir l'évasion fiscale en matière d'impôts sur le revenu Maurice Original 04-07-1995 28-01-1999 55 Convention entre le Royaum",
+ "source_title": "MRA: Synthesised text of the MLI and the Mauritius-Belgium Convention",
+ "source_url": "https://www.mra.mu/download/BelgiumSynthesised.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "BE",
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership in the case of Mauritius) which holds directly or indirectly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BE",
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BE",
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BE",
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership in the case of Mauritius) which holds directly or indirectly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mra.mu/download/BelgiumSynthesised.pdf",
+  "quote": "(a) with respect to the application of the Convention by Belgium, in accordance with paragraph 1 of Article 35 of the MLI: - with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2021; ... b) with respect to the application of the Convention by Mauritius, in accordance with paragraphs 1 and 2 of Article 35 of the MLI: - with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 July 2020"
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) for commercial debt-claims from deferred payment for goods/services, export-promotion public-entity loans/credits, loans granted by and deposits with banking enterprises (not bearer instruments), and interest paid to the other State/subdivisions - not modelled (bank-loan exemption is significant). Royalties taxable only in the residence State (beneficial owner). Art. 28(2): Belgium - WHT on income credited/payable on or after 1 January of the year following EIF (2000-01-01); Mauritius - taxes on income of fiscal years beginning after 1 July next following EIF (EIF 1999-01-28 -> read as fiscal years beginning after 1999-07-01, i.e. from 2000-07-01; interpretation not verified). Entries split by source_state. MLI Art. 7(1) PPT (with Art. 7(4) competent-authority relief) effective for WHT from 2020-07-01 (Mauritius) and 2021-01-01 (Belgium); ppt.from = 2021-01-01 (both directions). No MLI Art. 8 in the synthesised text. EIF 1999-01-28 taken from Belgium's MLI list via treaty map.",
+ "confidence": "high",
+ "unverified": [
+  "Mauritius-side effective date wording ('fiscal years beginning after July 1 next following' EIF)"
+ ]
+}

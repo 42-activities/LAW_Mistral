@@ -1,0 +1,58 @@
+{
+ "a": "JO",
+ "b": "EG",
+ "treaty_name": "Convention between the Government of the Hashemite Kingdom of Jordan and the Government of the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1996)",
+ "signed": "1996-05-08",
+ "entry_into_force": "1997-10-23",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "9 [Arabic title] Egypt Original 08-05-1996 23-10-1997",
+ "source_title": "Synthesised text of the MLI and the Egypt-Jordan Convention (Egyptian Tax Authority; English guiding translation of the Arabic text)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/jordon.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State. But if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 20 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/jordon.pdf",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. [Effect: taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2021]"
+ },
+ "notes": "Flat caps, no participation tier. Valid_from per Art. 29(2)(a): payments made on or after 1 January of the calendar year following the exchange of ratification instruments (EIF 1997-10-23 -> 1998-01-01). The ETA document is an English guiding translation of the Arabic authentic text (minor typos normalised in quotes, e.g. 'also'' and '15per'). MLI Art. 8 (365-day holding period) not applicable: neither Jordan nor Egypt notified this treaty under Art. 8(4), and the dividend article has no participation tier anyway.",
+ "confidence": "medium",
+ "unverified": [
+  "Rates read from an English translation published by ETA; Arabic authentic text not compared"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "TR",
+ "b": "AT",
+ "treaty_name": "Agreement between the Republic of Turkey and the Republic of Austria for the Avoidance of Double Taxation with respect to Taxes on Income (2008)",
+ "signed": "2008-03-28",
+ "entry_into_force": "2009-10-01",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FCifte_Vergilendirme%2FTurkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "Avusturya(Revize) 28.03.2008 26.06.2009 - 27270 01.10.2009 01.01.2010",
+ "source_title": "Türkiye-Avusturya Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması ve Protokolü (GİB Turkish text)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FAVUSTURYA_REV.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i) / (b)(i)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Avusturya yönünden: (i) temettünün gerçek lehdarı, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25 ini elinde tutan bir şirket (ortaklık hariç) ise, gayrisafi temettü tutarının yüzde 5 ini; ... b) Türkiye yönünden: (i) temettünün gerçek lehdarı, temettü ödeyen şirketin sermayesinin doğrudan en az yüzde 25 ini elinde tutan bir şirket (ortaklık hariç) ise, söz konusu temettülerin Avusturya’da vergiden istisna edilmesi koşuluyla gayrisafi temettü tutarının yüzde 5 ini;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii) / (b)(ii)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ii) tüm diğer durumlarda gayrisafi temettü tutarının yüzde 15 ini aşmayacaktır."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(c)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) Tüm diğer durumlarda gayrisafi faiz tutarının yüzde 15 ini aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ancak gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye signed but is not an MLI Party; no principal-purpose clause in the treaty)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fmevzuat%2Fuluslararasi_mevzuat%2FTURKCE_METIN%2FAVUSTURYA_REV.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 28(2): enters into force on the first day of the third month after exchange of ratification instruments and applies to taxes for taxation periods beginning after 31 December of the year of exchange -> applied from 2010-01-01 (GİB list). Dividend 5% tier: for Austrian-source dividends any company (not partnership) holding directly >=25% of capital; for Turkish-source dividends the 5% applies only if the dividends are exempt from tax in Austria (Protocol para. 1: Austrian competent authority confirms exemption conditions under Austrian law) - otherwise 15%. Interest (Art. 11(2)): 5% for interest on export-promotion loans/claims granted, guaranteed or insured by Oesterreichische Kontrollbank AG or a similar Turkish public export-promotion body; 10% if the interest is derived by a bank; 15% in all other cases (recorded); exempt when paid to the other State or its Central Bank (Art. 11(3)); profit-participating income (silent partner, participating bonds) taxable at source under domestic law (Art. 11(4)). Royalties 10% flat (Art. 12(2)). Text read from GİB Turkish scan (OCR); quotes lightly normalised for OCR noise.",
+ "confidence": "high",
+ "unverified": []
+}

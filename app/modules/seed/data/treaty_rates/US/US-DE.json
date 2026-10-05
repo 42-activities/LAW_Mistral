@@ -1,0 +1,80 @@
+{
+ "a": "US",
+ "b": "DE",
+ "treaty_name": "Convention between the United States of America and the Federal Republic of Germany for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital and to Certain Other Taxes (1989, as amended by Protocol 2006)",
+ "signed": "1989-08-29",
+ "entry_into_force": "1991-08-21",
+ "eif_source_url": "https://www.germany.info/us-en/service/09-taxes/taxes-income-913924",
+ "eif_quote": "The Convention of August 29, 1989 (Federal Law Gazette 1991, vol. II, p. 354) entered into force on August 21, 1991 (Notification of February 27, 1992 –Federal law Gazette, vol. II, p. 235). It became generally applicable as of January 1, 1990(Article 32). ... The Protocol of June 1, 2006, Amending the Convention (Federal Law Gazette 2006, vol. II, p. 1186) entered into force with the exchange of the instruments of ratification on December 28, 2007",
+ "source_title": "US-Germany Income Tax Convention 1989 and Protocol signed at Berlin 1 June 2006 (IRS treaty texts)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/germany.pdf ; https://www.irs.gov/pub/irs-trty/germanprot06.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (as substituted by Protocol 2006 Art. IV)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, such dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner is: a) a company that is a resident of the other Contracting State that has owned directly shares representing 80 percent or more of the voting power in the company paying the dividends for a 12-month period ending on the date entitlement to the dividend is determined and: aa) satisfies the conditions of clause aa) or bb) of subparagraph c) of paragraph 2 of Article 28 (Limitation on Benefits); ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as substituted by Protocol 2006 Art. IV)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as substituted by Protocol 2006 Art. IV)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; DE does not list the US treaty; treaty has LOB Article 28)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/germanprot06.pdf",
+  "quote": ""
+ },
+ "notes": "Convention Art. 32(2)(a): WHT provisions effective for amounts paid or credited on or after 1 January 1990 (retroactive). Protocol 2006 Art. XVII(2)(a): new Art. 10 effective for WHT on amounts paid or credited on or after 1 January of the year the Protocol entered into force (EIF 2007-12-28 -> 2007-01-01); Art. XVII(5) allows a 12-month election for the unmodified Convention. The 0% 80% tier applies in both directions but requires LOB conditions (Art. 28) or a competent-authority determination. Not modelled: 0% for pension-fund dividends (Art. 10(3)(b)); RIC/REIT/German Investmentvermögen excluded from 5%/0% tiers (Art. 10(4)); Art. 10(6) profit-participating income (stille Gesellschaft, partiarisches Darlehen, Gewinnobligation, jouissance rights, US contingent interest) deductible by the payer taxable at source under domestic law (overrides Art. 11(1)); US REMIC excess inclusions (Art. 11(6) as inserted by Protocol Art. V); branch profits tax max 5% (Art. 10(9)-(10)). Art. 12(2) royalty definition excludes cinematographic films and broadcasting works (fall under other articles).",
+ "confidence": "high",
+ "unverified": [
+  "EIF dates taken from the German Federal Foreign Office (germany.info) consolidated English text, citing BGBl. 1992 II p. 235 and 2008 II p. 117; IRS confirms Protocol in force 2007-12-28"
+ ]
+}

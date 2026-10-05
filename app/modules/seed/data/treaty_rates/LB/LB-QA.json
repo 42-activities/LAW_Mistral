@@ -1,0 +1,59 @@
+{
+ "a": "LB",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Lebanese Republic and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2005)",
+ "signed": "2005-01-23",
+ "entry_into_force": "2010-01-01",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "GTA AR feed entry 'Republic-of-Lebanon': signature 23-يناير-2005; entry into force 1-يناير-2010; Qatar MLI: 'Lebanon Original 23/01/2005 01/01/2010' (via treaty map). Treaty Art. 29: وتصبح هذه الاتفاقية نافذة المفعول من أول يناير (كانون الثاني) من السنة التي تلي تاريخ آخر أخطار.",
+ "source_title": "Lebanon MoF: Lebanon-Qatar DTA, Arabic text (scanned signed copy)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Qatar.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١. تخضع أنصبة الأرباح التي تدفعها شركة مقيمة في دولة متعاقدة إلى مقيم في الدولة المتعاقدة الأخرى للضريبة في تلك الدولة الأخرى فقط."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١. الفائدة التي تنشأ في دولة متعاقدة وتدفع الى مقيم في دولة متعاقدة اخرى تخضع للضريبة في تلك الدولة المتعاقدة الاخرى فقط ."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١. العائدات التي تنشأ في دولة متعاقدة وتدفع إلى مقيم في الدولة المتعاقدة الأخرى تخضع للضريبة في تلك الدولة الأخرى فقط ."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Lebanon not an MLI signatory; only article-level anti-abuse clause Art. 11(6) for interest)",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Qatar.pdf",
+  "quote": ""
+ },
+ "notes": "All three categories taxable only in the residence State (0% at source). Art. 29: the Agreement takes effect from 1 January of the year following the date of the last notification; GTA gives 2010-01-01 as entry into force, used as valid_from. Art. 11(6): interest article does not apply if the main purpose of creating/assigning the debt-claim was to take advantage of it. SIGNATURE DATE CONFLICT: the scanned Lebanese copy's signature block reads Doha, 21 Shawwal 1426 H corresponding to 23/11/2005 (handwritten), whereas GTA and Qatar's MLI list give 23 January 2005; treaty-map value kept. Quotes transcribed from the scanned Arabic text.",
+ "confidence": "medium",
+ "unverified": [
+  "Signature date: 23/11/2005 on the Lebanese scanned copy vs 2005-01-23 per GTA/Qatar MLI list.",
+  "Arabic quotes transcribed by reading scanned image."
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "AT",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Austria and the Hungarian People's Republic for the avoidance of double taxation with respect to taxes on income and on capital (1975)",
+ "signed": "1975-02-25",
+ "entry_into_force": "1976-02-09",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11004270/NOR11004270.html",
+ "eif_quote": "Die vom Bundespräsidenten unterzeichnete und vom Bundeskanzler gegengezeichnete Ratifikationsurkunde wurde am 11. Dezember 1975 ausgetauscht; das Abkommen tritt gemäß Art. 27 Abs. 2 am 9. Feber 1976 in Kraft.",
+ "source_title": "RIS: DBA Österreich-Ungarn, BGBl. Nr. 52/1976 (Art. 10-12, 28) + MLI synthesised text (BGBl. III Nr. 93/2018, Anl. 1)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004234",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden dürfen jedoch in dem Vertragstaat, in dem die die Dividenden zahlende juristische Person ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 10 vom Hundert des Bruttobetrages der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragstaat stammen und an eine in dem anderen Vertragstaat ansässige Person gezahlt werden, dürfen nur in dem anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragstaat stammen und an eine in dem anderen Vertragstaat ansässige Person gezahlt werden, dürfen nur in dem anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40237855/III_93_2018_DBA_Ungarn_synthesised_deutsch_final.pdf",
+  "quote": "Gemäß den Absätzen 1 und 3 des Artikels 35 des MLI ist Artikel 7 Absatz 1 des MLI in Bezug auf die Anwendung dieses Abkommens wirksam: a) bei den im Abzugsweg erhobenen Steuern auf Beträge, die nicht ansässigen Personen gezahlt oder gutgeschrieben werden, wenn das Ereignis, das zu diesen Steuern führt, am oder nach dem 1. Jänner 2022 eintritt"
+ },
+ "notes": "Single 10% dividend cap for all shareholders (no participation tier). Interest and royalties taxable only in the residence State (no beneficial-ownership wording in the 1975 text). Art. 28: provisions apply to tax years beginning after 31 December of the year in which ratification instruments were exchanged (exchanged 1975-12-11 -> from 1976-01-01). MLI (Hungary deposited 2021-03-25): PPT effective for WHT from 2022-01-01; no MLI Art. 8 in the synthesised text. Authentic languages German and Hungarian; German text quoted.",
+ "confidence": "high",
+ "unverified": []
+}

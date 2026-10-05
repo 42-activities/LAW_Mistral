@@ -1,0 +1,59 @@
+{
+ "a": "SE",
+ "b": "RO",
+ "treaty_name": "Convention between the Kingdom of Sweden and the Socialist Republic of Romania for the Avoidance of double taxation with respect to taxes on income and capital (1976)",
+ "signed": "1976-12-22",
+ "entry_into_force": "1978-12-08",
+ "eif_source_url": "https://www.regeringen.se/contentassets/46166bca4b4e44daaaee1409cbb6dab1/avtal-med-rumanien-for-undvikande-av-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-stockholm-den-22-december-1976.pdf",
+ "eif_quote": "Ratifikationsinstrumenten utväxlades i Bukarest den 8 december 1978. Avtalet och protokollet trädde i kraft med utväxlingen av ratifikationshandlingarna.",
+ "source_title": "SÖ 1978:36 - Avtal med Rumänien för undvikande av dubbelbeskattning (Swedish, Romanian and English texts; Sveriges överenskommelser med främmande makter, regeringen.se)",
+ "source_url": "https://www.regeringen.se/contentassets/46166bca4b4e44daaaee1409cbb6dab1/avtal-med-rumanien-for-undvikande-av-dubbelbeskattning-betraffande-skatter-pa-inkomst-och-formogenhet-stockholm-den-22-december-1976.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1978-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may be taxed in the Contracting State of which the company paying the dividends, is a resident, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1978-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1978-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (covered, not yet in effect)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to “the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement”; ... with references to “30 days after the date of receipt by the Depositary of the latest notification by each Contracting Jurisdiction making the reservation described in paragraph 7 of Article 35 ...”"
+ },
+ "notes": "Single flat 10% caps for dividends, interest and royalties (no participation tier). Article 12 'Commission' (payments to brokers/general commission agents) is also capped at 10%, with a protocol rule deducting 50% of the gross commission as expenses - not modelled. Valid_from per Art. 30(2): income derived on or after 1 January of the year of exchange of ratification instruments (1978). Text read from the SÖ 1978:36 scan (pypdf text layer; OCR spacing normalised in quotes); cross-checked against Prop. 1976/77:154 on riksdagen.se. MLI: covered by both (SE no. 48; Romania notified Art. 35(7)(b) in 2023), but Sweden reserved Art. 35(7)(a) and has not notified completion for this treaty, so MLI provisions (PPT, Art. 8 holding period) are not yet in effect. No treaty PPT/LOB.",
+ "confidence": "high",
+ "unverified": [
+  "No later amending protocol: none found in SÖ/SFS (merged map also shows none)",
+  "Absence of a Swedish MLI Art. 35(7)(b) notification taken from merged treaty map / OECD status list"
+ ]
+}

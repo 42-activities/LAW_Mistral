@@ -1,0 +1,78 @@
+{
+ "a": "US",
+ "b": "DK",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Kingdom of Denmark for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1999, as amended by Protocol 2006)",
+ "signed": "1999-08-19",
+ "entry_into_force": "2000-03-31",
+ "eif_source_url": "https://info.skat.dk/data.aspx?oid=2082869&vid=221020",
+ "eif_quote": "DBO | 19.08.1999 | L 84 af 03.11.1999 | Lov nr. 167 af 15.03.2000 | BKI nr. 13 af 14.04.2000 | 31.03.2000 | Virkning kildeskatter 01.05.2000 Virkning øvrige skatter 01.01 ... Protokol 02.05.2006 L 30 af 04.10.2006 Lov nr. 1574 af 20.12.2006 BKI nr. 1 af 18.02.2008 28.12.2007 Virkning kildeskatter 01.02.2008",
+ "source_title": "US-Denmark Income Tax Convention signed 19 August 1999 and Protocol signed at Copenhagen 2 May 2006 (IRS treaty texts)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/denmark2.pdf ; https://www.irs.gov/pub/irs-trty/denmarkprot06.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (as substituted by Protocol 2006 Art. II)",
+   "valid_from": "2008-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, such dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner is: a) a company that is a resident of the other Contracting State that has owned, directly or indirectly through one or more residents of either Contracting State, shares representing 80 percent or more of the voting power in the company paying the dividends for a 12-month period ending on the date on which entitlement to the dividends is determined and: (i) satisfies the conditions of clause (i),(ii) or (iii) of subparagraph c) of paragraph 2 of Article 22 (Limitation of Benefits); ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-05-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 percent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 percent of the share capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-05-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2000-05-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-05-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI Party; treaty has LOB Article 22)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/denmarkprot06.pdf",
+  "quote": ""
+ },
+ "notes": "Convention Art. 29(2)(a): WHT for amounts paid or credited on or after the first day of the second month after EIF (2000-03-31 -> 2000-05-01, matching SKAT 'Virkning kildeskatter 01.05.2000'). Protocol 2006 (signed 2006-05-02) entered into force 2007-12-28 (SKAT: 'Virkning kildeskatter 01.02.2008'); Protocol Art. V(2)(a): WHT on income derived on or after the first day of the second month after EIF -> 2008-02-01; Protocol replaced Art. 10 retaining the 5%/15% tiers and adding the 0% tier. The 0% 80% tier (direct or indirect via residents of either State) requires LOB conditions (Art. 22). Not modelled: 0% for qualified governmental entities not controlling the payer and for pension funds (Art. 10(3)(b)-(c)); RIC/REIT and similar Danish companies (Art. 10(4)); branch profits tax capped at 5% (Art. 10(8)-(9)); Art. 11(5) contingent/profit-linked interest up to 15% and REMIC excess inclusions under domestic law.",
+ "confidence": "high",
+ "unverified": []
+}

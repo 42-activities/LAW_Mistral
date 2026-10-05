@@ -1,0 +1,58 @@
+{
+ "a": "CZ",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2011)",
+ "signed": "2011-05-24",
+ "entry_into_force": "2012-04-10",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2012/59/0000-00-00",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 27 dne 10. dubna 2012 a její ustanovení se budou provádět v souladu se zněním písmen a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 59/2012 Sb.m.s. (Czech text of CZ-BH DTT, e-Sbírka)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2012/59/0000-00-00",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne pět procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Příjmy z pohledávek mající zdroj v jednom smluvním státě a skutečně vlastněné rezidentem druhého smluvního státu podléhají zdanění jen v tomto druhém státě."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne deset procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1) (replacing treaty art. 26, with MLI art. 7(4))",
+  "source_url": "https://mf.gov.cz/assets/attachments/2024-11-06_Financni-zpravodaj-cislo-10-2024.pdf",
+  "quote": "Text článku 26 Smlouvy se nahrazuje následujícím textem: „Článek 26 OMEZENÍ VÝHOD 1. Jestliže se dá usuzovat s ohledem na všechny relevantní skutečnosti a okolnosti, že získání výhody plynoucí ze Smlouvy bylo jedním z hlavních cílů jakéhokoliv opatření nebo jakékoliv transakce ... tato výhoda ... nebude poskytnuta ... Výše uvedené změny Smlouvy se v obou smluvních státech provádějí následovně: 1) pokud jde o daně vybírané srážkou u zdroje ... jestliže skutečnost dávající vzniknout takovým daním nastala k 1. lednu 2025 nebo později"
+ },
+ "notes": "Art. 27(a): WHT applies to income paid/credited on or after 1 Jan of the year after EIF (2012-04-10 -> 2013-01-01). Art. 11 covers 'příjmy z pohledávek' (interest) - residence-only taxation. MLI coverage: CZ added the BH treaty (no. 55) to its covered-agreements list by additional notification of 16 Aug 2024 under MLI art. 29(5) (Sdělení MZV č. 439/2024 Sb.), choosing MLI art. 7(4) for added treaties; treaty art. 26 (competent-authority LOB, 'main purpose') identified as art. 7(2) provision and replaced. The MoF synthesis notice (FZ 10/2024) states the changes apply in both States for WHT from 2025-01-01 and other taxes for periods beginning on/after 2025-06-13; it does not reference any pending Art. 35(7) notification, so ppt.applies=true from 2025-01-01 (CZ Art. 35(7) reservation status not independently checked in CZ's MLI position document). No MLI art. 8 holding period. English text prevails; Czech text read.",
+ "confidence": "high",
+ "unverified": [
+  "Czech/Bahraini Art. 35(7) reservation status not checked in the OECD MLI position documents (MoF notice dates relied on)"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "PL",
+ "b": "KW",
+ "treaty_name": "Agreement between the Republic of Poland and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996)",
+ "signed": "1996-11-16",
+ "entry_into_force": "2000-04-25",
+ "eif_source_url": "https://api.sejm.gov.pl/eli/acts/DU/2000/811",
+ "eif_quote": "Dz.U. 2000 nr 69 poz. 811 ... entryIntoForce: 2000-04-25 (ISAP metadata); Art. 30(2): 'The Agreement shall enter into force upon the date of exchange the instruments of ratification'; podatki.gov.pl: 16.11.1996 25.04.2000 01.01.1996",
+ "source_title": "PL-KW Agreement 1996, Dz.U. 2000 nr 69 poz. 811, PL/EN text (scan, podatki.gov.pl)",
+ "source_url": "https://www.podatki.gov.pl/media/gsopeetc/kuwejt-konwencja-tekst-polski-angielski.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that Contracting State, but if the resident is the beneficial owner of the dividends, the tax so charged shall not exceed 5% (five per cent) of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 5% (five per cent) of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15% (fifteen per cent) of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-poland-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Kuwait has signed but not ratified the MLI -> no MLI PPT; the treaty has no PPT. Art. 10(3)/11(3): dividends and interest exempt at source when the beneficial owner is the other State's Government or governmental institution/entity, or a company >=25% owned by it; interest also exempt on loans guaranteed by such Government/entity (not modelled). Art. 12(3) royalty definition excludes equipment rentals and know-how (Protocol point 2: such payments are business profits under Art. 7). Art. 30(2)(a): effective for WHT on amounts paid or credited on or after 1 January of the calendar year in which the Agreement is signed -> 1996-01-01 (retroactive). English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

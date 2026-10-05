@@ -1,0 +1,48 @@
+{
+ "a": "BH",
+ "b": "LB",
+ "treaty_name": "Agreement between the Government of the Kingdom of Bahrain and the Government of the Lebanese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2003)",
+ "signed": "2003-08-07",
+ "entry_into_force": "2005-09-30",
+ "eif_source_url": "https://www.mofne.gov.bh/en/bilateral-agreements",
+ "eif_quote": "Lebanon | 07 Aug 2003 | 30 Sep 2005 | Avoidance of Double Taxation Agreement",
+ "source_title": "Bahrain MOFNE: scanned Arabic text of the BH-LB Agreement (ci123), read visually",
+ "source_url": "http://www.mofne.gov.bh/media/f2mhswc4/ci123-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A5%D8%AA%D9%81%D8%A7%D9%82%D9%8A%D8%A9-%D8%AA%D8%AC%D9%86%D8%A8-%D8%A7%D9%84%D8%A5%D8%B2%D8%AF%D9%88%D8%A7%D8%AC-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D9%8A.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "تخضع \"أرباح الأسهم\" التي تدفعها شركة مقيمة في دولة متعاقدة إلى مقيم في الدولة المتعاقدة الأخرى للضريبة في تلك الدولة المتعاقدة الأخرى فقط."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "يخضع الدخل الناجم عن الفوائد في دولة متعاقدة والمدفوع لمقيم في الدولة المتعاقدة الأخرى للضريبة في تلك الدولة الأخرى فقط."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not applicable",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+  "quote": "Lebanon is not an MLI signatory (treaty-map); Bahrain's listing of the Lebanon treaty has no effect without Lebanon."
+ },
+ "notes": "Text read visually from the scanned authentic Arabic (32 pp., no text layer); quotes are transcriptions from the scan. Dividends (Art. 10(1)) and interest (Art. 11(1)) taxable only in the residence State. ROYALTY omitted: Art. 12(1) only says royalties 'يجوز أن تخضع للضريبة في تلك الدولة المتعاقدة الأخرى' (may be taxed in the residence State) and Art. 12 (paras 2-5: definition incl. equipment and broadcasting, PE, source, special relationship) contains no paragraph limiting source-State tax, so the source State may tax royalties without a treaty cap. Art. 11(3) (government/central bank/guaranteed loans exemption) moot given exclusivity. valid_from: Art. 29 WHT clause applies to amounts paid or credited 'اعتبارا من أول يناير (كانون الثاني) التالي للسنة الميلادية التي تلي تاريخ دخول هذه الاتفاقية حيز النفاذ' - literal reading 2007-01-01 (looser reading 2006-01-01); historical only. No anti-abuse/PPT clause seen in Arts 10-12; the rest of the text was not searched for one.",
+ "confidence": "medium",
+ "unverified": [
+  "Royalty omission relies on reading Art. 12 in the scan (pp. 16-17): no source-State cap paragraph found",
+  "valid_from 2007-01-01 vs 2006-01-01 (wording of Art. 29)"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "KW",
+ "b": "SA",
+ "treaty_name": "Agreement between the Kingdom of Saudi Arabia and the State of Kuwait for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income (2024)",
+ "signed": "2024-12-04",
+ "entry_into_force": "2025-08-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "ZATCA agreements feed: in force 2025-08-01, effective from 1/1/2026 (per treaty map). Art. 30(1): 'وتصبح هذه الاتفاقية نافذة في اليوم الأول من الشهر الثاني التالي للشهر الذي تم فيه تلقي الإبلاغ الأخير.'",
+ "source_title": "Saudi Arabia–Kuwait DTA 2024, Arabic text (ZATCA PDF)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/الكويت.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2- ومع ذلك، يجوز أيضًا أن تخضع الأرباح التي تدفعها شركة مقيمة في دولة متعاقدة للضريبة في تلك الدولة ووفقًا لأنظمة تلك الدولة. ولكن إذا كان المالك المنتفع بأرباح الأسهم مقيمًا في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تتجاوز (5%) من إجمالي قيمة أرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1- يخضع الدخل من مطالبات الدين الناشئ في دولة متعاقدة ومالكه المنتفع مقيم في الدولة المتعاقدة الأخرى؛ للضريبة في تلك الدولة الأخرى فقط."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2- ومع ذلك، يجوز أن تخضع الإتاوات الناشئة في دولة متعاقدة أيضًا للضريبة في تلك الدولة وفقًا لأنظمة تلك الدولة، لكن إذا كان المالك المنتفع من الإتاوات مقيمًا في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تتجاوز (10%) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 29 (entitlement to benefits - principal purpose test)",
+  "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/الكويت.pdf",
+  "quote": "على الرغم من الأحكام الأخرى لهذه الاتفاقية، لن يتم منح ميزة بموجب هذه الاتفاقية في شأن بند من بنود الدخل إذا كان من المعقول الاستنتاج -بعد النظر في جميع الحقائق والظروف ذات الصلة- أن الحصول على هذه الميزة كان أحد الأغراض الرئيسة للترتيب أو المعاملة التي نتجت عنها تلك الميزة بشكل مباشر أو غير مباشر، ما لم يكن ثابتًا أن منح تلك الميزة في هذه الظروف سيكون متوافقًا مع الهدف والغرض من الأحكام ذات الصلة في هذه الاتفاقية."
+ },
+ "notes": "Art. 30(2)(a): WHT provisions apply to amounts paid on/after 1 January following EIF (EIF 2025-08-01 -> 2026-01-01). Single 5% dividend rate; interest ('income from debt-claims') taxable only in residence State. Not modelled: technical services income (Art. 13) source cap 10%; branch profits additional tax max 5% (Art. 10(6)); Art. 23 government investments - investments of a Contracting State and income therefrom (incl. dividends, royalties, technical fees, gains) taxable only in that State. Royalties include equipment use and know-how and certain contingent gains. Treaty-based PPT (Art. 29). Arabic text extraction dropped figures; rates confirmed from rendered page images. EIF date from treaty map (ZATCA feed).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2025-08-01 from treaty map (ZATCA feed), not re-fetched"
+ ]
+}

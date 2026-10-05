@@ -1,0 +1,67 @@
+{
+ "a": "SE",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Kingdom of Sweden and the Government of the Republic of Poland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2004)",
+ "signed": "2004-11-19",
+ "entry_into_force": "2005-10-15",
+ "eif_source_url": "https://www.regeringen.se/contentassets/77b3552830c546c29aa3b465c5160c4e/avtal-med-polen-for-undvikande-av-dubbelbeskattning-och-forhindrande-av-skatteflykt-betraffande-skatter-pa-inkomst-sid-1-10/",
+ "eif_quote": "Den 4 maj 2005 beslutade regeringen att underrätta Polen om att avtalet godkänts av Sverige. Underrättelse lämnades den 12 maj 2005. Avtalet trädde i kraft den 15 oktober 2005. (SÖ 2005:61)",
+ "source_title": "Lag (2005:248) om skatteavtal mellan Sverige och Polen, with annexed treaty text (Swedish)",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2005248-om-skatteavtal-mellan-sverige-och_sfs-2005-248/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Utdelningen får emellertid beskattas även i den avtalsslutande stat där det bolag som betalar utdelningen har hemvist, enligt lagstiftningen i denna stat, men om den som har rätt till utdelningen har hemvist i den andra avtalsslutande staten får skatten inte överstiga: a) 5 procent av utdelningens bruttobelopp, om den som har rätt till utdelningen är ett bolag (med undantag för handelsbolag) som direkt innehar minst 25 procent av det utbetalande bolagets kapital,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procent av utdelningens bruttobelopp i övriga fall."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Ränta, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat om personen i fråga har rätt till räntan."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Royaltyn får emellertid även beskattas i den avtalsslutande stat från vilken den härrör och i enlighet med lagstiftningen i denna avtalsslutande stat men om den som har rätt till royaltyn har hemvist i den andra avtalsslutande staten får skatten inte överstiga 5 procent av royaltyns bruttobelopp."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Sweden reserved Art. 35(7)(a); no Swedish Art. 35(7)(b) notification for this treaty (per treaty map / OECD status list 15 Sep 2026)."
+ },
+ "notes": "Valid from 2006-01-01 per Art. 29(2) ('tillämpas på inkomst som förvärvas den 1 januari det år som följer närmast efter det år då avtalet träder i kraft eller senare'; EIF 2005-10-15). Royalty definition includes payments for use of industrial, commercial or scientific equipment. Art. 27 (limitation of benefits): treaty reductions denied to companies mainly deriving income from other states from banking/shipping/finance/insurance or headquarters/coordination-centre activities that is taxed substantially lower - not modelled. MLI: both PL and SE list the treaty, but Sweden reserved Art. 35(7)(a) and has not notified completion of internal procedures for it, so MLI (incl. Art. 7 PPT) not yet in effect. SÖ 2005:61 cover header misprints the signing as '19 november 2005'; the law and its §1 give 19 November 2004.",
+ "confidence": "high",
+ "unverified": []
+}

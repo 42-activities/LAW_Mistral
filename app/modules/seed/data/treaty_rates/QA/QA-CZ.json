@@ -1,0 +1,67 @@
+{
+ "a": "QA",
+ "b": "CZ",
+ "treaty_name": "Smlouva mezi vládou České republiky a vládou Státu Katar o zamezení dvojímu zdanění v oboru daní z příjmu a o zabránění daňovému úniku a vyhýbání se daňové povinnosti (2022)",
+ "signed": "2022-06-21",
+ "entry_into_force": "2022-10-25",
+ "eif_source_url": "https://www.e-sbirka.cz/sbm/2022/45",
+ "eif_quote": "Ministerstvo zahraničních věcí sděluje, že dne 21. června 2022 byla v Dauhá podepsána Smlouva ... Smlouva vstoupila v platnost na základě svého článku 26 odst. 1 dne 25. října 2022 a její ustanovení se budou provádět v souladu se zněním článku 26 odst. 2 písm. a) a b).",
+ "source_title": "Sdělení MZV č. 45/2022 Sb. m. s. (e-Sbírka official text; cross-read on zakonyprolidi.cz)",
+ "source_url": "https://www.e-sbirka.cz/sbm/2022/45",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne: ... b) 10 procent hrubé částky dividend ve všech ostatních případech."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procent hrubé částky dividend, jestliže skutečným vlastníkem je společnost, která přímo drží alespoň 10 procent kapitálu společnosti, která dividendy vyplácí;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2023-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky mající zdroj v jednom smluvním státě a skutečně vlastněné rezidentem druhého smluvního státu podléhají zdanění jen v tomto druhém státě."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "treaty art. 25(1)",
+  "source_url": "https://www.e-sbirka.cz/sbm/2022/45",
+  "quote": "1. Jestliže se dá usuzovat, a to s ohledem na všechny relevantní skutečnosti a okolnosti, že získání výhody plynoucí ze Smlouvy bylo jedním z hlavních cílů jakéhokoliv opatření nebo jakékoliv transakce přímo nebo nepřímo vedoucího nebo vedoucí k této výhodě, tato výhoda, bez ohledu na jakákoliv jiná ustanovení této smlouvy, nebude poskytnuta ve vztahu k části příjmu, pokud není prokázáno, že poskytnutí této výhody v dané situaci by bylo v souladu s účelem a cílem příslušných ustanovení Smlouvy."
+ },
+ "notes": "Valid_from per Art. 26(2)(a): WHT on income paid or credited on or after 1 January of the year following entry into force (2022) = 2023-01-01. Dividends exempt at source (Art. 10(3)) when beneficially owned by the other State, its government, political subdivisions or local authorities, its central bank or other public-law entity, or entities wholly owned by them — not modelled. Treaty not covered by the MLI (neither side lists it); PPT is the treaty's own Art. 25 (applies from first effective date).",
+ "confidence": "high",
+ "unverified": []
+}

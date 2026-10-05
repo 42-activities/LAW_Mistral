@@ -1,0 +1,58 @@
+{
+ "a": "IT",
+ "b": "ES",
+ "treaty_name": "Convention between Spain and Italy for the avoidance of double taxation with respect to taxes on income and for the prevention of fiscal evasion (1977)",
+ "signed": "1977-09-08",
+ "entry_into_force": "1980-11-14",
+ "eif_source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1980-27501",
+ "eif_quote": "El presente Convenio entro en vigor el día 14 de noviembre de 1980, de conformidad con lo dispuesto en su artículo 28.2.",
+ "source_title": "BOE-A-1980-27501, Instrumento de Ratificación del Convenio entre España e Italia (BOE 22/12/1980); cross-checked with MEF English text spagn-en.pdf",
+ "source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1980-27501",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, estos dividendos pueden también someterse a imposición en el Estado contratante en que resida la Sociedad que pague los dividendos y de acuerdo con la legislación de este Estado, pero si la persona que perciba los dividendos es el beneficiario efectivo, el impuesto así exigido no podrá exceder del 15 por 100 del importe bruto de esos dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, estos intereses pueden someterse a imposición en el Estado contratante del que procedan y de acuerdo con la legislación de este Estado, pero si la persona que percibe los intereses es el beneficiario efectivo, el impuesto así exigido no puede exceder del 12 por 100 del importe de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1977-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, estos cánones pueden someterse a imposición en el Estado contratante de que procedan y según la legislación de este Estado, pero si la persona que percibe los cánones es el beneficiario efectivo, el impuesto así establecido no puede exceder: ... b) Del 8 por 100 del importe bruto de los cánones en todos los demás casos."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; treaty has no PPT/LOB article)",
+  "source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1980-27501",
+  "quote": ""
+ },
+ "notes": "Royalties: 4% cap (Art. 12(2)(a)) for copyright royalties on literary, dramatic, musical or artistic works; Spanish BOE text says 'con exclusión de los cánones relativos a películas cinematográficas y ... televisión' whereas the MEF English translation says 'including' — film/TV royalties fall under 8% per the Spanish authentic text (French text prevails in case of doubt; not checked). Protocol (c): royalties include payments for technical and economic research of an industrial or commercial nature. Interest exempt at source (Art. 11(3)) when debtor is a Government/local authority, paid to the other Government/its wholly owned institutions incl. financial institutions, or under intergovernmental financing agreements. Art. 28(2)(a): WHT provisions retroactive to income paid from 1 January 1977. EIF conflict: BOE and MEF English footnote give 14 Nov 1980 (matches treaty map); MEF treaty list page says 'In vigore dal: 24.11.1980' — BOE adopted. MLI not applicable (Italy not a Party).",
+ "confidence": "high",
+ "unverified": [
+  "French (prevailing) text not checked for the film-royalty wording"
+ ]
+}

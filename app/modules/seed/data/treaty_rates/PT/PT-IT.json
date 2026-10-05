@@ -1,0 +1,58 @@
+{
+ "a": "PT",
+ "b": "IT",
+ "treaty_name": "Convention between the Italian Republic and the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Additional Protocol (1980)",
+ "signed": "1980-05-14",
+ "entry_into_force": "1983-01-15",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Portogallo ... Stipula - Firma: Roma 14.05.1980; Ratifica: L. 10.07.1982, n.562 In vigore dal : 15.01.1983",
+ "source_title": "Normattiva: Legge 10 luglio 1982, n. 562 (GU 16-8-1982, S.O.) - Italian text of the Convention and Additional Protocol",
+ "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1982-07-10;562",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali dividendi sono imponibili anche nello Stato contraente di cui la società che paga i dividendi è residente, ed in conformità alla legislazione di detto Stato, ma, se la persona che riceve i dividendi ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare lordo dei dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali interessi sono imponibili anche nello Stato contraente dal quale essi provengono ed in conformità della legislazione di detto Stato, ma, se la persona che riceve gli interessi ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare lordo degli interessi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tuttavia, tali canoni sono imponibili anche nello Stato contraente dal quale essi provengono e in conformità della legislazione di detto Stato, ma, se la persona che riceve i canoni ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 12 per cento dell'ammontare lordo dei canoni."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "",
+  "source_url": "",
+  "quote": ""
+ },
+ "notes": "Art. 28(2): EIF 30 days after exchange of ratification instruments; applies in Portugal to WHT whose taxable event occurs after 31 December of the year of the exchange, in Italy to income of tax periods from 1 January of the year following the exchange. With EIF 1983-01-15 the exchange took place in December 1982 (30 days earlier; exchange date itself not seen in an official source) -> valid_from 1983-01-01. Dividends: single 15% cap, no participation tier. Art. 11(3): interest exempt at source when the debtor is the Government or a local authority, or when paid to the other State's Government/local authority or to an entity (incl. financial institutions) for financing under inter-governmental agreements - not modelled. French text prevails in case of doubt; Italian authentic text read (Portuguese PDF on Portal das Finanças and Italian PDF on finanze.gov.it are scanned images). No PPT: Italy is an MLI signatory but not yet a Party (treaty map), and the treaty has no principal-purpose clause. EU Directives may give lower rates (not treaty tiers). Portal das Finanças table concurs: 'ITÁLIA ... EM VIGOR DESDE 15-01-1983'.",
+ "confidence": "high",
+ "unverified": [
+  "exact date of exchange of instruments of ratification (inferred December 1982 from EIF 1983-01-15)"
+ ]
+}

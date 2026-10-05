@@ -1,0 +1,70 @@
+{
+ "a": "JO",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Turkey and the Government of the Hashemite Kingdom of Jordan for the avoidance of double taxation with respect to taxes on income and on capital and for regulating certain other matters (1985)",
+ "signed": "1985-06-06",
+ "entry_into_force": "1986-12-03",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "4) Ürdün 06.06.1985 15.07.1986 - 19165 03.12.1986 01.01.1987",
+ "source_title": "Türkiye Cumhuriyeti Hükümeti ile Haşimi Ürdün Krallığı Hükümeti arasında gelir ve servet üzerinden alınan vergilerde çifte vergilendirmeyi önleme anlaşması (GİB, Turkish text, scanned)",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/URDUN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) Eğer temettü lehdarı, temettüyü ödeyen şirketin sermayesinin en az yüzde 25'ini doğrudan elinde bulunduran bir şirket ise (ortaklıklar hariç), temettünün gayrisafi tutarının yüzde 10'unu,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Diğer bütün hallerde gayrisafi temettü tutarının yüzde 15'ini aşamaz."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, bu faiz elde edildiği Akit Devlette ve bu Devletin mevzuatına göre vergilendirilebilir; fakat bu suretle alınan vergi, faiz miktarının yüzde 10'unu aşamayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, gayrimaddi hak bedelleri bunların doğduğu Akit Devlette ve bu Devletin mevzuatına göre de vergilendirilebilir; ancak bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 12'sini aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not an MLI covered tax agreement)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+  "quote": "Türkiye signed the MLI on 07-06-2017 but has not ratified it (OECD status 15-09-2026, per merged treaty map); Jordan's MLI position lists 'Turkey Original 06-06-1985 03-12-1986', which has no effect until Türkiye becomes a Party."
+ },
+ "notes": "Dividend 10% tier requires a company (other than a partnership) holding directly at least 25% of the capital; 15% otherwise. Interest paid to the other State's Government or Central Bank is exempt (Art. 11(3)) - not modelled. Valid_from per Art. 29(2): taxes for taxation periods beginning on or after 1 January of the year following EIF (EIF 1986-12-03 -> 1987-01-01; GİB list confirms 01.01.1987). Scanned text with poor OCR; the Art. 10 and Art. 11 rates were checked visually against the page images (pp. 12-13), and quotes are normalised for OCR errors. Not MLI-covered (Türkiye not a Party), so neither MLI PPT nor MLI Art. 8 applies; Jordan nevertheless notified Art. 10(2)(a) of this treaty under MLI Art. 8(4). The treaty has no PPT/LOB of its own.",
+ "confidence": "high",
+ "unverified": [
+  "No amending protocol checked beyond the GİB list (none shown)",
+  "Arabic/English authentic texts not compared"
+ ]
+}

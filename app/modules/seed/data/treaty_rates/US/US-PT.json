@@ -1,0 +1,69 @@
+{
+ "a": "US",
+ "b": "PT",
+ "treaty_name": "Convention between the Government of the United States of America and the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (1994)",
+ "signed": "1994-09-06",
+ "entry_into_force": "1995-12-18",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-portugal-consolidated.pdf",
+ "eif_quote": "PT MLI position: United States Original 06-09-1994, EIF 18-12-1995 (per treaty map); PT table: \"Aviso n.º 35/96 publicado em 09-01-1996 EM VIGOR DESDE 01-01-1996\"",
+ "source_title": "US-Portugal Income Tax Convention with Protocol signed at Washington 6 September 1994 (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/portugal.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, if the beneficial owner is a company that is a resident of the other Contracting State and that, for an uninterrupted period of 2 years prior to the payment of the dividend, owns directly at least 25 percent of the capital (capital social) of the company paying the dividends, the tax so charged shall not exceed: ... (b) with respect to dividends paid after December 31, 1999, the rate that Portugal may apply to such dividends paid to residents of European Union member states, provided, however, that the applicable rate shall not be less than 5 percent."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory; treaty has LOB Article 17)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/portugal.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 30(2)(a): WHT for amounts paid or credited on or after 1 January next following EIF (EIF 1995-12-18 -> 1996-01-01). Art. 10(3) direct-investment tier: 10% for dividends paid 1997-1999 (historical), then from 2000 'the rate that Portugal may apply to such dividends paid to residents of EU member states' but not less than 5% - recorded as 5% (IRS Tax Treaty Table 1 also shows 5% for Portugal); requires 25% of capital held directly for an uninterrupted 2 years before payment (recorded as 730 days). RIC/REIT dividends excluded from the 25% tier (Art. 10(4)). Interest exempt at source (Art. 11(3)) for government debtors/recipients and long-term (5+ years) bank loans; profit-linked interest taxable up to 15% (Art. 11(4)); REMIC excess inclusions at domestic rate (Protocol para. 9). Royalties include technical assistance related to the right; container rentals in international traffic taxable only in residence State (Protocol para. 11). Art. 12 branch tax: dividend-equivalent at dividend rates; excess interest 5% for banks / 10% otherwise. EIF conflict: PT MLI position EIF 18-12-1995 vs PT table 'em vigor desde 01-01-1996' (the latter is the general effective date).",
+ "confidence": "high",
+ "unverified": [
+  "EIF 1995-12-18 from treaty map (PT MLI position), not re-fetched"
+ ]
+}

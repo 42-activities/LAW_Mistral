@@ -1,0 +1,71 @@
+{
+ "a": "SE",
+ "b": "IL",
+ "treaty_name": "Agreement between Sweden and Israel for the avoidance of double taxation with respect to taxes on income and capital (1959)",
+ "signed": "1959-12-22",
+ "entry_into_force": "1960-06-03",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+ "eif_quote": "26 Agreement between Sweden and Israel for the avoidance of double taxation with respect to taxes on income and capital | Israel | Original | 22-12-1959 | 03-06-1960",
+ "source_title": "Kungl. Maj:ts proposition nr 23 år 1960 (English treaty text and Swedish translation), riksdagen.se; implemented by Kungörelse (1960:617)",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/kungl-majts-proposition-nr-23-ar-1960_el3023/html/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VI(1), proviso",
+   "valid_from": "1960-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "provided that where the resident of Israel is a company which controls, directly or indirectly, not less than 50 per cent of the entire voting power of the company paying the dividends, the rate of Swedish coupon tax on such dividends shall not exceed 5 per cent."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article VI(1)",
+   "valid_from": "1960-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "(1) The rate of Swedish coupon tax on dividends paid to a resident of Israel shall not exceed 15 per cent;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article VII",
+   "valid_from": "1960-04-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "The rate of tax imposed by one of the Contracting Governments on interest on bonds, securities, notes, debentures or any other form of indebtedness (including mortgages or bonds secured by real property) received from sources within the territory of that Contracting Government by a resident of the territory of the other Contracting Government shall not exceed 25 per cent, unless the recipient has a permanent establishment in that first-mentioned territory and the interest is directly associated with the business carried on through such permanent establishment."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article VIII(1)",
+   "valid_from": "1960-04-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Any royalty derived from sources within the territory of one of the Contracting Governments by a resident of the territory of the other Contracting Government shall be exempt from tax in that first-mentioned territory, unless the recipient has a permanent establishment in that first-mentioned territory and the royalty is directly associated with the business carried on through such permanent establishment."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (covered, not yet in effect)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to “the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement”; ... with references to “30 days after the date of receipt by the Depositary of the latest notification by each Contracting Jurisdiction making the reservation described in paragraph 7 of Article 35 ...”"
+ },
+ "notes": "Old-style (pre-OECD model) agreement. Dividends are asymmetric: Art. VI(1) caps only Swedish coupon tax (15%; 5% for an Israeli company controlling >=50% of voting power) -> modelled with source_state SE. Israeli-source dividends (Art. VI(2)): 'Dividends paid by an Israeli company to a resident of Sweden out of income which has been subject to Israeli income tax on the profits of the company, shall be exempt from further tax in Israel. Where such income has not been subject to income tax in Israel, the dividend may be subject to income tax in Israel at a rate not exceeding the rate of income tax normally imposed on the income of an Israeli company.' - no fixed percentage cap, so not modelled. Royalty definition (Art. VIII(2)) excludes mining/natural-resource royalties (exempt in residence-State under Art. IX(2)) and cinematograph/television film royalties (no limit; source rule in Art. XVII(6)); royalties exceeding fair consideration get the exemption only up to that amount. Valid_from: Art. XXI(3) - Swedish coupon tax on dividends payable on or after 1 January 1960; Swedish income tax from 1961 assessments; Israeli tax for the tax year beginning 1 April 1960 (used for the bilateral interest/royalty entries). Quote OCR artefacts ('hy','Controls','vvithin','rnuch') normalised. MLI: covered by both (SE no. 26), but Sweden reserved Art. 35(7)(a) and has not notified completion, so MLI PPT/Art. 8 not in effect. No treaty PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "No amending protocol since 1959 (merged map and Sweden MLI list show only the original)",
+  "Swedish implementing text annex not reproduced in riksdagen SFS 1960:617; treaty read from the 1960 proposition (pre-ratification text)",
+  "EIF 1960-06-03 from Sweden's MLI position, not from SÖ"
+ ]
+}
