@@ -24,6 +24,20 @@ PL_TREATIES = (
     "wykaz-umow-o-unikaniu-podwojnego-opodatkowania"
 )
 PL_AE = "https://podatki.gov.pl/media/0nfb2cob/dta-pl-uae-mli-synthesised-text-en.pdf"
+RIKSDAGEN = (
+    "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/"
+)
+SE_IL = RIKSDAGEN + "inkomstskattelag-19991229_sfs-1999-1229/"
+SE_KUPL = RIKSDAGEN + "kupongskattelag-1970624_sfs-1970-624/"
+FR_SE = (
+    "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/suede/"
+    "suede_convention-avec-la-suede-impot-sur-le-revenu-impot-sur-la-fortune_fd_2112.pdf"
+)
+SE_FR_PROT = RIKSDAGEN + "lag-1991673-om-dubbelbeskattningsavtal-mellan_sfs-1991-673/"
+DK_SEL = "https://www.retsinformation.dk/eli/lta/2025/279/pdf"
+DK_KSL = "https://www.retsinformation.dk/eli/lta/2024/460/pdf"
+DK_ABL = "https://www.retsinformation.dk/eli/lta/2026/849/pdf"
+FR_DK = "https://www.retsinformation.dk/eli/ltc/2023/6/pdf"
 HU_TAO = "https://net.jogtar.hu/jogszabaly?docid=99600081.tv"
 HU_CONS = " (net.jogtar.hu consolidation — njt.hu unreachable)"
 FR_HU = (
@@ -52,6 +66,17 @@ def seed_batch5(session: Session) -> None:
         "Hungary — EU member country profile (european-union.europa.eu)",
         EU_URL.format("hungary"), None, "EU Member State: since 1 May 2004"))
     _hungary(sd, fr, ae, hu)
+    se = sd.jurisdiction("SE", "Sweden")
+    sd.member(eu, se, date(1995, 1, 1), Src(
+        "Sweden — EU member country profile (european-union.europa.eu)",
+        EU_URL.format("sweden"), None, "EU Member State: since 1 January 1995"))
+    _sweden(sd, fr, se, eu)
+    dk = sd.jurisdiction("DK", "Denmark")
+    sd.member(eu, dk, date(1973, 1, 1), Src(
+        "Denmark — EU member country profile (european-union.europa.eu)",
+        EU_URL.format("denmark"), None, "EU Member State: since 1 January 1973"))
+    _denmark(sd, fr, dk, eu)
+    # Neither Sweden nor Denmark has an income tax treaty with the UAE (TIEAs only).
 
 
 def _poland(
@@ -248,3 +273,165 @@ def _hungary(sd: Seeder, fr: Jurisdiction, ae: Jurisdiction, hu: Jurisdiction) -
         "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions "
         "of this Agreement [...] one of the principal purposes of any arrangement or "
         "transaction"))
+
+
+def _sweden(sd: Seeder, fr: Jurisdiction, se: Jurisdiction, eu: JurisdictionGroup) -> None:
+    il = "Inkomstskattelag (1999:1229), t.o.m. SFS 2026:1393 (riksdagen.se)"
+    sd.cit(se, date(2021, 1, 1), Src(
+        il, SE_IL, "IL 65 kap. 10 §",
+        "10 § För juridiska personer är den statliga inkomstskatten 20,6 procent av den "
+        "beskattningsbara inkomsten."), rate="20.6")
+    kupl = "Kupongskattelag (1970:624), t.o.m. SFS 2026:840 (riksdagen.se)"
+    sd.wht(se, "DIVIDEND", "30", date(2021, 1, 1), Src(
+        kupl, SE_KUPL, "KupL 5 §", "5 § Kupongskatt utgår med trettio procent av utdelningen."))
+    sd.wht(se, "INTEREST", "0", date(2021, 1, 1), Src(
+        il, SE_IL, "IL 6 kap. 11 §",
+        "[Summary — no single clause to quote] Interest is not among the income for which "
+        "foreign companies are liable to Swedish tax (IL 6 kap. 11 §)."))
+    sd.wht(se, "ROYALTY", "20.6", date(2021, 1, 1), Src(
+        il, SE_IL, "IL 6 kap. 11 § andra stycket",
+        "Ersättning i form av royalty [...] ska anses som inkomst från ett fast driftställe i "
+        "Sverige, om ersättningen kommer från en näringsverksamhet med ett fast driftställe "
+        "här. (taxed by assessment at 20.6%, not withheld)"))
+    sd.exemption(
+        se, "DIVIDEND", eu, date(2021, 1, 1),
+        Src(kupl, SE_KUPL, "KupL 4 § femte stycket",
+            "Skattskyldighet gäller inte heller för en juridisk person i en främmande stat som "
+            "är medlem i Europeiska unionen, om den innehar 10 procent eller mer av "
+            "andelskapitalet i det utdelande bolaget"),
+        min_holding_pct="10", min_holding_months=None, legal_ref="KupL 4 §",
+        description="EU parent with ≥10% (Directive 2011/96/EU); comparable foreign companies "
+        "holding business-related shares for 1 year also qualify — not modelled",
+    )
+    sd.exemption(
+        se, "ROYALTY", eu, date(2021, 1, 1),
+        Src(il, SE_IL, "IL 6 a kap. 2-6 §§",
+            "[Summary — no single clause to quote] IL 6 a kap.: royalties to an associated "
+            "company in another EU state (≥25% of capital) are exempt (Directive 2003/49/EC)."),
+        min_holding_pct="25", min_holding_months=None, legal_ref="IL 6 a kap.",
+        description="Interest and Royalties Directive: associated EU company (≥25%)",
+    )
+    sd.regime(
+        se, date(2021, 1, 1),
+        Src(il, SE_IL, "IL 24 kap. 33, 35 §§; 25 a kap. 5 §",
+            "Andelen ska vara en kapitaltillgång och uppfylla någon av följande förutsättningar: "
+            "1. Andelen är inte marknadsnoterad. [...] Utdelning på en näringsbetingad andel ska "
+            "inte tas upp"),
+        participation_exemption_dividends=True, participation_exemption_capgains=True,
+        min_holding_pct=None, min_holding_period_months=None, subject_to_tax_condition=False,
+        exempt_share_pct=100,
+        notes="Näringsbetingade andelar: unlisted shares exempt without minimum; listed shares "
+        "≥10% votes (gains after 1 year)",
+    )
+    sd.cfc(
+        se, date(2019, 1, 1),
+        Src(il, SE_IL, "IL 39 a kap. 2, 5 §§",
+            "andelar med tillsammans minst 25 procent av den utländska juridiska personens "
+            "kapital eller röster [...] lågbeskattad om den inte beskattats eller beskattats "
+            "lindrigare än den beskattning som skulle ha skett i Sverige om 55 procent av denna "
+            "inkomst utgjort överskott"),
+        control_threshold_pct=25, low_tax_relative_pct=55, legal_ref="IL 39 a kap.",
+        effect="Income of a ≥25%-held foreign entity taxed below Swedish tax on 55% of it "
+        "(≈11.33%) is taxed currently, except white-listed or genuine EEA entities.",
+    )
+
+    t = sd.treaty(fr, se, name="Convention between France and Sweden (1990)",
+                  signed=date(1990, 11, 27), in_force=date(1992, 4, 1), src=Src(
+                      "Convention France–Suède (impots.gouv.fr)", FR_SE, None,
+                      "signée à Stockholm le 27 novembre 1990 [...] entrée en vigueur le 1er "
+                      "avril 1992"))
+    start = date(1992, 4, 1)
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        "Convention France–Suède (impots.gouv.fr)", FR_SE, "Article 10(2)",
+        "l'impôt ainsi établi ne peut excéder 15 p. cent du montant brut des dividendes."),
+        max_rate="15")
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        "Convention France–Suède (impots.gouv.fr)", FR_SE, "Article 10(2)",
+        "si le bénéficiaire effectif des dividendes est une société (autre qu'une société de "
+        "personnes) qui détient directement ou indirectement au moins 10 p. cent du capital "
+        "[...] ces dividendes ne sont pas imposables"),
+        exclusive=True, ownership_threshold="10")
+    for cat, art in (("INTEREST", "Article 11"), ("ROYALTY", "Article 12")):
+        sd.treaty_rate(t, cat, art, start, Src(
+            "Convention France–Suède (impots.gouv.fr)", FR_SE, f"{art}(1)",
+            "ne sont imposables que dans cet autre Etat"), exclusive=True)
+    sd.ppt(t, date(2027, 1, 1), Src(
+        "Lag 2023:698 om ändring i lagen (1991:673) — protokoll 22 maj 2023 (riksdagen.se)",
+        SE_FR_PROT, "Article 28A (protocol of 22 May 2023)",
+        "Denna lag träder i kraft den 1 oktober 2026. [...] a) källskatter, på belopp som "
+        "betalas eller tillgodoförs den 1 januari det år som följer närmast efter [...] "
+        "ikraftträdande (PPT inserted as article 28A)"))
+
+
+def _denmark(sd: Seeder, fr: Jurisdiction, dk: Jurisdiction, eu: JurisdictionGroup) -> None:
+    sel = "Selskabsskatteloven, LBK nr 279 af 13/03/2025 (retsinformation.dk)"
+    sd.cit(dk, date(2016, 1, 1), Src(
+        sel, DK_SEL, "SEL §17(1)",
+        "(selskabsskatten) beregnes af den skattepligtige indkomst og udgør 22 pct."),
+        rate="22")
+    sd.wht(dk, "DIVIDEND", "22", date(2016, 1, 1), Src(
+        sel, DK_SEL, "SEL §2(8); KSL §65(1)",
+        "Indkomstskatten i medfør af stk. 1, litra c, udgør 22 pct. af de samlede udbytter "
+        "(27% is withheld and the excess 5 points reclaimed)"))
+    sd.wht(dk, "INTEREST", "22", date(2016, 1, 1), Src(
+        sel, DK_SEL, "SEL §2(1)(d), §2(8); KSL §65 D",
+        "Indkomstskatten i medfør af stk. 1, litra d og h, udgør 22 pct. af renterne og "
+        "kursgevinsterne. (controlled debt only; exempt if the recipient's tax is at least 3/4 "
+        "of Danish tax — not modelled)"))
+    sd.wht(dk, "ROYALTY", "22", date(2016, 1, 1), Src(
+        sel, DK_SEL, "SEL §2(1)(g), §2(8); KSL §65 C",
+        "Indkomstskatten i henhold til stk. 1, litra g, udgør 22 pct. af royaltybeløbet."))
+    sd.exemption(
+        dk, "DIVIDEND", eu, date(2016, 1, 1),
+        Src(sel, DK_SEL, "SEL §2(1)(c); ABL §4 A",
+            "Skattepligten omfatter ikke udbytte af datterselskabsaktier [...] når beskatningen "
+            "af udbytter fra datterselskabet skal frafaldes eller nedsættes efter [...] "
+            "direktiv 2011/96/EU"),
+        min_holding_pct="10", min_holding_months=None, legal_ref="SEL §2(1)(c)",
+        description="Subsidiary shares (≥10%) where the Parent-Subsidiary Directive applies",
+    )
+    for cat in ("INTEREST", "ROYALTY"):
+        sd.exemption(
+            dk, cat, eu, date(2016, 1, 1),
+            Src(sel, DK_SEL, "SEL §2(1)(d), (g)",
+                "[Summary — no single clause to quote] Interest and royalties to an associated "
+                "EU company are exempt under Directive 2003/49/EC where the companies have "
+                "been associated for at least one year."),
+            min_holding_pct="25", min_holding_months=12, legal_ref="SEL §2(1)(d), (g)",
+            description="Interest and Royalties Directive: associated EU company (1 year)",
+        )
+    sd.regime(
+        dk, date(2016, 1, 1),
+        Src("Aktieavancebeskatningsloven, LBK nr 849 af 21/09/2026 (retsinformation.dk)",
+            DK_ABL, "ABL §4 A, §8; SEL §13(1)(2)",
+            "aktier, som ejes af et selskab, der ejer mindst 10 pct. af aktiekapitalen i "
+            "datterselskabet [...] Gevinst og tab ved afståelse af datterselskabsaktier [...] "
+            "medregnes ikke"),
+        participation_exemption_dividends=True, participation_exemption_capgains=True,
+        min_holding_pct=10, min_holding_period_months=None, subject_to_tax_condition=False,
+        exempt_share_pct=100,
+        notes="Subsidiary (≥10%) and group shares: dividends and gains exempt; Danish CFC "
+        "rules (SEL §32) have no low-tax test — not seeded",
+    )
+
+    t = sd.treaty(fr, dk, name="Convention between France and Denmark (2022)",
+                  signed=date(2022, 2, 4), in_force=date(2023, 12, 29), src=Src(
+                      "Bekendtgørelse BKI nr 6 af 28/12/2023 (retsinformation.dk)", FR_DK,
+                      None, "Overenskomsten træder i medfør af artikel 31 i kraft den 29. "
+                      "december 2023."))
+    start = date(2024, 1, 1)
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        "Overenskomst Danmark–Frankrig (retsinformation.dk)", FR_DK, "Article 10(2)(b)",
+        "15 pct. af udbyttets bruttobeløb i alle andre tilfælde"), max_rate="15")
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        "Overenskomst Danmark–Frankrig (retsinformation.dk)", FR_DK, "Article 10(2)(a)",
+        "0 pct. af udbyttets bruttobeløb, hvis den retmæssige ejer er et selskab, som i en "
+        "uafbrudt periode på 365 dage [...] direkte ejer mindst 10 pct."),
+        exclusive=True, ownership_threshold="10", min_holding_days=365)
+    for cat, art in (("INTEREST", "Article 11"), ("ROYALTY", "Article 12")):
+        sd.treaty_rate(t, cat, art, start, Src(
+            "Overenskomst Danmark–Frankrig (retsinformation.dk)", FR_DK, f"{art}(1)",
+            "kan kun beskattes i denne anden stat"), exclusive=True)
+    sd.ppt(t, start, Src(
+        "Overenskomst Danmark–Frankrig (retsinformation.dk)", FR_DK, "Article 29",
+        "et af hovedformålene med noget arrangement eller nogen transaktion"))
