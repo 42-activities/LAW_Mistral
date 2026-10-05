@@ -1,5 +1,7 @@
 """Merge matrix_A..D into treaties_merged.json; report disagreements between agents."""
-import json, collections
+import collections
+import json
+
 M = {f: json.load(open(f"matrix_{f}.json")) for f in "ABCD"}
 by = collections.defaultdict(dict)
 for f, rows in M.items():
@@ -14,7 +16,8 @@ OVERRIDE = {
     frozenset(("GR", "SE")): "C",  # Sweden repealed its implementing law from 2022-01-01
     frozenset(("LU", "OM")): "B",  # Oman ratified; Luxembourg has not published entry into force
 }
-PENDING = {frozenset(("LU", "OM")), frozenset(("ES", "SE"))}  # ES–SE: Sweden has no implementing law  # treated as unknown: not applied until EIF is published
+# Treated as unknown (not applied): LU–OM entry into force unpublished; ES–SE no Swedish law.
+PENDING = {frozenset(("LU", "OM")), frozenset(("ES", "SE"))}
 
 def score(r):
     # prefer: decided in_force > has entry date > has quote
@@ -38,6 +41,8 @@ for k, recs in by.items():
 json.dump(sorted(merged, key=lambda r: (r["a"], r["b"])), open("treaties_merged.json", "w"),
           ensure_ascii=False, indent=1)
 c = collections.Counter(r["in_force"] for r in merged)
-print(len(merged), "pairs;", dict(c), "; MLI both:", sum(1 for r in merged if r.get("mli_covered_both")))
+mli = sum(1 for r in merged if r.get("mli_covered_both"))
+print(len(merged), "pairs;", dict(c), "; MLI both:", mli)
 print("unresolved conflicts:", conflicts)
-print("in force without entry date:", sum(1 for r in merged if r["in_force"] and not r.get("entry_into_force")))
+no_eif = sum(1 for r in merged if r["in_force"] and not r.get("entry_into_force"))
+print("in force without entry date:", no_eif)
