@@ -68,6 +68,7 @@ class TreatyRate(Base):
             ("treaty_id", "="),
             ("income_category_id", "="),
             (text("coalesce(ownership_threshold, -1)"), "="),
+            (text("coalesce(source_jurisdiction_id, 0)"), "="),
             ("valid_period", "&&"),
             using="gist",
             name="no_overlap_treaty_rate",
@@ -93,6 +94,10 @@ class TreatyRate(Base):
     beneficial_owner_required: Mapped[bool] = mapped_column(Boolean, default=False)
     ownership_threshold: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     min_holding_days: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    # NULL = the cap applies in both directions; otherwise only when this state is the source.
+    source_jurisdiction_id: Mapped[int | None] = mapped_column(
+        ForeignKey("core.jurisdiction.id"), nullable=True
+    )
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
 

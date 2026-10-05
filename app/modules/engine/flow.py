@@ -16,6 +16,7 @@ from app.modules.engine.types import (
     q,
 )
 from app.modules.engine.withholding import WithholdingEngine
+from app.modules.tax.repository import cit_refund
 
 SUPPORTED = {"DIVIDEND", "INTEREST", "ROYALTY"}
 
@@ -57,6 +58,7 @@ class FlowCalculator:
     """Total tax leakage per 100 of gross income along S → H → U."""
 
     def __init__(self, session: Session) -> None:
+        self.session = session
         self.tax = TaxEngine(session)
         self.wht = WithholdingEngine(session)
 
@@ -95,7 +97,7 @@ class FlowCalculator:
         w1 = legs[0].rate or ZERO
 
         # Leg 2: CIT in H, after its participation exemption.
-        cit = self.tax.cit(h, on_date, flow.amount)
+        cit = self.tax.cit(h, on_date, flow.amount, income_category=cat)
         if cit.rate is None:
             legs.append(FlowLeg(f"{h} corporate tax", "cit", None, None, cit.citations, cit.flags))
             return done(legs, None, flags)
@@ -117,6 +119,23 @@ class FlowCalculator:
                 taxable_share = HUNDRED - ex.exempt_share_pct
                 detail["exempt_share_pct"] = str(ex.exempt_share_pct)
         h_rate = q(cit.rate * taxable_share / HUNDRED)
+        refund = cit_refund(self.session, h, cat, on_date) if h != u else None
+        if refund is not None and h_rate > ZERO:
+            # The parent recovers part of H's tax when H distributes (e.g. Malta 6/7).
+            net = q(h_rate * (HUNDRED - refund.refund_pct) / HUNDRED)
+            detail["cit_before_refund"] = str(h_rate)
+            detail["shareholder_refund_pct"] = str(refund.refund_pct)
+            cites = merge_citations(cites, (refund.source_evidence_id,))
+            leg2_flags.append(
+                Flag(
+                    "shareholder_refund",
+                    f"{refund.legal_ref}: {refund.description}; {h_rate}% is paid by {h} and "
+                    f"{h_rate - net}% refunded to the shareholder on distribution "
+                    "(cash-flow cost; conditions apply)",
+                    interpretation_required=True,
+                )
+            )
+            h_rate = net
         if h_rate > ZERO and w1 > ZERO:
             leg2_flags.append(
                 Flag(

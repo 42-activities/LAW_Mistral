@@ -48,7 +48,7 @@ class TreatyEngine:
                     f"{treaty.name} enters into force {treaty.entry_into_force_date}",
                 ),
             )
-        rates = self.repo.get_rates(treaty.id, category, on_date)
+        rates = self.repo.get_rates(treaty.id, category, on_date, source_code=source)
         if not rates:
             return None, (
                 Flag(

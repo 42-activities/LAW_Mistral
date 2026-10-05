@@ -76,9 +76,14 @@ class TreatyRepository:
         return self.session.scalar(stmt)
 
     def get_rates(
-        self, treaty_id: int, income_category_code: str, on_date: date
+        self,
+        treaty_id: int,
+        income_category_code: str,
+        on_date: date,
+        source_code: str | None = None,
     ) -> list[TreatyRate]:
-        """Every ownership tier valid on the date (one row when the treaty has a single rate)."""
+        """Every ownership tier valid on the date for payments from `source_code` (rates without
+        a source apply both ways; with no source given, all rates are returned)."""
         stmt = (
             select(TreatyRate)
             .join(IncomeCategory, TreatyRate.income_category_id == IncomeCategory.id)
@@ -89,4 +94,10 @@ class TreatyRepository:
             )
             .order_by(TreatyRate.id)
         )
+        if source_code is not None:
+            source = select(Jurisdiction.id).where(Jurisdiction.code == source_code)
+            stmt = stmt.where(
+                (TreatyRate.source_jurisdiction_id.is_(None))
+                | (TreatyRate.source_jurisdiction_id.in_(source))
+            )
         return list(self.session.scalars(stmt))

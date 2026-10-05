@@ -82,9 +82,11 @@ class TaxEngine:
     ) -> SourcedRate:
         """Domestic exemptions for recipients in a group, e.g. EU directive reliefs."""
         flags: list[Flag] = []
-        for ex, group, member in self.exemptions.applicable(
-            jurisdiction, category, recipient, on_date
-        ):
+        candidates = sorted(
+            self.exemptions.applicable(jurisdiction, category, recipient, on_date),
+            key=lambda row: (row[0].reduced_rate or ZERO, row[0].id),
+        )
+        for ex, group, member in candidates:
             missing = []
             if ex.min_holding_pct is not None and (
                 holding_pct is None or holding_pct < ex.min_holding_pct
@@ -105,16 +107,20 @@ class TaxEngine:
                     )
                 )
                 continue
+            rate = ex.reduced_rate if ex.reduced_rate is not None else ZERO
+            if rate >= base.rate:
+                continue
             return SourcedRate(
-                rate=ZERO,
+                rate=rate,
                 citations=(*base.citations, ex.source_evidence_id, member.source_evidence_id),
                 rule=f"{base.rule}, exempt under {ex.legal_ref}",
                 statutory_rate=base.rate,
                 flags=(
                     Flag(
                         "directive_exemption",
-                        f"{jurisdiction} {category.lower()} withholding exempt for a "
-                        f"{group.code} recipient: {ex.description}",
+                        f"{jurisdiction} {category.lower()} withholding "
+                        + ("exempt" if rate == ZERO else f"reduced to {rate}%")
+                        + f" for a {group.code} recipient: {ex.description}",
                     ),
                     Flag(
                         "exemption_anti_abuse",
@@ -126,8 +132,21 @@ class TaxEngine:
             )
         return SourcedRate(base.rate, base.citations, base.rule, tuple(flags))
 
-    def cit(self, jurisdiction: str, on_date: date, amount: Decimal | None = None) -> CitResult:
-        rule = self._rule(jurisdiction, "CIT", "CORPORATE_PROFIT", on_date, "company")
+    def cit(
+        self,
+        jurisdiction: str,
+        on_date: date,
+        amount: Decimal | None = None,
+        income_category: str | None = None,
+    ) -> CitResult:
+        """CIT for a type of income (e.g. Ireland's 25% on passive royalties) when a rule for
+        that category exists, else the general corporate-profit rate."""
+        rule = None
+        if income_category is not None:
+            rule = self.rules.get_rule(
+                jurisdiction, "CIT", income_category, on_date, taxpayer_type="company"
+            )
+        rule = rule or self._rule(jurisdiction, "CIT", "CORPORATE_PROFIT", on_date, "company")
         if rule is None:
             return CitResult(
                 jurisdiction,
