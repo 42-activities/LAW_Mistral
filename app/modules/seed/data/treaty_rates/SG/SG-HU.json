@@ -1,0 +1,67 @@
+{
+ "a": "SG",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Republic of Hungary for the avoidance of double taxation (1997; modified by MLI)",
+ "signed": "1997-04-17",
+ "entry_into_force": "1998-12-18",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-hungary-dta-(mli)(21-sep-2021)(pdf).pdf?sfvrsn=9f6556a9_15",
+ "eif_quote": "Date of Conclusion: 17 April 1997. Entry into Force: 18 December 1998. Effective Date: 1 January 1999. Art. 29(2)(a)(i): in Hungary in respect of taxes withheld at source, to amounts of income derived on or after 1st January in the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "IRAS consolidated text: Singapore-Hungary DTA (MLI)(21 Sep 2021), incl. Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-hungary-dta-(mli)(21-sep-2021)(pdf).pdf?sfvrsn=9f6556a9_15",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the recipient is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 28A(1)); art. 7(4) as 28A(2)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-hungary-dta-(mli)(21-sep-2021)(pdf).pdf?sfvrsn=9f6556a9_15",
+  "quote": "1. Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 5(b)(i): taxes withheld at source, for amounts paid ... on or after 1 January 2022)"
+ },
+ "notes": "Not modelled: Government (incl. central bank, GIC) exemption for portfolio dividends (Art. 10(8)-(9) and exchange of notes); interest exemption for Government and bank-to-bank interest (Art. 11(3)). Dividend 5% tier keyed to 'recipient is a company' holding >=25% directly. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

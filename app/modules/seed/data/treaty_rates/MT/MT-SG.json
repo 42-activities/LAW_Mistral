@@ -1,0 +1,45 @@
+{
+ "a": "MT",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of Malta and the Government of the Republic of Singapore for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2006, as amended 2009)",
+ "signed": "2006-03-21",
+ "entry_into_force": "2008-02-29",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.103/eng",
+ "eif_quote": "that the Agreement has entered into force on the 29 February, 2008.",
+ "source_title": "S.L. 123.103 Double Taxation Relief on Taxes on Income with the Republic of Singapore Order (consolidated incl. 2009 Protocol, L.N. 257 of 2013)",
+ "source_url": "https://legislation.mt/eli/sl/123.103/eng",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed: (a) 7 per cent of the gross amount of the interest if it is received by a bank; (b) 10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(2): effective for tax chargeable for any year of assessment beginning on or after 1 Jan of the second calendar year after EIF -> YA 2010 (valid_from 2010-01-01). DIVIDENDS omitted: Art. 10(2) sets no fixed rate - 'the tax on the gross amount of the dividends in the first-mentioned State shall not exceed the tax chargeable on the profits or income of the company out of which the dividends are paid' (both States, full imputation; Art. 10(3): no final WHT; if introduced, dividends to the other Government are exempt). Interest: 7% where received by a bank (special tier, not modelled as a row); exempt when paid to the other Government incl. central bank/MAS, Malta Enterprise, GIC (Art. 11(3)-(4)). 2009 Protocol (L.N. 257 of 2013) replaced Art. 25 (exchange of information) only. MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2020-01-01 (merged dataset).",
+ "confidence": "high",
+ "unverified": []
+}

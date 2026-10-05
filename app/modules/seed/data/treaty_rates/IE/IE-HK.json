@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "HK",
+ "treaty_name": "Agreement between Ireland and the Hong Kong Special Administrative Region of the People's Republic of China for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-06-22",
+ "entry_into_force": "2011-02-10",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Ireland (see note 8 ) | 22.06.2010 | 28.09.2010 | 10.02.2011 | Year of Assessment 2012/2013",
+ "source_title": "Revenue.ie: Ireland-Hong Kong Agreement 2010; IRD HK synthesised text of MLI and HKSAR-Ireland Agreement",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/h/hong-kong.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting Party to a resident of the other Contracting Party shall be taxable only in that other Party, provided such resident is the beneficial owner of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting Party in which it arises, and according to the laws in force in that Party, but if the beneficial owner of the interest is a resident in the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Ireland.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) where beneficial owner is the Government/central bank/specified public bodies, a bank or similar financial institution (or interest paid by one), interest on credit sales of equipment, merchandise or services, or a recognised pension scheme - not modelled. valid_from: Ireland 1 Jan 2012; HKSAR from year of assessment beginning 1 April 2012. MLI WHT effect (per IRD synthesised text): HKSAR 1 April 2023, Ireland 1 January 2024 (35(7)(b) notification received 21 Feb 2023); ppt.from uses the Ireland date. No MLI Art. 8 box. Revenue.ie does not publish a synthesised text for HK; IRD HK version used.",
+ "confidence": "high",
+ "unverified": []
+}

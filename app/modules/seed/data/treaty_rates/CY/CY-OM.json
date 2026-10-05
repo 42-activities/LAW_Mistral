@@ -1,0 +1,58 @@
+{
+ "a": "CY",
+ "b": "OM",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the Sultanate of Oman for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2024)",
+ "signed": "2024-12-08",
+ "entry_into_force": "2025-03-05",
+ "eif_source_url": "https://www.gov.cy/mof/documents/forologiki-politiki-kai-metarrythmiseis-2/symvaseis-apofygis-diplis-forologias-2/",
+ "eif_quote": "Cyprus MoF treaty list: \"53 | Ομάν | 08/12/2024 | 05/03/2025 | 4291 – 13/12/2024\"; treaty Art. 29(2): \"The Agreement shall enter into force on the date of receipt of the latter of these notifications\"",
+ "source_title": "CY-OM Agreement signed Muscat 8 December 2024, English text, Official Gazette of the Republic of Cyprus Annex VII No. 4291, 13.12.2024",
+ "source_url": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/39E25816F5681383C2258BF2002FD1F8/$file/4291%2013%2012%202024%20PARARTIMA%207o.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxed only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxed only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed eight per cent (8%) of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/39E25816F5681383C2258BF2002FD1F8/$file/4291%2013%2012%202024%20PARARTIMA%207o.pdf",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Dividends and interest exclusive to residence State; royalties 8% (royalty definition includes computer software). Art. 29(2)(i): WHT effective for amounts paid or credited on or after 1 January next following EIF -> 2026-01-01. Treaty-level PPT in Art. 27 (Entitlement of Benefits); not an MLI covered agreement. EIF date: Cyprus MoF list 05/03/2025; Oman list (per treaties_merged.json) 3/3/2025 - minor discrepancy, no effect on 2026-01-01 effective date.",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF day (05-03-2025 Cyprus list vs 03-03-2025 Oman list)"
+ ]
+}

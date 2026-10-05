@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "JO",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006)",
+ "signed": "2006-10-30",
+ "entry_into_force": "2007-08-16",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2007-212.html",
+ "eif_quote": "De bepalingen van het Verdrag en het Protocol zijn ingevolge artikel 31 van het Verdrag juncto de preambule tot het Protocol in werking getreden op 16 augustus 2007.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0002643 (English authentic text, prevailing over Dutch/Arabic; Trb. 2007, 22)",
+ "source_url": "https://wetten.overheid.nl/BWBV0002643/2007-08-16",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 31: provisions have effect for taxable years and periods beginning on or after 1 January of the calendar year following entry into force (2007-08-16 -> 2008-01-01). 365-day holding via MLI art 8 from 2021-01-01 (NL and Jordan both notified Art. 10(2)(a) under MLI Art. 8(4)). Treaty Art. 10(3) anti-abuse rule (relationship established virtually only to take advantage of the article) was notified by both NL and Jordan under MLI Art. 7(17)(a) and is replaced by the MLI PPT. Not modelled: Protocol VII (Art. 10(2) does not apply as long as domestic law of either State exempts or does not tax such dividends - wording as in text); Protocol VIII 0% for pension funds referred to in Art. 4(4); Art. 10(9) emigrant substantial-shareholder dividends taxable by former residence State; Art. 11(3) interest exemption for State, statutory bodies, political subdivisions, local authorities and central banks. MLI PPT effective 2021-01-01 per treaties_merged.json.",
+ "confidence": "high",
+ "unverified": []
+}

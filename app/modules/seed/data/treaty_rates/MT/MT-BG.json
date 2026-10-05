@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "BG",
+ "treaty_name": "Agreement between the Republic of Malta and the People's Republic of Bulgaria for the Avoidance of Double Taxation with respect to Taxes on Income (1986)",
+ "signed": "1986-07-23",
+ "entry_into_force": "1988-01-01",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi/",
+ "eif_quote": "Малта | 23-07-1986 | 01-01-1988 | Спогодба",
+ "source_title": "S.L. 123.19 Double Taxation Relief on Taxes on Income with the Republic of Bulgaria Order (Schedule: 1986 Agreement)",
+ "source_url": "https://legislation.mt/eli/sl/123.19/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BG",
+   "quote": "Dividends derived from a juridical person, who is a resident of a Contracting State by a resident of the other Contracting State are taxable only in that other State."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)(a)",
+   "valid_from": "1988-01-01",
+   "max_rate": "30",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "Notwithstanding the provisions of paragraph (1) where the dividends are paid by a company which is a resident of Malta to a resident of the Republic of Bulgaria who is the beneficial owner thereof, Malta tax may be imposed on the gross amount of such dividends, but the tax so charged shall not exceed the lesser of: (a) 30 per cent of the gross amount of the dividends; or (b) the tax chargeable on the profits out of which the dividends are paid, in accordance with the Aids to Industries Ordinance."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However such income may also be taxed in the Contracting State where it arises, according to its national legislation, but the tax must not exceed ten per cent of the gross amount of the royalties or licenses."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a - not a covered tax agreement under the MLI; no treaty PPT",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Old-style (non-OECD numbering) agreement: Art. 9 Dividends, Art. 10 Interest, Art. 11 Royalties and Licenses. Effective for taxes on income arising after 31 December of the year of exchange of ratifications (Art. 22(2)); EIF 1988-01-01 (first day of third month after exchange) -> valid_from 1988-01-01. Dividends: Bulgarian-source dividends taxable only in Malta (0%); Malta-source dividends capped at the lesser of 30% or the tax chargeable on the profits under the Aids to Industries Ordinance. INTEREST omitted: Art. 10(1) says interest 'may be taxed in the other State' with no source-State limitation, so the source State may tax under domestic law without treaty cap. Royalties/licences (10%) include copyright, patents, software ('machine programmes'), films, know-how, and equipment rental with connected technical services (Art. 11(3)-(4)). Treaty uses 'derived by' (no beneficial-owner condition for royalties). MLI: both are Parties but neither lists this treaty - not a covered tax agreement (merged dataset); no PPT. Treaty concluded with the People's Republic of Bulgaria (S.L. title: Republic of Bulgaria).",
+ "confidence": "high",
+ "unverified": []
+}

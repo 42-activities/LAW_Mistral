@@ -1,0 +1,67 @@
+{
+ "a": "SG",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Hashemite Kingdom of Jordan for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2021)",
+ "signed": "2021-07-14",
+ "entry_into_force": "2021-12-30",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-jordan-dta-(ratified)(30-dec-2021).pdf?sfvrsn=62066227_10",
+ "eif_quote": "Date of Conclusion: 14 July 2021 Entry into Force: 30 December 2021 Effective Date: 1 January 2022. Art. 28(2)(b)(i): in Jordan in respect of taxes withheld at source to income derived on or after 1st January in the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "IRAS text: Singapore-Jordan DTA (ratified)(30 Dec 2021), incl. Protocol 2021",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-jordan-dta-(ratified)(30-dec-2021).pdf?sfvrsn=62066227_10",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 8 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27 (Entitlement to Benefits)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-jordan-dta-(ratified)(30-dec-2021).pdf?sfvrsn=62066227_10",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Not covered by the MLI; PPT is built into the 2021 Agreement (Art. 27), effective with the Agreement (WHT from 1 Jan 2022). Not modelled: dividends and interest paid to the Government (incl. central bank and wholly-owned sovereign investment entities such as GIC) exempt (Art. 10(3), 11(3)). No holding period for the 5% dividend tier.",
+ "confidence": "high",
+ "unverified": []
+}

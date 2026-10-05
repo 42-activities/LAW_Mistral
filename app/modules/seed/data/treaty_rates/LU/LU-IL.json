@@ -1,0 +1,69 @@
+{
+ "a": "LU",
+ "b": "IL",
+ "treaty_name": "Convention entre le Gouvernement du Grand-Duché de Luxembourg et le Gouvernement de l'Etat d'Israël tendant à éviter les doubles impositions et à prévenir la fraude fiscale en matière d'impôts sur le revenu et sur la fortune (2004, telle que modifiée par l'IM)",
+ "signed": "2004-12-13",
+ "entry_into_force": "2006-05-22",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2006-81-fr-pdf.pdf",
+ "eif_quote": "Article 28 Entrée en vigueur 1. ... La Convention entrera en vigueur à la date de réception de la dernière de ces notifications. 2. Après l'entrée en vigueur de la Convention ses dispositions seront d'application: a) en ce qui concerne les impôts retenus à la source, aux revenus attribués le ou après le 1er janvier 2004",
+ "source_title": "LU–IL Convention 2004 – Mémorial A n° 81 de 2006 (p. 1446); MLI synthesised text EN (ACD, 19/02/2020)",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2006-81-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes, si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 10 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent ... mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder: a) 5 pour cent du montant brut des intérêts dans le cas d'intérêts ... payés au titre d'un prêt de n'importe quelle nature consenti par un établissement bancaire de l'autre Etat contractant; b) 10 pour cent du montant brut des intérêts dans tous les autres cas."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/israel-mli-en.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Convention: ... Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted ... (WHT: LU events on or after 1 January 2020; Israel on or after the first day of the taxable period beginning on or after 1 August 2019)"
+ },
+ "notes": "Dividends: Art. 10(2)(b) — 10% (instead of 5%) where a company holding at least 10% receives dividends from an Israeli resident company paid out of profits taxed in Israel below the normal Israeli corporate rate (IL-source only; not modelled as separate tier). Interest: 5% for loans of any kind granted by a bank of the other State (Art. 11(2)(a), bank-only tier not modelled); exempt at source for interest on credit sales of equipment/goods (Art. 11(3)) and for Government/central bank/State financial institution loans and Office du Ducroire-guaranteed loans (Art. 11(4)). Royalties include software. Art. 27 excludes Luxembourg 1929 holding companies. Protocol para. 4 preserves domestic anti-abuse rules; para. 5 beneficial owner requirement. MLI synthesised text is image-only; read visually (pp. 3, 24). EIF date from treaty-map dataset.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 2006-05-22 (from treaties_merged.json)"
+ ]
+}

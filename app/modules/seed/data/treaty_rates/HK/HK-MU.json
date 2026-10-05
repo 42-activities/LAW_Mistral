@@ -1,0 +1,67 @@
+{
+ "a": "HK",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the Hong Kong Special Administrative Region of the People's Republic of China and the Government of the Republic of Mauritius for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2022)",
+ "signed": "2022-11-07",
+ "entry_into_force": "2023-06-23",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Mauritius | 14.09.2022 and 07.11.2022 | 25.04.2023 | 23.06.2023 | Year of Assessment 2024/2025 | DS | N/A | N/A",
+ "source_title": "Cap. 112DS Inland Revenue (Double Taxation Relief ...) (Republic of Mauritius) Order, Schedule (HK e-Legislation)",
+ "source_url": "https://www.elegislation.gov.hk/hk/cap112DS!en",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-07-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "0 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, interest arising in a Contracting Party may also be taxed in that Party according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, royalties arising in a Contracting Party may also be taxed in that Party according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-07-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://www.elegislation.gov.hk/hk/cap112DS!en",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Not an MLI covered tax agreement; treaty contains its own PPT (Art. 27 'Entitlement to Benefits') and a 365-day holding period for the 0% dividend tier. Dividends Art. 10(3) and interest Art. 11(3): exempt at source when paid to the HKSAR Government, HKMA, Exchange Fund, agreed government-owned entities; or to the Government of Mauritius/local authority, Bank of Mauritius, agreed government-owned entities - not modelled. valid_from = Mauritian side Art. 28(2)(b)(i): taxes withheld at source on amounts paid or credited on or after 1 July next following EIF (EIF 23 Jun 2023 -> 2023-07-01); HKSAR: YA from 1 April 2024. ppt.from uses the Mauritian WHT date.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "LB",
+ "treaty_name": "Convention between the Republic of Cyprus and the Lebanese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-02-18",
+ "entry_into_force": "2005-04-14",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position Art. 2 list: \"Lebanese Republic Original 18-02-2003 14-04-2005\"; treaty Art. 27: \"Η Σύμβαση θα τεθεί σε ισχύ την 30η μέρα από την ημερομηνία της τελευταίας γνωστοποίησης\"",
+ "source_title": "CY-LB Convention 2003, Greek text, Official Gazette of the Republic of Cyprus Annex VII (gov.cy MoF scan 'lebanon_gr.pdf')",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/lebanon_gr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Εν τούτοις, τα μερίσματα αυτά μπορούν επίσης να φορολογούνται στο Συμβαλλόμενο Κράτος, του οποίου η καταβάλλουσα εταιρεία είναι κάτοικος και σύμφωνα με τους νόμους αυτού του Κράτους, αλλά εάν ο μερισματολήπτης είναι δικαιούχος αυτών των μερισμάτων ο επιβλητέος φόρος δεν θα υπερβαίνει το 5% του ακαθάριστου ποσού των μερισμάτων."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Εντούτοις, τέτοιοι τόκοι μπορούν επίσης να φορολογούνται στο Συμβαλλόμενο Κράτος μέσα στο οποίο προκύπτουν και σύμφωνα με τους νόμους αυτού, αλλά εάν ο παραλήπτης είναι ο δικαιούχος των τόκων αυτών ο επιβληθείς φόρος δεν θα υπερβαίνει το 5% του ακαθάριστου ποσού των τόκων."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Δικαιώματα που προκύπτουν σε ένα Συμβαλλόμενο Κράτος και που καταβάλλονται σε κάτοικο του άλλου Συμβαλλόμενου Κράτους θα φορολογούνται μόνο σε αυτό το άλλο Κράτος, νοουμένου ότι ο κάτοικος αυτός είναι ο δικαιούχος των δικαιωμάτων."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.gov.cy/media/sites/11/2024/03/lebanon_gr.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest exempt at source when paid to the Government of the other State, its local authority or political subdivision, or any institution or banking unit of the Government, or where the debt is guaranteed, insured or indirectly financed by a financial body wholly owned by the other State. Art. 27 effective dates: Lebanon - WHT on income derived on or after 1 January of the calendar year following the year of EIF; Cyprus - WHT on amounts paid or credited on or after 1 January following the EIF date (EIF 2005-04-14 -> 2006-01-01). Lebanon is not an MLI Party; no PPT article among treaty headings (Art. 26 diplomatic, 27 EIF, 28 termination) -> no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

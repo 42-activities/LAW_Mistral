@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "PT",
+ "treaty_name": "Convention between Malta and the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2001)",
+ "signed": "2001-01-26",
+ "entry_into_force": "2002-04-05",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.63/eng",
+ "eif_quote": "that the Convention has entered into force on the 5th April, 2002.",
+ "source_title": "S.L. 123.63 Double Taxation Relief on Taxes on Income with the Portuguese Republic Order (Schedule: 2001 Convention and Protocol)",
+ "source_url": "https://legislation.mt/eli/sl/123.63/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": "PT",
+   "quote": "(ii) 10 per cent of the gross amount of the dividends if the beneficial owner is a company that, for  an uninterrupted period of two years prior to the payment of the dividend, owns directly at least 25 per cent of the capital stock (capital social) of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "PT",
+   "quote": "where the dividends are paid by a company which is a resident of Portugal to a resident of Malta who is the beneficial owner thereof, the Portuguese tax so charged shall not exceed: (i) 15 per cent of the gross amount of the dividends; or"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in Portugal for taxes withheld at source where the taxable event occurs on/after 1 Jan of the year after EIF (Art. 28(2)(a)(i)) -> 2003-01-01 (Malta: from YA 2004). Portuguese 10% tier: company owning directly >=25% of capital for an uninterrupted 2 years prior to payment (730 days). Malta-source dividends (Art. 10(2)(b)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled; Protocol 1: if Malta's imputation system changes, the 10(2)(a) rates apply to Malta-source dividends. Interest exempt when derived by the other State, its sub-divisions/local authorities or wholly owned and controlled entities (Art. 11(3)). Note EU directives (PSD/IRD) may give lower rates domestically - not modelled. L.N. 250 of 2002 amendment to the Order not reviewed (consolidated text read). MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2021-01-01 (merged dataset).",
+ "confidence": "high",
+ "unverified": []
+}

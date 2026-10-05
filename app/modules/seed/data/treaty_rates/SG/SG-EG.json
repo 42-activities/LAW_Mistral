@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Arab Republic of Egypt for the avoidance of double taxation (1996; modified by MLI)",
+ "signed": "1996-05-22",
+ "entry_into_force": "2004-01-27",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-egypt-dta-(ratified)(mli)(1-jan-2021).pdf?sfvrsn=4db89a95_11",
+ "eif_quote": "Date of Conclusion: 22 May 1996 Entry into Force: 27 January 2004. Effective Date: 1 January 2005. Art. 29(2)(a)(i): in the case of Egypt in respect of taxes withheld at source, on amounts paid or credited on or after the first day of January in the calendar year following that in which the Agreement enters into force",
+ "source_title": "IRAS consolidated text: Singapore-Egypt DTA (ratified)(MLI)(1 Jan 2021), incl. Protocol 1996 and Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-egypt-dta-(ratified)(mli)(1-jan-2021).pdf?sfvrsn=4db89a95_11",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Where either or both Contracting States should, subsequent to the date of signature of this Agreement, impose a tax on dividends in addition to the tax chargeable on the profits or income of a company, the tax so charged in the Contracting State of which the company paying the dividends is a resident shall, if the recipient is the beneficial owner of the dividends, not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 28A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-egypt-dta-(ratified)(mli)(1-jan-2021).pdf?sfvrsn=4db89a95_11",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 4(b)(i): taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "Art. 10(2) records that at signature neither State imposed a tax on dividends beyond the tax on company profits; the 15% cap in Art. 10(3) applies if a State subsequently imposes such a dividend tax. Not modelled: interest paid to the Government (incl. Central Bank of Egypt, MAS, GIC) exempt (Art. 11(3)-(4)). Art. 28(2) remittance clause limits source-State relief to amounts remitted where the residence State taxes on remittance basis. Valid_from = Egyptian WHT effective date (amounts paid on/after 1 Jan 2005); Singapore YA 2006. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

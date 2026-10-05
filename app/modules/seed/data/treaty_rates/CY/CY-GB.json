@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Republic of Cyprus and the Government of the United Kingdom of Great Britain and Northern Ireland for the elimination of double taxation with respect to taxes on income and on capital gains and the prevention of tax evasion and avoidance (2018, as amended by Protocol 2018)",
+ "signed": "2018-03-22",
+ "entry_into_force": "2018-07-18",
+ "eif_source_url": "https://www.gov.uk/government/publications/cyprus-tax-treaties",
+ "eif_quote": "The UK and Cyprus Double Taxation Convention was signed on 22 March 2018 in Nicosia. The convention entered into force on 18 July 2018. ... Effective in Cyprus for: taxes withheld at source for amounts paid or credited on or after 1 January 2019",
+ "source_title": "2018 UK-Cyprus Double Taxation Convention as amended by the 2018 Protocol (gov.uk HTML); cross-checked with Cyprus Official Gazette text on Cyprus MoF site",
+ "source_url": "https://www.gov.uk/government/publications/cyprus-tax-treaties/2018-uk-cyprus-double-taxation-convention-as-amended-by-the-2018-protocol-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, dividends paid by a company which is a resident of a Contracting State may also be taxed in that State and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State; a) except as provided in sub-paragraph b), such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "treaty art. 23(1)",
+  "source_url": "https://www.gov.uk/government/publications/cyprus-tax-treaties/2018-uk-cyprus-double-taxation-convention-as-amended-by-the-2018-protocol-in-force",
+  "quote": "Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or a capital gain if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Dividends: Art. 10(2)(b) - dividends paid out of income (including gains) derived directly or indirectly from immovable property by an investment vehicle which distributes most of this income annually and whose income from such immovable property is exempted from tax (e.g. REIT/PAIF) may be taxed at source up to 15%, except where the beneficial owner is a pension scheme established in the other State (exemption applies) - not modelled as a separate tier. Art. 29(1): WHT effective for amounts paid or credited on or after 1 January next following EIF (18.7.2018 -> 1.1.2019). The 2018 Protocol (signed 19.12.2018, in force 2.10.2019) only adds Art. 29(5) on a pensions election; it does not change Arts. 10-12. The 2018 Convention is not an MLI covered agreement (Cyprus did not list the UK); PPT is in the treaty itself (Art. 23).",
+ "confidence": "high",
+ "unverified": []
+}

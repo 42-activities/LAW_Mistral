@@ -1,0 +1,78 @@
+{
+ "a": "GB",
+ "b": "BG",
+ "treaty_name": "Convention between the United Kingdom and the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2015)",
+ "signed": "2015-03-26",
+ "entry_into_force": "2015-12-15",
+ "eif_source_url": "https://www.gov.uk/government/publications/bulgaria-tax-treaties",
+ "eif_quote": "The UK-Bulgaria Double Taxation Convention entered into force on 15 December 2015. This replaces the 1987 convention. It is effective in the UK from: ... 1 January 2016 for withholding taxes for amounts paid or credited. It is effective in Bulgaria from: 1 January 2016 for withholding taxes for amounts paid or credited",
+ "source_title": "Synthesised text of the MLI and the 2015 UK-Bulgaria Double Taxation Convention — gov.uk",
+ "source_url": "https://www.gov.uk/government/publications/bulgaria-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2015-uk-bulgaria-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2016-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "0",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) shall, notwithstanding the provisions of subparagraph (a), be exempt from tax in that State if the beneficial owner of the dividends is: (i) a company which is a resident of the other Contracting State (other than where the dividends are paid by an investment vehicle as mentioned in subparagraph (a) (ii)); or (ii) a pension scheme."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) may also be taxed in that State and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: (i) 5 per cent of the gross amount of the dividends, except as provided in subparagraph a) (ii);"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)(e)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State to the extent that such interest is paid: ... (e) between companies, where one company holds directly at least 10 per cent of the capital of the other company for at least one year prior to the payment of the interest or where both companies are held by a third company which holds directly at least 10 per cent of the capital of both aforementioned companies for at least one year prior to the payment of the interest."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/bulgaria-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2015-uk-bulgaria-double-taxation-convention-in-force",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Dividends: 0% for any company beneficial owner resident in the other State with no minimum holding (ownership_threshold '0'), and for pension schemes; 15% for dividends paid out of exempt immovable-property income by an investment vehicle (Art. 10(2)(a)(ii)), which is excluded from the 0% company tier; Art. 10(3): para. 2 does not apply to a hidden profit distribution under Bulgarian law (no treaty cap). Interest: also exempt at source (Art. 11(3)(a)-(d)) for interest on credit sales of equipment/merchandise/services, loans granted by a financial institution, interest paid to a pension scheme, or to the Government/political subdivision/local authority/central bank; the 11(3)(e) tier also covers sister companies with a common 10% parent held for one year. MLI: PPT replaces main-purpose clauses Arts. 10(7), 11(8), 12(7), 20(5); WHT effect 1 January 2023 per gov.uk page. MLI Art. 8 not in synthesised text. Replaced the 1987 convention.",
+ "confidence": "high",
+ "unverified": []
+}

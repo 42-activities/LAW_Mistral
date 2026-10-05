@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "PT",
+ "treaty_name": "Convention between Ireland and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1993, as amended by Protocol 2005), as modified by the MLI",
+ "signed": "1993-06-01",
+ "entry_into_force": "1994-07-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Portugal Original 01-06-1993 11-07-1994 Amending Instrument (a) 11-11-2005 18-12-2006",
+ "source_title": "Revenue: Synthesised text of the MLI and the Ireland-Portugal DTC; Ireland-Portugal Convention (portuguese-republic.pdf); Protocol 2005 (portugal-protocol.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/p/synthesised-text-mli-ireland-portugal-dtc.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/p/synthesised-text-mli-ireland-portugal-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 28: in force upon exchange of ratifications (1994-07-11); effect in Portugal for WHT on facts arising on/after 1 Jan of following year (1995-01-01); in Ireland corporation tax from financial year beginning 1 Jan 1995, income tax from year of assessment beginning 6 April 1995. Dividend article has a single 15% tier (no participation tier; MLI Art. 8 not applied). Interest exempt at source when debtor is the Government/local authority, or paid to the other Government/local authority/institution under an intergovernmental financing agreement (Art. 11(3)) - not modelled. Royalties definition includes equipment rental and related technical assistance. 2005 Protocol (EIF 2006-12-18) amends only Art. 13 and Protocol (thin cap) - no WHT changes. MLI WHT effect from 2021-01-01 per synthesised text.",
+ "confidence": "high",
+ "unverified": []
+}

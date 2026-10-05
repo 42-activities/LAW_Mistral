@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "KW",
+ "treaty_name": "Agreement between the United Kingdom and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1999)",
+ "signed": "1999-02-23",
+ "entry_into_force": "2000-07-01",
+ "eif_source_url": "https://www.gov.uk/government/publications/kuwait-tax-treaties",
+ "eif_quote": "The Double Taxation Agreement entered into force on 1 July 2000. The agreement is effective in Kuwait from 1 January 2001 and in the UK from: 1 April 2001 for Corporation Tax 6 April 2001 for Income Tax and Capital Gains Tax",
+ "source_title": "1999 Kuwait-UK Double Taxation Agreement - in force (gov.uk PDF, with Protocol)",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a80bf12ed915d74e33fc2cd/kuwait_-_dta_-_in_force.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-04-06",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of, and is subject to tax in respect of the dividends in the other Contracting State, the tax so charged shall not exceed: (a) 5 per cent. of the gross amount of the dividends if the beneficial owner is a company which controls, directly or indirectly, at least 10 per cent. of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-04-06",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent. of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner of such interest shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent. of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty arts. 10(6), 11(5), 12(7) (main-purpose clauses only; no general PPT)",
+  "source_url": "https://assets.publishing.service.gov.uk/media/5a80bf12ed915d74e33fc2cd/kuwait_-_dta_-_in_force.pdf",
+  "quote": "The provisions of this Article shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "valid_from = later of the two States' effective dates (Art. 30(1)): Kuwait taxable periods from 1 Jan 2001; UK from 1 Apr 2001 (CT) / 6 Apr 2001 (IT). Dividend caps require the beneficial owner to be resident of, and subject to tax in respect of the dividends in, the other State; 5% tier uses a 10% voting-power control test (direct or indirect), no holding period. Kuwait not an MLI Party, so no MLI PPT; the treaty has article-specific main-purpose anti-abuse rules (Arts. 10(6), 11(5), 12(7), 22(4)) with a Protocol para. 4 advance-notification requirement. Protocol para. 1: Kuwait Investment Authority treated as a resident Government institution.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,80 @@
+{
+ "a": "IE",
+ "b": "SE",
+ "treaty_name": "Convention between Ireland and Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1986, as amended by Protocol 1993)",
+ "signed": "1986-10-08",
+ "entry_into_force": "1988-04-05",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Sweden Original 08-10-1986 05-04-1988 Amending Instrument (a) 01-07-1993 20-01-1994",
+ "source_title": "Revenue: Ireland-Sweden Convention (sweden.pdf) and Protocol 1993 (sweden-protocol-1.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/sweden.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)(c)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IE",
+   "quote": "Except as provided in subparagraph (b) of this paragraph dividends paid by a company which is a resident of Ireland and which are beneficially owned by a resident of Sweden shall be exempt from any tax in Ireland which is chargeable on dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(4)(a)",
+   "valid_from": "1989-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "Dividends paid by a company which is a resident of Sweden to a resident of Ireland may be taxed in Ireland. Such dividends may also be taxed in Sweden, according to the laws of Sweden, but if the resident of Ireland is the beneficial owner of the dividends, the tax so charged shall not exceed: a. 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(4)(b)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SE",
+   "quote": "b. 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to \"the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement\"; ... with references to \"30 days after the date of receipt by the Depositary of the latest notification by each Contracting Jurisdiction making the reservation described in paragraph 7 of Article 35 (Entry into Effect) that it has completed its internal procedures for the entry into effect of the provisions of this Convention with respect to that specific Covered Tax Agreement\";"
+ },
+ "notes": "Art. 30: in force on exchange of ratifications (1988-04-05); effect in Sweden for income derived on/after 1 Jan 1989; Ireland corporation tax from financial year beginning 1 Jan 1989, income tax from 6 April 1989. Dividend article is asymmetric: Irish-source dividends exempt from Irish tax on dividends except the 15% charge under Art. 11(1)(b) on dividend+tax credit where a Swedish resident claims the Irish tax credit (Art. 11(2)-(3), tax credit regime no longer operative in Irish law) - not modelled; Swedish-source dividends capped at 5% (company holding >=10% voting power directly) / 15%. Art. 11(7) anti-avoidance for >=10% holders re pre-acquisition profits; Arts. 12(6)/13(6) main-purpose anti-abuse rules. Royalty definition includes equipment rental. 1993 Protocol (EIF 1994-01-20) amends Art. 2 (Swedish taxes) and Art. 24 (relief) only - no WHT rate changes. MLI: both Ireland and Sweden list this treaty as covered, but Sweden made an Art. 35(7)(a) reservation; per treaties_merged.json no Art. 35(7)(b) notification has been made for this treaty, so MLI (incl. PPT) not yet in effect; Revenue publishes no synthesised text for Sweden (consistent).",
+ "confidence": "high",
+ "unverified": [
+  "Absence of Sweden's Art. 35(7)(b) notification for Ireland taken from treaties_merged.json (OECD MLI status), not re-checked against the OECD status list"
+ ]
+}

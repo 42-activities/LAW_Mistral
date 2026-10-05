@@ -1,0 +1,70 @@
+{
+ "a": "LU",
+ "b": "DE",
+ "treaty_name": "Abkommen zwischen dem Großherzogtum Luxemburg und der Bundesrepublik Deutschland zur Vermeidung der Doppelbesteuerung und Verhinderung der Steuerhinterziehung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (2012, i.d.F. des Änderungsprotokolls vom 6. Juli 2023)",
+ "signed": "2012-04-23",
+ "entry_into_force": "2013-09-30",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2013-114-fr-pdf.pdf",
+ "eif_quote": "Artikel 30 (2) Das Abkommen tritt am Tag des Austausches der Ratifikationsurkunden in Kraft und ist in beiden Vertragsstaaten anzuwenden a) bei den im Abzugsweg erhobenen Steuern auf die Beträge, die am oder nach dem 1. Januar des Kalenderjahrs gezahlt werden, das dem Jahr folgt, in dem das Abkommen in Kraft getreten ist (LU list: 'Abkommen DE unterzeichnet am 23/04/2012 | Mémorial A n° 114 de 2013 | à partir du 01/01/2014')",
+ "source_title": "LU–DE DBA 2012 – Koordinierter Text i.d.F. Protokoll 2023 (ACD Luxembourg, 02/02/2024); original 2012 text Mémorial A n° 114/2013; Änderungsprotokoll 6.7.2023 (signed text)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/conv/koordinierter-text-de.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Abs. 2 Buchst. a",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Abs. 2 Buchst. b",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 Abs. 1",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 Abs. 2",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren im anderen Vertragsstaat ansässig ist, 5 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "treaty art. 27(3) (inserted by Art. 12 of the 2023 amending protocol)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/conv/texte-lu-et-de-avenant-sign.pdf",
+  "quote": "(3) Ungeachtet der sonstigen Bestimmungen dieses Abkommens wird eine Vergünstigung nach dem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller maßgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war ... Protokoll Art. 14(2)(a): anzuwenden bei den im Abzugsweg erhobenen Steuern auf die Beträge, die am oder nach dem 1. Januar des Kalenderjahrs gezahlt werden, das dem Jahr folgt, in dem das Änderungsprotokoll in Kraft getreten ist."
+ },
+ "notes": "MLI not in effect for this pair (Germany has not notified Art. 35(7)(b) completion), but the 2023 protocol inserts a treaty PPT (Art. 27(3)), applicable from 1.1.2024 per LU list ('Mémorial A n° 842 du 22 décembre 2023 à partir du 01/01/2024'). 2023 protocol re-worded Art. 10(2) and 11(1): the 5% tier is no longer limited to non-partnership/non-investment companies, and dividends paid by a German REIT-AG or comparable Luxembourg real-estate company, or paid to a collective investment vehicle (Organismus für gemeinsame Anlagen), only get the 15% rate (b). Under the original 2012 text (applicable 2014-2023) the 5% tier excluded partnerships and investment companies and a 15% cap applied to tax-exempt real-estate investment companies. Rates 5/15/0/5 unchanged numerically since 2014-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "exact EIF date of 2023 protocol (exchange of ratifications in 2023 inferred from LU list applicability 01/01/2024)",
+  "2012 treaty EIF 2013-09-30 from treaties_merged.json"
+ ]
+}

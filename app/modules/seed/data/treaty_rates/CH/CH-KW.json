@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "KW",
+ "treaty_name": "Convention between Switzerland and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital (1999, as amended 2019)",
+ "signed": "1999-02-16",
+ "entry_into_force": "2000-05-31",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2001/397/de",
+ "eif_quote": "In Kraft getreten am 31. Mai 2000",
+ "source_title": "SR 0.672.947.61 Abkommen CH-KW vom 16.2.1999 (consolidated, Stand 14.10.2024)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/397/20241014/de/html/fedlex-data-admin-ch-eli-cc-2001-397-20241014-de-html-1.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch im Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Dividenden der Nutzungsberechtigte ist, 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2025-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 nimmt der Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, die bezahlten Dividenden von der Besteuerung aus, wenn die nutzungsberechtigte Person eine Gesellschaft (jedoch keine Personengesellschaft) ist, die im anderen Vertragsstaat ansässig ist und unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft während einer Dauer von 365 Tagen einschliesslich des Tages der Zahlung der Dividenden verfügt"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch im Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; ist aber die zur Nutzung der Zinsen berechtigte Person im anderen Vertragsstaat ansässig, so darf die Steuer 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 27(1) (inserted by Protocol of 6 Nov 2019)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/397/20241014/de/html/fedlex-data-admin-ch-eli-cc-2001-397-20241014-de-html-1.html",
+  "quote": "Ungeachtet der anderen Bestimmungen dieses Abkommens wird ein Vorteil unter diesem Abkommen in Bezug auf Einkünfte oder Vermögensteile nicht gewährt, wenn unter Berücksichtigung aller massgebenden Tatsachen und Umstände vernünftigerweise der Schluss gezogen werden kann, dass das Erlangen dieses Vorteils einer der hauptsächlichen Zwecke einer Gestaltung oder eines Geschäfts war, die unmittelbar oder mittelbar zu diesem Vorteil führten; es sei denn, es wird nachgewiesen, dass das Gewähren dieses Vorteils unter diesen Umständen in Einklang mit dem Ziel und Zweck der entsprechenden Bestimmungen dieses Abkommens steht."
+ },
+ "notes": "Art. 10 and 11 in the wording of the Protocol of 6 Nov 2019 (in force 14.10.2024; Art. 15(2)(a): WHT on income paid or credited on/after 1 Jan 2025); PPT Art. 27 inserted by the same protocol. Interest exempt at source (Art. 11(3)) for credit sales of equipment/goods/services, bank loans, payments to government/subdivisions/national bank, and loans between enterprises ('Darlehen zwischen Unternehmen') - not modelled as tiers. Royalty article is original 1999 text: original application from 1 Jan of the year of signature (1999) per Art. 29(2)(a). Kuwait not an MLI Party.",
+ "confidence": "high",
+ "unverified": []
+}

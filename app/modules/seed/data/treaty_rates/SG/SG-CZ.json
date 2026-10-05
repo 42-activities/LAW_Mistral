@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Czech Republic for the avoidance of double taxation (1997, as amended by Protocol 2013; modified by MLI)",
+ "signed": "1997-11-21",
+ "entry_into_force": "1998-08-21",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-czech-republic-dta-(ratified)(mli)(1-sep-2020).pdf?sfvrsn=8b48a465_9",
+ "eif_quote": "Date of Conclusion: 21 November 1997. Entry into Force: 21 August 1998. Effective Date: 1 January 1999. NOTE: A Protocol signed on 26 June 2013 entered into force on 12 September 2014. ... The provisions of the other Articles of this Protocol shall take effect from 1 January 2015.",
+ "source_title": "IRAS consolidated text: Singapore-Czech Republic DTA (ratified)(MLI)(1 Sep 2020), incl. Annex A MLI effects and Annex B 2013 Protocol",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-czech-republic-dta-(ratified)(mli)(1-sep-2020).pdf?sfvrsn=8b48a465_9",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) as replaced by Protocol 2013 Art. 6",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties, except in the case of payments of the kind referred to in sub-paragraph a) of paragraph 3, may also be taxed in the Contracting State in which they arise ... the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in sub-paragraph b) of paragraph 3; (b) 10 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in sub-paragraph c) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (replacing para (b) of Article 11 of the 2013 Protocol); art. 7(4) also applies",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-czech-republic-dta-(ratified)(mli)(1-sep-2020).pdf?sfvrsn=8b48a465_9",
+  "quote": "(b) notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 3(a): taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "Royalties from 2015-01-01 (Protocol 2013, Art. 12(2)(a) Czech WHT effect from 1 Jan of year following EIF 12-09-2014): copyright royalties (literary/artistic/scientific works, films, excluding software) taxable only in residence State (0%); equipment rentals 5%; patents, trade marks, designs, secret formulas, software and know-how 10% (modelled as general tier). Before 2015 the original Art. 12(2) imposed 10% on all royalties. Interest exemption (residence-only) is in the original 1997 Agreement; Protocol Art. 5 only added definitional sentences. Dividend valid_from = Czech WHT effective 1 Jan 1999; Singapore side YA 2000. MLI Art. 8 not applied. Government exemptions not modelled.",
+ "confidence": "high",
+ "unverified": []
+}

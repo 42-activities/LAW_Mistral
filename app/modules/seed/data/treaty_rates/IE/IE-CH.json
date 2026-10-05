@@ -1,0 +1,67 @@
+{
+ "a": "IE",
+ "b": "CH",
+ "treaty_name": "Convention between Ireland and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income and on capital (1966, as amended 1980, 2012 and 2019)",
+ "signed": "1966-11-08",
+ "entry_into_force": "1968-02-16",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1968/447_471_471",
+ "eif_quote": "Fedlex SPARQL (SR 0.672.944.11): jolux:dateDocument 1966-11-08; jolux:dateEntryInForce 1968-02-16. Protocol of 26 January 2012 (AS 2013 774): dateEntryInForce 2013-11-14; Protocol of 13 June 2019 (AS 2020 830): dateEntryInForce 2020-10-21.",
+ "source_title": "Revenue.ie: Ireland-Switzerland Convention 1966 and Protocols 1980, 2012, 2019",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/switzerland.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(3)(a) (as replaced by Protocol 2012, Art. II)",
+   "valid_from": "2014-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, the Contracting State of which the company is a resident shall exempt from tax dividends paid by that company, if the beneficial owner of the dividends is a) a company (other than a partnership) which is a resident of the other Contracting State which holds directly at least 10 per cent of the capital in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2) (as replaced by Protocol 2012, Art. II)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1965-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(1)",
+   "valid_from": "1965-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 27A (Protocol 2019, Art. VII)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/switzerland-protocol-3.pdf",
+  "quote": "Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Not an MLI covered tax agreement; PPT inserted bilaterally as Art. 27A by the 2019 Protocol (in force 2020-10-21; effective for WHT on amounts paid or credited from 1 Jan 2021). Dividends 0% also for pension schemes and the central bank (Art. 9(3)(b),(c)) - not modelled. 2012 Protocol in force 2013-11-14, WHT effect from 1 Jan of following year (2014-01-01). Interest and royalty exclusivity unchanged since the 1966 text (effective in Switzerland for fiscal years from 1 Jan 1965). No minimum holding period in the 10% tier.",
+ "confidence": "high",
+ "unverified": []
+}

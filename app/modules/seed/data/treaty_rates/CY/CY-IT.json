@@ -1,0 +1,69 @@
+{
+ "a": "CY",
+ "b": "IT",
+ "treaty_name": "Convention between Cyprus and Italy for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1974, as amended by the Protocols of 1980 and 2009)",
+ "signed": "1974-04-24",
+ "entry_into_force": "1983-06-09",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Italy Original 24-04-1974 09-06-1983 ... 07-10-1980 09-06-1983 ... 04-06-2009 23-11-2010 (Cyprus MLI position, Article 2 list: signature / entry into force of the Convention and its amending instruments)",
+ "source_title": "Cyprus–Italy DTC 1974 with Protocol, 1980 amending Protocol and 2009 Additional Protocol, English text (Official Gazettes of Cyprus 1980/1982/2010, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/italy_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1970-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "(b) As respects Italy: Dividends paid by a company which is a resident of Italy to a resident of Cyprus may be taxed in Italy but the tax so charged shall not exceed 15 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1970-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CY",
+   "quote": "(a) As respects Cyprus: Dividends paid by a company which is a resident of Cyprus to a resident of Italy shall be exempt from any tax in Cyprus which is chargeable on dividends in addition to the tax chargeable in respect of the profits or income of the company;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 percent of the amount of the interest. The competent authorities of the Contracting States shall by mutual agreement settle the mode of application of this limitation."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1970-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.gov.cy/media/sites/11/2024/03/italy_en.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends are asymmetric: Italy may tax Italian-source dividends to Cypriot residents at up to 15% (single tier, no participation tier); Cyprus exempts Cypriot-source dividends to Italian residents from any dividend tax beyond corporate tax. Protocol (1974): if Cyprus in a convention concluded after 1.1.1970 reduces corporate tax on profits relating to dividends paid to residents of another State, Art. 10(1)(a) ceases and the reduction extends to Italy — not modelled. Art. 28(2): Convention has effect in Cyprus for years of assessment commencing on 1 January 1970 and in Italy for taxable periods commencing on or after 1 January 1970 (retroactive) -> valid_from 1970-01-01. The 1980 Protocol (signed 7.10.1980, EIF 9.6.1983) amended Arts. 2, 23, 28 and added Art. 27bis (refund of WHT); the 2009 Additional Protocol (signed 4.6.2009, EIF 23.11.2010) amended Arts. 2, 3, 23 and 26 (exchange of information) — neither amends Arts. 10-12 (2009 Protocol read in English; 1980 Protocol articles read in English). Italy is not an MLI Party -> no MLI PPT; no treaty PPT found. Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "The Greek-language 2009 additional protocol file (italy-new.pdf) was not separately read; the English text of the 2009 Additional Protocol in italy_en.pdf was used."
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "a": "MT",
+ "b": "CH",
+ "treaty_name": "Convention between Malta and the Swiss Confederation for the Avoidance of Double Taxation with respect to Taxes on Income (2011, as amended 2020)",
+ "signed": "2011-02-25",
+ "entry_into_force": "2012-07-06",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.136/eng",
+ "eif_quote": "that the Convention has entered into force on the 6th July 2012.",
+ "source_title": "S.L. 123.136 Double Taxation Relief (Taxes on Income) (The Swiss Confederation) Order (consolidated incl. 2020 Protocol, L.N. 198 of 2021)",
+ "source_url": "https://legislation.mt/eli/sl/123.136/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(ii)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "CH",
+   "quote": "Notwithstanding the provisions of clause (i), dividends beneficially owned by a company (other than a partnership) the capital of which is wholly or partly divided into shares and which holds directly at least 10 per cent of the capital of the company paying the dividends for at least one year, shall be exempt from Swiss tax if both companies are subject to and not exempted from the taxes covered by Article 2, if under any double taxation agreement with any third State neither company is a resident for tax purposes of such third State and if both companies have adopted the form of a limited company."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CH",
+   "quote": "In the case of dividends paid by a company which is a resident of Switzerland, the Swiss tax so charged shall, without affecting the taxation of the Swiss company in respect of profits out of which the dividends are paid, not exceed: (i) 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(4)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, interest arising in a Contracting State and paid between associated companies shall not be subject to taxation in the source State, where: - such companies are affiliated by a direct minimum holding of 10 per cent for at least one year or are both held by a third company which has directly a minimum holding of 10 per cent both in the capital of the first company, and in the capital of the second company for at least one year; and - such companies are resident in a Contracting State; and - under any double taxation agreement with any third State none of the companies is resident in that third State; and - all companies are subject to corporation tax without being exempted in particular on interest payments and each adopts the form of a limited company."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 23 (as replaced by Art. IV of the 2020 Protocol)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/481/20211103/de/html/fedlex-data-admin-ch-eli-cc-2012-481-20211103-de-html-3.html",
+  "quote": "Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Effective for taxes withheld at source on amounts paid/credited from 1 Jan of the year after EIF (Art. 28(2)(a)) -> 2013-01-01. Malta-source dividends (Art. 10(2)(a)): Malta tax 'shall not exceed the tax chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled. Swiss 0% dividend tier conditions: company with share capital (not partnership), >=10% capital directly for at least one year, both companies subject to and not exempt from covered taxes, neither resident in a third State under another DTA, both limited companies. Interest: 0% between associated companies (10% direct holding for one year or common 10% parent, plus subject-to-tax/no-third-State-residence/limited-company conditions, Art. 11(4)); also taxable only in residence State for interest on credit sales of equipment or merchandise and on any bank loan (Art. 11(3)). 2020 Protocol (signed 2020-07-16, in force 2021-11-03 per fedlex: 'in Kraft seit 3. Nov. 2021 (AS 2021 754)') replaced preamble and Art. 23 with a PPT; WHT effect from 1 Jan 2022 (Protocol Art. VI(2)(a)). Not a covered tax agreement under the MLI (Switzerland does not list Malta). Original Art. 23 was an 'Anti-abuse' article (text not reviewed).",
+ "confidence": "high",
+ "unverified": []
+}

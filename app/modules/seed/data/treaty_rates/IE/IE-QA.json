@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of Ireland and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2012), as modified by the MLI",
+ "signed": "2012-06-21",
+ "entry_into_force": "2013-12-13",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Qatar Original 21-06-2012 13-12-2013",
+ "source_title": "Revenue: Synthesised text of the MLI and the Ireland-Qatar DTA; Ireland-Qatar DTA (qatar.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/q/synthesised-text-of-the-mli-and-the-ireland-qatar-double-taxation-agreement.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/q/synthesised-text-of-the-mli-and-the-ireland-qatar-double-taxation-agreement.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Art. 28: EIF on receipt of later notification (2013-12-13); effect for WHT on amounts paid/credited on/after 1 Jan 2014 (Qatar), Ireland from year of assessment / financial year beginning on/after 1 Jan 2014. Protocol ad Art. 11: interest exemption does not apply where payer and beneficial owner are associated (incl. back-to-back) and the residence State treats the interest as foreign-source and exempt, with carve-outs for banks, pensions, credit sales and bona fide treasury/cash pooling - not modelled (source State may then tax under domestic law). Protocol ad Art. 4: Irish CCF treated as transparent; recognised pension funds/CIUs treated as residents. MLI WHT effect from 2021-01-01 (synthesised text).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,80 @@
+{
+ "a": "CY",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Hungarian People's Republic and the Government of the Republic of Cyprus for the avoidance of double taxation with respect to taxes on income and on capital (1981)",
+ "signed": "1981-11-30",
+ "entry_into_force": "1982-11-24",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Hungary ... Original 30-11-1981 24-11-1982 (Cyprus MLI position, Article 2 list: date of signature, date of entry into force)",
+ "source_title": "Cyprus–Hungary DTC 1981 with Protocol, English text (Official Gazette of Cyprus No. 862, 7.5.1982, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/hungary_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "HU",
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the recipient is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HU",
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1983-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CY",
+   "quote": "3. In the case of Cyprus, however, dividends paid by a company which is a resident of Cyprus to a resident of the Hungarian People's Republic shall be exempt from any tax in Cyprus which may be chargeable on dividends in addition to the tax chargeable on the profits or income of the company."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, interest derived from one of the Contracting States by a resident of the other Contracting State who is the beneficial owner thereof, may also be taxed in the first-mentioned Contracting State at a rate not exceeding 10 per cent of the gross amount thereof."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the recipient of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: Art. 10(2) caps (5% at >=25% direct holding / 15%) are general but Art. 10(3) exempts Cyprus-source dividends paid to Hungarian residents from any Cyprus tax on dividends in addition to corporate tax -> modelled as 5/15 with source_state HU and 0% with source_state CY. Interest: exemptions (Art. 11(3)) for interest derived by the other State's Government, political subdivisions, local authorities, Central Bank or wholly government-owned financial institutions, or on debt-claims guaranteed/indirectly financed by them, and (Art. 11(4)) on loans in the form of deferred payments — not modelled. Art. 29(2)(a): WHT provisions apply to income derived on or after 1 January of the calendar year next following the year of the latter notification; EIF 24.11.1982 is 60 days after that notification (i.e. given in 1982) -> valid_from 1983-01-01. Treaty uses 'recipient' rather than 'beneficial owner' in Arts. 10 and 12. Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "Date of the latter notification (inferred to be in 1982 from EIF 24.11.1982 = notification + 60 days)."
+ ]
+}

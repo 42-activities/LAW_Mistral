@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "IL",
+ "treaty_name": "Convention between Switzerland and the State of Israel for the avoidance of double taxation with respect to taxes on income and on capital (2003)",
+ "signed": "2003-07-02",
+ "entry_into_force": "2003-12-22",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2004/115/de",
+ "eif_quote": "In Kraft getreten durch Notenaustausch am 22. Dezember 2003",
+ "source_title": "SR 0.672.944.91 Abkommen CH-IL vom 2.7.2003 (consolidated, Stand 28.4.2015)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/115/20150428/de/html/fedlex-data-admin-ch-eli-cc-2004-115-20150428-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Dividenden ist, nicht übersteigen: ... c) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Zinsen ist, nicht übersteigen: ... b) 10 Prozent des Bruttobetrags der Zinsen in allen anderen Fällen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Lizenzgebühren ist, 5 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered; no treaty PPT found)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Applies retroactively to WHT on amounts paid or credited on/after 1 Jan 2002 (Art. 28(2)(a)). Not modelled: Art. 10(2)(b) - 10% (instead of 5%) where the >=10% corporate holder receives dividends from an Israeli-resident company paid out of profits taxed in Israel below the ordinary Israeli corporate tax rate (effectively applies only to Israeli-source dividends); interest 5% for loans granted by a bank of the other State (Art. 11(2)(a)); interest exempt for credit sales of equipment/goods (Art. 11(3)) and for loans by the government, subdivisions, central bank or designated government financial institutions (Art. 11(4)). No amending protocol in force per Fedlex (consolidation Stand 28.4.2015); treaty map notes a protocol initialled only. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

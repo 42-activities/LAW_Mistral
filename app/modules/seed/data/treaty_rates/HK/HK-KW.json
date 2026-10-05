@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "KW",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the State of Kuwait for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2010)",
+ "signed": "2010-05-13",
+ "entry_into_force": "2013-07-24",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Kuwait | 13.05.2010 | 17.04.2012 | 24.07.2013 | Year of Assessment 2014/2015 | BZ | Pending | Pending",
+ "source_title": "Cap. 112BZ Inland Revenue (Double Taxation Relief and Prevention of Fiscal Evasion with respect to Taxes on Income) (State of Kuwait) Order, Schedule Part 1 (HK e-Legislation)",
+ "source_url": "https://www.elegislation.gov.hk/hk/cap112BZ!en",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "five per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting Party in which it arises and according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed five per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed five per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.elegislation.gov.hk/hk/cap112BZ!en",
+  "quote": "Nothing in this Agreement shall prejudice the right of each Contracting Party to apply its domestic laws and measures concerning tax avoidance, whether or not described as such."
+ },
+ "notes": "Dividends Art. 10(2)(a): 0% where the beneficial owner is the Government of the other Party or any of its institutions or other entity wholly-owned directly by that Government - government tier, not modelled. Interest Art. 11(3): exempt at source when paid to the HKSAR Government, HKMA, HKSAR statutory institutions or entities wholly capitalised by them; or to the Government of Kuwait, Kuwaiti public-law governmental institutions (incl. Central Bank) or entities wholly capitalised by them - not modelled. No PPT: the MLI does not yet apply (Kuwait signatory, not a Party; HK IRD MLI columns 'Pending'); treaty has only the domestic anti-avoidance saving clause Art. 26(1) (quoted). valid_from = Kuwaiti side Art. 27(2)(b): taxable periods beginning on or after 1 April of the year after EIF (EIF 24 Jul 2013 -> 2014-04-01); HKSAR: YA from 1 April 2014.",
+ "confidence": "high",
+ "unverified": []
+}

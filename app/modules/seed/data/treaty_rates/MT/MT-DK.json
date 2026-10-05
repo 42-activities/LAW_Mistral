@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "DK",
+ "treaty_name": "Convention between the Government of the Republic of Malta and the Government of the Kingdom of Denmark for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1998)",
+ "signed": "1998-07-13",
+ "entry_into_force": "1998-12-28",
+ "eif_source_url": "https://info.skat.dk/data.aspx?oid=2083385&vid=221020",
+ "eif_quote": "DBO | 13.07.1998 | L 102 af 25.11.1998 | Lov nr. 1030 af 23.12.1998 | BKI nr. 6 af 22.02.1999 | 28.12.1998 | Virkning 01.01.1999",
+ "source_title": "S.L. 123.47 Double Taxation Relief on Taxes on Income with the Kingdom of Denmark Order (Schedule: 1998 Convention)",
+ "source_url": "https://legislation.mt/eli/sl/123.47/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1999-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "DK",
+   "quote": "where the dividends are paid by a company which is a resident of Denmark to a resident of Malta which is the beneficial owner thereof, the Danish tax so charged shall not exceed: (i) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds and has held directly at least 25 per cent of the capital of the company paying the dividends for a twelve month period prior to the date the dividends are declared;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "1999-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DK",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in Denmark for income years following the year of EIF (Art. 30(2)) -> 1999-01-01. Malta-source dividends (Art. 10(2)(b)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled. 0% Danish tier: company (not partnership) holding directly >=25% of capital for 12 months prior to declaration (modelled as 365 days). Art. 10(6): refund claims within 4 years. Treaty contains main-purpose anti-abuse rules in Arts 10(7), 11(5), 12(5); Malta notified these under MLI Art. 7(17)(a) as provisions replaced by the MLI PPT. MLI: covered by both; Malta reserved Art. 8; PPT effective for WHT from 2020-01-01 (later MLI EIF 2020-01-01).",
+ "confidence": "high",
+ "unverified": []
+}

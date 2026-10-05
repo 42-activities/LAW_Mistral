@@ -1,0 +1,70 @@
+{
+ "a": "IE",
+ "b": "DE",
+ "treaty_name": "Agreement between Ireland and the Federal Republic of Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011, as amended 2014 and 2021)",
+ "signed": "2011-03-30",
+ "entry_into_force": null,
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
+ "eif_quote": "Irland 30.03.2011/ 03.12.2014/ 19.01.2021 (Bekanntmachung der Neufassung 31.03.2025) ... 01.01.2013 01.01.2016 01.01.2022",
+ "source_title": "Ireland-Germany DTA 2011 with Protocol, Protocol of 3 December 2014 and Protocol of 19 January 2021 (revenue.ie)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/g/germany-2011.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as replaced by Article III of the 2021 Protocol)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "“a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership or a Real Estate Investment Trust Company) which holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends);”"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 29A (inserted by Article V of the 2021 Protocol)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/g/germany-protocol-2021.pdf",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "2011 Agreement (Art. 32) effective for WHT on amounts paid on or after 1 January of the year after EIF; BMF list gives application from 01.01.2013. The 5% tier applied from 2013-01-01 without holding period under the original Art. 10(2)(a) (which excluded a 'German Real Estate Investment Trust Company'); the 2021 Protocol (applies from 01.01.2022 per BMF and Art. VII) replaced it adding a 365-day holding requirement. 2014 Protocol (applies 01.01.2016) did not change Arts. 10-12. 2011 Protocol para. 3: dividends and interest from profit-participating rights/debt claims (silent partnerships, partiarische Darlehen, Gewinnobligationen) that are deductible for the debtor may be taxed at source under domestic law without treaty limit (not modelled). Protocol para. 4: royalty article renegotiation clause if Irish s.234 patent exemption expands. MLI not applicable (neither party lists this treaty); PPT is inserted directly into the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "exact entry-into-force date of the 2011 Agreement (2012, given application from 01.01.2013) not found in an official text read; left null",
+  "exact EIF date of the 2021 Protocol (2021) not verified; application date 01.01.2022 from BMF list"
+ ]
+}

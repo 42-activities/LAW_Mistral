@@ -1,0 +1,67 @@
+{
+ "a": "IE",
+ "b": "PL",
+ "treaty_name": "Agreement between Ireland and the Republic of Poland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1995), as modified by the MLI",
+ "signed": "1995-11-13",
+ "entry_into_force": "1995-12-22",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Poland Original 13-11-1995 22-12-1995",
+ "source_title": "Revenue: Ireland-Poland DTA (poland.pdf) and Synthesised text of the MLI and the Ireland-Poland DTA",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/p/poland.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Subject to paragraph 3, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3) (numbered 10(4) in Revenue's base PDF) as modified by MLI Art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State shall be exempt from any tax on dividends in that State if the beneficial owner of the dividends is a company which is a resident of the other Contracting State and holds directly at least 25 per cent of the voting power of the company paying the dividends. [MLI Art. 8(1):] Paragraph 3 of Article 10 of the Agreement shall apply only if the ownership conditions described in that provision are met throughout a 365 day period that includes the day of the payment of the dividends"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, interest referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the royalties referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/p/synthesised-text-mli-ireland-poland-dta.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Art. 29: effect in Poland for WHT on income derived on/after 1 Jan of year following EIF (1996-01-01); in Ireland for corporation tax from financial year beginning 1 Jan 1996, income tax from 6 April 1996. 25% dividend exemption tier (voting power, held directly) existed since 1996; 365-day holding requirement added by MLI Art. 8 with effect for WHT events on/after 2020-01-01 (synthesised text). Interest exclusive to residence State (0%) when paid on credit sales of equipment/merchandise or on any loan granted by a bank (Art. 11(3)) - not modelled. Fees for technical services taxable only in residence State (Art. 12(2)(b)).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,69 @@
+{
+ "a": "NL",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1991)",
+ "signed": "1991-06-18",
+ "entry_into_force": "1992-08-12",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1992-107.html",
+ "eif_quote": "De bepalingen van de Overeenkomst en het Protocol zullen ingevolge artikel 32, eerste lid, van de Overeenkomst, juncto het gestelde in de preambule tot het Protocol op 12 augustus 1992 in werking treden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0004767 (English authentic text; Dutch is a translation)",
+ "source_url": "https://wetten.overheid.nl/BWBV0004767/1992-08-12",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "1993-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends the dividends should be exempt from tax in the Contracting State of which the company paying the dividends is a resident."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first sentence",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1993-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1993-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace:"
+ },
+ "notes": "Art. 32(1): provisions have effect for taxable years and periods beginning on or after 1 January of the year following EIF (12-08-1992) -> 1993-01-01 (no separate WHT clause). Interest definition (Art. 11(2)) excludes debt-claims carrying a right to participate in profits; such income falls under Art. 10(3) 'dividends'. MLI: both Parties list the treaty, but Sweden made an Art. 35(7)(a) reservation and no Art. 35(7)(b) notification for this treaty is recorded (treaty map: MLI not yet in effect; NL MLI overview 1 July 2026 'nu nog niet van toepassing'), so the MLI PPT does not yet apply; Sweden also reserved the entirety of MLI Art. 8. New NL-SE Convention signed 24-06-2026 (Trb. 2026, 72; wetten BWBV0007160) - not in force on 2026-10-05: Trb. 2026, 72 states it enters into force 'op de laatste dag van de maand die volgt op de maand waarin de laatste van de kennisgevingen is ontvangen' and no EIF publication is recorded in the BWB WTI. When it takes effect it terminates the 1991 Convention (its Art. 29); its rates are not modelled here.",
+ "confidence": "high",
+ "unverified": [
+  "Absence of a Swedish Art. 35(7)(b) notification for the NL treaty taken from treaty map (OECD status 15-09-2026), not re-checked here."
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "CH",
+ "b": "IT",
+ "treaty_name": "Convention between Switzerland and the Italian Republic for the avoidance of double taxation and the settlement of certain other questions with respect to taxes on income and on capital (1976, as amended 1978, 2015, 2020)",
+ "signed": "1976-03-09",
+ "entry_into_force": "1979-03-27",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1979/461_461_461/de",
+ "eif_quote": "In Kraft getreten am 27. März 1979",
+ "source_title": "SR 0.672.945.41 Abkommen CH-IT vom 9.3.1976 (consolidated, Stand 17.7.2023)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/461_461_461/20230717/de/html/fedlex-data-admin-ch-eli-cc-1979-461_461_461-20230717-de-html-2.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Dividenden nutzungsberechtigt ist, 15 vom Hundert des Bruttobetrages der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch in dem Vertragsstaat aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Zinsen nutzungsberechtigt ist, 12,5 vom Hundert des Betrages der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren nutzungsberechtigt ist, 5 vom Hundert des Bruttobetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy not an MLI Party; Art. 23 is a specific anti-abuse rule, not a PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Rate articles unchanged since the original text; Art. 30(2)(a): WHT on income payable on/after 1 Jan 1979. No reduced intercompany dividend tier in the treaty itself (participation relief between CH and EU States arises under the separate CH-EU agreement, not modelled here). Art. 23: relief under Art. 10-12 for a legal person predominantly held by non-residents only if debt-to-equity and other expense conditions are met (specific anti-abuse rule; Switzerland notified it under MLI Art. 7(17)(a) but Italy is not an MLI Party). Protocols of 2015 (information exchange) and 23 Dec 2020 (in force 17.7.2023; cross-border workers) do not change Art. 10-12.",
+ "confidence": "high",
+ "unverified": []
+}

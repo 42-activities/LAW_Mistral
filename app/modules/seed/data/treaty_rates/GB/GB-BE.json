@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "BE",
+ "treaty_name": "Convention between the United Kingdom and Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1987, as amended 2009)",
+ "signed": "1987-06-01",
+ "entry_into_force": "1989-10-21",
+ "eif_source_url": "https://www.gov.uk/government/publications/belgium-tax-treaties",
+ "eif_quote": "The Double Taxation Convention between the UK and Belgium was entered into force on 21 October 1989.",
+ "source_title": "Synthesised text of the MLI and the 1987 UK-Belgium Double Taxation Convention (as amended by the 2009 protocol) — gov.uk",
+ "source_url": "https://www.gov.uk/government/publications/belgium-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-1987-uk-belgium-double-taxation-convention-as-amended-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2013-04-06",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2 of this Article, dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is: a) a company which is a resident of the other Contracting State and which holds, for an uninterrupted period of at least twelve months, shares representing directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/belgium-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-1987-uk-belgium-double-taxation-convention-as-amended-in-force",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Rates as amended by the 2009 Protocol (gov.uk calls it the 2012 protocol), effective in Belgium from 1 January 2013 and in the UK from 1 April 2013 (corporation tax) / 6 April 2013 (income tax); valid_from = the later date. Interest: 0% (Art. 11(3)) for interest on a loan of any nature granted or credit extended by an enterprise to another enterprise, interest paid to a pension scheme, and interest paid to the other State/political subdivisions/local authorities/public entities — the enterprise-to-enterprise exemption is broad but cannot be expressed as an ownership tier, so the 10% general cap is the only modelled interest tier. Dividends: 0% also for pension schemes (Art. 10(3)(b)); up to 15% for dividends from exempt immovable-property investment vehicles (Art. 10(4)), overriding the 0% company tier. MLI: PPT (Art. 7(1), with Art. 7(4)) replaces the main-purpose clauses in Arts. 10(8), 11(8), 12(6); MLI effective for WHT from 1 January 2020 per synthesised text. MLI Art. 8 (365-day dividend holding period) does not appear in the synthesised text (not applicable). The 2014 Second Protocol (signed 13 March 2014) has not entered into force per gov.uk.",
+ "confidence": "high",
+ "unverified": []
+}

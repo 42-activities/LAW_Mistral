@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the Kingdom of Bahrain for the avoidance of double taxation with respect to taxes on income (2015)",
+ "signed": "2015-03-09",
+ "entry_into_force": "2016-04-26",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Kingdom of Bahrain ... Original 09-03-2015 26-04-2016 (Cyprus MLI position, Article 2 list: date of signature, date of entry into force)",
+ "source_title": "Cyprus–Bahrain DTA 2015, English text (Official Gazette of Cyprus No. 4193, 20.3.2015, Part VII, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/8.-μπαχρειν-eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt–claims arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "All three categories exclusive to the residence State. Article 11 is titled 'Income from debt-claims'. Art. 26(2): WHT provisions have effect for amounts paid or credited on or after 1 January next following EIF (26.4.2016) -> 2017-01-01. Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": []
+}

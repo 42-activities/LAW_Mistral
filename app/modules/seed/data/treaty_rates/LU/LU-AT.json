@@ -1,0 +1,69 @@
+{
+ "a": "LU",
+ "b": "AT",
+ "treaty_name": "Abkommen zwischen dem Großherzogtum Luxemburg und der Republik Österreich zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (1962, i.d.F. der Protokolle 1992 und 2009 und durch das MLI)",
+ "signed": "1962-10-18",
+ "entry_into_force": "1964-02-07",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1963-46-fr-pdf.pdf",
+ "eif_quote": "Artikel 27. Dieses Abkommen soll ratifiziert werden und die Ratifikationsurkunden sollen so bald wie möglich in Wien ausgetauscht werden; es tritt mit dem Austausch der Ratifikationsurkunden in Kraft. Artikel 28. Nach Austausch der Ratifikationsurkunden finden die Bestimmungen des Abkommens für die Steuerjahre Anwendung, die am oder nach dem 1. Januar 1961 beginnen.",
+ "source_title": "AT–LU DBA 1962 – Generierter Text MLI (ACD Luxembourg, 16/10/2020); original text Mémorial A n° 46 de 1963",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/osterreich-mli-de.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Abs. 2 lit. a",
+   "valid_from": "1961-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 v. H. des Bruttobetrages der Dividenden, wenn der Empfänger eine Gesellschaft (ausgenommen eine Personengesellschaft) ist, die unmittelbar über mindestens 25 v. H. des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Abs. 2 lit. b",
+   "valid_from": "1961-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 v. H. des Bruttobetrages der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 Abs. 1",
+   "valid_from": "1961-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Bezieht eine Person mit Wohnsitz in einem der beiden Vertragstaaten aus dem anderen Vertragstaat Zinsen, so hat nur der Vertragstaat das Besteuerungsrecht, in dem diese Person ihren Wohnsitz hat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 9 Abs. 2",
+   "valid_from": "1961-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Lizenzgebühren im Sinne des Absatzes 1, die von einer Kapitalgesellschaft mit Wohnsitz in einem der beiden Vertragstaaten an eine Person mit Wohnsitz im anderen Vertragstaat bezahlt werden, die zu mehr als 50 v. H. am Grund- oder Stammkapital der auszahlenden Kapitalgesellschaft beteiligt ist, können abweichend von den Bestimmungen des Absatzes 1 in dem erstgenannten Vertragstaat besteuert werden; die Steuer darf jedoch 10 v. H. des Rohbetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/osterreich-mli-de.pdf",
+  "quote": "Der folgende Absatz 1 des Artikels 7 des MLI ist anzuwenden und geht den Bestimmungen dieses Abkommens vor: ... Ungeachtet der Bestimmungen dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht ... gewährt, wenn ... (im Abzugsweg erhobene Steuern: am oder nach dem 1. Januar 2020 in beiden Staaten)"
+ },
+ "notes": "Royalties are in Art. 9 (not 12): exclusive residence taxation, BUT royalties paid by a company to a person holding MORE THAN 50% of its capital may be taxed at source up to 10% (tier modelled with ownership_threshold 50; strictly '>50%'). Art. 10(5): source State may withhold at full domestic rate and refund the excess on application within two years (refund mechanism). Art. 11(2) applies Art. 10(5)-(8) to interest. 1992 Protocol only amended Art. 10(4) and 19(3) (residence-State participation exemption), effective from tax years beginning 1 Jan of year after its EIF; rates in Art. 10(2) unchanged since 1962. EIF date from treaty-map dataset (exchange of ratifications). [curated: dropped ROYALTY tier — exempt only below a 50% holding; the 10% tier is the conservative general rate for group payments]",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 1964-02-07 (from treaties_merged.json)"
+ ]
+}

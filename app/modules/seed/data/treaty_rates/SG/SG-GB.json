@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "GB",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation (1997, as amended by Protocols 2009 and 2012; modified by MLI)",
+ "signed": "1997-02-12",
+ "entry_into_force": "1997-12-19",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/second-protocol-amending-singapore-united-kingdom-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=f325c010_15",
+ "eif_quote": "NOTE: The Protocol signed on 15 February 2012 has entered into force on 27 December 2012 and its provisions shall take effect from 1 April/6 April 2013 (UK); 1 January 2013 (Singapore).",
+ "source_title": "IRAS text: Singapore-United Kingdom DTA (1997) with Annex A MLI effects, Annex B Second Protocol (2012), Annex C Protocol (2009) (19 Jul 2021 upload)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/second-protocol-amending-singapore-united-kingdom-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=f325c010_15",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1) as replaced by Second Protocol 2012 Art. IV",
+   "valid_from": "2013-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“1. Subject to the provisions of paragraph 2 of this Article, dividends paid by a company which is a resident of a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other Contracting State.”"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) as replaced by Second Protocol 2012 Art. V",
+   "valid_from": "2013-04-06",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 5 per cent of the gross amount of interest.”"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as replaced by Second Protocol 2012 Art. VI",
+   "valid_from": "2013-04-06",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 8 per cent of the gross amount of the royalties.”"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 28A(1)); art. 7(4) as 28A(2)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/second-protocol-amending-singapore-united-kingdom-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=f325c010_15",
+  "quote": "(1) Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 9(c)(i): taxes withheld at source ... on or after 1 January 2020)"
+ },
+ "notes": "IRAS main text shows the original 1997 Articles 10-12 (div 5%/15%, interest 10%, royalties 10%); the Second Protocol (signed 15-02-2012, EIF 27-12-2012) replaced them. valid_from 2013-04-06 = UK income tax year (corporation tax: financial year from 1 Apr 2013; Singapore: 1 Jan 2013 per IRAS note / YA 2014). Not modelled: REIT dividends/distributions (UK REIT / PAIF, listed S-REIT) taxable at source up to 15% (Art. 10(2)); interest taxable only in residence State if beneficial owner is the Government, a bank or similar financial institution, or paid by a bank/financial institution (Art. 11(3)). MLI deleted the treaty main-purpose clauses Art. 10(7)-(8), 11(9)-(10), 12(8)-(9) and replaced them with the PPT. MLI Art. 8 not applied. Royalty definition excludes equipment rentals after 2012 Protocol.",
+ "confidence": "high",
+ "unverified": []
+}

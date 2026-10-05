@@ -1,0 +1,89 @@
+{
+ "a": "NL",
+ "b": "ES",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Government of the Spanish State for the avoidance of double taxation with respect to taxes on income and capital (1971)",
+ "signed": "1971-06-16",
+ "entry_into_force": "1972-09-20",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1972-141.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 32, tweede lid, van de Overeenkomst, juncto het gestelde in de inleidende alinea van het Protocol, op 20 september 1972 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003462 (Dutch text; English prevails in case of divergence; Trb. 1971, 144)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003462/1972-09-20",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1972-10-20",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter in de Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven belasting mag 15 percent van het bruto-bedrag van de dividenden niet overschrijden."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "1972-10-20",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "de Nederlandse belasting op dividenden betaald door een lichaam dat inwoner is van Nederland aan een lichaam waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld en dat inwoner is van Spanje, 5 percent van het bruto-bedrag van de dividenden niet overschrijden: 1) indien het ontvangende lichaam 50 percent of meer bezit van het kapitaal van het lichaam dat de dividenden betaalt"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b)",
+   "valid_from": "1972-10-20",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": "ES",
+   "quote": "de Spaanse belasting op dividenden betaald door een lichaam dat inwoner is van Spanje aan een lichaam waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld en dat inwoner is van Nederland, 10 percent van het bruto-bedrag van de dividenden niet overschrijden: 1) indien het ontvangende lichaam 50 percent of meer bezit van het kapitaal van het lichaam dat de dividenden betaalt"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Protocol VII (ad Article 10(3)(b))",
+   "valid_from": "1972-10-20",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": "ES",
+   "quote": "Niettegenstaande de bepalingen van artikel 10, derde lid, letter b, mag de Spaanse belasting op dividenden als aldaar bedoeld 5 percent van het bruto-bedrag van de dividenden niet overschrijden, indien het ontvangende lichaam ter zake van die dividenden in Nederland geen vennootschapsbelasting verschuldigd is."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1972-10-20",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter in de Staat waaruit zij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven,belasting mag 10 percent van het bedrag van de interest niet overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1972-10-20",
+   "max_rate": "6",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze royalty's mogen echter in de Staat waaruit zij afkomstig zijn, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven belasting mag 6 percent van het bruto-bedrag van de royalty's niet overschrijden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": ""
+ },
+ "notes": "Art. 32(3): provisions on dividends, interest and royalties apply to payments made on or after the 30th day after the exchange of instruments of ratification (exchange/EIF 1972-09-20 -> 1972-10-20). Reduced dividend tiers also apply at >=25% holding if at least one other company resident in the same State as the recipient also holds >=25% (Art. 10(3)(a)(2), (b)(2)) - not modelled. Protocol VII 5% Spanish rate applies (to the Art. 10(3)(b) case) only where the Dutch recipient company owes no Dutch corporate tax on those dividends (e.g. participation exemption) - modelled as a separate ES-source 5% tier with the same 50% threshold. Art. 13: international organisations/diplomats of third States not entitled to reductions. Royalties: Art. 12(4) lump-sum sale proceeds taxable only in residence State; Protocol XIV temporary 5% Spanish rate for contracts within 5 years of first application (expired). No PPT: the treaty is not a covered tax agreement under the MLI (neither NL nor ES lists it) and contains no PPT/LOB clause. Text consolidated on wetten.overheid.nl shows no amendments since 1972.",
+ "confidence": "high",
+ "unverified": []
+}

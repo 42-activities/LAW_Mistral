@@ -1,0 +1,70 @@
+{
+ "a": "LU",
+ "b": "SE",
+ "treaty_name": "Convention entre le Grand-Duché de Luxembourg et le Royaume de Suède tendant à éviter les doubles impositions et à prévenir l'évasion fiscale en matière d'impôts sur le revenu et sur la fortune (1996, telle que modifiée par le Protocole de 2010)",
+ "signed": "1996-10-14",
+ "entry_into_force": "1998-03-15",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1998-3-fr-pdf.pdf",
+ "eif_quote": "2. La Convention entrera en vigueur trente jours après la date de la dernière de ces notifications et s'appliquera: a) au Luxembourg: (i) en ce qui concerne les impôts retenus à la source, aux revenus attribués le ou après le premier janvier suivant immédiatement la date à laquelle la Convention entre en vigueur; ... b) en Suède: (i) en ce qui concerne les impôts sur le revenu, aux revenus attribués le ou après le premier janvier suivant immédiatement la date à laquelle la Convention entre en vigueur",
+ "source_title": "LU–SE Convention 1996 – Mémorial A n° 3 de 1998 (p. 30)",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1998-3-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Nonobstant les dispositions du paragraphe 2, les dividendes sont exemptés dans l'Etat contractant dont la société qui paie les dividendes est un résident, si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement durant une période ininterrompue de douze mois précédant la date du paiement de ces dividendes au moins 10 pour cent du capital de la société qui paie les dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces dividendes sont aussi imposables dans l'Etat contractant dont la société qui paie les dividendes est un résident, et selon la législation de cet Etat, mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les intérêts provenant d'un Etat contractant et payés à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat si ce résident en est le bénéficiaire effectif."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les redevances provenant d'un Etat contractant et payées à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat, si ce résident en est le bénéficiaire effectif."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://impotsdirects.public.lu/fr/conventions/luxembourg.html",
+  "quote": ""
+ },
+ "notes": "PPT not applied: both States list the treaty under the MLI, but Sweden made an Art. 35(7)(a) reservation and has not notified Art. 35(7)(b) completion for this treaty (treaty-map dataset / OECD status), so MLI provisions are not yet in effect; the LU ACD list shows no MLI synthesised text for Sweden. Dividend exemption (Art. 10(3)) requires 12-month uninterrupted direct holding of ≥10% and applies only to dividends on shares owned throughout that period (modelled as 365 days). Treaty replaced the 1983 LU–SE Convention. valid_from 1999-01-01 per Art. 30(2) (EIF 1998-03-15); the LU ACD list shows 'à partir du 01/01/2010' for this convention, which conflicts with the treaty text (possibly referring to the 2010 protocol, Art. 26). Art. 12(1) read from rendered page 39 (text layer incomplete).",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 1998-03-15 (from treaties_merged.json)",
+  "LU list applicability date 01/01/2010 conflicts with treaty effective-date clause"
+ ]
+}

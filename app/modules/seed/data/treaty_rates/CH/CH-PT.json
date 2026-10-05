@@ -1,0 +1,80 @@
+{
+ "a": "CH",
+ "b": "PT",
+ "treaty_name": "Convention between Switzerland and Portugal for the avoidance of double taxation with respect to taxes on income and on capital (1974, as amended 2012)",
+ "signed": "1974-09-26",
+ "entry_into_force": "1975-12-17",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1975/2457_2457_2457/de",
+ "eif_quote": "In Kraft getreten am 17. Dezember 1975",
+ "source_title": "SR 0.672.965.41 Abkommen CH-PT vom 26.9.1974 (consolidated, Stand 11.11.2014)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1975/2457_2457_2457/20141111/de/html/fedlex-data-admin-ch-eli-cc-1975-2457_2457_2457-20141111-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn die nutzungsberechtigte Person eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch im Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Dividenden berechtigte Person im anderen Vertragsstaat ansässig ist nicht übersteigen: ... b) 15 Prozent des Bruttobetrags der Dividenden in allen andern Fällen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "b) können Dividenden, die eine in einem Vertragsstaat ansässige Gesellschaft an eine im anderen Vertragsstaat ansässige Gesellschaft zahlt, nur im anderen Staat besteuert werden, wenn die Gesellschaft, welche die Dividenden erhält, direkt und während mindestens zwei Jahren mindestens 25 Prozent des Kapitals an der die Dividenden zahlenden Gesellschaft hält, beide Gesellschaften der Steuer unterstellt sind, ohne von einer Steuer nach Artikel 2 des Abkommens befreit zu sein, keine dieser Gesellschaften gemäss einem mit einem Drittstaat abgeschlossenen Doppelbesteuerungsabkommen in diesem Drittstaat ansässig ist und beide Gesellschaften die Rechtsform einer Kapitalgesellschaft aufweisen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staats besteuert werden; ist aber die zur Nutzung der Zinsen berechtigte Person im anderen Vertragsstaat ansässig, so darf die Steuer 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 5 vom Hundert des Bruttobetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/486/20230313/de/html/fedlex-data-admin-ch-eli-cc-2020-486-20230313-de-html-2.html",
+  "quote": "Die Schweiz ist durch die Bestimmungen des Multilateralen Übereinkommens ... in Bezug auf die folgenden Staaten und Gebiete gebunden, gemäss Artikel 35(7)(b) ...: Island, Litauen, Luxemburg, Tschechische Republik (Portugal not listed)"
+ },
+ "notes": "Art. 10 and 11 in the wording of the Protocol of 25 June 2012 (in force 21.10.2013; Art. XVIII(2): in Switzerland WHT on income due on/after 1 Jan of the year of entry into force, i.e. 1.1.2013; in Portugal for taxable events on/after 1.1.2013). Dividend 0% (Art. 10(3)(b)) requires direct >=25% for >=2 years, both companies subject to and not exempt from tax, neither resident in a third State under a DTA, both in corporate form; 0% also for Banco de Portugal / SNB (Art. 10(3)(a)). Interest exempt for payments by/to the State, subdivisions, local authorities, central bank (Art. 11(3)). Royalty 5% original 1974 text (Art. 28: Swiss WHT on income payable after 31 Dec of the EIF year 1975). Art. 27 (2012 wording): domestic anti-abuse rules apply; benefits denied to non-beneficial owners; treaty not applicable to a person creating/assigning an asset or right primarily to obtain treaty benefits - not a full PPT. MLI: both list the treaty, but Switzerland reserved Art. 35(7) and has not notified completion for Portugal (Fedlex MLI Geltungsbereich, Stand 13.3.2023: only IS, LT, LU, CZ), so MLI PPT not yet effective.",
+ "confidence": "high",
+ "unverified": [
+  "Art. 35(7)(b) notification status for PT after 13.3.2023"
+ ]
+}

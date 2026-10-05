@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "CZ",
+ "treaty_name": "Convention between the United Kingdom and the Czech and Slovak Federal Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1990)",
+ "signed": "1990-11-05",
+ "entry_into_force": "1991-12-20",
+ "eif_source_url": "https://www.gov.uk/government/publications/czech-republic-tax-treaties",
+ "eif_quote": "The UK-Czechoslovakia Double Taxation Convention entered into force on 20 December 1991. It continues to apply to the Czech Republic and the Slovak Republic.",
+ "source_title": "2021 UK-Czech Republic Synthesised text of the MLI and the 1990 Double Taxation Convention — gov.uk",
+ "source_url": "https://www.gov.uk/government/publications/czech-republic-tax-treaties/2021-uk-czech-republic-synthesised-text-of-the-multilateral-instrument-and-the-1990-double-taxation-convention-as-it-applies-to-the-czech-republic-i",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1992-04-06",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent. of the gross amount of the dividends if the recipient is a company which controls at least 25 per cent. of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1992-04-06",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) in all other cases 15 per cent. of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1992-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State which is derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1992-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph (1) of this Article, royalties of the kind referred to in sub-paragraph (3)(a) below may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the amount so charged shall not exceed 10per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/czech-republic-tax-treaties/2021-uk-czech-republic-synthesised-text-of-the-multilateral-instrument-and-the-1990-double-taxation-convention-as-it-applies-to-the-czech-republic-i",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Effective (Art. 27): Czechoslovakia WHT on amounts paid on or after 1 January 1992; UK from 6 April 1992 (income tax) / 1 April 1992 (corporation tax); valid_from = later date. Royalties: the 10% cap applies only to Art. 12(3)(a) royalties (patents, trade marks, designs, plans, secret formulas/processes, industrial/commercial/scientific equipment, know-how); copyright royalties (Art. 12(3)(b), incl. films and radio/TV tapes) are taxable only in the residence State (Art. 12(1)) — not modelled as a separate tier. Dividends: 5% tier requires control of at least 25% of voting power; no holding period. MLI: PPT Art. 7(1) and Art. 7(4) apply; WHT effect from 1 January 2021 per synthesised text; MLI Art. 8 not in synthesised text. The 1990 Czechoslovakia convention also continues for the Slovak Republic.",
+ "confidence": "high",
+ "unverified": []
+}

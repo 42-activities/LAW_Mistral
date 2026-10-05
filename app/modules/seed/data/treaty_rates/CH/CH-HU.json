@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "HU",
+ "treaty_name": "Convention between Switzerland and Hungary for the avoidance of double taxation with respect to taxes on income and on capital (2013, as amended 2024)",
+ "signed": "2013-09-12",
+ "entry_into_force": "2014-11-09",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2014/648/de",
+ "eif_quote": "In Kraft getreten durch Notenaustausch am 9. November 2014",
+ "source_title": "SR 0.672.941.81 Abkommen CH-HU vom 12.9.2013 (consolidated, Stand 16.11.2025)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2014/648/20251116/de/html/fedlex-data-admin-ch-eli-cc-2014-648-20251116-de-html.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Dividenden berechtigte Person im anderen Vertragsstaat ansässig ist, 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2015-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 nimmt der Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, die bezahlten Dividenden von der Besteuerung aus, wenn die nutzungsberechtigte Person: a) eine Gesellschaft (jedoch keine der Besteuerung nicht unterworfene Personengesellschaft) ist, die im anderen Vertragsstaat ansässig ist und unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2015-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigte eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2015-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigte eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 27a (inserted by Protocol of 12 July 2024)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2014/648/20251116/de/html/fedlex-data-admin-ch-eli-cc-2014-648-20251116-de-html.html",
+  "quote": "Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieses Vorteils unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Convention applies to WHT on income paid or credited on/after 1 Jan 2015 (Art. 28(2)(a); EIF 9.11.2014). Dividend 0% also for pension schemes and the national bank (Art. 10(3)(b),(c)); no holding period. Protocol of 12 July 2024 (in force 16.11.2025; Art. V(2)(a): WHT from 1 Jan 2026) inserted PPT Art. 27a and other changes; rate articles unchanged. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

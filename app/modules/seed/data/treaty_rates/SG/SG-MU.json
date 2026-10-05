@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Republic of Mauritius for the avoidance of double taxation (1995; modified by MLI)",
+ "signed": "1995-08-19",
+ "entry_into_force": "1996-06-07",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-mauritius-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=4ae9481b_12",
+ "eif_quote": "Date of Conclusion: 19 August 1995. Entry into Force: 7 June 1996. Effective Date: 1 January 1997 (Singapore); 1 July 1997 (Mauritius).* * Year of assessment beginning on or after 1 January 1998 (Singapore).",
+ "source_title": "IRAS consolidated text: Singapore-Mauritius DTA (ratified)(MLI)(19 Jul 2021), incl. Protocol 1995 and Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-mauritius-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=4ae9481b_12",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1997-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in the other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1997-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the interest, be taxable only in the other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1997-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the royalties, be taxable only in the other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 27A(1)); art. 7(4) as 27A(2)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-mauritius-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=4ae9481b_12",
+  "quote": "1. Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 6(b)(i): taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "All three categories are taxable only in the residence State (0% at source) for beneficial owners. Protocol (1995) para 2: the exemptions/reductions under Arts. 10-12 do not apply to companies incorporated under the (Mauritius) International Companies Act whose income is not taxed at the normal corporate rate; para 3: Mauritian relief limited to amounts remitted to Singapore where Singapore taxes on remittance basis. valid_from = Mauritian effective date per IRAS note (1 July 1997; Art. 28(2)(a): Mauritius YA beginning on/after 1 July 1998); Singapore YA 1998. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

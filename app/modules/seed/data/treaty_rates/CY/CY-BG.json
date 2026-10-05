@@ -1,0 +1,67 @@
+{
+ "a": "CY",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Cyprus and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (2000)",
+ "signed": "2000-10-30",
+ "entry_into_force": "2001-01-03",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Bulgaria ... Original 30-10-2000 03-01-2001 (Cyprus MLI position, Article 2 list: date of signature, date of entry into force)",
+ "source_title": "Cyprus–Bulgaria DTC 2000 with Protocol, English text (Official Gazette of Cyprus, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/bulgaria_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-03",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which owns directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-03",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) in all other cases, 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-03",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 7 per cent on the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-03",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest exemption (Art. 11(3)) for interest paid to or guaranteed by the Government of the other State or a statutory body thereof, or the National Bank — not modelled. Art. 11(8) anti-abuse: 'These provisions shall not apply if the interest was paid to a resident of Cyprus by a resident of Bulgaria, if at least 25% of the capital of the Cypriot resident is owned directly or indirectly by the Bulgarian resident (either alone or with other related persons), that is paying the interest, except when the resident of Cyprus is not liable to tax which is lower than the usual tax rate.' — not modelled. Royalty definition includes industrial/commercial/scientific equipment and technical services. Effective date: Protocol para. 2 — since EIF (3.1.2001) is after 31 December 2000, WHT provisions apply 'in respect of amounts paid or credited on or after the date upon which the Convention enters into force' -> valid_from 2001-01-03 (Art. 29(2) default would be 1 January following EIF). Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": []
+}

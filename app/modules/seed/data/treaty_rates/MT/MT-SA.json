@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of Malta and the Government of the Kingdom of Saudi Arabia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with respect to Taxes on Income (2012)",
+ "signed": "2012-01-04",
+ "entry_into_force": "2012-12-01",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.138/eng",
+ "eif_quote": "that the Convention has entered into force on 1st December 2012.",
+ "source_title": "S.L. 123.138 Double Taxation Relief (Taxes on Income) (The Kingdom of Saudi Arabia) Order (Schedule: 2012 Convention and Protocol)",
+ "source_url": "https://legislation.mt/eli/sl/123.138/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SA",
+   "quote": "where the dividends are paid by a company which is a resident of the Kingdom of Saudi Arabia to a resident of Malta who is the beneficial owner thereof, the tax so charged in the Kingdom of Saudi Arabia shall not exceed 5 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the royalties which are paid for the use of, or the right to use, industrial, commercial, or scientific equipment;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 7 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective for taxes withheld at source on amounts paid from 1 Jan following EIF (Art. 28(2)(a)) -> 2013-01-01. Malta-source dividends (Art. 10(2)(b)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' and no final WHT under full imputation - not modelled. Art. 11 'Income from debt-claims' exclusive to residence State. Royalties: 5% for equipment rental, 7% in all other cases (both are general tiers by payment type, no ownership threshold). Protocol 3(b): branch profits tax on PE remaining profits capped at 5%. MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2021-01-01 (merged dataset).",
+ "confidence": "high",
+ "unverified": []
+}

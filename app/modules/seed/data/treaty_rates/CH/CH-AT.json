@@ -1,0 +1,70 @@
+{
+ "a": "CH",
+ "b": "AT",
+ "treaty_name": "Convention between Switzerland and Austria for the avoidance of double taxation with respect to taxes on income and on capital (1974, as amended 1994, 2000, 2006, 2009, 2012)",
+ "signed": "1974-01-30",
+ "entry_into_force": "1974-12-04",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1974/2085_2085_2085/de",
+ "eif_quote": "In Kraft getreten am 4. Dezember 1974",
+ "source_title": "SR 0.672.916.31 Abkommen CH-AT vom 30.1.1974 (consolidated, Stand 14.11.2012) + Protocols 2000 (AS 2003 1909) and 2006 (AS 2007 1253)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1974/2085_2085_2085/20121114/de/html/fedlex-data-admin-ch-eli-cc-1974-2085_2085_2085-20121114-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden dürfen jedoch in dem erstgenannten Vertragsstaat, in dem die die Dividenden ausschüttende Gesellschaft ihren Sitz oder Geschäftsleitung hat, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 15 vom Hundert des Bruttobetrages der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden sind jedoch im erstgenannten Vertragsstaat von der Steuer befreit, wenn der Empfänger eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 20 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und an eine in dem anderen Vertragsstaat ansässige Person gezahlt werden, dürfen nur in dem anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, dürfen nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2020/486/20230313/de/html/fedlex-data-admin-ch-eli-cc-2020-486-20230313-de-html-2.html",
+  "quote": "Die Schweiz ist durch die Bestimmungen des Multilateralen Übereinkommens ... in Bezug auf die folgenden Staaten und Gebiete gebunden, gemäss Artikel 35(7)(b) ...: Island, Litauen, Luxemburg, Tschechische Republik (Austria not listed)"
+ },
+ "notes": "Art. 10(2) and 11 in the wording of the Protocol of 20 July 2000 (in force 13.9.2001; applies to WHT on dividends/interest accruing from 1 Jan 2002, and to the 20% intercompany dividend exemption from 1 Jan 2000 per Art. III(2)(b)). Art. 12 in the wording of the Protocol of 21 March 2006 (in force 2.2.2007; applicable from 1 Jan 2006, from 1 Jan 2007 where the protocol increases tax). Dividend exemption requires a company (not a partnership) holding directly >=20% of capital; no minimum holding period. The CH-AT treaty is listed by Switzerland under the MLI, but Switzerland reserved Art. 35(7) and the Fedlex MLI Geltungsbereich (Stand 13.3.2023) lists only IS, LT, LU, CZ as notified, so MLI PPT not effective for AT. Switzerland reserved the whole of MLI Art. 8. New amending protocol signed 30.7.2026 not in force (per treaty map).",
+ "confidence": "high",
+ "unverified": [
+  "Whether 15% general dividend cap existed unchanged before the 2000 protocol (valid_from set to protocol application date 2002-01-01)",
+  "Art. 35(7)(b) notification status for AT after 13.3.2023 (fedlex Geltungsbereich date)"
+ ]
+}

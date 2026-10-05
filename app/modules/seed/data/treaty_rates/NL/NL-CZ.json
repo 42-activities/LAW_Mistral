@@ -1,0 +1,69 @@
+{
+ "a": "NL",
+ "b": "CZ",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Czechoslovak Socialist Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1974, as amended for the Czech Republic 1996 and 2012)",
+ "signed": "1974-03-04",
+ "entry_into_force": "1974-11-05",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1974-207.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 31 van de Overeenkomst, juncto het in de eerste alinea van het Protocol gestelde, in werking getreden op 5 november 1974.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0006083 (NL-Czech Republic version; English text, authentic and prevailing; version from 2013-05-31)",
+ "source_url": "https://wetten.overheid.nl/BWBV0006083/2013-05-31",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1972-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2 the State of which the company is a resident shall not levy a tax on dividends paid by that company to a company the capital of which is wholly or partly divided into shares and which is a resident of the other State and holds directly at least 25 percent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1972-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may be taxed in the State of which the company paying the dividends is a resident, and according to the law of that State, but the tax so charged shall not exceed 10 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in one of the States and paid to a resident of the other State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1972-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 5 per cent of the amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 31: provisions have effect 'as respects tax withheld at the source, for any amounts paid or credited on or after January 1, 1972'. Current Art. 11 (interest exempt at source) was substituted by the Protocol of 26-06-1996 (Trb. 1996, 209), in force 11-04-1997 (Trb. 1997, 81), with effect 'for taxable years and periods beginning on or after the first day of January in the calendar year following that in which the latter of the notifications has been received' -> 1998-01-01. Dividend 0% tier: recipient must be a company with share capital holding directly at least 25%. Art. 13: international organisations/diplomats of third States not entitled to Arts 10-12 reductions where not taxed at home. Note BWBV0006082 is the parallel NL-Slovakia version of the same 1974 Convention. MLI: covered by both; WHT effect 2021-01-01 (treaties_merged). The Czech Republic reserved the entirety of MLI Art. 8 (Art. 8(3)(a)), so no 365-day holding period despite NL notifying Art. 10(3).",
+ "confidence": "high",
+ "unverified": [
+  "Interest valid_from 1998-01-01 derived from the 1996 Protocol's Art. 6 (last notification received in 1997, implied by EIF on the 30th day = 11-04-1997)."
+ ]
+}

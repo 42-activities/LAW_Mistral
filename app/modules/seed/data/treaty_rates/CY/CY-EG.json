@@ -1,0 +1,69 @@
+{
+ "a": "CY",
+ "b": "EG",
+ "treaty_name": "Agreement between the Republic of Cyprus and the Arab Republic of Egypt for the elimination of double taxation with respect to taxes on income and the prevention of fiscal evasion and avoidance (2019)",
+ "signed": "2019-10-08",
+ "entry_into_force": "2020-07-31",
+ "eif_source_url": "https://www.gov.cy/mof/en/documents/double-tax-treaties/",
+ "eif_quote": "Egypt (new agreement) | 19/12/1993 08/10/2019 | 14/03/1995 31/07/2020 | 2865 – 11 /03/ 1994 4255 – 25/10/2019 (Cyprus MoF Double Tax Treaties table: signature, entry into force, Official Gazette publication)",
+ "source_title": "Cyprus–Egypt DTA signed 8.10.2019 with Protocol, English text (Official Gazette of Cyprus No. 4255, 25.10.2019, Part VII, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/4.αιγυπτος-2019.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 20 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividend);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://www.gov.cy/media/sites/11/2024/03/4.αιγυπτος-2019.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "CONFLICT with treaty map: the relationship is now governed by a NEW Agreement signed 8.10.2019 (published Cyprus Gazette No. 4255 of 25.10.2019; MoF table gives entry into force 31/07/2020), which replaces the 1993 Convention (Art. 30(3)). Treaty map lists only the 1993 Convention (signed 1993-12-19, EIF 1995-03-14). MLI does not apply (Egypt does not list the Cyprus treaty; Cyprus's list refers to the 1993 Convention) — the PPT here comes from the treaty's own Art. 28 'Entitlement to benefits'. Art. 30(2)(a): WHT effect on income derived on or after 1 January of the calendar year following EIF -> 2021-01-01. Art. 10(6): branch profits remittance tax capped at 5% (not modelled). Royalty definition includes industrial, commercial or scientific equipment. Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "EIF 31.7.2020 taken from the Cyprus MoF table (copy fetched earlier in session); not cross-checked with an Egyptian official source."
+ ]
+}

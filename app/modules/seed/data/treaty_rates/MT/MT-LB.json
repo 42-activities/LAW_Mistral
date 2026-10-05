@@ -1,0 +1,58 @@
+{
+ "a": "MT",
+ "b": "LB",
+ "treaty_name": "Convention between the Republic of Malta and the Republic of Lebanon for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1999, as amended 2009)",
+ "signed": "1999-02-23",
+ "entry_into_force": "2000-02-10",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.49/eng",
+ "eif_quote": "that the Convention has entered into force on the 10th February, 2000.",
+ "source_title": "S.L. 123.49 Double Taxation Relief on Taxes on Income with the Republic of Lebanon Order (consolidated incl. 2009 Protocol, L.N. 242 of 2010)",
+ "source_url": "https://legislation.mt/eli/sl/123.49/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LB",
+   "quote": "where the dividends are paid by a company which is a resident of Lebanon to a resident of Malta who is the beneficial owner thereof, the Lebanese tax so charged shall not exceed 5 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1) (as substituted by 2009 Protocol Art. I)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in the other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the effective (beneficial) owner of the royalties, the tax so charged shall not exceed five per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a - MLI not applicable (Lebanon not a signatory); no treaty PPT",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Effective in Lebanon for taxes withheld at source on income derived from 1 Jan of the year following EIF (Art. 27(a)(i)) -> 2001-01-01. Malta-source dividends (Art. 10(2)(b)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled. Interest: Art. 11(1) substituted by the Protocol signed 16 April 2009 (provisionally applied pending EIF; Art. 3: 'the provisions of the Convention shall be interpreted, since the entry into force of the Convention, in light of the provisions of the Protocol'), so the exclusive-residence rule is given the Convention's original valid_from; the Protocol's own EIF date was not found. MLI: Lebanon not a signatory (merged dataset) - no MLI PPT; treaty has no PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "2009 Protocol entry-into-force date; interest valid_from relies on the Protocol's retroactive-interpretation clause"
+ ]
+}

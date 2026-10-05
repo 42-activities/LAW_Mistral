@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of Malta and the Government of the Republic of Poland for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1994, as amended 2011 and 2020)",
+ "signed": "1994-01-07",
+ "entry_into_force": "1994-11-24",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf",
+ "eif_quote": "POLAND Original 07-01-1994 24-11-1994",
+ "source_title": "S.L. 123.33 Double Taxation Relief on Taxes on Income with the Republic of Poland Order (consolidated version 11 March 2022, incl. Protocols L.N. 14 of 2012 and L.N. 64 of 2021)",
+ "source_url": "https://legislation.mt/eli/sl/123.33/20220311/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": "PL",
+   "quote": "where the dividends are paid by a company resident of Poland to a resident of Malta, Poland shall exempt from tax the dividends if the beneficial owner of such dividends is a company resident in Malta that holds directly at least 10 per cent of the capital of the company paying the dividends on the date the dividends are paid and has done so or will have done so for an uninterrupted 24-month period in which that date falls;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "PL",
+   "quote": "except as provided in subparagraph (a), the tax so charged by Poland shall not exceed 10 per cent of the gross amount of the dividends where the beneficial owner of the dividends is a resident of Malta;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as replaced by 2020 Protocol Art. II)",
+   "valid_from": "2023-01-01",
+   "max_rate": "4",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 4 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) (as replaced by 2020 Protocol Art. III)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or payments for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties or payments for technical services the tax so charged shall not exceed: (a) five per cent (5%) of the gross amount of the royalties;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "EIF of the 1994 Agreement 1994-11-24 (date of the Malta Order; merged dataset). 2011 Protocol (signed 2011-04-06, in force 2011-11-22 per L.N. 14 of 2012) replaced Art. 10(2) (0%/10% dividends), set interest at 5% and royalties at 5%, effective for WHT from 2012-01-01. 2020 Protocol (signed 2020-11-30, L.N. 64 of 2021; 'shall be deemed to have come into force on 11th March 2022' per L.N. 117 of 2022) cut interest to 4% and recast Art. 12 adding 5% on payments for technical services (managerial/consultancy), effective for WHT from 2023-01-01 (Protocol Art. X(2)(a)); royalty rate stays 5% (valid_from of the 5% royalty cap = 2012-01-01). Polish 0% dividend tier: Maltese company holding directly >=10% for an uninterrupted 24-month period (may be completed after payment). Malta-source dividends (Art. 10(2)(c)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled. Interest exempt when derived by the other Government, local authorities, central bank or Government-controlled financial institutions (Art. 11(3)). Main-purpose clauses in Arts 10(6), 11(8), 12 (notified under MLI Art. 7(17)(a)). PPT: MLI Art. 7(1) effective for WHT from 2020-01-01 (merged dataset); the 2020 Protocol also inserts treaty Art. 26A (same PPT wording) effective 2023-01-01. Malta reserved MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

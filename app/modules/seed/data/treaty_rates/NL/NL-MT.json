@@ -1,0 +1,81 @@
+{
+ "a": "NL",
+ "b": "MT",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1977, as amended 1995)",
+ "signed": "1977-05-18",
+ "entry_into_force": "1977-11-09",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1977-158.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zullen ingevolge artikel 32 van de Overeenkomst, juncto de preambule tot het Protocol, op 9 november 1977 in werking treden. De Overeenkomst, met Protocol, zal toepassing vinden: a. ter zake van belastingen naar het inkomen op inkomsten verkregen op of na 1 januari 1976",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003762 (Dutch authentic text)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003762/1999-03-28",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1976-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Dividenden betaald door een lichaam dat inwoner is van Nederland aan een inwoner van Malta mogen ook in Nederland overeenkomstig de Nederlandse wetgeving worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de dividenden is, mag de aldus geheven belasting niet overschrijden: a. 5 percent van het bruto-bedrag van de dividenden, indien de genieter een lichaam is dat onmiddellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1976-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "b. 15 percent van het bruto-bedrag van de dividenden, in alle andere gevallen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "Dividenden betaald door een lichaam dat inwoner is van Malta aan een inwoner van Nederland die de uiteindelijk gerechtigde daartoe is, zijn vrijgesteld van elke belasting in Malta die geheven wordt ter zake van dividenden naast de belasting die geheven wordt ter zake van de winsten van het lichaam."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter in de Staat waaruit zij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de interest is, mag de aldus geheven belasting 10 percent van het bruto-bedrag van de interest niet overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze royalty's mogen echter ook in de Staat waaruit zij afkomstig zijn, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de royalty's is, mag de aldus geheven belasting 10 percent van het bruto-bedrag van die royalty's niet overschrijden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Asymmetric dividend article: Art. 10(2) caps (5%/15%) apply only to dividends paid by NL companies to Malta residents (source_state NL); Art. 10(3): dividends paid by Maltese companies to NL beneficial owners are exempt from any Malta tax on dividends beyond the tax on the company's profits (modelled as exclusive, source_state MT); in addition Maltese tax on distributed profits from incentive-year profits paid to an NL company exempt under the participation exemption may not exceed 15% (Malta imputation-system rule, not modelled). Royalties: copyright royalties for literary, artistic or scientific works are taxable only in the residence State (Art. 12(1), not modelled as separate tier); the 10% cap (Art. 12(2)) covers films/tapes, patents, trademarks, designs, equipment and know-how. Interest exemption at source for payments to the governments, central banks and named development institutions and other statutory bodies (Art. 11(3)) not modelled. Art. 30 (inserted by 1995 Protocol, effective for tax years from 1 January 1994): Convention does not apply to entities wholly or partly exempt under a special regime, nor to income derived from them. Art. 13: international organisations/diplomats not taxed in residence state excluded from Art. 10-12 relief. 1995 Protocol (Trb. 1995, 224; in force 1999-03-28, effective from 1 January 1994) did not change the rates (it amended the Art. 11(4) definition and added Protocol IV(1) main-purpose rule for Art. 10(2)(a)). Treaty-level anti-abuse: Protocol IV(1) - Art. 10(2)(a) does not apply where the relationship was set up or maintained mainly to obtain the reduction (NL notified it under MLI Art. 7(17)(a)). MLI covered by both (WHT effect 2020-01-01 per treaty map); Malta reserved the entirety of MLI Art. 8, so no 365-day holding period.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date 2020-01-01 taken from treaties_merged.json",
+  "Rates appear unchanged since the 1977 text; original 1977 text (Trb. 1977, 82) not separately compared"
+ ]
+}

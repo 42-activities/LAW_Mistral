@@ -1,0 +1,58 @@
+{
+ "a": "LU",
+ "b": "PT",
+ "treaty_name": "Convention entre le Gouvernement du Grand-Duché de Luxembourg et le Gouvernement de la République portugaise tendant à éviter les doubles impositions et à prévenir l'évasion fiscale en matière d'impôts sur le revenu et sur la fortune (1999, telle que modifiée par l'Avenant de 2010 et par l'IM)",
+ "signed": "1999-05-25",
+ "entry_into_force": "2000-12-30",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2000-88-fr-pdf.pdf",
+ "eif_quote": "Article 30 ... 2. La Convention entrera en vigueur trente jours après l'échange des instruments de ratification et ses dispositions seront applicables: a) au Luxembourg: (i) aux impôts dus à la source sur les revenus attribués ou mis en paiement à partir du 1er janvier de l'année suivant celle de son entrée en vigueur; ... b) au Portugal: (i) aux impôts dus à la source dont le fait générateur se produira à partir du 1er janvier de l'année suivant celle de son entrée en vigueur",
+ "source_title": "LU–PT Convention 1999 – Mémorial A n° 88 de 2000 (p. 2061); MLI texte de synthèse FR (ACD, 30/06/2022; image PDF read visually)",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2000-88-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces dividendes sont aussi imposables dans l'Etat contractant dont la société qui paie les dividendes est un résident, et selon la législation de cet Etat, mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut desdits dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder: a) 10 pour cent du montant brut des intérêts si ces intérêts sont payés par une entreprise d'un Etat contractant, dans le chef de laquelle les intérêts sont considérés comme dépenses déductibles, à un établissement financier qui est un résident de l'autre Etat contractant; b) 15 pour cent du montant brut des intérêts dans tous les autres cas."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais si la personne qui reçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/portugal-mli-fr.pdf",
+  "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention : ... Nonobstant toute disposition de la [présente Convention], un avantage au titre de la [présente Convention] ne sera pas accordé ... (impôts prélevés à la source: fait générateur à compter du 1er janvier 2021 au Luxembourg et au Portugal)"
+ },
+ "notes": "Single dividend rate 15% (no participation tier in the treaty). Interest: 10% when paid by an enterprise (deductible) to a financial institution resident in the other State (Art. 11(2)(a), financial-institution tier not modelled); 15% otherwise. Royalties include equipment rental and related technical assistance. Art. 29 excludes companies with special tax treatment (Protocol: Luxembourg 1929 holding companies). Mémorial text layer for Arts. 10-12 has poor OCR; quotes normalised and cross-checked against the MLI synthesised text image (p. 12). 2010 amendment concerns exchange of information (Art. 27). EIF date from treaty-map dataset.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 2000-12-30 (from treaties_merged.json)"
+ ]
+}

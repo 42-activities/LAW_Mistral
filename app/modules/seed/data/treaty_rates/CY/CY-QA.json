@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the State of Qatar for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2008)",
+ "signed": "2008-11-11",
+ "entry_into_force": "2009-03-20",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position Art. 2 list: \"State of Qatar Original 11-11-2008 20-03-2009\"; treaty Art. 28(1): \"The Agreement shall enter into force on the thirtieth day from the date of the later of these notifications.\"",
+ "source_title": "CY-QA Agreement 2008, English text, Cyprus Official Gazette Annex VII (gov.cy MoF scan)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/quatar_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends and interest exclusive to residence State; royalties 5%. Art. 28(2)(a): WHT provisions effective for amounts paid or credited on or after 1 January immediately following EIF (2009-03-20 -> 2010-01-01). MLI covered (CY and QA); Cyprus reserved MLI Art. 8 entirely; PPT from mli_wht_effective per treaties_merged.json.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "DE",
+ "treaty_name": "Agreement between Malta and the Federal Republic of Germany for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (2001, as amended 2010)",
+ "signed": "2001-03-08",
+ "entry_into_force": "2001-12-27",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-germany-instrument-deposit.pdf",
+ "eif_quote": "the Republic of Malta Original 08-03-2001 27-12-2001 Amending Instrument (a) 17-06",
+ "source_title": "S.L. 123.06 Double Taxation Relief on Taxes on Income with the Federal Republic of Germany Order (consolidated incl. 2010 Protocol, L.N. 383 of 2011)",
+ "source_url": "https://legislation.mt/eli/sl/123.6/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective for taxes withheld at source on amounts paid from 1 Jan of the year after EIF (Art. 31(2)(a)) -> 2002-01-01. Dividend tiers modelled for German-source dividends only: Art. 10(3) disapplies 10(2) for Malta 'as long as according to the Malta tax law the tax chargeable on the profits of a company may be offset against the shareholder's income tax' - Malta tax limited to the tax chargeable on the distributed profits (or 15% for profits of companies receiving industrial-aid benefits); Protocol no. 2 says the 10(2)(a) rates would apply to Malta-source dividends if Malta abandons full imputation. Protocol no. 3: income from rights/debt-claims participating in profits (stille Gesellschaft, partiarisches Darlehen, Gewinnobligationen) deductible for the debtor may be taxed in Germany under German law. 10% capital held directly by a company (other than a partnership), no holding period. 2010 Protocol (in force 2011-05-19) amended Art. 26/Protocol no. 4 only. MLI: covered; Germany notified 35(7)(b) completion for Malta on 2024-10-02; PPT effective for WHT from 2025-01-01 (merged dataset). Malta reserved Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

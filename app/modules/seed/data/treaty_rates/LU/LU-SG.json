@@ -1,0 +1,58 @@
+{
+ "a": "LU",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Grand Duchy of Luxembourg and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2013, as modified by the MLI)",
+ "signed": "2013-10-09",
+ "entry_into_force": "2015-12-28",
+ "eif_source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/Singapore-mli.pdf",
+ "eif_quote": "Article 28 ... 2. The Agreement shall enter into force on the date of the later of these notifications and its provisions shall have effect: (a) in Singapore: (i) in respect of taxes withheld at source on amounts liable to be paid, deemed paid or paid (whichever is the earliest) on or after 1 January of the calendar year next following the year in which the Agreement enters into force; ... (b) in Luxembourg: (i) in respect of taxes withheld at source, to income derived on or after 1 January of the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "LU–SG Agreement 2013 – MLI synthesised text (Luxembourg ACD, 23/12/2020)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/Singapore-mli.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 7 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/Singapore-mli.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Agreement ... (WHT: events on or after 1 January 2020 in both States)"
+ },
+ "notes": "2013 Agreement replaced the 1993 LU–SG Convention (applied until 31/12/2015 per LU list). EIF date from treaty-map dataset; effect from 1 Jan 2016 (LU list 'à partir de 2016').",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force date 2015-12-28 (from treaties_merged.json)"
+ ]
+}

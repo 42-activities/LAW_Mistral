@@ -1,0 +1,78 @@
+{
+ "a": "SG",
+ "b": "BE",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Kingdom of Belgium for the avoidance of double taxation (2006, as amended by Protocol 2009; modified by MLI)",
+ "signed": "2006-11-06",
+ "entry_into_force": "2008-11-27",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-belgium-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=805d0650_15",
+ "eif_quote": "Date of Conclusion: 6 November 2006 Entry into Force: 27 November 2008 Effective Date: 1 January 2009. Art. 29(2)(a)(i): in Belgium with respect to taxes due at source on income credited or payable on or after January 1 of the year next following the year in which the Agreement entered into force",
+ "source_title": "IRAS consolidated text: Singapore-Belgium DTA (ratified)(MLI)(19 Jul 2021), incl. Annex A MLI effects and Annex B 2009 Protocol",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-belgium-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=805d0650_15",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) (final sentence)",
+   "valid_from": "2009-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the preceding provisions of this paragraph, dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is a company which is a resident of the other Contracting State and which at the moment of the payment of the dividends holds, for an uninterrupted period of at least twelve months, shares representing directly at least 25 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) in the case of royalties referred to in sub-paragraph (a) of paragraph 3 of this Article, 5 per cent of the gross amount of the royalties; and (b) in the case of royalties referred to in sub-paragraph (b) of paragraph 3 of this Article, 5 per cent of the adjusted amount of the royalties. For the purpose of this sub-paragraph \"the adjusted amount\" means 60 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 26A(1)); art. 7(4) discretionary relief as 26A(2)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-belgium-dta-(ratified)(mli)(19-jul-2021).pdf?sfvrsn=805d0650_15",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 7(c)(i): taxes withheld at source ... on or after 1 January 2020)"
+ },
+ "notes": "Dividend 0% tier requires 'uninterrupted period of at least twelve months' (encoded as 365 days) and >=25% direct capital holding. Royalties for use of industrial, commercial or scientific equipment (Art. 12(3)(b)): 5% of adjusted amount (60% of gross) = effective 3% of gross - not modelled as separate tier. Valid_from per Belgian WHT effective date (1 Jan 2009); in Singapore the Agreement applies from YA beginning on or after 1 Jan 2010. Not modelled: dividends to Government of Singapore exempt from Belgian tax (Art. 10(4)); bank-to-bank interest exemption (Art. 11(3)); government/central bank interest exemption (Art. 11(4)). Art. 10(6): Belgian 'interest' treated as dividends falls under Art. 10. MLI does not apply Art. 8 (no 365-day addition). 2009 Protocol amends only EOI.",
+ "confidence": "high",
+ "unverified": []
+}

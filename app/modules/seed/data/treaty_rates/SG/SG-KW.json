@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "KW",
+ "treaty_name": "Agreement between the Republic of Singapore and the State of Kuwait for the avoidance of double taxation (2002)",
+ "signed": "2002-02-21",
+ "entry_into_force": "2003-07-02",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporekuwaitdta.pdf?sfvrsn=62d35db3_7",
+ "eif_quote": "Date of Conclusion: 21 February 2002. Entry into Force: 2 July 2003. Effective Date: 1 January 2004. Art. 29(a): in Kuwait: for taxable periods beginning on or after the first day of January in the calendar year next following that in which this Agreement enters into force",
+ "source_title": "IRAS text: Singapore-Kuwait DTA (2002), incl. Protocol 2002",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporekuwaitdta.pdf?sfvrsn=62d35db3_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other Contracting State if such resident is the beneficial owner of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 7% (seven per cent) of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the resident is the beneficial owner of the royalties the tax so charged shall not exceed 10% (ten per cent) of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporekuwaitdta.pdf?sfvrsn=62d35db3_7",
+  "quote": ""
+ },
+ "notes": "No PPT: Kuwait has signed but not ratified the MLI, so the Agreement is not modified by the MLI (IRAS: Modified by the MLI 'No'); the 2002 text contains no principal-purpose rule. Not modelled: interest beneficially owned by the Government of the other State (incl. Central Bank of Kuwait, Kuwait Investment Authority, MAS, GIC) exempt (Art. 11(3)-(4)). Valid_from = Kuwaiti taxable periods beginning 1 Jan 2004; Singapore YA 2004.",
+ "confidence": "high",
+ "unverified": []
+}

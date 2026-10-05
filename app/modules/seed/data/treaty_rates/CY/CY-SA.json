@@ -1,0 +1,67 @@
+{
+ "a": "CY",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Republic of Cyprus and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation with respect to taxes on income and for the prevention of tax evasion (2018)",
+ "signed": "2018-01-03",
+ "entry_into_force": "2019-03-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "... for the Prevention of Tax Evasion Kingdom of Saudi Arabia Original 03-01-2018 01-03-2019",
+ "source_title": "CY–SA Convention and Protocol 2018 (Greek/English/Arabic, Cyprus Official Gazette Annex VII on Cyprus MoF site; English text read)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/saudi-arabia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) second subparagraph",
+   "valid_from": "2020-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of the sentence above, the Contracting State of which the company paying the dividends is a resident shall exempt from tax the dividends paid by that company to a company (other than a partnership) which is a resident of the other Contracting State, as long as it holds directly or indirectly at least 25 percent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner of such income shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed: - (5) per cent of the gross amount of such royalties which are paid for the use of, or the right to use, industrial, commercial or scientific equipment. - (8) per cent of the gross amount of such royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest article is titled 'Income from Debt-Claims'. Royalties: 5% cap for equipment rental royalties (use of industrial, commercial or scientific equipment) vs 8% in all other cases - only the 8% general tier modelled. Art. 26: dividends (and Art. 16 income) derived by the Government (incl. SAMA / Central Bank of Cyprus and wholly owned State entities) exempt at source - not modelled. Art. 29: EIF on first day of second month after the later notification; WHT for amounts paid or credited on or after 1 January next following EIF (1.3.2019 -> 1.1.2020). Protocol para. 5: 'Nothing in this Convention shall affect the application of the domestic provisions to prevent tax evasion.' MLI covered; Cyprus reserved MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

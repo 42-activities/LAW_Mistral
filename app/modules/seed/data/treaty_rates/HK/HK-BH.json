@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Hong Kong Special Administrative Region of the People's Republic of China and the Government of the Kingdom of Bahrain for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2024)",
+ "signed": "2024-03-03",
+ "entry_into_force": "2025-03-04",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Bahrain | 03.03.2024 | 22.10.2024 | 04.03.2025 | Year of Assessment 2026/2027 | DU | N/A | N/A",
+ "source_title": "Cap. 112DU Inland Revenue (Double Taxation Relief ...) (Kingdom of Bahrain) Order, Schedule (HK e-Legislation, verified copy, last updated 22.5.2025)",
+ "source_url": "https://www.elegislation.gov.hk/hk/cap112DU!en",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting Party to a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting Party and paid to a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 26(1)",
+  "source_url": "https://www.elegislation.gov.hk/hk/cap112DU!en",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Not an MLI covered tax agreement; PPT is in the treaty itself (Art. 26(1), with competent-authority discretionary relief in Art. 26(2)). Interest article titled 'Income from Debt-Claims'. Royalty definition includes the use of industrial, commercial or scientific equipment. valid_from = Bahrain side Art. 27(2)(b): taxable periods beginning on or after 1 January of the year after EIF (EIF 4 Mar 2025 -> 2026-01-01; Bahrain clause has no separate WHT limb); HKSAR: YA from 1 April 2026.",
+ "confidence": "high",
+ "unverified": []
+}

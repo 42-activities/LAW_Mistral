@@ -1,0 +1,69 @@
+{
+ "a": "NL",
+ "b": "HU",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Hungarian People's Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1986)",
+ "signed": "1986-06-05",
+ "entry_into_force": "1987-09-25",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1987-142.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zullen ingevolge, artikel 30, eerste lid, juncto het gestelde in de preambule tot hef Protocol op 25 september 1987 in werking treden. De bepalingen van Overeenkomst en Protocol vinden toepassing voor belastingjaren en -tijdvakken die aanvangen op of na 1 januari 1988.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0002405 (English authentic text)",
+ "source_url": "https://wetten.overheid.nl/BWBV0002405/1987-09-25",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1988-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in one of the States and paid to a resident of the other State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in one of the States and paid to a resident of the other State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Single English authentic text (Dutch is a translation). Article 30(1): effect for taxable years beginning on or after 1 January of the year following the latter notification; Trb. 1987, 142 confirms application from 1 January 1988. MLI covered by both (WHT effect 2022-01-01 per treaty map); Hungary reserved the entirety of MLI Article 8 (Art. 8(3)(a)), so no 365-day holding period. Dividend 5% tier requires direct holding of at least 25% of capital by a company (other than a partnership).",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date 2022-01-01 taken from treaties_merged.json, not re-derived"
+ ]
+}

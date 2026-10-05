@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "IL",
+ "treaty_name": "Convention between the Government of Malta and the Government of the State of Israel for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011)",
+ "signed": "2011-07-28",
+ "entry_into_force": "2013-12-08",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.152/eng",
+ "eif_quote": "*the Convention came into force on 8th December, 2013 - see L.N. 57 of 2014.",
+ "source_title": "S.L. 123.152 Double Taxation Relief (Taxes on Income) (The State of Israel) Order (Schedule: 2011 Convention and Protocol)",
+ "source_url": "https://legislation.mt/eli/sl/123.152/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2014-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "IL",
+   "quote": "where the dividends are paid by a company which is a resident of Israel to a resident of Malta who is the beneficial owner thereof, the tax so charged in Israel shall not exceed: (i) 0 per cent of the gross amount of the dividends if the beneficial owner of the dividends is a company (other than a partnership or a real estate investment company) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IL",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective for taxes withheld at source on amounts paid from 1 Jan of the year after EIF (Art. 28(1)(a)) -> 2014-01-01. Israeli 0% dividend tier: company (other than partnership or real estate investment company) holding directly >=10% of capital, no holding period. Malta-source dividends (Art. 10(2)(b)): Malta tax 'shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled. Israeli REIC distributions (Art. 10(3)): 15% cap only where the Maltese beneficial owner holds directly <10%; otherwise no treaty limit. Interest exempt at source when paid to/by Governments, political subdivisions, local authorities, central banks; on exchange-traded corporate bonds; on loans guaranteed/insured by a wholly state-owned trade-finance institution (Art. 11(3)); Protocol 5 allows net-basis election. Protocol 1 preserves domestic anti-abuse rules. MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2020-01-01 (merged dataset).",
+ "confidence": "high",
+ "unverified": []
+}

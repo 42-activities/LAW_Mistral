@@ -80,7 +80,12 @@ class TreatyEngine:
         tiers = sorted((r for r in rates if cap_of(r) is not None), key=lambda r: (cap_of(r), r.id))
         if not tiers:
             return None, (
-                Flag("treaty_rate_not_recorded", f"{treaty.name}: {category} rate has no cap"),
+                Flag(
+                    "treaty_rate_not_recorded",
+                    f"{treaty.name}: no {category} limit is recorded for this date — the treaty "
+                    f"may set no cap, apply later, or limit tax only under conditions not "
+                    f"modelled; the domestic rate is used",
+                ),
             )
         # The lowest-capped tier whose ownership and holding-period conditions are met wins.
         rate: TreatyRate | None = None

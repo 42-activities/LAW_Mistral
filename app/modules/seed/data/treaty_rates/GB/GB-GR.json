@@ -1,0 +1,47 @@
+{
+ "a": "GB",
+ "b": "GR",
+ "treaty_name": "Convention between the United Kingdom and the Kingdom of Greece for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1953)",
+ "signed": "1953-06-25",
+ "entry_into_force": "1954-01-15",
+ "eif_source_url": "https://www.gov.uk/government/publications/greece-tax-treaties",
+ "eif_quote": "1953 UK-Greece Double Taxation Convention — in force The convention entered into force on 15 January 1954.",
+ "source_title": "1953 UK-Greece Double Taxation Convention — in force (gov.uk HTML)",
+ "source_url": "https://www.gov.uk/government/publications/greece-tax-treaties/1953-uk-greece-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article VI(1)",
+   "valid_from": "1952-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Any interest or royalty derived from sources within one of the territories by a resident of the other territory, who is subject to tax in that other territory in respect thereof and does not carry on a trade or business in the first territory through a permanent establishment situated therein, shall be exempt from tax in that first territory."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article VI(1)",
+   "valid_from": "1952-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Any interest or royalty derived from sources within one of the territories by a resident of the other territory, who is subject to tax in that other territory in respect thereof and does not carry on a trade or business in the first territory through a permanent establishment situated therein, shall be exempt from tax in that first territory."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "DIVIDENDS omitted: the 1953 convention has no dividend article and sets no source-State limit on dividends (dividends are mentioned only in the Greek credit provision, Art. XV(3)). Interest and royalty exemption (Art. VI) is conditional on the recipient being subject to tax in its residence State on that income and on no PE in the source State; limited to a fair and reasonable consideration (Art. VI(3)); royalty definition excludes mine/quarry/natural-resource royalties; capital sums from sale of patent rights also exempt (Art. VI(4)). valid_from = later of the two States' effective dates under Art. XX (UK income tax from 6 Apr 1952; Greece from fiscal years beginning on or after 1 Jul 1952 for non-company income, company accounting years ending after 1 Mar 1951). No gov.uk synthesised MLI text published for Greece; MLI coverage and WHT effective date (2022-01-01) taken from treaties_merged.json (Greece's MLI position lists the UK as listed agreement 17); PPT quote is MLI Art. 7(1) as in the OECD MLI text.",
+ "confidence": "high",
+ "unverified": [
+  "No gov.uk synthesised MLI text for this pair; ppt.from from treaties_merged.json computation"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "a": "NL",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Kingdom of the Netherlands and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1986)",
+ "signed": "1986-03-27",
+ "entry_into_force": "1988-09-30",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1988-123.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zullen ingevolge artikel 29 van de Overeenkomst, juncto de preambule tot het Protocol, op 30 september 1988 in werking treden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0002810 (English authentic text; Dutch is a translation)",
+ "source_url": "https://wetten.overheid.nl/BWBV0002810/1988-09-30",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Protocol IX(a) (modifying Article 10(2)(a))",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "Notwithstanding the provisions of sub-paragraph a) of paragraph 2 of Article 10, as long as, under the provisions of the Netherlands Company Tax Act and to the future amendments thereto, a company which is a resident of the Netherlands is not charged to Netherlands company tax with respect to dividends the company receives from a company which is a resident of Turkey, the percentage provided for in that sub-paragraph shall be lowered to: a) 10 per cent with respect to dividends paid by a company which is a resident of Turkey;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Protocol IX(b) (modifying Article 10(2)(a))",
+   "valid_from": "1989-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Notwithstanding the provisions of sub-paragraph a) of paragraph 2 of Article 10, as long as, under the provisions of the Netherlands Company Tax Act and to the future amendments thereto, a company which is a resident of the Netherlands is not charged to Netherlands company tax with respect to dividends the company receives from a company which is a resident of Turkey, the percentage provided for in that sub-paragraph shall be lowered to: [...] b) 5 per cent with respect to dividends paid by a company which is a resident of the Netherlands."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1989-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "20 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the interest if it is paid on a loan made for a period of more than two years;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-turkey.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29: effect for taxable years and periods beginning on or after 1 January of the year following receipt of the latter notification; EIF 30-09-1988 is the 30th day after that notification (i.e. received in 1988) -> 1989-01-01. Art. 10(2)(a) base rate is 15% for a company (other than a partnership) holding directly at least 25% of the capital; Protocol IX lowers it to 10% (Turkish-source) / 5% (Dutch-source) 'as long as' a Dutch-resident company is not charged to Dutch company tax on dividends received from a Turkish company. The modelled 10%/5% tiers are conditional on that domestic-law condition; whether it is met at 2026-10-05 was not verified from a source - if not met, the 15% Art. 10(2)(a) rate applies. Art. 10(5): branch-profits tax capped at 50% of the Art. 10(2)(a) percentage - not modelled. Art. 11(2)(a): 10% tier depends on loan term (>2 years), not on ownership. Art. 11(3): interest exempt for the central banks and for the Government/political subdivisions of the other State - not modelled. Art. 11(9): deferred payments for sales of goods/equipment are not interest. Royalty definition includes the sale of copyrights etc. and equipment rental (Protocol XI). No beneficial-owner requirement in the text (uses 'recipient'). MLI: Turkiye signatory, not yet a Party (treaty map, OECD status 15-09-2026) - no MLI PPT; treaty has no general PPT/LOB.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether the Protocol IX condition (Dutch participation exemption for Turkish dividends) is satisfied on 2026-10-05 - not checked against Dutch law."
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "LU",
+ "b": "HK",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007, as amended 2010 and modified by the MLI)",
+ "signed": "2007-11-02",
+ "entry_into_force": "2009-01-20",
+ "eif_source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/hong-kong-mli-en.pdf",
+ "eif_quote": "Article 28 ... The Agreement shall enter into force on the date of the later of these notifications. The provisions of the Agreement shall thereupon have effect: (a) in the Hong Kong Special Administrative Region: ... for any year of assessment beginning on or after 1 April 2008; (b) in Luxembourg: (i) in respect of taxes withheld at source, to income derived on or after 1 January 2008",
+ "source_title": "LU–HK Agreement 2007 – MLI synthesised text (Luxembourg ACD, 13/06/2023)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/hong-kong-mli-en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends or a participation with an acquisition cost of at least EUR 1.2 million in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting Party and paid to a resident of the other Contracting Party shall be taxable only in that other Party if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/hong-kong-mli-en.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Agreement: ... a benefit under [the Agreement] shall not be granted ... In Luxembourg: with respect of taxes withheld at source ... on or after 1 January 2024 ... In Hong Kong: ... on or after 23 March 2023."
+ },
+ "notes": "Dividend 0% tier alternatively available for a participation with acquisition cost of at least EUR 1.2 million (not modelled as threshold). No holding period (MLI art. 8 not applied). Treaty effective date: LU WHT on income derived on/after 2008-01-01; HK years of assessment from 1 April 2008. MLI WHT effect differs by side: LU 2024-01-01, HK 2023-03-23. 2010 protocol amended Arts. 5, 24, 25 only.",
+ "confidence": "high",
+ "unverified": []
+}

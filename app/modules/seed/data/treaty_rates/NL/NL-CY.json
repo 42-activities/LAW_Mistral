@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "CY",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of Cyprus for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2021)",
+ "signed": "2021-06-01",
+ "entry_into_force": "2023-06-30",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2023-73.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zullen ingevolge artikel 28, eerste lid, van het Verdrag op 30 juni 2023 in werking treden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0006909 (English authentic text, prevailing in case of divergence; Trb. 2021, 80)",
+ "source_url": "https://wetten.overheid.nl/BWBV0006909/2023-06-30",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2024-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "5",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident if the dividends are beneficially owned by: a) a company which is a resident of the other Contracting State and holds directly at least 5 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2024-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2024-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "treaty art. 26(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006909/2023-06-30",
+  "quote": "Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 28(1): provisions have effect for taxable years and periods beginning, and taxable events occurring, on or after 1 January of the calendar year following entry into force (EIF 2023-06-30 -> 2024-01-01). Not modelled: Art. 10(3)(b) exemption for recognised pension funds; Art. 10(8) emigration (exit-tax) dividends may be taxed by the former residence State while the exit assessment is outstanding. Treaty PPT in Art. 26 (with discretionary relief in 26(2)); the MLI does not cover this treaty. Earlier NL-CY treaty: none in force before 2023. Protocol: Art. 10(3) does not apply to dividends paid by or to a Dutch Fiscal Investment Institution (FBI); NL may apply domestic law to interests in a tax-exempt Investment Institution (VBI), capped at 15% for Cyprus residents.",
+ "confidence": "high",
+ "unverified": []
+}

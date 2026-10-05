@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "RO",
+ "treaty_name": "Agreement between the Government of Malta and the Government of Romania for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1995, as amended 2024)",
+ "signed": "1995-11-30",
+ "entry_into_force": "1996-08-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf",
+ "eif_quote": "ROMANIA Original 30-11-1995 16-08-1996",
+ "source_title": "S.L. 123.42 Double Taxation Relief on Taxes on Income with Romania Order (consolidated incl. 2024 Protocol, L.N. 97 of 2026)",
+ "source_url": "https://legislation.mt/eli/sl/123.42/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "RO",
+   "quote": "where the dividends are paid by a company resident of Romania to a resident of Malta who is the beneficial owner thereof, the Romanian tax so charged shall not exceed 5 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "30",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "where the dividends are paid by a company which is a resident of Malta to a resident of Romania who is the beneficial owner thereof, the Malta tax so charged shall not exceed that chargeable on the company paying the dividends in respect of the profits so distributed and in any case shall not exceed 30 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective for income derived from 1 Jan following EIF (Art. 29(2)) -> 1997-01-01. Malta-source dividends limited to the tax chargeable on the company's distributed profits, and in any case max 30% (Malta has no dividend WHT). Interest exempt when derived by the other Government, territorial-administrative units, agencies/bank units, or where debt-claims are guaranteed/insured/financed by a wholly government-owned financial institution (Art. 11(3)). Royalties are Art. 13 (Art. 12 covers 'Commission' paid to brokers/agents: 10% cap - not modelled). 2024 Protocol (signed 2024-07-04; 'in force as from the 22nd May 2026. Vide Legal Notice 251 of 2026') only replaced Art. 26(2) (MAP). MLI: covered; Romania notified 35(7)(b) completion for Malta 2023-03-06; PPT effective for WHT from 2024-01-01 (merged dataset). Malta reserved Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

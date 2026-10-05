@@ -1,0 +1,69 @@
+{
+ "a": "CH",
+ "b": "HK",
+ "treaty_name": "Agreement between the Swiss Federal Council and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the avoidance of double taxation with respect to taxes on income (2011)",
+ "signed": "2011-10-04",
+ "entry_into_force": "2012-10-15",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2012/668/de",
+ "eif_quote": "In Kraft getreten durch Notenaustausch am 15. Oktober 2012",
+ "source_title": "SR 0.672.941.61 Abkommen CH-HK vom 4.10.2011 (consolidated, Stand 15.10.2012)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2012/668/20121015/de/html/fedlex-data-admin-ch-eli-cc-2012-668-20121015-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in der Vertragspartei, in der die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieser Partei besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine in der anderen Vertragspartei ansässige Person ist, 10 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 nimmt die Vertragspartei, in der die die Dividenden zahlende Gesellschaft ansässig ist, die bezahlten Dividenden von der Besteuerung aus, wenn der Nutzungsberechtigte der Dividenden: (a) eine Gesellschaft (jedoch keine Personengesellschaft) ist, die in der anderen Vertragspartei ansässig ist und die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einer Vertragspartei stammen und deren Nutzungsberechtigte eine in der anderen Vertragspartei ansässige Person ist, können nur in der anderen Partei besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in der Vertragspartei, aus der sie stammen, nach dem Recht dieser Partei besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine in der anderen Vertragspartei ansässige Person ist, 3 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (article-specific anti-conduit clauses only; not MLI-covered)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(2): in Switzerland applies to WHT on income paid or credited on/after 1 Jan 2013; in Hong Kong to years of assessment beginning on/after 1 April 2013 (valid_from uses the Swiss WHT date). Dividend 0% also for pension schemes, the HKMA and the Swiss National Bank (Art. 10(3)(b),(c)); no holding period for the 10% tier. Articles 10, 11, 12 and 21 each contain an anti-conduit clause denying benefits for back-to-back arrangements whose main purpose is obtaining treaty benefits (e.g. Art. 10(8)) - specific rule, not a general PPT. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Hong Kong-side start (assessment year from 1.4.2013) differs from the Swiss-side WHT date used as valid_from"
+ ]
+}

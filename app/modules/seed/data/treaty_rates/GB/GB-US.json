@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "US",
+ "treaty_name": "Convention between the United Kingdom and the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2001, as amended by Protocol 2002)",
+ "signed": "2001-07-24",
+ "entry_into_force": "2003-03-31",
+ "eif_source_url": "https://www.gov.uk/government/publications/usa-tax-treaties",
+ "eif_quote": "The double taxation convention entered into force on 31 March 2003 and was amended by signed protocol on 19 July 2002. It is effective in the: USA from: 1 May 2003 for taxes with held at source 1 January 2004 for all other US taxes UK from: 1 April 2003 for Corporation Tax 6 April 2003 for Income Tax and Capital Gains Tax 1 May 2003 for taxes withheld at source",
+ "source_title": "2001 UK-USA Double Taxation Convention as amended by the 2002 protocol — in force (HMRC consolidated version, gov.uk)",
+ "source_url": "https://www.gov.uk/government/publications/usa-tax-treaties",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-05-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed, except as otherwise provided, (a) 5 per cent. of the gross amount of the dividends if the beneficial owner is a company that owns shares representing directly or indirectly at least 10 per cent. of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-05-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent. of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2003-05-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2003-05-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty has LOB art. 23 and conduit-arrangement rules instead)",
+  "source_url": "https://www.gov.uk/government/publications/usa-tax-treaties",
+  "quote": ""
+ },
+ "notes": "Both States apply the convention to taxes withheld at source from 1 May 2003 (Art. 29(2)). Dividend 0% tier (Art. 10(3)(a)) requires 80% voting power held for the 12-month period ending on the declaration date AND one of: pre-1 Oct 1998 80% ownership, qualified person under LOB Art. 23(2)(c) (listed-company test), or derivative/competent-authority benefits under Art. 23(3)/(6). Dividends also exempt for pension schemes (Art. 10(3)(b)). Art. 10(4): 5% and 0% company tiers do not apply to dividends from pooled investment vehicles (e.g. US RIC/REIT, UK REIT); 15% applies only to qualifying portfolio holders. Interest: contingent interest may be taxed at up to 15% (Art. 11(5)); excess interest on securitisation vehicles (e.g. REMIC) taxable under domestic law (Art. 11(6)); Arts. 11(7) and 12(5) deny benefits for conduit arrangements. No PPT: the US is not an MLI Party; the treaty instead has a Limitation on Benefits article (Art. 23). Prior 1975 convention could be elected for 12 months (Art. 29(3)(b)) — expired. [curated: dropped DIVIDEND tier — 0% tier needs the LOB test (art. 23) — not modelled]",
+ "confidence": "high",
+ "unverified": []
+}

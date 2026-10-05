@@ -1,0 +1,69 @@
+{
+ "a": "GB",
+ "b": "HU",
+ "treaty_name": "Convention between the United Kingdom and Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2011)",
+ "signed": "2011-09-07",
+ "entry_into_force": "2011-12-28",
+ "eif_source_url": "https://www.gov.uk/government/publications/hungary-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 28 December 2011. The convention is effective in the UK from: 1 January 2012 for taxes withheld at source ... It is effective in Hungary from 1 January 2012.",
+ "source_title": "2011 UK-Hungary Double Taxation Convention — in force (gov.uk HTML)",
+ "source_url": "https://www.gov.uk/government/publications/hungary-tax-treaties/2011-uk-hungary-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2012-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) shall, notwithstanding the provisions of sub-paragraph (a), be exempt from tax in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is: (i) a company which is a resident of the other Contracting State and controls, directly or indirectly, at least 10 per cent of the voting power in the company paying the dividends (other than where the dividends are paid by an investment vehicle as mentioned in subparagraph (a) (ii)); or (ii) a pension scheme."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (i) 10 per cent of the gross amount of the dividends, except as provided in sub-paragraph (a) (ii);"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: 0% also for pension schemes (Art. 10(2)(b)(ii)); 15% where paid out of immovable-property income by a tax-exempt investment vehicle distributing most income annually (Art. 10(2)(a)(ii)), and the 0% company tier excludes such vehicles. 10% voting-power test, no holding period (Hungary reserved the entirety of MLI Art. 8). Treaty main-purpose clauses in Art. 10(6), 11(5), 12(5) (Hungary notified these under MLI Art. 7). Effective for WHT from 1 Jan 2012 in both States (Art. 28(1)); replaced 1977 convention. No gov.uk synthesised MLI text published; MLI coverage (Hungary lists UK as agreement 70) and WHT effective date (2022-01-01) from treaties_merged.json; PPT quote is MLI Art. 7(1) as in the OECD MLI text.",
+ "confidence": "high",
+ "unverified": [
+  "No gov.uk synthesised MLI text for this pair; ppt.from from treaties_merged.json computation"
+ ]
+}

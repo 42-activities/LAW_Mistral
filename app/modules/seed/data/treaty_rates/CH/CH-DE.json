@@ -1,0 +1,70 @@
+{
+ "a": "CH",
+ "b": "DE",
+ "treaty_name": "Convention between Switzerland and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (1971, as amended 1978, 1989, 1992, 2002, 2010, 2023)",
+ "signed": "1971-08-11",
+ "entry_into_force": "1972-12-29",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1972/3075_3128_2910/de",
+ "eif_quote": "In Kraft getreten am 29. Dezember 1972",
+ "source_title": "SR 0.672.913.62 Abkommen CH-DE vom 11.8.1971 (consolidated, Stand 27.11.2025, incl. Protocol 21.8.2023)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1972/3075_3128_2910/20251127/de/html/fedlex-data-admin-ch-eli-cc-1972-3075_3128_2910-20251127-de-html.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Dividende berechtigte Person im anderen Vertragsstaat ansässig ist, nicht übersteigen: ... c) 15 % des Bruttobetrags der Dividenden in Fällen, die nicht unter Buchstabe a oder b fallen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 nimmt der Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, die bezahlten Dividenden von der Besteuerung aus, wenn die nutzungsberechtigte Person eine Gesellschaft (jedoch keine Personengesellschaft) ist, die im anderen Vertragsstaat ansässig ist und unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft während einer Dauer von 365 Tagen, die den Tag der Zahlung der Dividende umfasst, hält"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1972-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die eine in einem Vertragsstaat ansässige Person als Nutzungsberechtigte bezieht, können nur in diesem Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1972-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die eine in einem Vertragsstaat ansässige Person als Nutzungsberechtigte bezieht, können nur in diesem Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 23(3) (inserted by Protocol of 21 Aug 2023)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1972/3075_3128_2910/20251127/de/html/fedlex-data-admin-ch-eli-cc-1972-3075_3128_2910-20251127-de-html.html",
+  "quote": "Ungeachtet anderer Bestimmungen dieses Abkommens wird eine Vergünstigung nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieser Vergünstigung einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu dieser Vergünstigung geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieser Vergünstigung unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Protocol of 21 Aug 2023 in force 27.11.2025; per its Art. 23(2)(b) applies to WHT on Art. 10-12 income falling due on/after 1 Jan 2026 (new wording of Art. 10(3), 11(1), 12(1), beneficial-owner condition and PPT). The 0% intercompany dividend tier existed since the 2002 revision protocol (applicable to Art. 10(3) dividends due on/after 1.1.2002; then 10% held for 12 uninterrupted months); 2023 wording: 365 days including the payment date, reorganisations disregarded. 15% general cap per 2002 revision protocol Art. II, applicable to WHT due on/after 1 Jan 2004. Special tiers not modelled: 5% for dividends from Rhine border hydro power plants (Art. 10(2)(a)); 30% for silent partnership income, profit-participation rights, profit-sharing bonds and participating loans deductible for the payer (Art. 10(2)(b)); German REIT-AG/investment fund dividends excluded from the 0% tier (Art. 10(3) second sentence -> 15%). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Interest and royalty exclusivity valid_from 1972-01-01 assumes the residence-only rule existed in the original 1971 text (2016 consolidation confirmed residence-only; original 1972 text not available as file)",
+  "15% valid_from 2004-01-01 derived from 2002 revision protocol Art. VII(2)(a) and EIF 24.3.2003"
+ ]
+}

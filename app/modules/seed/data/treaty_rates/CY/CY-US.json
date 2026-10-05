@@ -1,0 +1,78 @@
+{
+ "a": "CY",
+ "b": "US",
+ "treaty_name": "Convention between the Government of the United States of America and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1984)",
+ "signed": "1984-03-19",
+ "entry_into_force": "1985-12-31",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/cyprus.pdf",
+ "eif_quote": "Ratifications Exchanged at Washington December 31, 1985; ... Entered into Force December 31, 1985. GENERAL EFFECTIVE DATE UNDER ARTICLE 30: 1 JANUARY 1986",
+ "source_title": "US–Cyprus Income Tax Convention 1984 with Exchange of Notes (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/cyprus.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 12(1)",
+   "valid_from": "1986-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CY",
+   "quote": "(1) Dividends derived from sources within Cyprus by a resident of the United States shall not be subject to any tax imposed by Cyprus in excess of the tax imposed with respect to the profits or earnings out of which such dividends are paid."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1986-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "US",
+   "quote": "(2) The rate of tax imposed by the United States on dividends, other than dividends of the type described in paragraph 4(b), derived from sources within the United States by a resident of Cyprus shall not exceed: ... (b) When the recipient is a corporation, 5 percent of the gross amount of the dividend if: (i) During the part of the paying corporation's taxable year which precedes the date of payment of the dividend and during the whole of its prior taxable year (if any), at least 10 percent of the outstanding shares of the voting stock of the paying corporation was owned by the recipient corporation; and (ii) Not more than 25 percent of the gross income of the paying corporation for such prior taxable year (if any) consists of interest or dividends (other than interest derived from the conduct of a banking, insurance, or financing business and dividends or interest received from subsidiary corporations, 50 percent or more of the outstanding shares of the voting stock of which is owned by the paying corporation at the time such dividends or interest is received)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1986-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "US",
+   "quote": "(2) The rate of tax imposed by the United States on dividends, other than dividends of the type described in paragraph 4(b), derived from sources within the United States by a resident of Cyprus shall not exceed: (a) 15 percent of the gross amount of the dividend;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 13(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) The rate of tax imposed by a Contracting State on interest, other than interest described in paragraph 7(c) of this Article, derived from sources within that Contracting State by a resident of the other Contracting State shall not exceed 10 percent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 14(1)",
+   "valid_from": "1986-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties derived from sources within a Contracting State by a resident of the other Contracting State shall be exempt from tax by the first-mentioned Contracting State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 26 (Limitation on Benefits) - not a PPT",
+  "source_url": "https://www.irs.gov/pub/irs-trty/cyprus.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends are asymmetric: the 5%/15% caps (Art. 12(2)) apply only to US-source dividends. For Cyprus-source dividends Art. 12(1) provides: 'Dividends derived from sources within Cyprus by a resident of the United States shall not be subject to any tax imposed by Cyprus in excess of the tax imposed with respect to the profits or earnings out of which such dividends are paid' - modelled as 0% Cyprus dividend withholding (no tax on the dividend beyond the tax on the underlying profits), source_state CY. The 5% tier's holding period is 'the part of the paying corporation's taxable year which precedes the date of payment ... and the whole of its prior taxable year' (not a fixed day count) plus a 25% passive-income test. Interest exempt at source (Art. 13(3)) when beneficially derived by a Contracting State/instrumentality, on government-guaranteed/insured debt, by a bank or other financial institution, or on debt arising from sale of property or performance of services - not modelled. Art. 30: effective for payments made on or after 1 January of the year following EIF (31.12.1985 -> 1.1.1986). Treaty has an LOB article (Art. 26), no PPT; US is not an MLI Party.",
+ "confidence": "high",
+ "unverified": []
+}

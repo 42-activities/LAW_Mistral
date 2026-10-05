@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "GR",
+ "treaty_name": "Convention between Switzerland and the Hellenic Republic for the avoidance of double taxation with respect to taxes on income (1983, as amended 2010 and 2012)",
+ "signed": "1983-06-16",
+ "entry_into_force": "1985-02-21",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1985/209_209_209/de",
+ "eif_quote": "In Kraft getreten am 21. Februar 1985",
+ "source_title": "SR 0.672.937.21 Abkommen CH-GR vom 16.6.1983 (consolidated, Stand 17.1.2013)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1985/209_209_209/20130117/de/html/fedlex-data-admin-ch-eli-cc-1985-209_209_209-20130117-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine im anderen Vertragsstaat ansässige Person ist, nicht übersteigen: ... b) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch im Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 7 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered; no treaty PPT found)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 10(2)-(3) and 11(2) in the wording of the Protocol of 4 Nov 2010 (in force 27.12.2011; Art. VIII: WHT on amounts credited on/after 1 Jan 2012). Dividends exempt at source when beneficial owner is the other State/subdivision/local authority or a pension fund (Art. 10(3)) - not modelled. Royalty article original 1983 text (Art. 27(2): Greece income from 1.1.1983, Switzerland tax years from 1.1.1983). Additional protocol of 2 Aug 2012 concerns information exchange only. Greece lists the treaty under the MLI, Switzerland does not -> not covered.",
+ "confidence": "high",
+ "unverified": []
+}

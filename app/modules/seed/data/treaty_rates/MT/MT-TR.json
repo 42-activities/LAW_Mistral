@@ -1,0 +1,78 @@
+{
+ "a": "MT",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Malta and the Government of the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011)",
+ "signed": "2011-07-14",
+ "entry_into_force": "2013-06-13",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.147/eng",
+ "eif_quote": "*the Agreement came into force on 13th June, 2013 - see L.N. 177 of 2013.",
+ "source_title": "S.L. 123.147 Double Taxation Relief (Taxes on Income) (The Republic of Turkey) Order (Schedule: 2011 Agreement and Protocol)",
+ "source_url": "https://legislation.mt/eli/sl/123.147/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "where the dividends are paid by a company which is a resident of Turkey to a resident of Malta who is the beneficial owner thereof, the tax so charged in Turkey shall not exceed: i) 10 per cent of the gross amount of the dividends if the beneficial owner is a company (excluding partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "ii) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "Where the dividends paid by a company which is a resident of Malta to a resident of Turkey who is the beneficial owner thereof shall be exempt from any tax in Malta which is chargeable on dividends in addition to the tax chargeable in respect of the profits of the company."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2014-01-01",
+  "basis": "treaty art. 26(3) (main-purpose rule; not MLI)",
+  "source_url": "https://legislation.mt/eli/sl/123.147/eng",
+  "quote": "Notwithstanding any other provision of this Agreement, a resident of a Contracting State shall not receive the benefit of any reduction in or exemption from taxes provided for in this Agreement by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such resident or any person connected with such resident was to obtain the benefits under this Agreement that would not otherwise be available."
+ },
+ "notes": "Effective in Turkey for taxes withheld at source on amounts paid/credited from 1 Jan following EIF (Art. 28(2)(a)(i)) -> 2014-01-01. Turkish 10% tier: company (excluding partnership) holding directly >=25% of capital, no holding period. Malta-source dividends: exempt from any Malta tax on dividends in addition to the corporate tax on the profits (modelled as exclusive, source_state MT); Malta tax on distributed profits of industrial-aid companies capped at 15%. Art. 10(4): Turkish branch profits tax on Maltese companies' PEs per 10(2)(a) rates. Interest exempt when derived by the other Government or Central Bank (Art. 11(3)). Art. 26(2): Arts 6-21 do not apply to persons with special fiscal treatment, incl. Maltese shipping companies exempt under the Merchant Shipping Act. PPT: MLI not applicable (Turkiye signatory, not a Party per merged dataset); the treaty's own Art. 26(3) main-purpose rule (notified by Malta under MLI Art. 7(17)(a)) is recorded instead - it is narrower than the OECD PPT wording (focuses on the purpose of the creation/existence of the resident).",
+ "confidence": "high",
+ "unverified": []
+}

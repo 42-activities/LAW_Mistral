@@ -1,0 +1,59 @@
+{
+ "a": "GB",
+ "b": "EG",
+ "treaty_name": "Convention between the United Kingdom and the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1977)",
+ "signed": "1977-04-25",
+ "entry_into_force": "1980-08-23",
+ "eif_source_url": "https://www.gov.uk/government/publications/egypt-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 23 August 1980. The convention become effective in Egypt from 1 January 1977 and in the UK from: 1 April 1977 for Corporation Tax 6 April 1977 for Income Tax and Capital Gains Tax",
+ "source_title": "1977 UK-Egypt Double Taxation Convention — in force (gov.uk HTML)",
+ "source_url": "https://www.gov.uk/government/publications/egypt-tax-treaties/1977-uk-egypt-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1977-04-06",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GB",
+   "quote": "A dividend derived from a company which is a resident of the United Kingdom by a resident of Egypt may be taxed in Egypt. Such dividend may also be taxed in the United Kingdom and according to the laws of the United Kingdom but where it is beneficially owned by a resident of Egypt the tax so charged shall not exceed 20 per cent of the gross amount of the dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1977-04-06",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1977-04-06",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend article is asymmetric. UK-source dividends to Egyptian residents: max 20% (source_state GB). Egypt-source dividends to UK residents (Art. 10(2)): no general source-State cap; Egypt may tax provided (a) the dividend is deductible from the company's taxable profits (up to those profits) and (b) for UK-resident individuals the Egyptian general income tax on the dividend does not exceed 20% of the dividend after deduction of other Egyptian tax — not modelled as a WHT tier. Interest: exempt at source when paid on loans/credits guaranteed or insured by UK ECGD (Egypt-source only, Art. 11(4)) or when beneficially owned by the other Government or a tax-exempt government instrumentality (Art. 11(5)). Royalties definition includes equipment rentals; Art. 12(7) excludes Egyptian founders' share dividends. valid_from = later of the two States' original effective dates (UK income tax from 6 Apr 1977; Egypt from 1 Jan 1977). No gov.uk synthesised MLI text published for Egypt; MLI coverage and WHT effective date (2021-01-01) taken from treaties_merged.json; PPT quote is MLI Art. 7(1) wording (Egypt made no reservation on Art. 7). MLI Art. 8 holding period not applied: Egypt's Art. 8(4) list does not include the UK, and the treaty has no ownership-threshold dividend tier.",
+ "confidence": "high",
+ "unverified": [
+  "No gov.uk synthesised MLI text for this pair; PPT quote is MLI Art. 7(1) as in the OECD MLI text",
+  "ppt.from from treaties_merged.json computation"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "a": "NL",
+ "b": "SG",
+ "treaty_name": "Overeenkomst tussen de Regering van het Koninkrijk der Nederlanden en de Regering van de Republiek Singapore tot het vermijden van dubbele belasting en het voorkomen van het ontgaan van belasting met betrekking tot belastingen naar het inkomen (1971, as amended 1993 and 2009)",
+ "signed": "1971-02-19",
+ "entry_into_force": "1971-08-31",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1971-167.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 29 van de Overeenkomst, juncto het in de preambule tot het Protocol gestelde, op 31 augustus 1971 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003757 (Dutch authentic text)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003757/2010-05-01",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "1968-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Indien de genieter van de dividenden evenwel een lichaam is waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld en dat onmiddellijk of middellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt, mag Nederland geen belasting heffen op de dividenden."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first sentence",
+   "valid_from": "1968-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Dividenden betaald door een lichaam dat inwoner is van Nederland aan een inwoner van Singapore, mogen echter in Nederland overeenkomstig de Nederlandse wetgeving worden belast, maar de aldus geheven belasting mag 15 percent van het brutobedrag van de dividenden niet overschrijden."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1969-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SG",
+   "quote": "Dividenden betaald door een lichaam dat inwoner is van Singapore aan een inwoner van Nederland, zijn vrijgesteld van elke belasting in Singapore die geheven wordt ter zake van dividenden naast de belasting die geheven wordt ter zake van de winsten van het lichaam"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1969-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter in de Staat waaruit zij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven belasting mag 10 percent van het bedrag van de interest niet overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1969-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Onder voorbehoud van de bepalingen van het zesde lid zijn royalty’s afkomstig uit een van de Staten en betaald aan een inwoner van de andere Staat, slechts in die andere Staat belastbaar."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29: applies in NL for tax years/periods beginning on or after 1 January 1968, in Singapore for years of assessment beginning on or after 1 January 1969; two-way entries use 1969-01-01 (NL side effective from 1968-01-01). Dividend article is asymmetric: Art. 10(2) limits NL WHT (15%; 0% for a company with share capital holding directly or indirectly >=25%); Art. 10(3) exempts Singapore dividends from any Singapore tax on dividends in addition to tax on the company's profits (modelled as 0% for SG source; it is an exemption, with a proviso about Singapore's imputation-system rate adjustment). Art. 11(3): no source tax on interest paid to the Government of the other State (incl. Singapore Board of Commissioners of Currency) - not modelled. Art. 12(6): the Convention does not apply to royalties for literary or artistic copyright (incl. cinematograph films, TV/radio tapes) - no treaty limit for those. Art. 13: international organisations/diplomats of third States not entitled to Art. 10-12 reductions when not taxed. Arts. 10-12 unchanged by the 1993 (Trb. 1994, 64; in force 1994-12-09) and 2009 (Trb. 2009, 145; in force 2010-05-01) protocols (consolidated text shows 1971 wording). MLI: covered by both; PPT (Art. 7(1)) effective for WHT from 2020-01-01 per treaty map. MLI Art. 8 not applied: Singapore reserved the entirety of Art. 8 (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

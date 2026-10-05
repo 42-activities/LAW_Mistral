@@ -1,0 +1,78 @@
+{
+ "a": "NL",
+ "b": "GR",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1981, as amended 2006)",
+ "signed": "1981-07-16",
+ "entry_into_force": "1984-07-17",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1984-84.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 31, tweede lid, van de Overeenkomst, juncto het gestelde in de preambule tot het Protocol, in werking getreden op 17 juli 1984.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0002791 (English authentic text, prevailing; version from 2006-07-01)",
+ "source_url": "https://wetten.overheid.nl/BWBV0002791/2006-07-01",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1981-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "with respect to dividends paid by a company which is a resident of the Netherlands to a resident of Greece: (i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "1981-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1981-01-01",
+   "max_rate": "35",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "with respect to dividends paid by a company which is a resident of Greece to a resident of the Netherlands: 35 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest, provided that where such interest is paid to a bank or a financial institution the tax so charged shall not exceed 8 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1981-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "7 per cent of the gross amount of all other royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend limits are one-directional: NL-source 5% (company, not a partnership, holding directly >=25% of capital) / 15%; Greek-source capped at 35% (Protocol I explains the asymmetry by Greek deductibility of dividends and commits to review). Interest: 8% cap where paid to a bank or financial institution (not modelled as a tier). Royalties: 5% for copyright of literary, artistic or scientific work incl. cinematograph films (Art. 12(2)(a)); 7% for all other royalties (modelled general tier). Art. 13: third-State international organisations/diplomats excluded. Art. 31(2): effect for taxable years and periods beginning on/after 1-1-1981 (retroactive; EIF 17-07-1984). The 2006 Protocol (Trb. 2006, 67) did not amend Arts. 10-12. MLI: covered by both; WHT effect 2022-01-01 (treaties_merged). Greece reserved the entirety of MLI Art. 8, so no 365-day holding period.",
+ "confidence": "high",
+ "unverified": []
+}

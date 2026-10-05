@@ -1,0 +1,67 @@
+{
+ "a": "SG",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Republic of Poland for the avoidance of double taxation (2012; modified by MLI)",
+ "signed": "2012-11-04",
+ "entry_into_force": "2014-02-06",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-poland-dta-(ratified)(mli)(1-apr-2019).pdf?sfvrsn=f6c24e57_7",
+ "eif_quote": "Date of Conclusion: 4 November 2012 Entry into Force: 6 February 2014 Effective Date: 1 January 2015. Art. 28(2)(a)(i): in Poland in respect of taxes withheld at source, on income derived on or after 1 January in the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "IRAS consolidated text: Singapore-Poland DTA (ratified)(MLI)(1 Apr 2019), incl. Protocol 2012 and Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-poland-dta-(ratified)(mli)(1-apr-2019).pdf?sfvrsn=f6c24e57_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly at least 10 per cent of the capital of the company paying the dividends on the date the dividends are paid and has done so or will have done so for an uninterrupted 24-month period in which that date falls;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 2 per cent of the gross amount of the royalties paid for the use of, or the right to use any industrial, commercial, or scientific equipment; and (b) 5 per cent of the gross amount of the royalties in other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 27A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-poland-dta-(ratified)(mli)(1-apr-2019).pdf?sfvrsn=f6c24e57_7",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 6(a): taxes withheld at source ... on or after 1 January 2020)"
+ },
+ "notes": "Dividend 5% tier requires an uninterrupted 24-month holding period (treaty, encoded as 730 days) in which the payment date falls. Not modelled: 2% royalties for use of industrial, commercial or scientific equipment (Art. 12(2)(a)); dividends to the Government exempt (Art. 10(3)); interest taxable only in residence State for State/central bank/statutory bodies, State-paid interest, GIC, Bank Gospodarstwa Krajowego (Art. 11(3)). Art. 27 remittance clause applies. MLI deleted treaty main-purpose clauses Art. 10(8), 11(8), 12(7). 1993 Agreement superseded. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

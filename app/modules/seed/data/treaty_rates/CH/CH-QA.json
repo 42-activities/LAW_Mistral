@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "QA",
+ "treaty_name": "Convention between the Swiss Confederation and the State of Qatar for the avoidance of double taxation with respect to taxes on income (2009)",
+ "signed": "2009-09-24",
+ "entry_into_force": "2010-12-15",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2011/14/de",
+ "eif_quote": "In Kraft getreten durch Notenaustausch am 15. Dezember 2010",
+ "source_title": "SR 0.672.965.61 Abkommen CH-QA vom 24.9.2009 (consolidated, Stand 15.12.2010)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2011/14/20101215/de/html/fedlex-data-admin-ch-eli-cc-2011-14-20101215-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine im anderen Vertragsstaat ansässige Person ist, nicht übersteigen: ... c) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Protocol para. 1(b) main-purpose rule limited to Art. 10-11 rights; not MLI-covered)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Applies to WHT on amounts paid or credited on/after 1 Jan 2011 (EIF 15.12.2010). Not modelled: 10% for an individual beneficial owner holding directly >=10% of the capital (Art. 10(2)(b)); residence-only dividends for the State, subdivisions, central bank, pension funds, investment authorities and recognised government institutions (Art. 10(3)). Protocol para. 1(b): 'Die Artikel 10 und 11 sind nicht anwendbar, wenn eine Person Aktien, Forderungen oder andere Rechtstitel, für die Dividenden oder Zinsen gezahlt werden, hauptsächlich zu dem Zweck schafft oder zuteilt, um dadurch in den Genuss der steuerlichen Vorteile gemäss den Artikeln 10 und 11 zu gelangen.' (not a general PPT). Exchange of letters of 20.9.2016 (SR 0.672.965.611) concerns Art. 25 interpretation. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

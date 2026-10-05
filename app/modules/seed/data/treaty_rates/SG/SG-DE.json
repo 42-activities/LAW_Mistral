@@ -1,0 +1,67 @@
+{
+ "a": "SG",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Singapore and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (2004, as amended by Protocol 2019)",
+ "signed": "2004-06-28",
+ "entry_into_force": "2006-12-12",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-germany-dta-(ratified)(29-oct-2021)(for-uploading)fee4248a-6a49-4fb3-82c9-b823fe1c4336.pdf?sfvrsn=e0dc9916_10",
+ "eif_quote": "Date of Conclusion: 28 June 2004. Entry into Force: 12 December 2006. Effective Date: 1 January 2007. NOTE: The protocol signed on 9 December 2019 entered into force on 29 March 2021 and its provisions shall take effect from 1 January 2022.",
+ "source_title": "IRAS text: Singapore-Germany DTA 2004 with Protocol signed 9 Dec 2019 (Annex A) (ratified, 29 Oct 2021 upload)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-germany-dta-(ratified)(29-oct-2021)(for-uploading)fee4248a-6a49-4fb3-82c9-b823fe1c4336.pdf?sfvrsn=e0dc9916_10",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner (other than an individual or a partnership) holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) as replaced by Protocol 2019 Art. 3",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“(b) 10 per cent of the gross amount of the dividends in all other cases;”"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1) as replaced by Protocol 2019 Art. 4",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State.”"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as amended by Protocol 2019 Art. 5",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties. [Protocol 2019 Art. 5: In respect of paragraph 2, the term “8 per cent” shall be replaced by “5 per cent”.]"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 29(1) (inserted by Protocol 2019 Art. 13)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-germany-dta-(ratified)(29-oct-2021)(for-uploading)fee4248a-6a49-4fb3-82c9-b823fe1c4336.pdf?sfvrsn=e0dc9916_10",
+  "quote": "“1. Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement.”"
+ },
+ "notes": "Not a covered tax agreement under the MLI (Germany does not list Singapore); PPT comes from the 2019 amending Protocol, effective for WHT on amounts paid on or after 1 Jan 2022 (Art. 15(2)). Before 2022: dividends 15% general tier, interest 8%, royalties 8% (equipment rentals included). Not modelled: Art. 10(2)(c) 15% for dividends paid by a REIT (German REIT-AG / Singapore listed S-REIT); Germany may tax sleeping-partner/participating-loan income under domestic law (Art. 10(4) renumbered). Equipment rentals removed from royalty definition by Protocol. Government interest exemptions superseded by general exemption.",
+ "confidence": "high",
+ "unverified": []
+}

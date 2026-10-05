@@ -1,0 +1,81 @@
+{
+ "a": "LU",
+ "b": "CH",
+ "treaty_name": "Convention entre le Grand-Duché de Luxembourg et la Confédération suisse en vue d'éviter les doubles impositions en matière d'impôts sur le revenu et sur la fortune (1993, telle que modifiée par les Avenants de 2009 et 2012 et par l'accord amiable IM de 2020)",
+ "signed": "1993-01-21",
+ "entry_into_force": "1994-02-19",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2010-51-fr-pdf.pdf",
+ "eif_quote": "Avenant du 25 août 2009, Article 5: '2. Le présent Avenant ... entrera en vigueur à la date de la dernière des notifications ... et ses dispositions seront applicables: a) ... aux impôts retenus à la source sur les revenus attribués ou versés à des non-résidents à partir du 1er janvier de l'année civile suivant celle au cours de laquelle le présent Avenant est entré en vigueur' (LU list: 'Articles 4, 10, 18, 19, 25 et 26 - Avenant signé le 25/08/2009 | Mémorial A n° 51 de 2010, page 915 | à partir de 2011'; Convention: 'Mémorial A n° 101 de 1993, page 2124 | à partir de 1994')",
+ "source_title": "LU–CH Convention 1993 – Mémorial A n° 101 de 1993 (p. 2124, image pages read visually); Avenant 2009 – Mémorial A n° 51 de 2010 (p. 915)",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1993-101-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "b) Nonobstant les dispositions du sous-paragraphe a), l'Etat contractant dont la société est un résident ne prélève pas d'impôts sur les dividendes payés par cette société si le bénéficiaire effectif des dividendes est: (i) une société qui est un résident de l'autre Etat contractant et qui détient directement, pendant deux ans au moins, 10 pour cent au moins du capital de la société qui paie les dividendes"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(i) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 10 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ii) 15 pour cent du montant brut des dividendes, dans les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les intérêts provenant d'un Etat contractant et payés à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les redevances provenant d'un Etat contractant et payées à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat, si ce résident en est le bénéficiaire effectif."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) via LU–CH accord amiable (new Art. 28A)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/legislation/legi20/2020-11-17-LG-Conv-DI-66-du-17112020.pdf",
+  "quote": "V. Conformément à l'article 7 (Prévenir l'utilisation abusive des conventions), il est inséré un nouvel article 28A (Droit aux avantages) ... Nonobstant toute disposition de la présente Convention, un avantage au titre de celle-ci ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure ... 5. a) S'agissant des impôts prélevés à la source sur des sommes payées ou attribuées, si le fait générateur de ces impôts intervient à compter du 1er janvier 2021"
+ },
+ "notes": "IMPORTANT interest exception not modelled as a tier: Art. 11(2) — interest on bonds and similar securities and on customer deposits with banks/savings banks remains taxable in the source State up to 10% ('les intérêts d'obligations et autres titres similaires ainsi que des avoirs de clients auprès de banques ou caisses d'épargne sont aussi imposables dans l'Etat contractant d'où ils proviennent ... l'impôt ainsi établi ne peut excéder 10 pour cent'); other interest exempt. Dividends: 0% for company holding ≥10% directly for at least two years (730 days); also 0% for pension funds/institutions de prévoyance (Art. 10(2)(b)(ii), not modelled). Pre-2011 original Art. 10(2): 5% (company ≥25%), 15% otherwise, and LU-source 0% for ≥25% held 2 years. No MLI synthesised text published; MLI changes implemented through a competent-authority agreement (Circulaire L.G.-Conv. D.I. n° 66). Art. 29: 'La Convention entrera en vigueur trente jours après l'échange des instruments de ratification et ses dispositions seront applicables: a) au Luxembourg: (i) aux impôts dus à la source sur les revenus attribués ou mis en paiement à partir du 1er janvier de l'année au cours de laquelle les instruments de ratification auront été échangés' => interest/royalty valid_from 1994-01-01. Art. 28 excludes Luxembourg 1929 holding companies.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 1994-02-19 (treaty-map dataset; consistent with Art. 29: EIF 30 days after exchange of ratifications, WHT from 1 Jan of the year of exchange)",
+  "2009 avenant EIF year (applicability 2011 from LU list)"
+ ]
+}

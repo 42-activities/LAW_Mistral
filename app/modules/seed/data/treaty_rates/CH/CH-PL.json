@@ -1,0 +1,89 @@
+{
+ "a": "CH",
+ "b": "PL",
+ "treaty_name": "Convention between Switzerland and the Republic of Poland for the avoidance of double taxation with respect to taxes on income and on capital (1991, as amended 2010)",
+ "signed": "1991-09-02",
+ "entry_into_force": "1992-09-25",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1992/2011_2011_2011/de",
+ "eif_quote": "In Kraft getreten am 25. September 1992",
+ "source_title": "SR 0.672.964.91 Abkommen CH-PL vom 2.9.1991 (consolidated, Stand 28.12.2016)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1992/2011_2011_2011/20161228/de/html/fedlex-data-admin-ch-eli-cc-1992-2011_2011_2011-20161228-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine im anderen Vertragsstaat ansässige Person ist, 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2a)(i)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "Ungeachtet des Absatzes 2 können Dividenden, die eine in einem Vertragsstaat ansässige Gesellschaft an eine im anderen Vertragstaat ansässige Person zahlt, nur in diesem anderen Staat besteuert werden, wenn der Nutzungsberechtigte: (i) eine Gesellschaft (jedoch keine Personengesellschaft) ist, die anlässlich der Dividendenzahlung direkt mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt und diese Beteiligung über einen ununterbrochenen Zeitraum von 24 Monaten, in welcher der Zeitpunkt der Dividendenzahlung fällt, hält oder halten wird;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 5 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2a) with Protocol para. 3",
+   "valid_from": "2013-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 können Zinsen, die eine in einem Vertragsstaat ansässige Gesellschaft an eine im anderen Vertragstaat ansässige Person zahlt, nur im anderen Staat besteuert werden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die mit der leistenden Gesellschaft verbunden ist. [Protocol 3: ... «verbunden» ist, wenn: (i) die erstgenannte Gesellschaft eine direkte Beteiligung von mindestens 25 Prozent am Kapital der anderen Gesellschaft innehat; ...]"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine in dem anderen Vertragsstaat ansässige Person ist, 5 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2a) with Protocol para. 3",
+   "valid_from": "2013-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 können Lizenzgebühren, die eine in einem Vertragsstaat ansässige Gesellschaft an eine im anderen Vertragstaat ansässige Person zahlt, nur im anderen Staat besteuert werden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die mit der leistenden Gesellschaft verbunden ist."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered: Poland lists it, Switzerland does not; no treaty PPT found)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Protocol of 20 April 2010 in force 17.10.2011; per its final article: WHT on amounts due on/after 1 Jan 2012, but Art. IV(1)-(2) and V(1)-(2) (interest/royalty 5% and associated-company exemption) apply to interest and royalties paid on/after 1 July 2013. 'Associated' (Protocol para. 3): direct holding of >=25% of the capital of the other company in either direction, or both companies >=25% directly held by a third company resident in an EU/EEA State; no holding period. Dividend 0% also for recognised pension schemes (Art. 10(2a)(ii)). Protocol para. 4: MFN - if Poland agrees a royalty rate below 5% with an EU/EEA State, that lower rate applies automatically (not modelled).",
+ "confidence": "high",
+ "unverified": []
+}

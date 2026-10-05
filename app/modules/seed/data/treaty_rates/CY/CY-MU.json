@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the Republic of Mauritius for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2000, as amended by Protocol 2017)",
+ "signed": "2000-01-21",
+ "entry_into_force": "2000-06-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position Art. 2 list: \"Republic of Mauritius Original / Amending Instrument - Protocol (a) 21-01-2000 / 23-10-2017 12-06-2000 / 02-05-2018\"; treaty Art. 29(1): \"The Agreement shall enter into force on the date of the later of these notifications.\"",
+ "source_title": "CY-MU Agreement 2000, English text, Cyprus Official Gazette (gov.cy MoF scan); Amending Protocol 23.10.2017, Official Gazette Annex VII No. 4233, 17.11.2017",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/mauritius_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the interest, be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the royalties, be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "All three categories exclusive to the residence State. Art. 29(2): Cyprus - WHT on amounts paid or credited on or after 1 January next following EIF (2001-01-01); Mauritius - income years beginning on or after 1 July next following EIF (2000-07-01). The 2017 amending Protocol (in force 2018-05-02) only replaces Art. 27 (Exchange of Information); Arts. 10-12 unchanged. MLI covered (CY and MU); Cyprus reserved MLI Art. 8 entirely; PPT from mli_wht_effective per treaties_merged.json.",
+ "confidence": "high",
+ "unverified": []
+}

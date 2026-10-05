@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of Malta and the Government of the Republic of Mauritius for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2014)",
+ "signed": "2014-10-15",
+ "entry_into_force": "2015-04-23",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.161/eng",
+ "eif_quote": "that the Agreement shall enter into force on such date as may be announced by notice in the Gazette*. *23rd April, 2015 - see Legal Notice 362 of 2015.",
+ "source_title": "S.L. 123.161 Double Taxation Relief (Taxes on Income) (The Republic of Mauritius) Order (Schedule: 2014 Agreement)",
+ "source_url": "https://legislation.mt/eli/sl/123.161/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the interest, be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the royalties, be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in both States for income derived from 1 Jan following EIF (Art. 28(2)) -> 2016-01-01. All three categories exclusive to residence State. MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2021-01-01 (merged dataset).",
+ "confidence": "high",
+ "unverified": []
+}

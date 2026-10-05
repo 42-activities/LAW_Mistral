@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "IL",
+ "treaty_name": "Convention between the United Kingdom and Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1962, as amended 1970 and 2019)",
+ "signed": "1962-09-26",
+ "entry_into_force": "1963-02-13",
+ "eif_source_url": "https://www.gov.uk/government/publications/israel-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 13 February 1963 and was amended by a protocol signed on 20 April 1970. ... The protocol to the 1962 Convention was signed on 17 January 2019. It entered into force on 28 October 2019. The protocol takes effect in the UK from: 1 January 2020 for taxes withheld at source ... The protocol takes effect in Israel from: 1 January 2020 for taxes withheld at source",
+ "source_title": "1962 UK-Israel Double Taxation Convention as amended by the 1970 and 2019 Protocols — consolidated text (gov.uk HTML)",
+ "source_url": "https://www.gov.uk/government/publications/israel-tax-treaties/1962-uk-israel-double-taxation-convention-as-amended-by-the-1970-and-2019-protocols-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VI(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner of the dividends is a company (other than a partnership or a real estate investment trust) which holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of payment of the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article VI(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article VII(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article VIII(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in one of the territories and beneficially owned by a resident of the other territory shall be taxable only in that other territory."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. XXIA(1) (inserted by 2019 Protocol)",
+  "source_url": "https://www.gov.uk/government/publications/israel-tax-treaties/1962-uk-israel-double-taxation-convention-as-amended-by-the-1970-and-2019-protocols-in-force",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Rates as amended by the 2019 Protocol (in force 28 Oct 2019; effective for WHT from 1 Jan 2020 in both States). Interest: 5% cap (Art. VII(2)(a)) on interest paid on any loan granted by a bank resident in the other State — bank-only tier, not modelled; 10% general cap modelled. Dividends: 5% tier requires direct holding of at least 10% of capital for a 365-day period including the payment date and excludes partnerships and REITs; pension schemes exempt (Art. VI(3)); Israeli REIT distributions to UK holders of <10% capped at 15% (Art. VI(4)(a)); UK REIT/PAIF property-income dividends to Israeli residents capped at 15% (Art. VI(4)(b)). Interest exempt (Art. VII(4)) when paid to/by Governments, political subdivisions, local authorities, central banks, to pension schemes, and on certain exchange-traded corporate bonds (Israeli ITO s.9(15d) / UK TCGA s.117 conditions); Art. VII(3) allows the recipient to elect net-basis taxation at the statutory rate. Not covered by MLI (Israel did not list the UK); PPT is in the treaty (Art. XXIA, effective with the 2019 Protocol from 1 Jan 2020 for WHT).",
+ "confidence": "high",
+ "unverified": []
+}

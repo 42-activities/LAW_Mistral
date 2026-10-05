@@ -1,0 +1,80 @@
+{
+ "a": "NL",
+ "b": "US",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1992, as amended 1993 and 2004)",
+ "signed": "1992-12-18",
+ "entry_into_force": "1993-12-31",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1993-202.html",
+ "eif_quote": "De bepalingen van de Overeenkomst treden ingevolge artikel 37, eerste lid, op 31 december 1993 in werking. De bepalingen vinden ingevolge hetzelfde artikel en lid toepassing voor de belastingjaren en -tijdvakken die aanvangen, of in het geval van aan de bron geheven belastingen, voor betalingen die zijn gedaan, op of na 1 januari 1994.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001109 (English authentic text; Dutch equally authentic)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001109/2004-12-28",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2005-02-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, dividends shall not be taxed in the State of which the company paying the dividends is a resident if the person who is the beneficial owner of the dividends is a company that is a resident of the other State that has owned directly shares representing 80 percent or more of the voting power in the company paying the dividends for a 12-month period ending on the date the dividend is declared and:"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 percent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 percent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in one of the States and beneficially owned by a resident of the other State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in one of the States and beneficially owned by a resident of the other State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "1994-01-01",
+  "basis": "treaty art. 26 (Limitation on benefits)",
+  "source_url": "https://wetten.overheid.nl/BWBV0001109/2004-12-28",
+  "quote": "Except as otherwise provided in this Article, a resident of one of the States that derives income from the other State shall be entitled to all the benefits of this Convention otherwise accorded to residents of a State only if such resident is a “qualified person” as defined in paragraph 2 of this Article and satisfies any other specified conditions for the obtaining of such benefits."
+ },
+ "notes": "Dividend article as replaced by the 2004 Protocol (Trb. 2004, 166; in force 28-12-2004 per Trb. 2005, 4); Protocol Art. 10(1)(a): effect for taxes withheld at source on amounts paid or credited on or after the first day of the second month following EIF -> 2005-02-01 (Protocol Art. 10(2): 12-month election to keep the unmodified Convention). Art. 10(3) 0% tier: 80%+ voting power held directly for a 12-month period ending on the declaration date (modelled as 365 days) AND one of: >=80% held before 1 October 1998, qualified person under LOB Art. 26(2)(c) (listed company), entitled under Art. 26(3) (derivative benefits), or competent-authority determination under Art. 26(7). 10%/80% thresholds refer to voting power, not capital. Art. 10(4): 5% and 0% tiers do not apply to dividends paid by a US RIC/REIT or a Dutch 'beleggingsinstelling'; REIT/real-estate fund dividends get 15% only under conditions. Art. 35: dividends and interest derived by exempt pension trusts are exempt in the source State (subject to para 2) - not modelled. Interest (Art. 12) and royalties (Art. 13) exclusive to residence State since the Convention took effect (payments on/after 1994-01-01, Art. 37(1)); exceptions: Art. 12(7) REMIC excess inclusions; Arts. 12(8)/13(6) allow up to 15% source tax on interest/royalties attributable to a low-taxed third-country permanent establishment - not modelled. Royalty definition excludes film/TV/radio works. Anti-abuse: comprehensive LOB in Art. 26 (as amended by the 2004 Protocol); the US is not an MLI signatory, so no MLI PPT. ppt.from set to 1994-01-01 (LOB present since the original Convention; current text from the 2004 Protocol).",
+ "confidence": "high",
+ "unverified": [
+  "ppt.from: LOB in original 1992 text assumed effective with the Convention (1994-01-01); current wording applies from 2005-02-01."
+ ]
+}

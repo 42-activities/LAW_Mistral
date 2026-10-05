@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of Malta and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011)",
+ "signed": "2011-11-08",
+ "entry_into_force": "2012-07-18",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.135/eng",
+ "eif_quote": "that the Agreement has entered into force on the 18th July, 2012.",
+ "source_title": "S.L. 123.135 Double Taxation Relief (Taxes on Income) (The Hong Kong Special Administrative Region of the People's Republic of China) Order (Schedule: 2011 Agreement and Protocol)",
+ "source_url": "https://legislation.mt/eli/sl/123.135/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2013-04-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting Party to a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-04-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting Party and beneficially owned by a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-04-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in HKSAR for years of assessment from 1 Apr 2013 and in Malta for income derived from 1 Jan 2013 (Art. 26(2)); valid_from uses the HK date (later). Protocol I(2) preserves domestic anti-avoidance rules; Protocol I(1) fiscally-transparent-entity clause. MLI: covered; HKSAR (via China) notified 35(7)(b) completion for Malta on 2023-02-21; PPT effective for WHT from 2024-01-01 (merged dataset). Malta reserved Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Singapore and the Government of the Italian Republic for the avoidance of double taxation (1977, as amended by Protocol 2011)",
+ "signed": "1977-01-29",
+ "entry_into_force": "1979-01-12",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-italy-dta-(ratified)-(19-oct-2012).pdf?sfvrsn=8fc1407a_7",
+ "eif_quote": "Date of Conclusion: 29 January 1977 Entry into Force: 12 January 1979. Effective Date: 1 January 1975. Art. 28(2)(b): in Italy in respect of income assessable for the taxable period commencing on or after 1st January, 1975 and subsequent taxable periods.",
+ "source_title": "IRAS text: Singapore-Italy DTA 1977 with Protocol signed 24 May 2011 (Annex A) (ratified 19 Oct 2012)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-italy-dta-(ratified)-(19-oct-2012).pdf?sfvrsn=8fc1407a_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State, but if the recipient is the beneficial owner of the dividends, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 12.5 per cent of the amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) fifteen per cent of the gross amount of the royalties in respect of payments of any kind received as a consideration for the use of, or the right to use, any copyright of scientific work, any patent, trade mark, design or model, plan, secret formula or process or for the use of, or the right to use, industrial, commercial or scientific equipment, or for information concerning industrial or scientific experience;"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-italy-dta-(ratified)-(19-oct-2012).pdf?sfvrsn=8fc1407a_7",
+  "quote": ""
+ },
+ "notes": "No PPT: Italy has signed but not ratified the MLI, so the treaty is not modified by the MLI; the 2011 Protocol (EIF 19-10-2012) amends Arts. 2, 3, 5, 22 and 25 only (no anti-abuse rule, WHT articles unchanged). Not modelled: Art. 12(2)(b) 20% cap for royalties for copyright of literary or artistic work incl. cinematograph films/TV or broadcasting tapes (1977 exchange of notes: consultation if Singapore grants <20% to another OECD country); interest exemption for Government/agency loans under intergovernmental agreements (Art. 11(3)). Valid_from per Italian effective date (taxable periods from 1 Jan 1975; Convention applied retroactively).",
+ "confidence": "high",
+ "unverified": []
+}

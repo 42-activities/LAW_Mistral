@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "RO",
+ "treaty_name": "Agreement between the Republic of Singapore and Romania for the avoidance of double taxation with respect to taxes on income and on capital (2002; modified by MLI)",
+ "signed": "2002-02-21",
+ "entry_into_force": "2002-11-28",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-romania-dta-(5-apr-2023-upload).pdf?sfvrsn=b48c89d2_6",
+ "eif_quote": "Date of Conclusion: 21 February 2002 Entry into Force: 28 November 2002 Effective Date: 1 January 2003. Art. 30(a): in Romania in respect of taxes on income and on capital for the taxable period starting from 1 January of the next calendar year following that in which the Agreement enters into force",
+ "source_title": "IRAS consolidated text: Singapore-Romania DTA (5 Apr 2023 upload), incl. Protocol 2002 and Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-romania-dta-(5-apr-2023-upload).pdf?sfvrsn=b48c89d2_6",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the law of the State, but if beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 29A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-romania-dta-(5-apr-2023-upload).pdf?sfvrsn=b48c89d2_6",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 5(a): taxes withheld at source ... on or after 1 January 2024)"
+ },
+ "notes": "MLI effective for WHT from 1 Jan 2024 (Romania reserved Art. 35(7)(a); 35(7)(b) notification made, consistent with the IRAS Annex A date). Not modelled: dividends and interest paid to the Government (incl. National Bank of Romania, MAS, GIC) exempt (Art. 10(3), 11(3)); interest from Romania exempt for external credit received/guaranteed by Government of Romania or NBR or designated state agent, and Romanian government bonds (Art. 11(5)). MLI deleted treaty anti-abuse clauses Art. 11(10) and 12(7). MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

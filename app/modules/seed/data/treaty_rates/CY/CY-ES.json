@@ -1,0 +1,67 @@
+{
+ "a": "CY",
+ "b": "ES",
+ "treaty_name": "Convention between the Republic of Cyprus and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2013)",
+ "signed": "2013-02-14",
+ "entry_into_force": "2014-05-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+ "eif_quote": "Convention ... with respect to taxes on income and on capital. Cyprus Original 14-02-2013 28-05-2014",
+ "source_title": "CY–ES Convention and Protocol 2013 (English, Cyprus Official Gazette scan on Cyprus MoF site)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/spain_2013_02_14_1st_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) second subparagraph",
+   "valid_from": "2014-05-28",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of the paragraph above, the Contracting State of which the company paying the dividends is a resident shall exempt from tax the dividends paid by that company to a company the capital of which is wholly or partly divided into shares and which is a resident of the other Contracting State, provided that it holds directly at least 10 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-05-28",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5% per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-05-28",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-05-28",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(2): Convention enters into force three months after receipt of the later notification; provisions have effect '(b) regarding all other cases, the date on which the Convention enters into force' -> WHT from EIF 28.5.2014. The 0% participation exemption (Art. 10(2) second subpara.) has no holding period in the treaty; Cyprus reserved MLI Art. 8 entirely, so no MLI 365-day period. Protocol I: 'This Convention shall not be interpreted to mean that a Contracting State is prevented from applying its domestic legal provision on the prevention of tax evasion or tax avoidance.' MLI PPT effect for WHT from 2023-01-01 per treaties_merged (Spain Art. 35(7) notification 2022-06-01).",
+ "confidence": "high",
+ "unverified": []
+}

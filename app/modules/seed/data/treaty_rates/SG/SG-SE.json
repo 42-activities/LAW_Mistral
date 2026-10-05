@@ -1,0 +1,69 @@
+{
+ "a": "SG",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the Republic of Singapore and the Government of the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and capital (1968, as amended by Protocol 1983 and exchanges of notes 1976-1991)",
+ "signed": "1968-06-17",
+ "entry_into_force": "1969-02-14",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporeswedendta.pdf?sfvrsn=90791c8c_9",
+ "eif_quote": "Date of Conclusion: 17 June 1968. Entry into Force: 14 February 1969. Effective Date: 1 January 1966. ... A Protocol signed on 28 September 1983 entered into force on 14 December 1983. It is effective from 1 January 1984 unless otherwise indicated. This Protocol is incorporated into the main text of the treaty.",
+ "source_title": "IRAS consolidated text: Singapore-Sweden DTA 1968 (Protocol 1983 incorporated; Annexes A-E)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporeswedendta.pdf?sfvrsn=90791c8c_9",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VII(1) (second sentence) and (3)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Where the resident of Singapore is a parent company the rate of tax charged on such dividends shall, if the recipient is the beneficial owner of the dividends, not exceed 10 per cent of the gross amount of such dividends. ... 3.* For the purposes of this Article the term \"parent company\" means a company resident in one of the Contracting States owning directly not less than 25 per cent of the share capital of the company resident in the other Contracting State paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article VII(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "The rate of tax charged by Sweden in respect of dividends paid by a company which is a resident of Sweden to a resident of Singapore shall, if the recipient is the beneficial owner of the dividends, not exceed 15 per cent of the gross amount of such dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article VIII(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest and other income from bonds, securities, notes, debentures or any other form of indebtedness, whether or not secured by mortgages, derived from sources within one of the Contracting States by a resident of the other Contracting State may, if the recipient is the beneficial owner of the income, not be taxed in the first-mentioned Contracting State at a rate exceeding 15 per cent of the gross amount of such income."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article IX(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties derived from sources within one of the Contracting States and paid to a resident of the other Contracting State shall be exempt from tax in the former Contracting State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singaporeswedendta.pdf?sfvrsn=90791c8c_9",
+  "quote": ""
+ },
+ "notes": "Not a covered tax agreement under the MLI (Sweden does not list Singapore; IRAS 'Modified by the MLI: No'); no PPT. Dividend caps in Art. VII(1) are worded for Swedish-source dividends; Art. VII(2)(b) applies the same 15%/10% caps to Singapore if Singapore ever imposes a tax on dividends beyond company tax (currently none) - modelled as symmetric. Royalty exemption covers only royalties as defined in Art. IX(2) (scientific copyright, patents, trade marks, designs, plans, secret formulas, equipment, know-how); royalties for literary/artistic copyright, films, TV/broadcast tapes and mineral extraction are excluded from the definition (not exempt under Art. IX). Not modelled: 10% on interest received by a financial institution where the payer is an industrial undertaking (Art. VIII(2)); Government interest/dividend exemptions (Art. VII(5), VIII(5)-(7)). valid_from = 1 Jan 1984 per IRAS note on the 1983 Protocol (articles marked * amended by Protocol); exact effective date of individual amended paragraphs not separately indicated.",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from 1984-01-01 for amended Arts. VII-IX inferred from IRAS note 'effective from 1 January 1984 unless otherwise indicated'"
+ ]
+}

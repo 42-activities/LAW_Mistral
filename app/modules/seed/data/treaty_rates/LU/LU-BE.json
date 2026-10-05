@@ -1,0 +1,69 @@
+{
+ "a": "LU",
+ "b": "BE",
+ "treaty_name": "Convention entre le Royaume de Belgique et le Grand-Duché de Luxembourg en vue d'éviter les doubles impositions et de régler certaines autres questions en matière d'impôts sur le revenu et sur la fortune (1970, telle que modifiée par les Avenants de 2002, 2009, 2017, 2021 et par l'IM)",
+ "signed": "1970-09-17",
+ "entry_into_force": "1972-12-30",
+ "eif_source_url": "https://impotsdirects.public.lu/fr/conventions/luxembourg.html",
+ "eif_quote": "Convention signée le 17/09/1970 | Mémorial A n° 64 de 1971, page 1763 | à partir du 01/01/1973. Treaty Art. 28 §2: 'Elle entrera en vigueur le quinzième jour suivant celui de l'échange des instruments de ratification et elle s'appliquera: ... 2° au Luxembourg: a) aux impôts dus à la source sur les revenus attribués aux bénéficiaires à dater du 1er janvier de l'année au cours de laquelle les instruments de ratification auront été échangés'",
+ "source_title": "BE–LU Convention 1970 – texte de synthèse IM (ACD Luxembourg, 06/10/2023)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/belgique-mli-fr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10 §2(a)",
+   "valid_from": "1973-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 p. c. du montant brut des dividendes si le bénéficiaire des dividendes est une société (à l'exception des sociétés civiles, sociétés en nom collectif, sociétés en commandite simple et sociétés coopératives) dont la participation directe, détenue depuis le début de son exercice social, dans le capital de la société (...) attribuant les dividendes est d'au moins 25 p. c. ou a un prix d'acquisition d'au moins 250 millions de francs;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10 §2(b)",
+   "valid_from": "1973-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 p. c. du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11 §2",
+   "valid_from": "1973-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "§ 2. Toutefois, ces intérêts peuvent être imposés dans l'État contractant d'où ils proviennent et selon la législation de cet État, mais l'impôt ainsi établi ne peut excéder 15 p. c. de leur montant."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12 §1",
+   "valid_from": "1973-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "§ 1er. Les redevances provenant d'un État contractant et attribuées à un résident de l'autre État contractant ne sont imposables que dans cet autre État."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/belgique-mli-fr.pdf",
+  "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention ... (impôts prélevés à la source: fait générateur à compter du 1er janvier 2020 dans les deux Etats)"
+ },
+ "notes": "Dividend 10% tier: participation held since the beginning of the recipient's financial year (no fixed day count; min_holding_days left null); alternative threshold = acquisition price of at least BEF 250 million; aggregation rule for group companies (>50% common ownership). Interest: Art. 11 §3 — no source taxation when interest is attributed to an enterprise of the other State, except (1) interest on bonds and other loan securities (other than commercial paper) and (2) interest paid by a company to a company holding directly or indirectly at least 25% of its voting shares — enterprise exemption not modelled (general 15% kept). No beneficial-owner wording in Arts. 10-12. valid_from uses LU ACD list date 01/01/1973; per Art. 28 the treaty applies from 1 January of the year of exchange of ratifications (exchange date not verified). Later amending instruments (2002, 2009, 2017, 2021) did not change Arts. 10-12 per the LU list.",
+ "confidence": "medium",
+ "unverified": [
+  "entry_into_force 1972-12-30 (treaty-map dataset) vs LU list applicability 01/01/1973 — exchange-of-ratification date not verified"
+ ]
+}

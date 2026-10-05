@@ -1,0 +1,69 @@
+{
+ "a": "CH",
+ "b": "GB",
+ "treaty_name": "Convention between Switzerland and the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation with respect to taxes on income (1977, as amended 1981, 1993, 2007, 2009, 2017)",
+ "signed": "1977-12-08",
+ "entry_into_force": "1978-10-07",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1978/1465_1465_1465/de",
+ "eif_quote": "In Kraft getreten am 7. Oktober 1978",
+ "source_title": "SR 0.672.936.712 Abkommen CH-GB vom 8.12.1977 (consolidated, Stand 19.7.2019) + Revision Protocol 26.6.2007 (AS 2009 843)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1978/1465_1465_1465/20190719/de/html/fedlex-data-admin-ch-eli-cc-1978-1465_1465_1465-20190719-de-html-4.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) können mit Ausnahme der Fälle nach Buchstabe a auch im Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Vertragsstaats besteuert werden; die Steuer darf aber 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen, wenn der Nutzungsberechtigte im anderen Vertragsstaat ansässig ist."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2009-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden: a) sind in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, steuerbefreit, wenn der Nutzungsberechtigte der Dividenden: i) eine im anderen Vertragsstaat ansässige Gesellschaft ist, die unmittelbar oder mittelbar über mindestens 10 Prozent am Gesellschaftskapital der dividendenzahlenden Gesellschaft hält, oder ii) eine Vorsorgeeinrichtung ist;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1994-12-19",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können, wenn diese Person der Nutzungsberechtigte ist, nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1994-12-19",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können, wenn diese Person der Nutzungsberechtigte ist, nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 27a (inserted by Protocol of 30 Nov 2017)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1978/1465_1465_1465/20190719/de/html/fedlex-data-admin-ch-eli-cc-1978-1465_1465_1465-20190719-de-html-4.html",
+  "quote": "Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Kapitalgewinne gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieses Vorteils unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Art. 10(2) in the wording of Art. III B of the Revision Protocol of 26 June 2007 (in force 22.12.2008; in Switzerland applies to WHT on dividends due on/after 1 Jan 2009; UK side income tax years from 6.4.2009). Dividend 0% where beneficial owner is a company holding directly or indirectly >=10% of the capital (no holding period), or a pension scheme. Art. 11(1) and 12(1) in the wording of the Protocol of 17 Dec 1993 (in force 19.12.1994). PPT Art. 27a inserted by Protocol of 30 Nov 2017 (in force 19.7.2019; WHT on income paid/credited on/after 1 Jan 2020). Not MLI-covered (neither State lists it).",
+ "confidence": "high",
+ "unverified": [
+  "Interest/royalty valid_from set to EIF of the 1993 protocol (19.12.1994); its application clause was not read (protocol file not retrievable); earlier wording may already have been residence-only"
+ ]
+}

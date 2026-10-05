@@ -1,0 +1,67 @@
+{
+ "a": "GB",
+ "b": "ES",
+ "treaty_name": "Convention between the United Kingdom and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2013)",
+ "signed": "2013-03-14",
+ "entry_into_force": "2014-06-12",
+ "eif_source_url": "https://www.gov.uk/government/publications/spain-tax-treaties",
+ "eif_quote": "The double taxation convention entered into force on 12 June 2014. It is effective in the UK from: 12 June 2014 for withholding taxes on income ... It is effective in Spain from: 12 June 2014 for withholding taxes on income",
+ "source_title": "Synthesised text of the MLI and the 2013 UK-Spain Double Taxation Convention — gov.uk",
+ "source_url": "https://www.gov.uk/government/publications/spain-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2013-uk-spain-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2014-06-12",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) shall, notwithstanding the provisions of subparagraph a), be exempt from tax in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is: (i) a company which is a resident of the other Contracting State and controls, directly or indirectly, at least 10 per cent of the capital in the company paying the dividends (other than where the dividends are paid by an investment vehicle as mentioned in subparagraph a) (ii)); or (ii) a pension scheme which is a resident of the other Contracting State."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2014-06-12",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (i) 10 per cent of the gross amount of the dividends, except as provided in subparagraph a) (ii);"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-06-12",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-06-12",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/spain-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2013-uk-spain-double-taxation-convention-in-force",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Art. 28(2)(i): WHT provisions effective on or after entry into force (12 June 2014) in both States. Dividends: 0% also for resident pension schemes (Art. 10(2)(b)(ii)); 15% for dividends paid out of exempt immovable-property income by investment vehicles (Spanish SOCIMI, UK REIT/PAIF; Protocol III), which are excluded from the 0% company tier. 10% capital test (directly or indirectly), no holding period. MLI: PPT replaces Art. 23(2) main-purpose rule and supersedes all other provisions; MLI WHT effect 1 January 2023 per gov.uk page (MLI in force for Spain 1 January 2022). MLI Art. 8 not in synthesised text. Replaced the 1975 convention.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -21,6 +21,7 @@ from app.modules.seed.lists import seed_lists
 from app.modules.seed.questions import seed_questions
 from app.modules.seed.scoring import seed_scoring
 from app.modules.seed.sources import upsert_source
+from app.modules.seed.treaty_rates import seed_treaty_rates
 from app.modules.source.models import SourceDocument, SourceEvidence
 from app.modules.tax.models import DomesticTaxRule, HoldingRegime, TaxBracket
 from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyProtocol, TreatyRate
@@ -340,6 +341,7 @@ def seed(session: Session) -> None:
     seed_batch7(session)
     seed_batch_me(session)
     seed_batch_me2(session)
+    seed_treaty_rates(session)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:

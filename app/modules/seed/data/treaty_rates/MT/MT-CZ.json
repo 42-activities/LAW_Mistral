@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "CZ",
+ "treaty_name": "Convention between Malta and the Czech Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1996)",
+ "signed": "1996-06-21",
+ "entry_into_force": "1997-06-06",
+ "eif_source_url": "https://mf.gov.cz/cs/zahranici-a-eu/smlouvy-o-zamezeni-dvojiho-zdaneni/prehled-platnych-smluv",
+ "eif_quote": "Malta | 6.6.1997 | 164/1997 Sb.",
+ "source_title": "S.L. 123.43 Double Taxation Relief on Taxes on Income with the Czech Republic Order (Schedule: 1996 Convention)",
+ "source_url": "https://legislation.mt/eli/sl/123.43/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CZ",
+   "quote": "where the dividends are paid by a company resident of the Czech Republic to a resident of Malta who is the beneficial owner thereof, the Czech tax so charged shall not exceed five per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of that interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Howwer, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of the State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed five per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in the Czech Republic for taxes withheld at source on amounts derived on/after 1 Jan of the year following EIF (Art. 28(2)(a)(i)) -> 1998-01-01. Malta-source dividends (Art. 10(2)(b)): 'the Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed percentage, not modelled (Malta levies no dividend WHT). Czech-source dividends 5% flat, no participation threshold. Royalty definition includes copyright, films, patents, equipment (single 5% tier). MLI: covered by both; Malta reserved Art. 8; PPT effective for WHT from 2021-01-01 (later MLI EIF 2020-09-01). Typos ('Howwer', 'Articlc') are from the official S.L. PDF.",
+ "confidence": "high",
+ "unverified": []
+}

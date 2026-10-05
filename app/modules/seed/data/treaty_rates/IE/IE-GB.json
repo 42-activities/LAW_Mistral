@@ -1,0 +1,69 @@
+{
+ "a": "IE",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of Ireland and the Government of the United Kingdom for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1976, as amended 1976, 1994 and 1998)",
+ "signed": "1976-06-02",
+ "entry_into_force": "1976-12-23",
+ "eif_source_url": "https://www.gov.uk/government/publications/ireland-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 23 December 1976 and was amended by signed protocols on 28 October 1976, 7 November 1994 and 4 November 1998.",
+ "source_title": "Revenue.ie: Synthesised text of the MLI and the Ireland-UK Convention (incorporating Protocols 1976, 1994, 1998); Protocol 1998",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/synthesised-text-mli-ireland-uk-dtc.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)(a) (as replaced by Protocol 1998)",
+   "valid_from": null,
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but provided the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed: (a) 5 per cent. of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly 10 per cent. or more of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)(b) (as replaced by Protocol 1998)",
+   "valid_from": null,
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) in all other cases 15 per cent. of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1976-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1976-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/synthesised-text-mli-ireland-uk-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Dividend 5% tier: company controlling directly OR INDIRECTLY >=10% of voting power. Art. 11(2): dividends exempt at source where the residence-State competent authority certifies the recipient is exempt as a charity, superannuation scheme or insurer pension business (not modelled). MLI Art. 7(1) PPT replaces the former main-purpose rule in Art. 12(5) (and Art. 20(3)); effective for WHT 1 Jan 2020 (gov.uk and synthesised text). No MLI Art. 8 box in the synthesised text (Ireland notified Art. 11(1)(a) but no matching application). Interest/royalty exclusivity from the 1976 Convention (effective Ireland income tax 6 April 1976, corporation tax 1 April 1974; UK income tax 6 April 1976).",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from for dividend tiers unknown: 1998 Protocol entry-into-force date not found in Revenue, gov.uk or legislation.gov.uk texts (effect from 1 Jan / 6 Apr / 1 Apr of year after EIF)"
+ ]
+}

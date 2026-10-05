@@ -1,0 +1,80 @@
+{
+ "a": "IE",
+ "b": "AT",
+ "treaty_name": "Convention between Ireland and the Republic of Austria for the avoidance of double taxation with respect to taxes on income (1966, as amended 1987 and 2009)",
+ "signed": "1966-05-24",
+ "entry_into_force": "1968-01-05",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+ "eif_quote": "Irland / Ireland Unterzeichnung / Date of Signature | 24.5.1966 | Inkrafttreten / Entry into Force | 5.1.1968 | Anwendbar ab / Effective From | 1964",
+ "source_title": "Revenue.ie: Ireland-Austria Convention 1966, Protocol 1987 (S.I. 29/1988), Protocol 2009, MLI synthesised text",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/a/austria.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(5) (as substituted by Protocol 1987, Art. V)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AT",
+   "quote": "Dividends paid by a company which is a resident of Austria to a resident of Ireland may be taxed in Ireland. Such dividends may also be taxed in Austria, and according to the laws of Austria, but provided that the beneficial owner of the dividends is a resident of Ireland, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(1)(c) (as substituted by Protocol 1987, Art. V)",
+   "valid_from": "1974-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IE",
+   "quote": "Except as aforesaid, dividends paid by a company which is a resident of Ireland and which are beneficially owned by a resident of Austria shall be exempt from any tax in Ireland which is chargeable on dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(1)",
+   "valid_from": "1964-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(1)",
+   "valid_from": "1964-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Subject to the provisions of paragraph 2 royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(2)",
+   "valid_from": "1964-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": "AT",
+   "quote": "Royalties which are paid by a company which is a resident of Austria to a resident of Ireland who owns more than 50 per cent of the share capital of the debtor company may, notwithstanding the provisions of paragraph 1, be taxed in Austria; such tax may not, however, exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/a/synthesised-text-mli-ireland-austria-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Dividend article is asymmetric. Ireland-source: Art. 8(1)(b) allowed Irish tax up to 15% only where an Austrian resident was entitled to an Irish tax credit (Irish tax-credit regime no longer exists); otherwise Ireland-source dividends exempt from Irish tax (modelled as exclusive, source_state IE). Austria-source: 10% cap; the pre-1987 25% participation exemption was removed by the 1987 Protocol. Royalty 10% Austria tier applies to Irish holders of MORE than 50% of share capital (threshold \"50\" means >50%). valid_from for 1987 Protocol: Austria taxable years from 1 Jan 1976; Ireland corporation tax from financial year 1974. Base treaty effective from 1964. MLI synthesised text contains no Art. 8 (365-day) box. MLI WHT effect 1 Jan 2020 per synthesised text.",
+ "confidence": "high",
+ "unverified": [
+  "IE-source dividend exemption assumes the Art. 8(1)(b) tax-credit branch is inoperative; valid_from dates approximated to start of first effective period"
+ ]
+}

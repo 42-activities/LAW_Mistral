@@ -1,0 +1,67 @@
+{
+ "a": "IE",
+ "b": "HU",
+ "treaty_name": "Convention between Ireland and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1995)",
+ "signed": "1995-04-25",
+ "entry_into_force": "1996-12-05",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=99900011.TV",
+ "eif_quote": "(Az Egyezmény megerősítéséről szóló jegyzékváltás 1996. december 5-én megtörtént, és az Egyezmény 1996. december 5-én hatályba lépett.)",
+ "source_title": "Ireland-Hungary DTC 1995 (revenue.ie) and Revenue synthesised text of the MLI and the Ireland-Hungary DTC",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/h/hungary.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a. 5 per cent of the gross amount of the dividends if the beneficial owner holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/h/synthesised-text-mli-ireland-hungary-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 28(2): WHT provisions apply in Hungary to income derived on or after 1 January of the year following EIF; in Ireland from 6 April 1997 (income tax) / financial years beginning on or after 1 January 1997 (corporation tax). MLI Art. 8 (365-day holding) is not included in the synthesised text, so no holding period. MLI effective for WHT from 1 January 2022 per synthesised text.",
+ "confidence": "high",
+ "unverified": []
+}

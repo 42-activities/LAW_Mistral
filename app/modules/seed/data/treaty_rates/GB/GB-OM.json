@@ -1,0 +1,56 @@
+{
+ "a": "GB",
+ "b": "OM",
+ "treaty_name": "Agreement between the United Kingdom and the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1998, as amended 2009)",
+ "signed": "1998-02-23",
+ "entry_into_force": "1998-11-09",
+ "eif_source_url": "https://www.gov.uk/government/publications/oman-tax-treaties",
+ "eif_quote": "The Double Taxation Agreement entered into force on 9 November 1998. ... It was amended by protocol effective from: 1 January 2012 for taxes withheld at source 9 January 2011 for all other taxes",
+ "source_title": "1998 UK-Oman Double Taxation Agreement as amended by the 2009 protocol (gov.uk consolidated HTML); Protocol per S.I. 2010/2687 (legislation.gov.uk); MLI synthesised text",
+ "source_url": "https://www.gov.uk/government/publications/oman-tax-treaties/1998-uk-oman-double-taxation-agreement-as-amended-by-the-2009-protocol",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2A)(a) (inserted by 2009 Protocol Art. IV)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State: (a) except as provided in sub-paragraph b), such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1996-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest and subject to tax in respect of the interest in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (replaced by 2009 Protocol Art. V)",
+   "valid_from": "2012-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/oman-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-1998-uk-oman-double-taxation-convention-and-protocol-in-force",
+  "quote": "Notwithstanding any provisions of [this Agreement], a benefit under [this Agreement] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [this Agreement]."
+ },
+ "notes": "Protocol signed 26 Nov 2009 (S.I. 2010/2687 text: 'Done in duplicate at London on this 26th day of November 2009'; gov.uk consolidated header says 2010), in force 9 Jan 2011; Art. X: effect for taxes withheld at source on amounts paid on or after 1 Jan of the following year -> 2012-01-01 for the new Art. 10(2A)/(2B) and Art. 12. Interest Art. 11 unchanged from 1998 text (effective Oman 1 Jan 1996, UK 6 Apr 1996; later date used). Interest exemption requires recipient beneficially owning and subject to tax on the interest in the residence State. Dividends: 15% cap for dividends paid from immovable-property income by tax-exempt distributing investment company/fund (Art. 10(2A)(b)), but full exemption for listed government bodies, central banks, State General Reserve Fund, Omani Investment Fund, pension funds (Art. 10(2B)) - not modelled. Royalty definition includes computer software and equipment rental. Former main-purpose clauses in Arts. 10(6), 11(5), 12(7), 21(4) replaced by MLI Art. 7(1). MLI effective for WHT in both countries from 1 Jan 2021 (gov.uk), matching treaties_merged.json; no MLI Art. 8 holding period in synthesised text.",
+ "confidence": "high",
+ "unverified": []
+}

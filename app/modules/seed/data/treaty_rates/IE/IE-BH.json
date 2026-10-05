@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "BH",
+ "treaty_name": "Convention between Ireland and the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2009)",
+ "signed": "2009-10-29",
+ "entry_into_force": "2010-11-09",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+ "eif_quote": "Convention between the Government of the Kingdom of Bahrain and Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains Ireland Original 29-10-2009 09-11-2010",
+ "source_title": "Ireland-Bahrain DTC 2009 with Protocol (revenue.ie) and Revenue synthesised MLI text",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/bahrain.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State, provided such resident is the beneficial owner of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the income."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/synthesised-text-mli-ireland-bahrain-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 27(2): effective in both States for years of assessment / financial years beginning on or after 1 January of the calendar year in which the Convention enters into force (i.e. 1 January 2010). Article 11 is titled 'Income from debt-claims' (interest). Protocol concerns residence of Bahraini companies for Irish domestic provisions; no rate change. MLI: synthesised text states WHT effect from 1 January 2023; Bahrain reserves entirety of MLI Art. 8 (no holding period).",
+ "confidence": "high",
+ "unverified": []
+}

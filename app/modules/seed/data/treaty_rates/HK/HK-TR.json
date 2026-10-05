@@ -1,0 +1,67 @@
+{
+ "a": "HK",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Hong Kong Special Administrative Region of the People's Republic of China and the Government of the Republic of Türkiye for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2024)",
+ "signed": "2024-09-24",
+ "entry_into_force": "2026-01-30",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Türkiye | 24.09.2024 | 22.10.2024 | 30.01.2026 | Year of Assessment 2027/2028 | DX | N/A | N/A",
+ "source_title": "Cap. 112DX Inland Revenue (Double Taxation Relief ...) (Republic of Türkiye) Order, Schedule incl. Protocol (HK e-Legislation)",
+ "source_url": "https://www.elegislation.gov.hk/hk/cap112DX!en",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganization, such as a merger or divisive reorganization, of the company that holds the shares or that pays the dividends);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "treaty art. 27(2)",
+  "source_url": "https://www.elegislation.gov.hk/hk/cap112DX!en",
+  "quote": "Notwithstanding the other provisions of the Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "IN FORCE BUT NOT YET EFFECTIVE on 2026-10-05: EIF 30 Jan 2026; Türkiye side Art. 28(2)(b)(i): taxes withheld at source on amounts paid or credited on or after 1 January 2027; HKSAR: YA from 1 April 2027. Not an MLI covered agreement (Türkiye not an MLI Party); PPT in treaty Art. 27(2), plus a third-jurisdiction PE anti-abuse rule (Art. 27(1)). Protocol para 1: dividends are understood not to be taxed in the HKSAR; if the HKSAR taxes dividends, the Art. 10(2)(a) rate rises from 5% to 10% and 10(2)(b) from 10% to 15%. Interest Art. 11(2)(a): 7.5% where received by a financial institution on a loan or debt instrument with maturity exceeding 2 years; Art. 11(3): exemption for the HKSAR Government, HKMA, Exchange Fund; Government of Türkiye/subdivisions/local authorities, Central Bank of Türkiye, Eximbank of Türkiye - not modelled. Royalties Art. 12(2)(a): 7.5% for the use of industrial, commercial or scientific equipment - not modelled. Art. 10(4): branch profits may be taxed at the 10(2)(a) rate after Art. 7 taxation. Dividend definition includes income from investment funds/trusts (Protocol para 2).",
+ "confidence": "high",
+ "unverified": []
+}

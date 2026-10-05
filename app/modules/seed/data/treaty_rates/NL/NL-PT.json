@@ -1,0 +1,56 @@
+{
+ "a": "NL",
+ "b": "PT",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1999)",
+ "signed": "1999-09-20",
+ "entry_into_force": "2000-08-11",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2000-88.html",
+ "eif_quote": "De bepalingen van Verdrag en Protocol zijn ingevolge artikel 33, eerste lid, van het Verdrag, juncto het gestelde in de preambule tot het Protocol op 11 augustus 2000 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001423 (English authentic text, prevails in case of divergence)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001423/2000-08-11",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 33(2): withholding taxes apply from 1 January of the year following EIF (NL: income derived on or after; PT: fact giving rise on or after) -> 2001-01-01. Art. 10(3): para 2 does not apply to company dividends covered by the EU Parent-Subsidiary Directive (90/435/EEC) - the Directive governs (not modelled as a treaty tier). Art. 11(3): interest exempt at source when the debtor is the State/subdivision/local authority/central bank/public-service institution, or paid to the other State, its subdivisions, central bank or agreed institutions - not modelled. Art. 11(5) and 12(3): EC savings / interest-royalties Directive provisions apply instead of the article where applicable. Protocol XIV: container-lease royalties taxable only in residence State. MLI: covered by both (PPT, Art. 7(1), effective for WHT from 2021-01-01 per treaty map). MLI Art. 8 not applicable: NL does not list the PT treaty under Art. 8(4) and the treaty has no reduced participation tier. Protocol XII: refund claims within three years.",
+ "confidence": "high",
+ "unverified": []
+}

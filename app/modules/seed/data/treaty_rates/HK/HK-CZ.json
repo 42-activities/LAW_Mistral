@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the Czech Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011; modified by MLI)",
+ "signed": "2011-06-06",
+ "entry_into_force": "2012-01-24",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Czech | 06.06.2011 | 08.11.2011 | 24.01.2012 | Year of Assessment 2013/2014 | BY | Yes | Yes",
+ "source_title": "HK IRD Synthesised Text of the MLI and the HKSAR-Czech Republic Agreement (2011)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Czech.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting Party of which the company paying the dividends is a resident and according to the laws of that Party, but if the beneficial owner of the dividends is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting Party and beneficially owned by a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Czech.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "valid_from = Czech side Art. 26(2)(b)(i): taxes withheld at source on income paid or credited on or after 1 January of the year after EIF (EIF 24 Jan 2012 -> 2013-01-01); HKSAR: YA from 1 April 2013. MLI WHT effect: HKSAR 1 April 2023, Czech Republic 1 January 2024 (ppt.from = later). No MLI Art. 8 box in synthesised text. Single dividend rate, no tiers.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "QA",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the State of Qatar for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2013; modified by MLI)",
+ "signed": "2013-05-13",
+ "entry_into_force": "2013-12-05",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Qatar | 13.05.2013 | 24.09.2013 | 05.12.2013 | Year of Assessment 2014/2015 | CJ | Yes | Yes",
+ "source_title": "HK IRD Synthesised Text of the MLI and the HKSAR-Qatar Agreement (2013)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Qatar.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting Party to a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting Party and paid to a resident of the other Contracting Party shall be taxable only in that other Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Qatar.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Royalty definition includes payments for use of industrial, commercial or scientific equipment. valid_from = Qatari side Art. 27(2)(b)(i): taxes withheld at source on amounts paid or credited on or after 1 January of the year after EIF (EIF 5 Dec 2013 -> 2014-01-01); HKSAR: YA from 1 April 2014. MLI art. 7(1) PPT replaces main-purpose clauses Arts 10(5), 11(5), 12(7); MLI WHT effect HKSAR 1 April 2023, Qatar 1 January 2024 (ppt.from = later). No MLI Art. 8 box.",
+ "confidence": "high",
+ "unverified": []
+}

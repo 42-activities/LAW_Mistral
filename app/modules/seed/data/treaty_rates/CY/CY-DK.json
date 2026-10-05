@@ -1,0 +1,69 @@
+{
+ "a": "CY",
+ "b": "DK",
+ "treaty_name": "Agreement between the Republic of Cyprus and the Kingdom of Denmark for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-10-11",
+ "entry_into_force": "2011-09-07",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Denmark ... 11-10-2010 07-09-2011 (Cyprus MLI position, Article 2 list: date of signature, date of entry into force)",
+ "source_title": "Cyprus–Denmark DTA 2010 with Protocol, English text (Official Gazette of Cyprus, Part III, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/denmark_new-en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends where such holding is being possessed for an uninterrupted period of no less than one year;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(d)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "d) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: 0% also for (b) the other Contracting State, its central bank, or any national/other agency (incl. financial institution) owned or controlled by its Government, and (c) pension funds or similar institutions established, recognised and controlled under the laws of the other State — not modelled. The 0% company tier requires a one-year uninterrupted holding (treaty requirement, not MLI). Art. 27(2)(i): WHT effect for amounts paid or credited on or after 1 January next following EIF -> 2012-01-01 (same result under either EIF date in conflict). Replaces the 1981 Denmark–Cyprus convention (Art. 27(3)). Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "EIF conflict carried from treaty map: Cyprus/Denmark MLI positions give 07-09-2011, Danish legal guide 18.05.2011; both yield valid_from 2012-01-01."
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "HK",
+ "b": "ES",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the Kingdom of Spain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2011; modified by MLI)",
+ "signed": "2011-04-01",
+ "entry_into_force": "2012-04-13",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Spain | 01.04.2011 | 08.11.2011 | 13.04.2012 | Year of Assessment 2013/2014 | BX | Yes | Yes",
+ "source_title": "HK IRD Synthesised Text of the MLI and the HKSAR-Spain Agreement (2011)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Spain.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-04-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting Party in which it arises and according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Spain.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Dividend 0% tier expressed as a 0 per cent cap (max_rate '0', not 'taxable only'). Interest Art. 11(3): exclusive residence taxation where the beneficial owner is the other Party/central bank (HKMA)/political subdivision/local authority, interest paid by the source Party or its statutory body, government-guaranteed/export-agency loans, a financial institution, or an approved tax-exempt pension fund - not modelled. valid_from = Spanish side Art. 26(3)(b)(i): taxes withheld at source on amounts paid or credited on or after 1 April of the year after EIF (EIF 13 Apr 2012 -> 2013-04-01); HKSAR: YA from 1 April 2013. MLI art. 7(1) PPT replaces Protocol para 3 main-purpose rule; MLI WHT effect HKSAR 1 April 2023, Spain 1 January 2024 (ppt.from = later). No MLI Art. 8 box.",
+ "confidence": "high",
+ "unverified": []
+}

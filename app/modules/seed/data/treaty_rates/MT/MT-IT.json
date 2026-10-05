@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "IT",
+ "treaty_name": "Agreement between the Republic of Malta and the Republic of Italy for the Avoidance of Double Taxation with respect to Taxes on Income and the Prevention of Fiscal Evasion (1981, as amended 2009)",
+ "signed": "1981-07-16",
+ "entry_into_force": "1985-05-08",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Malta: Stipula - Firma: La Valletta 16.07.1981; Ratifica: L. 02.05.1983, n.304 / In vigore dal: 08.05.1985 / Stipula - Protocollo di modifica - Firma: 13.03.2009; Ratifica: L.30.04.2010, n.77 / In vigore dal: 24.11.2010",
+ "source_title": "S.L. 123.16 Double Taxation Relief on Taxes on Income with the Republic of Italy Order (consolidated incl. 2009 Protocol, L.N. 14 of 2011)",
+ "source_url": "https://legislation.mt/eli/sl/123.16/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1976-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IT",
+   "quote": "where the dividends are paid by a company resident of Italy to a resident of Malta who is the beneficial owner thereof, the Italian tax so charged shall not exceed 15 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a - MLI not applicable (Italy not a Party); no treaty PPT",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(2): provisions have effect retroactively for income of taxable periods commencing on or after 1 Jan 1976 (refund claims within 3 years of EIF, Art. 28(3)); EIF 1985-05-08. Malta-source dividends (Art. 10(2)(b)(i)): Malta tax 'shall not exceed that chargeable on the company paying the dividends in respect of the profits so distributed' - no fixed percentage, not modelled; 15% where paid out of profits of a company receiving Malta industrial-aid benefits (10(2)(b)(ii)). Interest exempt where payer is a Government/local authority, or paid to the other Government/local authority/wholly-owned agency or financial institution, or on intergovernmental-agreement loans (Art. 11(3)). Royalties: copyright of literary, artistic, scientific works, films and TV/broadcasting tapes taxable only in residence State (12(1)); 10% cap for patents, trade marks, equipment, know-how (12(2)). 2009 Protocol (in force 2010-11-24) amended Arts 2, 3, 22 and exchange of information, not Arts 10-12. No PPT: Italy is an MLI signatory but not a Party (merged dataset, OECD status 15-09-2026), so the MLI does not apply; the treaty has no principal-purpose clause.",
+ "confidence": "high",
+ "unverified": []
+}

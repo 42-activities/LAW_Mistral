@@ -1,0 +1,70 @@
+{
+ "a": "IE",
+ "b": "US",
+ "treaty_name": "Convention between the Government of Ireland and the Government of the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1997, as amended by Convention of 1999)",
+ "signed": "1997-07-28",
+ "entry_into_force": "1997-12-17",
+ "eif_source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/usa-1997.pdf",
+ "eif_quote": "This Convention shall enter into force upon the exchange of instruments of ratification and its provisions shall have effect: a. in respect of taxes withheld at source, for amounts paid or credited on or after the first day of January next following the date on which the Convention enters into force;",
+ "source_title": "Revenue: Ireland-USA Convention 1997 (usa-1997.pdf), amending Convention 1999 (usa-protocol.pdf), CCF competent authority agreement (usa.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/usa-1997.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, except as otherwise provided in this Article, the tax so charged shall not exceed: a. 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State may be taxed only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State may be taxed only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 23 (Limitation on Benefits; no PPT)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/usa-1997.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 29: in force on exchange of ratifications; WHT effect for amounts paid or credited on/after 1 Jan following EIF (1998-01-01 given EIF 1997-12-17); Art. 29(3) allowed 1949 Convention benefits for a further 12 months if greater. Art. 10(3): while Irish individuals were entitled to a tax credit on Irish dividends, Irish-source dividends to US residents were exempt from Irish tax except a 15% charge on dividend+credit when the credit is claimed - transitional/obsolete, not modelled. 1999 amending Convention (signed 1999-09-24) replaced Art. 10(4): 5% tier does not apply to RIC/REIT dividends; REIT dividends get 15% only for qualifying small/portfolio holders - not modelled; EIF date of 1999 instrument not verified. Art. 23 Limitation on Benefits applies. MLI: United States not a signatory - no MLI PPT. Competent authority agreement on Irish CCFs (usa.pdf) - not modelled.",
+ "confidence": "medium",
+ "unverified": [
+  "entry_into_force 1997-12-17 taken from treaties_merged.json; Revenue/IRS texts fetched do not state the exchange-of-ratification date (State Dept Treaties in Force and congress.gov unreachable)",
+  "EIF/effective date of 1999 amending Convention (RIC/REIT rule)"
+ ]
+}

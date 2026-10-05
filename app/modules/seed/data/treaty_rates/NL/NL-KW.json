@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Kingdom of the Netherlands and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "signed": "2001-05-29",
+ "entry_into_force": "2002-04-23",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2002-80.html",
+ "eif_quote": "De bepalingen van Verdrag en Protocol zullen ingevolge artikel 30, eerste lid, van het Verdrag en de preambule tot het Protocol op 23 april 2002 in werking treden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001502 (English authentic text, prevailing over Dutch/Arabic; Trb. 2001, 126, corr. Trb. 2019, 152)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001502/2002-04-23",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-05-23",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: b) 10% (ten per cent) of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-05-23",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: a) zero per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10% (ten per cent) of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-05-23",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-05-23",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5% (five per cent) of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": ""
+ },
+ "notes": "Art. 30(1)(a): for taxes withheld at source, effective for amounts paid or credited on or after the 30th day after entry into force (2002-04-23 -> 2002-05-23); Art. 30(2): a resident may elect application from 1 January 2001. Not modelled: Protocol item 5(1) - for Art. 10(2)(a) dividends paid by a Dutch company, if Kuwaiti taxation results in a tax burden below 10%, the Netherlands may levy up to 10%, unless (5(2)) the beneficial owner is the Kuwaiti Government/governmental institutions or a Kuwaiti company that is wholly government-owned, listed on the Kuwait Stock Exchange or engaged in an active business in Kuwait, or (5(3)) the competent authorities agree it is not established mainly to obtain the benefit; Protocol 5(4) individuals who are also resident of a third State may be taxed at domestic/third-State-treaty rate; Protocol 4: technical service fees fall under Art. 7/14. The 0% dividend tier is drafted as a source-State cap of zero per cent (max_rate 0, not exclusive). No PPT: Kuwait is an MLI signatory but not a Party (treaties_merged.json), so the MLI does not apply; treaty has no PPT/LOB clause.",
+ "confidence": "high",
+ "unverified": []
+}

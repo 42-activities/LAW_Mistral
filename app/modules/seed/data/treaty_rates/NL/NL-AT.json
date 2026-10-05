@@ -1,0 +1,80 @@
+{
+ "a": "NL",
+ "b": "AT",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (1970, as amended 1989, 2001, 2008 and 2009)",
+ "signed": "1970-09-01",
+ "entry_into_force": "1971-04-21",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1971-80.html",
+ "eif_quote": "De bepalingen van Verdrag en Slotprotocol zijn ingevolge artikel 30, tweede lid, van het Verdrag, juncto het gestelde in het Slotprotocol, op 21 april 1971 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0004204 (Dutch authentic text, version from 2010-07-01); amending Protocol 1989 Trb. 1990, 13",
+ "source_url": "https://wetten.overheid.nl/BWBV0004204/2010-07-01",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1990-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Niettegenstaande de bepalingen van het tweede lid mag de belasting op dividenden, die door een lichaam dat inwoner is van een van beide Staten worden betaald aan een lichaam dat inwoner is van de andere Staat, 5 percent van het brutobedrag van de dividenden niet overschrijden, indien het lichaam dat de dividenden ontvangt onmiddellijk of middellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1969-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter in de Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast maar de aldus geheven belasting mag 15 percent van het bruto-bedrag van de dividenden niet overschrijden."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest afkomstig uit een van de beide Staten en betaald aan een inwoner van de andere Staat, is slechts in die andere Staat belastbaar."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1969-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty's afkomstig uit een van de beide Staten en betaald aan een inwoner van de andere Staat zijn, behoudens het bepaalde in het tweede lid, slechts in die andere Staat belastbaar."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1969-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty's die door een lichaam dat inwoner is van een van de beide Staten worden betaald aan een inwoner van de andere Staat, die middellijk of onmiddellijk voor meer dan 50 percent in het kapitaal van het betalende lichaam deelneemt, mogen ook in de eerstbedoelde Staat worden belast, maar de belasting mag de helft van het wettelijke belastingtarief, doch in ieder geval 10 percent van het bruto-bedrag van deze royalty's niet overschrijden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties are exclusively taxable in the residence State except where the recipient holds MORE THAN 50% (directly or indirectly) of the paying company's capital: then source State may tax up to half its statutory rate, capped at 10% (threshold modelled as '50' but the text requires 'meer dan 50 percent'). Article 12 is 'Stille vennootschappen' (silent partnership profit shares, taxable in source State without cap) - not modelled. Dividend 5% tier introduced by Protocol of 18-12-1989 (Trb. 1990, 13), in force 28-12-1990; its Art. 5(3): 'wordt artikel 2 toegepast op dividenden, die op of na 1 juli 1990 worden betaald' (both States declared full relief for such dividends paid before 1-1-1991, Trb. 1991, 18). Interest exemption from the same Protocol applies for tax years beginning on/after 1-1-1991. Original treaty applies to tax years beginning on/after 1-1-1969 (Art. 30(2)). MLI: covered by both; WHT effect 2020-01-01 (treaties_merged). Austria reserved the entirety of MLI Art. 8 (Art. 8(3)(a)), so no 365-day holding period, although NL notified Art. 10(3).",
+ "confidence": "high",
+ "unverified": [
+  "Original 1970 royalty/dividend 15% wording valid_from taken as 1969-01-01 from Art. 30(2) (tax years beginning on or after 1 January 1969)."
+ ]
+}

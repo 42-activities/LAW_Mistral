@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation (2010; modified by MLI)",
+ "signed": "2010-05-03",
+ "entry_into_force": "2011-07-01",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-saudi-arabia-dta-(ratified)(mli)(30-apr-2020).pdf?sfvrsn=a33438e9_7",
+ "eif_quote": "Date of Conclusion: 3 May 2010 Entry into Force: 1 July 2011 Effective Date: 1 January 2012. Art. 29(2)(a)(i): in the case of the Kingdom of Saudi Arabia with regard to taxes withheld at source, in respect of amounts paid on or after the first day of January in the calendar year following the year in which this Agreement enters into force",
+ "source_title": "IRAS consolidated text: Singapore-Saudi Arabia DTA (ratified)(MLI)(30 Apr 2020), incl. Protocol 2010 and Annex A MLI effects",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-saudi-arabia-dta-(ratified)(mli)(30-apr-2020).pdf?sfvrsn=a33438e9_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 28A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-saudi-arabia-dta-(ratified)(mli)(30-apr-2020).pdf?sfvrsn=a33438e9_7",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 3(a): taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "Art. 11 is titled 'Income from Debt-Claims' (interest). Not modelled: dividends and income from debt-claims derived by the Government (incl. SAMA, Public Investment Fund, MAS, GIC, statutory bodies) exempt (Art. 26). Protocol para 7: resident trustee taxed on trust income deemed beneficial owner. A separate 1991 reciprocal air-transport agreement remains in force. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,69 @@
+{
+ "a": "LU",
+ "b": "IE",
+ "treaty_name": "Convention between the Grand Duchy of Luxembourg and Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1972, as amended 2014 and modified by the MLI)",
+ "signed": "1972-01-14",
+ "entry_into_force": "1975-02-25",
+ "eif_source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/ireland-mli.pdf",
+ "eif_quote": "Article 30 ... 2. The Convention shall enter into force upon the exchange of instruments of ratification and its provisions shall have effect: (a) in Ireland: 1. as respects income tax (including sur-tax) for any year of assessment beginning on or after the 6th April, 1968; ... (b) in Luxembourg: for periods of assessment beginning after 31st December, 1967.",
+ "source_title": "LU–IE Convention 1972 as amended by 2014 Protocol – MLI synthesised text (Luxembourg ACD, 13/08/2020)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/ireland-mli.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)(b)(i)",
+   "valid_from": "1968-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "LU",
+   "quote": "(b) dividends paid by a company which is a resident of Luxembourg to a resident of Ireland may be taxed in Luxembourg, but the tax so charged shall not exceed: (i) 5 percent of the gross amount of the dividends if the recipient is a company (excluding a partnership) which controls directly at least 25 percent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)(b)(ii)",
+   "valid_from": "1968-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LU",
+   "quote": "(ii) in all other cases, 15 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1968-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived by a resident of a Contracting State from sources within the other Contracting State shall be taxable only in the first-mentioned State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(1)",
+   "valid_from": "1968-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties derived by a resident of a Contracting State from sources within the other Contracting State shall be taxable only in the first-mentioned State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/ireland-mli.pdf",
+  "quote": "The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Convention: ... a benefit under [the Convention] shall not be granted ... (WHT: events on or after 1 January 2020 in both States)"
+ },
+ "notes": "Dividends paid by an Irish company: Art. 9(2)(a) only provides that they 'shall be exempt from Irish sur-tax' — the treaty sets no percentage cap on Irish dividend withholding, so IE-source dividends are not modelled (no treaty limit). LU-source dividend tiers above apply only with source_state LU; the 25% threshold is of voting power ('controls directly at least 25 percent of the voting power'). Treaty effect in LU: periods of assessment beginning after 31.12.1967 (valid_from 1968-01-01); in IE from 6 April 1968. EIF date 1975-02-25 taken from treaty-map dataset (exchange of ratifications), not quoted in this text.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force date 1975-02-25 (from treaties_merged.json; not stated in synthesised text)"
+ ]
+}

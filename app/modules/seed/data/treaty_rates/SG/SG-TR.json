@@ -1,0 +1,67 @@
+{
+ "a": "SG",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Singapore and the Republic of Turkey for the avoidance of double taxation (1999, as amended by Protocol 2012)",
+ "signed": "1999-07-09",
+ "entry_into_force": "2001-08-27",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-turkey-dta-(ratified)-(8-jul-2013).pdf?sfvrsn=aa13488b_10",
+ "eif_quote": "Date of Conclusion: 9 July 1999. Entry into Force: 27 August 2001. Effective Date: 1 January 2002.* * Year of assessment beginning on or after 1 January 2003 (Singapore). Art. 28(b): in Turkey: for taxes with respect to every taxable year beginning on or after the first day of January of the year following that of entry into force of the Agreement.",
+ "source_title": "IRAS text: Singapore-Turkey DTA 1999 with Protocol 1999 and amending Protocol signed 5 Mar 2012 (Annex A) (ratified 8 Jul 2013 upload)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-turkey-dta-(ratified)-(8-jul-2013).pdf?sfvrsn=aa13488b_10",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 10 per cent of the gross amount of the dividends if the recipient is a company (excluding partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 7.5 per cent of the gross amount of the interest if it is received by any financial institution; (b) 10 per cent of the gross amount of the interest in other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-turkey-dta-(ratified)-(8-jul-2013).pdf?sfvrsn=aa13488b_10",
+  "quote": ""
+ },
+ "notes": "No PPT: Türkiye has signed but not ratified the MLI, so the Agreement is not modified by the MLI; the 1999 Agreement/Protocols contain no principal-purpose rule; the 2012 Protocol replaced Art. 26 (EOI) only. Not modelled: 7.5% interest cap where received by any financial institution (Art. 11(2)(a)); dividends and interest paid to the Government (incl. Central Bank and Eximbank of Turkey, MAS, GIC) exempt (Art. 10(3), 11(3)-(4)); branch profits tax on PE remaining profits at the 10% rate of Art. 10(2)(a) (Art. 10(6)). Royalty definition includes alienation of copyrights etc.",
+ "confidence": "high",
+ "unverified": []
+}

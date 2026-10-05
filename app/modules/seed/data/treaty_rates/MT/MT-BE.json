@@ -1,0 +1,56 @@
+{
+ "a": "MT",
+ "b": "BE",
+ "treaty_name": "Agreement between the State of Malta and the Kingdom of Belgium for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion (1974, as amended 1993 and 2010)",
+ "signed": "1974-06-28",
+ "entry_into_force": "1975-01-03",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Malte Original 28-06-1974 03-01-1975",
+ "source_title": "S.L. 123.05 Double Taxation Relief on Taxes on Income with the Kingdom of Belgium Order (consolidated, incl. L.N. 83 of 2003 and L.N. 274 of 2013)",
+ "source_url": "https://legislation.mt/eli/sl/123.5/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BE",
+   "quote": "where dividends are paid by a company resident of Belgium to a resident of Malta who is the beneficial owner thereof, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in Belgium for taxes at source on income credited/payable from 1 Jan of the year after exchange of ratifications (Art. 28(2)); EIF 1975-01-03 so valid_from 1975-01-01. Malta-source dividends (Art. 10(2)(b)(i)): 'Malta tax shall not exceed that chargeable on the company paying the dividends in respect of the profits so distributed' - no fixed percentage, so no Malta-source dividend tier is modelled (Malta levies no dividend WHT under full imputation); 15% where paid out of profits of a company receiving Malta industrial-aid benefits (10(2)(b)(ii)). Interest: exempt when paid to the other State/central bank/wholly state-owned institutions (11(3)(a)-(b)) and interest on commercial debt-claims from deferred payment for goods/services exempt (11(3)(c), added by 1993 Supplementary Agreement, effective 1 Jan 1993). Royalties: copyright of literary, artistic or scientific work including cinematographic films/TV tapes taxable only in residence State (12(1)); 10% cap for patents, trade marks, equipment, know-how (12(2)). 1993 Supplementary Agreement (in force 2002-10-17, L.N. 83/2003) and 2010 Protocol (Art. 26 only, L.N. 274/2013) did not change Arts 10-12 rates. MLI: covered by both; Malta reserved Art. 8; PPT effective for WHT from 2020-01-01 (later MLI EIF 2019-10-01).",
+ "confidence": "high",
+ "unverified": []
+}

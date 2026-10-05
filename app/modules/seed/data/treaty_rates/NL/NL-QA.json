@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Kingdom of the Netherlands and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-04-24",
+ "entry_into_force": "2009-12-25",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2010-11.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zijn ingevolge artikel 30, eerste lid, van het Verdrag, juncto de preambule tot het Protocol, in werking getreden op 25 december 2009.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003166 (English authentic text, prevails in case of divergence)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003166/2009-12-25",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "7.5",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "0% (zero per cent) of the gross amount of the dividends if the beneficial owner is a company the capital of which is wholly or partly divided into shares and which holds directly at least 7.5% (seven and a half per cent) of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10% (ten per cent) of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5% (five per cent) of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 30(2)(a): WHT provisions effective for amounts paid or credited on or after 1 January of the year following EIF -> 2010-01-01. Protocol VI(1): 0% on dividends beneficially owned by a pension fund or collective investment vehicle referred to in Art. 4(2) - not modelled. Protocol VI(2): MFN - if NL agrees a lower rate than Art. 10(2)(b) with a third State after signature, the lower rate applies automatically (not modelled; not evaluated). Art. 10(7) main-purpose test for the 0% rate; both NL and Qatar notified Art. 10(7) under MLI Art. 7(17)(a), so the MLI PPT (Art. 7(1)) applies in place of it from 2021-01-01 (treaty map MLI WHT effective date). MLI Art. 8 (365-day holding) not applied: Qatar reserved the entirety of Art. 8 (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

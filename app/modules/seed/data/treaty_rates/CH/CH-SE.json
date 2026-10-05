@@ -1,0 +1,69 @@
+{
+ "a": "CH",
+ "b": "SE",
+ "treaty_name": "Convention between Switzerland and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1965, as amended 1992, 2011, 2019)",
+ "signed": "1965-05-07",
+ "entry_into_force": "1966-06-06",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1967/90_99_92/de",
+ "eif_quote": "In Kraft getreten am 6. Juni 1966",
+ "source_title": "SR 0.672.971.41 Abkommen CH-SE vom 7.5.1965 (consolidated, Stand 6.12.2020)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1967/90_99_92/20201206/de/html/fedlex-data-admin-ch-eli-cc-1967-90_99_92-20201206-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Dividenden berechtigte Person im anderen Vertragsstaat ansässig ist, 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ungeachtet von Absatz 2 nimmt der Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, die bezahlten Dividenden von der Besteuerung aus, wenn die zur Nutzung der Dividenden berechtigte Person: a. eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar oder mittelbar über mindestens 10 Prozent der Stimmrechte oder des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigte eine im anderen Vertragsstaat ansässige Person ist, können nur in diesem anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigte eine im anderen Vertragsstaat ansässige Person ist, können nur in diesem anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 28a (inserted by Protocol of 19 June 2019)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1967/90_99_92/20201206/de/html/fedlex-data-admin-ch-eli-cc-1967-90_99_92-20201206-de-html-3.html",
+  "quote": "Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke der Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieses Vorteils unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Art. 10, 11, 12 in the wording of the Protocol of 28 Feb 2011 (in force 5.8.2012; Art. XV(2)(a): WHT on income paid or credited on/after 1 Jan 2013). Dividend 0% for a company holding directly or indirectly >=10% of votes or capital (no holding period) and for pension schemes (conditions, Art. 10(3)(b)). PPT Art. 28a inserted by the Protocol of 19 June 2019 (in force 6.12.2020; WHT from 1 Jan 2021). Interest/royalty residence-only may predate 2013 (earlier wording not checked). Not MLI-covered (neither lists it). Implementation agreements for Art. 10/11 exist (SR 0.672.971.411).",
+ "confidence": "high",
+ "unverified": [
+  "Interest/royalty exemption may have applied before 2013 under earlier wording (valid_from set to the 2011 protocol application date)"
+ ]
+}

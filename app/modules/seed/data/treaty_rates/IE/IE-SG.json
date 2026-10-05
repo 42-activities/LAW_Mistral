@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of Ireland and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010), as modified by the MLI",
+ "signed": "2010-10-28",
+ "entry_into_force": "2011-04-08",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Singapore Original 28-10-2010 08-04-2011",
+ "source_title": "Revenue: Synthesised text of the MLI and the Ireland-Singapore DTA; Ireland-Singapore DTA (singapore.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/synthesised-text-mli-ireland-singapore-dta.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/synthesised-text-mli-ireland-singapore-dta.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Art. 28: EIF on later notification (2011-04-08); WHT effect in both States for amounts paid on/after 1 January of the calendar year of EIF (2011-01-01). Interest paid to the Government of the other State (incl. MAS, GIC, Central Bank of Ireland, NTMA, NPRF, statutory bodies not conducting commercial activities) exempt at source (Art. 11(3)-(4), Protocol para. 2) - not modelled. MLI Art. 7(4) discretionary relief also applies. MLI WHT effect from 2020-01-01 (synthesised text).",
+ "confidence": "high",
+ "unverified": []
+}

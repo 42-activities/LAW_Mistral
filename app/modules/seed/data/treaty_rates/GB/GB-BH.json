@@ -1,0 +1,45 @@
+{
+ "a": "GB",
+ "b": "BH",
+ "treaty_name": "Agreement between the United Kingdom and the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2010)",
+ "signed": "2010-03-10",
+ "entry_into_force": "2012-12-19",
+ "eif_source_url": "https://www.gov.uk/government/publications/bahrain-tax-treaties",
+ "eif_quote": "The Double Taxation Agreement entered into force on 19 December 2012. The agreement is effective in Bahrain from 1 January 2013 for: ... withholding taxes. The agreement is effective in the UK from: 1 January 2013 for withholding taxes",
+ "source_title": "2012 UK-Bahrain Double Taxation Agreement — in force (gov.uk PDF) + MLI synthesised text",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a808f5540f0b62305b8bdcd/bahrain-uk-dta_-_in_force.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) except as provided in sub-paragraph 2 (b) such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/bahrain-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2012-uk-bahrain-double-taxation-convention-in-force",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Dividends: exempt at source generally; 15% cap (Art. 10(2)(b)) on dividends paid out of immovable-property income by a tax-exempt investment vehicle that distributes most income annually (e.g. REIT), unless beneficial owner is a pension scheme — not modelled as a separate tier. Interest (\"income from debt-claims\"): NO general cap — source State may tax under domestic law unless one of the Art. 11(3) conditions is met, in which case exclusive residence taxation. Conditions: beneficial owner is the State/political subdivision/statutory body, an individual, a listed company (substantial and regular trading), a company less than 25% owned directly or indirectly by non-residents of its State, a pension scheme, or an unrelated financial institution (no back-to-back loans); or income paid by a Contracting State/sub-division, by a bank in the ordinary course of banking business, or on a quoted Eurobond. The INTEREST entry models this conditional exemption only; for non-qualifying recipients no treaty limit applies. MLI Art. 7(1) PPT replaced the treaty main-purpose clauses (Art. 10(6), 11(7), 12(5)); MLI effective for WHT from 1 Jan 2023 in both States. No MLI Art. 8 holding period in the synthesised text. [curated: dropped INTEREST tier — exemption limited to qualifying recipients (art. 11(3))]",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "EG",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1999)",
+ "signed": "1999-04-21",
+ "entry_into_force": "2000-05-20",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2000-75.html",
+ "eif_quote": "De bepalingen van Verdrag en Protocol zijn ingevolge artikel 30, eerste lid, juncto de preambule tot het Protocol op 20 mei 2000 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001427 (Dutch authentic text; English prevails in case of divergence; Trb. 1999, 188)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001427/2000-05-20",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter ook in de Verdragsluitende Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de dividenden een inwoner van de andere Verdragsluitende Staat is, mag de aldus geheven belasting 15 percent van het bruto-bedrag niet overschrijden."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Niettegenstaande de bepalingen van het tweede lid, heft de Verdragsluitende Staat waarvan het lichaam inwoner is geen belasting over de door dat lichaam betaalde dividenden, indien de uiteindelijk gerechtigde tot de dividenden een lichaam is waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld, dat inwoner is van de andere Verdragsluitende Staat en dat onmiddellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter ook in de Verdragsluitende Staat waaruit zij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de interest een inwoner van de andere Verdragsluitende Staat is, mag de aldus geheven belasting 12 percent van het bruto-bedrag van de interest niet overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze royalty's mogen echter ook in de Verdragsluitende Staat waaruit zij afkomstig zijn, overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de royalty's een inwoner is van die andere Verdragsluitende Staat, mag de aldus geheven belasting 12 percent van het brutobedrag van de royalty's niet overschrijden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 30(2)(a): for taxes withheld at source, applies to amounts paid or credited on or after 1 January of the calendar year following EIF (2000-05-20 -> 2001-01-01). Dividend 0% tier: 365-day holding via MLI art 8 from 2021-01-01 (NL and Egypt both notified Art. 10(3) under MLI Art. 8(4); neither reserved Art. 8; OECD MLI positions of the Netherlands and Egypt); before 2021 no holding period. Treaty Art. 10(4) denies the 0% tier where the relationship was mainly set up to secure it (NL notified it under MLI Art. 7(17)(a), Egypt did not; MLI PPT applies in addition). Interest: Art. 11(3) exemption (residence-only taxation) for government, statutory bodies, central bank, and loans granted/guaranteed/insured by government or government-controlled agencies (not modelled). Protocol III: technical service fees fall under Art. 7/14, not royalties. Protocol V: liquidation/share buy-back proceeds treated as dividends. MLI PPT from 2021-01-01 per MLI Art. 35(1)(a) as computed in treaties_merged.json.",
+ "confidence": "high",
+ "unverified": []
+}

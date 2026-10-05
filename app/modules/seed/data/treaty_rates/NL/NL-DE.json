@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "DE",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Federal Republic of Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012, as amended 2016, 2021 and 2025)",
+ "signed": "2012-04-12",
+ "entry_into_force": "2015-12-01",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2015-178.html",
+ "eif_quote": "De bepalingen van het Verdrag met Bijlage, Protocol en Onderlinge Overeenkomst, zullen ingevolge artikel 31 juncto artikel 33, tweede lid, van het Verdrag op 1 december 2015 in werking treden, met inachtneming van het gestelde in artikel 33, tweede tot en met zesde lid, van het Verdrag.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0005862 (Dutch authentic text, version from 2025-12-31); amending protocols Trb. 2021, 43 and Trb. 2025, 37",
+ "source_url": "https://wetten.overheid.nl/BWBV0005862/2025-12-31",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 percent van het brutobedrag van de dividenden, indien de uiteindelijk gerechtigde een lichaam is dat onmiddellijk ten minste 10 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt gedurende een periode van 365 dagen waarin de dag valt waarop de dividenden betaald worden (voor het berekenen van die periode wordt geen rekening gehouden met veranderingen van eigendom die rechtstreeks voortvloeien uit een bedrijfsreorganisatie, zoals een fusie of een splitsing, van het lichaam dat de aandelen bezit of de dividenden betaalt);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2016-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 percent van het brutobedrag van de dividenden in alle overige gevallen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest afkomstig uit een verdragsluitende staat die wordt verkregen door een inwoner van de andere verdragsluitende staat die de uiteindelijke gerechtigde is, is slechts in die andere staat belastbaar."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty’s afkomstig uit een verdragsluitende staat die worden verkregen door een inwoner van de andere verdragsluitende staat die de uiteindelijke gerechtigde is, zijn slechts in die andere staat belastbaar."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "treaty art. 23(6)",
+  "source_url": "https://wetten.overheid.nl/BWBV0005862/2025-12-31",
+  "quote": "Niettegenstaande de overige bepalingen van dit Verdrag, wordt een voordeel uit hoofde van dit Verdrag niet toegekend met betrekking tot een bestanddeel van het inkomen indien, alle relevante feiten en omstandigheden in aanmerking genomen, redelijkerwijs kan worden geconcludeerd dat het verkrijgen van dat voordeel een van de voornaamste doelen was van een constructie of transactie die direct of indirect tot dat voordeel heeft geleid, tenzij wordt vastgesteld dat het toekennen van dit voordeel onder die omstandigheden in overeenstemming zou zijn met het voorwerp en doel van de desbetreffende bepalingen van dit Verdrag."
+ },
+ "notes": "Art. 33(2): in Germany withholding taxes apply to amounts paid on/after 1 January of the year following EIF (EIF 1-12-2015 -> 2016-01-01); in NL for tax years beginning on/after that date. The 365-day holding requirement in Art. 10(2)(a) was inserted by the amending Protocol of 14-04-2025 (Trb. 2025, 37), in force 31-12-2025 (Trb. 2025, 96), applicable to withholding taxes on amounts paid on/after 1-1-2026; from 2016-01-01 to 2025-12-31 the 5% rate applied at a direct >=10% holding without a holding period. The 2025 Protocol also provides that for dividends paid by a German REIT-AG or comparable NL entity, or paid to or by a collective investment vehicle, only the 15% rate (Art. 10(2)(c)) applies. Not modelled: 10% for dividends whose beneficial owner is a pension fund resident in the Netherlands (Art. 10(2)(b)); Art. 10(6) source taxation of dividends to emigrated individuals with outstanding exit-tax assessments (10 years). PPT: treaty Art. 23(6) inserted by amending Protocol of 24-03-2021 (Trb. 2021, 43), in force 31-07-2022 (Trb. 2022, 61), applicable in Germany to withholding taxes on amounts paid on/after 1-1-2023. MLI: Germany does not list the NL treaty -> not a covered tax agreement (treaties_merged).",
+ "confidence": "high",
+ "unverified": []
+}

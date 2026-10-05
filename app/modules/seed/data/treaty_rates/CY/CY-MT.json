@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "MT",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993)",
+ "signed": "1993-10-22",
+ "entry_into_force": "1994-08-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position Art. 2 list: \"Malta   Original 22-10-1993 11-08-1994\"; treaty Art. 29(2): \"The Agreement shall enter into force thirty days after the date of the later of the notifications referred to in paragraph (1)\"",
+ "source_title": "CY-MT Agreement 1993, English text, Cyprus Official Gazette Annex (gov.cy MoF scan)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/malta_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CY",
+   "quote": "(2) However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but: (a) where the dividends are paid by a company resident of Cyprus to a resident of Malta who is the beneficial owner thereof, the Cyprus tax so charged shall not exceed 15 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends paid by a Malta company: Art. 10(2)(b) \"Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid\" (imputation-linked cap, no fixed %; not modelled). Art. 11(3): interest derived by the Government of the other State (incl. political sub-divisions and local authorities), the Central Bank or any statutory body, or on loans/credits made or guaranteed by them, exempt in source State. Art. 29(2): Cyprus - taxes on income accrued on or after 1 January 1994 (year handwritten in scan); Malta - years of assessment beginning on or after 1 January of the year following signature (1994). MLI covered (CY and MT); Cyprus reserved MLI Art. 8 entirely; PPT from mli_wht_effective per treaties_merged.json.",
+ "confidence": "high",
+ "unverified": []
+}

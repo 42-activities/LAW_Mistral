@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "SA",
+ "treaty_name": "Agreement between the Hong Kong Special Administrative Region of the People's Republic of China and the Kingdom of Saudi Arabia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2017; modified by MLI)",
+ "signed": "2017-08-24",
+ "entry_into_force": "2018-09-01",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Saudi Arabia | 24.08.2017 | 08.05.2018 | 01.09.2018 | Year of Assessment 2019/2020 | DB | Yes | Yes",
+ "source_title": "HK IRD Synthesised Text of the MLI and the HKSAR-Saudi Arabia Agreement (2017)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Saudi_Arabia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting Party of which the company paying the dividends is a resident and according to the laws of that Contracting Party, but if the beneficial owner of the dividends is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting Party and paid to a resident of the other Contracting Party shall be taxable only in that other Contracting Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "8 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_Saudi_Arabia.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Royalties Art. 12(2)(a): 5% cap for royalties paid for the use of, or the right to use, industrial, commercial or scientific equipment ('5 per cent of the gross amount of the royalties which are paid for the use of, or the right to use, industrial, commercial, or scientific equipment;') - payment-type tier, not modelled as a separate entry; 8% is the general tier. Interest article is titled 'Income from Debt-Claims'. valid_from = Saudi side Art. 28(2)(b): taxes withheld at source on amounts paid on or after 1 January next following EIF (EIF 1 Sep 2018 -> 2019-01-01); HKSAR: YA from 1 April 2019. MLI WHT effect HKSAR 1 April 2023, Saudi Arabia 1 January 2024 (ppt.from = later). No MLI Art. 8 box.",
+ "confidence": "high",
+ "unverified": []
+}

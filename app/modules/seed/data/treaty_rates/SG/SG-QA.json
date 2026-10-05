@@ -1,0 +1,56 @@
+{
+ "a": "SG",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the State of Qatar for the avoidance of double taxation (2006, as amended by Protocol 2009; modified by MLI)",
+ "signed": "2006-11-28",
+ "entry_into_force": "2007-10-05",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-qatar-dta-(ratified)(mli)(1-april-2020)-v1-0.pdf?sfvrsn=54785bf4_11",
+ "eif_quote": "Date of Conclusion: 28 November 2006 Entry into Force: 5 October 2007 Effective Date: 1 January 2008. Art. 28(2)(b): in the case of the State of Qatar: in respect of income derived during the taxable years beginning on or after the first day of January in the year following that in which this Agreement enters into force.",
+ "source_title": "IRAS consolidated text: Singapore-Qatar DTA (ratified)(MLI)(1 Apr 2020), incl. Protocol 2006, Annex A MLI effects, Annex B 2009 Protocol",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-qatar-dta-(ratified)(mli)(1-april-2020)-v1-0.pdf?sfvrsn=54785bf4_11",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 27A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-qatar-dta-(ratified)(mli)(1-april-2020)-v1-0.pdf?sfvrsn=54785bf4_11",
+  "quote": "1. Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 3(a): taxes withheld at source ... on or after 1 January 2021)"
+ },
+ "notes": "Not modelled: interest paid to the Government (incl. Qatar Investment Authority, Qatar Central Bank, Qatar Retirement Funds, Qatar Development Bank, MAS, GIC) exempt (Art. 11(3)-(4)). The 2009 Protocol replaced Art. 26 (EOI) only. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,78 @@
+{
+ "a": "NL",
+ "b": "IL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1973, as amended 1996)",
+ "signed": "1973-07-02",
+ "entry_into_force": "1974-09-09",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1974-193.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 32 van de Overeenkomst, juncto het gestelde in de preambule tot het Protocol, op 9 september 1974 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003781 (Dutch text; English prevails in case of divergence; Trb. 1974, 39 as amended by Protocol of 16-01-1996, Trb. 1996, 30)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003781/1996-07-26",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 percent van het brutobedrag van de dividenden in alle andere gevallen."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)(ii)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter in de Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de dividenden is, mag de aldus geheven belasting niet overschrijden: a. met betrekking tot dividenden betaald door een lichaam dat inwoner is van een van de Staten aan een lichaam waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld en dat inwoner is van de andere Staat en dat onmiddellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt: ii. 5 percent van het brutobedrag van de dividenden in andere gevallen;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)(i)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "IL",
+   "quote": "Deze dividenden mogen echter in de Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de dividenden is, mag de aldus geheven belasting niet overschrijden: a. met betrekking tot dividenden betaald door een lichaam dat inwoner is van een van de Staten aan een lichaam waarvan het kapitaal geheel of gedeeltelijk in aandelen is verdeeld en dat inwoner is van de andere Staat en dat onmiddellijk ten minste 25 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt: i. 10 percent van het brutobedrag van de dividenden indien de dividenden worden betaald uit winst die, op grond van de bepalingen in de Israëlische wetgeving ter bevordering van investeringen in Israël, van belastingheffing is vrijgesteld of is onderworpen aan belastingheffing naar een tarief dat lager is dan het algemene tarief dat wordt geheven van de winst van een lichaam dat inwoner is van Israël;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter in de Staat waaruit zij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven belasting mag 15 percent van het bedrag van de interest niet overschrijden, met dien verstande dat, indien deze interest wordt betaald aan een bank of een financiële instelling, de aldus geheven belasting 10 percent van het bedrag van de interest niet mag overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)(b)",
+   "valid_from": "1970-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze royalty's mogen echter in de Staat waaruit zij afkomstig zijn, overeenkomstig de wetgeving van die Staat worden belast, maar de aldus geheven belasting mag niet overschrijden: a) 10 percent van het bedrag van de royalty's voor bioscoopfilms en films of beeldbanden voor radio of televisie; b) 5 percent van het bedrag van alle andere royalty's."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: Art. 11 as replaced by the Protocol of 16-01-1996 (Trb. 1996, 30), Art. III: in force 1996-07-26, 'de bepalingen ervan vinden toepassing met ingang van 1 januari 1996'. The 10% tier (Art. 11(2)(a)(i)) applies only to dividends paid out of profits exempt or taxed at a reduced rate under Israeli investment-incentive law (in practice Israeli-source only, hence source_state IL). 365-day holding via MLI art 8 from 2020-01-01: NL and Israel both notified Art. 11(2)(a) under MLI Art. 8(4) (Israel's Art. 8(3)(b)(iii) reservation lists only the US treaty); before 2020 no holding period. Interest: 10% cap where paid to a bank or financial institution (Art. 12(2), incl. any entity accepting deposits or granting loans in the ordinary course of business per Protocol V) - not modelled as separate tier. Royalties (special tier not modelled): Art. 13(2)(a) 10% for cinematograph films and radio/TV films or tapes, 5% for all other royalties. Interest/royalty articles unchanged since original; Art. 32 application: NL tax years from 1 Jan 1970, Israel tax years from 1 April 1970 (valid_from uses 1970-01-01). Art. 14: international organisations/third-State diplomats not entitled where not taxed in residence State. MLI PPT effective date 2020-01-01 taken from treaties_merged.json (MLI Art. 35(1)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

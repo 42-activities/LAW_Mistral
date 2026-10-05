@@ -1,0 +1,58 @@
+{
+ "a": "SG",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Kingdom of Bahrain for the avoidance of double taxation (2004, as amended by Protocol 2009; modified by MLI)",
+ "signed": "2004-02-18",
+ "entry_into_force": "2004-12-31",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-bahrain-dta-(mli)-(1-jun-2022-upload).pdf?sfvrsn=6a4fbda8_7",
+ "eif_quote": "Date of Conclusion: 18 February 2004 Entry into Force: 31 December 2004 Effective Date: 1 January 2005. Art. 27(2): (a) in Bahrain: in respect of tax chargeable in any tax year beginning on or after the 1st of January in the second calendar year following the year in which this Agreement enters into force. (b) in Singapore: in respect of tax chargeable for any year of assessment beginning on or after the 1st of January in the second calendar year following ...",
+ "source_title": "IRAS consolidated text: Singapore-Bahrain DTA (MLI)(1 Jun 2022 upload), incl. Annex A MLI effects and Annex B 2009 Protocol",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-bahrain-dta-(mli)-(1-jun-2022-upload).pdf?sfvrsn=6a4fbda8_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company, which is a resident of a Contracting State, to a resident of the other Contracting State, shall be taxable only in that other Contracting State if such resident is the beneficial owner of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the income is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1) (inserted as Article 26A(1)); art. 7(4) as 26A(2)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-bahrain-dta-(mli)-(1-jun-2022-upload).pdf?sfvrsn=6a4fbda8_7",
+  "quote": "1. Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... (Annex A para 4(a): taxes withheld at source ... on or after 1 January 2023)"
+ },
+ "notes": "Art. 11 is titled 'Income from Debt-Claims' (interest). valid_from per Art. 27(2) = tax year / YA beginning 1 Jan 2006 (second calendar year after EIF); IRAS header shows 'Effective Date: 1 January 2005' (Singapore basis period for YA 2006). Not modelled: income from debt-claims paid to the Government (incl. Bahrain Development Bank, Housing Bank, pension funds/GOSI, EDB; MAS, GIC) exempt (Art. 11(3)-(4)). 2009 Protocol replaced Art. 25 (EOI) only. A separate limited DTA (shipping/air) also exists. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 2006-01-01 derived from Art. 27(2) wording; IRAS header effective date 1 Jan 2005"
+ ]
+}

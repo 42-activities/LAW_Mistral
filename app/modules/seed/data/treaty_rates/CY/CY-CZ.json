@@ -1,0 +1,69 @@
+{
+ "a": "CY",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Republic of Cyprus and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009)",
+ "signed": "2009-04-28",
+ "entry_into_force": "2009-11-26",
+ "eif_source_url": "https://www.oecd.org/tax/treaties/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Czech Republic ... Original 28-4-2009 26-11-2009 (Cyprus MLI position, Article 2 list: date of signature, date of entry into force)",
+ "source_title": "Cyprus–Czech Republic DTA 2009 with Protocol, English text (Official Gazette of Cyprus, Part III, scan, MoF Cyprus)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/czech_en_new.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends where such holding is being possessed for an uninterrupted period of no less than one year;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, the royalties mentioned in sub-paragraph a) of paragraph 3 may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties: the 10% source cap applies only to Art. 12(3)(a) royalties (patent, trade mark, design or model, plan, secret formula or process, computer software, industrial/commercial/scientific equipment, know-how); Art. 12(3)(b) royalties (copyright of literary, artistic or scientific work incl. cinematograph films and films or tapes for TV/radio) are not covered by para. 2, so they are taxable only in the residence State (0% at source) — copyright tier not modelled. Protocol para. 1 (MFN): if the Czech Republic agrees with another EU Member State a lower royalty rate or exemption, that lower rate applies automatically — not modelled; not verified whether triggered. Protocol para. 2 (treaty anti-abuse): 'The competent authorities upon their mutual agreement, may deny the benefits of this Agreement to any person, or with respect to any transaction undertaken by such a person, if in their opinion the main purpose of the creation or existence of such a person or of the transaction undertaken by that person, was to obtain the benefits under this Agreement that would not otherwise be available.' Dividend 0% tier requires a one-year uninterrupted holding (treaty, not MLI). Art. 26(2)(a): WHT effect from 1 January of the calendar year following EIF (26.11.2009) -> 2010-01-01; replaces 1980 Cyprus–Czechoslovakia convention. Cyprus reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "Whether the Protocol royalty MFN clause has been triggered by a later Czech treaty with an EU Member State."
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "a": "LU",
+ "b": "RO",
+ "treaty_name": "Convention entre le Grand-Duché de Luxembourg et la Roumanie tendant à éviter les doubles impositions et à prévenir l'évasion fiscale en matière d'impôts sur le revenu et sur la fortune (1993, telle que modifiée en 2011 et 2022 et par l'IM)",
+ "signed": "1993-12-14",
+ "entry_into_force": "1995-12-08",
+ "eif_source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/roumanie-mli-fr-update.pdf",
+ "eif_quote": "Article 30 ... 2. La Convention entrera en vigueur trente jours après l'échange des instruments de ratification et ses dispositions seront applicables: a) aux impôts perçus à la source sur les revenus attribués ou mis en paiement à partir du 1er janvier de l'année suivant immédiatement celle au cours de laquelle les instruments de ratification auront été échangés",
+ "source_title": "LU–RO Convention 1993 – texte de synthèse IM (ACD Luxembourg, 06/03/2024)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/roumanie-mli-fr-update.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'État contractant d'où ils proviennent et selon la législation de cet État, mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois ces redevances sont aussi imposables dans l'État contractant d'où ils proviennent et selon la législation de cet État, mais si la personne qui reçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/roumanie-mli-fr-update.pdf",
+  "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention ... (impôts prélevés à la source: fait générateur à compter du 1er janvier 2024 au Luxembourg et en Roumanie)"
+ },
+ "notes": "Interest exempt at source where the debt-claim is guaranteed, insured or financed by the other State or a financial institution resident there (Art. 11(3)) — not modelled. Art. 13 caps commissions (intermediary fees) at 5% at source — not a modelled category. Royalty definition includes industrial/commercial/scientific equipment. Amendments of 2011 (exchange of information) and 2022 (Art. 25 elimination of double taxation, from 1.1.2024) do not change Arts. 10-12. EIF date from treaty-map dataset.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force date 1995-12-08 (from treaties_merged.json)"
+ ]
+}

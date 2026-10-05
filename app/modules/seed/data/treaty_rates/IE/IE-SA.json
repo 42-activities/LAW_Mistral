@@ -1,0 +1,67 @@
+{
+ "a": "IE",
+ "b": "SA",
+ "treaty_name": "Convention between Ireland and the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income (2011), as modified by the MLI",
+ "signed": "2011-10-19",
+ "entry_into_force": "2012-12-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Saudi Arabia Original 19-10-2011 01-12-2012",
+ "source_title": "Revenue: Synthesised text of the MLI and the Ireland-Saudi Arabia DTC; Ireland-Saudi Arabia Convention (saudi-arabia.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/synthesised-mli-ireland-saudi-arabia-dtc.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first sentence",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of the sentence above, the Contracting State of which the company paying the dividends is a resident shall exempt from tax the dividends paid by that company to a company (other than a partnership) which is a resident of the other Contracting State, as long as it holds directly at least 25 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt-claims arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the royalties which are paid for the use of, or the right to use, industrial, commercial or scientific equipment; (b) 8 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/s/synthesised-mli-ireland-saudi-arabia-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 27: EIF first day of second month after later notification (2012-12-01); Saudi WHT for amounts paid on/after 2013-01-01; Ireland from year of assessment / financial year beginning on/after 1 Jan 2013. Interest article is titled 'Income from debt-claims'. Royalties for use of industrial, commercial or scientific equipment capped at 5% (Art. 12(2)(a)) - type-based tier not modelled; 8% general. Dividends to Governments, Central Bank of Ireland, Saudi Arabian Monetary Agency and wholly government-owned institutions/funds exempt (Art. 10(3)) - not modelled. Protocol para. 5: branch remittance tax on PE profits capped at 5%. MLI Art. 8 holding period not shown in synthesised text for the 25% exemption. MLI WHT effect from 2021-01-01 (synthesised text).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "HK",
+ "b": "IT",
+ "treaty_name": "Agreement between the Government of the Hong Kong Special Administrative Region of the People's Republic of China and the Government of the Italian Republic for the Avoidance of Double Taxation with respect to Taxes on Income and the Prevention of Fiscal Evasion (2013)",
+ "signed": "2013-01-14",
+ "entry_into_force": "2015-08-10",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Italy | 14.01.2013 | 24.09.2013 | 10.08.2015 | Year of Assessment 2016/2017 | CI | Pending | Pending",
+ "source_title": "Cap. 112CI Inland Revenue (Double Taxation Relief and Prevention of Fiscal Evasion with respect to Taxes on Income) (Italian Republic) Order, Schedule Part 1 (HK e-Legislation)",
+ "source_url": "https://www.elegislation.gov.hk/hk/cap112CI!en",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting Party of which the company paying the dividends is a resident and according to the laws of that Party, but if the beneficial owner of the dividends is a resident of the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting Party in which it arises and according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed 12.5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise, and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty arts 10(6), 11(8), 12(7) (article-specific main purpose rules only)",
+  "source_url": "https://www.elegislation.gov.hk/hk/cap112CI!en",
+  "quote": "The provisions of this Article shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "No general PPT: the MLI does not yet apply (Italy signatory, not a Party; HK IRD MLI columns 'Pending'). The treaty contains article-specific main-purpose anti-abuse rules in Arts 10(6), 11(8), 12(7) (in effect from 2016-01-01) and a domestic anti-avoidance saving clause in Art. 27. Interest Art. 11(3): exempt at source when paid by the Government/local authority of the source Party, to the Government of the other Party or its subdivisions/local authorities, or to a government-owned or appointed agency/instrumentality (incl. financial institution) carrying out governmental activities - not modelled. Royalty definition includes software and the use of industrial, commercial or scientific equipment. valid_from = Italian side Art. 28(a)(i): taxes withheld at source on income derived on or after 1 January of the year after EIF (EIF 10 Aug 2015 -> 2016-01-01); HKSAR: YA from 1 April 2016.",
+ "confidence": "high",
+ "unverified": []
+}

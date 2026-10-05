@@ -1,0 +1,69 @@
+{
+ "a": "NL",
+ "b": "BH",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Government of the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-04-16",
+ "entry_into_force": "2009-12-24",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2010-12.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zijn ingevolge artikel 30 van het Verdrag, juncto de preambule tot het Protocol, in werking getreden op 24 december 2009.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003165 (English authentic text; NL/AR/EN equally authentic, English prevails)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003165/2009-12-24",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: a) 0% (zero per cent) of the gross amount of the dividends if the beneficial owner is a company the capital of which is wholly or partly divided into shares and which holds directly at least 10% (ten per cent) of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% (ten per cent) of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Income from debt claims arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 30: effect for taxable years and periods beginning on or after 1 January of the year following entry into force (EIF 2009-12-24 -> 2010-01-01). Art. 10(9)-(11) (one-directional, NL as source State): for 0%-tier dividends paid by an NL company, if Bahrain taxation results in a burden below 10%, NL may levy up to 10% - unless the beneficial owner is the Bahrain Government/subdivision, or a Bahrain company wholly government-owned, listed on the Bahrain Stock Exchange, or engaged in an active trade or business in Bahrain, or the competent authorities agree it is not established mainly to obtain the 0% rate (conditional tier not modelled). Art. 10(12): individuals who are dual residents of the other State and a third State may be taxed at domestic rate (capped by the third-state treaty). Protocol: no tax on dividends paid to a pension fund. Art. 10(8): NL preserving assessment (conserverende aanslag) on substantial interests. Interest article is titled 'Income from debt claims'. MLI covered by both (WHT effect 2023-01-01 per treaty map); Bahrain reserved the entirety of MLI Art. 8 (Art. 8(3)(a)), so no 365-day holding period.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date 2023-01-01 taken from treaties_merged.json"
+ ]
+}

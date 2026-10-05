@@ -1,0 +1,91 @@
+{
+ "a": "LU",
+ "b": "ES",
+ "treaty_name": "Convention entre le Grand-Duché de Luxembourg et le Royaume d'Espagne tendant à éviter les doubles impositions en matière d'impôts sur le revenu et sur la fortune et à prévenir la fraude et l'évasion fiscales (1986, telle que modifiée par le Protocole de 2009 et par l'IM)",
+ "signed": "1986-06-03",
+ "entry_into_force": "1987-05-19",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1987-18-fr-pdf.pdf",
+ "eif_quote": "Article 29 ... 2. La Convention entrera en vigueur dès l'échange des instruments de ratification et ses dispositions seront applicables pour la première fois dans chacun des deux Etats a) aux impôts dus à la source sur les revenus attribués ou mis en paiement à partir du 1er janvier de l'année qui suit celle au cours de laquelle les instruments de ratification auront été échangés (LU list: 'Mémorial A n° 18 de 1987, page 245 à partir du 01/01/1988')",
+ "source_title": "LU–ES Convention 1986 – Mémorial A n° 18 de 1987 (p. 245); MLI texte de synthèse (ACD, 20/09/2022)",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-1987-18-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1988-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "LU",
+   "quote": "a) en ce qui concerne les dividendes payés par une société qui est un résident du Luxembourg à un résident de l'Espagne: (i) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes, pourvu que la société bénéficiaire ait détenu ledit capital pendant une période minimum d'une année avant la date de la distribution des dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LU",
+   "quote": "(ii) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "ES",
+   "quote": "b) en ce qui concerne les dividendes payés par une société qui est un résident de l'Espagne à un résident du Luxembourg: (i) 10 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes, pourvu que la société bénéficiaire ait détenu ledit capital pendant une période minimum d'une année avant la date de la distribution des dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(ii)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "ES",
+   "quote": "(ii) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces redevances peuvent être imposées dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais si la personne qui perçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/espagne-mli-fr.pdf",
+  "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention : ... Nonobstant toute disposition de la [présente Convention], un avantage au titre de la [présente Convention] ne sera pas accordé ... (Au Luxembourg / En Espagne: impôts prélevés à la source si le fait générateur intervient à compter du 1er janvier 2023)"
+ },
+ "notes": "Interest exempt at source (Art. 11(3)) for loans granted by a Contracting State or its resident to the other State or its local authorities, and for State-guaranteed loans — not modelled. Royalty definition includes equipment rental. Final Protocol: Convention does not apply to Luxembourg 1929 holding companies (regime abolished); Art. 10(2) does not apply to certain Spanish entities not subject to Spanish corporate tax. Treaty text read from Mémorial (text layer); MLI synthesised text is image-only and was read visually (pp. 3, 30). 2009 Protocol concerns Art. 27 only.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 1987-05-19 (from treaties_merged.json)"
+ ]
+}

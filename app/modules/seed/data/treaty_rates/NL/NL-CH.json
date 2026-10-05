@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "CH",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income (2010, as amended by Protocol 2019)",
+ "signed": "2010-02-26",
+ "entry_into_force": "2011-11-09",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2011-224.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zijn ingevolge artikel 29, eerste lid, in werking getreden op 9 november 2011.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0004082 (Dutch authentic text; NL/FR/EN equally authentic, English prevails)",
+ "source_url": "https://wetten.overheid.nl/BWBV0004082/2020-11-30",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Niettegenstaande de bepalingen van het tweede lid, verleent de Verdragsluitende Staat waarvan het lichaam inwoner is, voor de door dat lichaam betaalde dividenden vrijstelling van belasting indien: a. de uiteindelijk gerechtigde tot de dividenden een lichaam is dat inwoner is van de andere Verdragsluitende Staat en dat onmiddellijk ten minste 10 percent bezit van het kapitaal van het lichaam dat de dividenden betaalt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter ook in de Verdragsluitende Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de dividenden een inwoner van de andere Verdragsluitende Staat is, mag de aldus geheven belasting 15 percent van het brutobedrag van de dividenden niet overschrijden."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest afkomstig uit een Verdragsluitende Staat die wordt verkregen door een inwoner van de andere Verdragsluitende Staat die de uiteindelijke gerechtigde is, is slechts in die andere Staat belastbaar."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty’s afkomstig uit een Verdragsluitende Staat die worden verkregen door een inwoner van de andere Verdragsluitende Staat die de uiteindelijke gerechtigde is, zijn slechts in die andere Staat belastbaar."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 27a",
+  "source_url": "https://wetten.overheid.nl/BWBV0004082/2020-11-30",
+  "quote": "Niettegenstaande de overige bepalingen van dit Verdrag, wordt een voordeel uit hoofde van dit Verdrag niet toegekend met betrekking tot een inkomensbestanddeel indien, alle relevante feiten en omstandigheden in aanmerking genomen, redelijkerwijs kan worden geconcludeerd dat het verkrijgen van dit voordeel een van de voornaamste redenen was voor een constructie of transactie die direct of indirect tot dat voordeel heeft geleid, tenzij wordt vastgesteld dat toekenning van dit voordeel in deze omstandigheden in overeenstemming zou zijn met het voorwerp en doel van de relevante bepalingen van dit Verdrag."
+ },
+ "notes": "Art. 29(1): applies for tax years/periods beginning on or after 1 January of the year following entry into force (EIF 2011-11-09 -> 2012-01-01); replaced the 1951 Convention. Protocol of 12 June 2019 (Trb. 2019, 94; in force 2020-11-30 per Trb. 2020, 129; Art. 16: applies for tax years beginning on or after 1 January of the following year -> 2021-01-01) replaced Art. 10(3)(b) (exemption for dividends to a pension fund), deleted Art. 10(3)(c), inserted the PPT (Art. 27a) and replaced Protocol IX; it did not change the 15% rate or the 10% participation exemption. Dividend exemption (Art. 10(3)) also for pension funds - not modelled; Protocol X: not for Dutch FBI, and for premium pension institutions only re NL-employer plans. Protocol IX(2): NL may tax income from a Dutch VBI and CH may tax income from Swiss FCP/SICAV/SCPC at domestic law but max 15% when beneficial owner is resident of the other State. Not an MLI covered tax agreement (neither State lists it); PPT is in the treaty (Art. 27a) from 2021-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

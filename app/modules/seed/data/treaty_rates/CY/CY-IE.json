@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "IE",
+ "treaty_name": "Convention between Ireland and Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1968, as modified by the MLI)",
+ "signed": "1968-09-24",
+ "entry_into_force": "1970-07-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Convention between the Republic of Cyprus and Ireland ... Ireland Original 24-09-1968 12-07-1970",
+ "source_title": "Synthesised text of the MLI and the Ireland–Cyprus DTC (Revenue Commissioners)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/c/synthesised-text-mli-and-the-ireland-cyprus-dtc.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(1)",
+   "valid_from": "1962-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be exempt from any tax in that first-mentioned State which is chargeable on dividends in addition to the tax chargeable in respect of the profits or income of the company."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1962-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(1)",
+   "valid_from": "1962-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/c/synthesised-text-mli-and-the-ireland-cyprus-dtc.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Articles are numbered 9 (Dividends), 10 (Interest), 11 (Royalties) in this treaty. Dividends: Art. 9(1) exempts dividends from any tax chargeable on dividends in addition to the tax on the company's profits - modelled as 0% source WHT (max_rate 0, not 'exclusive', since the residence-only rule is not expressed). Royalties: Art. 11(5) allows source tax up to 5% on consideration for motion picture films (other than films for exhibition on television) - not modelled. Art. 27(2): effective retroactively in Cyprus for the year of assessment beginning 1 January 1962 and in Ireland for income tax years from 6 April 1962 / corporation profits tax accounting periods from 1 April 1962 (no separate WHT rule) -> valid_from 1962-01-01. MLI WHT effect from 1 January 2021 per synthesised text; Cyprus reserved MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

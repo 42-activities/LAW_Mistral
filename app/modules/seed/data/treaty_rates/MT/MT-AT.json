@@ -1,0 +1,67 @@
+{
+ "a": "MT",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Malta and the Republic of Austria for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (1978)",
+ "signed": "1978-05-29",
+ "entry_into_force": "1979-07-13",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+ "eif_quote": "Malta / Malta Unterzeichnung / Date of Signature | 29.5.1978 | Inkrafttreten / Entry into Force | 13.7.1979 | Anwendbar ab / Effective From | 1977",
+ "source_title": "S.L. 123.12 Double Taxation Relief on Taxes on Income with the Republic of Austria Order (Schedule: 1978 Convention)",
+ "source_url": "https://legislation.mt/eli/sl/123.12/eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1977-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AT",
+   "quote": "where the dividends are paid by a company resident of Austria to a resident of Malta, the Austrian tax so charged shall not exceed 15 per cent of the gross amount thereof;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "1977-01-01",
+   "max_rate": "32.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "where the dividends are paid by a company resident of Malta to a resident of Austria - (i) Malta tax shall not exceed that chargeable on the company paying the dividends in respect of the profits so distributed, and in any case it shall not exceed 32.5 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective for income derived on or after 1 January 1977 (Art. 28(2)(a)). Dividends asymmetric: Austria-source 15% flat (no participation tier); Malta-source limited to the tax chargeable on the company's distributed profits, max 32.5% (Malta has no domestic dividend WHT under its full imputation system); Art. 10(2)(b)(ii) 15% where paid out of profits of a company receiving Malta industrial-aid tax benefits; no surtax (10(2)(b)(iii)). Royalties: copyright royalties on literary, artistic or scientific works taxable only in residence State (Art. 12(1), 0%); 10% cap applies to film/TV, patents, trade marks, equipment, know-how (Art. 12(2)). Treaty uses 'paid to a resident' (no beneficial-owner wording). MLI: covered by both; Malta reserved Art. 8 so no 365-day dividend holding period; PPT (Art. 7(1)) effective for WHT from 2020-01-01 (later MLI EIF 2019-04-01, Art. 35(1)(a)). S.L. 123.12 notes the treaty is 'as modified by S.L.123.183' (MLI Order).",
+ "confidence": "high",
+ "unverified": []
+}

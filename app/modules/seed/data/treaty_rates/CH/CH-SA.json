@@ -1,0 +1,67 @@
+{
+ "a": "CH",
+ "b": "SA",
+ "treaty_name": "Agreement between the Swiss Federal Council and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2018)",
+ "signed": "2018-02-18",
+ "entry_into_force": "2021-04-01",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/2021/193/de",
+ "eif_quote": "In Kraft getreten durch Notenaustausch am 1. April 2021",
+ "source_title": "SR 0.672.914.91 Abkommen CH-SA vom 18.2.2018 (consolidated, Stand 1.4.2021)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/193/20210401/de/html/fedlex-data-admin-ch-eli-cc-2021-193-20210401-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn die nutzungsberechtigte Person eine Gesellschaft ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2022-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Dividenden berechtigte Person im anderen Vertragsstaat ansässig ist, nicht übersteigen: ... c) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Solche Einkünfte aus Forderungen können jedoch auch im Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; ist aber die zur Nutzung der Einkünfte aus Forderungen berechtigte Person im anderen Vertragsstaat ansässig, so darf die Steuer 5 Prozent des Bruttobetrags der Einkünfte aus Forderungen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch im Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die zur Nutzung der Lizenzgebühren berechtigte Person im anderen Vertragsstaat ansässig ist, nicht übersteigen: a) 5 Prozent des Bruttobetrags der Lizenzgebühren, die für die Benutzung oder das Recht auf Benutzung gewerblicher, kaufmännischer oder wissenschaftlicher Ausrüstung bezahlt werden; oder b) 7 Prozent des Bruttobetrags der Lizenzgebühren in allen anderen Fällen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 28(1)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2021/193/20210401/de/html/fedlex-data-admin-ch-eli-cc-2021-193-20210401-de-html-3.html",
+  "quote": "Ungeachtet der anderen Bestimmungen dieses Abkommens wird ein Vorteil unter diesem Abkommen in Bezug auf Einkünfte oder Vermögensteile nicht gewährt, wenn unter Berücksichtigung aller massgebenden Tatsachen und Umstände vernünftigerweise der Schluss gezogen werden kann, dass das Erlangen dieses Vorteils einer der hauptsächlichen Zwecke einer Gestaltung oder eines Geschäfts war, die unmittelbar oder mittelbar zu diesem Vorteil führten; es sei denn, es wird nachgewiesen, dass das Gewähren dieses Vorteils unter diesen Umständen in Einklang mit dem Ziel und Zweck der entsprechenden Bestimmungen dieses Abkommens steht."
+ },
+ "notes": "Applies to WHT on income paid or credited on/after 1 Jan 2022 (EIF 1.4.2021). Not modelled: dividends 5% (Art. 10(2)(b)) when beneficial owner is the other State's central bank, a wholly State-owned entity/fund or a pension scheme; interest ('Einkünfte aus Forderungen') exempt at source for government, central bank, pension schemes, credit sales, loans by financial institutions and loans between companies (Art. 11(3)); royalties 5% for industrial, commercial or scientific equipment (Art. 12(2)(a)), 7% otherwise. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

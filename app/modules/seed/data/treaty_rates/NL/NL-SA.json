@@ -1,0 +1,67 @@
+{
+ "a": "NL",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-10-13",
+ "entry_into_force": "2010-12-01",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2010-329.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zijn ingevolge artikel 27, eerste lid, van het Verdrag juncto de preambule tot het Protocol in werking getreden op 1 december 2010.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003071 (English authentic text, prevails in case of divergence)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003071/2010-12-01",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 percent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10% (ten percent) of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the income from debt-claims, the tax so charged shall not exceed 5 percent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 7 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(2)(a): WHT provisions apply to amounts paid on or after 1 January of the year following EIF (01-12-2010) -> 2011-01-01. Article 11 is titled 'Income from debt-claims' (interest). Art. 11(3): exemption at source for income from debt-claims paid by/to governments, subdivisions, local authorities, the central bank or State-owned/controlled corporate bodies (incl. financial institutions) - not modelled. Royalty definition includes equipment rental. Protocol V: renegotiation clause for an anti-abuse provision on Art. 10(2)(a) if WHT system changes. Protocol VIII: NL may tax dividends/capital gains accrued during NL residence for 10 years after emigration. Protocol IX(1): refund claims within five years. MLI: covered by both; PPT (Art. 7(1)) effective for WHT from 2021-01-01 per treaty map. MLI Art. 8 not applied: Saudi Arabia reserved the entirety of Art. 8 (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

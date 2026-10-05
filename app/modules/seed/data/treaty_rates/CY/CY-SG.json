@@ -1,0 +1,58 @@
+{
+ "a": "CY",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000)",
+ "signed": "2000-11-24",
+ "entry_into_force": "2001-02-08",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position (Art. 2 list): Singapore 24-11-2000 08-02-2001 (signature / entry into force)",
+ "source_title": "CY–SG Agreement 2000 (English, Cyprus Official Gazette Annex VII, scan on Cyprus MoF site)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/singapore_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall, if the recipient is the beneficial owner of the dividends, be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed: (a) 7 per cent of the gross amount of the interest if it is received by a bank or a similar financial institution; (b) 10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest: 7% cap where received by a bank or similar financial institution (Art. 11(2)(a)); interest paid to the Government of the other State (incl. central bank/MAS, GIC, statutory bodies, agreed government-owned institutions) exempt (Art. 11(3)-(4)) - not modelled. Art. 27(2) has no specific WHT rule: effective in Cyprus for tax chargeable for any year of assessment beginning on or after 1 January in the calendar year next following EIF (-> 2002-01-01); in Singapore for years of assessment beginning on or after 1 January in the second calendar year following EIF (YA 2003). valid_from uses the Cyprus date. MLI covered; Cyprus reserved MLI Art. 8 entirely, so no MLI holding period.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from for Singapore-source payments: treaty keys Singapore effect to Year of Assessment 2003 rather than a payment date"
+ ]
+}

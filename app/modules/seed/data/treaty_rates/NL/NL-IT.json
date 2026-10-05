@@ -1,0 +1,80 @@
+{
+ "a": "NL",
+ "b": "IT",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Italian Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1990)",
+ "signed": "1990-05-08",
+ "entry_into_force": "1993-10-03",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1993-143.html",
+ "eif_quote": "De bepalingen van Overeenkomst en Protocol zijn ingevolge artikel 30, eerste lid, van de Overeenkomst, juncto de preambule tot het Protocol, op 3 oktober 1993 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0002451 (Dutch authentic text; NL, IT and FR equally authentic, French prevails)",
+ "source_url": "https://wetten.overheid.nl/BWBV0002451/1993-10-03",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "1993-11-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Deze dividenden mogen echter ook in de Staat waarvan het lichaam dat de dividenden betaalt inwoner is overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de dividenden is, mag de aldus geheven belasting niet overschrijden: (i) 5 percent van het brutobedrag van de dividenden, indien de uiteindelijk gerechtigde een lichaam is dat gedurende een periode van 12 maanden, voorafgaande aan de datum waarop tot de uitbetaling van het dividend wordt besloten, in bezit is geweest van meer dan 50 percent van de stemgerechtigde aandelen van het lichaam dat de dividenden betaalt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "1993-11-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(ii) 10 percent van het brutobedrag van de dividenden, indien de uiteindelijk gerechtigde een lichaam is dat geen aanspraak kan doen gelden op het gestelde onder (i), maar dat gedurende een periode van 12 maanden, voorafgaande aan de datum waarop tot de uitbetaling van het dividend wordt besloten, in bezit is geweest van 10 percent of meer van de stemgerechtigde aandelen van het lichaam dat de dividenden betaalt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1993-11-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 percent, in alle andere gevallen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-11-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter ook in de Staat waaruit hij afkomstig is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de interest is, mag de aldus geheven belasting 10 percent van het brutobedrag van de interest niet overschrijden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1993-11-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze royalty's mogen echter ook in de Staat waaruit zij afkomstig zijn, overeenkomstig de wetgeving van die Staat worden belast, maar indien de genieter de uiteindelijk gerechtigde tot de royalty's is, mag de aldus geheven belasting 5 percent van het brutobedrag van de royalty's niet overschrijden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 30(2)(a): for taxes withheld at source the Convention applies to income paid or made payable on or after the first day of the month following entry into force (EIF 1993-10-03 -> 1993-11-01). Dividend 5% tier: beneficial owner company holding MORE THAN 50% of voting shares for 12 months preceding the dividend resolution date (threshold '50' means >50%); 10% tier: at least 10% of voting shares for 12 months (holding days modelled as 365). Art. 10(3): refund of Italian 'maggiorazione di conguaglio' to NL residents - not modelled. Interest exempt at source (Art. 11(3)) when paid by/to governments, political subdivisions, local authorities or wholly state-owned institutions (incl. financial institutions), or to institutions financing under intergovernmental agreements - not modelled. Protocol 5: international organisations not exempt in their state are not entitled to Art. 10-12 relief. Protocol 7: IT/NL rates set taking account that NL levies no special WHT on interest/royalties. No PPT: Italy has signed but not ratified the MLI (not a Party as of OECD status 15-09-2026 per treaty map) and the treaty contains no PPT/LOB clause.",
+ "confidence": "high",
+ "unverified": [
+  "Italy's MLI status taken from treaties_merged.json"
+ ]
+}

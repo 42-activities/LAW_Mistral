@@ -1,0 +1,45 @@
+{
+ "a": "MT",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Republic of Malta for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital Gains (1994)",
+ "signed": "1994-05-12",
+ "entry_into_force": "1995-03-27",
+ "eif_source_url": "https://www.gov.uk/government/publications/malta-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 27 March 1995 It is effective in Malta from 1 January 1996 and in the UK from: 1 April 1996 for Corporation Tax 6 April 1996 for Income Tax and Capital G",
+ "source_title": "S.L. 123.35 Double Taxation Relief on Taxes on Income with the United Kingdom of Great Britain and Northern Ireland Order (Schedule: 1994 Convention)",
+ "source_url": "https://legislation.mt/eli/sl/123.35/eng",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest and subject to tax in respect of the interest in the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-04-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties and subject to tax in respect of the royalties in the State of which he is a resident, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective in Malta for years of assessment from 1 Jan 1996, in the UK from 6 Apr 1996 (income tax) / 1 Apr 1996 (corporation tax) (Art. 29(1)); valid_from uses the later UK income-tax date. DIVIDENDS omitted: Art. 10 contains no fixed source-State cap - UK-source dividends 'may be taxed in Malta' (10(1)) with the obsolete UK tax-credit mechanism for Maltese individuals (10(2): resident's tax credit less 15% of dividend plus credit); Malta-source dividends limited to 'that chargeable on the profits out of which the dividends are paid' (10(3)), no fixed percentage. Interest/royalty 10% caps require the beneficial owner to be subject to tax on the income in its residence State. Interest exempt at source when derived by the other Government/local authority/agency (11(8)) or on loans made/guaranteed/insured by a government-owned institution (11(9)). Main-purpose anti-abuse rules in Arts 11(7), 12(7), 21(3) (notified by Malta under MLI Art. 7(17)(a)). MLI: covered; Malta reserved Art. 8; PPT effective for WHT from 2020-01-01 (later MLI EIF 2019-04-01).",
+ "confidence": "high",
+ "unverified": []
+}

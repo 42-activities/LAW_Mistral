@@ -1,0 +1,78 @@
+{
+ "a": "CH",
+ "b": "EG",
+ "treaty_name": "Convention between Switzerland and the Arab Republic of Egypt for the avoidance of double taxation with respect to taxes on income (1987)",
+ "signed": "1987-05-20",
+ "entry_into_force": "1988-07-14",
+ "eif_source_url": "https://fedlex.data.admin.ch/eli/cc/1988/1307_1307_1307/de",
+ "eif_quote": "In Kraft getreten am 14. Juli 1988",
+ "source_title": "SR 0.672.932.15 Abkommen CH-EG vom 20.5.1987 (consolidated, Stand 14.7.1988)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1988/1307_1307_1307/19880714/de/html/fedlex-data-admin-ch-eli-cc-1988-1307_1307_1307-19880714-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "EG",
+   "quote": "Dividenden, die eine in Ägypten ansässige Gesellschaft an eine in der Schweiz ansässige Person zahlt, können, sofern diese Person der Nutzungsberechtigte dieser Dividenden ist, nur in der Schweiz besteuert werden."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1989-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "CH",
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CH",
+   "quote": "Dividenden, die eine in der Schweiz ansässige Gesellschaft an eine in Ägypten ansässige Person zahlt, können in Ägypten gemäss ägyptischem Steuerrecht besteuert werden. Diese Dividenden können jedoch auch in der Schweiz gemäss schweizerischem Recht besteuert werden; die Steuer darf aber, wenn der Empfänger der Dividenden der Nutzungsberechtigte ist, nicht übersteigen: ... b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Zinsen der Nutzungsberechtigte ist, 15 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 12,5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered; no treaty PPT found)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Asymmetric dividend article: dividends paid by an Egyptian company to a Swiss resident beneficial owner are taxable only in Switzerland (Art. 10(1)); dividends paid by a Swiss company to an Egyptian resident: Swiss WHT capped at 5% (company holding directly >=25%) / 15% (Art. 10(2)). Interest exempt at source when connected with credit sales of industrial/commercial/scientific equipment, credit sales of goods between enterprises, or bank loans of any kind (Art. 11(3)) - not modelled. Applies to WHT on amounts paid or credited on/after 1 Jan 1989 (Art. 26(2)(a), ratification exchanged 14.7.1988). No amending protocol in Fedlex (consolidation Stand 14.7.1988). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

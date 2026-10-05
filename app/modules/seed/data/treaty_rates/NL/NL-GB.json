@@ -1,0 +1,69 @@
+{
+ "a": "NL",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2008, as amended 2013)",
+ "signed": "2008-09-26",
+ "entry_into_force": "2010-12-25",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2011-7.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol en Onderlinge Overeenkomst, zijn ingevolge artikel 30, eerste lid, van het Verdrag, juncto de preambule tot het Protocol en de preambule tot de Onderlinge Overeenkomst, in werking getreden op 25 december 2010.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0003074 (Dutch authentic text, version from 2014-01-31)",
+ "source_url": "https://wetten.overheid.nl/BWBV0003074/2014-01-31",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "worden, niettegenstaande de bepalingen van onderdeel a, vrijgesteld van belasting in de Verdragsluitende Staat waarvan het lichaam dat de dividenden betaalt inwoner is, indien de uiteindelijk gerechtigde tot de dividenden is: i. een lichaam dat inwoner is van de andere Verdragsluitende Staat en onmiddellijk of middellijk ten minste 10 percent van de stemmen beheerst in het lichaam dat de dividenden betaalt (tenzij de dividenden worden betaald door een investeringsvehikel zoals bedoeld in onderdeel a, (ii)); of"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mogen echter ook in de Verdragsluitende Staat waarvan het lichaam dat de dividenden betaalt inwoner is, overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de dividenden een inwoner van de andere Verdragsluitende Staat is, mag de aldus geheven belasting: i. 10 percent van het brutobedrag van de dividenden niet overschrijden, behalve in het geval van onderdeel a (ii);"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest afkomstig uit een Verdragsluitende Staat die wordt verkregen door een inwoner van de andere Verdragsluitende Staat die de uiteindelijke gerechtigde is, is slechts in die andere Staat belastbaar."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty’s afkomstig uit een Verdragsluitende Staat die worden verkregen door een inwoner van de andere Verdragsluitende Staat die de uiteindelijke gerechtigde is, zijn slechts in die andere Staat belastbaar."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 0% tier threshold is 10% of the VOTING POWER (direct or indirect), not capital; excluded where paid by a real-estate investment vehicle. Not modelled: 15% for dividends paid out of income from immovable property via an investment vehicle that distributes most of its income annually and whose real-estate income is tax-exempt (Art. 10(2)(a)(ii), e.g. UK REIT / NL FBI); 0% for dividends beneficially owned by a pension scheme or an Art. 4(2)(b) organisation (Art. 10(2)(b)(ii)-(iii)). Valid_from: Art. 30(1)(b)(i) - in the Netherlands withholding taxes on amounts paid or payable on/after 1 January of the year following EIF (2011-01-01); in the UK the Convention applies for income tax years beginning on/after 6 April 2011 and corporation tax years from 1 April 2011. Treaty main-purpose clauses in Arts. 10(3), 11(5) and 12(5) (benefit of the article denied if a main purpose of any person concerned was to take advantage of it, after consultation between competent authorities) have applied since 2011; NL notified them as Art. 7(2) provisions, so MLI Art. 7(1) PPT applies in place of them from the MLI WHT effective date 2020-01-01 (treaties_merged). MLI Art. 8: the United Kingdom reserved the entirety of Art. 8 (Art. 8(3)(a), UK MLI position deposited 29-06-2018, p. 35), so no 365-day holding period despite NL notifying Art. 10(2)(b)(i). The 2013 Protocol (Trb. 2013, 110; in force 31-01-2014) did not amend Arts. 10-12. Note: BWBV0006487 is the separate NL-UK bank levy convention (not relevant).",
+ "confidence": "high",
+ "unverified": [
+  "UK MLI Art. 8 reservation read from scanned position PDF image (page 35), not machine text."
+ ]
+}

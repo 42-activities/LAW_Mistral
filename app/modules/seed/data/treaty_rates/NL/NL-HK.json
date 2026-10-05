@@ -1,0 +1,56 @@
+{
+ "a": "NL",
+ "b": "HK",
+ "treaty_name": "Agreement between the Kingdom of the Netherlands and the Hong Kong Special Administrative Region of the People's Republic of China for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-03-22",
+ "entry_into_force": "2011-10-24",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2011-208.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol en briefwisseling zijn, ingevolge artikel 29, eerste lid, van het Verdrag juncto de preambule tot het Protocol en het gestelde in de op één na laatste alinea van de brieven Nr. I en II, in werking getreden op 24 oktober 2011.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0004190 (English authentic text, version from 2011-10-24)",
+ "source_url": "https://wetten.overheid.nl/BWBV0004190/2011-10-24",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting Party of which the company paying the dividends is a resident and according to the laws of that Contracting Party, but if the beneficial owner of the dividends is a resident of the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting Party and beneficially owned by a resident of the other Contracting Party shall be taxable only in that other Contracting Party."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Contracting Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 0% tier (company, not a partnership, holding directly >=10% of capital) is subject to an additional qualifying test in Art. 10(3)(a)(i)-(iv): recipient's shares regularly traded on a recognised stock exchange; or >=50% owned by such a listed company resident in either Party or in an EU State with equivalent treaty benefits; or a regulated bank/insurer; or a headquarters company (Protocol VII); otherwise only via competent-authority main-purpose determination (Art. 10(3)(e)). Also 0%: the Parties/political subdivisions, government institutions, and pension funds/schemes (Art. 10(3)(b)-(d)) - not modelled. Art. 10(9): source State may tax without cap dividends to individuals holding (with relatives) >=5% of a class of shares (substantial-interest rule). Valid_from: Art. 29(2) - in the Netherlands for taxable years and periods beginning on/after 1-1-2011; in Hong Kong for years of assessment beginning on/after 1-4-2011 (relevant for HK-source royalties). MLI: covered by both; Hong Kong made the Art. 35(7) reservation; WHT effect 2024-01-01 (treaties_merged: latest 35(7)(b) notification 21-02-2023). Hong Kong reserved the entirety of MLI Art. 8, so no 365-day holding period despite NL notifying Art. 10(3)(a). [curated: dropped DIVIDEND tier — 0% needs a listing, bank or HQ test or competent-authority approval — not modelled]",
+ "confidence": "high",
+ "unverified": []
+}

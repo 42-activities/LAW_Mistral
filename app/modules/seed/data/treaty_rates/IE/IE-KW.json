@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of Ireland and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-11-23",
+ "entry_into_force": "2013-08-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kuwait.pdf",
+ "eif_quote": "Agreement Between the Government of the State of Kuwait and the Government of the Ireland for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income Ireland Original 23/11/2010 12/8/2013",
+ "source_title": "Ireland-Kuwait DTA 2010 with Protocol (revenue.ie)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/k/kuwait.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State who is the beneficial owner of such dividends shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State paid to a resident of the other Contracting State who is the beneficial owner of such interest shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 5% of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(2): effective for years of assessment / financial years / taxable periods beginning on or after 1 January of the calendar year of entry into force (1 January 2013). Protocol para. 4: payments for the use of industrial, commercial or scientific equipment are business profits under Art. 7, not royalties. MLI not applicable: Kuwait is a signatory but not a Party (treaties_merged.json, OECD status 15-09-2026); no treaty-level PPT/LOB, so ppt.applies=false.",
+ "confidence": "high",
+ "unverified": []
+}

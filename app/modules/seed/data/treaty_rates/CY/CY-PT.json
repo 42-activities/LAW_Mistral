@@ -1,0 +1,56 @@
+{
+ "a": "CY",
+ "b": "PT",
+ "treaty_name": "Convention between the Republic of Cyprus and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012)",
+ "signed": "2012-11-19",
+ "entry_into_force": "2013-08-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-portugal-consolidated.pdf",
+ "eif_quote": "Convention between the Portuguese Republic and the Republic of Cyprus ... Cyprus Original 19-11-2012 16-08-2013",
+ "source_title": "CY–PT Convention and Protocol 2012 (English, Cyprus Official Gazette scan on Cyprus MoF site)",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/portugal_2012_11_19_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) - not applicable (not a covered tax agreement)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Single 10% cap for all dividends (no participation tier in the treaty). Protocol para. 1: 'It is understood that the provisions of these Articles [10, 11, 12] shall not affect the application of legal acts of the European Community' (EU Parent-Subsidiary / Interest-Royalties Directives may give 0% under domestic law - not modelled). Art. 29: EIF 30 days after last notification; WHT applies to income derived (CY) / facts giving rise to tax (PT) on or after 1 January of the year following EIF (16.8.2013 -> 1.1.2014). MLI: Portugal lists the treaty but Cyprus does not -> not a covered tax agreement, so no MLI PPT; treaty has no PPT clause.",
+ "confidence": "high",
+ "unverified": []
+}

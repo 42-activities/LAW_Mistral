@@ -1,0 +1,78 @@
+{
+ "a": "NL",
+ "b": "RO",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-03-05",
+ "entry_into_force": "1999-07-29",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-1999-144.html",
+ "eif_quote": "De bepalingen van Verdrag en Protocol zijn ingevolge artikel 31, eerste lid, van het Verdrag, juncto de preambule tot het Protocol op 29 juli 1999 in werking getreden; voor wat betreft de toepassing van het Verdrag zie onderdeel a en onderdeel b van genoemde artikel en lid.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001356 (English authentic text; Dutch is a translation)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001356/1999-07-29",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 31(1): WHT provisions apply to income derived on or after 1 January of the year following EIF (29-07-1999) -> 2000-01-01. 365-day holding via MLI art 8 from 2024-01-01: NL notified 'Romania Article 10(2)(a) and (b)' under MLI Art. 8(4) and Romania notified 'Netherlands Article 10(2)(a) and (b)'; Romania's Art. 8(3)(b)(iii) reservation lists only Italy, Portugal and Spain. Before 2024-01-01 no holding period applied to the 0%/5% tiers. Art. 11(3): interest exempt at source (taxable only in residence State) where government/central bank payer or recipient, government-backed loans, loans granted by a bank or other financial institution (incl. insurance company), loans for more than 2 years, or credit sales of equipment - not modelled as separate tiers but very broad. Art. 10(7) main-purpose rule for the 0%/5% tiers; both NL and Romania notified it under MLI Art. 7(17)(a), so MLI Art. 7(1) PPT replaces it. MLI entry into effect for WHT 2024-01-01 per treaty map (Romania Art. 35(7)(b) notification for the Netherlands dated 06-03-2023). The 1979 NL-RO Convention terminated (Art. 31(2)).",
+ "confidence": "high",
+ "unverified": []
+}

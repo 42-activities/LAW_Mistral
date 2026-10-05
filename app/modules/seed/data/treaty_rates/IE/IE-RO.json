@@ -1,0 +1,56 @@
+{
+ "a": "IE",
+ "b": "RO",
+ "treaty_name": "Convention between Ireland and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1999), as modified by the MLI",
+ "signed": "1999-10-21",
+ "entry_into_force": "2000-12-29",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf",
+ "eif_quote": "Romania Original 21-10-1999 29-12-2000",
+ "source_title": "Revenue: Synthesised text of the MLI and the Ireland-Romania DTC; Ireland-Romania Convention (romania.pdf)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/r/synthesised-text-of-the-mli-and-the-ireland-romania-double-taxation-convention.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 3 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 3 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties under Art. 12(3)(b))",
+   "valid_from": "2001-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties described in subparagraph (b) of paragraph 3 may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/r/synthesised-text-of-the-mli-and-the-ireland-romania-double-taxation-convention.pdf",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Convention."
+ },
+ "notes": "Art. 29: EIF on receipt of later notification (2000-12-29); Romania WHT for income derived on/after 2001-01-01; Ireland corporation tax from financial year beginning 1 Jan 2001, income tax from 6 April 2001. Copyright royalties (Art. 12(3)(a): literary, artistic, scientific work incl. films/recordings) taxable only in residence State (0%) - not modelled as separate tier; 3% applies to patent/trademark/design/know-how royalties (Art. 12(3)(b)). Interest exclusive to residence State (Art. 11(3)) when paid on credit sales of equipment, loans by banks/financial institutions (incl. insurance companies), loans for more than 2 years, or government guaranteed/insured/financed debt - not modelled. MLI WHT effect from 2024-01-01 (synthesised text); MLI Art. 8 not applied (no participation tier). Revenue PDF uses ligature glyphs; quotes normalised (fi).",
+ "confidence": "high",
+ "unverified": []
+}

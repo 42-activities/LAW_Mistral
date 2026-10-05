@@ -1,0 +1,70 @@
+{
+ "a": "NL",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001, as amended 2009)",
+ "signed": "2001-06-05",
+ "entry_into_force": "2002-12-31",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2003-2.html",
+ "eif_quote": "De bepalingen van het Verdrag en de Protocollen, die dienen ter vervanging van de hieronder in rubriek J genoemde Overeenkomst, zijn ingevolge artikel 33, eerste lid, van het Verdrag en de preambules tot de Protocollen op 31 december 2002 in werking getreden.",
+ "source_title": "wetten.overheid.nl consolidated text BWBV0001563 (Dutch authentic text, version from 2013-09-01)",
+ "source_url": "https://wetten.overheid.nl/BWBV0001563/2013-09-01",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 percent van het brutobedrag van de dividenden indien de uiteindelijk gerechtigde een vennootschap is die onmiddellijk ten minste 10 percent bezit van het kapitaal van de vennootschap die de dividenden betaalt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 percent van het brutobedrag van de dividenden in alle andere gevallen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Deze interest mag echter ook in de verdragsluitende Staat waaruit hij afkomstig is overeenkomstig de wetgeving van die Staat worden belast, maar indien de uiteindelijk gerechtigde tot de interest inwoner is van de andere verdragsluitende Staat, mag de aldus geheven belasting niet hoger zijn dan 10 percent van het brutobedrag van de interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalty's afkomstig uit een verdragsluitende Staat en betaald aan een inwoner van de andere verdragsluitende Staat zijn slechts in die andere Staat belastbaar, indien die inwoner de uiteindelijk gerechtigde tot de royalty's is."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://wetten.overheid.nl/BWBV0006679/2019-07-01",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Valid_from per Art. 33(2)(a): withholding taxes on income attributed or payable on/after 1 January of the year following EIF (EIF 31-12-2002 -> 2003-01-01). Interest exemptions not modelled as tiers (Art. 11(3)): source exemption where the beneficial owner is an enterprise of the other State (other than interest on bearer securities/deposits), bearer securities/deposits held >=3 months by banks/insurers, trade-credit interest, officially supported export loans, and interest paid to the State/central bank; Art. 11(8) allows source taxation without cap of interest paid to emigrated >=5% individual shareholders with an outstanding exit-tax assessment. Protocol item 12: Art. 10(2) does not apply where the EU Parent-Subsidiary Directive (90/435/EEG) bars source tax; Protocol item 13: EU Savings / Interest-Royalties Directives override Art. 11(2)-(3) where applicable. Art. 10(7): silent-partner profit shares taxable in source State without cap. MLI: both list the treaty (NL agreement no. 82 added 25-11-2021; Belgium no. 61); MLI WHT effect computed as 2022-01-01 under MLI Art. 35(5)(a): the treaty became a Covered Tax Agreement only when NL extended its list (notification received and communicated by the Depositary 25-11-2021); 30 days later = 25-12-2021, so WHT effect from the first day of the next calendar year beginning on or after that date = 2022-01-01. CONFLICT: treaties_merged.json gives mli_wht_effective 2020-01-01 (computed under Art. 35(1)(a), which does not apply to an agreement added by list extension). MLI Art. 8: NL notified Art. 10(2)(a) for Belgium (NL MLI consolidated position, notification received 25-11-2021) and Belgium notified 'Pays-Bas Article 10(2)(a)' - matching, so the 365-day holding period applies to the 5% tier from the MLI WHT effective date (2022-01-01); before that no holding period. A new NL-BE Convention was signed 21-06-2023 (wetten.overheid.nl BWBV0006999, Trb. 2023, 77) but the BWB record shows no entry-into-force date, so it is treated as not yet in force on 2026-10-05.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date recomputed as 2022-01-01 (Art. 35(5)(a)) - differs from treaties_merged.json (2020-01-01).",
+  "Status of the 2023 NL-BE Convention inferred from absence of an inwerkingtreding entry in the BWB WTI file (checked 2026-10-05)."
+ ]
+}

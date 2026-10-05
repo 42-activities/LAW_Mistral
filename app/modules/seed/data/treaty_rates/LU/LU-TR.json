@@ -1,0 +1,91 @@
+{
+ "a": "LU",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Grand Duchy of Luxembourg and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003, as amended by the 2009 Protocol)",
+ "signed": "2003-06-09",
+ "entry_into_force": "2005-01-18",
+ "eif_source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2004-84-fr-pdf.pdf",
+ "eif_quote": "Article 30 ... The Agreement shall enter into force on the date of the later of these notifications. 2. The provisions of this Agreement shall have effect: a) with regard to taxes withheld at source, in respect of amounts paid or credited on or after the first day of January next following the date upon which this Agreement enters into force (LU list: 'Mémorial A n° 84 de 2004, page 1172 à partir de 2006')",
+ "source_title": "LU–TR Agreement 2003 – Mémorial A n° 84 de 2004 (p. 1172), English text",
+ "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2004-84-fr-pdf.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "a) In the case of Turkey: i) 10 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2006-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "ii) 20 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "LU",
+   "quote": "b) in the case of Luxembourg: i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(ii)",
+   "valid_from": "2006-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LU",
+   "quote": "ii) 20 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises ... but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed: a) 10 per cent of the gross amount of the interest if it is paid on a loan made for a period of more than two years; b) 15 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://data.legilux.public.lu/file/eli-etat-leg-memorial-2004-84-fr-pdf.pdf",
+  "quote": ""
+ },
+ "notes": "No PPT: MLI not in effect (Türkiye signatory, not yet a Party per treaty-map dataset); treaty has no PPT clause. Interest: 10% for loans made for more than two years (Art. 11(2)(a), loan-term tier not modelled); 15% otherwise; deferred-payment sales of goods/equipment are not interest (Art. 11(7)). Art. 10(4): Turkish branch-profits tax on LU company PE capped at 10% of remaining profits. Royalties include equipment rental and payments for 'the sale' of IP (Protocol II). Art. 29 excludes Luxembourg 1929 holding companies. 2009 Protocol concerns exchange of information (Art. 26) only. EIF date from treaty-map dataset.",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 2005-01-18 (from treaties_merged.json)"
+ ]
+}

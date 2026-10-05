@@ -1,0 +1,58 @@
+{
+ "a": "CY",
+ "b": "KW",
+ "treaty_name": "Convention between the Republic of Cyprus and the Government of the State of Kuwait for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2010)",
+ "signed": "2010-10-05",
+ "entry_into_force": "2013-10-30",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf",
+ "eif_quote": "Cyprus MLI position Art. 2 list no. 29: \"State of Kuwait New agreement 05-10-2010 30-10-2013\"; treaty Art. 28(1): \"Η Σύμβαση θα τεθεί σε ισχύ από την ημερομηνία της τελευταίας γνωστοποίησης\"",
+ "source_title": "CY-KW Convention 2010, Greek text, Official Gazette of the Republic of Cyprus, Annex VII (gov.cy MoF scan 'kuwait-new.pdf')",
+ "source_url": "https://www.gov.cy/media/sites/11/2024/03/kuwait-new.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Μερίσματα, που καταβάλλονται από εταιρεία, κάτοικο ενός Συμβαλλόμενου Κράτους, σε κάτοικο του άλλου Συμβαλλόμενου Κράτους θα φορολογούνται μόνο σε αυτό το άλλο Κράτος."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Τόκοι που προκύπτουν σε ένα Συμβαλλόμενο Κράτος και καταβάλλονται σε κάτοικο του άλλου Συμβαλλόμενου Κράτους θα φορολογούνται μόνο σε αυτό το άλλο Κράτος."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Εντούτοις, τέτοια δικαιώματα μπορούν επίσης να φορολογούνται στο Συμβαλλόμενο Κράτος μέσα στο οποίο προκύπτουν και σύμφωνα με τους νόμους αυτού, αλλά ο επιβληθείς φόρος δεν θα υπερβαίνει το 5% του ακαθάριστου ποσού των δικαιωμάτων."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.gov.cy/media/sites/11/2024/03/kuwait-new.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends and interest taxable only in the residence State (Arts. 10(1), 11(1)); royalties capped at 5% (Art. 12(2)). Art. 28(1)(a): effective for taxes withheld at source on amounts paid or credited on or after 1 January of the calendar year following the year of entry into force (2013 -> 2014-01-01). Art. 28(2): the 1984 Cyprus-Kuwait convention (signed Kuwait 15 December 1984) ceases to apply from the date of application of this Convention. Kuwait is not an MLI Party; the treaty has no principal purpose test (Art. 26 'Διάφοροι κανονισμοί' only preserves domestic/cooperation reliefs) -> no PPT. EIF conflict in treaties_merged: CY MLI 30-10-2013 vs Kuwait MLI list 25/10/2013; no effect on valid_from.",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF day (30-10-2013 per Cyprus vs 25-10-2013 per Kuwait)"
+ ]
+}
