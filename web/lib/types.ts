@@ -47,6 +47,13 @@ export type Recommendation = {
   engine_version: string;
   data_asof: string;
   scorecards: ScoreCard[];
+  summary?: {
+    text: string;
+    status: "pass" | "repaired" | "template";
+    model: string | null;
+    citations: number[];
+    note: string | null;
+  };
 };
 
 export type Option = {

@@ -7,6 +7,7 @@ from app.db import Base
 # Import model modules so their tables register on Base.metadata.
 from app.modules.core import models as _core_models  # noqa: F401
 from app.modules.core import reference as _core_reference  # noqa: F401
+from app.modules.llm import models as _llm_models  # noqa: F401
 from app.modules.recommender import models as _recommender_models  # noqa: F401
 from app.modules.risk import models as _risk_models  # noqa: F401
 from app.modules.saas import models as _saas_models  # noqa: F401

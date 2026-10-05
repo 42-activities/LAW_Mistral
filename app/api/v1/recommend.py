@@ -8,9 +8,11 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.product import load_profile
 from app.db import get_session
-from app.deps import require_api_key
+from app.deps import get_llm_provider, require_api_key
 from app.errors import NotFoundError
 from app.modules.core.repository import JurisdictionRepository
+from app.modules.llm.provider import LlmProvider
+from app.modules.llm.summary import SummaryService
 from app.modules.scoring.repository import (
     ScoringRunRepository,
     WeightSetRepository,
@@ -64,6 +66,9 @@ class RecommendationIn(BaseModel):
     weights: dict[str, Decimal] | None = Field(
         default=None, description="Custom weights; overrides weight_set"
     )
+    summarize: bool = Field(
+        default=False, description="Add a grounded prose summary (AI if configured)"
+    )
 
 
 @router.post("/holding-recommendation")
@@ -71,6 +76,7 @@ def holding_recommendation(
     body: RecommendationIn,
     org_id: int = Depends(require_api_key),
     session: Session = Depends(get_session),
+    provider: LlmProvider | None = Depends(get_llm_provider),
 ) -> dict[str, Any]:
     jurisdictions = JurisdictionRepository(session)
     if (body.profile is None) == (body.profile_id is None):
@@ -112,12 +118,25 @@ def holding_recommendation(
         data_asof=body.on_date,
         cards=cards,
     )
-    session.commit()
-    return {
+    card_dicts = [card_to_dict(c) for c in cards]
+    out: dict[str, Any] = {
         "scoring_run_id": run.id,
         "weight_set": name,
         "weights": {k: str(v) for k, v in weights.items()},
         "engine_version": ENGINE_VERSION,
         "data_asof": body.on_date.isoformat(),
-        "scorecards": [card_to_dict(c) for c in cards],
+        "scorecards": card_dicts,
     }
+    if body.summarize:
+        summary = SummaryService(session, provider).summarize(
+            card_dicts, org_id=org_id, input_ref=f"scoring_run:{run.id}"
+        )
+        out["summary"] = {
+            "text": summary.text,
+            "status": summary.status,
+            "model": summary.model,
+            "citations": list(summary.citations),
+            "note": summary.note,
+        }
+    session.commit()
+    return out

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Badge, Cite, ErrorNote, FlagList, pct, ScoreBar } from "@/components/ui";
+import { Badge, Cite, CitedText, ErrorNote, FlagList, pct, ScoreBar } from "@/components/ui";
 import { notFound } from "next/navigation";
 import { api, ApiError, today } from "@/lib/api";
 import {
@@ -53,13 +53,13 @@ export default async function RecommendationPage({ params, searchParams }: Props
       api<Profile>(`/v1/profiles/${id}`),
       api<Recommendation>("/v1/analyze/holding-recommendation", {
         method: "POST",
-        body: { profile_id: Number(id), on_date: onDate, weights },
+        body: { profile_id: Number(id), on_date: onDate, weights, summarize: true },
       }),
       api<{ jurisdictions: Jurisdiction[] }>("/v1/onboarding/questions"),
     ]);
   } catch (e) {
     if (e instanceof ApiError && e.status === 404) notFound();
-    const msg = e instanceof ApiError && e.status === 404 ? "This analysis does not exist." : e instanceof ApiError ? e.detail : "The analysis service is unavailable.";
+    const msg = e instanceof ApiError ? e.detail : "The analysis service is unavailable.";
     return <ErrorNote message={msg} />;
   }
   const name = Object.fromEntries(jurisdictions.map((j) => [j.code, j.name]));
@@ -85,10 +85,7 @@ export default async function RecommendationPage({ params, searchParams }: Props
         </div>
       </div>
 
-      <div className="rounded-xl border border-dashed border-line px-5 py-3 text-sm text-muted">
-        AI-generated narration of these figures arrives in a later release. Everything below is
-        computed by the deterministic engine; follow the bracketed numbers to the source text.
-      </div>
+      {rec.summary && <SummaryBlock summary={rec.summary} />}
 
       <div className="grid gap-6 lg:grid-cols-[1fr_280px]">
         <ol className="space-y-4">
@@ -106,6 +103,27 @@ export default async function RecommendationPage({ params, searchParams }: Props
         </aside>
       </div>
     </div>
+  );
+}
+
+function SummaryBlock({ summary }: { summary: NonNullable<Recommendation["summary"]> }) {
+  const ai = summary.status !== "template";
+  return (
+    <section className="rounded-xl border border-line bg-surface px-5 py-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h2 className="text-sm font-semibold">
+          {ai ? "AI-generated narration of the figures below" : "Summary of the figures below"}
+        </h2>
+        <span className="text-xs text-muted">
+          {ai
+            ? `${summary.model} · every number and citation checked against the engine output`
+            : "fixed template, no AI" + (summary.note ? ` · ${summary.note}` : "")}
+        </span>
+      </div>
+      <p className="mt-2 text-[15px] leading-relaxed">
+        <CitedText text={summary.text} />
+      </p>
+    </section>
   );
 }
 

@@ -19,6 +19,22 @@ export function Cite({ ids }: { ids: number[] }) {
   );
 }
 
+/** Prose with [n] citation tags turned into evidence links. */
+export function CitedText({ text }: { text: string }) {
+  const parts = text.split(/((?:\[\d+\])+)/);
+  return (
+    <>
+      {parts.map((part, i) =>
+        /^\[\d+\]/.test(part) ? (
+          <Cite key={i} ids={[...part.matchAll(/\[(\d+)\]/g)].map((m) => Number(m[1]))} />
+        ) : (
+          <span key={i}>{part}</span>
+        ),
+      )}
+    </>
+  );
+}
+
 export function pct(value: string | null | undefined): string {
   if (value === null || value === undefined) return "—";
   return `${parseFloat(Number(value).toFixed(3))}%`;

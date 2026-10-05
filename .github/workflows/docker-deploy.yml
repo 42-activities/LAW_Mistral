@@ -60,6 +60,9 @@ on:
       ENV_FILE:
         description: Full contents of the server's .env. Without it the existing .env on the server is kept.
         required: false
+      MISTRAL_API_KEY:
+        description: Written to the MISTRAL_API_KEY= line of the server's .env (other lines kept).
+        required: false
 
 jobs:
   build:
@@ -138,6 +141,7 @@ jobs:
           SSH_HOST: ${{ secrets.SSH_HOST }}
           SSH_USER: ${{ secrets.SSH_USER }}
           ENV_FILE: ${{ secrets.ENV_FILE }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GHCR_USER: ${{ github.actor }}
           REPO: ${{ github.repository }}
@@ -154,6 +158,7 @@ jobs:
               printf '%s=%q\n' "$v" "${!v}"
             done
             printf 'ENV_FILE_B64=%q\n' "$(printf '%s' "$ENV_FILE" | base64 -w0)"
+            printf 'MISTRAL_KEY_B64=%q\n' "$(printf '%s' "$MISTRAL_API_KEY" | base64 -w0)"
             cat <<'REMOTE'
           set -euo pipefail
           DEPLOY_PATH="${DEPLOY_PATH/#\~/$HOME}"
@@ -180,6 +185,20 @@ jobs:
             # umask only applies when the file is created; chmod covers an existing .env too.
             (umask 077; printf '%s' "$ENV_FILE_B64" | base64 -d > .env)
             chmod 600 .env
+          fi
+
+          if [ -n "$MISTRAL_KEY_B64" ]; then
+            # Replace only this line; the rest of the server's .env is left as it is.
+            (
+              umask 077
+              touch .env
+              { grep -v '^MISTRAL_API_KEY=' .env || true
+                printf 'MISTRAL_API_KEY=%s\n' "$(printf '%s' "$MISTRAL_KEY_B64" | base64 -d)"
+              } > .env.tmp
+              mv .env.tmp .env
+            )
+            chmod 600 .env
+            echo "MISTRAL_API_KEY written to .env from the repository secret"
           fi
 
           printf '%s' "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USER" --password-stdin >/dev/null
