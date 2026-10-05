@@ -13,10 +13,11 @@ from decimal import Decimal
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
+from app.modules.core.reference import IncomeCategory
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.seed.builder import ARTICLE_CATEGORY, RETRIEVED_AT, Seeder, Src, period
 from app.modules.source.models import SourceDocument, SourceEvidence
@@ -171,6 +172,42 @@ def _ppt_src(data: dict[str, Any], ppt: dict[str, Any]) -> Src:
                ppt.get("quote") or "principal purpose test applies")
 
 
+def _dec(value: str | None) -> Decimal | None:
+    return None if value is None else Decimal(value)
+
+
+def _drop_stale_rates(
+    session: Session, treaty_id: int, tiers: list[dict[str, Any]], codes: dict[str, Jurisdiction]
+) -> None:
+    """Corrected files must win over rows loaded earlier: when the stored rates differ from the
+    file's current tiers, delete them so they are re-inserted from the file."""
+
+    def src_id(code: str | None) -> int | None:
+        j = codes.get(code) if code else None
+        return None if j is None else j.id
+
+    want = {
+        (r["category"], _dec(r.get("ownership_threshold")), src_id(r.get("source_state")),
+         None if r.get("exclusive") else _dec(r.get("max_rate")), bool(r.get("exclusive")),
+         r.get("min_holding_days"), _d(r["valid_from"]))
+        for r in tiers
+    }
+    rows = session.execute(
+        select(TreatyRate, IncomeCategory.code)
+        .join(IncomeCategory, TreatyRate.income_category_id == IncomeCategory.id)
+        .where(TreatyRate.treaty_id == treaty_id)
+    ).all()
+    have = {
+        (code, r.ownership_threshold, r.source_jurisdiction_id,
+         None if r.exclusive_residence_taxation else r.max_rate, r.exclusive_residence_taxation,
+         r.min_holding_days, r.valid_period.lower)
+        for r, code in rows
+    }
+    if have != want:
+        session.execute(delete(TreatyRate).where(TreatyRate.treaty_id == treaty_id))
+        session.flush()
+
+
 def load_file(
     sd: Seeder, path: Path, evidence: _Evidence | None = None,
     codes: dict[str, Jurisdiction] | None = None,
@@ -189,12 +226,13 @@ def load_file(
     ):
         _insert_new(sd, evidence, data, a, b, in_force, tiers, codes)
         return True
-    # Treaty already present (re-seed): idempotent per-row path.
+    # Treaty already present (re-seed): replace its rates if the file changed, else no-op.
     t = sd.treaty(
         a, b, name=_name(data, a.name, b.name), signed=_d(data.get("signed")) or in_force,
         in_force=in_force,
         src=_treaty_src(data, in_force),
     )
+    _drop_stale_rates(sd.s, t.id, tiers, codes or {})
     for r in tiers:
         source = r.get("source_state")
         sd.treaty_rate(

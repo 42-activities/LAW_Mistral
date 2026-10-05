@@ -80,3 +80,24 @@ def test_reseed_is_idempotent(s):
     seed(s)
     s.flush()
     assert counts() == before
+
+
+def test_reseed_replaces_corrected_rates(db_session, tmp_path):
+    from app.modules.seed.builder import Seeder
+
+    sd = Seeder(db_session)
+    sd.jurisdiction("CH", "Switzerland")
+    sd.jurisdiction("IL", "Israel")
+    db_session.flush()
+    _file(tmp_path, "CH-IL.json", BASE)
+    seed_treaty_rates(db_session, tmp_path)
+    fixed = {**BASE, "rates": [{**BASE["rates"][0], "max_rate": "10"}, BASE["rates"][1]]}
+    _file(tmp_path, "CH-IL.json", fixed)
+    seed_treaty_rates(db_session, tmp_path)
+    db_session.flush()
+    from app.modules.treaty.repository import TreatyRepository
+
+    repo = TreatyRepository(db_session)
+    t = repo.find_by_parties("CH", "IL")
+    caps = sorted(str(r.max_rate) for r in repo.get_rates(t.id, "DIVIDEND", D))
+    assert caps == ["10.000", "5.000"]
