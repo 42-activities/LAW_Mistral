@@ -3,6 +3,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.db import get_session
+from app.modules.llm.provider import LlmProvider, default_provider
 from app.modules.saas.models import ApiKey
 from app.modules.saas.security import hash_api_key
 
@@ -19,3 +20,7 @@ def require_api_key(
     if key is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid API key")
     return key.org_id
+
+
+def get_llm_provider() -> LlmProvider | None:
+    return default_provider()

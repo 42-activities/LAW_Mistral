@@ -22,6 +22,8 @@ services:
     environment:
       APP_DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-app}:${POSTGRES_PASSWORD:-app}@db:5432/${POSTGRES_DB:-app}
       APP_ENVIRONMENT: ${APP_ENVIRONMENT:-local}
+      APP_MISTRAL_API_KEY: ${MISTRAL_API_KEY:-}
+      APP_MISTRAL_MODEL: ${MISTRAL_MODEL:-mistral-large-latest}
     ports:
       # API only; the public entry point is the web service (APP_BIND).
       - "${API_BIND:-127.0.0.1:8000}:8000"
