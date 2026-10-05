@@ -14,6 +14,7 @@ from app.modules.seed.batch5 import seed_batch5
 from app.modules.seed.batch6 import seed_batch6
 from app.modules.seed.batch7 import seed_batch7
 from app.modules.seed.batch8 import seed_batch8
+from app.modules.seed.batch9 import seed_batch9
 from app.modules.seed.batch_eu1 import seed_batch_eu1
 from app.modules.seed.batch_eu2 import seed_batch_eu2
 from app.modules.seed.batch_me import seed_batch_me
@@ -343,6 +344,7 @@ def seed(session: Session) -> None:
     seed_batch_me(session)
     seed_batch_me2(session)
     seed_batch8(session)
+    seed_batch9(session)
     seed_treaty_rates(session)
 
 

@@ -158,10 +158,12 @@ def test_wave2_rankings_complete(s):
 def test_list_only_jurisdictions_rank_last_with_guardrails(s):
     profile = ScoringProfile(parent="FR", flows=(ProfileFlow("DIVIDEND", "FR"),))
     cards = Scorer(s).rank(profile, ["IR", "SY", "YE", "AE"], D)
-    assert cards[0].jurisdiction == "AE"
-    assert all(not c.complete for c in cards[1:])
-    iran = next(c for c in cards if c.jurisdiction == "IR")
-    assert {f.code for f in iran.guardrail_flags} == {"guardrail_fatf_black"}
+    by = {c.jurisdiction: c for c in cards}
+    # Syria and Yemen have list status only; Iran now has tax data (batch 9) but keeps its
+    # FATF call-for-action guardrail, which caps its score.
+    assert not by["SY"].complete and not by["YE"].complete
+    assert {f.code for f in by["IR"].guardrail_flags} == {"guardrail_fatf_black"}
+    assert by["AE"].rank < by["IR"].rank
 
 
 def test_turkiye_participation_needs_15pct_payer_tax(s):
