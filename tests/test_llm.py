@@ -243,3 +243,32 @@ def test_mistral_provider_request_shape(monkeypatch):
     assert seen["body"]["response_format"] == {"type": "json_object"}
     assert seen["body"]["temperature"] == 0
     assert (out.model, out.prompt_tokens, out.completion_tokens) == ("mistral-large-2411", 12, 3)
+
+
+def test_cfc_flag_restated_with_its_citations_passes(seeded, cards):
+    from app.modules.llm.summary import build_payload
+
+    ae = build_payload(cards, {})["ranked_candidates"][0]
+    cfc = next(f for f in ae["flags"] if "CFC" in f["message"])
+    assert cfc["citations"]
+    tags = "".join(f"[{i}]" for i in cfc["citations"])
+    text = (
+        "United Arab Emirates ranks first with 85.45. Under CGI art. 209 B / 238 A the French "
+        f"CFC rule may apply because 9.000% is below the 15.00% threshold {tags}."
+    )
+    s = SummaryService(seeded, FakeProvider(text)).summarize(cards, org_id=None, input_ref="t")
+    assert s.status == "pass", _audit(seeded)[0].grounding_errors
+
+
+def test_citation_lists_are_normalised_and_checked(seeded, cards):
+    from app.modules.llm.grounding import normalize_citations
+
+    assert normalize_citations("x [1, 2; 3] y []. z") == "x [1][2][3] y. z"
+    c = _royalty_cit_cite(cards)
+    good = f"United Arab Emirates ranks first with 85.45; royalties bear 9% tax [{c}, {c}]."
+    s = SummaryService(seeded, FakeProvider(good)).summarize(cards, org_id=None, input_ref="t")
+    assert s.status == "pass" and f"[{c}][{c}]" in s.text
+    bad = f"United Arab Emirates ranks first with 85.45; royalties bear 9% tax [{c}, 99999]."
+    s = SummaryService(seeded, FakeProvider(bad, bad)).summarize(cards, org_id=None, input_ref="t")
+    assert s.status == "template"
+    assert any("[99999]" in e for e in _audit(seeded)[1].grounding_errors)
