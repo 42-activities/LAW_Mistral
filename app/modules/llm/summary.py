@@ -7,11 +7,11 @@ from typing import Any
 from sqlalchemy.orm import Session
 
 from app.modules.core.repository import JurisdictionRepository
-from app.modules.llm.grounding import GroundingResult, validate
+from app.modules.llm.grounding import GroundingResult, normalize_citations, validate
 from app.modules.llm.models import LlmInteraction
 from app.modules.llm.provider import LlmError, LlmProvider, Message
 
-PROMPT_VERSION = "summary-v1"
+PROMPT_VERSION = "summary-v2"
 TOP_N = 3
 
 SYSTEM = """You write a short briefing for a tax professional about a holding-jurisdiction \
@@ -21,7 +21,8 @@ Rules — breaking any of them gets your text rejected:
 1. Use ONLY facts and numbers present in the JSON. Never compute, round differently, estimate \
 or add outside knowledge (no rates, dates, lists or countries that are not in the JSON).
 2. After every sentence that states a rate, a list status, a treaty or a rule, put the \
-supporting citation ids from the JSON in square brackets, e.g. [12] or [3][18].
+supporting citation ids from the JSON in square brackets, e.g. [12] or [3][18]. When you \
+restate a flag, use the citations listed with that flag.
 3. Mention points flagged "interpretation_required": true as needing professional review.
 4. Do not recommend; describe what the figures show. Plain prose, 120–220 words, no headings, \
 no bullet lists, no markdown."""
@@ -53,13 +54,15 @@ def build_payload(cards: list[dict[str, Any]], names: dict[str, str]) -> dict[st
                 },
                 "flow_breakdown": c["flow_breakdown"],
                 "guardrails": [g["message"] for g in c["guardrail_flags"]],
+                # Flags carry their factor's citations so the model can cite what it restates.
                 "flags": [
                     {
                         "message": f["message"],
                         "interpretation_required": f["interpretation_required"],
+                        "citations": cites,
                     }
-                    for f in {
-                        (f["code"], f["message"]): f
+                    for f, cites in {
+                        (f["code"], f["message"]): (f, fs["citations"])
                         for fs in c["factors"].values()
                         for f in fs["flags"]
                     }.values()
@@ -165,7 +168,8 @@ class SummaryService:
                 list(result.citations), out,
             )
             if result.ok:
-                return Summary(out.text.strip(), status, out.model, result.citations)
+                text = normalize_citations(out.text).strip()
+                return Summary(text, status, out.model, result.citations)
             messages += [
                 Message("assistant", out.text),
                 Message(

@@ -15,9 +15,22 @@ from decimal import Decimal, InvalidOperation
 from typing import Any
 
 CITATION = re.compile(r"\[(\d+)\]")
+CITATION_LIST = re.compile(r"\[\s*(\d+(?:\s*[,;]\s*\d+)*)\s*\]")
+EMPTY_CITATION = re.compile(r"\s*\[\s*\]")
+
+
+def normalize_citations(text: str) -> str:
+    """Models write [1, 2] or []; canonical form is [1][2] so every id is checked and linked."""
+    text = EMPTY_CITATION.sub("", text)
+    return CITATION_LIST.sub(
+        lambda m: "".join(f"[{n}]" for n in re.split(r"\s*[,;]\s*", m.group(1))), text
+    )
 ISO_DATE = re.compile(r"\b\d{4}-\d{2}-\d{2}\b")
 NUMBER = re.compile(r"(?<![\w.])\d+(?:[.,]\d+)?")
-SENTENCE = re.compile(r"(?<=[.!?])\s+|\n+")
+# Sentence ends: punctuation + space + capital, except after legal abbreviations ("art. 209 B").
+SENTENCE = re.compile(
+    r"(?<!\bart\.)(?<!\bArt\.)(?<!\bNo\.)(?<!\bno\.)(?<!\bpara\.)(?<=[.!?])\s+(?=[A-Z(])|\n+"
+)
 LIST_TERMS = {
     "FATF": ("FATF",),
     "ETNC": ("ETNC", "non-cooperative", "non cooperative"),
@@ -85,6 +98,7 @@ def validate(
 ) -> GroundingResult:
     """`jurisdictions_*` map code → name."""
     errors: list[str] = []
+    text = normalize_citations(text)
     allowed_cites = set(citations)
     used = [int(c) for c in CITATION.findall(text)]
     for c in sorted(set(used) - allowed_cites):
