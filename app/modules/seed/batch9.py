@@ -72,6 +72,21 @@ KE_AE = "https://mof.gov.ae/wp-content/uploads/2025/06/UAE-Kenya-DTA.pdf"
 SD_ITA = "https://moj.gov.sd/sudanlaws/epub/EPUB/xhtml/s2yuyr.html"
 SD_SRC = "Income Tax Act 1986 as amended (Ministry of Justice e-library; Taxation Chamber acts)"
 SD_AE = "https://tax.gov.sd/wp-content/uploads/2025/02/emaraties1.pdf"
+SY_LD30 = "https://sana.sy/?p=1955388"
+SY_LAW = "https://www.syria-law.com"  # Law 24/2003 original text (secondary reproduction)
+FR_SY = (
+    "https://www.impots.gouv.fr/sites/default/files/media/10_conventions/syrie/"
+    "syrie_convention-avec-la-syrie-du-17.07.1998-entree-en-vigueur-le-01.05.2009_fd_5541.pdf"
+)
+SY_AE = "https://mof.gov.ae/wp-content/uploads/2025/06/UAE-Syria-DTA.pdf"
+YE_LAW = (
+    "http://www.tax.gov.ye/index.php/arb-tax-law/arb-incometax/category/10-arb-role-re"
+    "?download=2:17-en"
+)
+YE_SRC = "Income Tax Law No. 17 of 2010, Yemen Tax Authority English text (Wayback 2018)"
+YE_AE = "https://mof.gov.ae/wp-content/uploads/2025/06/UAE-Yemen-DTA.pdf"
+PS_LAW = "http://muqtafi.birzeit.edu/pg/getleg.asp?id=16266"
+PS_SRC = "Decree-Law No. 8 of 2011 on Income Tax as amended (Al-Muqtafi, Birzeit University)"
 FATF = (
     "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/{}.html"
 )
@@ -116,6 +131,9 @@ def seed_batch9(session: Session) -> None:
         "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R1675-20260129",
         "Annex point I", "10 Kenya (added by Delegated Regulation (EU) 2025/1184)"))
     _sudan(sd, ae, sd.jurisdiction("SD", "Sudan"))
+    _syria(sd, fr, ae, sd.jurisdiction("SY", "Syria"))
+    _yemen(sd, ae, sd.jurisdiction("YE", "Yemen"))
+    _palestine(sd, sd.jurisdiction("PS", "Palestine"))
 
 
 def _iran(sd: Seeder, fr: Jurisdiction, ir: Jurisdiction) -> None:
@@ -598,3 +616,142 @@ def _sudan(sd: Seeder, ae: Jurisdiction, sd_: Jurisdiction) -> None:
     sd.treaty_rate(t, "ROYALTY", "Article 12", start, Src(
         src, SD_AE, "Article 12(2)", "لا يمكن أن تتجاوز 5% (خمسة بالمائة) من المبلغ الإجمالي "
         "للإتاوات"), max_rate="5")
+
+
+def _syria(sd: Seeder, fr: Jurisdiction, ae: Jurisdiction, sy: Jurisdiction) -> None:
+    start = date(2024, 1, 1)
+    sd.cit(sy, start, Src(
+        "Legislative Decree No. 30 of 2023 (SANA)", SY_LD30, "Law 24/2003 art. 16(b), as "
+        "replaced by LD 30/2023 art. 4",
+        "20 % [...] باقي الشركات المساهمة [...] الشركات المحدودة المسؤولية (20% for LLCs and "
+        "other joint-stock companies; local-administration surcharge and reconstruction "
+        "contribution excluded)"), rate="20")
+    # Dividends paid by Syrian companies are not among the art. 83 categories (inferred).
+    sd.wht(sy, "DIVIDEND", "0", start, Src(
+        "Income Tax Law No. 24/2003 (syria-law.com — secondary source)", SY_LAW, "art. 83",
+        "dividends of Syrian companies are not listed among movable-capital income (no "
+        "withholding found)"))
+    sd.wht(sy, "INTEREST", "10", start, Src(
+        "Legislative Decree No. 30 of 2023 (SANA)", SY_LD30, "Law 24/2003 art. 83-84",
+        "10% عشرة بالمئة (movable-capital income tax)"))
+    sd.wht(sy, "ROYALTY", "10", start, Src(
+        "Income Tax Law No. 24/2003 (syria-law.com — secondary source)", SY_LAW, "art. 61(b)",
+        "10 % من قيمة بدل الخدمات وكذلك الأجور المدفوعة لقاء استثمار [...] براءات الاختراع "
+        "والأسماء والعلامات (10% on services and royalties; plus a 2% payroll component)"))
+    sd.regime(
+        sy, start,
+        Src("Income Tax Law No. 24/2003 (syria-law.com — secondary source)", SY_LAW,
+            "art. 3, 83(a)(2)", "territorial business-profits tax; income from shares in "
+            "foreign companies taxed at 10% as movable-capital income"),
+        participation_exemption_dividends=False, participation_exemption_capgains=False,
+        min_holding_pct=None, min_holding_period_months=None, subject_to_tax_condition=False,
+        exempt_share_pct=0,
+        notes="Foreign dividends taxed at 10% (movable-capital tax). No CFC rules. A new "
+        "unified income tax law (corporate rate below 15%) was proposed but not enacted by "
+        "4 Sep 2026",
+    )
+
+    t = sd.treaty(fr, sy, name="Convention between France and Syria (1998)",
+                  signed=date(1998, 7, 17), in_force=date(2009, 5, 1), src=Src(
+                      "Convention France–Syrie (impots.gouv.fr)", FR_SY, None,
+                      "Convention avec la Syrie du 17/07/1998 entrée en vigueur le 01/05/2009"))
+    src = "Convention France–Syrie (impots.gouv.fr)"
+    start = date(2009, 5, 1)
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        src, FR_SY, "Article 10(2)(a)", "ne peut excéder 15 % du montant brut"), max_rate="15")
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        src, FR_SY, "Article 10(2)(b)",
+        "société [...] qui détient au moins 10 % du capital — imposables uniquement dans "
+        "l'Etat de résidence"), exclusive=True, ownership_threshold="10")
+    sd.treaty_rate(t, "INTEREST", "Article 11", start, Src(
+        src, FR_SY, "Article 11(2)", "ne peut excéder 10 % du montant brut des intérêts"),
+        max_rate="10")
+    sd.treaty_rate(t, "ROYALTY", "Article 11A", start, Src(
+        src, FR_SY, "Article 11A (exchange of letters, Damascus, 16 Dec 2004)",
+        "ne peut excéder 15 % du montant brut des redevances"), max_rate="15")
+
+    t = sd.treaty(sy, ae, name="Agreement between Syria and the UAE (2000)",
+                  signed=date(2000, 1, 26), in_force=date(2002, 1, 12), src=Src(
+                      "UAE Ministry of Finance — list of double taxation agreements",
+                      "https://mof.gov.ae/wp-content/uploads/2023/08/Avoidance-of-Double-"
+                      "Taxation-Agreements1.pdf", None, "Syria 26/1/2000 [...] 12/1/2002"))
+    src = "اتفاقية سوريا–الإمارات (UAE Ministry of Finance, scanned Arabic text)"
+    start = date(2003, 1, 1)
+    sd.treaty_rate(t, "DIVIDEND", "Article 10", start, Src(
+        src, SY_AE, "Article 10(1)", "تخضع أرباح الأسهم [...] للضريبة في تلك الدولة الأخرى "
+        "(no source-State paragraph)"), exclusive=True)
+    sd.treaty_rate(t, "INTEREST", "Article 11", start, Src(
+        src, SY_AE, "Article 11(2)", "لا تتجاوز (10%) من اجمالي الفوائد"), max_rate="10")
+    sd.treaty_rate(t, "ROYALTY", "Article 12", start, Src(
+        src, SY_AE, "Article 12(2)", "يجب ألا تزيد عن (18%)"), max_rate="18")
+
+
+def _yemen(sd: Seeder, ae: Jurisdiction, ye: Jurisdiction) -> None:
+    # tax.gov.ye is run by the Sanaa authorities; amendments by the Aden government unseen.
+    start = date(2026, 1, 1)
+    sd.cit(ye, start, Src(
+        YE_SRC, YE_LAW, "Law 17/2010 art. 63(a)",
+        "معدل الضريبة للشخص الاعتباري [...] (عشرين بالمائة) (legal persons: 20%)"), rate="20")
+    nonres = Src(YE_SRC, YE_LAW, "Law 17/2010 art. 71(a)",
+                 "Tax at the rate of 10% net of any deduction [...] on the amounts paid [...] "
+                 "to any foreign agency or non-resident person — includes, but not limited to "
+                 "[...] interest [...] royalties")
+    # Dividends are not expressly listed in art. 71 — the 10% catch-all is applied.
+    for cat in ("DIVIDEND", "INTEREST", "ROYALTY"):
+        sd.wht(ye, cat, "10", start, nonres)
+    sd.regime(
+        ye, start,
+        Src(YE_SRC, YE_LAW, "Law 17/2010 art. 15(d), 8A",
+            "dividends from another resident legal person exempt; residents taxed on worldwide "
+            "income with a foreign tax credit"),
+        participation_exemption_dividends=False, participation_exemption_capgains=False,
+        min_holding_pct=None, min_holding_period_months=None, subject_to_tax_condition=False,
+        exempt_share_pct=0, notes="Foreign dividends and gains taxed at 20%. No CFC rules. No "
+        "France treaty",
+    )
+
+    t = sd.treaty(ye, ae, name="Agreement between Yemen and the UAE (2001)",
+                  signed=date(2001, 2, 13), in_force=date(2004, 1, 1), src=Src(
+                      "UAE Ministry of Finance — list of double taxation agreements",
+                      "https://mof.gov.ae/wp-content/uploads/2023/08/Avoidance-of-Double-"
+                      "Taxation-Agreements1.pdf", None, "Yemen 13/2/2001 [...] 1/1/2004"))
+    src = "اتفاقية اليمن–الإمارات (UAE Ministry of Finance, scanned Arabic text)"
+    start = date(2004, 1, 1)
+    for cat, art in (("DIVIDEND", "Article 10"), ("INTEREST", "Article 11")):
+        sd.treaty_rate(t, cat, art, start, Src(
+            src, YE_AE, f"{art}(2)", "تخضع [...] فقط للضريبة في تلك الدولة الأخرى (taxable "
+            "only in the other State)"), exclusive=True)
+    sd.treaty_rate(t, "ROYALTY", "Article 12", start, Src(
+        src, YE_AE, "Article 12(2)", "على أن لا يزيد سعر الضريبة عن نسبة (10%) من إجمالي مبلغ "
+        "الأتاوات"), max_rate="10")
+
+
+def _palestine(sd: Seeder, ps: Jurisdiction) -> None:
+    start = date(2026, 1, 1)
+    sd.cit(ps, start, Src(
+        PS_SRC, "http://muqtafi.birzeit.edu/pg/getleg.asp?id=16702",
+        "Decree-Law 8/2011 art. 16(2), as amended by Decree-Law 5/2015",
+        "تـُستوفى الضريبة [...] لأي شخص معنوي بنسبة (%15) (20% for telecoms and franchise or "
+        "monopoly companies)"), rate="15")
+    # Decree-Law 4/2014 imposed 10% on dividends at source; PwC (Aug 2026) reports they are
+    # exempt in practice — the statute is stored.
+    sd.wht(ps, "DIVIDEND", "10", start, Src(
+        "Decree-Law No. 4 of 2014 (Al-Muqtafi)", "http://muqtafi.birzeit.edu/pg/getleg.asp?id=16576",
+        "Decree-Law 8/2011 art. 16(5)",
+        "تستوفى الضريبة بنسبة (%10) على الأرباح [...] على أن تقتطع من المصدر"))
+    nonres = Src(PS_SRC, PS_LAW, "Decree-Law 8/2011 art. 31(2)",
+                 "خصم بنسبة (10%) من المبلغ كضريبة مقطوعة ونهائية (10% final withholding on "
+                 "payments to non-residents)")
+    sd.wht(ps, "INTEREST", "10", start, nonres)
+    sd.wht(ps, "ROYALTY", "10", start, nonres)
+    sd.regime(
+        ps, start,
+        Src(PS_SRC, PS_LAW, "Decree-Law 8/2011 art. 7(15)",
+            "دخل الشخص المتحقق في الخارج ما لم يكن ناشئاً عن أمواله أو ودائعه في فلسطين "
+            "(income earned abroad is exempt)"),
+        participation_exemption_dividends=True, participation_exemption_capgains=False,
+        min_holding_pct=None, min_holding_period_months=None, subject_to_tax_condition=False,
+        exempt_share_pct=100,
+        notes="Territorial: foreign income exempt. No CFC rules. No France treaty; the UAE "
+        "treaty (signed 2012, ratified by Palestine 2018) text was not obtained — not seeded",
+    )

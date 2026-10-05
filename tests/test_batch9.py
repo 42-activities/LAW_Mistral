@@ -45,6 +45,12 @@ def s(seeded_session):
         # Kenya: France 8% at 25% (MFN); UAE 5%.
         ("KE", "FR", "DIVIDEND", "25", None, "8.000"),
         ("KE", "AE", "DIVIDEND", "5", None, "5.000"),
+        # Syria: France 0% at 10%; UAE royalties 18%. Yemen: UAE dividends exempt.
+        ("SY", "FR", "DIVIDEND", "10", None, "0.000"),
+        ("SY", "AE", "ROYALTY", None, None, "10.000"),  # domestic 10% below the 18% cap
+        ("YE", "AE", "DIVIDEND", "100", None, "0.000"),
+        ("YE", "AE", "ROYALTY", None, None, "10.000"),
+        ("PS", "FR", "ROYALTY", None, None, "10.000"),
         # Sudan: UAE royalties capped at 5%.
         ("SD", "AE", "DIVIDEND", None, None, "0.000"),
     ],
@@ -66,13 +72,15 @@ def test_rankings_complete(s):
     profile = ScoringProfile(
         parent="FR", flows=(ProfileFlow("DIVIDEND", "FR"), ProfileFlow("ROYALTY", "FR"))
     )
-    cards = Scorer(s).rank(profile, ["AU", "DZ", "MA", "TN", "KE", "IR"], D)
+    cards = Scorer(s).rank(profile, ["AU", "DZ", "MA", "TN", "KE", "IR", "SY", "YE", "PS"], D)
     assert all(c.complete for c in cards), [
         (c.jurisdiction, {k: [f.code for f in v.flags] for k, v in c.factors.items()})
         for c in cards if not c.complete
     ]
     iran = next(c for c in cards if c.jurisdiction == "IR")
     assert {f.code for f in iran.guardrail_flags} == {"guardrail_fatf_black"}
+    comp = {c.jurisdiction: c.factors["compliance"].score for c in cards}
+    assert comp["SY"] < comp["PS"] and comp["YE"] < comp["PS"]  # FATF grey + EU AML
 
 
 def test_data_quality_checks_pass(s):
