@@ -41,10 +41,8 @@ BASE = {
 
 
 @pytest.fixture
-def s(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def s(seeded_session):
+    return seeded_session
 
 
 def test_current_tiers_keeps_latest_and_skips_uncapped():

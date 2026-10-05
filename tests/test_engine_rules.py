@@ -18,10 +18,8 @@ D = date(2024, 6, 30)
 
 
 @pytest.fixture
-def seeded(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def seeded(seeded_session):
+    return seeded_session
 
 
 def _evidence(session) -> int:

@@ -6,17 +6,14 @@ from decimal import Decimal
 import pytest
 
 from app.modules.engine.withholding import WithholdingEngine
-from app.modules.seed.france_uae import seed
 from app.modules.seed.quality import run_checks
 
 D = date(2026, 6, 30)
 
 
 @pytest.fixture
-def s(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def s(seeded_session):
+    return seeded_session
 
 
 @pytest.mark.parametrize(

@@ -1,11 +1,8 @@
-from app.modules.seed.france_uae import seed
 from app.modules.seed.quality import run_checks
 
 
-def test_seeded_fixture_passes_quality_checks(db_session):
-    seed(db_session)
-    db_session.flush()
-    violations = run_checks(db_session)
+def test_seeded_fixture_passes_quality_checks(seeded_session):
+    violations = run_checks(seeded_session)
     assert violations == [], violations
 
 

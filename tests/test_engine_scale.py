@@ -12,7 +12,6 @@ from app.modules.core.repository import JurisdictionRepository
 from app.modules.engine.withholding import WithholdingEngine
 from app.modules.risk.models import ListMembership, RegulatoryConsequence
 from app.modules.risk.repository import ListDefinitionRepository
-from app.modules.seed.france_uae import seed
 from app.modules.source.models import SourceDocument, SourceEvidence
 from app.modules.tax.models import WhtExemption
 from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyRate
@@ -22,9 +21,8 @@ ALWAYS = Range(date(2000, 1, 1), None, bounds="[)")
 
 
 @pytest.fixture
-def world(db_session):
-    s = db_session
-    seed(s)
+def world(seeded_session):
+    s = seeded_session
     doc = SourceDocument(
         title="t", url="https://example.test/s", retrieved_at=datetime.now(UTC), content_hash="h"
     )

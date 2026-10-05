@@ -7,17 +7,14 @@ import pytest
 
 from app.modules.engine.flow import Flow, FlowCalculator
 from app.modules.engine.withholding import WithholdingEngine
-from app.modules.seed.france_uae import seed
 
 D = date(2024, 6, 30)
 POST_ETNC = date(2025, 6, 1)
 
 
 @pytest.fixture
-def seeded(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def seeded(seeded_session):
+    return seeded_session
 
 
 def codes(result):

@@ -4,12 +4,9 @@ from app.db import get_session
 from app.deps import get_principal
 from app.main import create_app
 from app.modules.saas.service import Principal
-from app.modules.seed.france_uae import seed
 
 
 def _client(db_session) -> TestClient:
-    seed(db_session)
-    db_session.flush()
     app = create_app()
 
     def _override():
@@ -31,8 +28,8 @@ def test_analyze_requires_api_key():
     assert client.post("/v1/analyze/withholding-tax", json=body).status_code == 401
 
 
-def test_withholding_tax_endpoint(db_session):
-    resp = _client(db_session).post(
+def test_withholding_tax_endpoint(seeded_session):
+    resp = _client(seeded_session).post(
         "/v1/analyze/withholding-tax",
         json={
             "source": "FR",
@@ -53,8 +50,8 @@ def test_withholding_tax_endpoint(db_session):
     assert "refund_cash_flow" in {f["code"] for f in body["flags"]}
 
 
-def test_unknown_jurisdiction_is_404(db_session):
-    resp = _client(db_session).post(
+def test_unknown_jurisdiction_is_404(seeded_session):
+    resp = _client(seeded_session).post(
         "/v1/analyze/withholding-tax",
         json={
             "source": "FR",
@@ -66,8 +63,8 @@ def test_unknown_jurisdiction_is_404(db_session):
     assert resp.status_code == 404
 
 
-def test_jurisdiction_risk_endpoint(db_session):
-    resp = _client(db_session).get(
+def test_jurisdiction_risk_endpoint(seeded_session):
+    resp = _client(seeded_session).get(
         "/v1/analyze/jurisdiction-risk", params={"jurisdiction": "AE", "on_date": "2023-06-01"}
     )
     assert resp.status_code == 200
@@ -75,8 +72,8 @@ def test_jurisdiction_risk_endpoint(db_session):
     assert lists == {"FATF_GREY", "EU_AML_HIGH_RISK"}
 
 
-def test_flow_endpoint(db_session):
-    resp = _client(db_session).post(
+def test_flow_endpoint(seeded_session):
+    resp = _client(seeded_session).post(
         "/v1/analyze/flow",
         json={
             "income_category": "ROYALTY",

@@ -5,15 +5,12 @@ from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
 from app.modules.risk.models import ListDefinition, RegulatoryConsequence
-from app.modules.seed.france_uae import seed
 from app.modules.seed.quality import run_checks
 from app.modules.source.models import SourceDocument, SourceEvidence
 
 
-def test_seeded_fixture_passes_quality_checks(db_session: Session) -> None:
-    seed(db_session)
-    db_session.flush()
-    assert run_checks(db_session) == [], run_checks(db_session)
+def test_seeded_fixture_passes_quality_checks(seeded_session: Session) -> None:
+    assert run_checks(seeded_session) == [], run_checks(seeded_session)
 
 
 def test_wht_consequence_without_rate_is_flagged(db_session: Session) -> None:

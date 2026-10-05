@@ -17,7 +17,6 @@ from app.modules.saas.service import Principal
 from app.modules.scoring.repository import card_to_dict
 from app.modules.scoring.scorer import Scorer, normalise_weights
 from app.modules.scoring.types import ProfileFlow, ScoringProfile
-from app.modules.seed.france_uae import seed
 from app.modules.source.models import SourceDocument, SourceEvidence
 
 D = date(2026, 10, 1)
@@ -32,10 +31,8 @@ PROFILE = ScoringProfile(
 
 
 @pytest.fixture
-def seeded(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def seeded(seeded_session):
+    return seeded_session
 
 
 def _cards(session, candidates=("AE", "FR", "VU", "PA"), weights=None, profile=PROFILE):

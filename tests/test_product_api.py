@@ -7,7 +7,6 @@ from app.main import create_app
 from app.modules.recommender.builder import InvalidAnswers, build_profile
 from app.modules.saas.models import OrganisationAccount
 from app.modules.saas.service import Principal
-from app.modules.seed.france_uae import seed
 
 ANSWERS = {
     "size": "sme",
@@ -19,10 +18,8 @@ ANSWERS = {
 
 
 @pytest.fixture
-def seeded(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def seeded(seeded_session):
+    return seeded_session
 
 
 def _client(session, org_name="org a") -> TestClient:

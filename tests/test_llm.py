@@ -17,7 +17,6 @@ from app.modules.saas.service import Principal
 from app.modules.scoring.repository import card_to_dict
 from app.modules.scoring.scorer import Scorer
 from app.modules.scoring.types import ProfileFlow, ScoringProfile
-from app.modules.seed.france_uae import seed
 
 D = date(2026, 10, 1)
 PROFILE = ScoringProfile(
@@ -41,10 +40,8 @@ class FakeProvider:
 
 
 @pytest.fixture
-def seeded(db_session):
-    seed(db_session)
-    db_session.flush()
-    return db_session
+def seeded(seeded_session):
+    return seeded_session
 
 
 @pytest.fixture

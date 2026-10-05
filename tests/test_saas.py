@@ -10,7 +10,6 @@ from app.main import create_app
 from app.modules.saas import service
 from app.modules.saas.models import AuditEvent, OrganisationAccount, Plan, UsageEvent, UserSession
 from app.modules.saas.security import hash_password, password_problem, verify_password
-from app.modules.seed.france_uae import seed
 
 PASSWORD = "correct horse battery"
 REC = {
@@ -21,24 +20,23 @@ REC = {
 
 
 @pytest.fixture
-def env(db_session):
-    seed(db_session)
+def env(seeded_session):
     org = OrganisationAccount(name="Acme")
     other = OrganisationAccount(name="Other")
-    db_session.add_all([org, other])
-    db_session.flush()
+    seeded_session.add_all([org, other])
+    seeded_session.flush()
     admin = service.create_user(
-        db_session, org_id=org.id, email="Admin@Acme.test", name="A", role="admin",
+        seeded_session, org_id=org.id, email="Admin@Acme.test", name="A", role="admin",
         password=PASSWORD, actor_id=None,
     )
     app = create_app()
 
     def _override():
-        yield db_session
+        yield seeded_session
 
     app.dependency_overrides[get_session] = _override
     app.dependency_overrides[get_llm_provider] = lambda: None
-    return TestClient(app), db_session, org, other, admin
+    return TestClient(app), seeded_session, org, other, admin
 
 
 def _login(client, email="admin@acme.test", password=PASSWORD):
