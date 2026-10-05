@@ -84,6 +84,29 @@ export default async function JurisdictionPage({ params, searchParams }: Props) 
               </tbody>
             </table>
           )}
+          {o.wht_exemptions.length > 0 && (
+            <div className="mt-4 border-t border-line pt-3">
+              <p className="text-xs font-medium uppercase tracking-wide text-muted">Withholding exemptions</p>
+              <ul className="mt-2 space-y-1.5 text-sm">
+                {o.wht_exemptions.map((e) => (
+                  <li key={e.income_category + e.recipient_group}>
+                    {e.income_category.toLowerCase()} to {e.recipient_group} companies: 0%
+                    <span className="text-muted">
+                      {" "}
+                      ({[
+                        e.min_holding_pct && `≥${pct(e.min_holding_pct)}`,
+                        e.min_holding_months && `${e.min_holding_months} months`,
+                      ]
+                        .filter(Boolean)
+                        .join(", ")}
+                      ; {e.legal_ref})
+                    </span>
+                    <Cite ids={[e.citation]} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </Section>
 
         <Section title="Participation exemption">
@@ -176,8 +199,16 @@ export default async function JurisdictionPage({ params, searchParams }: Props) 
                 <table className="mt-2 w-full text-sm">
                   <tbody className="divide-y divide-line">
                     {t.rates.map((r) => (
-                      <tr key={r.income_category}>
-                        <td className="py-1.5 pr-4">{r.income_category.toLowerCase()} <span className="text-muted">({r.article})</span></td>
+                      <tr key={r.income_category + (r.ownership_threshold ?? "")}>
+                        <td className="py-1.5 pr-4">
+                          {r.income_category.toLowerCase()} <span className="text-muted">({r.article})</span>
+                          {r.ownership_threshold && (
+                            <span className="block text-xs text-muted">
+                              holding ≥{pct(r.ownership_threshold)}
+                              {r.min_holding_days ? ` for ${r.min_holding_days} days` : ""}
+                            </span>
+                          )}
+                        </td>
                         <td className="py-1.5 pr-4 text-muted">
                           {r.exclusive_residence_taxation ? "residence State only" : `capped at ${pct(r.max_rate)}`}
                           {r.beneficial_owner_required && " · beneficial owner"}

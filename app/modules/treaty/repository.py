@@ -74,3 +74,19 @@ class TreatyRepository:
             )
         )
         return self.session.scalar(stmt)
+
+    def get_rates(
+        self, treaty_id: int, income_category_code: str, on_date: date
+    ) -> list[TreatyRate]:
+        """Every ownership tier valid on the date (one row when the treaty has a single rate)."""
+        stmt = (
+            select(TreatyRate)
+            .join(IncomeCategory, TreatyRate.income_category_id == IncomeCategory.id)
+            .where(
+                TreatyRate.treaty_id == treaty_id,
+                IncomeCategory.code == income_category_code,
+                TreatyRate.valid_period.contains(on_date),
+            )
+            .order_by(TreatyRate.id)
+        )
+        return list(self.session.scalars(stmt))

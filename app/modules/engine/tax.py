@@ -13,7 +13,11 @@ from app.modules.engine.types import (
     q,
 )
 from app.modules.tax.models import DomesticTaxRule
-from app.modules.tax.repository import HoldingRegimeRepository, TaxRuleRepository
+from app.modules.tax.repository import (
+    HoldingRegimeRepository,
+    TaxRuleRepository,
+    WhtExemptionRepository,
+)
 
 WHT_TAX_TYPE = {
     "DIVIDEND": "WHT_DIVIDEND",
@@ -29,6 +33,7 @@ class TaxEngine:
     def __init__(self, session: Session) -> None:
         self.rules = TaxRuleRepository(session)
         self.regimes = HoldingRegimeRepository(session)
+        self.exemptions = WhtExemptionRepository(session)
 
     def _rule(
         self, jurisdiction: str, tax_type: str, category: str, on_date: date, taxpayer: str
@@ -39,7 +44,14 @@ class TaxEngine:
         ) or self.rules.get_rule(jurisdiction, tax_type, category, on_date, taxpayer_type="any")
 
     def domestic_wht(
-        self, jurisdiction: str, category: str, on_date: date, recipient_type: str = "company"
+        self,
+        jurisdiction: str,
+        category: str,
+        on_date: date,
+        recipient_type: str = "company",
+        recipient: str | None = None,
+        holding_pct: Decimal | None = None,
+        holding_months: int | None = None,
     ) -> SourcedRate | None:
         tax_type = WHT_TAX_TYPE.get(category)
         if tax_type is None:
@@ -47,11 +59,72 @@ class TaxEngine:
         rule = self._rule(jurisdiction, tax_type, category, on_date, recipient_type)
         if rule is None or rule.rate is None:
             return None
-        return SourcedRate(
+        base = SourcedRate(
             rate=rule.rate,
             citations=(rule.source_evidence_id,),
             rule=f"{jurisdiction} domestic {tax_type} ({rule.taxpayer_type})",
         )
+        if recipient is None or rule.rate == ZERO or recipient_type != "company":
+            return base
+        return self._apply_exemptions(
+            base, jurisdiction, category, on_date, recipient, holding_pct, holding_months
+        )
+
+    def _apply_exemptions(
+        self,
+        base: SourcedRate,
+        jurisdiction: str,
+        category: str,
+        on_date: date,
+        recipient: str,
+        holding_pct: Decimal | None,
+        holding_months: int | None,
+    ) -> SourcedRate:
+        """Domestic exemptions for recipients in a group, e.g. EU directive reliefs."""
+        flags: list[Flag] = []
+        for ex, group, member in self.exemptions.applicable(
+            jurisdiction, category, recipient, on_date
+        ):
+            missing = []
+            if ex.min_holding_pct is not None and (
+                holding_pct is None or holding_pct < ex.min_holding_pct
+            ):
+                missing.append(f"holding ≥{ex.min_holding_pct}% (given: {holding_pct})")
+            if ex.min_holding_months is not None and (
+                holding_months is None or holding_months < ex.min_holding_months
+            ):
+                missing.append(
+                    f"held ≥{ex.min_holding_months} months (given: {holding_months})"
+                )
+            if missing:
+                flags.append(
+                    Flag(
+                        "exemption_conditions_not_met",
+                        f"{ex.legal_ref} exemption for {group.code} recipients not applied: "
+                        + "; ".join(missing),
+                    )
+                )
+                continue
+            return SourcedRate(
+                rate=ZERO,
+                citations=(*base.citations, ex.source_evidence_id, member.source_evidence_id),
+                rule=f"{base.rule}, exempt under {ex.legal_ref}",
+                statutory_rate=base.rate,
+                flags=(
+                    Flag(
+                        "directive_exemption",
+                        f"{jurisdiction} {category.lower()} withholding exempt for a "
+                        f"{group.code} recipient: {ex.description}",
+                    ),
+                    Flag(
+                        "exemption_anti_abuse",
+                        f"{ex.legal_ref}: the exemption is subject to anti-abuse conditions "
+                        "(genuine arrangement, beneficial ownership)",
+                        interpretation_required=True,
+                    ),
+                ),
+            )
+        return SourcedRate(base.rate, base.citations, base.rule, tuple(flags))
 
     def cit(self, jurisdiction: str, on_date: date, amount: Decimal | None = None) -> CitResult:
         rule = self._rule(jurisdiction, "CIT", "CORPORATE_PROFIT", on_date, "company")

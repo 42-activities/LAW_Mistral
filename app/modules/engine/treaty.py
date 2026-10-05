@@ -4,7 +4,7 @@ from decimal import Decimal
 from sqlalchemy.orm import Session
 
 from app.modules.engine.types import ZERO, Flag, TreatyTerms
-from app.modules.treaty.models import Treaty, TreatyArticle
+from app.modules.treaty.models import Treaty, TreatyArticle, TreatyRate
 from app.modules.treaty.repository import TreatyRepository
 
 
@@ -48,8 +48,8 @@ class TreatyEngine:
                     f"{treaty.name} enters into force {treaty.entry_into_force_date}",
                 ),
             )
-        rate = self.repo.get_rate(treaty.id, category, on_date)
-        if rate is None:
+        rates = self.repo.get_rates(treaty.id, category, on_date)
+        if not rates:
             return None, (
                 Flag(
                     "treaty_rate_not_recorded",
@@ -58,27 +58,7 @@ class TreatyEngine:
             )
 
         flags: list[Flag] = []
-        cites = [treaty.source_evidence_id, rate.source_evidence_id]
-        if rate.exclusive_residence_taxation:
-            cap = ZERO
-        elif rate.max_rate is not None:
-            cap = rate.max_rate
-        else:
-            return None, (
-                Flag("treaty_rate_not_recorded", f"{treaty.name}: {category} rate has no cap"),
-            )
-
-        if rate.ownership_threshold is not None and (
-            holding_pct is None or holding_pct < rate.ownership_threshold
-        ):
-            return None, (
-                Flag(
-                    "treaty_threshold_not_met",
-                    f"{treaty.name}: {category} rate requires ≥{rate.ownership_threshold}% "
-                    f"holding (given: {holding_pct})",
-                ),
-            )
-
+        cites = [treaty.source_evidence_id]
         mli = self.repo.get_mli(treaty.id, on_date)
         if mli is not None:
             cites.append(mli.source_evidence_id)
@@ -86,24 +66,67 @@ class TreatyEngine:
                 flags.append(
                     Flag(
                         "mli_ppt",
-                        "MLI principal purpose test applies: treaty benefits are denied "
-                        "if obtaining them was a principal purpose of the arrangement",
+                        "Principal purpose test applies (MLI or treaty clause): benefits are "
+                        "denied if obtaining them was a principal purpose of the arrangement",
                     )
                 )
+
+        def cap_of(r: TreatyRate) -> Decimal | None:
+            return ZERO if r.exclusive_residence_taxation else r.max_rate
+
+        tiers = sorted((r for r in rates if cap_of(r) is not None), key=lambda r: (cap_of(r), r.id))
+        if not tiers:
+            return None, (
+                Flag("treaty_rate_not_recorded", f"{treaty.name}: {category} rate has no cap"),
+            )
+        # The lowest-capped tier whose ownership and holding-period conditions are met wins.
+        rate: TreatyRate | None = None
+        for tier in tiers:
+            tier_cap = cap_of(tier)
+            if tier.ownership_threshold is not None and (
+                holding_pct is None or holding_pct < tier.ownership_threshold
+            ):
+                flags.append(
+                    Flag(
+                        "treaty_threshold_not_met",
+                        f"{treaty.name}: the {tier_cap}% {category} rate requires "
+                        f"≥{tier.ownership_threshold}% holding (given: {holding_pct})",
+                    )
+                )
+                continue
+            if tier.min_holding_days is not None and (
+                holding_days is None or holding_days < tier.min_holding_days
+            ):
+                flags.append(
+                    Flag(
+                        "treaty_holding_period_not_met",
+                        f"{treaty.name}: the {tier_cap}% {category} rate requires holding "
+                        f"≥{tier.min_holding_days} days (given: {holding_days})",
+                    )
+                )
+                continue
             if (
-                category == "DIVIDEND"
-                and rate.ownership_threshold is not None
+                mli is not None
+                and category == "DIVIDEND"
+                and tier.ownership_threshold is not None
                 and mli.dividend_min_holding_days is not None
                 and (holding_days is None or holding_days < mli.dividend_min_holding_days)
             ):
-                return None, (
-                    *flags,
+                flags.append(
                     Flag(
                         "mli_holding_period_not_met",
                         f"MLI art. 8: dividend rate requires holding ≥"
                         f"{mli.dividend_min_holding_days} days (given: {holding_days})",
-                    ),
+                    )
                 )
+                continue
+            rate = tier
+            break
+        if rate is None:
+            return None, tuple(flags)
+        cites.append(rate.source_evidence_id)
+        cap = cap_of(rate)
+        assert cap is not None
 
         mfn = self.repo.get_mfn(treaty.id, category, on_date)
         if mfn is not None:

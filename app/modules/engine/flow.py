@@ -86,7 +86,7 @@ class FlowCalculator:
 
         # Leg 1: source-state withholding S → H.
         if s == h:
-            legs.append(FlowLeg(f"{s}→{h} {cat.lower()}", "wht", ZERO, ZERO, ()))
+            legs.append(FlowLeg(f"{s}→{h} {cat.lower()}", "wht", q(ZERO), q(ZERO), ()))
         else:
             r1 = self.wht.compute(s, h, cat, on_date, flow.holding_pct, _days(flow.holding_months))
             legs.append(_wht_leg(f"{s}→{h} {cat.lower()}", r1))
@@ -131,7 +131,7 @@ class FlowCalculator:
         # Leg 3: onward dividend H → U, on what is left after legs 1 and 2.
         net = max(HUNDRED - w1 - h_rate, ZERO)
         if h == u:
-            legs.append(FlowLeg(f"{h}→{u} dividend", "wht", ZERO, ZERO, ()))
+            legs.append(FlowLeg(f"{h}→{u} dividend", "wht", q(ZERO), q(ZERO), ()))
         else:
             flags.append(
                 Flag(

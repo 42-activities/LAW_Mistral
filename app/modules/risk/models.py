@@ -1,7 +1,7 @@
 from datetime import date
 from decimal import Decimal
 
-from sqlalchemy import CheckConstraint, ForeignKey, Numeric, String
+from sqlalchemy import CheckConstraint, ForeignKey, Numeric, String, text
 from sqlalchemy.dialects.postgresql import DATERANGE, ExcludeConstraint, Range
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -55,6 +55,7 @@ class RegulatoryConsequence(Base):
             ("list_definition_id", "="),
             ("classification_trigger", "="),
             ("consequence_type", "="),
+            (text("coalesce(income_category_id, 0)"), "="),
             ("valid_period", "&&"),
             using="gist",
             name="no_overlap_consequence",
@@ -72,6 +73,10 @@ class RegulatoryConsequence(Base):
     # exclusion constraint can key on it. See ConsequenceRepository.triggered_by.
     classification_trigger: Mapped[str] = mapped_column(String(48), default="")
     consequence_type: Mapped[str] = mapped_column(String(48))
+    # NULL = applies to every income category.
+    income_category_id: Mapped[int | None] = mapped_column(
+        ForeignKey("core.income_category.id"), nullable=True
+    )
     rate: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     legal_ref: Mapped[str] = mapped_column(String(120))
     description: Mapped[str | None] = mapped_column(String(500), nullable=True)
