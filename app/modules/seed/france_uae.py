@@ -12,8 +12,10 @@ from app.modules.seed.batch3 import seed_batch3
 from app.modules.seed.batch4 import seed_batch4
 from app.modules.seed.batch5 import seed_batch5
 from app.modules.seed.batch6 import seed_batch6
+from app.modules.seed.batch7 import seed_batch7
 from app.modules.seed.batch_eu1 import seed_batch_eu1
 from app.modules.seed.batch_eu2 import seed_batch_eu2
+from app.modules.seed.batch_me import seed_batch_me
 from app.modules.seed.lists import seed_lists
 from app.modules.seed.questions import seed_questions
 from app.modules.seed.scoring import seed_scoring
@@ -334,6 +336,8 @@ def seed(session: Session) -> None:
     seed_batch4(session)
     seed_batch5(session)
     seed_batch6(session)
+    seed_batch7(session)
+    seed_batch_me(session)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:
