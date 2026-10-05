@@ -89,6 +89,16 @@ def _matches(x: Decimal, allowed: set[Decimal]) -> bool:
     return any(a.quantize(quantum) == x for a in allowed)
 
 
+# "No treaty between X and Y" turns a data gap into a legal claim; absence statements must say
+# the item is not recorded.
+ABSENCE = re.compile(
+    r"\b(?:no|without(?: a| any)?|lacks?(?: a| any)?|absence of(?: a| any)?)\s+(?:\w+\s+){0,2}?"
+    r"(?:treaty|treaties|substance rules?|substance requirements?|cfc rules?)\b",
+    re.IGNORECASE,
+)
+QUALIFIED = re.compile(r"\b(?:recorded|database|data)\b", re.IGNORECASE)
+
+
 def validate(
     text: str,
     payload: Any,
@@ -119,6 +129,12 @@ def validate(
     for sentence in SENTENCE.split(text):
         if "%" in sentence and not CITATION.search(sentence):
             errors.append(f"percentage without a citation: {sentence.strip()[:120]!r}")
+
+    for sentence in SENTENCE.split(body):
+        if ABSENCE.search(sentence) and not QUALIFIED.search(sentence):
+            errors.append(
+                "absence stated as fact (say 'not recorded'): " + repr(sentence.strip()[:120])
+            )
 
     for code, name in all_jurisdictions.items():
         mentioned = re.search(rf"\b{re.escape(code)}\b", body) or (

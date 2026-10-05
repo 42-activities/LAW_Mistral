@@ -32,7 +32,10 @@ class TreatyEngine:
     ) -> tuple[TreatyTerms | None, tuple[Flag, ...]]:
         treaty = self.repo.find_by_parties(source, recipient)
         if treaty is None:
-            msg = f"no treaty recorded between {source} and {recipient}"
+            msg = (
+                f"no treaty between {source} and {recipient} is recorded in the database; "
+                f"this is a data gap, not a finding that no treaty exists"
+            )
             return None, (Flag("no_treaty", msg),)
         if treaty.entry_into_force_date is None:
             return None, (

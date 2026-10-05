@@ -1,4 +1,4 @@
-"""Golden expectations for P8 batch 7 (BG, RO, GR) and the Middle East (SA, BH, OM, KW, IL)."""
+"""Golden expectations for P8 batch 7 (BG, RO, GR) and the Middle East waves 1-2."""
 
 from datetime import date
 from decimal import Decimal
@@ -108,3 +108,93 @@ def test_kuwait_fatf_grey_list_penalised(s):
 
 def test_data_quality_checks_pass(s):
     assert run_checks(s) == []
+
+
+@pytest.mark.parametrize(
+    ("src", "dst", "cat", "pct", "days", "final"),
+    [
+        ("EG", "FR", "DIVIDEND", "100", 730, "0.000"),
+        ("EG", "FR", "INTEREST", None, None, "15.000"),
+        # Egypt–UAE: entry-into-force date unverified, so the treaty is not applied.
+        ("EG", "AE", "DIVIDEND", "10", 400, "10.000"),
+        ("JO", "FR", "ROYALTY", None, None, "10.000"),  # domestic 10% below the 15% cap
+        ("FR", "JO", "DIVIDEND", "10", 400, "5.000"),
+        ("FR", "JO", "DIVIDEND", "10", 100, "15.000"),
+        ("JO", "AE", "INTEREST", None, None, "7.000"),
+        ("LB", "FR", "DIVIDEND", None, None, "0.000"),
+        ("LB", "FR", "ROYALTY", None, None, "8.500"),  # no treaty cap on royalties
+        ("LB", "AE", "ROYALTY", None, None, "5.000"),
+        ("IQ", "FR", "INTEREST", None, None, "15.000"),
+        ("TR", "FR", "DIVIDEND", "10", 400, "15.000"),
+        ("TR", "FR", "ROYALTY", None, None, "10.000"),
+        ("TR", "AE", "DIVIDEND", "30", None, "10.000"),
+        ("TR", "AE", "DIVIDEND", "5", None, "12.000"),
+    ],
+)
+def test_wave2_corridors(s, src, dst, cat, pct, days, final):
+    r = WithholdingEngine(s).compute(
+        src, dst, cat, D, None if pct is None else Decimal(pct), days
+    )
+    assert r.complete, r.flags
+    assert str(r.final_rate) == final
+
+
+def test_egypt_drops_dividend_add_back_from_29_july_2026(s):
+    calc = FlowCalculator(s)
+    flow = Flow("DIVIDEND", "FR", "EG", "FR", Decimal("100"), 24)
+    before = calc.compute(flow, D).legs[1]
+    after = calc.compute(flow, date(2026, 9, 1)).legs[1]
+    assert before.detail["participation_exemption"] == "applies"
+    assert before.tax_per_100 > after.tax_per_100 == Decimal("0")
+
+
+def test_wave2_rankings_complete(s):
+    profile = ScoringProfile(
+        parent="FR", flows=(ProfileFlow("DIVIDEND", "FR"), ProfileFlow("ROYALTY", "FR"))
+    )
+    cards = Scorer(s).rank(profile, ["EG", "JO", "TR", "LB", "IQ"], D)
+    assert all(c.complete for c in cards), [(c.jurisdiction, c.flags) for c in cards]
+    comp = {c.jurisdiction: c.factors["compliance"].score for c in cards}
+    assert comp["LB"] < comp["IQ"] < comp["EG"]  # grey + EU AML < grey < Global Forum PC
+
+
+def test_list_only_jurisdictions_rank_last_with_guardrails(s):
+    profile = ScoringProfile(parent="FR", flows=(ProfileFlow("DIVIDEND", "FR"),))
+    cards = Scorer(s).rank(profile, ["IR", "SY", "YE", "AE"], D)
+    assert cards[0].jurisdiction == "AE"
+    assert all(not c.complete for c in cards[1:])
+    iran = next(c for c in cards if c.jurisdiction == "IR")
+    assert {f.code for f in iran.guardrail_flags} == {"guardrail_fatf_black"}
+
+
+def test_turkiye_participation_needs_15pct_payer_tax(s):
+    calc = FlowCalculator(s)
+    fr = calc.compute(Flow("DIVIDEND", "FR", "TR", "FR", Decimal("100"), 24), D)
+    assert fr.legs[1].detail["participation_exemption"] == "applies"
+    ae = calc.compute(Flow("DIVIDEND", "AE", "TR", "FR", Decimal("100"), 24), D)
+    assert ae.legs[1].detail["participation_exemption"] == "not applied"
+
+
+def test_no_treaty_flag_is_a_data_gap_and_notes_zero_domestic_rate(s):
+    r = WithholdingEngine(s).compute("BH", "AT", "DIVIDEND", D, Decimal("100"), 730)
+    msg = next(f.message for f in r.flags if f.code == "no_treaty")
+    assert "recorded in the database" in msg and "not a finding" in msg
+    assert "domestic rate is already 0%" in msg
+
+
+@pytest.mark.parametrize(
+    ("src", "dst", "cat", "final", "ppt"),
+    [
+        ("QA", "CY", "DIVIDEND", "0.000", True),
+        ("QA", "CY", "ROYALTY", "5.000", True),
+        ("QA", "AT", "DIVIDEND", "0.000", False),
+        ("AT", "QA", "ROYALTY", "5.000", False),  # Austria 20% domestic, treaty cap 5%
+        ("CY", "QA", "INTEREST", "0.000", True),
+    ],
+)
+def test_qatar_cyprus_and_austria_treaties(s, src, dst, cat, final, ppt):
+    r = WithholdingEngine(s).compute(src, dst, cat, D, Decimal("100"), 730)
+    assert r.complete, r.flags
+    assert str(r.final_rate) == final
+    assert "no_treaty" not in codes(r)
+    assert ("mli_ppt" in codes(r)) is ppt

@@ -161,7 +161,9 @@ class Seeder:
             )
         self.s.flush()
 
-    def regime(self, j: Jurisdiction, start: date, src: Src, **fields: object) -> None:
+    def regime(
+        self, j: Jurisdiction, start: date, src: Src, end: date | None = None, **fields: object
+    ) -> None:
         exists = self.s.scalar(
             select(HoldingRegime.id).where(
                 HoldingRegime.jurisdiction_id == j.id, HoldingRegime.valid_period.contains(start)
@@ -171,7 +173,7 @@ class Seeder:
             self.s.add(
                 HoldingRegime(
                     jurisdiction_id=j.id, source_evidence_id=self.ev(src),
-                    valid_period=period(start), **fields,
+                    valid_period=period(start, end), **fields,
                 )
             )
             self.s.flush()

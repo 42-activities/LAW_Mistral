@@ -95,6 +95,8 @@ def test_grounded_summary_passes(seeded, cards):
         ("Vanuatu would rank higher than the United Arab Emirates [{c}].", "VU"),
         ("The UAE was removed from the FATF grey list [{c}].", "FATF"),
         ("The 2027-01-01 reform changes the 85.45 score [{c}].", "date 2027-01-01"),
+        ("Flags indicate no treaty between France and the United Arab Emirates [{c}].",
+         "absence stated as fact"),
     ],
 )
 def test_hallucination_is_caught_then_repaired(seeded, cards, bad, error):
@@ -273,3 +275,19 @@ def test_citation_lists_are_normalised_and_checked(seeded, cards):
     s = SummaryService(seeded, FakeProvider(bad, bad)).summarize(cards, org_id=None, input_ref="t")
     assert s.status == "template"
     assert any("[99999]" in e for e in _audit(seeded)[1].grounding_errors)
+
+
+@pytest.mark.parametrize(
+    ("sentence", "ok"),
+    [
+        ("Flags indicate no treaty between QA and CY.", False),
+        ("There are no substance rules for Cyprus.", False),
+        ("No treaty between QA and CY is recorded in the database.", True),
+        ("No substance-rule data is recorded for Cyprus.", True),
+        ("The treaty caps royalties.", True),
+    ],
+)
+def test_absence_claims_must_say_not_recorded(sentence, ok):
+    from app.modules.llm.grounding import ABSENCE, QUALIFIED
+
+    assert (not ABSENCE.search(sentence) or bool(QUALIFIED.search(sentence))) is ok

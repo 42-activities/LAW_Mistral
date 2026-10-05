@@ -111,6 +111,13 @@ class WithholdingEngine:
         terms, treaty_flags = self.treaty.terms(
             source, recipient, category, on_date, holding_pct, holding_days
         )
+        if terms is None and effective == ZERO:
+            treaty_flags = tuple(
+                Flag(f.code, f"{f.message}; the {source} domestic rate is already 0%, so the "
+                     f"result does not depend on a treaty", f.interpretation_required)
+                if f.code == "no_treaty" else f
+                for f in treaty_flags
+            )
         flags.extend(treaty_flags)
         cites = merge_citations(domestic.citations, *(c.citations for c in consequences))
 
@@ -145,7 +152,8 @@ class WithholdingEngine:
             flags.append(
                 Flag(
                     "refund_cash_flow",
-                    f"{effective}% withheld at payment; reduced to {final}% by refund claim",
+                    f"{source}→{recipient}: {effective}% withheld at payment under the recorded "
+                    f"procedure; reduced to {final}% by refund claim",
                 )
             )
         else:
@@ -153,8 +161,9 @@ class WithholdingEngine:
             flags.append(
                 Flag(
                     "relief_mechanism_unknown",
-                    f"treaty relief procedure not recorded; {effective}% assumed withheld at "
-                    f"payment until relief is obtained",
+                    f"{source}→{recipient}: the treaty relief procedure (at source or by "
+                    f"refund) is not recorded; up to {effective}% may be withheld at payment if "
+                    f"relief is not available at source",
                 )
             )
 

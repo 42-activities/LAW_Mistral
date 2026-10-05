@@ -11,7 +11,7 @@ from app.modules.llm.grounding import GroundingResult, normalize_citations, vali
 from app.modules.llm.models import LlmInteraction
 from app.modules.llm.provider import LlmError, LlmProvider, Message
 
-PROMPT_VERSION = "summary-v2"
+PROMPT_VERSION = "summary-v3"
 TOP_N = 3
 
 SYSTEM = """You write a short briefing for a tax professional about a holding-jurisdiction \
@@ -24,7 +24,12 @@ or add outside knowledge (no rates, dates, lists or countries that are not in th
 supporting citation ids from the JSON in square brackets, e.g. [12] or [3][18]. When you \
 restate a flag, use the citations listed with that flag.
 3. Mention points flagged "interpretation_required": true as needing professional review.
-4. Do not recommend; describe what the figures show. Plain prose, 120–220 words, no headings, \
+4. The JSON describes what is recorded in a database, not the whole law. When a flag says \
+something is not recorded (a treaty, substance rules, a procedure), say it is "not recorded" \
+— never that it does not exist, does not apply or is absent.
+5. When a flag states a condition (holding percentage, holding period, beneficial ownership), \
+keep the condition with the rate it qualifies.
+6. Do not recommend; describe what the figures show. Plain prose, 120–220 words, no headings, \
 no bullet lists, no markdown."""
 
 

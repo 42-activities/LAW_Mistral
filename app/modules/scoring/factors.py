@@ -205,7 +205,9 @@ class FactorCalculator:
             flags.append(
                 Flag(
                     "substance_not_recorded",
-                    f"no substance rules recorded for {holding}; scored as an unknown burden",
+                    f"no structured substance-rule data is recorded for {holding}; the substance "
+                    f"score treats the burden as unknown — this is not evidence that no "
+                    f"substance requirements apply",
                 )
             )
 
