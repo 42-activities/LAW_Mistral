@@ -299,7 +299,7 @@ class Seeder:
         max_rate: str | None = None, exclusive: bool = False,
         ownership_threshold: str | None = None, min_holding_days: int | None = None,
         relief: str | None = None, beneficial_owner: bool = True,
-        source: Jurisdiction | None = None,
+        source: Jurisdiction | None = None, end: date | None = None,
     ) -> None:
         repo = TreatyRepository(self.s)
         article = repo.get_article(t.id, ARTICLE_CATEGORY[category])
@@ -326,7 +326,7 @@ class Seeder:
                 beneficial_owner_required=beneficial_owner, ownership_threshold=threshold,
                 min_holding_days=min_holding_days, source_jurisdiction_id=source_id,
                 source_evidence_id=self.ev(src),
-                valid_period=period(start),
+                valid_period=period(start, end),
             )
         )
         self.s.flush()
