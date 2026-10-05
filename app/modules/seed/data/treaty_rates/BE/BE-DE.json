@@ -1,0 +1,58 @@
+{
+ "a": "BE",
+ "b": "DE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Federal Republic of Germany for the avoidance of double taxation and the regulation of certain other matters with respect to taxes on income and capital, including the trade tax and land taxes (1967, as amended by the Supplementary Agreement of 2002)",
+ "signed": "1967-04-11",
+ "entry_into_force": "1969-07-30",
+ "eif_source_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%20704/v704.pdf",
+ "eif_quote": "No. 10109 ... Agreement for the avoidance of double taxation ... Signed at Brussels on 11 April 1967 ... Registered by Belgium on 23 December 1969. ... Came into force on 30 July 1969, the fifteenth day following the exchange of the instruments of ratification, which took place at Bonn on 15 July 1969, in accordance with article 30.",
+ "source_title": "Gesetz zu dem Abkommen vom 11. April 1967 ... mit dem Königreich Belgien, BGBl. 1969 II Nr. 2 S. 17 (trilingual DE/FR/NL, BMF scan)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Belgien/1969-01-10-Belgien-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1966-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Dividenden können jedoch in dem Vertragstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 15 vom Hundert des Bruttobetrages dieser Dividenden nicht übersteigen. / (2) Toutefois, ces dividendes peuvent être imposés dans l'Etat contractant dont la société qui attribue les dividendes est un résident et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 15 p. c. du montant brut desdits dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1966-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Zinsen können jedoch in dem Vertragstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 15 vom Hundert des Betrages der Zinsen nicht übersteigen. / (2) Toutefois, ces intérêts peuvent être imposés dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 15 p. c. du montant desdits intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1966-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Les redevances provenant d'un Etat contractant et attribuées à un résident de l'autre Etat contractant ne sont imposables que dans cet autre Etat. / (1) Lizenzgebühren, die aus einem Vertragstaat stammen und an eine in dem anderen Vertragstaat ansässige Person gezahlt werden, können in dem anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; not an MLI covered tax agreement)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
+  "quote": ""
+ },
+ "notes": "IN FORCE: BMF 'Stand der Doppelbesteuerungsabkommen ... am 1. Januar 2026', section 'I. Geltende Abkommen': 'Belgien 11.04.1967/ 05.11.2002 ... 1969 17 / 2003 1615 ... 1969 1465 / 2003 1744 ... 01.01.1966 / 01.01.2004'. Section II lists 'Belgien R-A P: 24.07.2025 KR KR' = a replacement agreement only initialled (Paraphierung) on 24.07.2025, not signed; no signature found as of 2026-10-05 -> 1967 convention still applies. Effective date: Art. 30(2) - applies in Germany to WHT on income accruing to the beneficiary after 31 December 1965 ('auf die im Abzugswege erhobenen Steuern von den den Bezugsberechtigten nach dem 31. Dezember 1965 zugeflossenen Einkünften'); in Belgium to source taxes on income attributed or paid after 31.12.1965. 2002 Supplementary Agreement (in force 28.12.2003 per BGBl. 2003 II S. 1744, applies from 01.01.2004) only amended Art. 15(3) and Protocol point 11 (cross-border workers) - Arts. 10-12 unchanged. Protocol of 21.01.2010 (BGBl. 2010 II S. 1278) only replaces Art. 26 (exchange of information) and is not listed by BMF as in force. NOT MODELLED: (a) Art. 10(3): 25% German WHT while German corporation tax on distributed profits is at least 20 points lower than on retained profits, for dividends from a German Kapitalgesellschaft to a Belgian company holding >=25% of voting shares (split-rate system; obsolete since abolished in Germany). (b) Art. 11(3): interest is exempt at source when paid to an enterprise of the other State (Protocol (7): interest is paid to an enterprise when included in business profits, incl. public credit institutions, Banque Nationale de Belgique, Deutsche Bundesbank) - EXCEPT interest on bonds/other loan securities (other than commercial paper) and interest paid by a company to a company of the other State holding directly or indirectly >=25% of its voting shares (15% applies). (c) Protocol (5)/(6): historical Belgian précompte mobilier computation and exemption from complément de précompte. (d) Protocol (9): interest/royalties paid by a German company treated as dividends under German law are limited per Art. 10(2) (15%). (e) Art. 10(5)/Protocol: income of a stiller Gesellschafter and similar profit-participating income is treated as dividends. Royalties: Art. 12 grants no source-State taxing right (French and Dutch texts: 'ne sont imposables que dans cet autre Etat' / 'slechts in die andere Staat belastbaar'). Text read from page images of the BMF scan (no text layer); quotes transcribed. MLI: neither State lists this treaty (treaty map) -> no PPT. EU Parent-Subsidiary/Interest-Royalties Directives may give 0% under domestic law (not treaty).",
+ "confidence": "high",
+ "unverified": [
+  "quotes transcribed manually from scanned BGBl. images (no OCR text layer)"
+ ]
+}

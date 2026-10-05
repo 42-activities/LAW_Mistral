@@ -29,3 +29,10 @@ into the same folder: 471 treaty files in total. `curate.py` now also turns "hig
 a holding threshold" tiers (Austrian royalty pattern, KW–IT dividends) into the general rate and
 drops US–BE's certification-dependent 0% tier and PT–IL's conditional Israeli 10% tier.
 Skipped by the loader: JO–KW (no text), OM–EG (no entry-into-force date).
+
+## Gap pass
+
+BE–DE (in force 1969-07-30), CY–DE (2011-12-16) and ES–SE (1976-12-21, still in force) added;
+IE–DE entry into force (2012-11-28) and IE–GB 1998-protocol dividend start (1999-04-06) filled.
+Still unresolved: JO–KW (no official text reachable), OM–EG (entry into force unpublished),
+LU–OM (not in force per Luxembourg).

@@ -3,9 +3,9 @@
  "b": "DE",
  "treaty_name": "Agreement between Ireland and the Federal Republic of Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011, as amended 2014 and 2021)",
  "signed": "2011-03-30",
- "entry_into_force": null,
- "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
- "eif_quote": "Irland 30.03.2011/ 03.12.2014/ 19.01.2021 (Bekanntmachung der Neufassung 31.03.2025) ... 01.01.2013 01.01.2016 01.01.2022",
+ "entry_into_force": "2012-11-28",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Irland/2025-04-10-Irland-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile&v=3",
+ "eif_quote": "Bekanntmachung der Neufassung des Abkommens vom 30. März 2011 ... Vom 31. März 2025 (BGBl. 2025 II Nr. 107): \"Die Neufassung berücksichtigt: 1. das am 28. November 2012 in Kraft getretene Abkommen vom 30. März 2011 (BGBl. 2011 II S. 1042, 1043; 2013 II S. 332), 2. das am 30. Dezember 2015 in Kraft getretene Protokoll vom 3. Dezember 2014 (BGBl. 2015 II S. 1322, 1323; 2016 II S. 135) und 3. das am 30. Dezember 2021 in Kraft getretene Protokoll vom 19. Januar 2021 (BGBl. 2021 II S. 947, 948; 2022 II S. 103).\"",
  "source_title": "Ireland-Germany DTA 2011 with Protocol, Protocol of 3 December 2014 and Protocol of 19 January 2021 (revenue.ie)",
  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/g/germany-2011.pdf",
  "rates": [
@@ -61,10 +61,7 @@
   "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/g/germany-protocol-2021.pdf",
   "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
  },
- "notes": "2011 Agreement (Art. 32) effective for WHT on amounts paid on or after 1 January of the year after EIF; BMF list gives application from 01.01.2013. The 5% tier applied from 2013-01-01 without holding period under the original Art. 10(2)(a) (which excluded a 'German Real Estate Investment Trust Company'); the 2021 Protocol (applies from 01.01.2022 per BMF and Art. VII) replaced it adding a 365-day holding requirement. 2014 Protocol (applies 01.01.2016) did not change Arts. 10-12. 2011 Protocol para. 3: dividends and interest from profit-participating rights/debt claims (silent partnerships, partiarische Darlehen, Gewinnobligationen) that are deductible for the debtor may be taxed at source under domestic law without treaty limit (not modelled). Protocol para. 4: royalty article renegotiation clause if Irish s.234 patent exemption expands. MLI not applicable (neither party lists this treaty); PPT is inserted directly into the treaty.",
+ "notes": "2011 Agreement (Art. 32) effective for WHT on amounts paid on or after 1 January of the year after EIF; BMF list gives application from 01.01.2013. The 5% tier applied from 2013-01-01 without holding period under the original Art. 10(2)(a) (which excluded a 'German Real Estate Investment Trust Company'); the 2021 Protocol (applies from 01.01.2022 per BMF and Art. VII) replaced it adding a 365-day holding requirement. 2014 Protocol (applies 01.01.2016) did not change Arts. 10-12. 2011 Protocol para. 3: dividends and interest from profit-participating rights/debt claims (silent partnerships, partiarische Darlehen, Gewinnobligationen) that are deductible for the debtor may be taxed at source under domestic law without treaty limit (not modelled). Protocol para. 4: royalty article renegotiation clause if Irish s.234 patent exemption expands. MLI not applicable (neither party lists this treaty); PPT is inserted directly into the treaty. EIF dates (BGBl. 2025 II Nr. 107, official consolidation): Agreement 2012-11-28, 2014 Protocol 2015-12-30, 2021 Protocol 2021-12-30 - consistent with the application dates 01.01.2013 / 01.01.2016 / 01.01.2022 used for valid_from. Arts. 10(2)(a) (365-day, 10%), 11(1) and 12(1) re-checked against the 2025 consolidated German text: unchanged.",
  "confidence": "medium",
- "unverified": [
-  "exact entry-into-force date of the 2011 Agreement (2012, given application from 01.01.2013) not found in an official text read; left null",
-  "exact EIF date of the 2021 Protocol (2021) not verified; application date 01.01.2022 from BMF list"
- ]
+ "unverified": []
 }

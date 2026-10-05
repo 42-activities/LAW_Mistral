@@ -12,7 +12,7 @@
   {
    "category": "DIVIDEND",
    "article": "Article 11(1)(a) (as replaced by Protocol 1998)",
-   "valid_from": null,
+   "valid_from": "1999-04-06",
    "max_rate": "5",
    "exclusive": false,
    "ownership_threshold": "10",
@@ -23,7 +23,7 @@
   {
    "category": "DIVIDEND",
    "article": "Article 11(1)(b) (as replaced by Protocol 1998)",
-   "valid_from": null,
+   "valid_from": "1999-04-06",
    "max_rate": "15",
    "exclusive": false,
    "ownership_threshold": null,
@@ -61,9 +61,7 @@
   "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/u/synthesised-text-mli-ireland-uk-dtc.pdf",
   "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
  },
- "notes": "Dividend 5% tier: company controlling directly OR INDIRECTLY >=10% of voting power. Art. 11(2): dividends exempt at source where the residence-State competent authority certifies the recipient is exempt as a charity, superannuation scheme or insurer pension business (not modelled). MLI Art. 7(1) PPT replaces the former main-purpose rule in Art. 12(5) (and Art. 20(3)); effective for WHT 1 Jan 2020 (gov.uk and synthesised text). No MLI Art. 8 box in the synthesised text (Ireland notified Art. 11(1)(a) but no matching application). Interest/royalty exclusivity from the 1976 Convention (effective Ireland income tax 6 April 1976, corporation tax 1 April 1974; UK income tax 6 April 1976).",
+ "notes": "Dividend 5% tier: company controlling directly OR INDIRECTLY >=10% of voting power. Art. 11(2): dividends exempt at source where the residence-State competent authority certifies the recipient is exempt as a charity, superannuation scheme or insurer pension business (not modelled). MLI Art. 7(1) PPT replaces the former main-purpose rule in Art. 12(5) (and Art. 20(3)); effective for WHT 1 Jan 2020 (gov.uk and synthesised text). No MLI Art. 8 box in the synthesised text (Ireland notified Art. 11(1)(a) but no matching application). Interest/royalty exclusivity from the 1976 Convention (effective Ireland income tax 6 April 1976, corporation tax 1 April 1974; UK income tax 6 April 1976). 1998 PROTOCOL: entered into force 23 December 1998 (Irish Treaty Series No. 17 of 2000, gov.ie: \"Signed at London on 4 November 1998. ... Entered into force: 23 December 1998\"). Art. VII(2) of the Protocol (SI 1998/3151, legislation.gov.uk): \"This Protocol shall enter into force on the date of the receipt of the later of these notifications and shall thereupon have effect: (a) in the United Kingdom: (i) in respect of income tax and capital gains tax, for any year of assessment beginning on or after 6th April in the calendar year next following that in which the Protocol enters into force; (ii) in respect of corporation tax, for any financial year beginning on or after 1st April in the calendar year next following ...; (b) in Ireland: (i) in respect of income tax and capital gains tax, for any year of assessment beginning on or after 6th April in the calendar year next following ...; (ii) in respect of corporation tax, for any financial year beginning on or after 1st January in the calendar year next following that in which the Protocol enters into force.\" Dividend valid_from set to 1999-04-06 (income-tax year 1999/2000 in both States; Irish dividend withholding tax is an income-tax withholding). Corporation-tax effect: Ireland 1999-01-01, UK 1999-04-01. Protocol Art. 11 text re-checked on legislation.gov.uk SI 1998/3151 - rates unchanged (5% at >=10% voting power directly or indirectly; 15% otherwise).",
  "confidence": "medium",
- "unverified": [
-  "valid_from for dividend tiers unknown: 1998 Protocol entry-into-force date not found in Revenue, gov.uk or legislation.gov.uk texts (effect from 1 Jan / 6 Apr / 1 Apr of year after EIF)"
- ]
+ "unverified": []
 }

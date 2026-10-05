@@ -1,0 +1,67 @@
+{
+ "a": "ES",
+ "b": "SE",
+ "treaty_name": "Convention between Spain and Sweden for the avoidance of double taxation with respect to taxes on income and capital, with Protocol (1976)",
+ "signed": "1976-06-16",
+ "entry_into_force": "1976-12-21",
+ "eif_source_url": "https://www.hacienda.gob.es/SGT/NormativaDoctrina/tributaria/cdi/boe_suecia.pdf",
+ "eif_quote": "El presente Convenio entró en vigor el 21 de diciembre de 1976, fecha del intercambio de los Instrumentos de Ratificación, de conformidad con lo establecido en su artículo 29, párrafo 2. Lo que se hace público para conocimiento general. -Madrid, 8 de enero de 1977.",
+ "source_title": "Instrumento de Ratificación del Convenio entre España y Suecia ... firmado en Madrid el 16 de junio de 1976 (BOE 22 de enero de 1977), Ministerio de Hacienda",
+ "source_url": "https://www.hacienda.gob.es/SGT/NormativaDoctrina/tributaria/cdi/boe_suecia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) Del 10 por 100 del importe bruto de los dividendos si el beneficiario es una sociedad (excluidas las sociedades de personas) que posee directamente al menos el 50 por 100 del capital de la sociedad que paga los dividendos, siempre que esta posesión consista en acciones que se han adquirido por lo menos con un año de antelación a la fecha en que los dividendos se devenguen y abonen;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) En todos los demás casos, del 15 por 100 del importe bruto de los dividendos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, estos intereses pueden someterse a imposición en el Estado Contratante del que proceden, de acuerdo con la legislación de este Estado, pero el impuesto así exigido no puede exceder del 15 por 100 del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, estos cánones pueden someterse a imposición en el Estado contratante del que procedan y de acuerdo con la legislación de este Estado, pero el impuesto así exigido no puede exceder del 10 por 100 del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; not an MLI covered tax agreement)",
+  "source_url": "https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/CDI_Alfa.aspx",
+  "quote": ""
+ },
+ "notes": "STILL IN FORCE on 2026-10-05 (no termination found): (1) Spanish Ministerio de Hacienda list 'Convenios de Doble Imposición' (dated 26-05-2026, fetched 2026-10-05) lists 'Suecia | 22/01/77 | 01/03/80 Formularios anexos' among CDIs in force, with no denuncia footnote (footnotes exist for terminated treaties, e.g. '(1) Con efectos de 1 de enero de 2009, este CDI está denunciado por Dinamarca'). (2) Swedish SFS 1977:75 'Förordning om dubbelbeskattningsavtal mellan Sverige och Spanien' (riksdagen.se, which 'innehåller gällande lagar och förordningar') is shown as current, 'Ändrad: t.o.m. SFS 1979:838', with no 'Upphävd' (repealed) entry. No new ES-SE convention found in BOE or the Hacienda list. Effective date: Art. 29(2) - Sweden: coupon tax on dividends payable in or after the calendar year preceding EIF, other income derived in or after that year; Spain: income attributable to the calendar year preceding EIF -> 1975-01-01. Art. 10(2)/11(2)/12(2): competent authorities settle the mode of application by mutual agreement. NOT MODELLED: Art. 11(3) interest on public debt (Deuda Pública) issued by a Contracting State may be taxed in the debtor State without the 15% limit; Art. 10(5) second sentence: Spain may tax a Swedish company's Spanish PE under Decree 3357/1967 arts. 4 and 23 at a rate not exceeding 15% (branch tax). Royalties include equipment leasing and technical assistance payments (Art. 12(3)). Competent-authority agreements of 14 September 1979 on 'imputación de impuestos no pagados' (tax sparing under Art. 24(4)) and exchange of information not modelled. MLI: neither State lists the other (treaty map) -> no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "CY",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Republic of Cyprus for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2011, as amended 2021)",
+ "signed": "2011-02-18",
+ "entry_into_force": "2011-12-16",
+ "eif_source_url": "https://media.frag-den-staat.de/files/docs/32/ec/9c/32ec9cb655a14fd3bb4a43838e4acc6a/bstbl_2012_4.pdf",
+ "eif_quote": "Bekanntmachung über das Inkrafttreten des Abkommens zwischen der Bundesrepublik Deutschland und der Republik Zypern ... Vom 17. Januar 2012 ... wird bekannt gemacht, dass das Abkommen nach seinem Artikel 30 Absatz 1 am 16. Dezember 2011 in Kraft getreten ist. [BGBl. II S. 117 vom 10. Februar 2012; BStBl 2012 I S. 235]",
+ "source_title": "Gesetz zu dem Abkommen vom 18. Februar 2011 ... Zypern, BGBl. 2011 II Nr. 28 S. 1068 (DE/EN), BMF; Protocol of 19 February 2021, BGBl. 2021 II Nr. 16 S. 731 (BMF)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Zypern/2011-11-07-Zypern-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27(2) (inserted by Article 3 of the 2021 Protocol)",
+  "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Zypern/2021-08-02-Zypern-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=3",
+  "quote": "(2) Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "IN FORCE: BMF 'Stand der DBA am 1. Januar 2026', I. Geltende Abkommen: 'Zypern 18.02.2011/ 19.02.2021 ... 2011 1068 / 2021 731 ... 2012 117 / 2022 4 ... 01.01.2012 / 01.01.2022'; no termination or revision listed. Art. 30(2)(a): WHT provisions apply to amounts paid on or after 1 January of the year following EIF -> 2012-01-01; the 1974 DTA ceased to have effect for WHT on amounts paid from 2012-01-01. 2021 Protocol (signed 2021-02-19) entered into force 2021-12-08 (BGBl. 2022 II S. 4: 'dass das Protokoll nach seinem Artikel 5 Absatz 2 am 8. Dezember 2021 in Kraft getreten ist'); per its Art. 5(2)(a) it has effect for WHT on amounts paid from 2022-01-01. It replaced the preamble and Art. 7, inserted the PPT as Art. 27(2) and deleted Protocol 5.4 - Arts. 10-12 unchanged. No holding period on the 5% tier. Art. 10(3) 'dividends' includes distributions on certificates of an investment fund or investment trust. Art. 27(1): domestic anti-avoidance rules preserved. MLI: not a covered tax agreement (treaty map); PPT is bilateral.",
+ "confidence": "high",
+ "unverified": []
+}

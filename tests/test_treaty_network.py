@@ -58,6 +58,11 @@ def s(seeded_session):
         ("IT", "SA", "DIVIDEND", "30", 400, "5.000"),
         ("DK", "KW", "DIVIDEND", "100", 400, "0.000"),
         ("AT", "IT", "ROYALTY", None, None, "10.000"),  # curated Austrian >50% pattern
+        # Gap pairs
+        ("DE", "CY", "DIVIDEND", "5", 400, "15.000"),  # below the 10% directive threshold
+        ("DE", "BE", "INTEREST", None, None, "0.000"),  # German domestic: no interest WHT
+        ("ES", "SE", "ROYALTY", None, None, "10.000"),
+        ("DE", "IE", "DIVIDEND", "5", 400, "15.000"),
         # Ireland hub
         ("CH", "IE", "DIVIDEND", "10", 400, "0.000"),
         ("CH", "IE", "DIVIDEND", "5", 400, "15.000"),
