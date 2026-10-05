@@ -220,6 +220,14 @@ jobs:
 
           up() {
             export IMAGE_TAG="$1"
+            # Pin the tag in .env too, so a manual `docker compose up` on the server runs the
+            # deployed images instead of whatever stale :latest is cached locally.
+            (
+              umask 077
+              touch .env
+              { grep -v '^IMAGE_TAG=' .env || true; printf 'IMAGE_TAG=%s\n' "$IMAGE_TAG"; } > .env.tmp
+              mv .env.tmp .env
+            )
             mapfile -t svcs < <(our_services)
             # `set -e` does not apply inside functions called from `if`, so fail explicitly.
             if [ "${#svcs[@]}" -gt 0 ]; then dc pull --quiet "${svcs[@]}" || return 1; fi
