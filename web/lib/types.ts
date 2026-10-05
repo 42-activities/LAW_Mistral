@@ -99,6 +99,15 @@ export type Overview = {
     valid: Period;
     citation: number;
   }[];
+  wht_exemptions: {
+    income_category: string;
+    recipient_group: string;
+    min_holding_pct: string | null;
+    min_holding_months: number | null;
+    legal_ref: string;
+    description: string;
+    citation: number;
+  }[];
   holding_regime: {
     dividends_exempt: boolean;
     capital_gains_exempt: boolean;
@@ -133,6 +142,8 @@ export type Overview = {
       exclusive_residence_taxation: boolean;
       relief_mechanism: string | null;
       beneficial_owner_required: boolean;
+      ownership_threshold: string | null;
+      min_holding_days: number | null;
       citation: number;
     }[];
   }[];

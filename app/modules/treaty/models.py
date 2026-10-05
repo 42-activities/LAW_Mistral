@@ -1,7 +1,7 @@
 from datetime import date
 from decimal import Decimal
 
-from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String
+from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String, text
 from sqlalchemy.dialects.postgresql import DATERANGE, ExcludeConstraint, Range
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -63,9 +63,11 @@ class TreatyProtocol(Base):
 class TreatyRate(Base):
     __tablename__ = "treaty_rate"
     __table_args__ = (
+        # One row per ownership tier (NULL threshold = the general rate).
         ExcludeConstraint(
             ("treaty_id", "="),
             ("income_category_id", "="),
+            (text("coalesce(ownership_threshold, -1)"), "="),
             ("valid_period", "&&"),
             using="gist",
             name="no_overlap_treaty_rate",
@@ -90,6 +92,7 @@ class TreatyRate(Base):
     relief_mechanism: Mapped[str | None] = mapped_column(String(16), nullable=True)
     beneficial_owner_required: Mapped[bool] = mapped_column(Boolean, default=False)
     ownership_threshold: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    min_holding_days: Mapped[int | None] = mapped_column(Integer, nullable=True)
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
 

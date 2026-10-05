@@ -113,8 +113,8 @@ def test_browse_jurisdiction(seeded):
     assert [b["rate"] for b in cit["brackets"]] == ["0.000", "9.000"]
     assert body["holding_regime"]["min_subject_to_tax_rate"] == "9.000"
     assert {item["list_code"] for item in body["lists"]} == {"EU_AML_HIGH_RISK"}
-    (treaty,) = body["treaties"]
-    assert treaty["counterparties"] == ["FR"] and treaty["in_force"]
+    treaty = next(t for t in body["treaties"] if t["counterparties"] == ["FR"])
+    assert treaty["in_force"]
     assert {r["income_category"] for r in treaty["rates"]} == {"DIVIDEND", "INTEREST", "ROYALTY"}
 
 

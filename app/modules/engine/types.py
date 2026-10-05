@@ -25,6 +25,8 @@ class SourcedRate:
     rate: Decimal
     citations: tuple[int, ...]
     rule: str
+    flags: tuple["Flag", ...] = ()
+    statutory_rate: Decimal | None = None  # set when an exemption replaced the statutory rate
 
 
 @dataclass(frozen=True)

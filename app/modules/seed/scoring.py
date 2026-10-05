@@ -29,7 +29,12 @@ def seed_scoring(session: Session) -> None:
         session.flush()
 
     fr = JurisdictionRepository(session).get_by_code("FR")
-    if fr is None or AntiAbuseRepository(session).cfc_rule("FR", FR_CFC_FROM) is not None:
+    if fr is None:
+        return
+    existing = AntiAbuseRepository(session).cfc_rule("FR", FR_CFC_FROM)
+    if existing is not None:
+        existing.threshold_inclusive = True  # CGI 238 A: "inférieur de 40 % ou plus"
+        session.flush()
         return
     ev = upsert_source(
         session,
@@ -52,6 +57,7 @@ def seed_scoring(session: Session) -> None:
             jurisdiction_id=fr.id,
             control_threshold_pct=Decimal("50"),
             low_tax_relative_pct=Decimal("60"),
+            threshold_inclusive=True,
             effect="Profits of a >50%-held entity under a privileged tax regime are taxed in "
             "France (CGI 209 B I); safe harbour for genuine activity (209 B III) needs review.",
             legal_ref="CGI art. 209 B / 238 A",

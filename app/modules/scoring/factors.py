@@ -207,7 +207,8 @@ class FactorCalculator:
                     )
                 else:
                     limit = u_cit * cfc.low_tax_relative_pct / HUNDRED
-                    if h_cit < limit:
+                    caught = h_cit <= limit if cfc.threshold_inclusive else h_cit < limit
+                    if caught:
                         score -= CFC_PENALTY
                         cites.append(cfc.source_evidence_id)
                         detail["cfc"] = f"{holding} CIT {h_cit}% < {q2(limit)}% ({cfc.legal_ref})"

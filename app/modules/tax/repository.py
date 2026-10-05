@@ -2,11 +2,22 @@ from datetime import date
 from decimal import Decimal
 
 from sqlalchemy import select
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, aliased
 
 from app.modules.core.models import Jurisdiction
-from app.modules.core.reference import IncomeCategory, TaxType
-from app.modules.tax.models import CfcRule, DomesticTaxRule, HoldingRegime, SubstanceRule
+from app.modules.core.reference import (
+    IncomeCategory,
+    JurisdictionGroup,
+    JurisdictionGroupMember,
+    TaxType,
+)
+from app.modules.tax.models import (
+    CfcRule,
+    DomesticTaxRule,
+    HoldingRegime,
+    SubstanceRule,
+    WhtExemption,
+)
 
 
 class TaxRuleRepository:
@@ -90,3 +101,50 @@ class AntiAbuseRepository:
             .order_by(SubstanceRule.regime)
         )
         return list(self.session.scalars(stmt))
+
+
+class WhtExemptionRepository:
+    def __init__(self, session: Session) -> None:
+        self.session = session
+
+    def applicable(
+        self, jurisdiction_code: str, category_code: str, recipient_code: str, on_date: date
+    ) -> list[tuple[WhtExemption, JurisdictionGroup, JurisdictionGroupMember]]:
+        """Exemptions of `jurisdiction` for `category` whose recipient group contains
+        `recipient` on the date (conditions on holding are checked by the engine)."""
+        source = aliased(Jurisdiction)
+        target = aliased(Jurisdiction)
+        stmt = (
+            select(WhtExemption, JurisdictionGroup, JurisdictionGroupMember)
+            .join(source, WhtExemption.jurisdiction_id == source.id)
+            .join(IncomeCategory, WhtExemption.income_category_id == IncomeCategory.id)
+            .join(JurisdictionGroup, WhtExemption.recipient_group_id == JurisdictionGroup.id)
+            .join(
+                JurisdictionGroupMember,
+                JurisdictionGroupMember.group_id == JurisdictionGroup.id,
+            )
+            .join(target, JurisdictionGroupMember.jurisdiction_id == target.id)
+            .where(
+                source.code == jurisdiction_code,
+                IncomeCategory.code == category_code,
+                target.code == recipient_code,
+                WhtExemption.valid_period.contains(on_date),
+                JurisdictionGroupMember.valid_period.contains(on_date),
+            )
+            .order_by(WhtExemption.id)
+        )
+        return [(e, g, m) for e, g, m in self.session.execute(stmt)]
+
+
+def in_group(session: Session, jurisdiction_code: str, group_code: str, on_date: date) -> bool:
+    stmt = (
+        select(JurisdictionGroupMember.id)
+        .join(JurisdictionGroup, JurisdictionGroupMember.group_id == JurisdictionGroup.id)
+        .join(Jurisdiction, JurisdictionGroupMember.jurisdiction_id == Jurisdiction.id)
+        .where(
+            JurisdictionGroup.code == group_code,
+            Jurisdiction.code == jurisdiction_code,
+            JurisdictionGroupMember.valid_period.contains(on_date),
+        )
+    )
+    return session.scalar(stmt) is not None

@@ -105,6 +105,8 @@ class CfcRule(Base):
     control_threshold_pct: Mapped[Decimal] = mapped_column(Numeric(6, 3))
     # The foreign entity is low-taxed when its tax < this % of the parent-state tax.
     low_tax_relative_pct: Mapped[Decimal] = mapped_column(Numeric(6, 3))
+    # True when a tax exactly at the threshold is already low-taxed ("40% or more lower").
+    threshold_inclusive: Mapped[bool] = mapped_column(Boolean, default=False)
     effect: Mapped[str] = mapped_column(String(500))
     legal_ref: Mapped[str] = mapped_column(String(120))
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
@@ -132,5 +134,33 @@ class SubstanceRule(Base):
     regime: Mapped[str] = mapped_column(String(48))
     requirement_band: Mapped[str] = mapped_column(String(8))
     activity_scope: Mapped[str | None] = mapped_column(String(200), nullable=True)
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class WhtExemption(Base):
+    """Domestic withholding exemption for recipients in a group (e.g. EU directive reliefs)."""
+
+    __tablename__ = "wht_exemption"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("income_category_id", "="),
+            ("recipient_group_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_wht_exemption",
+        ),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    income_category_id: Mapped[int] = mapped_column(ForeignKey("core.income_category.id"))
+    recipient_group_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction_group.id"))
+    min_holding_pct: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    min_holding_months: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    legal_ref: Mapped[str] = mapped_column(String(120))
+    description: Mapped[str] = mapped_column(String(500))
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)

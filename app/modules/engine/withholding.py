@@ -68,7 +68,15 @@ class WithholdingEngine:
                 flags=(Flag("domestic_payment", "payer and recipient in the same jurisdiction"),)
             )
 
-        domestic = self.tax.domestic_wht(source, category, on_date, recipient_type)
+        domestic = self.tax.domestic_wht(
+            source,
+            category,
+            on_date,
+            recipient_type,
+            recipient=recipient,
+            holding_pct=holding_pct,
+            holding_months=None if holding_days is None else holding_days * 12 // 365,
+        )
         if domestic is None:
             return result(
                 flags=(
@@ -79,10 +87,12 @@ class WithholdingEngine:
                 )
             )
 
-        flags: list[Flag] = []
+        flags: list[Flag] = list(domestic.flags)
+        # The statutory rate is reported as `domestic_rate`; an exemption lowers `effective`.
+        statutory = domestic.rate if domestic.statutory_rate is None else domestic.statutory_rate
         effective = domestic.rate
         consequences = self.risk.applied_consequences(
-            source, recipient, on_date, consequence_type="withholding_tax"
+            source, recipient, on_date, consequence_type="withholding_tax", category=category
         )
         rated = [c for c in consequences if c.rate is not None]
         if rated:
@@ -94,7 +104,7 @@ class WithholdingEngine:
                 Flag(
                     "consequence_applied",
                     f"{recipient} on {top.list_code} ({top.classification}): {source} applies "
-                    f"{top.rate}% under {top.legal_ref} instead of {domestic.rate}%",
+                    f"{top.rate}% under {top.legal_ref} instead of {effective}%",
                 )
             )
 
@@ -106,7 +116,7 @@ class WithholdingEngine:
 
         if terms is None:
             return result(
-                domestic_rate=domestic.rate,
+                domestic_rate=statutory,
                 effective_domestic_rate=effective,
                 withheld_at_payment=effective,
                 final_rate=effective,
@@ -149,7 +159,7 @@ class WithholdingEngine:
             )
 
         return result(
-            domestic_rate=domestic.rate,
+            domestic_rate=statutory,
             effective_domestic_rate=effective,
             treaty_cap=terms.cap,
             withheld_at_payment=withheld,

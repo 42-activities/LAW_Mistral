@@ -94,7 +94,13 @@ def render(r: WhtResult, names: dict[str, str]) -> str:
         f"the {s} domestic rate is {r.domestic_rate}%."
     ]
     if r.effective_domestic_rate != r.domestic_rate:
-        parts.append(f"A list-triggered rate of {r.effective_domestic_rate}% applies instead.")
+        exempt = next((f for f in r.flags if f.code == "directive_exemption"), None)
+        if exempt is not None:
+            parts.append(
+                f"An exemption reduces it to {r.effective_domestic_rate}%: {exempt.message}."
+            )
+        else:
+            parts.append(f"A list-triggered rate of {r.effective_domestic_rate}% applies instead.")
     if r.treaty_cap is not None:
         parts.append(f"Under {r.treaty_name} the cap is {r.treaty_cap}%.")
     parts.append(

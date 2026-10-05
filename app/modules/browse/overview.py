@@ -8,11 +8,11 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
-from app.modules.core.reference import IncomeCategory, TaxType
+from app.modules.core.reference import IncomeCategory, JurisdictionGroup, TaxType
 from app.modules.engine.risk import RiskEngine
 from app.modules.risk.models import ListDefinition, ListMembership
 from app.modules.source.models import SourceDocument, SourceEvidence
-from app.modules.tax.models import DomesticTaxRule
+from app.modules.tax.models import DomesticTaxRule, WhtExemption
 from app.modules.tax.repository import AntiAbuseRepository, HoldingRegimeRepository
 from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyRate
 
@@ -58,6 +58,7 @@ class BrowseService:
             "name": j.name,
             "on_date": on.isoformat(),
             "domestic_rules": self._rules(j.id, on),
+            "wht_exemptions": self._exemptions(j.id, on),
             "holding_regime": self._regime(code, on),
             "cfc_rule": self._cfc(code, on),
             "substance_rules": [
@@ -114,6 +115,30 @@ class BrowseService:
             )
         return out
 
+    def _exemptions(self, jurisdiction_id: int, on: date) -> list[dict[str, Any]]:
+        stmt = (
+            select(WhtExemption, IncomeCategory.code, JurisdictionGroup.code)
+            .join(IncomeCategory, WhtExemption.income_category_id == IncomeCategory.id)
+            .join(JurisdictionGroup, WhtExemption.recipient_group_id == JurisdictionGroup.id)
+            .where(
+                WhtExemption.jurisdiction_id == jurisdiction_id,
+                WhtExemption.valid_period.contains(on),
+            )
+            .order_by(IncomeCategory.code)
+        )
+        return [
+            {
+                "income_category": category,
+                "recipient_group": group,
+                "min_holding_pct": _d(e.min_holding_pct),
+                "min_holding_months": e.min_holding_months,
+                "legal_ref": e.legal_ref,
+                "description": e.description,
+                "citation": e.source_evidence_id,
+            }
+            for e, category, group in self.session.execute(stmt)
+        ]
+
     def _regime(self, code: str, on: date) -> dict[str, Any] | None:
         r = HoldingRegimeRepository(self.session).get(code, on)
         if r is None:
@@ -160,7 +185,7 @@ class BrowseService:
                 .join(IncomeCategory, TreatyRate.income_category_id == IncomeCategory.id)
                 .join(TreatyArticle, TreatyRate.treaty_article_id == TreatyArticle.id)
                 .where(TreatyRate.treaty_id == t.id, TreatyRate.valid_period.contains(on))
-                .order_by(IncomeCategory.code)
+                .order_by(IncomeCategory.code, TreatyRate.ownership_threshold.nulls_first())
             )
             out.append(
                 {
@@ -182,6 +207,7 @@ class BrowseService:
                             "relief_mechanism": r.relief_mechanism,
                             "beneficial_owner_required": r.beneficial_owner_required,
                             "ownership_threshold": _d(r.ownership_threshold),
+                            "min_holding_days": r.min_holding_days,
                             "citation": r.source_evidence_id,
                         }
                         for r, category, article in rates

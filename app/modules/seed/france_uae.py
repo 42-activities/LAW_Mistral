@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.modules.core.models import Jurisdiction
 from app.modules.core.reference_repo import ReferenceRepository
 from app.modules.core.repository import JurisdictionRepository
+from app.modules.seed.batch_eu1 import seed_batch_eu1
 from app.modules.seed.lists import seed_lists
 from app.modules.seed.questions import seed_questions
 from app.modules.seed.scoring import seed_scoring
@@ -322,6 +323,7 @@ def seed(session: Session) -> None:
     seed_engine_data(session, treaty, article)
     seed_scoring(session)
     seed_questions(session)
+    seed_batch_eu1(session)
 
 
 def _protocols(session: Session, treaty_id: int) -> list[TreatyProtocol]:

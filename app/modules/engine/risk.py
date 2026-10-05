@@ -2,6 +2,7 @@ from datetime import date
 
 from sqlalchemy.orm import Session
 
+from app.modules.core.reference_repo import ReferenceRepository
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.engine.types import AppliedConsequence, ListHit, RiskProfile
 from app.modules.risk.models import ListDefinition
@@ -16,6 +17,10 @@ class RiskEngine:
         self.lists = ListRepository(session)
         self.consequences = ConsequenceRepository(session)
         self.jurisdictions = JurisdictionRepository(session)
+
+    def _category_id(self, code: str) -> int | None:
+        row = ReferenceRepository(self.session).income_category(code)
+        return row.id if row else None
 
     def profile(self, jurisdiction: str, on_date: date) -> RiskProfile:
         hits = []
@@ -34,6 +39,7 @@ class RiskEngine:
         target: str,
         on_date: date,
         consequence_type: str | None = None,
+        category: str | None = None,
     ) -> tuple[AppliedConsequence, ...]:
         """Consequences `applying` imposes because `target` is listed on `on_date`."""
         applier = self.jurisdictions.get_by_code(applying)
@@ -45,6 +51,12 @@ class RiskEngine:
                 if c.applying_jurisdiction_id != applier.id:
                     continue
                 if consequence_type is not None and c.consequence_type != consequence_type:
+                    continue
+                if (
+                    category is not None
+                    and c.income_category_id is not None
+                    and c.income_category_id != self._category_id(category)
+                ):
                     continue
                 out.append(
                     AppliedConsequence(
