@@ -6,13 +6,14 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.db import get_session
-from app.deps import get_llm_provider, require_api_key
+from app.deps import get_llm_provider, get_principal
 from app.main import create_app
 from app.modules.llm.ask import AskError, parse_intent
 from app.modules.llm.models import LlmInteraction
 from app.modules.llm.provider import Completion, LlmError, Message, MistralProvider
 from app.modules.llm.summary import SummaryService
 from app.modules.saas.models import OrganisationAccount
+from app.modules.saas.service import Principal
 from app.modules.scoring.repository import card_to_dict
 from app.modules.scoring.scorer import Scorer
 from app.modules.scoring.types import ProfileFlow, ScoringProfile
@@ -165,7 +166,7 @@ def _client(session, provider) -> TestClient:
         yield session
 
     app.dependency_overrides[get_session] = _override
-    app.dependency_overrides[require_api_key] = lambda: org.id
+    app.dependency_overrides[get_principal] = lambda: Principal(org_id=org.id, role="admin")
     app.dependency_overrides[get_llm_provider] = lambda: provider
     return TestClient(app)
 

@@ -7,9 +7,16 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.analyze import WhtOut
 from app.db import get_session
-from app.deps import get_llm_provider, require_api_key
+from app.deps import get_llm_provider, require_analyst
 from app.modules.llm.ask import AskError, AskService
 from app.modules.llm.provider import LlmProvider
+from app.modules.saas.service import (
+    LimitExceeded,
+    Principal,
+    enforce_analysis_limit,
+    llm_allowed,
+    meter,
+)
 
 router = APIRouter(prefix="/v1", tags=["ask"])
 
@@ -22,19 +29,26 @@ class AskIn(BaseModel):
 @router.post("/ask")
 def ask(
     body: AskIn,
-    org_id: int = Depends(require_api_key),
+    principal: Principal = Depends(require_analyst),
     session: Session = Depends(get_session),
     provider: LlmProvider | None = Depends(get_llm_provider),
 ) -> dict[str, Any]:
     if provider is None:
         raise HTTPException(status_code=503, detail="natural-language questions are not enabled")
+    enforce_analysis_limit(session, principal)
+    if not llm_allowed(session, principal.org_id):
+        raise LimitExceeded("daily AI call limit reached for your plan", 3600)
+    service = AskService(session, provider)
     try:
-        intent, result, answer = AskService(session, provider).ask(
-            body.question, org_id=org_id, default_date=body.on_date or date.today()
+        intent, result, answer = service.ask(
+            body.question, org_id=principal.org_id, default_date=body.on_date or date.today()
         )
     except AskError as exc:
-        session.commit()  # keep the audit row
+        meter(session, principal, "llm_call", units=service.tokens, ref="ask")
+        session.commit()  # keep the audit row and the metered call
         raise HTTPException(status_code=422, detail=str(exc)) from exc
+    meter(session, principal, "ask", ref="ask")
+    meter(session, principal, "llm_call", units=service.tokens, ref="ask")
     session.commit()
     return {
         "query": {

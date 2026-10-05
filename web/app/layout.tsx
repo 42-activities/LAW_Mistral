@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import { currentUser } from "@/lib/session";
+import { logout } from "./login/actions";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -21,7 +23,8 @@ const NAV = [
   { href: "/docs", label: "API" },
 ];
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const me = await currentUser().catch(() => null);
   return (
     <html lang="en" className={inter.variable}>
       <body className="min-h-screen flex flex-col font-sans antialiased">
@@ -42,6 +45,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               ))}
             </nav>
+            <div className="ml-auto flex items-center gap-2 text-sm whitespace-nowrap">
+              {me ? (
+                <>
+                  <Link href="/account" className="hidden sm:inline text-muted hover:text-fg">
+                    {me.user?.name || me.user?.email}
+                  </Link>
+                  <form action={logout}>
+                    <button className="rounded-md px-2.5 py-1.5 text-muted hover:text-fg hover:bg-bg">Sign out</button>
+                  </form>
+                </>
+              ) : (
+                <Link href="/login" className="rounded-md border border-line px-3 py-1.5 hover:bg-bg">
+                  Sign in
+                </Link>
+              )}
+            </div>
           </div>
         </header>
         <main className="flex-1 mx-auto w-full max-w-6xl px-4 py-8">{children}</main>

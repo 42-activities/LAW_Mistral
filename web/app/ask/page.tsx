@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { requireUser } from "@/lib/session";
 import { AskForm } from "./form";
 
 export const metadata: Metadata = { title: "Ask" };
 
-export default function AskPage() {
+export default async function AskPage() {
+  await requireUser("/ask");
   return (
     <div className="max-w-3xl">
       <h1 className="text-3xl font-semibold tracking-tight">Ask a withholding question</h1>
