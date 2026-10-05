@@ -45,3 +45,16 @@ All endpoints take an `X-API-Key` header. Rates are percentages; every result li
   counterparty-ETNC jurisdictions; every run is stored in `recommender.scoring_run`.
 
 Seed the France–UAE golden data with `docker compose exec app python -m app.cli seed-france-uae`.
+
+## Accounts (P7)
+
+People sign in at `/login`; machines use `X-API-Key`. Roles: viewer (read), analyst (run
+analyses and questions), admin (users, keys, usage, audit — on `/account`). Create the first
+admin on the server:
+
+```bash
+docker compose exec app python -m app.cli create-user --org "<organisation>" --email <email> --role admin
+```
+
+The website's own key (`WEB_API_KEY`) should be a **viewer** key: it serves the public data pages.
+Rate limits and quotas come from `saas.plan` (default `standard`).

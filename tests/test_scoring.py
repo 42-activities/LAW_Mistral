@@ -6,13 +6,14 @@ from fastapi.testclient import TestClient
 from sqlalchemy.dialects.postgresql import Range
 
 from app.db import get_session
-from app.deps import require_api_key
+from app.deps import get_principal
 from app.main import create_app
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.recommender.models import Scorecard, ScoringRun
 from app.modules.risk.models import ListMembership
 from app.modules.risk.repository import ListDefinitionRepository
 from app.modules.saas.models import OrganisationAccount
+from app.modules.saas.service import Principal
 from app.modules.scoring.repository import card_to_dict
 from app.modules.scoring.scorer import Scorer, normalise_weights
 from app.modules.scoring.types import ProfileFlow, ScoringProfile
@@ -158,7 +159,7 @@ def _client(session) -> TestClient:
         yield session
 
     app.dependency_overrides[get_session] = _override
-    app.dependency_overrides[require_api_key] = lambda: org.id
+    app.dependency_overrides[get_principal] = lambda: Principal(org_id=org.id, role="admin")
     return TestClient(app)
 
 

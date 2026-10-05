@@ -107,6 +107,7 @@ class AskService:
     def __init__(self, session: Session, provider: LlmProvider) -> None:
         self.session = session
         self.provider = provider
+        self.tokens = 0  # tokens of the last model call, for metering
 
     def ask(
         self, question: str, *, org_id: int | None, default_date: date
@@ -116,6 +117,7 @@ class AskService:
         messages = [Message("system", SYSTEM + listing), Message("user", question)]
         try:
             out = self.provider.complete(messages, json_mode=True)
+            self.tokens = (out.prompt_tokens or 0) + (out.completion_tokens or 0)
         except LlmError as exc:
             self._audit(org_id, None, "error", [str(exc)], None)
             raise AskError("the language model is unavailable") from exc

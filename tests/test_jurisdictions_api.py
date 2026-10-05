@@ -1,9 +1,10 @@
 from fastapi.testclient import TestClient
 
 from app.db import get_session
-from app.deps import require_api_key
+from app.deps import get_principal
 from app.main import create_app
 from app.modules.core.models import Jurisdiction
+from app.modules.saas.service import Principal
 
 
 def _client_with_session(db_session) -> TestClient:
@@ -13,7 +14,7 @@ def _client_with_session(db_session) -> TestClient:
         yield db_session
 
     app.dependency_overrides[get_session] = _override
-    app.dependency_overrides[require_api_key] = lambda: 1
+    app.dependency_overrides[get_principal] = lambda: Principal(org_id=1, role="admin")
     return TestClient(app)
 
 

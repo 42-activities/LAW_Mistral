@@ -35,6 +35,7 @@ class Summary:
     model: str | None
     citations: tuple[int, ...]
     note: str | None = None
+    llm_tokens: tuple[int, ...] = ()  # one entry per model call, for metering
 
 
 def build_payload(cards: list[dict[str, Any]], names: dict[str, str]) -> dict[str, Any]:
@@ -152,10 +153,13 @@ class SummaryService:
             Message("system", SYSTEM),
             Message("user", json.dumps(payload, ensure_ascii=False)),
         ]
+        tokens: list[int] = []
         for attempt in (1, 2):
             try:
                 out = self.provider.complete(messages)
+                tokens.append((out.prompt_tokens or 0) + (out.completion_tokens or 0))
             except LlmError as exc:
+                tokens.append(0)
                 self._audit(org_id, input_ref, attempt, None, "error", [str(exc)], [], None)
                 break
             result = check(out.text)
@@ -169,7 +173,7 @@ class SummaryService:
             )
             if result.ok:
                 text = normalize_citations(out.text).strip()
-                return Summary(text, status, out.model, result.citations)
+                return Summary(text, status, out.model, result.citations, None, tuple(tokens))
             messages += [
                 Message("assistant", out.text),
                 Message(
@@ -181,7 +185,7 @@ class SummaryService:
                 ),
             ]
         return Summary(template_summary(payload), "template", None, tuple(sorted(cites)),
-                       "AI narration rejected by the grounding validator")
+                       "AI narration rejected by the grounding validator", tuple(tokens))
 
     def _audit(
         self,

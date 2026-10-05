@@ -3,15 +3,17 @@ from typing import Any
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.db import get_session
-from app.deps import require_api_key
+from app.deps import require_analyst, require_api_key
 from app.errors import NotFoundError
 from app.modules.browse.overview import BrowseService
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.recommender.builder import InvalidAnswers, build_profile, questions
 from app.modules.recommender.models import Profile
+from app.modules.saas.service import Principal
 
 router = APIRouter(prefix="/v1", tags=["product"])
 
@@ -47,12 +49,28 @@ def _profile_out(p: Profile) -> dict[str, Any]:
     return {"id": p.id, "answers": p.answers, "derived": p.derived}
 
 
+@router.get("/profiles")
+def list_profiles(
+    limit: int = 50,
+    org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> list[dict[str, Any]]:
+    rows = session.scalars(
+        select(Profile)
+        .where(Profile.org_id == org_id)
+        .order_by(Profile.id.desc())
+        .limit(min(max(limit, 1), 200))
+    )
+    return [{**_profile_out(p), "created_at": p.created_at.isoformat()} for p in rows]
+
+
 @router.post("/profiles", status_code=201)
 def create_profile(
     body: ProfileIn,
-    org_id: int = Depends(require_api_key),
+    principal: Principal = Depends(require_analyst),
     session: Session = Depends(get_session),
 ) -> dict[str, Any]:
+    org_id = principal.org_id
     try:
         answers, profile = build_profile(session, body.answers)
     except InvalidAnswers as exc:

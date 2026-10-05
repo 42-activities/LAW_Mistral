@@ -12,6 +12,7 @@ import {
   type Recommendation,
   type ScoreCard,
 } from "@/lib/types";
+import { requireUser } from "@/lib/session";
 import { Reweight } from "./reweight";
 
 export const metadata: Metadata = { title: "Recommendation" };
@@ -40,6 +41,7 @@ function one(v: string | string[] | undefined) {
 
 export default async function RecommendationPage({ params, searchParams }: Props) {
   const { id } = await params;
+  await requireUser(`/analyze/${id}`);
   const sp = await searchParams;
   const onDate = one(sp.on) || today();
   const custom = WEIGHT_PARAMS.filter(([p]) => one(sp[p]) !== undefined);

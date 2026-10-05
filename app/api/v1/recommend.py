@@ -1,3 +1,4 @@
+from dataclasses import replace
 from datetime import date
 from decimal import Decimal
 from typing import Any, Literal
@@ -8,11 +9,12 @@ from sqlalchemy.orm import Session
 
 from app.api.v1.product import load_profile
 from app.db import get_session
-from app.deps import get_llm_provider, require_api_key
+from app.deps import get_llm_provider, require_analyst
 from app.errors import NotFoundError
 from app.modules.core.repository import JurisdictionRepository
 from app.modules.llm.provider import LlmProvider
 from app.modules.llm.summary import SummaryService
+from app.modules.saas.service import Principal, enforce_analysis_limit, llm_allowed, meter
 from app.modules.scoring.repository import (
     ScoringRunRepository,
     WeightSetRepository,
@@ -74,10 +76,12 @@ class RecommendationIn(BaseModel):
 @router.post("/holding-recommendation")
 def holding_recommendation(
     body: RecommendationIn,
-    org_id: int = Depends(require_api_key),
+    principal: Principal = Depends(require_analyst),
     session: Session = Depends(get_session),
     provider: LlmProvider | None = Depends(get_llm_provider),
 ) -> dict[str, Any]:
+    org_id = principal.org_id
+    enforce_analysis_limit(session, principal)
     jurisdictions = JurisdictionRepository(session)
     if (body.profile is None) == (body.profile_id is None):
         raise HTTPException(status_code=422, detail="give exactly one of profile or profile_id")
@@ -127,10 +131,16 @@ def holding_recommendation(
         "data_asof": body.on_date.isoformat(),
         "scorecards": card_dicts,
     }
+    meter(session, principal, "analysis", ref=f"scoring_run:{run.id}")
     if body.summarize:
-        summary = SummaryService(session, provider).summarize(
+        llm = provider if provider is not None and llm_allowed(session, org_id) else None
+        summary = SummaryService(session, llm).summarize(
             card_dicts, org_id=org_id, input_ref=f"scoring_run:{run.id}"
         )
+        for units in summary.llm_tokens:
+            meter(session, principal, "llm_call", units=units, ref=f"scoring_run:{run.id}")
+        if provider is not None and llm is None:
+            summary = replace(summary, note="daily AI summary limit reached for your plan")
         out["summary"] = {
             "text": summary.text,
             "status": summary.status,

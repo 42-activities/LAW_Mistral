@@ -2,10 +2,11 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.db import get_session
-from app.deps import require_api_key
+from app.deps import get_principal
 from app.main import create_app
 from app.modules.recommender.builder import InvalidAnswers, build_profile
 from app.modules.saas.models import OrganisationAccount
+from app.modules.saas.service import Principal
 from app.modules.seed.france_uae import seed
 
 ANSWERS = {
@@ -34,7 +35,7 @@ def _client(session, org_name="org a") -> TestClient:
         yield session
 
     app.dependency_overrides[get_session] = _override
-    app.dependency_overrides[require_api_key] = lambda: org.id
+    app.dependency_overrides[get_principal] = lambda: Principal(org_id=org.id, role="admin")
     return TestClient(app)
 
 
