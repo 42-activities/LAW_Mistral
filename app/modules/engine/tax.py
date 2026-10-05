@@ -3,6 +3,7 @@ from decimal import Decimal
 
 from sqlalchemy.orm import Session
 
+from app.modules.core.reference import JurisdictionGroup
 from app.modules.engine.types import (
     HUNDRED,
     ZERO,
@@ -17,6 +18,7 @@ from app.modules.tax.repository import (
     HoldingRegimeRepository,
     TaxRuleRepository,
     WhtExemptionRepository,
+    in_group,
 )
 
 WHT_TAX_TYPE = {
@@ -31,6 +33,7 @@ class TaxEngine:
     """Domestic law only: WHT rates, CIT and participation exemptions."""
 
     def __init__(self, session: Session) -> None:
+        self.session = session
         self.rules = TaxRuleRepository(session)
         self.regimes = HoldingRegimeRepository(session)
         self.exemptions = WhtExemptionRepository(session)
@@ -207,6 +210,7 @@ class TaxEngine:
         holding_pct: Decimal | None,
         holding_months: int | None,
         payer_cit_rate: Decimal | None,
+        payer: str | None = None,
     ) -> ExemptionResult:
         if category not in PARTICIPATION_INCOME:
             reason = f"{category} is not participation income"
@@ -237,6 +241,11 @@ class TaxEngine:
 
         reasons: list[str] = []
         flags: list[Flag] = []
+        if regime.payer_group_id is not None:
+            group = self.session.get(JurisdictionGroup, regime.payer_group_id)
+            assert group is not None  # FK-enforced
+            if payer is None or not in_group(self.session, payer, group.code, on_date):
+                reasons.append(f"payer {payer or 'unknown'} is not in {group.code}")
         if regime.min_holding_pct is not None:
             if holding_pct is None:
                 reasons.append("holding % not given")

@@ -81,6 +81,10 @@ class HoldingRegime(Base):
     )
     # Minimum CIT rate the payer must be subject to (UAE: 9). NULL = no rate floor recorded.
     min_subject_to_tax_rate: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    # When set, only dividends from payers resident in this group qualify (Poland: EU/EEA).
+    payer_group_id: Mapped[int | None] = mapped_column(
+        ForeignKey("core.jurisdiction_group.id"), nullable=True
+    )
     notes: Mapped[str | None] = mapped_column(String(500), nullable=True)
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)

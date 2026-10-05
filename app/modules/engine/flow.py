@@ -108,7 +108,7 @@ class FlowCalculator:
         if cat in PARTICIPATION_INCOME:
             payer_cit = self.tax.cit(s, on_date).rate
             ex = self.tax.participation_exemption(
-                h, cat, on_date, flow.holding_pct, flow.holding_months, payer_cit
+                h, cat, on_date, flow.holding_pct, flow.holding_months, payer_cit, payer=s
             )
             cites = merge_citations(cites, ex.citations)
             leg2_flags.extend(ex.flags)
