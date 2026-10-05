@@ -21,6 +21,7 @@ from app.modules.risk.repository import ListDefinitionRepository, ListRepository
 from app.modules.seed.sources import upsert_source
 from app.modules.tax.models import (
     CfcRule,
+    CitRefund,
     DomesticTaxRule,
     HoldingRegime,
     TaxBracket,
@@ -137,8 +138,10 @@ class Seeder:
         rate: str | None = None,
         brackets: list[tuple[str, str | None, str]] | None = None,
         end: date | None = None,
+        category: str = "CORPORATE_PROFIT",
     ) -> None:
-        tt, ic = self._id("tax", "CIT"), self._id("cat", "CORPORATE_PROFIT")
+        """General CIT, or CIT for one income category (e.g. passive royalties)."""
+        tt, ic = self._id("tax", "CIT"), self._id("cat", category)
         if self._rule_exists(j.id, tt, ic, "company", start):
             return
         rule = DomesticTaxRule(
@@ -214,14 +217,18 @@ class Seeder:
     def exemption(
         self, j: Jurisdiction, category: str, g: JurisdictionGroup, start: date, src: Src, *,
         min_holding_pct: str | None, min_holding_months: int | None, legal_ref: str,
-        description: str,
+        description: str, reduced_rate: str | None = None,
     ) -> None:
         ic = self._id("cat", category)
+        threshold = None if min_holding_pct is None else Decimal(min_holding_pct)
         exists = self.s.scalar(
             select(WhtExemption.id).where(
                 WhtExemption.jurisdiction_id == j.id,
                 WhtExemption.income_category_id == ic,
                 WhtExemption.recipient_group_id == g.id,
+                WhtExemption.min_holding_pct.is_(None)
+                if threshold is None
+                else WhtExemption.min_holding_pct == threshold,
                 WhtExemption.valid_period.contains(start),
             )
         )
@@ -229,7 +236,8 @@ class Seeder:
             self.s.add(
                 WhtExemption(
                     jurisdiction_id=j.id, income_category_id=ic, recipient_group_id=g.id,
-                    min_holding_pct=None if min_holding_pct is None else Decimal(min_holding_pct),
+                    min_holding_pct=threshold,
+                    reduced_rate=None if reduced_rate is None else Decimal(reduced_rate),
                     min_holding_months=min_holding_months, legal_ref=legal_ref,
                     description=description, source_evidence_id=self.ev(src),
                     valid_period=period(start),
@@ -289,6 +297,7 @@ class Seeder:
         max_rate: str | None = None, exclusive: bool = False,
         ownership_threshold: str | None = None, min_holding_days: int | None = None,
         relief: str | None = None, beneficial_owner: bool = True,
+        source: Jurisdiction | None = None,
     ) -> None:
         repo = TreatyRepository(self.s)
         article = repo.get_article(t.id, ARTICLE_CATEGORY[category])
@@ -300,7 +309,11 @@ class Seeder:
             self.s.add(article)
             self.s.flush()
         threshold = None if ownership_threshold is None else Decimal(ownership_threshold)
-        if any(r.ownership_threshold == threshold for r in repo.get_rates(t.id, category, start)):
+        source_id = None if source is None else source.id
+        if any(
+            r.ownership_threshold == threshold and r.source_jurisdiction_id == source_id
+            for r in repo.get_rates(t.id, category, start)
+        ):
             return
         self.s.add(
             TreatyRate(
@@ -309,7 +322,8 @@ class Seeder:
                 max_rate=None if max_rate is None else Decimal(max_rate),
                 exclusive_residence_taxation=exclusive, relief_mechanism=relief,
                 beneficial_owner_required=beneficial_owner, ownership_threshold=threshold,
-                min_holding_days=min_holding_days, source_evidence_id=self.ev(src),
+                min_holding_days=min_holding_days, source_jurisdiction_id=source_id,
+                source_evidence_id=self.ev(src),
                 valid_period=period(start),
             )
         )
@@ -341,6 +355,29 @@ class Seeder:
                     list_definition_id=definition.id, jurisdiction_id=j.id,
                     classification=classification, announcement_date=start,
                     source_evidence_id=self.ev(src), valid_period=period(start, end),
+                )
+            )
+            self.s.flush()
+
+    def refund(
+        self, j: Jurisdiction, category: str, refund_pct: str, start: date, src: Src, *,
+        legal_ref: str, description: str,
+    ) -> None:
+        ic = self._id("cat", category)
+        exists = self.s.scalar(
+            select(CitRefund.id).where(
+                CitRefund.jurisdiction_id == j.id,
+                CitRefund.income_category_id == ic,
+                CitRefund.valid_period.contains(start),
+            )
+        )
+        if exists is None:
+            self.s.add(
+                CitRefund(
+                    jurisdiction_id=j.id, income_category_id=ic,
+                    refund_pct=Decimal(refund_pct), legal_ref=legal_ref,
+                    description=description, source_evidence_id=self.ev(src),
+                    valid_period=period(start),
                 )
             )
             self.s.flush()

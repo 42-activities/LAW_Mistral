@@ -13,6 +13,7 @@ from app.modules.core.reference import (
 )
 from app.modules.tax.models import (
     CfcRule,
+    CitRefund,
     DomesticTaxRule,
     HoldingRegime,
     SubstanceRule,
@@ -148,3 +149,19 @@ def in_group(session: Session, jurisdiction_code: str, group_code: str, on_date:
         )
     )
     return session.scalar(stmt) is not None
+
+
+def cit_refund(
+    session: Session, jurisdiction_code: str, category_code: str, on_date: date
+) -> CitRefund | None:
+    stmt = (
+        select(CitRefund)
+        .join(Jurisdiction, CitRefund.jurisdiction_id == Jurisdiction.id)
+        .join(IncomeCategory, CitRefund.income_category_id == IncomeCategory.id)
+        .where(
+            Jurisdiction.code == jurisdiction_code,
+            IncomeCategory.code == category_code,
+            CitRefund.valid_period.contains(on_date),
+        )
+    )
+    return session.scalar(stmt)

@@ -7,11 +7,11 @@ from sqlalchemy.orm import Session
 
 from app.modules.engine.flow import Flow, FlowCalculator
 from app.modules.engine.risk import RiskEngine
-from app.modules.engine.tax import TaxEngine
+from app.modules.engine.tax import PARTICIPATION_INCOME, TaxEngine
 from app.modules.engine.treaty import TreatyEngine
 from app.modules.engine.types import HUNDRED, ZERO, Flag, FlowResult, RiskProfile, merge_citations
 from app.modules.scoring.types import BANDS, FlowLine, ScoringProfile, q2
-from app.modules.tax.repository import AntiAbuseRepository
+from app.modules.tax.repository import AntiAbuseRepository, cit_refund
 
 LEAKAGE_SLOPE = Decimal("2")  # score = 100 − 2 × leakage %
 
@@ -42,6 +42,7 @@ def _clamp(value: Decimal) -> Decimal:
 
 class FactorCalculator:
     def __init__(self, session: Session) -> None:
+        self.session = session
         self.flows = FlowCalculator(session)
         self.risk = RiskEngine(session)
         self.tax = TaxEngine(session)
@@ -166,6 +167,23 @@ class FactorCalculator:
 
     # Factor 4 ------------------------------------------------------------------------------
 
+    def _effective_cit(self, profile: ScoringProfile, holding: str, on: date) -> Decimal | None:
+        """Lowest corporate tax the holding bears on the profile's taxable income, after
+        shareholder refunds (Malta) — what a CFC "privileged regime" test compares."""
+        general = self.tax.cit(holding, on).rate
+        if general is None:
+            return None
+        rates = [general]
+        for cat in {f.income_category for f in profile.flows} - PARTICIPATION_INCOME:
+            rate = self.tax.cit(holding, on, income_category=cat).rate
+            if rate is None:
+                continue
+            refund = cit_refund(self.session, holding, cat, on)
+            if refund is not None:
+                rate = rate * (HUNDRED - refund.refund_pct) / HUNDRED
+            rates.append(q2(rate))
+        return min(rates)
+
     def substance_burden(
         self, profile: ScoringProfile, holding: str, on: date, results: list[FlowResult]
     ) -> tuple[Decimal, tuple[int, ...], tuple[Flag, ...], dict[str, str]]:
@@ -194,7 +212,7 @@ class FactorCalculator:
         if holding != profile.parent:
             cfc = self.anti_abuse.cfc_rule(profile.parent, on)
             if cfc is not None and profile.holding_pct > cfc.control_threshold_pct:
-                h_cit = self.tax.cit(holding, on).rate
+                h_cit = self._effective_cit(profile, holding, on)
                 u_cit = self.tax.cit(profile.parent, on).rate
                 if h_cit is None or u_cit is None:
                     flags.append(

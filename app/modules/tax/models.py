@@ -1,7 +1,7 @@
 from datetime import date
 from decimal import Decimal
 
-from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String
+from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String, text
 from sqlalchemy.dialects.postgresql import DATERANGE, ExcludeConstraint, Range
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -147,6 +147,7 @@ class WhtExemption(Base):
             ("jurisdiction_id", "="),
             ("income_category_id", "="),
             ("recipient_group_id", "="),
+            (text("coalesce(min_holding_pct, -1)"), "="),
             ("valid_period", "&&"),
             using="gist",
             name="no_overlap_wht_exemption",
@@ -158,8 +159,36 @@ class WhtExemption(Base):
     jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
     income_category_id: Mapped[int] = mapped_column(ForeignKey("core.income_category.id"))
     recipient_group_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction_group.id"))
+    # NULL = full exemption (0%); otherwise the reduced rate that replaces the statutory one.
+    reduced_rate: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     min_holding_pct: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
     min_holding_months: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    legal_ref: Mapped[str] = mapped_column(String(120))
+    description: Mapped[str] = mapped_column(String(500))
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class CitRefund(Base):
+    """Corporate tax refunded to shareholders on distribution (Malta's imputation refunds)."""
+
+    __tablename__ = "cit_refund"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("income_category_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_cit_refund",
+        ),
+        CheckConstraint("refund_pct >= 0 AND refund_pct <= 100", name="refund_pct_range"),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    income_category_id: Mapped[int] = mapped_column(ForeignKey("core.income_category.id"))
+    refund_pct: Mapped[Decimal] = mapped_column(Numeric(7, 4))
     legal_ref: Mapped[str] = mapped_column(String(120))
     description: Mapped[str] = mapped_column(String(500))
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
