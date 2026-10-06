@@ -5,7 +5,7 @@
  "signed": "2004-10-06",
  "entry_into_force": null,
  "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
- "eif_quote": "[Oman Tax Authority table: Signed | Royal Decree | Royal Date | Effective Date] 18 | Iran | 06/10/2004 | 5/2005 | 03/01/2005 | 1/1/2010",
+ "eif_quote": "entry into force date not published; applies from 2010-01-01 per the Oman Tax Authority treaty list",
  "source_title": "Oman Tax Authority: DTA Iran (English text PDF)",
  "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Iran.pdf/c446fe3b-3ad5-de30-dbd5-bab1ced83a74?t=1738135304830",
  "rates": [
@@ -43,10 +43,11 @@
    "quote": "but if beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) percent of the gross amount of the royalties."
   }
  ],
- "notes": "Art. 28(2): EIF upon exchange of ratification instruments; Oman WHT applies to amounts paid/credited on/after 1 January next following EIF; Iran applies for fiscal years beginning on/after 1 Farvardin (21 March) following the calendar year of EIF. Oman Tax Authority gives effective date 1/1/2010 (so EIF in 2009; exact date not stated in any source read) - Iran side therefore from 21 March 2010. Exemptions not modelled: art. 10(4)/(5) and 11(4)/(5) exempt dividends/interest paid to the Iranian State bodies (governmental institutions, governmental companies, Central Bank, wholly state-owned banks; for interest also non-governmental public foundations, Foundations of the Islamic Revolution, municipalities) and to the Government of Oman (incl. Central Bank of Oman, State General Reserve Fund, Oman Development Bank, bodies wholly or mainly state-owned). Royalty definition includes computer software and equipment rental. No PPT/LOB; not MLI-covered.",
+ "notes": "Art. 28(2): EIF upon exchange of ratification instruments; Oman WHT applies to amounts paid/credited on/after 1 January next following EIF; Iran applies for fiscal years beginning on/after 1 Farvardin (21 March) following the calendar year of EIF. Oman Tax Authority gives effective date 1/1/2010 (so EIF in 2009; exact date not stated in any source read) - Iran side therefore from 21 March 2010. Exemptions not modelled: art. 10(4)/(5) and 11(4)/(5) exempt dividends/interest paid to the Iranian State bodies (governmental institutions, governmental companies, Central Bank, wholly state-owned banks; for interest also non-governmental public foundations, Foundations of the Islamic Revolution, municipalities) and to the Government of Oman (incl. Central Bank of Oman, State General Reserve Fund, Oman Development Bank, bodies wholly or mainly state-owned). Royalty definition includes computer software and equipment rental. No PPT/LOB; not MLI-covered. Effective-date check: Art. 28(2) of the English text (current Oman PDF and the 2016 Wayback copy of taxoman.gov.om/agree/english/Iran.pdf) says the agreement enters into force on the exchange of ratification instruments, and Oman applies WHT to amounts paid or credited on or after 1 January following that. This agrees with valid_from 2010-01-01 for Oman as source. For Iran as source the start is 21 March 2010 (1 Farvardin 1389); the rates are the same, so no separate entries were added.",
  "confidence": "high",
  "unverified": [
-  "Exact entry-into-force date not found (only effective date 1/1/2010 from Oman Tax Authority list)"
+  "Exact entry-into-force date not found (only effective date 1/1/2010 from Oman Tax Authority list)",
+  "entry_into_force searched 2026-10-06 without success: Wayback copies of the old Oman Secretariat General for Taxation pages (taxoman.gov.om/double_tax.html and /ar/double_tax.html, captured 2013-11) list only signature date, Royal Decree no. and the year the agreement applies from; the current tms.taxoman.gov.om JSON has the same fields (sign-date, sign-decree, royal-date, effective) and no entry-into-force field; qanoon.om shows a Cloudflare challenge (not bypassed); Oman MJLA gazette site (mjla.gov.om) unreachable; Oman Foreign Ministry site (fm.gov.om) has no treaty register; web search unavailable (session budget used up); Iran side: INTA/tax.gov.ir, intamedia.ir, mefa.ir and mofa.gov.ir unreachable from here; rc.majlis.ir serves a JS redirect page and dotic.ir returns 403 (neither bypassed); qavanin.ir not used; the Wayback copy of intamedia.ir/laws/Agreements.aspx (2010-2016) is an ASP.NET postback form, so its per-country rows (incl. 'تاریخ اجرا') were never archived."
  ],
  "ppt": {
   "applies": false,
@@ -54,5 +55,6 @@
   "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
   "source_url": null,
   "quote": null
- }
+ },
+ "effective_from_official": "2010-01-01"
 }

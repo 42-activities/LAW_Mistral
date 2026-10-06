@@ -5,7 +5,7 @@
  "signed": "2005-09-14",
  "entry_into_force": null,
  "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
- "eif_quote": "19 | Syria | 14/09/2005 | 96/2005 | 15/11/2005 | 1/1/2007",
+ "eif_quote": "entry into force date not published; applies from 2007-01-01 per the Oman Tax Authority treaty list",
  "source_title": "Oman Tax Authority: Arabic text of OM-SY Agreement and Annex (DTA Syria.pdf)",
  "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Syria.pdf/276f6dbc-660f-0e52-7e1d-70eff8e4c15f?t=1738135357735",
  "rates": [
@@ -61,9 +61,11 @@
   "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Syria.pdf/276f6dbc-660f-0e52-7e1d-70eff8e4c15f?t=1738135357735",
   "quote": ""
  },
- "notes": "Dividend caps apply where the beneficial owner 'is subject to tax in the other Contracting State' (ويخضع للضريبة في الدولة المتعاقدة الأخرى). Interest: Art. 11(3) exempts interest beneficially owned by the other State's Government/local authorities, Central Bank, or Oman's State General Reserve Fund; Art. 11 also contains a main-purpose anti-abuse clause (not a general PPT). Royalties: Art. 12(1) says 'taxable only' in residence State but 12(2) allows source tax up to 18% — modelled as 18% cap. Annex concerns only non-discrimination (Art. 24). Art. 28: EIF on 30th day after the later notification; WHT applies from 1 January of the year immediately following EIF. Entry-into-force date not stated in the Oman list (only Royal Decree 96/2005 of 15/11/2005 and effective date 1/1/2007), so EIF is in 2006 but exact date unknown. Not MLI-covered. PDF text layer has reversed digits (e.g. '٨١' = 18, '٠٢' = 20), corrected in quotes.",
+ "notes": "Dividend caps apply where the beneficial owner 'is subject to tax in the other Contracting State' (ويخضع للضريبة في الدولة المتعاقدة الأخرى). Interest: Art. 11(3) exempts interest beneficially owned by the other State's Government/local authorities, Central Bank, or Oman's State General Reserve Fund; Art. 11 also contains a main-purpose anti-abuse clause (not a general PPT). Royalties: Art. 12(1) says 'taxable only' in residence State but 12(2) allows source tax up to 18% — modelled as 18% cap. Annex concerns only non-discrimination (Art. 24). Art. 28: EIF on 30th day after the later notification; WHT applies from 1 January of the year immediately following EIF. Entry-into-force date not stated in the Oman list (only Royal Decree 96/2005 of 15/11/2005 and effective date 1/1/2007), so EIF is in 2006 but exact date unknown. Not MLI-covered. PDF text layer has reversed digits (e.g. '٨١' = 18, '٠٢' = 20), corrected in quotes. Effective-date check: Art. 28 of the Wayback copy of taxoman.gov.om/agree/arebic/Syria_arabic.pdf says WHT applies from 1 January of the year straight after entry into force. With Oman's effective year 2007, this agrees with valid_from 2007-01-01.",
  "confidence": "high",
  "unverified": [
-  "entry_into_force date unknown (2006, from effective date 1/1/2007)"
- ]
+  "entry_into_force date unknown (2006, from effective date 1/1/2007)",
+  "entry_into_force searched 2026-10-06 without success: Wayback copies of the old Oman Secretariat General for Taxation pages (taxoman.gov.om/double_tax.html and /ar/double_tax.html, captured 2013-11) list only signature date, Royal Decree no. and the year the agreement applies from; the current tms.taxoman.gov.om JSON has the same fields (sign-date, sign-decree, royal-date, effective) and no entry-into-force field; qanoon.om shows a Cloudflare challenge (not bypassed); Oman MJLA gazette site (mjla.gov.om) unreachable; Oman Foreign Ministry site (fm.gov.om) has no treaty register; web search unavailable (session budget used up); Syria side: mof.gov.sy serves a placeholder; syrianfinance.gov.sy and parliament.gov.sy unreachable; the Wayback copies of syrianfinance.gov.sy (incl. 'اتفاقيات وتقارير دولية' 2021 page and all 19 archived PDFs) contain no tax-treaty text or entry-into-force notice."
+ ],
+ "effective_from_official": "2007-01-01"
 }

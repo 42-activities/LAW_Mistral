@@ -100,6 +100,11 @@ NO_CAP = {
     "DZ-LY", "MA-TN", "DZ-TN", "SD-IQ",
 }
 
+# Entry into force unpublished; Oman Tax Authority publishes the year the treaty applies from,
+# which matches each treaty's effective-date article. That date stands in, labelled as such.
+OMAN_EFFECTIVE = {"IR-OM": "2010-01-01", "SD-OM": "2005-01-01", "SY-OM": "2007-01-01",
+                  "YE-OM": "2004-01-01"}
+
 # (file stem, category, ownership_threshold) → field changes on the remaining tier
 RETIER = {
     ("LU-AT", "ROYALTY", "50"): {"ownership_threshold": None},
@@ -146,6 +151,10 @@ def curate(src: Path) -> int:
                 change = RETIER.get((p.stem, r["category"], r.get("ownership_threshold")))
                 kept.append({**r, **change} if change else r)
         d["rates"] = _invert_upper_tiers(kept, d)
+        if p.stem in OMAN_EFFECTIVE and not d.get("entry_into_force"):
+            d["effective_from_official"] = OMAN_EFFECTIVE[p.stem]
+            d["eif_quote"] = (f"entry into force date not published; applies from "
+                              f"{OMAN_EFFECTIVE[p.stem]} per the Oman Tax Authority treaty list")
         if p.stem in NO_CAP and not d["rates"]:
             d["no_cap"] = True
         out = DEST / p.parent.name / p.name

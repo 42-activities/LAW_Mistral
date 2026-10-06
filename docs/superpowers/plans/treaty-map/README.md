@@ -64,7 +64,7 @@ kept in notes only. Rebuild order adds this folder last.
 
 ### Unresolved batch-9 treaties (`unresolved_batch9/`)
 
-Not loaded: IR/SD/SY/YE–OM and SD/TN/YE–IQ lack an official entry-into-force date; TN–IQ, YE–IQ,
+Oman pairs (IR/SD/SY/YE–OM) load on the Oman Tax Authority "applies from" date (`effective_from_official`, labelled in eif_quote). Not loaded: SD/TN/YE–IQ lack an official entry-into-force date; TN–IQ, YE–IQ,
 LY–SY and SD–LY lack text. Each file's `unverified` lists the sources searched (2026-10-06). The
 Oman files' effective-date articles were checked against Oman Tax Authority PDFs (Wayback). Leads:
 Iraqi Legal Database, Tunisian JORT ratification law, Oman Official Gazette (qanoon.om).

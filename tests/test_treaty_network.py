@@ -109,3 +109,9 @@ def test_maghreb_union_treaty_has_no_cap(s):
     codes = {f.code for f in r.flags}
     assert "no_treaty" not in codes and "treaty_rate_not_recorded" in codes
     assert str(r.final_rate) == "11.250"  # Moroccan domestic rate
+
+
+def test_oman_treaties_load_on_official_effective_date(s):
+    for partner in ("IR", "SD", "SY", "YE"):
+        r = WithholdingEngine(s).compute("OM", partner, "ROYALTY", D, Decimal("100"), 730)
+        assert "no_treaty" not in {f.code for f in r.flags}, partner

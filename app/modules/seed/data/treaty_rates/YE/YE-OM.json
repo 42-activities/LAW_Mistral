@@ -5,7 +5,7 @@
  "signed": "2002-05-08",
  "entry_into_force": null,
  "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
- "eif_quote": "11 | Yemen | 08/05/2002 | 56/2002 | 07/07/2002 | 1/1/2004",
+ "eif_quote": "entry into force date not published; applies from 2004-01-01 per the Oman Tax Authority treaty list",
  "source_title": "Oman Tax Authority: Arabic text of OM-YE Agreement and Annex (DTA Yemen.pdf)",
  "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Yemen.pdf/0139e5e4-319b-c3e0-4003-a77f52a51d3d?t=1738135360416",
  "rates": [
@@ -50,9 +50,11 @@
   "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Yemen.pdf/0139e5e4-319b-c3e0-4003-a77f52a51d3d?t=1738135360416",
   "quote": ""
  },
- "notes": "Dividend cap applies where the beneficial owner is subject to tax in the other State. Interest: Art. 11(3) exempts interest beneficially owned by the other State's Government, administrative subdivisions/local authorities or Central Bank; Art. 11 contains a main-purpose anti-abuse clause (not a general PPT). Royalties: Art. 12(1) says 'taxable only' in residence State but 12(2) allows source tax up to 10% — modelled as 10% cap. Annex: Oman State General Reserve Fund treated as resident and its income exempt in Yemen; Gulf Air and transport-staff rules. Art. 27: EIF on 30th day after the later notification; WHT applies from 1 January of the year immediately following EIF. EIF date not stated in Oman list (only Royal Decree 56/2002 of 07/07/2002 and effective date 1/1/2004), so EIF in 2003, exact date unknown. Not MLI-covered. PDF text layer has reversed digits (e.g. '٠١' = 10), corrected in quotes.",
+ "notes": "Dividend cap applies where the beneficial owner is subject to tax in the other State. Interest: Art. 11(3) exempts interest beneficially owned by the other State's Government, administrative subdivisions/local authorities or Central Bank; Art. 11 contains a main-purpose anti-abuse clause (not a general PPT). Royalties: Art. 12(1) says 'taxable only' in residence State but 12(2) allows source tax up to 10% — modelled as 10% cap. Annex: Oman State General Reserve Fund treated as resident and its income exempt in Yemen; Gulf Air and transport-staff rules. Art. 27: EIF on 30th day after the later notification; WHT applies from 1 January of the year immediately following EIF. EIF date not stated in Oman list (only Royal Decree 56/2002 of 07/07/2002 and effective date 1/1/2004), so EIF in 2003, exact date unknown. Not MLI-covered. PDF text layer has reversed digits (e.g. '٠١' = 10), corrected in quotes. Effective-date check: Art. 27 of the Wayback copy of taxoman.gov.om/agree/arebic/yemen_arabic.pdf says WHT applies from 1 January of the year straight after entry into force. With Oman's effective year 2004, this agrees with valid_from 2004-01-01.",
  "confidence": "high",
  "unverified": [
-  "entry_into_force date unknown (2003, from effective date 1/1/2004)"
- ]
+  "entry_into_force date unknown (2003, from effective date 1/1/2004)",
+  "entry_into_force searched 2026-10-06 without success: Wayback copies of the old Oman Secretariat General for Taxation pages (taxoman.gov.om/double_tax.html and /ar/double_tax.html, captured 2013-11) list only signature date, Royal Decree no. and the year the agreement applies from; the current tms.taxoman.gov.om JSON has the same fields (sign-date, sign-decree, royal-date, effective) and no entry-into-force field; qanoon.om shows a Cloudflare challenge (not bypassed); Oman MJLA gazette site (mjla.gov.om) unreachable; Oman Foreign Ministry site (fm.gov.om) has no treaty register; web search unavailable (session budget used up); Yemen side: tax.gov.ye (WordPress API search for اتفاقية/الازدواج/عمان) has no treaty pages; mola.gov.ye, mof.gov.ye and parliament.gov.ye unreachable."
+ ],
+ "effective_from_official": "2004-01-01"
 }

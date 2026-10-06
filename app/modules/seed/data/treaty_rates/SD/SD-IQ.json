@@ -20,7 +20,8 @@
  "confidence": "medium",
  "unverified": [
   "entry-into-force date",
-  "Iraq's official text (only the Sudanese scan was read)"
+  "Iraq's official text (only the Sudanese scan was read)",
+  "Text and entry_into_force searched 2026-10-06 without success: Iraqi General Commission for Taxes: the page 'المشاريع المصادق عليها' (tax.mof.gov.iq) links the ratified texts /uploads/relationship/tunis1.pdf, yaman1.pdf, sudan1.pdf (also linked from the 2012 iraqitax.com page). All three now return 404 and the Wayback Machine holds only 404 captures (2024-2025). The page 'المشاريع التي دخلت حيز التنفيذ' gives entry-into-force dates only for Hungary (6/5/2021) and the UAE (28/7/2021); for Yemen, Sudan and Tunisia it says only 'entered into force' ('before 2003' for Sudan and Tunisia). The Iraqi Legal Database (iraqld.hjc.iq) blocks access with Cloudflare (not bypassed). The moj.gov.iq al-Waqai al-Iraqiya pages hold only recent issues, and a site search found nothing. Web search unavailable (session budget used up). Sudan side: tax.gov.sd Iraq.pdf is an image scan with no ratification note; Sudan MoJ law e-book has no treaty acts."
  ],
  "no_cap": true
 }

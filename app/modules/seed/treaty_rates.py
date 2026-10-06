@@ -214,6 +214,9 @@ def load_file(
 ) -> bool:
     data = json.loads(path.read_text(encoding="utf-8"))
     in_force = _d(data.get("entry_into_force"))
+    if in_force is None and data.get("effective_from_official"):
+        # Entry into force unpublished; the official "applies from" date stands in (see eif_quote).
+        in_force = _d(data["effective_from_official"])
     tiers = current_tiers(data.get("rates") or [])
     # A treaty in force that sets no source-State cap (curated "no_cap") is stored without rates
     # so the engine reports "no limit recorded" rather than "no treaty".
