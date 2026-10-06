@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2014-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "25",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "... tada tako utvrđen porez ne smije biti veći od: (a) 5 posto bruto iznosa dividendi ako je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 25% imovine društva koje isplaćuje dividendu i koje je investiralo u imovinu tog društva najmanje 150.000 eura ili njegov ekvivalentan iznos u bilo kojoj drugoj valuti;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2014-01-01",
    "max_rate": "10",
@@ -61,7 +50,7 @@
   "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
   "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
  },
- "notes": "Art. 29(2)(a): WHT effective for income derived on or after 1 January of the year following EIF -> 2014-01-01. 5% dividend tier also requires direct investment of at least EUR 150,000 in the paying company (and company other than partnership). Art. 11(3): interest exempt at source when paid to/by government, political subdivision, local authority or central bank, or on loans granted/guaranteed by government/central bank/wholly-owned agencies (not modelled).",
+ "notes": "Art. 29(2)(a): WHT effective for income derived on or after 1 January of the year following EIF -> 2014-01-01. 5% dividend tier also requires direct investment of at least EUR 150,000 in the paying company (and company other than partnership). Art. 11(3): interest exempt at source when paid to/by government, political subdivision, local authority or central bank, or on loans granted/guaranteed by government/central bank/wholly-owned agencies (not modelled). [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": [
   "MLI WHT effective date 2025-01-01 taken from treaty-map metadata"

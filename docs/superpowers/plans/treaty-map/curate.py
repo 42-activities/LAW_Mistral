@@ -76,6 +76,21 @@ DROP = {
 }
 
 
+# Dividend tiers conditioned on a minimum invested amount AND a holding (the engine checks %
+# only). "Or" conditions (LU–HK, AM–SG, AZ–GB) are kept.
+INVEST = "reduced rate also needs a minimum invested amount — not modelled"
+INVEST_PCT = [
+    ("AM-CH", "50"), ("AM-CH", "10"), ("AM-DK", "50"), ("AM-DK", "10"), ("AM-GB", "25"),
+    ("AM-IT", "10"), ("AM-MT", "10"), ("AZ-AT", "25"), ("AZ-BE", "30"), ("AZ-BE", "10"),
+    ("AZ-CH", "20"), ("AZ-DE", "25"), ("AZ-DK", "20"), ("AZ-ES", "25"), ("AZ-KW", "15"),
+    ("AZ-LU", "30"), ("AZ-NL", "25"), ("AZ-SE", "20"), ("FI-AZ", "25"), ("HR-AZ", "25"),
+]
+for _stem, _pct in INVEST_PCT:
+    for _excl in (False, True):
+        DROP[(_stem, "DIVIDEND", _pct, _excl)] = INVEST
+for _stem, _rate in (("AM-BG", "5"), ("AM-CY", "0"), ("AM-QA", "5")):
+    DROP[(_stem, "DIVIDEND", None, False, None, _rate)] = INVEST
+
 # (file stem, category, ownership_threshold) → field changes on the remaining tier
 RETIER = {
     ("LU-AT", "ROYALTY", "50"): {"ownership_threshold": None},

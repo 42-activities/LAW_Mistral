@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2018-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "20",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company other than a partnership which holds directly at least 20 per cent of the capital of the company paying the dividends and provided that an investment of at least one million (1.000.000) Euros or its equivalent in any other currency has been made in the capital of the company paying the dividends;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2018-01-01",
    "max_rate": "15",
@@ -72,7 +61,7 @@
   "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
   "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
  },
- "notes": "Dividend 5% tier also requires an investment of at least EUR 1,000,000 in the capital of the paying company (not modelled). Royalty 5% tier is by type (patent, design/model, plan, secret formula/process, know-how); 10% for other royalties (copyright, trademarks, films). Interest exempt at source (Art. 11(3)) when paid by/to Governments, administrative-territorial subdivisions, local authorities, Central Banks, or beneficially owned by the State Oil Fund (AZ) / IFU (DK) (not modelled). Art. 27(2)(a): WHT provisions apply to amounts paid or credited on/after 1 Jan of year following EIF (31 Dec 2017 -> 2018-01-01). MLI: both parties list the treaty; Denmark has no Art. 35(7) reservation (only Art. 35(3) choice for other taxes); Denmark chose Art. 7(7)(a) (SLOB symmetry acceptance) but Azerbaijan did not choose SLOB, so PPT only. MLI WHT effect 2025-01-01 (later MLI entry into force, per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day holding period.",
+ "notes": "Dividend 5% tier also requires an investment of at least EUR 1,000,000 in the capital of the paying company (not modelled). Royalty 5% tier is by type (patent, design/model, plan, secret formula/process, know-how); 10% for other royalties (copyright, trademarks, films). Interest exempt at source (Art. 11(3)) when paid by/to Governments, administrative-territorial subdivisions, local authorities, Central Banks, or beneficially owned by the State Oil Fund (AZ) / IFU (DK) (not modelled). Art. 27(2)(a): WHT provisions apply to amounts paid or credited on/after 1 Jan of year following EIF (31 Dec 2017 -> 2018-01-01). MLI: both parties list the treaty; Denmark has no Art. 35(7) reservation (only Art. 35(3) choice for other taxes); Denmark chose Art. 7(7)(a) (SLOB symmetry acceptance) but Azerbaijan did not choose SLOB, so PPT only. MLI WHT effect 2025-01-01 (later MLI entry into force, per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day holding period. [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": []
 }

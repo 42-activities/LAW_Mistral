@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2022-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "25",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (distinta de una sociedad de personas) que posea directamente al menos el 25 por ciento del capital de la sociedad que paga los dividendos y que haya invertido más de doscientos cincuenta mil (250.000) euros, o el importe equivalente en cualquier otra moneda, en la sociedad que paga los dividendos."
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2022-01-01",
    "max_rate": "10",
@@ -72,7 +61,7 @@
   "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-spain.pdf",
   "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
  },
- "notes": "Dividend 5% tier additionally requires an investment of more than EUR 250,000 in the paying company (not modelled). Royalty 5% tier is by type of right (software, patents, trademarks, designs, plans, secret formulas/processes, know-how); 10% applies to copyright, films, equipment rental etc. Interest exempt at source (Art. 11(3)) when paid to/by the State, Central Bank, subdivisions, local entities, export-credit agencies, public financial institutions, etc. (not modelled). Art. 27(2)(a): WHT provisions apply to income derived from 1 January of the year following entry into force (EIF 13 Jan 2021 -> 2022-01-01). Protocol III: domestic anti-abuse rules apply; benefits denied to non-beneficial owners. MLI: Spain made an Art. 35(7)(a) reservation; Spain's 35(7)(b) notification for Azerbaijan received 26 May 2025, so MLI WHT effect from 1 Jan 2026 (per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day dividend holding period.",
+ "notes": "Dividend 5% tier additionally requires an investment of more than EUR 250,000 in the paying company (not modelled). Royalty 5% tier is by type of right (software, patents, trademarks, designs, plans, secret formulas/processes, know-how); 10% applies to copyright, films, equipment rental etc. Interest exempt at source (Art. 11(3)) when paid to/by the State, Central Bank, subdivisions, local entities, export-credit agencies, public financial institutions, etc. (not modelled). Art. 27(2)(a): WHT provisions apply to income derived from 1 January of the year following entry into force (EIF 13 Jan 2021 -> 2022-01-01). Protocol III: domestic anti-abuse rules apply; benefits denied to non-beneficial owners. MLI: Spain made an Art. 35(7)(a) reservation; Spain's 35(7)(b) notification for Azerbaijan received 26 May 2025, so MLI WHT effect from 1 Jan 2026 (per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day dividend holding period. [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": []
 }

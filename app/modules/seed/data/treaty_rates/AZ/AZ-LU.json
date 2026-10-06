@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2010-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "30",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement ou indirectement au moins 30 pour cent du capital de la société qui paie les dividendes et qui a investi au moins un montant équivalent à 300.000 US dollars dans la société qui paie les dividendes à la date du paiement des dividendes;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2010-01-01",
    "max_rate": "10",
@@ -72,7 +61,7 @@
   "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/conv/azerbadjan-mli-fr.pdf",
   "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention ... Au Luxembourg : s'agissant des impôts prélevés à la source sur des sommes payées ou attribuées à des non-résidents, si le fait générateur de ces impôts intervient à compter du 1er janvier 2025 ... En Azerbaïdjan : ... à compter du 1er janvier 2025"
  },
- "notes": "valid_from per Art. 30(2)(a): withholding taxes on income attributed on or after 1 January of the year following EIF (EIF 02.07.2009 -> 01.01.2010; LU list 'à partir du 01/01/2010'). Dividend 5% tier requires direct or indirect holding >=30% of capital AND investment of at least USD 300,000 in the payer at the date of payment. Interest: Art. 11(3) exclusive residence taxation for interest paid to the Government/subdivisions/Central Bank, on loans made, guaranteed or insured by Government/Central Bank/wholly-owned financial institution, or in connection with credit sales of industrial, commercial or scientific equipment - not modelled. Royalty 5% tier: software, patents, designs/models, plans, secret formulas/processes and know-how that are less than three years old; 10% otherwise (incl. copyright, trademarks). MLI Art. 8 not applicable (Azerbaijan reserved).",
+ "notes": "valid_from per Art. 30(2)(a): withholding taxes on income attributed on or after 1 January of the year following EIF (EIF 02.07.2009 -> 01.01.2010; LU list 'à partir du 01/01/2010'). Dividend 5% tier requires direct or indirect holding >=30% of capital AND investment of at least USD 300,000 in the payer at the date of payment. Interest: Art. 11(3) exclusive residence taxation for interest paid to the Government/subdivisions/Central Bank, on loans made, guaranteed or insured by Government/Central Bank/wholly-owned financial institution, or in connection with credit sales of industrial, commercial or scientific equipment - not modelled. Royalty 5% tier: software, patents, designs/models, plans, secret formulas/processes and know-how that are less than three years old; 10% otherwise (incl. copyright, trademarks). MLI Art. 8 not applicable (Azerbaijan reserved). [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": []
 }

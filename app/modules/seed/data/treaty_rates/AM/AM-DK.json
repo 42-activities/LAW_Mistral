@@ -11,28 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2020-01-01",
-   "max_rate": "0",
-   "exclusive": false,
-   "ownership_threshold": "50",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 50 per cent of the capital of the company paying the dividends and has invested more than 2 million Euros, or its equivalent in Armenian or Danish currency, in the capital of the company paying the dividends at the date of payment of the dividends;"
-  },
-  {
-   "category": "DIVIDEND",
-   "article": "Article 10(2)(c)",
-   "valid_from": "2020-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "10",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "c) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends and has invested more than 100,000 Euros, or its equivalent in Armenian or Danish currency, in the capital of the company paying the dividends at the date of payment of the dividends;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(d)",
    "valid_from": "2020-01-01",
    "max_rate": "15",
@@ -72,7 +50,7 @@
   "source_url": "https://minfin.am/website/images/files/7.DENMARK_DoubleTaxationTreaty.rar",
   "quote": "4. Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
  },
- "notes": "Dividend 0% tier (>=50%) also requires investment > EUR 2 million, 5% tier (>=10%) requires investment > EUR 100,000, at the payment date. Art. 10(2)(b): 0% where beneficial owner is the other State, its Central Bank or a government-owned agency/financial institution (not modelled). Interest: 0% if paid to a State/local authority/Central Bank or government-owned institution (11(2)(a)); 5% on loans granted by a banking enterprise (11(2)(b)) - not modelled. Royalties: 5% for software, patents, trade marks, designs, models, plans, secret formulas and know-how (para 3(a)-(b)) - recorded; 10% for copyright of literary/artistic/scientific works incl. films (para 3(c)) - not modelled. Art. 29(1)-(3) LOB: notwithstanding Arts. 11 and 12, interest and royalties may be taxed under domestic law if not subject to tax or subject to a preferential foreign-income regime in the residence State. Art. 30: WHT on amounts payable on or after 1 January of the year following EIF (2019-10-22 -> 2020-01-01). The treaty map lists the pair as MLI-covered with WHT effect 2024-01-01, but no MLI synthesised text was found in the Armenian MoF archive; the treaty already contains a PPT (Art. 29(4)).",
+ "notes": "Dividend 0% tier (>=50%) also requires investment > EUR 2 million, 5% tier (>=10%) requires investment > EUR 100,000, at the payment date. Art. 10(2)(b): 0% where beneficial owner is the other State, its Central Bank or a government-owned agency/financial institution (not modelled). Interest: 0% if paid to a State/local authority/Central Bank or government-owned institution (11(2)(a)); 5% on loans granted by a banking enterprise (11(2)(b)) - not modelled. Royalties: 5% for software, patents, trade marks, designs, models, plans, secret formulas and know-how (para 3(a)-(b)) - recorded; 10% for copyright of literary/artistic/scientific works incl. films (para 3(c)) - not modelled. Art. 29(1)-(3) LOB: notwithstanding Arts. 11 and 12, interest and royalties may be taxed under domestic law if not subject to tax or subject to a preferential foreign-income regime in the residence State. Art. 30: WHT on amounts payable on or after 1 January of the year following EIF (2019-10-22 -> 2020-01-01). The treaty map lists the pair as MLI-covered with WHT effect 2024-01-01, but no MLI synthesised text was found in the Armenian MoF archive; the treaty already contains a PPT (Art. 29(4)). [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled] [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": [
   "whether the MLI modifies this treaty (no synthesised text located; treaty map says MLI-covered from 2024-01-01)"

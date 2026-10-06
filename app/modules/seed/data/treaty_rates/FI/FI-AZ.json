@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2007-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "25",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends and the participation in that company exceeds 200.000 Euros or its equivalent in the national currencies of the Contracting States;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2007-01-01",
    "max_rate": "10",
@@ -72,7 +61,7 @@
   "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2006/94",
   "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2025-01-01"
  },
- "notes": "5% dividend tier additionally requires the participation to exceed EUR 200,000 (not modelled). Royalty tiers by payment type: 5% for computer software, patents, trade marks, designs/models, plans, secret formulas/processes, know-how; 10% for copyright incl. films/tapes. Interest exempt at source (Art. 11(3)) for government/central bank/public bodies, government-approved loans, loans granted/guaranteed/insured by government agencies, and credit sales of equipment/installations/public works. Treaty WHT effect: income derived on or after 1 January following EIF (Art. 28(2)(i)) = 2007-01-01. MLI arts 6, 7, 16 apply; no Art. 8 holding period.",
+ "notes": "5% dividend tier additionally requires the participation to exceed EUR 200,000 (not modelled). Royalty tiers by payment type: 5% for computer software, patents, trade marks, designs/models, plans, secret formulas/processes, know-how; 10% for copyright incl. films/tapes. Interest exempt at source (Art. 11(3)) for government/central bank/public bodies, government-approved loans, loans granted/guaranteed/insured by government agencies, and credit sales of equipment/installations/public works. Treaty WHT effect: income derived on or after 1 January following EIF (Art. 28(2)(i)) = 2007-01-01. MLI arts 6, 7, 16 apply; no Art. 8 holding period. [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": []
 }

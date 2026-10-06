@@ -11,28 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a) (as amended by Protocol 2021 art. 9)",
-   "valid_from": "2024-01-01",
-   "max_rate": "0",
-   "exclusive": false,
-   "ownership_threshold": "50",
-   "min_holding_days": 365,
-   "source_state": null,
-   "quote": "a) 0 vom Hundert des Bruttobetrags der Dividenden, wenn die nutzungsberechtigte Person eine Gesellschaft ist, die unmittelbar mindestens 50 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft während einer Dauer von 365 Tagen, die den Tag der Zahlung der Dividende umfasst, hält (...) und die im Zeitpunkt der Zahlung der Dividenden mehr als zwei Millionen (2 000 000) Schweizer Franken oder deren Gegenwert in anderer Währung in das Kapital der die Dividenden zahlenden Gesellschaft investiert hat;"
-  },
-  {
-   "category": "DIVIDEND",
-   "article": "Article 10(2)(c) (as amended by Protocol 2021 art. 9)",
-   "valid_from": "2024-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "10",
-   "min_holding_days": 365,
-   "source_state": null,
-   "quote": "c) 5 vom Hundert des Bruttobetrags der Dividenden, wenn die nutzungsberechtigte Person eine Gesellschaft ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft während einer Dauer von 365 Tagen, die den Tag der Zahlung der Dividenden umfasst, hält (...) und die im Zeitpunkt der Zahlung der Dividenden mehr als hunderttausend (100 000) Schweizer Franken oder deren Gegenwert in anderer Währung in das Kapital der die Dividenden zahlenden Gesellschaft investiert hat;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(d) (as amended by Protocol 2021 art. 9)",
    "valid_from": "2024-01-01",
    "max_rate": "15",
@@ -72,7 +50,7 @@
   "source_url": "https://fedlex.data.admin.ch/eli/oc/2023/241 (AS 2023 241)",
   "quote": "Art. 27a Anspruch auf Vorteile: Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat"
  },
- "notes": "Dividend 0% (>=50%, 365 days) and 5% (>=10%, 365 days) tiers also require capital invested > CHF 2,000,000 / > CHF 100,000 respectively at payment date. Art. 10(2)(b) (Protocol): 0% where beneficial owner is a pension scheme or the central bank of the other State (not modelled). Pre-protocol (2008-01-01 to 2023-12-31): 5% if company holds directly >=25% and invested capital > CHF 200,000, otherwise 15%. Art. 11(3): interest taxable only in residence State if paid in connection with sale on credit of industrial/commercial/scientific equipment or on any loan granted by a bank; Protocol adds c) paid to the Government, political subdivisions, local authorities or central bank. Protocol in force 2 May 2023 ('In Kraft getreten durch Notenaustausch am 2. Mai 2023'); art. 23(2)(a): applies to source taxes on income paid or credited on or after 1 January of the calendar year following entry into force -> 2024-01-01. Original Agreement art. 28: WHT on amounts paid or credited on or after 1 January of the year following EIF (2007-11-07 -> 2008-01-01). Not MLI-covered; PPT via treaty art. 27a.",
+ "notes": "Dividend 0% (>=50%, 365 days) and 5% (>=10%, 365 days) tiers also require capital invested > CHF 2,000,000 / > CHF 100,000 respectively at payment date. Art. 10(2)(b) (Protocol): 0% where beneficial owner is a pension scheme or the central bank of the other State (not modelled). Pre-protocol (2008-01-01 to 2023-12-31): 5% if company holds directly >=25% and invested capital > CHF 200,000, otherwise 15%. Art. 11(3): interest taxable only in residence State if paid in connection with sale on credit of industrial/commercial/scientific equipment or on any loan granted by a bank; Protocol adds c) paid to the Government, political subdivisions, local authorities or central bank. Protocol in force 2 May 2023 ('In Kraft getreten durch Notenaustausch am 2. Mai 2023'); art. 23(2)(a): applies to source taxes on income paid or credited on or after 1 January of the calendar year following entry into force -> 2024-01-01. Original Agreement art. 28: WHT on amounts paid or credited on or after 1 January of the year following EIF (2007-11-07 -> 2008-01-01). Not MLI-covered; PPT via treaty art. 27a. [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled] [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": [
   "original Agreement EIF 2007-11-07 taken from treaty map (Armenia MLI position), not from fedlex"

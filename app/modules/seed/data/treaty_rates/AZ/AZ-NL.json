@@ -11,17 +11,6 @@
  "rates": [
   {
    "category": "DIVIDEND",
-   "article": "Article 10(2)(a)",
-   "valid_from": "2010-01-01",
-   "max_rate": "5",
-   "exclusive": false,
-   "ownership_threshold": "25",
-   "min_holding_days": null,
-   "source_state": null,
-   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends and provided that an investment of at least 200,000 Euros has been made in the capital of the company paying the dividends;"
-  },
-  {
-   "category": "DIVIDEND",
    "article": "Article 10(2)(b)",
    "valid_from": "2010-01-01",
    "max_rate": "10",
@@ -72,7 +61,7 @@
   "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
   "quote": "Pursuant to Article 7(17)(a) of the Convention, the Republic of Azerbaijan considers that the following agreements are not subject to a reservation under Article 7(15)(b) and contain a provision described in Article 7(2). ... 32 Netherlands Articles 11(9), 12(8) and 21(3)"
  },
- "notes": "valid_from per Art. 31: provisions have effect for taxable years and periods beginning on or after 1 January of the calendar year following EIF (18.12.2009 -> 01.01.2010); the treaty has no separate withholding-tax effective-date rule. Dividend 5% tier requires direct holding of >=25% of capital AND an investment of at least EUR 200,000 in the payer's capital. Interest: Art. 11(3) exclusive residence taxation where payer or recipient is a Government/public body/subdivision/Central Bank, for Government-approved loans, loans granted/guaranteed/insured by Government, Central Bank or Government-owned agencies (Protocol XI: incl. FMO, NIO, State Oil Fund of Azerbaijan), and credit sales of equipment/construction of installations and public works - not modelled. Royalty 5% tier: patents, designs/models, plans, secret formulas/processes and know-how not older than 3 years; 10% otherwise (incl. copyright, software, trademarks). Protocol IX: refund claims within 5 years. Existing anti-abuse clauses Arts. 11(9), 12(8), 21(3) superseded/replaced by MLI Art. 7(1) PPT (MLI covered by both; WHT effect 2025-01-01 per pair metadata, MLI in force for Azerbaijan 1 Jan 2025). The wetten.overheid.nl text does not incorporate the MLI; no NL synthesised text was read. MLI Art. 8 not applicable (Azerbaijan reserved).",
+ "notes": "valid_from per Art. 31: provisions have effect for taxable years and periods beginning on or after 1 January of the calendar year following EIF (18.12.2009 -> 01.01.2010); the treaty has no separate withholding-tax effective-date rule. Dividend 5% tier requires direct holding of >=25% of capital AND an investment of at least EUR 200,000 in the payer's capital. Interest: Art. 11(3) exclusive residence taxation where payer or recipient is a Government/public body/subdivision/Central Bank, for Government-approved loans, loans granted/guaranteed/insured by Government, Central Bank or Government-owned agencies (Protocol XI: incl. FMO, NIO, State Oil Fund of Azerbaijan), and credit sales of equipment/construction of installations and public works - not modelled. Royalty 5% tier: patents, designs/models, plans, secret formulas/processes and know-how not older than 3 years; 10% otherwise (incl. copyright, software, trademarks). Protocol IX: refund claims within 5 years. Existing anti-abuse clauses Arts. 11(9), 12(8), 21(3) superseded/replaced by MLI Art. 7(1) PPT (MLI covered by both; WHT effect 2025-01-01 per pair metadata, MLI in force for Azerbaijan 1 Jan 2025). The wetten.overheid.nl text does not incorporate the MLI; no NL synthesised text was read. MLI Art. 8 not applicable (Azerbaijan reserved). [curated: dropped DIVIDEND tier — reduced rate also needs a minimum invested amount — not modelled]",
  "confidence": "high",
  "unverified": [
   "NL-AZ MLI synthesised text not read; PPT start date taken from pair metadata (later MLI entry into force 2025-01-01)"

@@ -46,3 +46,9 @@ kept only where an official notice confirms them (EE via the Estonian MoF list; 
 and LV; HMRC for EE–GB) and dropped for the other LT/LV partners; FI–BG Bulgarian-source dividend
 reading, HR–IL reduced-rate tier and UZ–GB REIT tier dropped. Skipped: HR–SE (no text), RS–IL and
 SI–DE (no entry-into-force date).
+
+**Rebuild order.** `curate.py` overwrites files, so re-run it in this order when rebuilding the
+seed folder: hub research → remaining-treaty research → gap pass → batch-8 research. Later folders
+carry corrections (e.g. IE–DE entry into force) that earlier ones lack.
+Investment-conditioned dividend tiers ("holds X% AND invested at least N") are dropped; "or"
+conditions are kept because the percentage alone qualifies.
