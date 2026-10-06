@@ -1,0 +1,69 @@
+{
+ "a": "FI",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Finland and the People's Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income (1985)",
+ "signed": "1985-04-25",
+ "entry_into_force": "1986-04-21",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1986/11",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 21 päivänä tammikuuta 1986, tulee voimaan 21 päivänä huhtikuuta 1986 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–BG Convention (SopS 10-11/1986), English text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1986/11",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "1. Dividends paid by a company which is a resident of Finland to a resident of Bulgaria may be taxed in Bulgaria. 2. However, such dividends may also be taxed in Finland and according to the laws of Finland, but the tax so charged shall not exceed 10 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(1)",
+   "valid_from": "1987-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(2) (patents, trade marks, designs, plans, secret formulas, equipment incl. data processing programmes, know-how — Art. 11(3)(b)-(c))",
+   "valid_from": "1987-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Notwithstanding the provisions of paragraph 1, royalties of the kind referred to in sub-paragraphs b) and c) of paragraph 3, may be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 5 percent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(1) (copyright royalties — Art. 11(3)(a))",
+   "valid_from": "1987-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "Bulgaria 11/1986 currently valid version 10-11/1986 (no MLI notice listed)"
+ },
+ "notes": "Old non-OECD-model treaty: dividend article (Art. 9) covers only dividends paid by Finnish companies to Bulgarian residents (FI source cap 10%, no beneficial-ownership wording). Bulgarian-source dividends are not dealt with by Art. 9; under Art. 19 (other income) they are taxable only in the residence State — this is an interpretation, joint-venture profit shares are separately taxable in the JV State under Art. 8. Copyright royalties exclusive to residence State; other royalties 5% cap. Treaty WHT effect: income derived on or after 1 January following EIF (Art. 25(2)(a)) = 1987-01-01. Treaty not covered by the MLI (neither FI nor BG lists it); no PPT. [curated: dropped DIVIDEND tier — Bulgarian-source dividends read as 'other income' — interpretation, not an express dividend cap]",
+ "confidence": "medium",
+ "unverified": [
+  "Treatment of Bulgarian-source dividends as Art. 19 'other income' (exclusive residence taxation) is an inference from the text; no official commentary checked"
+ ]
+}

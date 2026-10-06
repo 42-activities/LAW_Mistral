@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "MT",
+ "treaty_name": "Agreement between the Republic of Finland and Malta for the avoidance of double taxation with respect to taxes on income (2000, as modified by the MLI)",
+ "signed": "2000-10-30",
+ "entry_into_force": "2001-12-30",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2001/82",
+ "eif_quote": "... sopimus, jonka hyväksymistä koskevat nootit on vaihdettu 30 päivänä marraskuuta 2001, tulee Suomen osalta kansainvälisesti voimaan 30 päivästä joulukuuta 2001 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–MT Agreement (SopS 81-82/2001)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2001/82",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)(i)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "(i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)(ii)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State shall be taxable only in the other Contracting State if the beneficial owner of the interest is a resident of that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State shall be taxable only in the other Contracting State if the beneficial owner of the royalties is a resident of that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2001/82",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2020-01-01"
+ },
+ "notes": "Maltese-source dividends (Art. 10(2)(a)): no Malta tax on the dividend in excess of the tax chargeable on the profits out of which it is paid (imputation-system rule, not a percentage cap — the general MT-source case is therefore not modelled as a rate; Art. 10(2)(b) caps Malta tax at 15% for dividends paid out of aided-industry profits — special tier, not modelled). Art. 10(1)(b) Finnish exemption while Finnish imputation credit existed — obsolete since 2005. 5% FI tier threshold is 10% of voting power. Treaty effect: Finland — WHT on income derived on or after 1 January 2002; Malta — income derived in years/periods beginning on or after 1 January 2002. MLI arts 6, 7, 9, 16 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

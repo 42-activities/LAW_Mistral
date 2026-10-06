@@ -1,0 +1,78 @@
+{
+ "a": "AZ",
+ "b": "DK",
+ "treaty_name": "Convention between the Government of the Kingdom of Denmark and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2017)",
+ "signed": "2017-02-17",
+ "entry_into_force": "2017-12-31",
+ "eif_source_url": "https://www.retsinformation.dk/eli/ltc/2018/4/pdf",
+ "eif_quote": "Overenskomsten trådte i medfør af artikel 27 i kraft den 31. december 2017.",
+ "source_title": "Lovtidende C 2018 Nr. 4 (BKI nr. 4 af 19.02.2018): Bekendtgørelse af overenskomst mellem Danmark og Azerbaijan (English/Danish text)",
+ "source_url": "https://www.retsinformation.dk/eli/ltc/2018/4/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company other than a partnership which holds directly at least 20 per cent of the capital of the company paying the dividends and provided that an investment of at least one million (1.000.000) Euros or its equivalent in any other currency has been made in the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "...but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of royalties paid in respect of a patent, design or model, plan, secret formula or process, or information concerning industrial, commercial or scientific experience,"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 5% tier also requires an investment of at least EUR 1,000,000 in the capital of the paying company (not modelled). Royalty 5% tier is by type (patent, design/model, plan, secret formula/process, know-how); 10% for other royalties (copyright, trademarks, films). Interest exempt at source (Art. 11(3)) when paid by/to Governments, administrative-territorial subdivisions, local authorities, Central Banks, or beneficially owned by the State Oil Fund (AZ) / IFU (DK) (not modelled). Art. 27(2)(a): WHT provisions apply to amounts paid or credited on/after 1 Jan of year following EIF (31 Dec 2017 -> 2018-01-01). MLI: both parties list the treaty; Denmark has no Art. 35(7) reservation (only Art. 35(3) choice for other taxes); Denmark chose Art. 7(7)(a) (SLOB symmetry acceptance) but Azerbaijan did not choose SLOB, so PPT only. MLI WHT effect 2025-01-01 (later MLI entry into force, per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day holding period.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "EE",
+ "b": "RO",
+ "treaty_name": "Convention between the Republic of Estonia and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-10-23",
+ "entry_into_force": "2005-11-29",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 50. | Romania | 06.02.1998 | 23.10.2003 | 26.10.2005 ( est/eng ) | 29.11.2005 | 01.01.2006 | ",
+ "source_title": "EE-RO Convention 2003 (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/958615",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Royalties are in Article 13 (Article 12 covers commission: source-State cap 2% on commissions paid to brokers/commission agents - not modelled). Single 10% dividend rate (no participation tier). Interest exempt at source for Government (incl. local authorities/administrative-territorial units), Central Bank, wholly-owned financial institutions and government-guaranteed loans (Art. 11(3)). No protocol.",
+ "confidence": "high",
+ "unverified": []
+}

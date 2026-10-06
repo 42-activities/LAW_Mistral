@@ -1,0 +1,45 @@
+{
+ "a": "SK",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Czechoslovak Socialist Republic and the Government of the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1986), as modified by the MLI",
+ "signed": "1986-10-23",
+ "entry_into_force": "1989-05-23",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1989/98/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť na základe svojho článku 27 ods. 2 dňom 23. mája 1989.",
+ "source_title": "Vyhláška MZV č. 98/1989 Zb. (Slovak translation of CSSR-GR treaty; authentic English); MLI notice 448/2021 Z. z. with annex",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1989/98/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Také úroky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu, ale ak príjemca je skutočným vlastníkom úrokov, daň takto ukladaná nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Licenčné poplatky uvedené v odseku 3a) sa však môžu zdaniť aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu. Daň takto určená však nemôže presiahnuť 10 % z hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2021/448/vyhlasene_znenie.html ; https://static.slov-lex.sk/pdf/prilohy/SK/ZZ/2021/448/vyhlasene_znenie_5359759-2.pdf",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(1) \"Dividendy ... podliehajú zdaneniu v oboch zmluvných štátoch\" — no source-State limit (domestic rate applies). Art. 27(2): effective for income of tax years beginning on/after 1 January of the year following EIF (23.5.1989) -> 1990-01-01. Art. 11(3): interest on loans granted by a Contracting State government or a bank/institution on its behalf taxable only in residence State. Royalties: 10% only for Art. 12(3)(a) industrial royalties; copyright royalties (Art. 12(3)(b), incl. films) taxable only in residence State — not modelled. MLI applies (notice 448/2021 Z. z., amendments in annex PDF): PPT for WHT from 2022-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

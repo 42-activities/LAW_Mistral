@@ -1,0 +1,70 @@
+{
+ "a": "RS",
+ "b": "CH",
+ "treaty_name": "Convention between the Council of Ministers of Serbia and Montenegro and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital (2005, as amended by Protocol 2023)",
+ "signed": "2005-04-13",
+ "entry_into_force": "2006-05-05",
+ "eif_source_url": "https://www.sif.admin.ch/dam/de/sd-web/Rq53YeWNalWg/DBA-Liste%20DE-per%2001.01.2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[CH list] S e r b i e n E & V A 13. 4.05 .968.21 P 19.9.23 Änderung des A 2005; in Kraft seit 27.05.25, anwendbar ab 01.01.2026 || [RS MLI position] ...ome and on Capital Switzerland Original 13-04-2005 05-05-2006",
+ "source_title": "Уговор СЦГ–Швајцарска (2005) and Протокол (2023), mfin.gov.rs Serbian texts",
+ "source_url": "https://www.mfin.gov.rs/upload/media/AHBB1r_6012f4e4e1b1a.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: (1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 20 одсто капитала компаније која исплаћује дивиденде; (2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: (1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 20 одсто капитала компаније која исплаћује дивиденде; (2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице,разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "latest_protocol": "2023-09-19",
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 28 (inserted by Protocol 2023, art. 9)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/tDqMh8_695508d5129f3.pdf",
+  "quote": "Изузетно од било које одредбе овог уговора, погодност из овог уговора не одобрава се у односу на део дохотка или имовине ако се, узимајући у обзир све релевантне чињенице и околности, основано може закључити да је стицање погодности био један од главних разлога било којег аранжмана или трансакције која је непосредно или посредно резултирала том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба овог уговора."
+ },
+ "notes": "Dividend 5% tier: beneficial owner company (other than a partnership) holding directly at least 20% of capital. Protocol to the 2005 treaty, item 4 (ad Art. 12): as long as Switzerland does not levy a source tax on royalties paid to non-residents, Art. 12(2) does not apply and royalties are taxable only in the residence State (so Swiss-source royalties are effectively exempt; Serbian-source royalties capped at 10%). Protocol 2023 (signed 2023-09-19) adds a PPT (new Art. 28) and amends Arts. 7, 9, 13, 23, 24, 26 but does not change WHT rates; it applies from 1 Jan of the year after its entry into force (Art. 12(2)); entry into force 2025-05-27 taken from merged treaty-map notes (not verified from an official notice). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Protocol 2023 entry into force date 2025-05-27 (from merged map notes)"
+ ]
+}

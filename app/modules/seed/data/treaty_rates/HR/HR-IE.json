@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "IE",
+ "treaty_name": "Convention between the Government of the Republic of Croatia and the Government of Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2002)",
+ "signed": "2002-06-21",
+ "entry_into_force": "2003-10-30",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2004_02_1_7.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Irske o izbje­gava­nju dvostrukog oporeziva­nja i sprječava­nju izbje­gava­nja plaća­nja poreza na dohodak i na dohodak od otuđe­nja imovine, potpisan u Zagrebu 21. lip­nja 2002., objav­ljen u »Narodnim novinama – Međunarodni ugovori« br. 16/2003., stupio na snagu 30. listopada 2003.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Irske o izbjegavanju dvostrukog oporezivanja (NN-MU 16/2003)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2003_10_16_137.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% brutoiznosa dividendi kad je stvarni korisnik društvo (osim partnerstva) koje izravno raspolaže s najmanje 10% prava glasa u društvu koje isplaćuje dividendu,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% brutoiznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate nastale u državi ugovornici, a isplaćene rezidentu druge države ugovornice, oporezuju se samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve naknade za autorska prava mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik naknada rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 10% brutoiznosa naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27: Croatia - WHT on income received on or after 1 January of the year following EIF (2003) -> 2004-01-01; Ireland - years of assessment/financial years beginning on or after 1 January 2004. 5% dividend tier based on >=10% of voting power held directly by a company (not a partnership). Interest exempt at source (Art. 11(1) 'oporezuju se samo u toj drugoj državi').",
+ "confidence": "high",
+ "unverified": []
+}

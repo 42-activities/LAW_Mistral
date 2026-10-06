@@ -1,0 +1,70 @@
+{
+ "a": "EE",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Estonia and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-09-11",
+ "entry_into_force": "2004-07-05",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 23. | Hungary | 23.01.2002 + changes through correspondence | 11.09.2002 | 19.05.2004 ( est/eng ) | 05.07.2004 | 01.05.2005 | ",
+ "source_title": "EE-HU Convention 2002 with Protocol (Riigi Teataja, est/eng) + MoF MFN notice",
+ "source_url": "https://www.riigiteataja.ee/akt/770004",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as modified by Protocol para. 3 (MFN)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Protocol 3: \"If in any Convention ... signed after the date of signature of this Convention by Estonia and a third State which is a member of the [OECD] ..., Estonia agrees to a definition of royalties which excludes any rights or other property referred to in paragraph 3 or to exempt royalties arising in Estonia from Estonian tax on royalties or to rates of tax lower than those provided for in paragraph 2, such definition, exemption, or lower rates shall automatically apply under this Convention ...\" ; Estonian MoF: \"From 1 January 2016 the state of residence has the exclusive right to tax royalties and the term \"royalties\" does not contain a reference to the payments for the use of, or the right to use, industrial, commercial or scientific equipment based on the most-favoured nation clause in paragraph 3 of the Protocol of the Convention between Estonia and Hungary, which was triggered by the Amending Protocol of the Convention between Estonia and Switzerland effective from the same date.\""
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Royalties: original Art. 12(2) caps 5% (equipment, satellite/cable transmission) / 10% (other) superseded from 2016-01-01 by MFN (Protocol para 3) triggered by EE-CH Protocol, per Estonian MoF; Hungarian-side confirmation not checked. Interest taxable only in residence State (Art. 11(3)) for state bodies, central banks, Eximbank/MEHIB and loans guaranteed by them, and credit-sale interest. valid_from per Art. 28(2)(a) = 1 January after EIF (2005-01-01); the MoF table's 'Effective from 01.05.2005' appears inconsistent with Art. 28.",
+ "confidence": "medium",
+ "unverified": [
+  "Hungarian-side application of royalty MFN not confirmed",
+  "MoF table effective date 01.05.2005 vs Art. 28 -> 2005-01-01"
+ ]
+}

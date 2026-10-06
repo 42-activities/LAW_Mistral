@@ -1,0 +1,67 @@
+{
+ "a": "SI",
+ "b": "LU",
+ "treaty_name": "Convention between the Republic of Slovenia and the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001, as amended 2013)",
+ "signed": "2001-04-02",
+ "entry_into_force": "2002-12-18",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-luxembourg-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): LUKSEMBURG | MP, št. 6/02, | 1. 1. 2003 | SLO ENG | za davke pri viru 1.1.2020; za druge davke 1.2.2020 |",
+ "source_title": "Synthesised text of the MLI and the SI-LU Convention 2001 as amended by Protocol 2013 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB-MLI-KIDO-SLO-LUK-angl-v2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB-MLI-KIDO-SLO-LUK-angl-v2.pdf",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Convention."
+ },
+ "notes": "Convention applicable to WHT on income derived on or after 1 January of the year following entry into force (Art. 30(2)(a)) -> 1.1.2003. Protocol 2013 (MP 6/14) replaced Art. 27 (exchange of information) only; Arts. 10-12 unchanged. Art. 11(3): interest derived by the other State's Government, local authorities or Central Bank exempt. No MLI art. 8 in synthesised text; MLI WHT effect 1 January 2020.",
+ "confidence": "high",
+ "unverified": []
+}

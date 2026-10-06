@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Finland and the Republic of Austria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2000, as amended by Protocol 2011 and modified by the MLI)",
+ "signed": "2000-07-26",
+ "entry_into_force": "2001-04-01",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2001/18",
+ "eif_quote": "... sopimus, jonka hyväksymistä koskevat nootit on vaihdettu 3 päivänä tammikuuta 2001, tulee Suomen osalta kansainvälisesti voimaan 1 päivästä huhtikuuta 2001 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Syntetiserad text av konventionen (MLI) och avtalet mellan Finland och Österrike (FördrS 17-18/2001, Swedish-language version)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2001/18",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Om mottagaren av dividenden är ett bolag med hemvist i en avtalsslutande stat som direkt behärskar minst 10 procent av röstetalet i det bolag som betalar dividenden får dividenden inte, utan hinder av bestämmelserna i stycke 2, beskattas i den andra avtalsslutande staten."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Dividenden får emellertid beskattas även i den avtalsslutande stat där det bolag som betalar dividenden har hemvist, enligt lagstiftningen i denna stat, men skatten får inte överstiga 10 procent av dividendens bruttobelopp."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Ränta, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Royaltyn får emellertid beskattas även i den avtalsslutande stat från vilken den härrör, enligt lagstiftningen i denna stat, men skatten får inte överstiga 5 procent av royaltyns bruttobelopp."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2001/18",
+  "quote": "I enlighet med artikel 35 stycke 1 och 3 i konventionen börjar Republiken Finland tillämpa artikel 7 stycke 1 i konventionen på detta avtal a) i fråga om skatter som innehålls vid källan på belopp som betalas till eller gottskrivs personer som inte har hemvist (nonresidents), om den händelse som ligger till grund för dessa skatter inträffar på eller efter den 1 januari 2020 (same for Austria)"
+ },
+ "notes": "Dividend exemption at source requires the recipient company to hold directly at least 10% of the voting power (röstetal), not capital. Art. 10(4) Finnish alternative (exemption while Finnish imputation credit existed) obsolete since 2005 abolition — not modelled. Text read is the Swedish-language synthesised version on Finlex (no English version published; authentic languages Finnish/Swedish/German). Protocol 2011 (SopS 95/2011, in force 2011-12-01) only replaced Art. 26 (exchange of information). Treaty WHT effect: income derived on or after 1 January of the year following EIF = 2002-01-01. MLI arts 6, 7 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

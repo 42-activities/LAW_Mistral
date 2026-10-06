@@ -1,0 +1,67 @@
+{
+ "a": "LT",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Lithuania and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (2005)",
+ "signed": "2005-04-06",
+ "entry_into_force": "2005-11-17",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.264686",
+ "eif_quote": "e-seimas metadata: 2005-04-06 Priėmė 2005-10-13 Ratifikuota 2005-11-17 Įsigalioja Įsigalioja 2005-11-17 || 2. Sutartis įsigalioja vėlesniojo iš pranešimų, nurodytų 1 dalyje, dieną ir jos nuostatos abiejose Susitariančiosiose Valstybėse pradedamos taikyti:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Republic of Lithuania and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (2005)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.264686",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Valstybės įstatymus, bet jei faktiškasis dividendų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip: a) 5 procentai bendros dividendų sumos, jeigu faktiškasis savininkas yra kompanija (išskyrus bendriją), kuri dividendus mokančioje kompanijoje tiesiogiai turi ne mažiau kaip 25 procentus kapitalo;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jei faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip 10 procentų bendros palūkanų sumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentų bendros honoraro sumos visais kitais atvejais."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "5% dividend tier requires a company (not partnership) beneficial owner holding directly >=25% of capital. Art. 12(2)(a) 5% applies only to payments for use of industrial, commercial or scientific equipment (special tier not modelled; general royalty cap 10%). Interest exempt at source (Art. 11(3)) for government/central bank/government-owned financial institutions and government-guaranteed loans, and for credit-sale interest between unrelated enterprises - not modelled. Art. 29(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 2005-11-17 -> 2006-01-01). No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)). Authentic texts LT/DE/EN (English prevails); Lithuanian text read.",
+ "confidence": "high",
+ "unverified": []
+}

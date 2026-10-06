@@ -1,0 +1,70 @@
+{
+ "a": "KZ",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997)",
+ "signed": "1997-03-19",
+ "entry_into_force": "1998-10-02",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z980000270_",
+ "eif_quote": "(Вступила в силу 2 октября 1998 года - ж. \"Дипломатический курьер\", спецвыпуск N 2, сентябрь 2000 года, стр. 166) Art. 28(2)(a): а) к налогам, взимаемым у источника, в отношении сумм, выплачиваемым или зачитываемым с или после первого января года, следующего за вступлением в силу Конвенции;",
+ "source_title": "Law of RK on ratification of KZ-SE Convention (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z980000270_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, налог, взимаемый в таком случае, не должен превышать: а) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания (иная, чем партнерство), которая прямо владеет не менее 10 % права голоса в компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1999-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, налог, взимаемый в таком случае, не должен превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают и в соответствии с законодательством этого Государства, но, если получатель является фактическим владельцем процентов, налог, взимаемый в таком случае, не будет превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, то налог взимаемый таким образом не должен превышать 10 процентов общей суммы роялти. В случае роялти, описанных в подпункте b) пункта 3, фактический владелец может выбрать подсчет налога на такой доход на базе чистого дохода, как если бы такой доход относился к постоянному учреждению или постоянной базе в Договаривающемся Государстве, в котором возникли роялти."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none in effect: MLI art. 7 not yet effective (SE Art. 35(7)); treaty art. 27 has only a targeted LOB (27(1)) and main-purpose rules for Arts 11-12 (27(2)-(3))",
+  "source_url": "http://insecure.zan.kz/rus/docs/Z980000270_",
+  "quote": "2. Положения Статьи 11 не применяются, если главной целью или одной из главных целей любого лица, связанного с образованием или переуступкой долговых обязательств, в отношении которых выплачивается процент было получение возможности использовать Статью 11, создав такое долговое обязательство или переуступив его. 3. Положения Статьи 12 не применяются, если главной целью или одной из главных целей любого лица, связанного с возникновением или переуступкой прав, в отношении которых выплачиваются роялти, получить выгоду от Статьи 12 посредством такого возникновения или переуступки."
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) directly holding >=10% of the voting power. Interest taxable only in residence State where paid by/to a State, subdivision, local authority or central bank, or on loans by Swedfund/SEK-type export bodies on concessional terms (Art. 11(3)) - not modelled. Royalty owner may elect net taxation for equipment rentals (Art. 12(2)). MFN clauses (Arts 10(7), 11(8), 12(7)): any exemption or lower KZ rate agreed with an OECD member applies automatically to Sweden. Checked KZ treaties with OECD members on adilet: no interest or royalty cap below 10% found; for dividends no general company-tier rate below 5% found, but narrow exemptions exist in other KZ treaties (e.g. KZ-NL Protocol VII(1) government-guaranteed investment exemption) whose MFN effect is not modelled. MLI: both list the treaty but Sweden reserved Art. 35(7)(a) and no Swedish 35(7)(b) notification for KZ was found (treaty map) -> MLI not in effect. Treaty Art. 27(1) is a targeted limitation-on-benefits clause (base/holding companies with mainly foreign income) and Arts 27(2)-(3) deny Arts 11/12 for main-purpose debt-claim/right arrangements; no general PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "MFN effect of narrow dividend exemptions in other KZ-OECD treaties",
+  "Sweden Art. 35(7)(b) notification status (treaty map)"
+ ]
+}

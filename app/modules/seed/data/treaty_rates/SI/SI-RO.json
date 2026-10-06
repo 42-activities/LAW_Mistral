@@ -1,0 +1,56 @@
+{
+ "a": "SI",
+ "b": "RO",
+ "treaty_name": "Convention between the Republic of Slovenia and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-07-08",
+ "entry_into_force": "2003-03-28",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): ROMUNIJA | MP, št. 25/02 | 1. 1. 2004 | SLO ENG | za davke pri viru v RS in Romuniji 1.1.2024; za druge davke v RS 5. 10. 2023 v Romuniji 1.1.2024 |",
+ "source_title": "Synthesised text of the MLI and the SI-RO Convention 2002 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-ROM-angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-ROM-angl.pdf",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that re sulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Convention."
+ },
+ "notes": "Convention has effect for WHT on income derived on or after 1 January of the year following entry into force (Art. 29(1)(i)) -> 1.1.2004; replaced SFRY-Romania 1986 convention. Art. 11(3): interest paid to Governments, central banks, Eximbank / Slovene Export Company or on loans guaranteed by them exempt. MLI WHT effect 1 January 2024 in both States (Art. 35(7) notification route).",
+ "confidence": "high",
+ "unverified": []
+}

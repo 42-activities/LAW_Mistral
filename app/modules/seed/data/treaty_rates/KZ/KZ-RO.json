@@ -1,0 +1,56 @@
+{
+ "a": "KZ",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-09-21",
+ "entry_into_force": "2000-04-21",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z990000401_",
+ "eif_quote": "(Вступило в силу 21 апреля 2000 года) Art. 31: а) в отношении налогов, удерживаемых у источника, на доход, полученный на или после 1 января календарного года, следующего за годом, в котором Конвенция вступила в силу; и",
+ "source_title": "Law of RK on ratification of KZ-RO Convention (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z990000401_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, то взимаемый таким образом налог не будет превышать 10 процентов общей суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем процентов, то взимаемый таким образом налог не будет превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, то налог, взимаемый таким образом, не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Single 10% tier per category. Interest received by the other Government, subdivisions, local authorities or their agencies/banks exempt (Art. 11(3)) - not modelled. Arts 11(8), 12(7) main-purpose rules. Treaty also has a separate Art. 13 on commissions (not modelled). MLI: Romania reserved Art. 35(7)(a); RO notification for KZ 2023-03-06 -> WHT effect 2024-01-01 (treaty map).",
+ "confidence": "high",
+ "unverified": []
+}

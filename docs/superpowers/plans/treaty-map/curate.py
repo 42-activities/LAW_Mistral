@@ -22,6 +22,55 @@ DROP = {
     "reduced Israeli rate — not modelled",
     ("US-BE", "DIVIDEND", "80", True, "US", None): "US-source 0% needs the LOB test and a "
     "Treasury certification that could not be confirmed",
+    # Batch-8 treaty network
+    ("MD-GB", "DIVIDEND", "50", True): "0% also needs GBP 1m invested — not modelled",
+    ("MD-NL", "DIVIDEND", "50", True): "0% also needs USD 300k invested — not modelled",
+    ("FI-BG", "DIVIDEND", None, True): "Bulgarian-source dividends read as 'other income' — "
+    "interpretation, not an express dividend cap",
+    ("HR-IL", "DIVIDEND", "10", False, "IL", "10"): "10% only for profits taxed at a reduced "
+    "Israeli rate — not modelled",
+    ("UZ-GB", "DIVIDEND", None, False, None, "15"): "15% applies only to property investment "
+    "vehicles",
+    ("LT-BE", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-CH", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-DK", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-ES", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-HU", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-IE", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-IT", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-LU", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-NL", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LT-SE", "ROYALTY", None, True): "MFN 0% (Lithuania–Japan) not confirmed by an official "
+    "notice",
+    ("LV-BE", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-ES", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-HU", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-IE", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-IT", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-LU", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-NL", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-CH", "ROYALTY", None, True): "MFN 0% (Latvia–Japan) not confirmed by an official "
+    "notice",
+    ("LV-ES", "INTEREST", None, True): "MFN interest exemption (Latvia–Japan) not confirmed "
+    "by an official notice",
+    ("LV-LU", "INTEREST", None, True): "MFN interest exemption (Latvia–Japan) not confirmed "
+    "by an official notice",
     ("NL-HK", "DIVIDEND", "10", True): "0% needs a listing, bank or HQ test or competent-authority "
     "approval — not modelled",
 }

@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Slovak Republic and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2005), as modified by the MLI",
+ "signed": "2005-05-09",
+ "entry_into_force": "2006-06-12",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/381/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudne platnosť 12. júna 2006 v súlade s článkom 27 .",
+ "source_title": "Oznámenie MZV SR č. 381/2006 Z. z. (SK-SG agreement and protocol); MLI notice 259/2019 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/381/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého je spoločnosť vyplácajúca dividendy rezidentom, a to podľa právnych predpisov tohto štátu, ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť, ktorá priamo vlastní najmenej 10 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky majúce zdroj v jednom zmluvnom štáte a vyplácané rezidentovi druhého zmluvného štátu podliehajú zdaneniu len v tomto druhom štáte, ak tento rezident je skutočným vlastníkom úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2019/259/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 27(a)(i): in Slovakia WHT provisions apply to income derived from 1 January of the year following EIF (12.6.2006) -> 2007-01-01; in Singapore from year of assessment beginning 1 January of the second year following EIF (2008). Signature: notice says 15 May 2005 but the closing clause reads \"Dané v Singapure 9. mája 2005\" (9 May used). Art. 10(3): dividends paid to the other State government (incl. NBS / MAS, GIC and wholly/substantially government-owned bodies) exempt. Interest taxable only in residence State. MLI applies (notice 259/2019 Z. z.): PPT for WHT from 2020-01-01; MLI art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

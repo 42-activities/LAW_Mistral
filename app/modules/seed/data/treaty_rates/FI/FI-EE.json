@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "EE",
+ "treaty_name": "Convention between the Republic of Finland and the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993; Art. 12 application amended by MoF notice SopS 55/2016; modified by MLI)",
+ "signed": "1993-03-23",
+ "entry_into_force": "1993-12-30",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1993/96",
+ "eif_quote": "... jonka hyväksymistä koskevat nootit on vaihdettu 30 päivänä marraskuuta 1993, tulee voimaan 30 päivänä joulukuuta 1993 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–EE Convention (SopS 95-96/1993) incl. SopS 55/2016",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1993/96",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as applied from 1 January 2016 (SopS 55/2016, MFN under Art. 12(7))",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "As of 1 January 2016, the following provisions shall apply in place of Article 12(2) and (3) of the Convention ...: 2. Royalties shall not be taxed in the Contracting State in which they arise."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1993/96",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | In accordance with paragraphs 1, 3 and 7 of Article 35 of the MLI, paragraph 1 of Article 7 of the MLI has effect ... a) with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 1 January 2022"
+ },
+ "notes": "Art. 10(2) alternative regime (Finnish dividend exemption / 5% cap) applied only 'as long as an individual resident in Finland is entitled to a tax credit in respect of dividends' — Finnish imputation credit abolished from 2005, so Art. 10(1) applies (not modelled). Art. 11(3): interest exempt at source when paid to the State, central bank, local authorities, statutory bodies, FINNFUND/Finnish Export Credit or Estonian equivalents, on loans guaranteed by such bodies, and on credit sales of merchandise/equipment between unrelated enterprises. Royalties: original Art. 12(2) caps (5% equipment / 10% other) replaced from 2016-01-01 by source exemption via MFN clause Art. 12(7) (MoF notice SopS 55/2016); equipment leasing also removed from the royalty definition. MLI applies arts 6, 7 and 16 only (no Art. 8 holding period). Treaty WHT effective date: income derived on or after 1 January of year following EIF (Art. 29(2)(a)) = 1994-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

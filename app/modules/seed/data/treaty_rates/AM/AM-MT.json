@@ -1,0 +1,69 @@
+{
+ "a": "AM",
+ "b": "MT",
+ "treaty_name": "Agreement between the Government of the Republic of Armenia and the Government of the Republic of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2019)",
+ "signed": "2019-09-24",
+ "entry_into_force": "2021-11-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[MT list] Malta MLI position (2018) Article 2 list: no Armenia entry. || [AM MLI position] ...nd Avoidance Republic of Malta Original 24-09-2019 25-11-2021",
+ "source_title": "AM-MT Agreement, English text (scanned PDF MALTA_DoubleTaxationTreaty_EN, Armenian MoF archive), pages read visually",
+ "source_url": "https://minfin.am/website/images/files/30.MALTA_DoubleTaxationTreaty.zip",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "AM",
+   "quote": "(a) where the dividends are paid by a company which is a resident of Armenia to a resident of Malta who is the beneficial owner thereof, the tax so charged in Armenia shall not exceed: (i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends and has invested at least one and a half million euro (or the equivalent amount in any other currency) in the share capital of the company paying the dividends at the date of payment of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AM",
+   "quote": "(ii) 10 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://minfin.am/website/images/files/30.MALTA_DoubleTaxationTreaty.zip",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Dividend limits are asymmetric: Art. 10(2)(a) caps Armenian tax on dividends paid by Armenian companies (5% tier also requires investment of at least EUR 1.5 million in share capital at payment date); Art. 10(2)(b): for dividends paid by a Maltese company 'Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid' (no fixed percentage; MT-source dividends not modelled). No interest exemptions in Art. 11. Art. 28: in Armenia WHT on income derived on or after 1 January of the year following EIF (2021-11-25 -> 2022-01-01); in Malta for calendar years/accounting periods beginning on or after 1 January immediately following EIF. Not MLI-covered (signed after Malta's MLI deposit); PPT in treaty Art. 27.",
+ "confidence": "high",
+ "unverified": [
+  "EIF 2021-11-25 from Armenia MLI position (Malta national list unreachable)"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "a": "SI",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Slovenia and the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-10-20",
+ "entry_into_force": "2004-05-04",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bulgaria.pdf (signature-time list; deposit PDF image-only) ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): BOLGARIJA | MP, št. 12/04 | 1. 1. 2005 | SLO ENG | za davke pri viru: 1. 1. 2023 za druge davke v RS 1. 7. 2023 v Bolgariji 1. 1. 2024 |",
+ "source_title": "Synthesised text of the MLI and the SI-BG Convention 2003 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-BOL-angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is the resident of the other Contracting State, the tax so charged shall not exceed: ... b) 10 per cent of the gross amount of the royalties in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of: (i) royalties paid for the use of, or the right to use, any copyright of literary, artistic or scientific work (but not including cinematograph films); (ii) royalties paid for the use of, or the right to use, industrial, commercial or scientific equipment."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-BOL-angl.pdf",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Convention."
+ },
+ "notes": "Convention applicable to WHT on income derived on or after 1 January of the year following entry into force (Art. 29(2)(a)) -> 1.1.2005. Royalty 5% tier only for copyright of literary/artistic/scientific work (excluding cinematograph films) and industrial, commercial or scientific equipment; 10% otherwise. Art. 11(3): interest derived and beneficially owned by the other State's Government, political subdivision, local authority or Central Bank exempt. MLI applies only PPT (no MLI art. 8 dividend holding period in synthesised text); MLI WHT effect 1 January 2023.",
+ "confidence": "high",
+ "unverified": []
+}

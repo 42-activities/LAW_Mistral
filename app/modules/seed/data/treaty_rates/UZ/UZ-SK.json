@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "SK",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Slovak Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-03-06",
+ "entry_into_force": "2003-10-17",
+ "eif_source_url": "https://lex.uz/ru/docs/2096478 ; SK MLI position",
+ "eif_quote": "SK MLI list: 'UZ Original signed 2003-03-06, EIF 2003-10-17'; lex.uz: '(Вступило в силу 20 октября 2003 года)'",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Словакия Республикаси Ҳукумати ўртасида Битим (Тошкент, 06.03.2003), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2096476",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо бошқа Аҳдлашувчи Давлат резиденти дивидендларнинг ҳақиқий эгаси бўлса, унда шу тарзда ундириладиган солиқнинг миқдори дивидендлар умумий миқдорининг 10 фоизидан ошмайди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо (фоизнинг ҳақиқий эгаси) бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бу ҳолда солиқнинг миқдори фоизлар умумий миқдорининг 10 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо бу даромадларни олувчи роялтининг эгаси бўлса, шу тарзда олинадиган солиқ роялтилар ялпи миқдорининг 10 фоизидан ошиб кетмаслиги лозим."
+  }
+ ],
+ "notes": "No interest exemption for governments in Art. 11. Art. 28(2)(a): source taxes from 1 January of the year following entry into force. EIF conflict: lex.uz 20.10.2003 vs SK MLI list 17.10.2003 (both in 2003, valid_from unaffected).",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

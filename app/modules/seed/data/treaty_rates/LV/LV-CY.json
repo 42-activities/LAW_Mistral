@@ -1,0 +1,89 @@
+{
+ "a": "LV",
+ "b": "CY",
+ "treaty_name": "Convention between the Government of the Republic of Latvia and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-05-24",
+ "entry_into_force": "2016-10-27",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 12 | Cyprus |  13.12.12. | 24.05.16.  | 07.10.16. | 01.01.17.",
+ "source_title": "Latvia–CY tax treaty, official Latvian text (likumi.lv id 1356)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1356",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no dividenžu kopapjoma, ja to patiesā labuma guvējs ir sabiedrība (kas nav personālsabiedrība);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no procentu kopapjoma, ja procentus izmaksā sabiedrība, kas ir Līgumslēdzējas Valsts rezidents otras Līgumslēdzējas Valsts rezidenta sabiedrībai (kas nav personālsabiedrība) un tā ir procentu patiesais labuma guvējs;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no procentu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2017-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no autoratlīdzības kopapjoma, ja autoratlīdzības izmaksā Līgumslēdzējas Valsts sabiedrība otras Līgumslēdzējas Valsts sabiedrībai (kas nav personālsabiedrība) un ir autoratlīdzības patiesā labuma guvēja;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 procentus no autoratlīdzības kopapjoma visos pārējos gadījumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply from 1 January of the year following EIF (2016-10-27; FM table shows 07.10.16 - conflict noted in treaty map) -> 2017-01-01. 0% tiers are recipient-type tiers, not holding thresholds: dividends 0% where the beneficial owner is a company (other than a partnership), no minimum holding; interest and royalties 0% where paid by a company of one State to a company (other than a partnership) of the other State that is the beneficial owner. Art. 11(3): government/central bank/government-guaranteed interest exempt - not modelled. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

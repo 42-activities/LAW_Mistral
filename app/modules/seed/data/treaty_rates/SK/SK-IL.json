@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "IL",
+ "treaty_name": "Convention between the Government of the Slovak Republic and the Government of the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1999), as modified by the MLI",
+ "signed": "1999-09-08",
+ "entry_into_force": "2000-05-23",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/327/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť výmenou nót, t. j. 23. mája 2000 na základe článku 30 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 327/2000 Z. z. (SK-IL treaty); MLI notice 414/2018 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/327/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI art. 8(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2. Tieto dividendy však možno zdaniť v zmluvnom štáte, ktorého je spoločnosť, ktorá ich vypláca, rezidentom, a to podľa právnych predpisov tohto štátu; ak je však príjemca skutočným vlastníkom dividend, daň takto určená nepresiahne a) 5 % hrubej sumy dividend, ak príjemca vlastní priamo alebo nepriamo najmenej 10 % majetku spoločnosti vyplácajúcej dividendy; || MLI: K existujúcim ustanoveniam článku 10 ods. 2 písm. a) zmluvy sa uplatňuje nasledovné znenie článku 8 ods. 1 dohovoru: „Ustanovenia článku 10 ods. 2 písm. a) zmluvy sa uplatnia, len ak sú podmienky vlastníctva uvedené v týchto ustanoveniach splnené počas celého obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorý má v držbe akcie alebo ktorý vypláca dividendy).“"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(c)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 % hrubej sumy úrokov vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky možno zdaniť tiež v zmluvnom štáte, v ktorom je ich zdroj, a to v súlade s právnymi predpismi tohto štátu; ak je však príjemca skutočným vlastníkom licenčných poplatkov, suma dane takto stanovená nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2018/414/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 30(2)(a): WHT provisions apply to income paid from 1 January of the year following EIF (23.5.2000) -> 2001-01-01. Dividend 5% tier: recipient owning directly or indirectly >=10% (since 2001; MLI art. 8(1) 365-day holding from 2019-01-01); Art. 10(3): if the distributed profits were taxed at a rate not exceeding 15%, dividends may be taxed up to 10% notwithstanding 10(2)(a) — not modelled. Interest: 2% on government bonds and loans/credits granted/guaranteed/insured by NBS or Slovak export-credit insurer (SK) / Bank of Israel or Israel Foreign Trade Risks Insurance (IL); 5% where recipient is a financial institution; 10% otherwise — only general 10% modelled. Royalties 5% (incl. copyright and software). Art. 26 treaty limitation-of-benefits clause (competent authority may deny benefits) also present. MLI applies (notice 414/2018 Z. z.): PPT for WHT from 2019-01-01. English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

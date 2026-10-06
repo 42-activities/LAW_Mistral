@@ -1,0 +1,71 @@
+{
+ "a": "RS",
+ "b": "IL",
+ "treaty_name": "Agreement between the Government of the Republic of Serbia and the Government of the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2018)",
+ "signed": "2018-11-22",
+ "entry_into_force": null,
+ "eif_source_url": null,
+ "eif_quote": null,
+ "source_title": "Уговор Србија–Израел (2018), mfin.gov.rs Serbian text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/yxu8Qr_6012e92dd4871.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": null,
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која, у току периода од 365 дана који укључује дан исплате дивиденди, непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": null,
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која, у току периода од 365 дана који укључује дан исплате дивиденди, непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": null,
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": null,
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од: 1) 5 одсто бруто износа ауторских накнада наведених у ставу 3. тачка 1) овог члана; 2) 10 одсто бруто износа ауторских накнада наведених у ставу 3. тачка 2) овог члана."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": null,
+  "basis": "treaty art. 27",
+  "source_url": "https://www.mfin.gov.rs/upload/media/yxu8Qr_6012e92dd4871.pdf",
+  "quote": "Изузетно од било које одредбе овог уговора, погодност из овог уговора не одобрава се у односу на део дохотка ако се, узимајући у обзир све релевантне чињенице и околности, основано може закључити да је стицање погодности био један од главних разлога било којег аранжмана или трансакције која је непосредно или посредно резултирала том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба овог уговора."
+ },
+ "notes": "Dividend 5% tier: company (other than a partnership) holding directly at least 25% of capital throughout a 365-day period including the payment date (in treaty text). Art. 10(3): distributions by an Israeli-resident real estate investment fund to a Serbian resident holding directly less than 10% of the fund may be taxed in Israel at max 15% (not modelled). Royalties 5% for copyright/film (Art. 12(2)(1)), 10% for others; only 10% modelled. Interest exempt for government, political subdivision, local authority, central/national bank (Art. 11(3)). Rates apply for tax years beginning on/after 1 Jan of the year after entry into force (Art. 29(2)). ENTRY INTO FORCE NOT FOUND: Israel Tax Authority site (gov.il) returns 403 / connection reset; mfin.gov.rs and purs.gov.rs give no dates; web search budget exhausted. valid_from and PPT 'from' therefore left null. Not MLI-covered; PPT is in the treaty (Art. 27).",
+ "confidence": "medium",
+ "unverified": [
+  "entry_into_force (not found from an official source)",
+  "valid_from for all rates (depends on EIF)"
+ ],
+ "latest_protocol": null
+}

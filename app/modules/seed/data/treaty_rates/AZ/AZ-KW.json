@@ -1,0 +1,70 @@
+{
+ "a": "AZ",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of Azerbaijan and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2009)",
+ "signed": "2009-02-10",
+ "entry_into_force": "2012-04-18",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "[AZ MLI position] Kuwait Original 10.02.2009 18.04.2012 | Art. 30(1)(a): \"mənbədə tutulan vergilərə münasibətdə - bu Sazişin qüvvəyə mindiyi ildən sonrakı ilin 01 yanvar tarixində və ya ondan sonra ödənilən və ya kreditləşən məbləğlərə\"",
+ "source_title": "Law of the Republic of Azerbaijan No. 795-IIIQ of 28.04.2009 approving the AZ–KW Agreement and Protocol (Azerbaijani text), e-qanun.az",
+ "source_url": "https://e-qanun.az/framework/17659 (HTML https://e-qanun.az/frameworks/17/f_17659.html via api.e-qanun.az/framework/17659)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) dividendlərin ümumi məbləğinin 5 faizindən - əgər dividendlərin faktiki sahibi: (i) 4-cü maddənin 2-ci bəndinin (a) və (b) altbəndlərində göstərilmiş qurumdursa; (ii) birbaşa və ya dolayısı ilə dividendləri ödəyən şirkətin kapitalının ən azı 15 faizinə sahib olan şirkətdirsə və onun həmin şirkətdə iştirak payı 200.000 ABŞ dolları və ya bu məbləğin istənilən digər valyutada ekvivalentindən artıqdırsa;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) dividendlərin ümumi məbləğinin 10 faizindən - bütün digər hallarda."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla belə, bu cür faizlər həmçinin onların yarandığı Razılığa gələn Dövlətdə və onun qanunvericiliyinə müvafiq qaydada da vergiyə cəlb edilə bilər, lakin faizlərin faktiki sahibi Razılığa gələn digər Dövlətin rezidentidirsə, tutulan vergi faizlərin ümumi məbləğinin yeddi (7) faizindən artıq olmamalıdır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla belə, bu cür royaltilər həmçinin onların yarandığı Razılığa gələn Dövlətdə və onun qanunvericiliyinə müvafiq qaydada da vergiyə cəlb edilə bilər, lakin royaltilərin faktiki sahibi Razılığa gələn digər Dövlətin rezidentidirsə, tutulan vergi royaltilərin ümumi məbləğinin on (10) faizindən artıq olmamalıdır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Kuwait not an MLI Party; no main-purpose article in treaty)",
+  "source_url": "https://e-qanun.az/framework/17659 (HTML https://e-qanun.az/frameworks/17/f_17659.html via api.e-qanun.az/framework/17659)",
+  "quote": "No principal/main-purpose test found in Articles 1–31 or the Protocol; Kuwait has not ratified the MLI."
+ },
+ "notes": "Dividend 5% tier additionally requires the shareholding to exceed USD 200,000 (or equivalent) besides >=15% direct/indirect capital — the USD condition is not modelled in ownership_threshold. 5% also applies where the beneficial owner is a Government/subdivision/local authority or a body listed in Art. 4(2)(a)-(b) (government entities) — not modelled. Interest derived by Art. 4(2) government entities is exempt at source (Art. 11(3)) — not modelled. Protocol para. 2: payments for use of industrial, commercial or scientific equipment are treated as business profits, not royalties. Text is the Azerbaijani authentic version (Azerbaijani, Arabic and English equally authentic; English prevails) as annexed to AZ ratification law 795-IIIQ; e-qanun.az page needs JS, read via its public API. EIF 18.04.2012 only from Azerbaijan MLI position (Kuwait list not reachable; Kuwait not MLI party). Note for other AZ pairs: e-qanun.az texts are reachable via api.e-qanun.az/getDetailSearch?...&title=true&name=<country>&specialDate=false&array=29,30 and frameworks HTML with a Referer header.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF 2012-04-18 from Azerbaijan MLI position only",
+  "English prevailing text not seen; rates read from Azerbaijani authentic text"
+ ]
+}

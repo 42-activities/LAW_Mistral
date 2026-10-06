@@ -1,0 +1,67 @@
+{
+ "a": "KZ",
+ "b": "CY",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2019)",
+ "signed": "2019-05-15",
+ "entry_into_force": "2020-01-17",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z1900000298",
+ "eif_quote": "(Вступила в силу 17 января 2020 года) Art. 30(2)(a)(i): (і) по налогам, удерживаемым у источника выплаты, в отношении доходов, полученных с или после первого января календарного года, следующего за годом, в котором Конвенция вступила в силу; и",
+ "source_title": "Law of RK of 2019 on ratification of KZ-CY Convention and Protocol (adilet, Russian text; English text prevails)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z1900000298",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в том Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: а) 5 процентов от общей суммы дивидендов, если фактическим владельцем является компания (иная, чем партнерство), которая владеет прямо не менее 10 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2021-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в том Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: b) 15 процентов от общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие проценты могут также облагаться налогом в том Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец процентов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать 10 процентов от общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие роялти также могут облагаться налогом в том Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 процентов от общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 29 (entitlement to benefits)",
+  "source_url": "http://insecure.zan.kz/rus/docs/Z1900000298",
+  "quote": "Несмотря на другие положения настоящей Конвенции, преимущества в соответствии с настоящей Конвенцией не предоставляются в отношении элемента дохода, если это разумно заключить, с учетом всех соответствующих фактов и обстоятельств, что получение этой выгоды было одной из главных целей любой договоренности или сделки, что в результате прямо или косвенно принесло выгоду, если не будет установлено, что предоставление выгоды в этих обстоятельствах было в соответствии с целями и задачами соответствующих положений настоящей Конвенции."
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) holding directly >=10% of capital. Interest exempt when beneficially owned by the Government, political subdivision, central/local authority, Central Bank or wholly government-owned financial institution (Art. 11(3)) - not modelled. Treaty signed after both MLI lists; not an MLI covered agreement but contains its own PPT (Art. 29).",
+ "confidence": "high",
+ "unverified": []
+}

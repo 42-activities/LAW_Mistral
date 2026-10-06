@@ -1,0 +1,58 @@
+{
+ "a": "AZ",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2007)",
+ "signed": "2007-08-28",
+ "entry_into_force": "2008-03-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "Qatar Original 28.08.2007 11.03.2008",
+ "source_title": "GTA Qatar: DTA Azerbaijan (EN) - Agreement between the Government of the State of Qatar and the Government of the Republic of Azerbaijan",
+ "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Azerbaijan%20(EN).pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed (7) seven per cent of gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed (7) seven per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in the first-mentioned State. The tax so charged shall not exceed (5) five percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[QA] Azerbaijan Original 28/08/2007 24/02/2008 (listed agreement no. 4); Article 7 - Prevention of Treaty Abuse: no reservation (only notification of existing provisions, Azerbaijan not listed) || AZ: no Article 7 reservation"
+ },
+ "notes": "Single-tier caps: dividends 7%, interest 7%, royalties 5%. Interest exempt at source (Art. 11(3)) when derived by the other State's Government, Central/National Bank, administrative-territorial subdivision or local authority, or a financial institution wholly owned by that Government (not modelled). Art. 28: EIF on receipt of last notification; WHT effect for amounts paid on or after 1 January of the year following EIF => 2009-01-01 (same under either EIF date). CONFLICT on EIF date: Azerbaijan MLI position gives 11.03.2008; Qatar consolidated MLI position gives 24/02/2008 and the GTA agreements feed has date '24-Feb-2008'. MLI: covered by both; no Art. 7 reservation or 35(7) reservation by either; PPT effective for WHT from 2025-01-01 (AZ MLI entry into force). Both reserved Art. 8 entirely (no 365-day holding).",
+ "confidence": "high",
+ "unverified": [
+  "exact EIF date (2008-02-24 vs 2008-03-11)"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "a": "EE",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Government of the Hellenic Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-04-04",
+ "entry_into_force": "2008-08-01",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 20. | Greece | 07.02.2002 | 04.04.2006 | 08.11.2006 ( est/eng ) | 01.08.2008 | 01.01.2009 | ",
+ "source_title": "EE-GR Convention 2006 with Protocol (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/12754321",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the royalties paid for the use of industrial, commercial or scientific equipment;"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Royalty 5% tier is for equipment-rental royalties only. Interest exempt at source when beneficially owned by the other State's Government, local authorities or Central Bank (Art. 11(3)). Protocol covers only shipping (Art. 8). No MFN clause noted by Estonian MoF.",
+ "confidence": "high",
+ "unverified": []
+}

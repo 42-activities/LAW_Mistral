@@ -1,0 +1,56 @@
+{
+ "a": "AZ",
+ "b": "CZ",
+ "treaty_name": "Convention between the Government of the Czech Republic and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2005)",
+ "signed": "2005-11-24",
+ "entry_into_force": "2006-06-16",
+ "eif_source_url": "https://www.e-sbirka.cz/sm/2006/74",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 28 odst. 2 dne 16. června 2006 a její ustanovení se budou provádět v souladu se zněním odstavce 2 písm. a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 74/2006 Sb. m. s. (Czech text via e-Sbírka API)",
+ "source_url": "https://www.e-sbirka.cz/sm/2006/74",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 8 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.e-sbirka.cz/sb/2024/439",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest: 5% cap on interest paid on loans/credits granted by a bank (Art. 11(3)(b), not modelled as a separate tier); exemption for interest paid to the other Government, subdivisions, local authorities, central bank or Government-owned/controlled financial institutions, or on Government-guaranteed loans (Art. 11(3)(a)). Art. 28(2)(a): WHT provisions apply to income paid or credited on/after 1 Jan of year following EIF -> 2007-01-01. Protocol (4): benefits denied to companies established solely to obtain treaty benefits; Protocol (5) domestic anti-avoidance rules preserved. MLI: Czech Republic added the treaty by an Art. 29(5) additional notification made 16 Aug 2024 (Sdělení č. 439/2024 Sb., treaty no. 54); Azerbaijan lists it and notified Protocol (4) as an Art. 7(2) provision; no Art. 35(7) reservation found. MLI WHT effect 2025-01-01 (per merged dataset). Azerbaijan reserved Art. 8, so no 365-day holding period. Text read is the Czech version (English text prevails in case of divergence).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "EE",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Estonia and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "signed": "1994-10-24",
+ "entry_into_force": "1995-05-26",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 14. | Czech Republic | 03.03.1994 | 24.10.1994 | 14.12.1994 ( est/eng ) | 26.05.1995 | 01.01.1996 | ",
+ "source_title": "EE-CZ Convention 1994 (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/13117436",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Czechia listed the EE treaty in its MLI notifications (2024 extension), but Estonia reserved Art. 35(7)(a) and its 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include Czechia, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Interest exempt at source when beneficially owned by the other State's Government (incl. subdivisions/local authorities), Central Bank, wholly-owned financial institution, or on government-guaranteed loans (Art. 11(3)). No protocol.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,78 @@
+{
+ "a": "AZ",
+ "b": "ES",
+ "treaty_name": "Convention between the Kingdom of Spain and the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2014)",
+ "signed": "2014-04-23",
+ "entry_into_force": "2021-01-13",
+ "eif_source_url": "https://www.boe.es/boe/dias/2020/11/06/pdfs/BOE-A-2020-13685.pdf",
+ "eif_quote": "El presente Convenio entrará en vigor el 13 de enero de 2021, transcurrido un plazo de tres meses a partir de la recepción de la última notificación de las Partes informando del cumplimiento de sus requisitos internos, según se establece en su artículo 27.",
+ "source_title": "BOE núm. 293, 6 Nov 2020, BOE-A-2020-13685: Convenio España–Azerbaiyán y Protocolo (Bakú, 23 abril 2014)",
+ "source_url": "https://www.boe.es/boe/dias/2020/11/06/pdfs/BOE-A-2020-13685.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (distinta de una sociedad de personas) que posea directamente al menos el 25 por ciento del capital de la sociedad que paga los dividendos y que haya invertido más de doscientos cincuenta mil (250.000) euros, o el importe equivalente en cualquier otra moneda, en la sociedad que paga los dividendos."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "...pero si el beneficiario efectivo de los intereses es un residente del otro Estado contratante, el impuesto así exigido no podrá exceder del 8 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los cánones pagados por el uso o la concesión de uso de programas informáticos, patentes, marcas de fábrica o de comercio, dibujos o modelos, planos, fórmulas o procedimientos secretos, o por la información relativa a experiencias industriales, comerciales o científicas;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 por ciento del importe bruto de los cánones en todos los demás casos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-spain.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 5% tier additionally requires an investment of more than EUR 250,000 in the paying company (not modelled). Royalty 5% tier is by type of right (software, patents, trademarks, designs, plans, secret formulas/processes, know-how); 10% applies to copyright, films, equipment rental etc. Interest exempt at source (Art. 11(3)) when paid to/by the State, Central Bank, subdivisions, local entities, export-credit agencies, public financial institutions, etc. (not modelled). Art. 27(2)(a): WHT provisions apply to income derived from 1 January of the year following entry into force (EIF 13 Jan 2021 -> 2022-01-01). Protocol III: domestic anti-abuse rules apply; benefits denied to non-beneficial owners. MLI: Spain made an Art. 35(7)(a) reservation; Spain's 35(7)(b) notification for Azerbaijan received 26 May 2025, so MLI WHT effect from 1 Jan 2026 (per merged dataset). Azerbaijan reserved Art. 8 entirely, so no MLI 365-day dividend holding period.",
+ "confidence": "high",
+ "unverified": []
+}

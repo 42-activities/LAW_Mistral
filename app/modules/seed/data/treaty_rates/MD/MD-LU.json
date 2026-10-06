@@ -1,0 +1,69 @@
+{
+ "a": "MD",
+ "b": "LU",
+ "treaty_name": "Convention between the Government of the Republic of Moldova and the Government of the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007, with Protocol; as amended by Protocol of 25 June 2024)",
+ "signed": "2007-07-11",
+ "entry_into_force": "2009-12-04",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Marele Ducat de Luxemburg | Convenția | 11.07.2007, Chișinău | 04.12.2009 | 01.01.2010 ; [LU impotsdirects list] Protocole signé le 25/06/2024 | Mémorial A N° 123 du 7 avril 2025 | à partir du 01/01/2026",
+ "source_title": "MD MoF English text of the MD–LU Convention (Luxemburg_eng.pdf) and 2007 Protocol; 2024 amending Protocol (Mémorial A N° 123 du 7 avril 2025)",
+ "source_url": "https://mf.gov.md/sites/default/files/Luxemburg_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 20 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 26A (inserted by Protocol of 25 June 2024, Art. 5)",
+  "source_url": "https://legilux.public.lu/eli/etat/leg/loi/2025/03/25/a123/jo",
+  "quote": "1. Nonobstant les autres dispositions de la présente Convention, un avantage au titre de celle-ci ne sera pas accordé au titre d’un élément de revenu ou de fortune s’il est raisonnable de conclure, compte tenu de l’ensemble des faits et circonstances propres à la situation, que l’octroi de cet avantage était l’un des objets principaux d’un montage ou d’une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu’il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l’objet et au but des dispositions pertinentes de la présente Convention."
+ },
+ "notes": "Art. 11(3): interest exempt at source where beneficial owner is the State/administrative-territorial unit/local authority/Central Bank, interest paid by the source State, state-backed loans, or beneficial owner is a financial institution (not modelled). 2007 Protocol: 'capital' means 'property' for Moldova except in Art. 10(2) (so the 20% threshold is of capital). 2024 Protocol (signed 25.06.2024, approved by LU law of 25.03.2025) amends preamble, Arts. 23(5), 24(1), 25 and adds Art. 26A (PPT); it does not change Arts. 10-12. Its Art. 6(2) makes it applicable for tax years beginning on/after 1 January following its EIF; LU list states applicable from 01/01/2026. Moldova is not an MLI signatory; the PPT stems from the bilateral protocol.",
+ "confidence": "high",
+ "unverified": [
+  "exact EIF date of the 2024 Protocol (only 'applicable from 01/01/2026' per LU list)"
+ ]
+}

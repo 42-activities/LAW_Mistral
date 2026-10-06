@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "RO",
+ "treaty_name": "Agreement between the Republic of Finland and Romania for the avoidance of double taxation with respect to taxes on income (1998, as modified by the MLI)",
+ "signed": "1998-10-27",
+ "entry_into_force": "2000-02-04",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2000/7",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 5 päivänä tammikuuta 2000, on voimassa 4 päivästä helmikuuta 2000 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–RO Agreement (SopS 6-7/2000)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2000/7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) — computer software, industrial/commercial/scientific equipment",
+   "valid_from": "2001-01-01",
+   "max_rate": "2.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 2.5 per cent of the gross amount of the royalties, in the case of payments received for the use of, or the right to use, computer software, or industrial, commercial or scientific equipment;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2000/7",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2024-01-01"
+ },
+ "notes": "Single 5% dividend rate regardless of holding; Art. 10(2) Finnish exemption while Finnish imputation credit existed — obsolete since 2005. Interest exempt at source (Art. 11(3)) when paid to the States, local/territorial units, central banks, FINNFUND, EximBank Romania, state-owned institutions, on officially supported export credits, or on loans guaranteed by such bodies or the Finnish Guarantee Board. Treaty WHT effect: income derived on or after 1 January following 2000 EIF = 2001-01-01. MLI arts 6, 7, 16 apply (PPT from 2024-01-01 per Art. 35(7) notifications); no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

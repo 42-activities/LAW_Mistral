@@ -1,0 +1,67 @@
+{
+ "a": "LT",
+ "b": "FI",
+ "treaty_name": "Convention between the Republic of Lithuania and the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993)",
+ "signed": "1993-04-30",
+ "entry_into_force": "1993-12-30",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.11156",
+ "eif_quote": "e-seimas metadata: 1993-04-30 Priėmė 1993-11-30 Ratifikuota 1994-01-01 Įsigalioja Įsigalioja 1993-12-30 || 2. Ši sutartis įsigalioja praėjus trisdešimčiai dienų po paskutinio 1 paragrafe minimo pranešimo, ir joje numatytos nuostatos pradedamos taikyti abiejose sutartį sudarančiose šalyse:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Republic of Lithuania and the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993) + Finnish MoF notice SopS 67/2019 (Finlex) on application of Art. 12",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.11156 ; royalties: https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2019/67",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividendai, kuriuos sutartį sudarančios šalies bendrovė, tos šalies rezidentė, moka kitos sutartį sudarančios šalies rezidentui, gali būti apmokestinami toje kitoje šalyje. Tokie dividendai taip pat gali būti apmokestinami toje sutartį sudarančioje šalyje, kurios rezidente yra bendrovė, mokanti dividendus pagal tos šalies įstatymus, bet jeigu dividendų gavėjas yra tikrasis dividendų savininkas, tai mokestis negali viršyti: a) 5 procentų bendros dividendų sumos, jeigu tikrasis savininkas yra bendrovė (bet ne bendrija), kuriai tiesiogiai priklauso ne mažiau kaip 25 procentai dividendus mokančios bendrovės kapitalo;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos ir toje sutartį sudarančioje šalyje, kurioje jos susidaro, pagal tos šalies įstatymus, bet jeigu gavėjas yra tikrasis palūkanų savininkas, mokestis negali viršyti 10 procentų bendros palūkanų sumos. Sutartį sudarančių šalių kompetentingi asmenys abipusio susitarimo pagrindu gali nustatyti šio apribojimo taikymą."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as applied from 2019-01-01 under Art. 12(7) MFN (Finnish MoF notice SopS 67/2019)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tammikuun 1 päivästä 2019 Suomen tasavallan ja Liettuan tasavallan välillä tulo- ja varallisuusveroja koskevan kaksinkertaisen verotuksen välttämiseksi ja veron kiertämisen estämiseksi tehdyn sopimuksen 12 artiklan 2 ja 3 kappaleiden sijaan sovelletaan seuraavia määräyksiä: 2. Rojaltista ei veroteta siinä sopimusvaltiossa, josta se kertyy."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "5% dividend tier: company (not partnership) beneficial owner holding directly >=25% of capital (Art. 10(1)(a)). Art. 10(2) (Finnish imputation-credit regime for individuals: exemption/5%) is obsolete since Finland abolished the imputation credit and is not modelled. Interest exempt at source (Art. 11(3)) for States, local authorities, statutory bodies, central banks, FINNFUND/Finnish Export Credit and loans guaranteed by them, and for credit-sale interest between unrelated enterprises - not modelled. ROYALTIES: the treaty Art. 12(2) caps (5% industrial/commercial/scientific equipment, 10% other) were replaced from 1 January 2019 by exclusive residence taxation under the Art. 12(7) MFN clause, as published by the Finnish Ministry of Finance (notice SopS 67/2019: 'Tammikuun 1 päivästä 2019 ... sovelletaan ... 2. Rojaltista ei veroteta siinä sopimusvaltiossa, josta se kertyy'; the new Art. 12(3) definition also drops equipment rentals). The trigger is the Lithuania-Japan Convention (signed 2017-07-13, in force 2018-08-31, applicable from 2019-01-01), whose Art. 12(1) taxes royalties only in the residence State (read on e-seimas). Art. 30(2)(a): WHT provisions apply to income derived from 1 January of the year following EIF (EIF 1993-12-30 -> 1994-01-01). No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

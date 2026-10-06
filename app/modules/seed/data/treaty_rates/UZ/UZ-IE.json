@@ -1,0 +1,67 @@
+{
+ "a": "UZ",
+ "b": "IE",
+ "treaty_name": "Convention between Ireland and the Republic of Uzbekistan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2012)",
+ "signed": "2012-07-11",
+ "entry_into_force": "2013-04-17",
+ "eif_source_url": "https://lex.uz/ru/docs/2754082",
+ "eif_quote": "(Вступила в силу для Республики Узбекистан 17 апреля 2013 года)",
+ "source_title": "Ирландия ва Ўзбекистон Республикаси ўртасида Конвенция (Дублин, 11.07.2012), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2754077",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) агар дивидендларни олишга амалда ҳақли бўлган шахс дивиденд тўлаётган компания капиталининг камида 10 фоизига бевосита эгалик қилса, жами дивидендлар суммасининг 5 фоизидан;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) қолган барча ҳолларда дивидендлар жами суммасининг 10 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо бошқа Аҳдлашувчи Давлатнинг резиденти фоизларнинг амалдаги эгаси бўлса, бу ҳолда солиқ фоизларнинг ялпи суммасининг 5 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо, башарти, роялтининг амалдаги эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, шундай тарзда ундириладиган солиқ ялпи роялти суммасининг 5 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "notes": "Div 5% tier: beneficial owner directly holding >=10% of the capital of the paying company (not limited to companies in the text). Art. 29(2): in Uzbekistan source taxes from 1 January of the year following entry into force; in Ireland for years of assessment / financial years beginning on/after 1 January following entry into force.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

@@ -1,0 +1,78 @@
+{
+ "a": "AZ",
+ "b": "LU",
+ "treaty_name": "Convention between the Grand Duchy of Luxembourg and the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006, as modified by the MLI)",
+ "signed": "2006-06-16",
+ "entry_into_force": "2009-07-02",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf ; https://impotsdirects.public.lu/fr/conventions/luxembourg.html",
+ "eif_quote": "[AZ MLI position] Luxembourg Original 16.06.2006 02.07.2009 || [LU list] Convention signée le 16/06/2006 | Mémorial A n° 138 de 2009, page 1928 | à partir du 01/01/2010",
+ "source_title": "Texte de synthèse de l'IM et de la Convention Luxembourg-Azerbaïdjan (impotsdirects.public.lu, 17/12/2024)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/conv/azerbadjan-mli-fr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "30",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement ou indirectement au moins 30 pour cent du capital de la société qui paie les dividendes et qui a investi au moins un montant équivalent à 300.000 US dollars dans la société qui paie les dividendes à la date du paiement des dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des redevances payées pour tout logiciel, brevet, dessin ou modèle, plan, formule ou procédé secrets ou pour toutes informations ayant trait à une expérience acquise dans le domaine industriel, commercial ou scientifique si ce logiciel, brevet, dessin ou modèle, plan, formule ou procédé secrets ou cette information est âgé de moins de trois ans;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 pour cent du montant brut des redevances, dans tous les autres cas."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/conv/azerbadjan-mli-fr.pdf",
+  "quote": "Le paragraphe 1 ci-après de l'article 7 de l'IM s'applique et prévaut sur les dispositions de la présente Convention ... Au Luxembourg : s'agissant des impôts prélevés à la source sur des sommes payées ou attribuées à des non-résidents, si le fait générateur de ces impôts intervient à compter du 1er janvier 2025 ... En Azerbaïdjan : ... à compter du 1er janvier 2025"
+ },
+ "notes": "valid_from per Art. 30(2)(a): withholding taxes on income attributed on or after 1 January of the year following EIF (EIF 02.07.2009 -> 01.01.2010; LU list 'à partir du 01/01/2010'). Dividend 5% tier requires direct or indirect holding >=30% of capital AND investment of at least USD 300,000 in the payer at the date of payment. Interest: Art. 11(3) exclusive residence taxation for interest paid to the Government/subdivisions/Central Bank, on loans made, guaranteed or insured by Government/Central Bank/wholly-owned financial institution, or in connection with credit sales of industrial, commercial or scientific equipment - not modelled. Royalty 5% tier: software, patents, designs/models, plans, secret formulas/processes and know-how that are less than three years old; 10% otherwise (incl. copyright, trademarks). MLI Art. 8 not applicable (Azerbaijan reserved).",
+ "confidence": "high",
+ "unverified": []
+}

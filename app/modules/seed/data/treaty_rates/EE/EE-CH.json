@@ -1,0 +1,67 @@
+{
+ "a": "EE",
+ "b": "CH",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital (2002, as amended by Protocol 2014)",
+ "signed": "2002-06-11",
+ "entry_into_force": "2004-07-12",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 57. | Switzerland | 30.03.2001 | 11.06.2002 | 19.05.2004 ( est/eng ) | 12.07.2004 | 01.01.2005 |  || Protocol |  || 25.04.2013 | 25.08.2014 | 11.02.2015 ( est/eng ) | 16.10.2015 | 01.01.2016 | ",
+ "source_title": "EE-CH Amending Protocol 2014 (English text attached in Riigi Teataja act 227022015005) + Convention 2002 (akt 769143)",
+ "source_url": "https://www.riigiteataja.ee/akt/227022015005",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (Protocol 2014 Art. VI)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, the Contracting State of which the company is a resident shall exempt from tax dividends paid by that company, if the beneficial owner of the dividends is: a) a company (other than a partnership) which is resident of the other Contracting State which holds directly at least 10 per cent of the capital in the company paying the dividends for at least one year prior to the payment of the dividend;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) (Protocol 2014 Art. VI)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1) (Protocol 2014 Art. VII)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (Protocol 2014 Art. VIII)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Treaty not covered by the MLI (Estonia does not list the EE-CH convention). Protocol para. 6 (added by Art. XVIII) is only a conduit-arrangement rule: \"The provisions of Articles 10, 11 and 12 shall not apply in respect to any dividend, interest or royalty paid under, or as part of a conduit arrangement ... and the main purpose of such structuring is obtaining benefits under this Convention.\""
+ },
+ "notes": "Protocol 2014 signed 25.08.2014, in force 16.10.2015, effective for WHT on amounts paid/credited from 1 January 2016 (Art. XXII(2)(a)). Dividends also exempt when beneficial owner is a pension scheme or the central bank (Art. 10(3)(b),(c)). One-year holding can be met after payment with refund (Protocol para 5). 365 days = 'at least one year'. Conduit-arrangement anti-abuse rule for Arts 10-12 (Protocol para 6), not a general PPT.",
+ "confidence": "high",
+ "unverified": []
+}

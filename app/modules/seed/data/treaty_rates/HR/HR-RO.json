@@ -1,0 +1,58 @@
+{
+ "a": "HR",
+ "b": "RO",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of Romania for the avoidance of double taxation with respect to taxes on income and on capital (1996)",
+ "signed": "1996-01-25",
+ "entry_into_force": "1996-11-28",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1997_01_1_6.html",
+ "eif_quote": "Objava o stupanju na snagu dvostranih međunarodnih ugovora (NN-MU 1/1997), točka 36.: Ugovor između Vlade Republike Hrvatske i Vlade Rumunjske o izbjegavanju dvostrukog oporezivanja porezima na dohodak i na imovinu, potpisan 25. siječnja 1996. godine u Zagrebu, objavljen u Narodnim novinama 1/10-96, na snazi od 28. studenog 1996.",
+ "source_title": "Odluka o proglašenju Zakona o potvrđivanju Ugovora između Vlade RH i Vlade Rumunjske o izbjegavanju dvostrukog oporezivanja (NN-MU 11/1996)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1996_10_11_71.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividende iz stavka 1. mogu se oporezivati i u državi ugovornici čiji je rezident društvo što plaća dividende, i to prema zakonima te države, ali ako je primatelj dividendi stvarni korisnik, tada tako razrezan porez ne smije biti veći od 5% od brutoiznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je primalac kamata stvarni korisnik, tako razrezan porez ne smije biti veći od 10% od bruto-iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve autorske naknade mogu se također oporezivati u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je primatelj autorske naknade stvarni korisnik, s time da porez ne smije biti veći od 10% od bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(1): applies to income derived in tax years beginning on or after 1 January of the year following EIF (1996) -> 1997-01-01. Art. 11(3): interest derived by the other State's government, local/administrative units, their agencies/banking units, or on debt guaranteed/financed by wholly government-owned financial institutions exempt at source (not modelled). MLI effective for WHT from 2024-01-01 (Romania Art. 35(7) notification). Replaces the 1986 SFRY-Romania agreement. NN text is OCR'd (minor typos).",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective 2024-01-01 taken from treaty-map metadata"
+ ]
+}

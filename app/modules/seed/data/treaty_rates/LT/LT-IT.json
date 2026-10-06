@@ -1,0 +1,58 @@
+{
+ "a": "LT",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Lithuania and the Government of the Italian Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996, with Additional Protocol)",
+ "signed": "1996-04-04",
+ "entry_into_force": "1999-06-03",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.82571",
+ "eif_quote": "e-seimas metadata: 1996-04-04 Priėmė 1996-08-21 Ratifikuota 1999-06-03 Įsigalioja Įsigalioja 1999-06-03 || 2. Sutartis įsigalioja pasikeitimo ratifikaciniais dokumentais dieną ir jos nuostatos pradedamos taikyti:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Government of the Republic of Lithuania and the Government of the Italian Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996, with Additional Protocol) + Additional Protocol (e-seimas TAIS.82572)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.82571 ; protocol: https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.82572",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Valstybės įstatymus, bet jeigu gavėjas yra faktiškasis dividendų savininkas, taip imamas mokestis negali viršyti: a) 5 procentų bendros dividendų sumos, jeigu faktiškasis savininkas yra kompanija (bet ne bendrija), kuri tiesiogiai turi ne mažiau kaip 10 procentų dividendus mokančios kompanijos kapitalo,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jeigu gavėjas yra faktiškasis palūkanų savininkas, taip imamas mokestis negali viršyti 10 procentų bendros palūkanų sumos."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": ""
+ },
+ "notes": "5% dividend tier: company (not partnership) beneficial owner holding directly >=10% of capital. Interest exempt at source (Art. 11(3)) when beneficially owned by the other State's Government/subdivisions/local authorities, central bank or wholly government-owned financial institutions, or on government-guaranteed loans - not modelled. ROYALTIES: treaty Art. 12 caps are 5% (industrial, commercial or scientific equipment) and 10% (other) from 2000-01-01. Additional Protocol point (j) is an automatic MFN clause: if Lithuania, in a later treaty with a State that was an OECD member when this treaty was signed, exempts royalties from Lithuanian tax (or narrows the definition / lowers the rates), that treatment applies automatically to this treaty. Trigger: Lithuania-Japan Convention (signed 2017-07-13, in force 2018-08-31, applicable from 2019-01-01; https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/fa4a6dc1ad5411e8aa33fe8f0fea665f) Art. 12(1) taxes royalties only in the residence State and its definition excludes equipment rentals. Modelled as exclusive residence taxation from 2019-01-01, mirroring the Finnish MoF notice SopS 67/2019 which applies the identical Lithuania-Finland MFN from 1 January 2019. Art. 32(2)(a): WHT provisions apply to amounts paid on or after 1 January of the year following EIF (EIF 1999-06-03 -> 2000-01-01). Italy is not an MLI Party, so no MLI PPT. No 365-day holding period: Lithuania reserved MLI Art. 8 entirely; MLI not applicable. [curated: dropped ROYALTY tier — MFN 0% (Lithuania–Japan) not confirmed by an official notice]",
+ "confidence": "medium",
+ "unverified": [
+  "Royalty exemption via MFN (triggered by Lithuania-Japan treaty) not confirmed by an official notice of Italy; start date 2019-01-01 inferred"
+ ]
+}

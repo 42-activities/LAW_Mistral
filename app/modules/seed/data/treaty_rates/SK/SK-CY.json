@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "CY",
+ "treaty_name": "Convention between the Government of the Czechoslovak Socialist Republic and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1980), as modified by the MLI",
+ "signed": "1980-04-15",
+ "entry_into_force": "1980-12-30",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1981/30/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť podľa svojho článku 29 dňom 30. decembra 1980.",
+ "source_title": "Vyhláška MZV č. 30/1981 Zb. (Slovak translation of CSSR-CY treaty; authentic text English); MLI notice 81/2020 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1981/30/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť v zmluvnom štáte, v ktorom má sídlo spoločnosť, ktorá ich vypláca, a to podľa práva tohto štátu. Takto uložená daň však nepresiahne 10 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Úroky poberané z jedného zmluvného štátu osobou majúcou bydlisko alebo sídlo v druhom zmluvnom štáte, ktorá je ich skutočným vlastníkom, sa môžu tiež zdaniť v prvom zmluvnom štáte sadzbou nepresahujúcou 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Licenčné poplatky uvedené v odseku 3 písm. a) sa však môžu zdaniť v zmluvnom štáte, v ktorom je ich zdroj, a to podľa práva tohto štátu. Daň takto uložená však nesmie presiahnuť 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2020/81/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúcich k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts received from 1 January of the year following EIF (30.12.1980) -> 1981-01-01. Art. 10(3): as long as Cyprus does not impose tax on dividends in addition to corporate tax, dividends paid by a Cyprus company to a Czechoslovak (now Slovak) resident are exempt from any such additional Cyprus tax (one-directional, not modelled). Art. 11(3): interest on loans granted by a Contracting State government or a bank/institution acting on its behalf taxable only in that State. Royalties: 5% cap only for Art. 12(3)(a) industrial royalties; copyright royalties (Art. 12(3)(b)) taxable only in residence State (0% at source) — not modelled separately. MLI applies (notice 81/2020 Z. z.): PPT effective for WHT from 2021-01-01; MLI art. 8 not applied. Treaty continues between SK and CY by succession.",
+ "confidence": "high",
+ "unverified": []
+}

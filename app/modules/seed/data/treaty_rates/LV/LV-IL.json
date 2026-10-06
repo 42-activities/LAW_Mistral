@@ -1,0 +1,67 @@
+{
+ "a": "LV",
+ "b": "IL",
+ "treaty_name": "Convention between the Government of the Republic of Latvia and the Government of the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-02-20",
+ "entry_into_force": "2006-07-13",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 26 | Israel | 18.01.06. | 20.02.06. | 13.07.06. | 01.01.07.",
+ "source_title": "Latvia–IL tax treaty, official Latvian text (likumi.lv id 345)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/345",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība (kas nav personālsabiedrība), kas tieši pārvalda vismaz 10 procentus tās sabiedrības kapitāla, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no procentu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šādai autoratlīdzībai var arī uzlikt nodokļus atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas, bet, ja autoratlīdzības īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 5 procentus no autoratlīdzības kop­apjoma."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply from 1 January of the year following EIF (2006-07-13) -> 2007-01-01. 5% dividend tier: company (other than a partnership) directly holding at least 10% of capital. Art. 10(2)(b): 10% (instead of 5%) where a company directly holding at least 10% receives dividends paid out of profits exempt from tax or taxed at a reduced rate under Israel's Law for the Encouragement of Capital Investments - not modelled. Art. 11(2)(a): 5% on interest on any loan granted by a bank of the other State - not modelled. Art. 11(3): government/central bank/export-credit-agency loans and guarantees, and credit sales between unrelated enterprises, taxable only in residence State - not modelled. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

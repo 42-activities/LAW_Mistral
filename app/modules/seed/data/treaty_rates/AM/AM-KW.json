@@ -1,0 +1,59 @@
+{
+ "a": "AM",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of Armenia and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-11-03",
+ "entry_into_force": "2013-04-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kuwait.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[KW list] Agreement Between the Government of the State of Kuwait and the Government of the Republic of Armenia ... Armenia Original 03/11/2009 12/04/2013 || [AM MLI position] ...and on Capital State of Kuwait Original 03-11-2009 12-04-2013",
+ "source_title": "AM-KW Agreement, English text (scanned PDF KUWAIT_DoubleTaxationTreaty_EN, Armenian MoF archive), pages read visually",
+ "source_url": "https://minfin.am/website/images/files/49.KUWAIT_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 percent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://minfin.am/website/images/files/49.KUWAIT_DoubleTaxationTreaty.rar",
+  "quote": ""
+ },
+ "notes": "Arts. 10(3) and 11(3): dividends and interest paid by a company resident in a Contracting State are not taxable if the beneficial owner is the Government of the other State or a governmental institution/entity as defined in Art. 4(2) (not modelled). Art. 28: WHT on income paid on or after 1 January of the year following EIF (2013-04-12 -> 2014-01-01). Art. 29: Agreement in force for five years and continues for similar periods unless terminated. Kuwait is not an MLI Party; no PPT in the treaty text read.",
+ "confidence": "high",
+ "unverified": [
+  "EIF article read from a low-resolution page image",
+  "EIF 2013-04-12 from treaty map"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "a": "LV",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Latvia and the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003)",
+ "signed": "2003-12-04",
+ "entry_into_force": "2004-08-18",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 8 | Bulgaria | 30.05.03. | 04.12.03. | 18.08.04. | 01.01.05.",
+ "source_title": "Latvia–BG tax treaty, official Latvian text (likumi.lv id 214)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/214",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība (kas nav līgumsabiedrība), kura tieši pārvalda vismaz 25 procentus tās sabiedrības kapitāla, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentu no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šiem procentiem var uzlikt nodokļus arī atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 5 procentus no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 7 procentus no autoratlīdzības kopapjoma par kinofilmu un filmu vai ierakstu radio vai televīzijas pārraidēm, par jebkura patenta, firmas zīmes, dizaina vai modeļa, plāna, slepenas formulas vai procesa izmantošanu vai tiesībām tos izmantot;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 procentus no autoratlīdzības kopapjoma visos citos gadījumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2023-01-01]"
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply from 1 January of the year following EIF (2004-08-18) -> 2005-01-01. 5% dividend tier: company (other than a partnership) directly holding at least 25% of capital. Art. 11(3): interest to the government, local authorities, central bank or wholly government-owned financial institutions, or on government-guaranteed loans, exempt - not modelled. Royalties: 7% applies to royalties for cinematograph films, films or tapes for radio/TV, patents, trade marks, designs or models, plans, secret formulas or processes (Art. 12(2)(a)); 5% in all other cases, i.e. copyright on literary/artistic/scientific works, equipment and know-how (Art. 12(2)(b)) - neither is a holding tier. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

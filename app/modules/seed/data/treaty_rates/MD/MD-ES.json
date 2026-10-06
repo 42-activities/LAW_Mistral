@@ -1,0 +1,78 @@
+{
+ "a": "MD",
+ "b": "ES",
+ "treaty_name": "Convention between the Kingdom of Spain and the Republic of Moldova for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007, with Protocol)",
+ "signed": "2007-10-08",
+ "entry_into_force": "2009-03-30",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_moldavia.pdf",
+ "eif_quote": "[BOE 11.04.2009, via Hacienda boe_moldavia.pdf] El presente Convenio entró en vigor el 30 de marzo de 2009, tres meses después de la fecha de recepción de la última notificación de cumplimiento de requisitos, según se establece en su artículo 27.2.",
+ "source_title": "English text of the ES–MD Convention and Protocol published by the Spanish Ministry of Finance (boein_moldavia.pdf); Spanish text BOE 11.04.2009 (boe_moldavia.pdf)",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boein_moldavia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 50 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2010-01-01",
+  "basis": "treaty Protocol para I(d) (main-purpose rule for Arts. 10, 11, 12; not an MLI-style PPT)",
+  "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boein_moldavia.pdf",
+  "quote": "d) The provisions of Articles 10, 11 and 12 shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of shares or other rights in respect of which the dividends are paid, the creation or assignment of the debt-claim in respect of which the interest is paid, the creation or assignment of rights in respect of which the royalties are paid to take advantage of these Articles by means of that creation or assignment."
+ },
+ "notes": "Dividend 0% tier is a cap of 0 per cent at >=50% direct holding (max_rate '0', not drafted as exclusive). Art. 11(3): interest taxable only in residence State for States/central banks/subdivisions, interest paid by the State, state-backed/export-credit loans, public financial institutions and approved pension funds (not modelled). Protocol I: domestic anti-abuse rules preserved, benefits limited to beneficial owners, CFC rules preserved, and main-purpose rule for Arts. 10-12 (recorded under ppt). Art. 27: EIF three months after last notification (30.03.2009 per BOE); WHT effect on income derived from 1 January following EIF (2009 -> 2010-01-01). The USSR–Spain 1985 convention ceased to apply with Moldova from 01.10.2007 (Exchange of notes, BOE 23.06.2010). The English PDF on the Hacienda site is the unsigned version (blank date); the BOE Spanish text confirms the content. MD MoF English PDF is a scan without text layer. Moldova not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

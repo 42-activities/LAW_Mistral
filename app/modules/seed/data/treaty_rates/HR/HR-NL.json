@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "NL",
+ "treaty_name": "Convention between the Republic of Croatia and the Kingdom of the Netherlands for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2000)",
+ "signed": "2000-05-23",
+ "entry_into_force": "2001-04-06",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2001_04_5_57.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Kraljevine Nizozemske o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak i na imovinu, potpisan u Zagrebu 23. svibnja 2000., objavljen u \"Narodnim novinama - Međunarodni ugovori\" br. 3/2001, stupio na snagu 6. travnja 2001.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Kraljevine Nizozemske o izbjegavanju dvostrukog oporezivanja (NN-MU 3/2001)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2001_02_3_11.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende mogu se oporezivati i u državi ugovornici čiji je rezident društvo što plaća dividende, i to prema zakonima te države, ali ako je stvarni korisnik dividendi rezident druge države ugovornice, tada tako utvrđen porez ne smije biti veći od 15% od bruto-iznosa dividendi."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2002-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Neovisno o odredbama stavka 2., država ugovornica, čiji rezident je društvo koje isplaćuje dividende, neće ubirati porez na dividende što ih isplaćuje to društvo ako je stvarni korisnik dividendi društvo čija imovina je u cijelosti ili djelomično podijeljena na dionice i koje je rezident druge države ugovornice te izravno posjeduje najmanje 10% kapitala društva koje isplaćuje dividende."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate nastale u državi ugovornici, a isplaćene rezidentu druge države ugovornice oporezivat će se samo u toj drugoj državi ako je taj rezident i stvarni korisnik kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice oporezivat će se samo u toj drugoj državi, ukoliko je taj rezident i stvarni korisnik autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 32(1): applies to income in tax years/periods beginning on or after 1 January of the year following EIF (2001) -> 2002-01-01. Art. 10(9): 0% participation exemption denied where the relationship was established/maintained with the main purpose of using para 3 (Croatia notified this under MLI Art. 7(17)(a), so MLI PPT replaces it once effective). Protocol V: liquidation/share buy-back proceeds treated as dividends. Protocol IV: refund claims within three years.",
+ "confidence": "high",
+ "unverified": []
+}

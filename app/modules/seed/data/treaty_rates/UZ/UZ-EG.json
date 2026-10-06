@@ -1,0 +1,67 @@
+{
+ "a": "UZ",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Arab Republic of Egypt for the avoidance of double taxation with respect to taxes on income and on capital (2018)",
+ "signed": "2018-09-05",
+ "entry_into_force": "2019-03-25",
+ "eif_source_url": "https://lex.uz/ru/docs/4042041",
+ "eif_quote": "(Вступило в силу для Республики Узбекистан 25 марта 2019 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Миср Араб Республикаси Ҳукумати ўртасида Битим (2018), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/4042038",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "а) агар компания (ширкатдан бошқа) дивидендларнинг ҳақиқий эгаси ҳисобланса ва ушбу компания айни вақтда дивидендни (дивиденд тўлов кунини ҳисобга олган ҳолда 365 кун ичида) тўловчи компания капиталининг камида 25 фоизига эгалик қилса, дивидендлар ялпи миқдорининг 5 фоизидан"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) бошқа барча холларда дивидендлар ялпи миқдорининг 10 фоизидан."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, у ҳолда бундан олинадиган солиқнинг миқдори фоизлар ялпи миқдорининг 10 фоиздан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "башарти роялтиларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай тарзда олинадиган солиқ роялти ялпи миқдорининг 12 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 28 (Limitation of benefits)",
+  "source_url": "https://lex.uz/ru/docs/4042038",
+  "quote": "Мазкур Битимнинг бошқа қоидаларидан қатъи назар, башарти ҳар қандай резидентнинг ёки бундай резидент билан боғлиқ ҳар қандай шахснинг асосий мақсади ёки асосий мақсадларидан бири мазкур Битимдан манфаатга эга бўлиш бўлса, мазкур Битим билан назарда тутилган имтиёзлар қўлланилмайди."
+ },
+ "notes": "Div 5% tier: company (other than partnership) holding >=25% of capital throughout a 365-day period including the payment date. Art. 10(3): dividends beneficially owned by the other State's Government (incl. central bank, social insurance fund, national investment bank / Central Bank, NBU) taxable only in residence State; Art. 11(3): interest to governments/local authorities exempt. Art. 30(2)(a): source taxes from 1 January of the year following entry into force. EIF date is the one lex.uz gives 'for Uzbekistan'.",
+ "confidence": "high",
+ "unverified": []
+}

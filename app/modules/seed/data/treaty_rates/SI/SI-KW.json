@@ -1,0 +1,56 @@
+{
+ "a": "SI",
+ "b": "KW",
+ "treaty_name": "Convention between the Republic of Slovenia and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2010)",
+ "signed": "2010-01-11",
+ "entry_into_force": "2013-05-17",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): KUVAJT | MP, št. 16/10 | 1. 1. 2014 | | |",
+ "source_title": "Uradni list RS – Mednarodne pogodbe, št. 16/2010 (Zakon o ratifikaciji Konvencije SI-KW, Slovenian and English texts)",
+ "source_url": "http://www.uradni-list.si/1/objava.jsp?urlmpid=2010125",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting States of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx",
+  "quote": "FURS list: KUVAJT | MP, št. 16/10 | 1. 1. 2014 | (no synthesised text, no MLI start date)"
+ },
+ "notes": "Convention applicable to WHT on income derived on or after 1 January of the year following entry into force (Art. 29(2)(a)) -> 1.1.2014. Arts. 10(3) and 11(3): dividends and interest beneficially owned by the other State's Government, subdivisions, local authorities, Central Bank, governmental institutions or entities wholly funded by the State are exempt at source (not modelled). MLI not applicable: Kuwait has not ratified the MLI (merged data).",
+ "confidence": "high",
+ "unverified": []
+}

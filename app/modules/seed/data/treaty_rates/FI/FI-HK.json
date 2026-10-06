@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Republic of Finland and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2018, with Protocol)",
+ "signed": "2018-05-24",
+ "entry_into_force": "2018-12-30",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2018/79",
+ "eif_quote": "... Hongkongissa 24 päivänä toukokuuta 2018 tehty sopimus tulee voimaan 30 päivänä joulukuuta 2018 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–HK Agreement (SopS 78-79/2018), English text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2018/79",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting Party and paid to a resident of the other Contracting Party shall be taxable only in that other Party if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "treaty art. 21 (Entitlement to Benefits)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2018/79",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "5% dividend tier threshold is 10% of voting power. Treaty includes its own PPT (Art. 21), effective with the treaty; not covered by the MLI. Effective dates: Finland — WHT on income derived on or after 1 January 2019; Hong Kong — years of assessment beginning on or after 1 April 2019 (Art. 28(2)).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "AZ",
+ "b": "RO",
+ "treaty_name": "Convention between Romania and the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002, as modified by the MLI)",
+ "signed": "2002-10-29",
+ "entry_into_force": "2004-01-29",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "Romania Original 29.10.2002 29.01.2004",
+ "source_title": "ANAF: Text sintetizat al Convenției multilaterale și al Convenției dintre România și Republica Azerbaidjan (MLI synthesised text, Romanian)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Azerbaidjan.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% din suma brută a dividendelor, dacă beneficiarul efectiv este o societate care deţine în mod direct cel puţin 25% din capitalul societăţii plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% din suma brută a dividendelor, în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi aceste dobânzi sunt, de asemenea, impozabile în statul contractant din care provin şi potrivit legislaţiei acelui stat, dar, dacă beneficiarul efectiv al dobânzilor este un rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 8% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi aceste redevenţe sunt, de asemenea, impozabile în statul contractant din care provin şi potrivit legislaţiei acelui stat, dar, dacă beneficiarul efectiv al redevenţelor este un rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Azerbaidjan.pdf",
+  "quote": "Prin derogare de la prevederile prezentei convenții, un beneficiu prevăzut de convenție nu va fi acordat cu privire la un element de venit sau de capital atunci când este rezonabil să se concluzioneze, având în vedere toate faptele și circumstanțele relevante, că obţinerea acelui beneficiu a fost unul dintre scopurile principale ale oricărui aranjament sau ale oricărei tranzacţii care a condus în mod direct sau indirect la acordarea acelui beneficiu, ... [effect] cu privire la impozitele reținute la sursă ... atunci când evenimentul care a dat naștere unor astfel de impozite are loc la sau după 1 ianuarie 2026"
+ },
+ "notes": "Art. 30(2)(a): WHT effect from 1 January of the year following entry into force (2004-01-29) => 2005-01-01 (ANAF list also shows 'applicable from 01.01.2005'). Interest exempt at source (Art. 11(3)) when derived by the other State's Government, administrative-territorial units, local authorities, their agencies/banking units/institutions, or where debt-claims are guaranteed, insured or financed by a financial institution wholly owned by the other State's Government (not modelled). MLI: Romania made an Art. 35(7)(a) reservation; its 35(7)(b) notification was received 10 January 2025; per the synthesised text MLI provisions have effect for WHT in both States for events on or after 1 January 2026. No MLI Art. 8 holding period (AZ reserved Art. 8 entirely; synthesised text shows no Art. 8 box in Art. 10).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,80 @@
+{
+ "a": "FI",
+ "b": "US",
+ "treaty_name": "Convention between the Government of the Republic of Finland and the Government of the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1989, as amended by Protocol 2006)",
+ "signed": "1989-09-21",
+ "entry_into_force": "1990-12-30",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1991/2",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 30 päivänä marraskuuta 1990, on voimassa 30 päivästä joulukuuta 1990 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–US Convention (SopS 1-2/1991, consolidated with Protocol 2006, SopS 2-3/2008), English text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1991/2",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (Protocol 2006)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "80",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, such dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner is: a) a company that is a resident of the other Contracting State that has owned, directly or indirectly through one or more residents of either Contracting State, shares representing 80 percent or more of the voting power in the company paying the dividends for a 12-month period ending on the date on which entitlement to the dividends is determined and: (i) satisfies the conditions of clause (i) or (ii) of subparagraph c) of paragraph 2 of Article 16 (Limitation on Benefits); ..."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (Protocol 2006)",
+   "valid_from": "2008-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 10 percent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (Protocol 2006)",
+   "valid_from": "2008-02-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (former Art. 12(2) source-tax paragraph deleted by Protocol 2006)",
+   "valid_from": "2008-02-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties derived and beneficially owned by a resident of a Contracting State shall be taxable only in that State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 16 (Limitation on Benefits) — no PPT",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "United States 2/1991 amended 3/2008 (no MLI notice listed; US is not an MLI Party). Treaty contains a detailed LOB article (Art. 16, as replaced by Protocol 2006), not a principal purposes test."
+ },
+ "notes": "0% dividend tier: >=80% of voting power held for 12 months ending on the date entitlement is determined, plus LOB conditions (publicly-traded/ownership-base erosion/derivative benefits/competent-authority determination); also 0% for pension funds (Art. 10(3)(b)) — not modelled. 0% tier applies to income derived on or after 1 January 2007 (Protocol Art. IX(2)(c), protocol in force 2007-12-28). Other Protocol 2006 changes apply in Finland to WHT on income derived on or after the first day of the second month after EIF (2008-02-01); US: amounts paid or credited on/after 2008-02-01. RIC/REIT dividend restrictions (Art. 10(4)) and branch profits tax (Art. 10(8)-(9), capped at 5%) not modelled. Interest exempt except contingent interest (taxable up to 15%, Art. 11(6)(a)) and REMIC excess inclusions (domestic law). Interest exclusivity effective from the original Convention (Finland: income derived on/after 1 January 1991; US: amounts paid on/after 1 February 1991). Royalties: Protocol 2006 deleted former Art. 12(2) (source taxation), so exclusivity from 2008-02-01.",
+ "confidence": "high",
+ "unverified": [
+  "Rates applicable under former Art. 12(2) before 2008 not checked (only deletion confirmed)"
+ ]
+}

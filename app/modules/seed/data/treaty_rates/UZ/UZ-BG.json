@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Uzbekistan and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (2003)",
+ "signed": "2003-11-24",
+ "entry_into_force": "2004-10-21",
+ "eif_source_url": "https://lex.uz/ru/docs/1325150",
+ "eif_quote": "(Вступила в силу 21 октября 2004 года)",
+ "source_title": "Ўзбекистон Республикаси ва Болгария Республикаси ўртасида Конвенция (24.11.2003), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/1325147",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "агар, дивидендларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, унда шу тарзда олинган солиқнинг миқдори дивидендлар умумий миқдорининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай ҳолда солиқ фоизлар ялпи миқдорининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "агар роялтиларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай ҳолда, шундай тарзда ундириладиган солиқ роялтилар ялпи миқдорининг 10 фоизидан ошмаслиги керак."
+  }
+ ],
+ "notes": "Art. 11(3): interest beneficially owned by the other State, its local authorities, central bank (Central Bank of Uzbekistan / National Bank for Foreign Economic Activity; Bulgarian National Bank) or similar wholly state-owned institutions taxable only in the residence State. Art. 11(8): interest on loans guaranteed/insured by a State's competent authority exempt in source State. Effective-date article: source taxes from 1 January of the calendar year following entry into force.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

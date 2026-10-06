@@ -1,0 +1,78 @@
+{
+ "a": "FI",
+ "b": "BE",
+ "treaty_name": "Convention between the Republic of Finland and the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1976, as amended by Supplementary Agreement 1991 and Protocol 2009; modified by the MLI)",
+ "signed": "1976-05-18",
+ "entry_into_force": "1978-12-27",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1978/66",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 27 päivänä marraskuuta 1978, tulee voimaan 27 päivänä joulukuuta 1978 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–BE Convention (SopS 65-66/1978, as amended SopS 54/1997 and 13/2014)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1978/66",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended by Supplementary Agreement 1991)",
+   "valid_from": "1990-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the recipient is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as amended by Supplementary Agreement 1991)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (patents, trade marks, designs, plans, secret formulas, equipment, know-how — Art. 12(3)(b))",
+   "valid_from": "1979-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, royalties of the kind referred to in sub-paragraph (b) of paragraph 3 may be taxed in the Contracting State in which they arise, and according to the law of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (copyright royalties — Art. 12(3)(a))",
+   "valid_from": "1979-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State. 2. However, royalties of the kind referred to in sub-paragraph (b) of paragraph 3 may be taxed in the Contracting State in which they arise ... [3(a): any copyright of literary, artistic or scientific work including cinematograph films, and films or tapes for television or radio broadcasting]"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1978/66",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2020-01-01"
+ },
+ "notes": "Dividend rates from the 1991 Supplementary Agreement apply to dividends paid on or after 1 January 1990 (SopS 54/1997: 'sen määräyksiä sovelletaan: 1) osinkoon, joka maksetaan tammikuun 1 päivänä 1990 tai sen jälkeen'). Interest definition (Art. 11(3)) excludes commercial-credit interest, interbank current-account interest and bank deposit interest (not 'interest' — taxed under Art. 7/21, i.e. effectively no source tax for non-PE recipients). Copyright royalties (Art. 12(3)(a)) taxable only in residence State; only Art. 12(3)(b) royalties may be taxed at source up to 5%. Interest/royalty valid_from = 1 January following 1978 EIF (Art. 31(2)(a)). Protocol 2009 (SopS 13/2014) only replaced Art. 27 (exchange of information). MLI arts 6, 7, 16 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,91 @@
+{
+ "a": "SK",
+ "b": "CH",
+ "treaty_name": "Convention between the Slovak Republic and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income and on capital (1997, as amended by Protocol 2011)",
+ "signed": "1997-02-14",
+ "entry_into_force": "1997-12-23",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1998/127/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť výmenou ratifikačných listín, t. j. 23. decembra 1997, na základe článku 27 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 127/1998 Z. z. (SK-CH treaty) and č. 224/2012 Z. z. (Protocol of 8.2.2011 replacing Arts. 10, 11, 12)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2012/224/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Bez ohľadu na ustanovenia ods. 2 tieto dividendy sú oslobodené od dane v zmluvnom štáte, ktorého rezidentom je spoločnosť, ktorá ich vypláca, ak skutočným vlastníkom dividend je rezident druhého zmluvného štátu, ktorým je a) spoločnosť iná ako osobná obchodná spoločnosť (partnership), ktorá priamo ovláda najmenej 10 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy však môžu byť zdanené aj v zmluvnom štáte, v ktorom je spoločnosť, ktorá ich vypláca, rezidentom, a to podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 15 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Takéto úroky však môžu byť zdanené aj v zmluvnom štáte, v ktorom majú zdroj, a podľa právnych predpisov tohto zmluvného štátu, ak je však príjemca skutočným vlastníkom úrokov, daň takto stanovená nepresiahne 5 % hrubej sumy úrokov."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)(e) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "e) spoločnosťou spoločnosti druhého zmluvného štátu, pokiaľ je táto spoločnosť prepojená so spoločnosťou vyplácajúcou úroky cez priamy podiel na majetku vo výške minimálne 25 % počas najmenej dvoch rokov pred výplatou úrokov alebo pokiaľ sú obe spoločnosti ovládané treťou spoločnosťou, ktorá má priamy podiel na majetku prvej spoločnosti aj na majetku druhej spoločnosti vo výške minimálne 25 %, počas najmenej dvoch rokov pred výplatou úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Licenčné poplatky uvedené v ods. 5 písm. a), ktorých skutočným vlastníkom je rezident zmluvného štátu, budú zdanené len v tomto zmluvnom štáte. Licenčné poplatky uvedené v ods. 5 písm. b) môžu byť zdanené aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (Protocol 2011)",
+   "valid_from": "2013-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "3. Bez ohľadu na ustanovenia ods. 2 licenčné poplatky uvedené v ods. 5 písm. b) vyplácané spoločnosťou, ktorá je rezidentom jedného zmluvného štátu rezidentovi druhého zmluvného štátu, budú zdanené iba v tomto druhom zmluvnom štáte, ak skutočným vlastníkom je spoločnosť, pokiaľ je táto spoločnosť prepojená so spoločnosťou vyplácajúcou licenčné poplatky cez priamy podiel na majetku vo výške minimálne 25 % počas najmenej dvoch rokov pred výplatou licenčných poplatkov alebo pokiaľ sú obe spoločnosti ovládané treťou spoločnosťou, ktorá má priamy podiel na majetku prvej spoločnosti aj na majetku druhej spoločnosti vo výške minimálne 25 %, počas najmenej dvoch rokov pred výplatou licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Protocol signed 8.2.2011 replaced Arts. 10-12; in force 8.8.2012 (notice 224/2012: \"Protokol nadobudne platnosť 8. augusta 2012 v súlade s článkom 10 ods. 2\"); Protocol art. 10(2)(a): applies to WHT on amounts paid/credited from 1 January of the year following its EIF -> 2013-01-01. Dividends: exempt for company (non-partnership) holding directly >=10% (no holding period), also exempt for pension funds and government/central bank (not modelled); 15% otherwise. Interest: 5% general; exempt for credit sales of equipment/goods/services, loans by financial institutions, pension funds, government/central bank, and associated companies (direct >=25% holding for at least two years, or common 25% parent) — 2 years modelled as 730 days; associated-company tier also covers sister companies. Royalties: copyright royalties (para 5(a)) taxable only in residence State; industrial royalties (para 5(b)) 10%, exempt between associated companies (25%/2 years). MLI not applicable: Switzerland does not list the SK treaty. No PPT clause found in the treaty or 2011 protocol.",
+ "confidence": "high",
+ "unverified": [
+  "2-year holding requirement expressed as 730 days (approximation)"
+ ]
+}

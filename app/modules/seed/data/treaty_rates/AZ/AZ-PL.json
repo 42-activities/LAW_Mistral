@@ -1,0 +1,56 @@
+{
+ "a": "AZ",
+ "b": "PL",
+ "treaty_name": "Convention between the Government of the Republic of Poland and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997, as modified by the MLI)",
+ "signed": "1997-08-26",
+ "entry_into_force": "2005-01-20",
+ "eif_source_url": "https://www.podatki.gov.pl/podatkowa-wspolpraca-miedzynarodowa/wykaz-umow-o-unikaniu-podwojnego-opodatkowania ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "[PL list] Azerbejdżan | 26.08.1997 | 20.01.2005 | 01.01.2006 | 2008 - poz. 52 | tekst syntetyczny || [AZ MLI position] Poland Original 26.08.1997 20.01.2005",
+ "source_title": "Tekst syntetyczny Konwencji MLI oraz Konwencji między Rządem RP a Rządem Republiki Azerbejdżańskiej (podatki.gov.pl)",
+ "source_url": "https://www.podatki.gov.pl/media/hwfbm3v5/upo-pl-azerbejd%C5%BCan-tekst-syntetyczny-mli.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Jednakże, takie dywidendy mogą być opodatkowane także w tym Umawiającym się Państwie, w którym spółka wypłacająca dywidendy ma swoją siedzibę i zgodnie z ustawodawstwem tego Państwa, lecz jeżeli odbiorca dywidend jest osobą do nich uprawnioną, to podatek ten nie może przekroczyć 10 procent kwoty dywidend brutto."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Jednakże odsetki, o których mowa w ustępie 1 tego artykułu, mogą być także opodatkowane w Umawiającym się Państwie, w którym powstają i zgodnie z ustawodawstwem tego Państwa, ale jeżeli odbiorca odsetek jest osobą do nich uprawnioną, to podatek w ten sposób ustalony nie może przekroczyć 10 procent kwoty brutto tych odsetek."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Należności licencyjne, o których mowa w ustępie 1 tego artykułu, mogą być także opodatkowane w tym Umawiającym się Państwie, w którym powstają i zgodnie z prawem tego Państwa, lecz jeżeli odbiorca jest osobą do nich uprawnioną, to ustalony w ten sposób podatek nie może przekroczyć 10 procent kwoty brutto należności licencyjnych."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.podatki.gov.pl/media/hwfbm3v5/upo-pl-azerbejd%C5%BCan-tekst-syntetyczny-mli.pdf",
+  "quote": "zgodnie z art. 35 ust. 1 Konwencji MLI, postanowienia art. 6 ust. 1 i art. 7 ust. 1 Konwencji MLI będą miały zastosowanie w zakresie stosowania Konwencji przez Polskę: − w odniesieniu do podatków pobieranych u źródła od kwot wypłacanych lub zaliczanych na rzecz osób niemających miejsca zamieszkania lub siedziby w Polsce, gdy zdarzenie dające prawo do pobrania takiego podatku wystąpi w dniu lub po dniu 1 stycznia 2025 r. ... [Azerbejdżan] ... w dniu lub po dniu 1 stycznia 2025 r."
+ },
+ "notes": "valid_from per Art. 29(2)(a): taxes withheld at source on income derived on or after 1 January of the calendar year following EIF (20.01.2005 -> 01.01.2006; PL list 'stosowanie 01.01.2006'). Single 10% dividend rate (no participation tier). Interest: Art. 11(8) exemption for interest paid to the Government, Central Bank, local authorities or other bodies of the Government/local authorities of the other State - not modelled. Royalty definition includes payments for the use of industrial, commercial or scientific equipment (subject to the 10% cap). Arts. 11(7) and 12(7) main-purpose clauses replaced by MLI Art. 7(1) PPT. MLI Art. 8 not applicable (Azerbaijan reserved). Authentic languages Polish, Azerbaijani and Russian; Polish synthesised text read.",
+ "confidence": "high",
+ "unverified": []
+}

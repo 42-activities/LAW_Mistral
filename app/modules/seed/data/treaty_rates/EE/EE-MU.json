@@ -1,0 +1,89 @@
+{
+ "a": "EE",
+ "b": "MU",
+ "treaty_name": "Agreement between the Republic of Estonia and the Republic of Mauritius for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2021)",
+ "signed": "2021-02-19",
+ "entry_into_force": "2021-10-12",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 40. | Mauritius | 29.03.2019 | 19.02.2021 | 15.09.2021 ( est / eng) | 12.10.2021 | 01.01.2022 | ",
+ "source_title": "EE-MU Agreement 2021 with Protocol, English text (Riigi Teataja annex Est_Maurit_Engl.pdf)",
+ "source_url": "https://www.riigiteataja.ee/aktilisa/2011/0202/1002/Est_Maurit_Engl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 7 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of interest, if the beneficial owner is a company;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 7 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of royalties, if the beneficial owner is a company;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 5 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 23(1)",
+  "source_url": "https://www.riigiteataja.ee/aktilisa/2011/0202/1002/Est_Maurit_Engl.pdf",
+  "quote": "ARTICLE 23 ENTITLEMENT TO BENEFITS 1. Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless ..."
+ },
+ "notes": "0% tiers in all three categories depend on the beneficial owner being a company (no minimum holding) - ownership_threshold null; the 7%/7%/5% tiers apply to non-company beneficial owners. Dividends and interest exempt when paid to listed government bodies (Government, central banks, KredEx, Enterprise Estonia, Rural Development Foundation, etc.) and supervised investment funds (Arts 10(3), 11(3)). Effective (Art. 30): Estonia WHT on income derived from 2022-01-01; Mauritius WHT on amounts paid/credited from 2022-07-01. Treaty PPT (Art. 23) with Protocol para 2; not an MLI covered agreement.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "EE",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Estonia and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003)",
+ "signed": "2003-08-25",
+ "entry_into_force": "2005-02-21",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 59. | Turkey | 09.01.1998 | 25.08.2003 | 19.01.2005 ( est/eng ) | 21.02.2005 | 01.01.2006 | ",
+ "source_title": "EE-TR Agreement 2003 with Protocol (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/846852",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of royalties for the use of industrial, commercial or scientific equipment,"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Turkey is not a Party to the MLI; the treaty contains no PPT."
+ },
+ "notes": "Single 10% dividend rate (no participation tier). Royalty 5% tier for equipment-rental royalties only. Interest exempt at source when paid to the other State's Government or Central Bank (Art. 11(3)). Effective for WHT on income paid or credited from 2006-01-01 (Art. 27(2)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

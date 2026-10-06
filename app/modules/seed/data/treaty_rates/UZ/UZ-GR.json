@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Republic of Uzbekistan and the Government of the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1997)",
+ "signed": "1997-04-01",
+ "entry_into_force": "1999-01-15",
+ "eif_source_url": "https://lex.uz/ru/docs/2188743",
+ "eif_quote": "(Вступила в силу 15 января 1999 года)",
+ "source_title": "Ўзбекистон Республикаси ва Греция Республикаси ўртасида Конвенция (Афина, 01.04.1997), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2188740",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо дивидендларни олувчи уларнинг ҳақиқий эгаси бўлса, ундириладиган солиқ миқдори дивидендлар ялпи суммасининг 8% дан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларни олувчи уларнинг ҳақиқий эгаси бўлса, у холда солиқ миқдори фоизлар ялпи суммасининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "лекин агар роялтининг эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, унда бу тариқа ундириладиган солиқ роялтининг ялпи суммасининг 8 фоизидан ортиқ бўлмаслиги керак."
+  }
+ ],
+ "notes": "Art. 11(3): interest owned by the other State, its local authorities or central bank exempt at source. Art. 28: effective for income derived on/after 1 January of the calendar year following entry into force.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

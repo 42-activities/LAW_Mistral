@@ -1,0 +1,78 @@
+{
+ "a": "EE",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Republic of Estonia and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2019)",
+ "signed": "2019-09-25",
+ "entry_into_force": "2019-12-18",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 22. | Hong Kong | 21.11.2018 | 25.09.2019 | 04.12.2019 ( est / eng ) | 18.12.2019 | in Estonia 01.01.2020, in Hong Kong 01.04.2020 | ",
+ "source_title": "EE-HK Agreement 2019 with Protocol, English text (Riigi Teataja annex Hongkong_engl.pdf)",
+ "source_url": "https://www.riigiteataja.ee/aktilisa/2181/2201/9004/Hongkong_engl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 0 per cent of the gross amount of the interest, if the beneficial owner is a company;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 26(1)",
+  "source_url": "https://www.riigiteataja.ee/aktilisa/2181/2201/9004/Hongkong_engl.pdf",
+  "quote": "Article 26 Entitlement to Benefits 1. Notwithstanding the other provisions of the Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless ..."
+ },
+ "notes": "The 0% dividend and interest tiers depend on the beneficial owner being a company (no minimum holding) - ownership_threshold is null for both tiers of each category; the 10% tiers apply to non-company beneficial owners (individuals etc.). Dividends/interest exempt when paid to listed government bodies (HK Government, HKMA, Exchange Fund; Estonian Government, Bank of Estonia, Rural Development Foundation, KredEx, Enterprise Estonia), and investment funds per Art. 4(1) (Arts 10(3), 11(3)). Effective (Art. 27): Estonia taxable periods from 1 January 2020; Hong Kong from 1 April 2020 (year of assessment 2020/21). Treaty-level PPT (Art. 26); not an MLI covered agreement.",
+ "confidence": "high",
+ "unverified": []
+}

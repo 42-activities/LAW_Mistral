@@ -1,0 +1,59 @@
+{
+ "a": "MD",
+ "b": "BE",
+ "treaty_name": "Agreement between the Government of the USSR and the Government of the Kingdom of Belgium for the avoidance of double taxation of income and capital (1987), applied between Moldova and Belgium",
+ "signed": "1987-12-17",
+ "entry_into_force": "1996-05-21",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Regatul Belgiei | Convenția | 17.12.1987, Bruxelles | 21.05.1996 | 01.01.1997 (signed | entry into force | date of application)",
+ "source_title": "MD MoF Romanian translation of the USSR–Belgium Agreement of 17.12.1987 (Belgia_rom.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Belgia_rom.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Aceste dividende, de asemenea, sînt impuse în primul Stat Contractant, potrivit legislaţiei acestui Stat, dar impozitul astfel perceput nu va depăşi 15 la sută din suma brută a dividendelor menţionate."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Aceste dobânzi, de asemenea, sînt impuse în primul Stat Contractant, potrivit legislaţiei acestui Stat, dar impozitul astfel perceput nu va depăşi 15 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(1)",
+   "valid_from": "1997-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Veniturile din drepturile de autor şi licenţe, ce provin într -un Stat Contractant şi plătite unei persoane cu rezidenţă permanentă în celălalt Stat Contractant, sînt impuse numai în acel celălalt Stat."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Belgia_rom.pdf",
+  "quote": ""
+ },
+ "notes": "USSR-era treaty (Arts. 8 dividends, 9 interest, 10 copyright and licence income). Art. 9(3): interest exempt at source when paid to the other Government or on state-guaranteed loans, on commercial credits for instalment deliveries of goods/services, on bank loans (other than bearer instruments) and on bank deposits (other than bearer) - not modelled. Dates: EIF 21.05.1996 and application 01.01.1997 per MD MoF list (Belgium dates the USSR treaty's EIF as 08-01-1991 per merged dataset); text Art. 24 itself refers to exchange of ratification instruments. A new Belgium–Moldova convention was signed on 04.12.2008 (per Belgium MLI position, shown 'N/A' for EIF); its current status could not be verified from an official source in this run (Belgian MoF list did not show it; fisconet not accessible) - if it has entered into force, these rates are superseded. Text read in Romanian translation (not an authentic language). No dividend/interest beneficial-owner wording. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "medium",
+ "unverified": [
+  "whether the BE–MD convention of 04.12.2008 has entered into force",
+  "Romanian translation, authentic French/Dutch/Russian texts not compared"
+ ]
+}

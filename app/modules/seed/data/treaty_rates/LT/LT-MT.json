@@ -1,0 +1,67 @@
+{
+ "a": "LT",
+ "b": "MT",
+ "treaty_name": "Agreement between the Government of the Republic of Lithuania and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "signed": "2001-05-17",
+ "entry_into_force": "2004-02-02",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.227660",
+ "eif_quote": "e-seimas metadata: 2001-05-17 Priėmė 2003-12-16 Ratifikuota 2004-02-02 Įsigalioja Įsigalioja 2004-02-02 || 2. Sutartis įsigalioja vėlesniojo iš 1 dalyje nurodytų pranešimų gavimo dieną, ir jos nuostatos pradedamos taikyti:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Agreement between the Government of the Republic of Lithuania and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.227660",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "LT",
+   "quote": "a) jei dividendus moka kompanija, kuri yra Lietuvos rezidentė, Maltos rezidentui, kuris yra faktiškasis dividendų savininkas, Lietuvoje imamas mokestis negali būti didesnis kaip: (i) 5 procentai bendros dividendų sumos, jei faktiškasis savininkas yra kompanija (išskyrus bendriją), kuri dividendus mokančioje kompanijoje tiesiogiai turi ne mažiau kaip 25 procentus kapitalo,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LT",
+   "quote": "(ii) 15 procentų bendros dividendų sumos visais kitais atvejais;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje ir pagal įstatymus tos Valstybės, kurioje jos susidaro, bet jei faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip 10 procentų bendros palūkanų sumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau toks honoraras taip pat gali būti apmokestinamas toje Susitariančiojoje Valstybėje ir pagal įstatymus tos Valstybės, kurioje jis susidaro, bet jei faktiškasis honoraro savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip 10 procentų bendros honoraro sumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "DIVIDENDS are asymmetric: the 5%/15% caps apply only to dividends paid by Lithuanian companies (source_state LT; 5% for a company, not partnership, holding directly >=25% of capital). Maltese-source dividends: Art. 10(2)(b) limits Malta tax on the gross dividend to the tax chargeable on the profits out of which it is paid (no fixed percentage cap) - not modelled. Interest exempt at source (Art. 11(3)) for the Government/local authorities, central bank, wholly government-owned financial institutions and government-guaranteed loans - not modelled. Protocol point 4 / Art. 27(2): persons under Maltese special fiscal regimes listed in the Protocol are excluded from treaty benefits. Art. 29(2): EIF 2004-02-02; in Lithuania WHT provisions apply to income derived on or after 1 January 2005; in Malta for years beginning on or after 1 January 2005. No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

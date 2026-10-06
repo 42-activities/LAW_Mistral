@@ -36,3 +36,13 @@ BE–DE (in force 1969-07-30), CY–DE (2011-12-16) and ES–SE (1976-12-21, sti
 IE–DE entry into force (2012-11-28) and IE–GB 1998-protocol dividend start (1999-04-06) filled.
 Still unresolved: JO–KW (no official text reachable), OM–EG (entry into force unpublished),
 LU–OM (not in force per Luxembourg).
+
+## Batch-8 network (EU completion, Serbia, CIS)
+
+`treaties_merged_batch8.json` maps the 13 batch-8 jurisdictions against the 49-jurisdiction
+universe (546 pairs, 424 in force); rates for 423 of them are in the seed folder. Curation adds:
+investment-conditioned 0% dividend tiers (MD–GB, MD–NL) dropped; most-favoured-nation 0% rates
+kept only where an official notice confirms them (EE via the Estonian MoF list; FI notices for LT
+and LV; HMRC for EE–GB) and dropped for the other LT/LV partners; FI–BG Bulgarian-source dividend
+reading, HR–IL reduced-rate tier and UZ–GB REIT tier dropped. Skipped: HR–SE (no text), RS–IL and
+SI–DE (no entry-into-force date).

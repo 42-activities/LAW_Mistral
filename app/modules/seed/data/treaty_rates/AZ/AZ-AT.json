@@ -1,0 +1,89 @@
+{
+ "a": "AZ",
+ "b": "AT",
+ "treaty_name": "Convention between the Government of the Republic of Austria and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2000, as modified by the MLI)",
+ "signed": "2000-07-04",
+ "entry_into_force": "2001-02-23",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "[AT list] Aserbaidschan / Azerbaijan Unterzeichnung / Date of Signature | 4.7.2000 | Inkrafttreten / Entry into Force | 23.2.2001 | Anwendbar ab / Effective From | 2002 || [AZ MLI position] Austria Original 04.07.2000 23.02.2001",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Aserbaidschan samt Protokoll, BGBl. III Nr. 176/2001 idF BGBl. III Nr. 93/2018 (Fassung vom 06.10.2026) + synthetisierte Fassung DBA/MLI",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20001545",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt und die Beteiligung 250 000 USD oder den Gegenwert in anderer Währung übersteigt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt und die Beteiligung 100 000 USD oder den Gegenwert in anderer Währung übersteigt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Zinsen ist, 10 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Lizenzgebühren, wenn die Patente, Marken, Muster oder Modelle, Pläne, geheimen Formeln oder Verfahren oder die Mitteilung gewerblicher, kaufmännischer oder wissenschaftlicher Erfahrungen, für die Lizenzgebühren gezahlt werden, nicht älter als drei Jahre sind;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 vom Hundert des Bruttobetrags der Lizenzgebühren in allen anderen Fällen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40269326/III_93_2018_DBA_Aserbaidschan_synthetisiert_deutsch.pdf",
+  "quote": "Der folgende Absatz 1 des Artikels 7 des MLI ist anzuwenden und geht den Bestimmungen dieses Abkommens vor ... Gemäß den Absätzen 3 und 5 des Artikels 35 des MLI ist Artikel 7 Absatz 1 des MLI in Bezug auf die Anwendung dieses Abkommens durch die Republik Österreich wirksam: a) bei den im Abzugsweg erhobenen Steuern ... am oder nach dem 1. Jänner 2025 ... durch die Republik Aserbaidschan wirksam: a) bei den im Abzugsweg erhobenen Steuern ... am oder nach dem 1. Jänner 2025"
+ },
+ "notes": "valid_from per Art. 28(2)(a): source taxes on amounts paid or credited on or after 1 January of the year following EIF (23.02.2001 -> 01.01.2002; BMF list 'Anwendbar ab 2002'). Dividends: both the 5% and 10% tiers require a direct holding of >=25% of capital; they differ only by the value of the participation (5%: participation exceeding USD 250,000; 10%: exceeding USD 100,000) - the amount condition is not representable in ownership_threshold. Interest: Art. 11(4) exclusive residence taxation where payer or recipient is a Contracting State/public body/subdivision/Central Bank or the loan is granted/guaranteed/secured by them (Protocol: incl. Oesterreichische Kontrollbank), loans approved by the Government of the payer's State, and debts from sale of goods or industrial/commercial/scientific equipment to an enterprise of the other State - not modelled. Royalty 5% tier: patents, trademarks, designs/models, plans, secret formulas/processes and know-how not older than three years; 10% otherwise. MLI Art. 8 not applicable (Azerbaijan reserved). Authentic texts German, Azerbaijani, English (English prevails).",
+ "confidence": "high",
+ "unverified": []
+}

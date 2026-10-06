@@ -1,0 +1,58 @@
+{
+ "a": "MD",
+ "b": "MT",
+ "treaty_name": "Convention between the Government of the Republic of Moldova and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2014)",
+ "signed": "2014-04-10",
+ "entry_into_force": "2015-06-17",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Malta | Convenția | 10.04.2014, Valletta | 17.06.2015 | 01.01.2016 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–MT Convention (malta-engpdf-60e831b47ebf2.pdf, scanned/OCR text)",
+ "source_url": "https://mf.gov.md/sites/default/files/malta-engpdf-60e831b47ebf2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MD",
+   "quote": "(a) where the dividends are paid by a company which is a resident of Moldova to a resident of Malta who is the beneficial owner thereof, the tax so charged in Moldova shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/malta-engpdf-60e831b47ebf2.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends paid by a Maltese company: Art. 10(2)(b) - 'Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid' (no percentage cap; not modelled; Malta levies no WHT on dividends under domestic law). Art. 26: WHT effect on income derived on or after 1 January following EIF (2015 -> 2016-01-01). Text is OCR of scanned PDF; minor OCR typos corrected in quotes. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": [
+  "interest Art. 11 article number confirmed only by sequence (OCR heading missing)"
+ ]
+}

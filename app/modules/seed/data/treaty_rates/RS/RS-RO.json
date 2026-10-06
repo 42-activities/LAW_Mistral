@@ -1,0 +1,57 @@
+{
+ "a": "RS",
+ "b": "RO",
+ "treaty_name": "Agreement between the Government of the Federal Republic of Yugoslavia and the Government of Romania for the avoidance of double taxation with respect to taxes on income and on capital (1996), applied by Serbia",
+ "signed": "1996-05-16",
+ "entry_into_force": "1998-01-01",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf",
+ "eif_quote": "[RO list] Serbia (Text sintetizat) | 122/09.07.1997 | 155/1997 | 01.01.1998 || [RS MLI position] ...Income and on capital Romania Original 16-05-1996 01-01-1998",
+ "source_title": "Уговор СРЈ–Румунија (1996), mfin.gov.rs Serbian text; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/wEwWTE_6012eeca2372d.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник тих дивиденди, разрезан порез не може бити већи од 10 одсто бруто износа дивиденди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник те камате, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник тих ауторских накнада, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/XulJJ8_651d4681daac9.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба [овог уговора], погодност из [овог уговора] не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Single 10% rate for dividends, interest and royalties. Interest exempt when beneficially owned by the other State's government, subdivisions, local authorities or their banks (Art. 11(3)). Treaty enters into force on 1 Jan of the year after the last notification and applies from that date (Art. 30(1)). MLI: Romania Art. 35(7)(a) reservation; notification of completion received 2023-03-06; MLI WHT effect in Serbia from 2024-01-01 (combined text).",
+ "confidence": "high",
+ "unverified": [],
+ "latest_protocol": null
+}

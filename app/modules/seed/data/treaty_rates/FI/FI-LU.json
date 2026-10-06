@@ -1,0 +1,78 @@
+{
+ "a": "FI",
+ "b": "LU",
+ "treaty_name": "Convention between Finland and Luxembourg for the avoidance of double taxation with respect to taxes on income and on capital (1982, as amended by Protocols 1990 and 2009; modified by the MLI)",
+ "signed": "1982-03-01",
+ "entry_into_force": "1983-03-27",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1983/18",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 25 päivänä helmikuuta 1983, tulee voimaan 27 päivänä maaliskuuta 1983 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Syntetiserad text av konventionen (MLI) och avtalet mellan Finland och Luxemburg (FördrS 17-18/1983, Swedish-language version)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1983/18",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 stycke 2 a)",
+   "valid_from": "1980-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procent av dividendens bruttobelopp, om den som har rätt till dividenden är ett bolag (med undantag för sammanslutning) som direkt eller indirekt behärskar minst 25 procent av det utbetalande bolagets kapital;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 stycke 2 b)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procent av dividendens bruttobelopp i övriga fall."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 stycke 1",
+   "valid_from": "1980-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Ränta, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, beskattas endast i denna andra stat, om personen i fråga har rätt till räntan."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 stycke 2 (patents, trade marks, designs, plans, secret formulas, equipment, know-how — 12(3)(b)-(c))",
+   "valid_from": "1980-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Royalty, som avses i stycke 3 punkterna b) och c) får beskattas även i den avtalsslutande stat från vilken den härrör, enligt lagstiftningen i denna stat, men om mottagaren har rätt till royaltyn får skatten inte överstiga 5 procent av royaltyns bruttobelopp."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 stycke 1 (copyright incl. films — 12(3)(a))",
+   "valid_from": "1980-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Om inte bestämmelserna i stycke 2 föranleder annat, beskattas royalty, som härrör från en avtalsslutande stat och som betalas till person med hemvist i den andra avtalsslutande staten, endast i denna andra stat, om personen i fråga har rätt till royaltyn."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1983/18",
+  "quote": "I enlighet med artikel 35 stycke 1 och 3 i konventionen börjar Republiken Finland tillämpa artikel 7 stycke 1 i konventionen på detta avtal a) i fråga om skatter som innehålls vid källan på belopp som betalas till eller gottskrivs personer som inte har hemvist (nonresidents), om den händelse som ligger till grund för dessa skatter inträffar på eller efter den 1 januari 2020 (Luxembourg: same date)"
+ },
+ "notes": "5% dividend tier: company holding directly OR indirectly >=25% of capital. Copyright royalties (incl. films/broadcast tapes) taxable only in residence State; patent/know-how/equipment royalties capped at 5%. Treaty applies retroactively to WHT on income derived on or after 1 January 1980 (Art. 30(2)(a)). Protocol 1990 (SopS 60/1992) amended only Art. 23(1)(c) (Finnish relief); Protocol 2009 (SopS 62/2010) replaced Art. 26. Text read is the Swedish-language synthesised version (no English version on Finlex). MLI arts 6, 7 etc. apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

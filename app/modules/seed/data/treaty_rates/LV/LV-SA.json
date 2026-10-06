@@ -1,0 +1,89 @@
+{
+ "a": "LV",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Republic of Latvia and the Government of the Kingdom of Saudi Arabia for the elimination of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2019)",
+ "signed": "2019-11-07",
+ "entry_into_force": "2021-07-01",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 48 | Saudi Arabia | 19.01.17. | 07.11.19 | 01.07.21. | 01.01.22.",
+ "source_title": "Latvia–SA tax treaty, official Latvian text (likumi.lv id 1904)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1904",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(d)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "d) sabiedrība (izņemot personālsabiedrību), kas ir otras Līgumslēdzējas Valsts rezidents un kam tieši pieder vismaz 25 procenti no kapitāla sabiedrībā, kura izmaksā dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šīm dividendēm var uzlikt nodokļus arī Līgumslēdzējā Valstī, kuras rezidents ir sabiedrība, kas izmaksā dividendes, saskaņā ar šīs valsts normatīvajiem aktiem, bet, ja šo dividenžu patiesais labuma guvējs ir otras Līgumslēdzējas Valsts rezidents, šādi uzlikts nodoklis nepārsniedz 5 procentus no dividenžu kopapjoma."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)(d)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Neatkarīgi no šā panta 2. daļas noteikumiem ienākumu no parādprasībām, kas rodas Līgumslēdzējā Valstī, atbrīvo no nodokļu uzlikšanas šajā valstī, ja šādu ienākumu gūst un tā patiesais labuma guvējs ir: ... d) sabiedrība (izņemot personālsabiedrību), kas ir otras Līgumslēdzējas Valsts rezidents; vai"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šādam ienākumam no parādprasībām var uzlikt nodokļus arī tajā Līgumslēdzējā Valstī, kurā tas rodas, saskaņā ar šīs valsts normatīvajiem aktiem, bet, ja šā ienākuma no parādprasībām patiesais labuma guvējs ir otras Līgumslēdzējas Valsts rezidents, šāds nodoklis nepārsniedz 5 procentus no ienākuma no parādprasībām kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 7 procentus no autoratlīdzības kopapjoma visos citos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no autoratlīdzības kopapjoma par ražošanas, tirdzniecības vai zinātnisko iekārtu izmantošanu vai par tiesībām izmantot šādas iekārtas;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27(2)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1904",
+  "quote": "2. Neatkarīgi no citiem šīs konvencijas noteikumiem šīs konvencijas priekšrocības netiek piešķirtas attiecībā uz ienākuma veidu vai kapitālu, ja ir pamatoti secināt, ņemot vērā visus būtiskos faktus un apstākļus, ka minētās priekšrocības iegūšana bija viens no jebkuras vienošanās vai darījuma galvenajiem mērķiem, kā rezultātā šāda priekšrocība tika tieši vai netieši iegūta, ja vien netiek konstatēts, ka minētās priekšrocības piešķiršana šajos apstākļos būtu saskaņā ar šīs konvencijas attiecīgo noteikumu mērķi un nolūku."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts paid on or after 1 January following EIF (2021-07-01) -> 2022-01-01. Dividends exempt at source where the beneficial owner is a company (other than a partnership) directly holding at least 25% of capital, or the government/central bank/wholly government-owned financial institution (government tiers not modelled). Interest exempt at source where the beneficial owner is any company (other than a partnership) of the other State (recipient-type tier, no holding threshold), the government/central bank/government-owned financial institution, or on government-guaranteed loans. Royalty 5% tier: royalties for the use of, or right to use, industrial, commercial or scientific equipment only (not a holding tier); 7% otherwise. Protocol para. 6: branch profits tax max 5% - not modelled. MLI does not apply (treaty not listed by either party); PPT in treaty Art. 27(2).",
+ "confidence": "high",
+ "unverified": []
+}

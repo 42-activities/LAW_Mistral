@@ -1,0 +1,70 @@
+{
+ "a": "MD",
+ "b": "AT",
+ "treaty_name": "Convention between the Government of the Republic of Moldova and the Government of the Republic of Austria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on property (2004, with Protocol)",
+ "signed": "2004-04-29",
+ "entry_into_force": "2005-01-01",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Austria | Convenția | 29.04.2004, Viena | 01.01.2005 | 01.01.2006 ; [AT BMF list] Moldau 29.4.2004 | Inkrafttreten 1.1.2005 | Anwendbar ab 2006 | BGBl III 160/2004",
+ "source_title": "MD MoF Moldovan (authentic) text of the MD–AT Convention (Austria_rom.pdf) and Protocol (Protocol_Austria_rom.pdf / Protocol_Austria_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Austria_rom.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "impozitul astfel perceput nu va depăşi: a) 5 la sută din suma brută a dividendelor, dacă proprietarul beneficiar este o companie (alta decât o societate), care deţine, în mod direct, cel puţin 25 la sută din capitalul companiei plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 la sută din suma brută a dividendelor în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste dobânzi pot fi, de asemenea, impuse în Statul Contractant din care provin şi potrivit legislaţiei acestui Stat, dar dacă proprietarul beneficiar al dobânzilor este un rezident al celuilalt Stat Contractant, impozitul astfel perceput nu va depăşi 5 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste royalty pot fi, de asemenea, impuse în Statul Contractant din care provin şi potrivit legislaţiei acestui Stat, dar dacă proprietarul beneficiar al royalty este un rezident al celuilalt Stat Contractant, impozitul astfel perceput nu va depăşi 5 la sută din suma brută a royalty."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Austria_rom.pdf",
+  "quote": ""
+ },
+ "notes": "English text on MD MoF site is a scan without text layer; the Moldovan text (equally authentic; English prevails in case of divergence) was read. Art. 11(3): interest paid to / loans granted, guaranteed or insured by the Government or National Bank of a State taxable only in residence State; Protocol: also for loans by/guaranteed by Oesterreichische Kontrollbank AG (not modelled). Protocol re Art. 11: income from profit-participating rights (silent partnership, participating loans/bonds) may be taxed at source under domestic law (no cap). Art. 27: EIF 60 days after the last notification; WHT effect on income derived on or after 1 January following EIF (2005 -> 2006-01-01). Austria is an MLI party but Moldova is not. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": [
+  "English (prevailing) text not machine-readable; Moldovan text used",
+  "BGBl III 160/2004 not fetched (RIS PDF link returned HTML)"
+ ]
+}

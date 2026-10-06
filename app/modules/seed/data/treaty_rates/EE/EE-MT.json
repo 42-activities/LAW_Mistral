@@ -1,0 +1,67 @@
+{
+ "a": "EE",
+ "b": "MT",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "signed": "2001-05-03",
+ "entry_into_force": "2003-01-22",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 39. | Malta | 14.01.2000 | 03.05.2001 | 11.12.2002 ( est/eng ) | 22.01.2003 | 01.01.2004 | ",
+ "source_title": "EE-MT Convention 2001 with Protocol (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/237190",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "EE",
+   "quote": "(i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "EE",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2004-01-01",
+  "basis": "treaty art. 26(3)",
+  "source_url": "https://www.riigiteataja.ee/akt/237190",
+  "quote": "3. Notwithstanding any other provision of this Convention, a resident of a Contracting State shall not receive the benefit of any reduction in or exemption from taxes provided for in this Convention by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such resident or any person connected with such resident was to obtain the benefits under this Convention that would not otherwise be available."
+ },
+ "notes": "Dividends paid by a Maltese company (Art. 10(2)(b)): 'Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid' - no fixed % cap, not modelled; the 5%/15% tiers apply only to Estonian-source dividends (source_state EE). Interest exempt at source for Government/local authorities/Central Bank/wholly-owned financial institutions and government-guaranteed loans (Art. 11(3)). Art. 26 Limitation of Benefits: treaty does not apply to persons with special fiscal treatment listed in Protocol para 4 (Malta Financial Services Centre Act beneficiaries etc.) and Art. 26(3) main-purpose rule (treated as PPT). MLI not in effect: Estonia has not notified Art. 35(7)(b) for Malta.",
+ "confidence": "high",
+ "unverified": []
+}

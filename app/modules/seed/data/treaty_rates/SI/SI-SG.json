@@ -1,0 +1,58 @@
+{
+ "a": "SI",
+ "b": "SG",
+ "treaty_name": "Agreement between the Republic of Slovenia and the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-01-08",
+ "entry_into_force": "2010-11-25",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-singapore-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): SINGAPUR | MP, št. 16/10 | 1. 1. 2011 | SLO ENG | za davke pri viru 1.1.2020; za druge davke 1.10.2019 |",
+ "source_title": "Synthesised text of the MLI and the SI-SG Agreement 2010 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB-MLI-KIDO-SLO-SIN-angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB-MLI-KIDO-SLO-SIN-angl.pdf",
+  "quote": "Notwithstanding any provisions of the Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "valid_from follows the FURS list ('Začetek uporabe KIDO' 1. 1. 2011). Art. 28(2) says the Agreement has effect 'in respect of tax chargeable for any year of assessment beginning on or after 1 January in the second calendar year following the year in which the Agreement enters into force' (EIF 2010-11-25), which literally points to 1.1.2012. Art. 11(3)-(4): interest paid to the other Government (incl. central bank/MAS, GIC, statutory bodies, subdivisions) and Singapore-source interest on SID Bank-guaranteed loans exempt. MLI WHT effect 1 January 2020.",
+ "confidence": "medium",
+ "unverified": [
+  "Start date: FURS 2011-01-01 vs literal Art. 28(2) reading 2012-01-01"
+ ]
+}

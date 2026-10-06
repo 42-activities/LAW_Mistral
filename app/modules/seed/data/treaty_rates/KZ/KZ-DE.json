@@ -1,0 +1,78 @@
+{
+ "a": "KZ",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Kazakhstan and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (1997)",
+ "signed": "1997-11-26",
+ "entry_into_force": "1998-12-21",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z980000295_",
+ "eif_quote": "(Вступило в силу 21 декабря 1998 года ...) Art. 31(2)(a): а) в случае налогов, удерживаемых у источника, в отношении сумм, выплачиваемых 1 января или после 1 января 1996 года;",
+ "source_title": "Law of RK on ratification of KZ-DE Agreement with Protocol (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z980000295_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды в соответствии с законодательством этого Государства, причем, если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, взимаемый налог не будет превышать: а) 5 процентов валовой суммы дивидендов, если фактическим владельцем является компания (иная, чем партнерство), которая прямо владеет не менее 25 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды в соответствии с законодательством этого Государства, причем, если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, взимаемый налог не будет превышать: b) 15 процентов валовой суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Государства, причем, если фактический владелец процентов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не будет превышать 10 процентов валовой суммы процентов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)(c)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "с) проценты, возникающие в Договаривающемся Государстве, облагаются налогом только в другом Договаривающемся Государстве, резидентом которого является получатель, если такой получатель является фактическим владельцем процентов и если такие проценты выплачиваются: аа) в связи с продажей в кредит любого промышленного, коммерческого или научного оборудования или bb) в связи с продажей в кредит любых товаров одним предприятием другому предприятию."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Государства, причем, если получатель является фактическим владельцем роялти, налог, взимаемый таким образом, не должен превышать 10 процентов валовой суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered); Protocol para 2 anti-abuse limited to Arts 11-12",
+  "source_url": "http://insecure.zan.kz/rus/docs/Z980000295_",
+  "quote": "2. Ограничения, упомянутые в положениях пункта 2 статьи 11 и пункта 2 статьи 12, не применяются, если главной целью любого лица, связанного с основанием или передачей долгового требования, в отношении которого выплачиваются проценты, или с основанием или передачей прав, в отношении которых выплачиваются роялти, было получение преимуществ статей 11 и 12 путем такого основания или такой передачи без экономической причины, свойственной осуществлению предпринимательской деятельности."
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) directly holding >=25% of capital. Interest exemptions for named public bodies (Government, central banks, Eximbank KZ, KfW, DEG, Hermes-guaranteed loans; Art. 11(3)(a)-(b)) not modelled; Art. 11(3)(c) exclusive residence taxation only for interest on credit sales of equipment/goods between enterprises. Protocol: royalty owner for equipment rental may elect net taxation; Protocol para 2 denies 11(2)/12(2) limits where main purpose of creating/assigning the debt-claim or right is to obtain the benefit. Agreement applies retroactively to WHT on amounts paid from 1 January 1996 (Art. 31(2)(a)). Not MLI-covered (Germany does not list KZ).",
+ "confidence": "high",
+ "unverified": []
+}

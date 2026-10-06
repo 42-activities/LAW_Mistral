@@ -1,0 +1,78 @@
+{
+ "a": "MD",
+ "b": "FI",
+ "treaty_name": "Agreement between the Government of the Republic of Moldova and the Government of the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-04-16",
+ "entry_into_force": "2008-11-09",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Finlanda | Convenția | 16.04.2008, Helsinki | 09.11.2008 | 01.01.2009 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–FI Agreement (Finlanda_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Finlanda_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 3 per cent of the gross amount of the royalties, in the case of payments received for the use of, or the right to use, any patent, computer software, design or model, plan, secret formula or process, or for information concerning industrial, commercial or scientific experience;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 7 per cent of the gross amount or the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Finlanda_eng.pdf",
+  "quote": ""
+ },
+ "notes": "Royalty 3% tier applies to patents, computer software, design/model, plan, secret formula/process and know-how; 7% general tier (incl. copyright, trademarks). Art. 11(3): interest paid to governments, central banks, listed state institutions (e.g. FINNFUND) and on officially supported export credits taxable only in residence State (not modelled). Art. 26: EIF 30 days after later notification; WHT effect from 1 Jan of following year. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": []
+}

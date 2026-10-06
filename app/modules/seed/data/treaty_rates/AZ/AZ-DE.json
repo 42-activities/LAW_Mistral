@@ -1,0 +1,80 @@
+{
+ "a": "AZ",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Republic of Azerbaijan for the avoidance of double taxation with respect to taxes on income and on capital (2004)",
+ "signed": "2004-08-25",
+ "entry_into_force": "2005-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf ; https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
+ "eif_quote": "[AZ MLI position] Germany Original 25.08.2004 28.12.2005 || [DE list] Aserbaidschan 25.08.2004 2005 1146 2006 291 2006 120 2006 304 01.01.2006",
+ "source_title": "BGBl. 2005 II S. 1146: Gesetz zu dem Abkommen vom 25. August 2004 zwischen der Bundesrepublik Deutschland und der Republik Aserbaidschan (with Protocol)",
+ "source_url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl205s1146.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt und dieser Kapitalanteil mindestens 150 000 Euro oder den entsprechenden Wert in aserbaidschanischen Manat beträgt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen im anderen Vertragsstaat ansässig ist, 10 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine im anderen Staat ansässige Person ist, a) 10 vom Hundert des Bruttobetrags der Lizenzgebühren im Sinne von nachstehendem Absatz 3 Buchstabe a, ... nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 vom Hundert des Bruttobetrags der Lizenzgebühren im Sinne von nachstehendem Absatz 3 Buchstabe b nicht übersteigen. ... b) die Benutzung oder für das Recht auf Benutzung von Urheberrechten an wissenschaftlichen Werken, von Patenten, Warenzeichen, Mustern oder Modellen, Plänen, geheimen Formeln oder Verfahren oder für die Mitteilung gewerblicher, kaufmännischer oder wissenschaftlicher Erfahrungen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&jumpTo=bgbl205s1146.pdf",
+  "quote": "No principal-purpose clause in the 2004 Agreement or Protocol; treaty not listed by Germany in its MLI position (not a covered tax agreement)."
+ },
+ "notes": "valid_from per Art. 31(2)(a): taxes withheld at source on amounts paid on or after 1 January of the calendar year following EIF (exchange of ratification instruments 28.12.2005 per AZ MLI position -> 01.01.2006; BMF list 'Anwendung grundsätzlich ab 01.01.2006'). Art. 31(3): the 1981 Germany-USSR agreement ceases to apply to Azerbaijan from the same dates. Dividend 5% tier: company (not a partnership) holding directly >=25% of capital AND the holding is at least EUR 150,000. Royalties: 10% applies to Art. 12(3)(a) items (copyright of literary or artistic works incl. films, personality rights, broadcasting recordings of artistes/sportsmen); 5% applies to Art. 12(3)(b) items (copyright of scientific works, patents, trademarks, designs/models, plans, secret formulas/processes, know-how) - the 10% entry is the 'other' tier but is limited to category (a) items. Interest exemptions not modelled: Art. 11(3)(a) German-source interest paid to the Government, National Bank or State Oil Fund of Azerbaijan; Art. 11(3)(b) Azerbaijani-source interest on loans covered by German export/investment guarantees or paid to the German Government, Bundesbank, KfW or DEG; Art. 11(4) exclusive residence taxation for interest on credit sales of industrial, commercial or scientific equipment. Protocol No. 6: Germany may tax under domestic law dividends and interest from profit-participating rights/claims (silent partnerships, participating loans, profit bonds) deductible for the payer. Protocol 4(c): fees for technical services fall under Art. 7/14, not Art. 12. Not MLI-covered (pair metadata). EIF date not read from the BGBl 2006 II S. 120 announcement itself.",
+ "confidence": "high",
+ "unverified": [
+  "Entry-into-force date 2005-12-28 taken from Azerbaijan MLI position; BGBl. 2006 II S. 120 announcement not read"
+ ]
+}

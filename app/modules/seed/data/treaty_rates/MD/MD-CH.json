@@ -1,0 +1,69 @@
+{
+ "a": "MD",
+ "b": "CH",
+ "treaty_name": "Agreement between the Republic of Moldova and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income and on capital (1999, with Protocol)",
+ "signed": "1999-01-13",
+ "entry_into_force": "2000-08-22",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Elvețiană | Convenția | 13.01.1999, Berna | 22.08.2000 | 01.01.2001 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–CH Agreement (Elvetia_eng.pdf) and Protocol (Protocol_Elvetia_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Elvetia_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Elvetia_eng.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest taxable only in residence State when paid in connection with credit sales of industrial/commercial/scientific equipment, credit sales of merchandise between enterprises, or on any loan granted by a bank (not modelled). Art. 27: WHT effect from 1 January following EIF (2000 -> 2001-01-01). Protocol only concerns the term 'capital'. No later amending protocol identified (merged dataset latest_protocol=null; not separately verified on fedlex). Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": [
+  "absence of post-1999 amending protocol not checked on fedlex"
+ ]
+}

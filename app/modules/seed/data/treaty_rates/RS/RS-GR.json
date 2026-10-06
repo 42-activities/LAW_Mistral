@@ -1,0 +1,68 @@
+{
+ "a": "RS",
+ "b": "GR",
+ "treaty_name": "Convention between the Federal Republic of Yugoslavia and the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1997, with Protocol 2008), applied by Serbia",
+ "signed": "1997-06-25",
+ "entry_into_force": "2010-06-08",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[GR list] Convention between the Federal Republic of Yugoslavia and the Hellenic Republic ... Federal Republic of Yugoslavia (Serbia) Original 25-06-1997 08-06-2010 Amending Instrument 11-11-2008 || [RS MLI position] ...n Income and on Capital Greece Original 25-06-1997 08-06-2010",
+ "source_title": "Уговор СРЈ–Грчка (1997) and Протокол (2008), mfin.gov.rs Serbian texts; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/fqk1RR_6012e7580a113.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник дивиденди разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник дивиденди разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник камате разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник ауторских накнада разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "latest_protocol": "2008-11-11",
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/0w7LFE_61bc9c2a1369c.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба [овог уговора], погодност из овог уговора не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Dividend 5% tier: beneficial owner company (other than a partnership) holding directly at least 25%. Protocol 2008 replaces Art. 8 (shipping/air) only and entered into force together with the treaty (single ratification instrument). Applies from 1 Jan of the year after exchange of ratification instruments (EIF 2010-06-08). No government-interest exemption. MLI PPT for WHT from 2022-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

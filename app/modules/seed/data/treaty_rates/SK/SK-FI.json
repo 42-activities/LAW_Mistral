@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "FI",
+ "treaty_name": "Convention between the Government of the Slovak Republic and the Government of the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999), as modified by the MLI",
+ "signed": "1999-02-15",
+ "entry_into_force": "2000-05-06",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2001/207/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť výmenou nót, t. j. 6. mája 2000, na základe článku 27 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 207/2001 Z. z. (SK-FI treaty); MLI notice 255/2019 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2001/207/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tieto dividendy však možno zdaniť aj v zmluvnom štáte, ktorého je spoločnosť vyplácajúca dividendy rezidentom, a to podľa právnych predpisov tohto štátu, ak však skutočným vlastníkom dividend je rezident druhého zmluvného štátu, takto stanovená daň nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť (iná ako osobná obchodná spoločnosť), ktorá priamo vlastní najmenej 25 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky, ktoré majú zdroj v jednom zmluvnom štáte a vyplácajú sa rezidentovi druhého zmluvného štátu, podliehajú zdaneniu iba v tomto druhom štáte, ak takýto rezident je skutočným vlastníkom úroku."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(c)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však okrem druhov platieb uvedených v odseku 3 písm. a) môžu zdaniť aj v tom zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu, ale ak skutočný vlastník licenčných poplatkov je rezidentom druhého zmluvného štátu, takto stanovená daň nepresiahne a) v prípade platieb uvedených v odseku 3 písm. b) 1 % hrubej sumy licenčných poplatkov, b) v prípade platieb uvedených v odseku 3 písm. c) 5 % hrubej sumy licenčných poplatkov, c) v prípade platieb uvedených v odseku 3 písm. d) a e) 10 % hrubej sumy licenčných poplatkov"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2019/255/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 27(2)(a): WHT provisions apply to income derived from 1 January of the year following EIF (6.5.2000) -> 2001-01-01. Dividends: 5% for company (non-partnership) holding directly >=25%, 15% otherwise; Art. 10(2) Finnish imputation-credit rule (historical) not modelled. Interest taxable only in residence State. Royalties tiers (Art. 12(2)): copyright royalties (3(a)) taxable only in residence State; finance leasing of equipment (3(b)) 1%; operating leasing of equipment, films/TV/radio tapes and computer software (3(c)) 5%; patents, trademarks, designs, secret formulas and know-how (3(d),(e)) 10% — only the 10% tier modelled as general. MLI applies (notice 255/2019 Z. z.): PPT for WHT from 2020-01-01; MLI art. 8 not applied. English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

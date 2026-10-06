@@ -1,0 +1,58 @@
+{
+ "a": "HR",
+ "b": "KW",
+ "treaty_name": "Agreement between the Republic of Croatia and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001)",
+ "signed": "2001-05-29",
+ "entry_into_force": "2003-01-09",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2009_07_5_70.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Države Kuvajt o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak i na imovinu, potpisan u Zagrebu 29. svibnja 2001., objavljen u »Narodnim novinama – Međunarodni ugovori« br. 15/2002, stupio na snagu 9. siječnja 2003.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Države Kuvajt o izbjegavanju dvostrukog oporezivanja (NN-MU 15/2002)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2002_12_15_174.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividende koje društvo rezident države ugovornice plaća rezidentu druge države ugovornice koji je stvarni korisnik dividendi mogu se oporezivati samo u toj drugoj državi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate nastale u državi ugovornici i plaćene rezidentu druge države ugovornice, koji je i stvarni korisnik tih kamata, mogu se oporezivati samo u toj drugoj državi ugovornici."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve naknade mogu se također oporezivati u državi ugovornici u kojoj su nastale, i to u skladu s propisima te države, ali ako je nositelj prava na autorsku naknadu rezident druge države ugovornice porez ne smije biti veći od 10% (deset postotaka) od bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not in force for Kuwait",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(a): WHT provisions apply to amounts paid or due on or after 1 January of the calendar year following the year in which the Agreement was SIGNED (2001) -> 2002-01-01 (retroactive). CONFLICT: Porezna uprava treaty table gives 'Datum primjene 01.01.2004.'; treaty text used. EIF 09.01.2003 (EIF announcement only published in NN-MU 5/2009). MLI not applicable: Kuwait signed but has not ratified (per treaty-map).",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from 2002-01-01 per treaty text conflicts with Porezna uprava application date 2004-01-01"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "a": "HR",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the elimination of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2024)",
+ "signed": "2024-01-24",
+ "entry_into_force": "2024-12-20",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2025_02_1_6.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Posebnog upravnog područja Hong Konga Narodne Republike Kine o uklanjanju dvostrukog oporezivanja porezima na dohodak i na imovinu te sprječavanju porezne utaje i izbjegavanja plaćanja poreza, potpisan u Hong Kongu 24. siječnja 2024., objavljen u »Narodnim novinama – Međunarodni ugovori«, broj 3/24., stupio na snagu 20. prosinca 2024.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Posebnog upravnog područja Hong Konga NR Kine o uklanjanju dvostrukog oporezivanja (NN-MU 3/2024)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2024_04_3_23.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Međutim, dividende koje isplaćuje društvo, koje je rezident ugovorne stranke, mogu se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik dividendi rezident druge ugovorne stranke, tada tako utvrđen porez ne smije biti veći od 5 posto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Međutim, kamata nastala u ugovornoj stranci može se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik kamate rezident druge ugovorne stranke, tako razrezan porez ne smije biti veći od 5 posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Međutim, naknade za autorska prava nastale u ugovornoj stranci mogu se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik naknada za autorska prava rezident druge ugovorne stranke, tako zaračunat porez ne smije biti veći od 5 posto bruto-iznosa naknada za autorska prava."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2025-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HK",
+   "quote": "Međutim, dividende koje isplaćuje društvo, koje je rezident ugovorne stranke, mogu se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik dividendi rezident druge ugovorne stranke, tada tako utvrđen porez ne smije biti veći od 5 posto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HK",
+   "quote": "Međutim, kamata nastala u ugovornoj stranci može se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik kamate rezident druge ugovorne stranke, tako razrezan porez ne smije biti veći od 5 posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HK",
+   "quote": "Međutim, naknade za autorska prava nastale u ugovornoj stranci mogu se također oporezivati u toj ugovornoj stranci sukladno propisima te ugovorne stranke, ali ako je stvarni korisnik naknada za autorska prava rezident druge ugovorne stranke, tako zaračunat porez ne smije biti veći od 5 posto bruto-iznosa naknada za autorska prava."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 27(1)",
+  "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2024_04_3_23.html",
+  "quote": "Neovisno o drugim odredbama ovog Ugovora, povlastica prema Ugovoru ne dodjeljuje se u pogledu dijela dohotka ili imovine ako je razumno za zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je ostvarivanje te povlastice bilo jedna od glavnih svrha bilo kojeg aranžmana ili transakcije koji su, izravno ili neizravno, rezultirali tom povlasticom, osim ako je utvrđeno da bi dodjeljivanje te povlastice u tim okolnostima bilo u skladu s predmetom i svrhom odgovarajućih odredaba Ugovora."
+ },
+ "notes": "Art. 28(2): effective in Croatia for tax years beginning on or after 1 January 2025; in Hong Kong for years of assessment beginning on or after 1 April 2025 (rates split by source_state accordingly; same caps both ways). Arts. 10(3) and 11(3): dividends and interest paid to the governments, central banks/HKMA, HBOR, Exchange Fund and wholly/majority government-owned entities exempt at source (not modelled). Protocol: pension schemes, investment funds and Croatian non-profits are residents; beneficial ownership per OECD Commentary. Not covered by the MLI; PPT in treaty Art. 27(1) (applies from the treaty's effective dates).",
+ "confidence": "high",
+ "unverified": []
+}

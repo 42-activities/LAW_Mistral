@@ -1,0 +1,37 @@
+{
+ "a": "AZ",
+ "b": "US",
+ "treaty_name": "Convention between the United States of America and the Union of Soviet Socialist Republics on Matters of Taxation (1973), applied by the US to Azerbaijan",
+ "signed": "1973-06-20",
+ "entry_into_force": "1976-01-29",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+ "eif_quote": "Ratifications Exchanged at Moscow December 30, 1975; Proclaimed by the President of the United States of America January 22, 1976; Entered into Force January 29, 1976; Effective January 1, 1976.",
+ "source_title": "IRS: Convention with the Union of Soviet Socialist Republics on Matters of Taxation (1973), with related letters",
+ "source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+ "rates": [
+  {
+   "category": "ROYALTY",
+   "article": "Article III(1)(a)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. The following categories of income derived from sources within one Contracting State by a resident of the other Contracting State shall be subject to tax only in that other Contracting State: (a) rentals, royalties, or other amounts paid as consideration for the use of or right to use literary, artistic, and scientific works, or for the use of copyrights of such works, as well as the rights to inventions (patents, author's certificates), industrial designs, processes or formulae, computer programs, trademarks, service marks, and other similar property or rights, or for industrial, commercial, or scientific equipment, or for knowledge, experience, or skill (know-how);"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+  "quote": ""
+ },
+ "notes": "The 1973 US-USSR convention has no dividend article and no general interest article: source State may tax dividends and interest without treaty cap (DIVIDEND and general INTEREST omitted). Special tier not modelled: Article III(1)(g) exempts at source 'interest on credits, loans and other forms of indebtedness connected with the financing of trade between the USA and the USSR except where received by a resident of the other Contracting State from the conduct of a general banking business in the first Contracting State' (Art. XIV(2) allows separate termination of III(1)(g)). Royalties (incl. equipment rentals and know-how) exempt at source. Effect: Art. XIII - income derived on or after 1 January of the year following exchange of ratifications (30 Dec 1975) => 1976-01-01. Applicability to Azerbaijan: IRS Azerbaijan page: 'Azerbaijan is one of the former Soviet Republics which are now covered by the treaty with the Commonwealth of Independent States (CIS), formerly known as the Union of Soviet Socialist Republics (USSR).' Whether Azerbaijan itself continues to apply the USSR treaty to the US was not confirmed from an Azerbaijani source (AZ MLI list has no US; US not MLI signatory). No PPT/LOB.",
+ "confidence": "medium",
+ "unverified": [
+  "Azerbaijan-side confirmation of succession to the 1973 US-USSR convention",
+  "valid_from for Azerbaijan as a successor state (IRS Table 3 reportedly shows 1 Jan 1987 for the CIS row; 1976-01-01 used per treaty text)"
+ ]
+}

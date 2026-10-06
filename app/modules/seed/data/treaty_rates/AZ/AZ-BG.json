@@ -1,0 +1,69 @@
+{
+ "a": "AZ",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the Republic of Bulgaria and the Government of the Republic of Azerbaijan for the avoidance of double taxation with respect to taxes on income and on capital, and Protocol (2007)",
+ "signed": "2007-11-12",
+ "entry_into_force": "2008-11-25",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "Азербайджан | 12-11-2007 | 25-11-2008 | Спогодба",
+ "source_title": "НАП: Спогодба между правителството на Република България и правителството на Република Азербайджан за избягване на двойното данъчно облагане на доходите и имуществото (Bulgarian text; via Wayback copy of 2025-06-04)",
+ "source_url": "https://web.archive.org/web/20250604074121id_/https://nra.bg/wps/wcm/connect/nra.bg25863/b4fa087b-e3ef-43ad-93f5-7ecfb76485ad/DTC_BG_AZ_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-b4fa087b-e3ef-43ad-93f5-7ecfb76485ad-nSQroEs",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но ако притежателят на дивидентите е местно лице на другата договаряща държава, така начисленият данък няма да надвишава 8 процента от брутната сума на дивидентите."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но когато притежателят на лихвите е местно лице на другата договаряща държава, така наложеният данък няма да надвишава 7 процента от брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) 5 процента от брутния размер на авторските и лицензионните възнаграждения, платени за използването или за правото на използване на всеки патент, чертеж или модел, план, секретна формула или процес, или за информация, отнасяща се до промишлен, търговски или научен опит (ноу-хау);"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) 10 процента от брутния размер на авторските и лицензионните възнаграждения във всички останали случаи."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalty 5% tier is by type (patent, design/model, plan, secret formula/process, know-how); 10% for all other royalties (copyright, trademarks etc.). Interest taxable only in residence State (Art. 11(3)) when payer or recipient is a Government, administrative-territorial subdivision, local authority, National Bank, or the State Oil Fund of Azerbaijan, or loan guaranteed by them (not modelled). Art. 29(2)(a): WHT provisions apply to amounts paid or credited on/after 1 Jan of year following EIF (25 Nov 2008 -> 2009-01-01). Azerbaijan MLI position notes Articles 11(8) and 12(7) as existing Art. 7(2) anti-abuse provisions. MLI WHT effect 2025-01-01 per merged dataset. Azerbaijan reserved Art. 8, so no 365-day holding period. Text read is the Bulgarian version (English text prevails in case of divergence); quote spacing artefacts from PDF extraction normalised.",
+ "confidence": "high",
+ "unverified": [
+  "Bulgaria MLI position PDF is image-only; absence of a Bulgarian Art. 35(7) reservation / Art. 7 opt-out not re-verified (relied on merged dataset)"
+ ]
+}

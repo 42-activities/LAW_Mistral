@@ -1,0 +1,58 @@
+{
+ "a": "UZ",
+ "b": "KZ",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Republic of Kazakhstan on the avoidance of double taxation of income and property (1996, as amended 2017)",
+ "signed": "1996-06-12",
+ "entry_into_force": "1997-04-21",
+ "eif_source_url": "https://lex.uz/ru/docs/2543774",
+ "eif_quote": "(Вступило в силу 21 апреля 1997 года)",
+ "source_title": "Соглашение между Правительством Республики Узбекистан и Правительством Республики Казахстан об избежании двойного налогообложения доходов и имущества (Алматы, 12.06.1996), consolidated with Protocol of 23.03.2017 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2543774",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но если получатель дивидендов фактически имеет на них право, то взимаемый налог не должен превышать 10 процентов валовой суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но если получатель является фактическим владельцем процентов, то взимаемый таким образом налог не должен превышать 10 процентов валовой суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но если получатель и фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог не может превышать 10 процентов валовой суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2018-10-10",
+  "basis": "treaty arts. 10(6), 11(8), 12(7) (added by 2017 Protocol)",
+  "source_url": "https://lex.uz/ru/docs/2543774",
+  "quote": "6. Положения настоящей статьи не применяются, если основной целью или одной из основных целей любого лица, связанного с созданием или распределением акций или других прав, в отношении которых выплачиваются дивиденды, является получение выгоды в соответствии с настоящей статьей путем такого создания или распределения."
+ },
+ "notes": "Art. 28(a): source taxes apply to amounts paid on/after the first day of the third month following the month of entry into force (21.04.1997 -> 01.07.1997). Art. 11(3): interest to governments, local authorities, central banks (Central Bank of Uzbekistan / National Bank of Kazakhstan) and wholly government-owned export credit institutions exempt. 2017 Protocol added article-level main-purpose anti-abuse rules (not a general PPT); Uzbekistan not an MLI party. EIF conflict: KZ MLI position gives 07-04-1997, lex.uz says 21-04-1997.",
+ "unverified": [
+  "Protocol 2017 effective date for the main-purpose clauses taken as protocol entry into force 2018-10-10 (from merged file; protocol's own effective-date clause not read)"
+ ],
+ "confidence": "high"
+}

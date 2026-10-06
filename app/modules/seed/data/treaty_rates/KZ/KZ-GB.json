@@ -1,0 +1,69 @@
+{
+ "a": "KZ",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1994, as amended 1997)",
+ "signed": "1994-03-21",
+ "entry_into_force": "1996-07-15",
+ "eif_source_url": "https://www.gov.uk/government/publications/kazakhstan-tax-treaties",
+ "eif_quote": "gov.uk (per treaty map): 'The Double Taxation Convention entered into force on 15 July 1996 ... amended by a protocol signed on 18 September 1997.' Art. 29(2): 2. Настоящая Конвенция вступает в силу с даты последнего из этих уведомлений и начинает с нее своей действие: а) в Казахстане: (i) в отношении налогов, удерживаемых у источника, по суммам, уплачиваемым или льготируемым с или после 1 января 1993 года; и (ii) в отношении других налогов, за налогооблагаемые периоды, начинающиеся с или после 1 января 1993 года; Ь) в Соединенном Королевстве: (i) в отношении подоходного налога и налога на доходы от прироста стоимости имущества за любой облагаемый год, начиная с или после 6 апреля 1993 года;",
+ "source_title": "Law of RK Z960000012_ on ratification of KZ-GB Convention (adilet, Russian text) and Law Z980000275_ ratifying the 1997 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z960000012_ ; http://insecure.zan.kz/rus/docs/Z980000275_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1993-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, который подлежит налогообложению в отношении дивидендов в этом другом Договаривающемся Государстве, то взимаемый налог не должен превышать: a) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания, которая контролирует прямо или косвенно по крайней мере 10 процентов акций с правом голоса в капитале компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, который подлежит налогообложению в отношении дивидендов в этом другом Договаривающемся Государстве, то взимаемый налог не должен превышать: b) 15 процентов общей суммы дивидендов во всех других случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем процентов, то взимаемый налог не должен превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, то налог взимаемый таким образом не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividend 5% tier: company controlling directly or indirectly >=10% of the voting shares; treaty limits apply only where the beneficial owner is subject to tax on the dividends in its residence State. Treaty dates: in KZ the Convention applies to WHT on amounts paid from 1 Jan 1993 (Art. 29(2)(a)(i)); in the UK from 6 April 1993 (income tax) / 1 April 1993 (corporation tax). Interest: Art. 11(8) denies the 11(2) limit to an exempt beneficial owner who sells the holding within 3 months; Art. 11(10) (replaced by 1997 Protocol, in force 1998-11-02) exempts interest paid by or to Governments/local authorities; Art. 11(11) exempts in KZ interest on ECGD-guaranteed/insured loans - not modelled. Arts 11(9), 12(8) main-purpose rules. MLI WHT effect 2021-01-01; UK reserved the entirety of MLI Art. 8 (UK instrument of deposit p.35, read from scanned image), so no 365-day period.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 1996-07-15 from gov.uk via treaty map (adilet ratification page has no EIF note)"
+ ]
+}

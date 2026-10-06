@@ -1,0 +1,68 @@
+{
+ "a": "RS",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Serbia and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (2010)",
+ "signed": "2010-05-07",
+ "entry_into_force": "2010-12-17",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[AT list] Serbien / Serbia Unterzeichnung / Date of Signature | 7.5.2010 | Inkrafttreten / Entry into Force | 17.12.2010 | Anwendbar ab / Effective From | 2011 2018 (MLI) || [RS MLI position] ...Income and on Capital Austria Original 07-05-2010 17-12-2010",
+ "source_title": "Уговор Србија–Аустрија (2010), mfin.gov.rs Serbian text; MLI combined text (Комбиновани текст)",
+ "source_url": "https://www.mfin.gov.rs/upload/media/ighLU4_6012e09d3684e.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: 1. 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући ортачко друштво) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2. 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од: 1. 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући ортачко друштво) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2. 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од: 1. 5 одсто бруто износа ауторских накнада наведених у подставу 1. става (3) овог члана; 2. 10 одсто бруто износа ауторских накнада наведених у подставу 2. става (3) овог члана."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/ynyNND_6012e0bf2101f.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба овог уговора, погодност из овог уговора не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Royalties: 5% for copyright royalties (Art. 12(3)(1)), 10% for patent/know-how/equipment royalties (Art. 12(3)(2)); only the 10% general tier is modelled. Interest exempt at source when paid to the other State's government, central bank or government-controlled financial institution (Art. 11(3)). Dividend 5% tier requires direct holding of at least 25% of capital by a company (other than a partnership). Rates apply from 1 Jan of the year after entry into force (Art. 29(2)). MLI art. 8 not applied to this treaty in the combined text. MLI PPT effective for WHT from 2019-01-01 per combined-text footnote.",
+ "confidence": "high",
+ "unverified": [],
+ "latest_protocol": null
+}

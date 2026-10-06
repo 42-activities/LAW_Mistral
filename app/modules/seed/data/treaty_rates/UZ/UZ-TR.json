@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1996, as amended 2017)",
+ "signed": "1996-05-08",
+ "entry_into_force": "1997-09-30",
+ "eif_source_url": "https://lex.uz/ru/docs/2901979",
+ "eif_quote": "GİB list: '34) Özbekistan 08.05.1996 07.09.1997 - 23103 30.09.1997 01.01.1997'; lex.uz: 30.09.1997",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Туркия Жумҳурияти Ҳукумати ўртасида Битим (08.05.1996), Uzbek text consolidated with Protocol of 25.10.2017 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2901977",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "фақат агар, дивидендларнинг даромадли соҳиби дивиденд олувчи деб ҳисобланса, солиқ миқдори дивидендлар ялпи суммасининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "агар дивидендларнинг даромадли соҳиби фоизлар олувчи ҳисобланса, солиқ миқдори фоизлар ялпи суммасининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо агар олувчи ана шу роялтиларнинг даромадли соҳиби бўлса, бундай ҳолда солиқ тушумлар ялпи суммасининг 10 фоизидан ошиб кетмаслиги лозим."
+  }
+ ],
+ "notes": "Art. 27: applies to taxes for tax years beginning on/after 1 January of the year in which the Agreement entered into force (1997-01-01; GİB list also gives 01.01.1997). Art. 11(3): interest paid to the Turkish Government, Central Bank or Eximbank exempt from Uzbek tax; interest paid to the Government/Central Bank of Uzbekistan exempt from Turkish tax. 2017 Protocol (in force 2020-07-09) amended Arts. 3, 4(1), 5, 12(3) (royalty definition), 25 and added 25A — WHT rates unchanged. EIF date: lex.uz/GİB show 30.09.1997 (GİB exchange 07.09.1997).",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "AT",
+ "treaty_name": "Convention between the Czechoslovak Socialist Republic and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (1978), as modified by the MLI",
+ "signed": "1978-03-07",
+ "entry_into_force": "1979-02-12",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1979/48/vyhlasene_znenie.html",
+ "eif_quote": "Podľa svojho článku 28 ods. 2 Zmluva nadobudla platnosť 12. februárom 1979.",
+ "source_title": "Vyhláška MZV č. 48/1979 Zb. (Slovak translation of CSSR-AT treaty); MLI notice 410/2018 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1979/48/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto dividendy sa však môžu zdaniť v zmluvnom štáte, v ktorom má sídlo spoločnosť, ktorá ich vypláca, a to podľa práva tohto štátu; daň však nesmie presiahnuť 10 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1979-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Úroky majúce zdroj v jednom zmluvnom štáte a vyplácané osobe majúcej bydlisko alebo sídlo v druhom zmluvnom štáte sa môžu zdaniť iba v tomto druhom štáte."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1979-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Licenčné poplatky uvedené v odseku 3 písm. a) sa však môžu zdaniť v zmluvnom štáte, v ktorom je ich zdroj, a to podľa práva tohto štátu; daň však nesmie prekročiť 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2018/410/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 28(3): first applies to taxes for the calendar year following the year of exchange of ratification instruments (14.12.1978) -> 1979-01-01. Royalty 5% cap applies only to Art. 12(3)(a) royalties (patents, trademarks, designs, plans, secret formulas, equipment, know-how); copyright royalties (Art. 12(3)(b), literary/artistic/scientific works incl. films) are taxable only in the residence State (0% at source) — not modelled as separate tier. Interest exclusive to residence State. MLI applies (notice 410/2018 Z. z.): PPT Art. 7(1) effective for WHT from 1.1.2019; MLI Art. 8 not applied to this treaty. Authentic texts Czech and German; Slovak translation used.",
+ "confidence": "high",
+ "unverified": []
+}

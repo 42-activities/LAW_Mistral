@@ -1,0 +1,56 @@
+{
+ "a": "HR",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2024)",
+ "signed": "2024-12-04",
+ "entry_into_force": "2025-06-24",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2025_10_9_37.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Kraljevine Saudijske Arabije o izbjegavanju dvostrukog oporezivanja porezima na dohodak i na imovinu te sprječavanju porezne utaje i izbjegavanja plaćanja poreza, potpisan u Rijadu 4. prosinca 2024., objavljen u »Narodnim novinama – Međunarodni ugovori«, broj 7/25., stupio na snagu 24. lipnja 2025.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Kraljevine Saudijske Arabije o izbjegavanju dvostrukog oporezivanja (NN-MU 7/2025)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2025_06_7_25.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, dividende koje isplaćuje društvo, koje je rezident države ugovornice, mogu se također oporezivati u toj državi ugovornici sukladno propisima te države ugovornice, ali ako je stvarni korisnik dividendi rezident druge države ugovornice, tako utvrđen porez ne smije biti veći od 5 posto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, dohodak od potraživanja duga koji je nastao u državi ugovornici može se također oporezivati u toj državi ugovornici sukladno propisima te države ugovornice, ali ako je stvarni korisnik dohotka od potraživanja duga rezident druge države ugovornice, tako utvrđen porez ne smije biti veći od 5 posto bruto-iznosa dohotka od potraživanja duga."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, naknade za autorska prava nastale u državi ugovornici mogu se također oporezivati u toj državi ugovornici sukladno propisima te države ugovornice, ali ako je stvarni korisnik naknada za autorska prava rezident druge države ugovornice, tako utvrđen porez ne smije biti veći od 10 posto bruto-iznosa naknada za autorska prava."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 29",
+  "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2025_06_7_25.html",
+  "quote": "Neovisno o drugim odredbama ovog Ugovora, povlastica prema ovom Ugovoru ne dodjeljuje se u pogledu dijela dohotka ili imovine ako je razumno za zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je ostvarivanje te povlastice bilo jedna od glavnih svrha svakog aranžmana ili transakcije koja je, izravno ili neizravno, rezultirala tom povlasticom, osim ako je utvrđeno da bi dodjeljivanje te povlastice u tim okolnostima bilo u skladu s predmetom i svrhom relevantnih odredaba ovog Ugovora."
+ },
+ "notes": "Art. 30(2)(a): WHT on amounts paid on or after 1 January following EIF (24.06.2025) -> 2026-01-01. Art. 11 covers 'dohodak od potraživanja duga' (income from debt-claims). Art. 10(6): branch profits remittance tax capped at 5% (not modelled). Not covered by the MLI; PPT in treaty Art. 29.",
+ "confidence": "high",
+ "unverified": []
+}

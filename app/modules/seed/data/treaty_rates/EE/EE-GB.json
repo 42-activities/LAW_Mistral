@@ -1,0 +1,69 @@
+{
+ "a": "EE",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1994)",
+ "signed": "1994-05-12",
+ "entry_into_force": "1994-12-19",
+ "eif_source_url": "https://www.gov.uk/government/publications/estonia-tax-treaties",
+ "eif_quote": "HMRC: \"The Double Taxation Convention entered into force on 19 December 1994 and is effective in Estonia from 1 January 1995. The convention is effective in the UK from: 1 April 1995 for Corporation Tax 6 April 1995 for Income Tax and Capital Gains Tax\" ; Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 63. | United Kingdom | 22.10.1993 | 12.05.1994 | 23.11.1994 ( est / eng ) | 19.12.1994 | 01.01.1995 | ",
+ "source_title": "EE-GB Convention 1994, English text (Riigi Teataja annex UK_doubletax_2023.pdf) + Exchange of Notes 12.05.1994 (akt 13107324) + HMRC MFN notice",
+ "source_url": "https://www.riigiteataja.ee/aktilisa/0000/1310/7324/UK_doubletax_2023.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1995-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly at least 25 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as modified by Exchange of Notes para. 7 (MFN)",
+   "valid_from": "2015-10-16",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "HMRC: \"Paragraph 7 of the Exchange of Notes to the 1994 Double Taxation Agreement (DTA) contains a 'Most Favoured Nation' (MFN) provision relating to royalties (Article 12). ... The Estonia-Switzerland DTA, which entered into force on 16 October 2015, provides for resident state taxation only of royalties and so the 1994 MFN provision has been triggered. The effect of this provision is that from 16 October 2015 no source state taxation is permitted under the DTA in respect of royalties.\""
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Dividend 25% threshold is of voting power ('controls'). Royalties residence-only from 2015-10-16 (confirmed by both HMRC and Estonian MoF). INTEREST CONFLICT: Estonian MoF states 'From 16 October 2015 the state of residence has the exclusive right to tax interest based on the MFN clause in paragraph 6 of the Exchange of Notes' and bank-loan interest exclusive from 21.05.2006; however para. 6 of the Exchange of Notes as published only covers interest on loans made, guaranteed or insured by a financial institution of a public character, and HMRC's notice mentions only royalties - general interest kept at the 10% treaty cap. Interest exempt at source (Art. 11(3)): government/political subdivisions/agencies as payer or recipient, ECGD-type guaranteed loans, Bank of England/Bank of Estonia loans. UK effective dates: 1 April 1995 (CT), 6 April 1995 (IT/CGT).",
+ "confidence": "medium",
+ "unverified": [
+  "Interest: Estonian MoF claims residence-only taxation from 2015-10-16 via MFN; not reflected in rates (treaty text/HMRC do not support it for general interest)"
+ ]
+}

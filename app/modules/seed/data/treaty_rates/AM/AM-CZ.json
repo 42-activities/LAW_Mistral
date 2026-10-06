@@ -1,0 +1,56 @@
+{
+ "a": "AM",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Republic of Armenia and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008, as modified by the MLI)",
+ "signed": "2008-07-06",
+ "entry_into_force": "2009-07-15",
+ "eif_source_url": "https://mf.gov.cz/cs/zahranici-a-eu/smlouvy-o-zamezeni-dvojiho-zdaneni/prehled-platnych-smluv ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[CZ list] Arménie | 15.7.2009 | 86/2009 Sb.m.s. | | Úmluva č. 32/2020 Sb.m.s. (FZ č. 15/2023) || [AM MLI position] ...Taxes on Income Czech Republic Original 06-07-2008 15-07-2009",
+ "source_title": "Synthesised text of the MLI and the AM-CZ Agreement (MLI_SynthesizedText_CzechRepublic.docx, Armenian MoF)",
+ "source_url": "https://minfin.am/website/images/files/2f8aeeb9.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the royalties of the kind referred to in sub- paragraph b) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://minfin.am/website/images/files/2f8aeeb9.rar",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Royalties: Art. 12(2)(a) 5% for royalties of the kind in para 3(a) (copyright of literary, artistic or scientific work, cinematograph films, films/tapes for TV or radio) - not modelled; 10% (para 3(b): patents, trade marks, designs, secret formulas, computer software, use of industrial/commercial/scientific equipment, know-how) recorded as general tier. Interest Art. 11(3): exempt if paid to the Government/subdivision/local authority/Central Bank/government-owned financial institution or on loans guaranteed/insured by them; 5% on loans or credits granted by a bank (bank-only tier, not modelled). MLI Art. 7(1) replaces paras 1 and 3 of treaty Art. 27 (anti-abuse). Art. 28: WHT on income paid or credited on or after 1 January of the year following EIF (2009-07-15 -> 2010-01-01). MLI Art. 8 not applied. MLI WHT effect 2024-01-01 from treaty map (synthesised-text header dates not extractable from docx).",
+ "confidence": "high",
+ "unverified": []
+}

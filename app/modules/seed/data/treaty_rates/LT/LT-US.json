@@ -1,0 +1,67 @@
+{
+ "a": "LT",
+ "b": "US",
+ "treaty_name": "Convention between the Government of the Republic of Lithuania and the Government of the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998)",
+ "signed": "1998-01-15",
+ "entry_into_force": "1999-12-30",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.93145",
+ "eif_quote": "e-seimas metadata: 1998-01-15 Priėmė 1999-12-23 Ratifikuota 1999-12-30 Įsigalioja Įsigalioja 1999-12-30 || 2. Sutartis įsigalioja vėlesniojo iš 1 paragrafe minimų pranešimų gavimo dieną, ir jos nuostatos taikomos abiejose Susitariančiosiose Valstybėse:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Government of the Republic of Lithuania and the Government of the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.93145",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentas yra mokėtojas, ir pagal tos Valstybės įstatymus, bet jeigu faktiškasis dividendų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali viršyti: a) 5 procentų bendros dividendų sumos, jeigu faktiškasis savininkas yra kompanija, kuri tiesiogiai turi ne mažiau kaip 10 procentų dividendus mokančios kompanijos balsavimo teisę turinčių akcijų,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jeigu faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali viršyti 10 procentų bendros palūkanų sumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentų bendros atlyginimų už nuosavybės teisių perleidimą sumos visais kitais atvejais."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": ""
+ },
+ "notes": "5% dividend tier: company beneficial owner holding directly >=10% of the voting stock (threshold is voting stock). The 5% tier does not apply to dividends from a US RIC or REIT (RIC: 15%; REIT: 15% only for individuals holding <10%, otherwise domestic rate) - not modelled. Art. 10(5): branch profits tax max 5%. Interest exempt at source (Art. 11(3)(a)-(b)) for governments/central banks/government-owned financial institutions and government-guaranteed or insured loans, and credit-sale interest between unrelated enterprises; contingent interest (Art. 11(3)(d)) may be taxed at the 15% portfolio dividend rate; US may tax REMIC excess inclusions - not modelled. Royalty 5% tier applies only to payments for the use of industrial, commercial or scientific equipment (special tier not modelled; general royalty cap 10% under Art. 12(2)(b)). The Convention contains a limitation-on-benefits article. Art. 29(2)(a): WHT provisions apply to amounts paid or credited on or after 1 January of the year following EIF (EIF 1999-12-30 -> 2000-01-01). The US is not an MLI Party, so no MLI PPT. No 365-day holding period: Lithuania reserved MLI Art. 8 entirely; MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Republic of Armenia and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002, as modified by the MLI)",
+ "signed": "2002-04-22",
+ "entry_into_force": "2007-11-26",
+ "eif_source_url": "https://www.gta.gov.qa/en/ajax/agreements-json ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[QA list] Republic of Armenia | type=double-taxation-en | signature_date=22-Apr-2002 | Agreement between the Government of The State of Qatar and the Government of republic of Armenia for the avoidance of double taxation || [AM MLI position] ...Taxes on Income State of Qatar Original 22-04-2002 26-11-2007",
+ "source_title": "MLI matching and synthesised text Armenia-Qatar (Armenian MoF)",
+ "source_url": "https://minfin.am/website/images/files/cbdc1756.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) five percent (5%) of the gross amount of the dividends, whenever the invested capital exceeds one hundred thousands (100 000) US dollars;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) ten percent (10 %) of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed five percent (5%) of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed five percent (5%) of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://minfin.am/website/images/files/cbdc1756.rar",
+  "quote": "Notwithstanding any provisions of Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Dividend 5% tier conditioned on invested capital exceeding USD 100,000 (no percentage threshold). Interest Art. 11(3): exempt if derived and beneficially owned by the Government/political subdivision/local authority (or agreed agency) or Central Bank of the other State, or on loans extended/endorsed/guaranteed by the Government of the source State. Art. 27: Agreement enters into force on the 30th day after exchange of notes and has effect for income derived during taxable years beginning on or after 1 January of the year following EIF (2007-11-26 -> 2008-01-01). Synthesised text: MLI effective for WHT from 1 January 2024. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

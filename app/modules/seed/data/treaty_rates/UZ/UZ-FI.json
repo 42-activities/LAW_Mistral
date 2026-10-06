@@ -1,0 +1,91 @@
+{
+ "a": "UZ",
+ "b": "FI",
+ "treaty_name": "Agreement between the Republic of Finland and the Republic of Uzbekistan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998, as amended 2016)",
+ "signed": "1998-04-09",
+ "entry_into_force": "1999-02-07",
+ "eif_source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+ "eif_quote": "Finland–Uzbekistan SopS 9-10/1999; merged dataset EIF 1999-02-07 (Art. 27(2): EIF thirty days after the later notification)",
+ "source_title": "Finlex up-to-date income tax treaties: Finland–Uzbekistan 9-10/1999 (consolidated with Protocol SopS 42–43/2016), English text",
+ "source_url": "https://www.finlex.fi/en/sopimukset/verosopimusteksti/1999/19990010",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)/(3)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties, except in the case of payments referred to in subparagraph a) of paragraph 3, may also be taxed in the Contracting State in which they arise ... a) for the use of, or the right to use, any computer software, patent, design or model, or plan;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in subparagraph b) of paragraph 3;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in subparagraph c) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "1998-01-01",
+  "basis": "treaty arts. 11(8), 12(7) (article-level main-purpose rules)",
+  "source_url": "https://www.finlex.fi/en/sopimukset/verosopimusteksti/1999/19990010",
+  "quote": "7. The provisions of this Article shall not apply if it is the main purpose or one of the main purposes of any person concerned with the creation or assignment of the right or property in respect of which the royalties are paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Royalties are split by type (Art. 12(3)): (a) software, patents, designs/models, plans — taxable only in residence State; (b) secret formulas/processes and know-how — 5%; (c) copyright (literary/artistic/scientific, films, TV/radio tapes) and trademarks — 10%. Art. 10(2): special rule while Finnish individuals get a dividend tax credit (imputation abolished in Finland 2005; not modelled). Art. 11(3): interest to governments, central banks, FINNFUND/Uzbek state funds, on guaranteed loans, credit sales of goods/equipment between unrelated enterprises and officially supported export credits taxable only in residence State. Art. 27(2): effective for source taxes on income derived on/after 1 January of the calendar year in which the Agreement was signed (1998). 2016 Protocol amended Art. 25 and added 25A only. No MLI (Uzbekistan not a party).",
+ "unverified": [
+  "EIF date 1999-02-07 from merged dataset (not quoted from treaty text)"
+ ],
+ "confidence": "high"
+}

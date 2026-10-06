@@ -1,0 +1,78 @@
+{
+ "a": "AZ",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1994, as modified by the MLI)",
+ "signed": "1994-02-23",
+ "entry_into_force": "1995-10-03",
+ "eif_source_url": "https://www.gov.uk/government/publications/azerbaijan-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 3 October 1995. The convention is effective in Azerbaijan from 1 January 1996. The convention is effective in the UK from: 1 April 1996 for Corporation Tax; 6 April 1996 for Income Tax and Capital Gains Tax",
+ "source_title": "gov.uk: Synthesised text of the MLI and the 1994 UK-Azerbaijan Double Taxation Convention (and Exchange of Notes)",
+ "source_url": "https://www.gov.uk/government/publications/azerbaijan-tax-treaties/synthesised-text-of-the-multilateral-instrument-mli-and-the-1994-uk-azerbaijan-double-taxation-convention-and-protocol-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "30",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company which controls, directly or indirectly, at least 30 per cent of the voting power in the company paying the dividends or a company which has invested at least 100,000 US dollars (or the equivalent amount in the currency of either Contracting State) in the share capital of the company paying the dividends at the date of payment of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest and subject to tax on the interest in that other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the royalties paid in respect of any copyright of literary or artistic work (including cinematograph films, and films or tapes for radio or television broadcasting); and"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of all other royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/azerbaijan-tax-treaties/synthesised-text-of-the-multilateral-instrument-mli-and-the-1994-uk-azerbaijan-double-taxation-convention-and-protocol-in-force",
+  "quote": "The following paragraph 1 of Article 7 of the MLI replaces paragraph 8 of Article 11, paragraph 7 of Article 12, paragraph 3 of Article 21 and paragraph 2 of Article 23 of this Convention ... [MLI] effective in the UK from: 1 January 2025 for taxes withheld at source ... effective in Azerbaijan from: 1 January 2025 for taxes withheld at source"
+ },
+ "notes": "valid_from: Art. 29(b)(i) - in Azerbaijan, taxes withheld at source on amounts paid or credited on or after 1 January 1996; in the UK the Convention has effect for income tax from 6 April 1996 and corporation tax from 1 April 1996 (Art. 29(a)). Dividend 10% tier: company controlling directly or indirectly >=30% of voting power OR having invested >=USD 100,000 in the share capital of the payer (alternative condition not modelled). Dividend and interest caps apply only if the beneficial owner is subject to tax on the income in the residence State. Interest: Art. 11(7) denies relief where an exempt beneficial owner sells the debt-claim within 3 months of acquisition; Art. 11(9) exemption for interest beneficially owned by the other State's Government/agencies; Art. 11(10)-(11) exemption for ECGD (UK) / National Bank of Azerbaijan or International Bank of Azerbaijan guaranteed/insured loans - not modelled. Anti-abuse main-purpose clauses in Arts. 11(8), 12(7), 21(3), 23(2) replaced by MLI Art. 7(1) PPT. MLI Art. 8 not applicable (Azerbaijan reserved). Article 23 'Limitation of relief' (remittance basis) not modelled. No amending protocol; the 'Protocol' in the gov.uk title refers to the Exchange of Notes of 23 Feb 1994.",
+ "confidence": "high",
+ "unverified": []
+}

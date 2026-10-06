@@ -1,0 +1,59 @@
+{
+ "a": "RS",
+ "b": "IT",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Italian Republic for the avoidance of double taxation with respect to taxes on income and on capital (1982), applied by Serbia",
+ "signed": "1982-02-24",
+ "entry_into_force": "1985-07-03",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/ ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[IT list] Serbia (2) ... Serbia (italiano e inglese) - pdf Stipula - Firma: Belgrado 24.02.1982; Ratifica: L. 18.12.1984, n.974 In vigore dal: 03.07.1985 || [RS MLI position] ...of Double Taxation with Italy Original 24-02-1982 03-07-1985",
+ "source_title": "Споразум СФРЈ–Италија (1982), mfin.gov.rs Serbian text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/ur6mR5_6012e9126d678.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати и у држави уговорници чији је резидент друштво које плаћа дивиденде, сагласно законима те државе. Међутим, тако разрезан порез не може бити већи од 10 одсто од бруто износа дивиденди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Камата из става 1. овог члана може бити опорезивана и у држави уговорници у којој настаје, сагласно законима те државе, али тако разрезан порез не може бита већи од 10 одсто од бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ауторске накнаде из става 1. овог члана могу се опорезивати и у држави уговорници у којој настају, сагласно законима те државе, али тако разрезан порез не може бити већи од 10 одсто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Ex-SFRY treaty applied by Serbia. Single 10% rate for dividends, interest and royalties. Applies from 1 Jan of the year after exchange of ratification instruments (EIF 1985-07-03 = 30th day after exchange, so 1986-01-01). Italy is not an MLI Party; no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1986-01-01 computed from EIF"
+ ],
+ "latest_protocol": null
+}

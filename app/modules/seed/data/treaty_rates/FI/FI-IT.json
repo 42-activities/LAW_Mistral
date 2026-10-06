@@ -1,0 +1,78 @@
+{
+ "a": "FI",
+ "b": "IT",
+ "treaty_name": "Convention between Finland and Italy for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1981, with Protocol)",
+ "signed": "1981-06-12",
+ "entry_into_force": "1983-10-23",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1983/55",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 23 päivänä syyskuuta 1983, tulee voimaan 23 päivänä lokakuuta 1983 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–IT Convention (SopS 54-55/1983), English text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1983/55",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "50",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly more than 50 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (films/broadcast tapes, patents, trade marks, designs, plans, secret formulas, equipment, know-how — Art. 12(3)(b)-(c))",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, royalties of the kind referred to in sub-paragraphs b) and c) of paragraph 3 may also be taxed in the Contracting State in which they arise and according to the law of that State, but if the recipient is the beneficial owner of such royalties the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (copyright of literary, artistic or scientific work — Art. 12(3)(a))",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State. 2. However, royalties of the kind referred to in sub-paragraphs b) and c) of paragraph 3 may also be taxed in the Contracting State in which they arise ..."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "Italy 55/1983 currently valid version 54-55/1983 (no MLI notice listed; Italy is not an MLI Party)"
+ },
+ "notes": "10% dividend tier requires a holding of MORE than 50% of capital (ownership_threshold '50' = >50%). Interest exempt at source (Art. 11(3)) when paid by/to governments, subdivisions, local authorities, wholly-owned state agencies, or under inter-governmental loan agreements. Copyright royalties (literary/artistic/scientific works) taxable only in residence State; film/broadcast royalties fall in 12(3)(b) and are capped at 5%. Treaty WHT effect: income arising on or after 1 January following 1983 EIF = 1984-01-01. Italy not an MLI Party; no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

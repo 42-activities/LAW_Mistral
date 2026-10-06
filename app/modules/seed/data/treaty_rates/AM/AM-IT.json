@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Armenia and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion, with Additional Protocol (2002)",
+ "signed": "2002-06-14",
+ "entry_into_force": "2008-05-05",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "[IT list] Armenia ... Stipula - Firma: Roma 14.06.2002; Ratifica: L.25.10.2007, n.190 In vigore dal: 05.05.2008",
+ "source_title": "AM-IT Convention and Additional Protocol, English text (Armenian MoF archive 15.ITALY_DoubleTaxationTreaty)",
+ "source_url": "https://minfin.am/website/images/files/15.ITALY_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company which has owned directly at least 10 per cent of the capital of the company paying the dividends (this share should to be at least 100,000 US$ or its equivalent in other currency) for a period of at least 12 months preceding the date the dividends were declared."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 7 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Additional Protocol para 10 preserves domestic anti-avoidance rules only)",
+  "source_url": "https://minfin.am/website/images/files/15.ITALY_DoubleTaxationTreaty.rar",
+  "quote": "10. Nothing in this Convention shall prevent either Contracting State in applying its domestic tax laws in order to prevent fiscal evasion and tax avoidance."
+ },
+ "notes": "Dividend 5% tier: direct holding >=10% of capital, worth at least USD 100,000, held for at least 12 months preceding the declaration date (modelled as 365 days). Interest Art. 11(3): exempt at source if paid by the source Government/local authority, paid to the other Government/local authority or wholly-owned agency/instrumentality, paid to an agency in relation to loans under an intergovernmental agreement, or on loans (not bearer instruments) granted by a banking enterprise. Art. 30: Convention enters into force on exchange of ratification instruments; WHT on amounts derived on or after 1 January of the year following EIF (2008-05-05 -> 2009-01-01). Italy is not an MLI Party; no PPT in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

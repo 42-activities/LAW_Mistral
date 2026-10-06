@@ -1,0 +1,67 @@
+{
+ "a": "SI",
+ "b": "US",
+ "treaty_name": "Convention between the Republic of Slovenia and the United States of America for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital (1999)",
+ "signed": "1999-06-21",
+ "entry_into_force": "2001-06-22",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): ZDA | MP, št. 10/01 | 1. 9. 2001 (davki na viru) 1. 1. 2002 (drugi davki) | | |",
+ "source_title": "Uradni list RS – Mednarodne pogodbe, št. 10/2001 (Convention SI-US with US reservation and exchange of notes, Slovenian and English texts)",
+ "source_url": "http://www.uradni-list.si/1/objava.jsp?urlmpid=200127",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-09-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent of the gross amount of the dividends if the beneficial owner is a company that owns directly at least 25 percent of the voting stock (or, in the case of Slovenia, if there is no voting stock, at least 25 percent of the statutory capital) of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-09-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-09-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-09-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty main-purpose tests stricken by US reservation; MLI not applicable)",
+  "source_url": "http://www.uradni-list.si/1/objava.jsp?urlmpid=200127",
+  "quote": "(1) MAIN PURPOSE TESTS.—Paragraph 10 of Article 10 (Dividends), paragraph 10 of Article 11 (Interest), paragraph 7 of Article 12 (Royalties), paragraph 3 of Article 21 (Other Income), and subparagraph (g) of paragraph 3 of Article 25 (Mutual Agreement Procedure) of the Convention shall be stricken in their entirety."
+ },
+ "notes": "Convention enters into force on exchange of ratification instruments (EIF 2001-06-22) and has effect for WHT on amounts paid or credited on or after the first day of the third month following entry into force (Art. 29(2)(a)) -> 1.9.2001 (FURS: 1. 9. 2001 davki na viru). 5% dividend tier: company owning directly >=25% of voting stock (for Slovenia, if no voting stock, >=25% of statutory capital); not available for RIC/REIT dividends (Art. 10(3), REIT limited further). Not modelled: Art. 10(4) and 11(3) exemptions for qualified governmental entities, guaranteed debt and deferred payments for property/services; Art. 10(8)-(9) branch profits tax at 5%. Main-purpose tests in Arts. 10(10), 11(10), 12(7), 21(3) were stricken by the US reservation accepted by Slovenia; treaty retains a Limitation on Benefits article (Art. 22, not a PPT). United States is not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

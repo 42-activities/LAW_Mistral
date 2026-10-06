@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Finland and the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (2009, with Protocol)",
+ "signed": "2009-10-06",
+ "entry_into_force": "2012-05-04",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2012/49",
+ "eif_quote": "Tuloveroja koskevan kaksinkertaisen verotuksen välttämiseksi Suomen tasavallan ja Turkin tasavallan välillä Istanbulissa 6 päivänä lokakuuta 2009 tehty sopimus ja pöytäkirja ovat voimassa 4 päivästä toukokuuta 2012 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–TR Agreement (SopS 48-49/2012), English text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2012/49",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(c)",
+   "valid_from": "2013-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "Turkey 49/2012 currently valid version 48-49/2012 (no MLI notice listed; Turkey is not an MLI Party)"
+ },
+ "notes": "Interest special tiers (Art. 11(2)): 5% on export-promotion loans/credits made, guaranteed or insured by Finnish Export Credit, Finnvera or similar Turkish public entities; 10% where derived by a bank; 15% otherwise. Interest paid to the other Government or central bank exempt (Art. 11(3)). Branch profits tax 5%/15% (Art. 10(4)) not modelled. Treaty effect: Finland — WHT on income derived on or after 1 January 2013; Turkey — taxable periods beginning on or after 1 January 2013. Not covered by the MLI; no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

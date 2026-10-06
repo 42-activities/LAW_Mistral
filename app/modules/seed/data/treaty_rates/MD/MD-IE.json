@@ -1,0 +1,67 @@
+{
+ "a": "MD",
+ "b": "IE",
+ "treaty_name": "Convention between the Republic of Moldova and Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009, with Protocol)",
+ "signed": "2009-05-28",
+ "entry_into_force": "2010-04-22",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Irlanda | Convenția | 28.05.2009, Chișinău | 22.04.2010 | 01.01.2011 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–IE Convention (Irlanda_eng.pdf) and Protocol (Protocol_Irlanda_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Irlanda_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly or indirectly at least 25 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Irlanda_eng.pdf",
+  "quote": ""
+ },
+ "notes": "Dividend 5% threshold is 25% of voting power controlled directly or indirectly. Art. 11(3): interest exempt at source where beneficial owner is the State/central bank/political subdivision, interest paid by the source State, state-backed loans, beneficial owner is a financial institution, or credit sales of equipment/merchandise/services (not modelled). Protocol: recognised pension funds are residents; Irish CCFs transparent. Art. 26: effective in Ireland for years of assessment / financial years beginning on or after 1 January 2011 and in Moldova for WHT on income derived on or after 1 January 2011. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of the Slovak Republic and the Government of Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994), as modified by the MLI",
+ "signed": "1994-03-03",
+ "entry_into_force": "1995-12-29",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1996/105/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť dňom výmeny ratifikačných listín, t. j. 29. decembra 1995, na základe článku 29 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 105/1996 Z. z. (SK-RO treaty); MLI notice 104/2023 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1996/105/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť takisto v zmluvnom štáte, v ktorom je spoločnosť, ktorá ich vypláca, rezidentom, a to podľa právnych predpisov tohto štátu, ak však príjemca je skutočným vlastníkom dividend, daň takto určená nepresiahne 10 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Avšak takéto úroky sa môžu tiež zdaniť v zmluvnom štáte, v ktorom majú zdroj, a podľa právnych predpisov tohto štátu, ale pokiaľ je príjemca skutočným vlastníkom úrokov, daň takto uložená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) (industrial royalties)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu tiež zdaniť v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom licenčných poplatkov, suma dane takto uložená nepresiahne a) 10 % hrubej sumy licenčných poplatkov za použitie alebo za právo na použitie akéhokoľvek patentu, ochrannej známky, návrhu alebo modelu, plánu, tajného vzorca alebo výrobného postupu, alebo priemyselného, obchodného alebo vedeckého zariadenia, alebo za informácie, ktoré sa vzťahujú na skúsenosti nadobudnuté v priemyselnej, obchodnej alebo vo vedeckej oblasti;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) (all other royalties, incl. copyright)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy licenčných poplatkov vo všetkých ostatných prípadoch."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2023/104/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 29(2)(i): WHT provisions apply to income paid from 1 January of the year following EIF (29.12.1995) -> 1996-01-01. Royalties: 10% for patents, trademarks, designs, plans, secret formulas, industrial/commercial/scientific equipment and know-how; 15% in all other cases (e.g. copyright) — both tiers included (no ownership thresholds; distinguished by article). Art. 11(3): interest exempt when received by the other State government, local/territorial authorities or their agencies/banking units, or on loans guaranteed by them. MLI applies (notice 104/2023 Z. z.; Romania notified Art. 35(7) completion): PPT for WHT from 2024-01-01; MLI art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

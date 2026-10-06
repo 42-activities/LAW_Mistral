@@ -1,0 +1,57 @@
+{
+ "a": "RS",
+ "b": "AM",
+ "treaty_name": "Agreement between the Government of the Republic of Serbia and the Government of the Republic of Armenia for the avoidance of double taxation with respect to taxes on income and on capital (2014)",
+ "signed": "2014-03-10",
+ "entry_into_force": "2016-11-03",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf ; https://www.mfin.gov.rs/propisi/ugovori-o-izbegavanju-dvostrukog-oporezivanja ; https://minfin.am/hy/page/hy_mijazgayin/",
+ "eif_quote": "[RS MLI] Convention between the Government of the Republic of Serbia and the Government of the Republic of Armenia ... Armenia Original 10-03-2014 03-11-2016 || [AM MLI] ... Republic of Serbia Original 10-03-2014 03-11-2016",
+ "source_title": "Уговор Србија–Јерменија (2014), mfin.gov.rs Serbian text; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/InUUi3_6012e9460fdf7.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од 8 одсто бруто износа дивиденди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 8 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 8 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/NSdSC5_658e8cc8292a8.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба [овог уговора], погодност из [овог уговора] не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Single 8% rate for dividends, interest and royalties (Arts. 10(2), 11(2), 12(2)); no government-interest exemption in Art. 11. Treaty applies from 1 Jan of the year after entry into force (Art. 29(2)). MLI PPT for WHT from 2024-01-01 per combined text.",
+ "confidence": "high",
+ "unverified": [],
+ "latest_protocol": null
+}

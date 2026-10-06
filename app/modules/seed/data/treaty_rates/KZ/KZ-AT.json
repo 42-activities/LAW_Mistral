@@ -1,0 +1,78 @@
+{
+ "a": "KZ",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Kazakhstan and the Republic of Austria with respect to taxes on income and on capital (2004)",
+ "signed": "2004-09-10",
+ "entry_into_force": "2006-03-01",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z050000110_",
+ "eif_quote": "(Вступило в силу 1 марта 2006 года) Art. 28(2)(a): a) к налогам, удерживаемым у источника, в отношении сумм, уплачиваемых или зачитываемых с 1 января или после 1 января календарного года, следующего за годом вступления Конвенции в силу;",
+ "source_title": "Law of RK of 2005 on ratification of KZ-AT Convention with Protocol (adilet, Russian text; English text prevails)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z050000110_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: a) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания, которая прямо владеет не менее чем 10 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Однако такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Договаривающегося Государства, но если фактический владелец процентов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать 10 процентов от общей суммы процентов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(5)",
+   "valid_from": "2007-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(5) Проценты, возникающие в Договаривающемся Государстве, облагаются налогом только в другом Договаривающемся Государстве, если: a) получателем, а также фактическим владельцем процентов является предприятие этого другого Договаривающегося Государства, b) или Центральному банку другого Договаривающегося Государства или любому другому правительственному банку или финансовому учреждению/агентству, что будет взаимно согласовано между Договаривающимися Государствами."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Однако такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Договаривающегося Государства, но если получатель - фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 процентов от общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividend 5% tier: company directly holding >=10% of capital. Interest exempt at source when paid to governments/central banks etc. (Art. 11(3)) and, in Kazakhstan, on loans/credits guaranteed or insured by Oesterreichische Kontrollbank (Art. 11(4)) - not modelled. Art. 11(5) (exclusive residence taxation) covers only interest on credit sales of goods/equipment between enterprises - modelled as a narrow exclusive tier; general cap is 10%. PROTOCOL MFN (Arts 11 and 12): if Kazakhstan agrees a rate below 10% for interest or royalties in a treaty with an OECD member State, that lower rate replaces 10% after notification - quote: Договаривающиеся Государства согласились в том, что если Казахстан принимает более низкую ставку налога, чем 10 процентов, указанную в пункте 2 статьи 11 или в пункте 2 статьи 12 в любой Конвенции между Казахстаном и третьим Государством, являющимся членом Организации экономического сотрудничества и развития, и эта Конвенция вступает в силу либо до, либо после даты вступления в силу настоящей Конвенции, компетентный орган Казахстана уведомит компетентный орган Австрии о положениях соответствующего пункта этой Конвенции с третьим Государством немедленно после вступления в силу этой Конвенции, и такая низкая ставка будет заменять 10 процентов, предусмотренных в пункте 2 статьи 11 или пункте 2 статьи 12 настоящей Конвенции, в зависимости от обстоятельств с даты вступления в силу той Конвенции или настоящей Конвенции в зависимости от того, какая из них вступит в силу позже. Checked KZ treaties with OECD members on adilet (BE, CA, CH, CZ, DE, EE, ES, FI, FR, GB, HU, IE, IT, JP, KR, LT, LU, LV, NL, NO, PL, SE, SI, SK, TR, US; no KZ treaties found with AU, CL, CO, CR, DK, GR, IL, IS, MX, NZ, PT): none sets an interest or royalty cap below 10%, so no MFN reduction applies. Branch profits tax (Art. 10(6), max 5%) not levied on Austrian enterprises per Protocol. MLI WHT effect 2021-01-01; Austria reserved the entirety of MLI Art. 8 (no 365-day period). English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

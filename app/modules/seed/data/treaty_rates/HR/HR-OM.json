@@ -1,0 +1,56 @@
+{
+ "a": "HR",
+ "b": "OM",
+ "treaty_name": "Agreement between the Republic of Croatia and the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009)",
+ "signed": "2009-12-21",
+ "entry_into_force": "2011-02-16",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2011_06_9_83.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Sultanata Omana o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak, potpisan u Muscatu 21. prosinca 2009., objavljen u »Narodnim novinama – Međunarodni ugovori« br. 9/2010., stupio na snagu 16. veljače 2011.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Sultanata Omana o izbjegavanju dvostrukog oporezivanja (NN-MU 9/2010)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2010_12_9_114.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividende koje društvo rezident države ugovornice isplaćuje rezidentu druge države ugovornice oporezivat će se samo u toj drugoj državi, ako je rezident stvarni korisnik dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takva kamata može se oporezivati i u državi ugovornici u kojoj je nastala, i to prema propisima te države, ali ako je stvarni korisnik kamate rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 5 (pet) posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve naknade za autorska prava mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema propisima te države, ali ako je stvarni korisnik naknada za autorska prava rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 10 (deset) posto bruto-iznosa naknada za autorska prava."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29: WHT on amounts paid or credited on or after 1 January of the year following EIF (2011) -> 2012-01-01. Art. 11(3)-(4): interest paid to the other State's Government (incl. central bank, State General Reserve Fund, Oman Investment Fund, wholly/majority government-owned bodies) exempt at source (not modelled). Arts. 11(9) and 12(7): main-purpose anti-abuse rules (replaced by MLI Art. 7(1) per Croatia's Art. 7(17)(a) notification). Protocol 6: Art. 10 based on neither State taxing dividends at signature; renegotiation if either introduces dividend taxation.",
+ "confidence": "high",
+ "unverified": []
+}

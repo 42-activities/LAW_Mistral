@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "IT",
+ "treaty_name": "Convention between the Czechoslovak Socialist Republic and the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1981)",
+ "signed": "1981-05-05",
+ "entry_into_force": "1984-06-26",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1985/17/vyhlasene_znenie.html",
+ "eif_quote": "Ratifikačné listiny boli vymenené v Ríme 26. júna 1984. Zmluva nadobudla platnosť na základe svojho článku 29 dňom 26. júna 1984.",
+ "source_title": "Vyhláška MZV č. 17/1985 Zb. (Slovak translation of CSSR-IT treaty and protocol)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1985/17/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť v zmluvnom štáte, v ktorom má sídlo spoločnosť, ktorá ich vypláca a to podľa právnych predpisov tohto štátu, ale daň takto určená nemôže presiahnuť 15 % hrubej sumy dividend, ak osoba, ktorá dividendy poberá, je ich skutočným príjemcom."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1985-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky majúce zdroj v jednom zmluvnom štáte a vyplácané osobe majúcej bydlisko alebo sídlo v druhom zmluvnom štáte môžu sa zdaniť iba v tomto druhom štáte, ak je táto osoba ich skutočným príjemcom."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Odhliadnúc od ustanovenia odseku 1, môžu sa licenčné poplatky uvedené v odseku 3 b) zdaniť aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu. Takto určená daň však nemôže presiahnuť 5 % hrubej sumy licenčných poplatkov, ak osoba, ktorá licenčné poplatky poberá, je ich skutočným príjemcom."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts credited/paid from 1 January of the year following exchange of ratification instruments (26.6.1984) -> 1985-01-01. Interest taxable only in residence State (beneficial owner). Royalties: 5% cap only for Art. 12(3)(b) industrial royalties (patents, trademarks, designs, equipment, know-how); copyright royalties (Art. 12(3)(a), incl. films and TV) taxable only in residence State — not modelled. MLI not applicable (Italy has not ratified the MLI); no PPT clause in the treaty or protocol. Authentic texts Czech, Italian and French (French prevails); Slovak translation used.",
+ "confidence": "high",
+ "unverified": []
+}

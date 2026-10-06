@@ -1,0 +1,69 @@
+{
+ "a": "FI",
+ "b": "IL",
+ "treaty_name": "Agreement between the Republic of Finland and the State of Israel for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997, as modified by the MLI)",
+ "signed": "1997-01-08",
+ "entry_into_force": "1998-11-08",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1998/90",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 9 päivänä lokakuuta 1998, on voimassa 8 päivästä marraskuuta 1998 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–IL Agreement (SopS 89-90/1998)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1998/90",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1999-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1998/90",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | Finland: taxes withheld at source ... on or after 1 January 2020; Israel: '... where the event giving rise to such taxes occurs on or after the first day of the taxable period that begins on or after 1 June 2019' (Israeli taxable period = calendar year, hence 2020-01-01)."
+ },
+ "notes": "Dividends: Israeli-source dividends to a Finnish company holding >=10% of voting power are capped at 10% if paid out of Israeli incentive-law (approved enterprise) profits (special tier, not modelled), else 5% (Art. 10(2)(b)(ii), same as the modelled 5% tier). Art. 10(2)(a) Finnish exemption while Finnish imputation credit existed — obsolete since 2005, not modelled. Art. 10(7) branch profits tax 5%/10% not modelled. Interest: exempt at source when paid to the States, central banks, local authorities, FINNFUND/agreed institutions or on loans guaranteed by them (Art. 11(4)); net-basis election (Art. 11(3)). Treaty WHT effect: income derived on or after 1 January following 1998 EIF = 1999-01-01. MLI arts 6, 7, 9 apply; no Art. 8 holding period. Israel's PPT start interpreted for calendar tax year.",
+ "confidence": "high",
+ "unverified": [
+  "Israeli PPT effective date derived from 'taxable period beginning on or after 1 June 2019' assuming calendar-year taxable period"
+ ]
+}

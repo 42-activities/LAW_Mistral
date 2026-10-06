@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "SE",
+ "treaty_name": "Convention between the Czechoslovak Socialist Republic and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1979)",
+ "signed": "1979-02-16",
+ "entry_into_force": "1980-10-08",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1981/9/vyhlasene_znenie.html",
+ "eif_quote": "Ratifikačné listiny boli vymenené v Stockholme 8. októbra 1980. Zmluva nadobudla platnosť podľa svojho článku 28 dňom 8. októbra 1980.",
+ "source_title": "Vyhláška MZV č. 9/1981 Zb. (Slovak translation of CSSR-SE treaty)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1981/9/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1981-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Zmluvný štát, v ktorom má spoločnosť sídlo, nezdaní bez ohľadu na ustanovenie odseku 2 dividendy vyplácané touto spoločnosťou spoločnosti, ktorej majetok je úplne alebo čiastočne rozdelený na účastiny a ktorá má sídlo v druhom zmluvnom štáte a priamo vlastní najmenej 25% majetku spoločnosti vyplácajúcej dividendy."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Také dividendy sa však môžu zdaniť v zmluvnom štáte, v ktorom má sídlo spoločnosť, ktorá ich vypláca, a to podľa práva tohto článku. Takto uložená daň však nepresiahne 10% z hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1981-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky majúce zdroj v jednom zmluvnom štáte a platené osobe majúcej bydlisko alebo sídlo v druhom zmluvnom štáte podliehajú zdaneniu iba v tomto druhom štáte."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1981-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Také licenčné poplatky sa však môžu zdaniť v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu. Takto uložená daň však nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(2): applies to income derived on/after 1 January following the year of exchange of ratification instruments (8.10.1980) -> 1981-01-01. Dividends exempt at source when paid to a company with share capital resident in the other State holding directly >=25% (no holding period); 10% otherwise. Interest taxable only in residence State. Royalties 5%; copyright royalties for literary, artistic or scientific works taxable only in residence State (Art. 12(3)) — not modelled. MLI: treaty listed by both, but Sweden reserved Art. 35(7) and has made no Art. 35(7)(b) notification for this treaty; no Slovak MLI notice exists -> MLI (incl. PPT) not yet in effect; ppt.applies=false.",
+ "confidence": "high",
+ "unverified": []
+}

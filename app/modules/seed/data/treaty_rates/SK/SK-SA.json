@@ -1,0 +1,58 @@
+{
+ "a": "SK",
+ "b": "SA",
+ "treaty_name": "Convention between the Slovak Republic and the Kingdom of Saudi Arabia for the avoidance of double taxation with respect to taxes on income and the prevention of tax evasion (2023)",
+ "signed": "2023-11-07",
+ "entry_into_force": "2024-08-01",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/139/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudne platnosť 1. augusta 2024 v súlade s článkom 28.",
+ "source_title": "Oznámenie MZVaEZ SR č. 139/2024 Z. z. (Slovak text of SK-SA treaty)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/139/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého rezidentom je spoločnosť vyplácajúca dividendy, a to podľa právnych predpisov toho zmluvného štátu, ale ak je skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne päť percent hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto príjmy z dlhových pohľadávok majúce zdroj v zmluvnom štáte sa môžu zdaniť aj v tomto zmluvnom štáte, a to podľa právnych predpisov tohto zmluvného štátu, ale ak je skutočný vlastník týchto príjmov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne desať percent hrubej sumy týchto príjmov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov toho zmluvného štátu, ale ak je skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne desať percent hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply to income paid/credited on/after 1 January of the year following EIF (1.8.2024) -> 2025-01-01. Interest article is titled \"income from debt-claims\"; Art. 11(3): exempt when beneficially owned by listed government bodies (SK: government, local authorities, NBS, Eximbanka, SZRB, ARDAL...; SA: government, SAMA, Saudi Fund for Development, PIF, Public Pension Agency, ...). Signature date: the Slovak notice states signature on 13 November 2023 in Bratislava (treaty: \"dňa 13. novembra 2023, zodpovedajúce 29 Rabi al-thani 1445\"); the merged dataset had 2023-11-07 (ZATCA text \"7/11/2023\" is likely day-first vs. Hijri mismatch) — kept 2023-11-07 per brief but flagged. No PPT/LOB clause found in the Slovak text; MLI not applicable to this pair.",
+ "confidence": "high",
+ "unverified": [
+  "Signature date: Slovak notice and treaty text say 13.11.2023, dataset says 2023-11-07"
+ ]
+}

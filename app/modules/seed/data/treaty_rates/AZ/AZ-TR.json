@@ -1,0 +1,56 @@
+{
+ "a": "AZ",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Turkey and the Republic of Azerbaijan for the avoidance of double taxation with respect to taxes on income (1994)",
+ "signed": "1994-02-09",
+ "entry_into_force": "1997-09-01",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "32)   Azerbaycan   09.02.1994   27.06.1997 - 23032   01.09.1997   01.01.1998",
+ "source_title": "Resmî Gazete 27 Haziran 1997, Sayı 23032 - Türkiye Cumhuriyeti ile Azerbaycan Cumhuriyeti Arasında Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması (BKK 97/9477)",
+ "source_url": "https://www.resmigazete.gov.tr/arsiv/23032.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber sözkonusu temettüler, ödemeyi yapan şirketin mukimi olduğu Devletçe de kendi mevzuatına göre vergilendirilebilir; ancak kendisine ödemede bulunulan kişi temettünün gerçek lehdarı ise bu şekilde alınacak vergi gayrisafi temettü tutarının yüzde 12'sini aşamayacaktır."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, bu faiz elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faiz elde eden kişi faizin gerçek lehdarı ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, sözkonusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedeli elde eden kişi gayrimaddi hak bedelinin gerçek lehdarı ise, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.resmigazete.gov.tr/arsiv/23032.pdf",
+  "quote": ""
+ },
+ "notes": "Single-tier dividend cap 12% (no participation tier). Art. 10(4): branch profits tax allowed at the Art. 10(2) rate. Interest exempt at source (Art. 11(3)): Azerbaijani-source interest paid to the Turkish Government, Central Bank of the Republic of Turkey or Türkiye İhracat Kredi Bankası A.Ş.; Turkish-source interest paid to the Government of Azerbaijan or the National Bank of Azerbaijan (not modelled). Royalty definition includes industrial, commercial or scientific equipment. Art. 28: in force on the first day of the month following the last notification; applies to taxes for periods beginning on or after 1 January of the year following entry into force => 1998-01-01 (GIB list 'applied from 01.01.1998'). Türkiye has not ratified the MLI and AZ MLI list does not cover Turkey: no PPT. Text read is the Turkish-language text in the Official Gazette (the Azerbaijani text in the same issue is OCR-garbled Cyrillic).",
+ "confidence": "high",
+ "unverified": []
+}

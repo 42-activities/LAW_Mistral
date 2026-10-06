@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "OM",
+ "treaty_name": "Convention between the Slovak Republic and the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2018)",
+ "signed": "2018-03-25",
+ "entry_into_force": "2021-11-15",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2021/548/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť 15. novembra 2021 v súlade s článkom 29.",
+ "source_title": "Oznámenie MZVaEZ SR č. 548/2021 Z. z. with annexed Slovak text of SK-OM treaty (PDF)",
+ "source_url": "https://static.slov-lex.sk/pdf/prilohy/SK/ZZ/2021/548/vyhlasene_znenie_5381567-2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Dividendy vyplácané spoločnosťou, ktorá je rezidentom jedného zmluvného štátu, rezidentovi druhého zmluvného štátu môžu sa zdaniť len v tom druhom zmluvnom štáte, ak je ten rezident skutočným vlastníkom dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto úroky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto zmluvného štátu, ale ak je skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto licenčné poplatky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto zmluvného štátu, ale ak je skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty arts. 10(5), 11(8), 12(7) (article-specific main-purpose anti-abuse rules; no general PPT)",
+  "source_url": "https://static.slov-lex.sk/pdf/prilohy/SK/ZZ/2021/548/vyhlasene_znenie_5381567-2.pdf",
+  "quote": "(5) Ustanovenia tohto článku sa neuplatňujú, ak hlavným účelom alebo jedným z hlavných účelov zainteresovanej osoby bolo vytvorenie alebo pripísanie podielov alebo iných práv v súvislosti s ktorými sa dividendy vyplácajú bolo zneužitie tohto článku"
+ },
+ "notes": "Art. 29(a): WHT provisions apply to amounts paid/credited from 1 January of the year following EIF (15.11.2021) -> 2022-01-01. Dividends beneficially owned by a resident of the other State taxable only there (0% at source). Art. 11(3): interest exempt at source when derived/beneficially owned by, or on loans granted/guaranteed/insured by, the government, subdivisions, local authorities, central bank, Eximbanka SR, SZRB (SK), State General Reserve Fund, Omani Investment Fund (OM) or other wholly government-owned bodies agreed by competent authorities. Treaty has article-level main-purpose anti-abuse clauses in Arts. 10, 11 and 12 rather than a general PPT; MLI not applicable to this treaty. Treaty text taken from the annex PDF of notice 548/2021.",
+ "confidence": "high",
+ "unverified": []
+}

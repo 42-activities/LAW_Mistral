@@ -1,0 +1,100 @@
+{
+ "a": "FI",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Republic of Finland and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1994, as modified by the MLI)",
+ "signed": "1994-12-02",
+ "entry_into_force": "1995-12-12",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1995/80",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 27 päivänä marraskuuta 1995, on voimassa 12 päivästä joulukuuta 1995 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–CZ Agreement (SopS 79-80/1995)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1995/80",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) — copyright (Art. 12(3)(a)) excluded from source taxation",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties, except in the case of payments of the kind referred to in sub-paragraph a) of paragraph 3, may also be taxed in the Contracting State in which they arise ..."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) — finance lease of equipment",
+   "valid_from": "1996-01-01",
+   "max_rate": "1",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 1 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in sub-paragraph b) of paragraph 3;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) — operating lease of equipment, computer software",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in sub-paragraph c) of paragraph 3;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(c) — patents, trade marks, designs, plans, secret formulas, know-how",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 per cent of the gross amount of the royalties, in the case of payments of the kind referred to in sub-paragraphs d) and e) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1995/80",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2021-01-01"
+ },
+ "notes": "Royalty tiers by payment type (Art. 12(3)): copyright exempt at source; finance lease 1%; operating lease/software 5%; patents/trade marks/know-how 10%. Art. 10(2) (Finnish dividends exempt while Finnish imputation credit existed) obsolete since 2005 — not modelled. Art. 10(4) Finnfund reinvestment relief not modelled. Treaty WHT effect: income derived on or after 1 January following 1995 EIF = 1996-01-01. MLI arts 6, 7, 16 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "EE",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003), as modified by the MLI",
+ "signed": "2003-10-21",
+ "entry_into_force": "2006-03-29",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/383/vyhlasene_znenie.html",
+ "eif_quote": "Ratifikačné listiny boli vymenené v Taline 29. marca 2006. Zmluva nadobudla platnosť 29. marca 2006 v súlade s článkom 28 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 383/2006 Z. z. (SK-EE treaty and protocol); MLI notice 499/2021 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/383/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého spoločnosť vyplácajúca dividendy je rezidentom, a to podľa právnych predpisov tohto štátu; ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto úroky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu; ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu; ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2021/499/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, ak sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply to income derived from 1 January of the year following EIF (29.3.2006) -> 2007-01-01. Art. 11(3): interest received by the other State government, central bank, wholly government-owned financial institution, or on government-guaranteed loans exempt at source. MLI applies (notice 499/2021 Z. z.; Estonia notified Art. 35(7) completion): PPT for WHT from 2022-01-01; MLI art. 8 not applied. English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

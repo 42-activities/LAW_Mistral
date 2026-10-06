@@ -1,0 +1,80 @@
+{
+ "a": "EE",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1997)",
+ "signed": "1997-03-20",
+ "entry_into_force": "2000-02-22",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 29. | Italy | 20.12.1995 | 20.03.1997 | 25.03.1998 ( est/eng ) | 22.02.2000 | 01.01.2001 | ",
+ "source_title": "EE-IT Convention 1997 with Additional Protocol (Riigi Teataja, est/eng)",
+ "source_url": "https://www.riigiteataja.ee/akt/78863",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of royalties paid for the use of industrial, commercial or scientific equipment;"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Italy is not a Party to the MLI (signed, not ratified); no treaty PPT."
+ },
+ "notes": "Interest exempt at source for governments, subdivisions, central bank, wholly-owned financial institutions and government-guaranteed loans (Art. 11(3)). POSSIBLE MFN: Additional Protocol para i) contains a royalty MFN clause worded identically to the Estonia-Denmark Art. 12(7) clause (which the Estonian MoF says was triggered by the EE-CH Protocol from 1 January 2016, making royalties residence-only), but the Estonian MoF table lists no MFN effect for Italy; text rates (5%/10%) kept pending official confirmation. Effective for WHT on amounts paid from 2001-01-01 (Art. 30(2)(a)).",
+ "confidence": "medium",
+ "unverified": [
+  "Whether the royalty MFN in Additional Protocol para i) has been triggered (would make royalties 0%/exclusive from 2016-01-01); not confirmed by Estonian MoF or Italian source"
+ ]
+}

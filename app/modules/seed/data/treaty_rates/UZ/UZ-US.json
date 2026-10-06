@@ -1,0 +1,36 @@
+{
+ "a": "UZ",
+ "b": "US",
+ "treaty_name": "Convention between the United States of America and the Union of Soviet Socialist Republics on matters of taxation (1973), applied to Uzbekistan",
+ "signed": "1973-06-20",
+ "entry_into_force": "1976-01-29",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+ "eif_quote": "Signed at Washington June 20, 1973; ... Ratifications Exchanged at Moscow December 30, 1975; ... Entered into Force January 29, 1976; Effective January 1, 1976.",
+ "source_title": "Convention with the Union of Soviet Socialist Republics on Matters of Taxation (IRS treaty text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+ "rates": [
+  {
+   "category": "ROYALTY",
+   "article": "Article III(1)(a)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. The following categories of income derived from sources within one Contracting State by a resident of the other Contracting State shall be subject to tax only in that other Contracting State: (a) rentals, royalties, or other amounts paid as consideration for the use of or right to use literary, artistic, and scientific works, or for the use of copyrights of such works, as well as the rights to inventions (patents, author's certificates), industrial designs, processes or formulae, computer programs, trademarks, service marks, and other similar property or rights, or for industrial, commercial, or scientific equipment, or for knowledge, experience, or skill (know-how);"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "No PPT/LOB in the 1973 US–USSR Convention; Uzbekistan is not an MLI party and the US has not signed the MLI."
+ },
+ "notes": "The 1973 US–USSR Convention has no dividend article and no general interest article — the source State may tax dividends and interest without treaty limit (categories omitted). Art. III(1)(g): interest on credits, loans and other indebtedness connected with the financing of trade between the USA and the USSR is taxable only in the residence State (except interest received from a general banking business in the source State) — narrow tier, not modelled. Art. XIII: effective for income derived on/after 1 January of the year following exchange of ratifications (exchanged 30.12.1975 -> 1976-01-01). Application to Uzbekistan as successor state per IRS (Table 3 footnote; merged dataset); UZ-side confirmation not obtained.",
+ "unverified": [
+  "Continued application of the USSR treaty to Uzbekistan relies on the US position (IRS); no Uzbek-side confirmation located"
+ ],
+ "confidence": "medium"
+}

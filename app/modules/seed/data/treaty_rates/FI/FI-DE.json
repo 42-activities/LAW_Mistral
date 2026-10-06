@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "DE",
+ "treaty_name": "Abkommen zwischen der Republik Finnland und der Bundesrepublik Deutschland zur Vermeidung der Doppelbesteuerung und zur Verhinderung der Steuerverkürzung auf dem Gebiet der Steuern vom Einkommen (2016, as amended by Protocol 2019)",
+ "signed": "2016-02-19",
+ "entry_into_force": "2017-11-16",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2017/86",
+ "eif_quote": "Tuloveroja koskevan kaksinkertaisen verotuksen välttämiseksi ja veron kiertämisen estämiseksi Helsingissä 19 päivänä helmikuuta 2016 Suomen tasavallan ja Saksan liittotasavallan välillä tehty sopimus tulee voimaan 16 päivänä marraskuuta 2017 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–DE Abkommen (SopS 85-86/2017, consolidated with SopS 12/2021), German text",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2017/86",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 Buchstabe a",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft oder deutsche REITAktiengesellschaft) ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 Buchstabe b",
+   "valid_from": "2018-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 Absatz 1",
+   "valid_from": "2018-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Zinsen, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 Absatz 1",
+   "valid_from": "2018-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Lizenzgebühren, die aus einem Vertragsstaat stammen und deren Nutzungsberechtigter eine im anderen Vertragsstaat ansässige Person ist, können nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "Germany 86/2017 amended 12/2021 (no MLI notice listed; treaty not listed under the MLI by FI). Treaty Art. 26: 'Dieses Abkommen ist nicht so auszulegen, als hindere es einen Vertragsstaat, seine innerstaatlichen Rechtsvorschriften zur Verhinderung der Steuerumgehung oder Steuerhinterziehung anzuwenden.'"
+ },
+ "notes": "Protocol No. 1 (zu Art. 10 und 11): dividends/interest on profit-participating rights (stille Gesellschaft, partiarische Darlehen, Gewinnobligationen) deductible for the payer may be taxed at source without treaty limit. Protocol No. 2: Germany may withhold at domestic rate with refund on application. German REIT-AG excluded from 5% tier. Applicable in Germany to amounts paid on or after 1 January 2018; in Finland to income derived on or after 1 January 2018 (Art. 28(2)). Protocol 2019 (SopS 12/2021, in force 2021-02-25) concerns exchange of information — WHT articles unchanged. No MLI coverage; treaty has a domestic anti-abuse saving clause only.",
+ "confidence": "high",
+ "unverified": []
+}

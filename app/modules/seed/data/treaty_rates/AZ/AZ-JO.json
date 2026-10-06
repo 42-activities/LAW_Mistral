@@ -1,0 +1,59 @@
+{
+ "a": "AZ",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the Hashemite Kingdom of Jordan and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-05-05",
+ "entry_into_force": "2016-02-15",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+ "eif_quote": "[AZ MLI position] Jordan Original 05.05.2008 15.02.2016 | Art. 30(2)(a) (Arabic): \"(أ) فيما يتعلق بالضرائب المحتجزة من المصدر ، على الدخل المتأتي في او بعد الأول من كانون الثاني من السنة المالية التي تلي السنة التي تدخل فيها الاتفاقية حيز النفاذ\"",
+ "source_title": "Jordan ISTD Arabic text of the Jordan–Azerbaijan Agreement (azerbejan_arb1.pdf / azerbejan_arb2.pdf, istd.gov.jo, archived 2018-06-13; scanned, read visually; ISTD site unreachable live)",
+ "source_url": "https://web.archive.org/web/20180613174735id_/http://www.istd.gov.jo:80/AttachedArabic/agreement/azerbejan_arb1.pdf ; https://web.archive.org/web/20180613174746id_/http://www.istd.gov.jo:80/AttachedArabic/agreement/azerbejan_arb2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "وعلى أية حال ، يمكن إخضاع أرباح الأسهم تلك للضريبة في الدولة المتعاقدة التي تكون الشركة دافعة أرباح الأسهم مقيمة فيها وطبقاً لقوانين تلك الدولة، ولكن إذا كان المالك المنتفع من أرباح الأسهم مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب أن لا تتجاوز (8) بالمائة من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "وعلى أية حال ، فانه يمكن إخضاع الفوائد المذكورة للضريبة في الدولة المتعاقدة التي تنشأ فيها ووفقا لقوانينها ، ولكنه اذا كان المالك المنتفع للفائدة مقيما في الدولة المتعاقدة الأخرى فلا تتجاوز الضريبة المفروضة (8) بالمائة من المبلغ الإجمالي للفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "وعلى أية حال ، فانه يمكن إخضاع الإتاوات المذكورة للضريبة في الدولة المتعاقدة الأخرى التي تنشأ فيها ووفقا لقوانينها ، ولكنه اذا كان المالك المنتفع للإتاوات مقيما في الدولة المتعاقدة الأخرى فلا تتجاوز الضريبة المفروضة (10) بالمائة من المبلغ الإجمالي لحقوق الاختراع."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[JO MLI] Azerbaijan listed ('Azerbaijan Original 05-05-2008 N/A'); no Art. 7 reservation (Art. 7(17)(a) notification lists only Bosnia and Herzegovina, Croatia, Czech Republic...); [AZ MLI] Jordan listed ('Jordan Original 05.05.2008 15.02.2016'); no Art. 7 reservation."
+ },
+ "notes": "Quotes are from the Arabic text (Arabic, Azerbaijani and English equally authentic; English prevails in case of divergence — English text not obtained). Interest exempt at source (Art. 11(3)) when derived by the Government of the other State, its administrative-territorial/political subdivisions or local authorities, the Central Bank, or a financial institution wholly owned/controlled by that Government (or as agreed by competent authorities) — not modelled. No main-purpose/LOB article found in the treaty text read. MLI Art. 8 not applicable (Azerbaijan reserved). EIF CONFLICT: Jordan MLI position (deposited 2020-09-29) shows entry into force 'N/A'; Azerbaijan MLI position (2024) gives 15.02.2016 — used AZ date; WHT effect from 2017-01-01 under Art. 30(2)(a). Royalty article 12(2) Arabic literally says 'gross amount of the patent rights' (لحقوق الاختراع), apparently a translation slip for royalties.",
+ "confidence": "medium",
+ "unverified": [
+  "Entry into force 2016-02-15 only from Azerbaijan MLI position (Jordan MLI position says N/A)",
+  "English authentic text not obtained; rates read from scanned Arabic text"
+ ]
+}

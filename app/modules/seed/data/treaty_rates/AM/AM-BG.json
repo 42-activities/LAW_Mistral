@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Armenia and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1995, as amended by Protocol 2008, as modified by the MLI)",
+ "signed": "1995-04-10",
+ "entry_into_force": "1995-12-01",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[BG list] Армения: СИДДО 10-04-1995 01-12-1995 ; Протокол 10-12-2008 16-11-2010 || [AM MLI position] ...Capital Republic of Bulgaria Original 10-04-1995 01-12-1995",
+ "source_title": "Synthesised text of the MLI and the AM-BG Convention as amended by the 2008 Protocol (Armenian MoF), plus Protocol of 10 December 2008 (scanned, English)",
+ "source_url": "https://minfin.am/website/images/files/cb576d39.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the resident holds directly at least 100 000 USD or its equivalent in domestic currency of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://minfin.am/website/images/files/cb576d39.rar",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Dividend 5% tier conditioned on a direct holding of at least USD 100,000 of capital (not a percentage) - ownership_threshold left null; original 1995 text had USD 40,000. Interest 5% tier only for loans granted by a bank or financial institution (bank-only tier, not modelled); interest paid to the Government or National Bank exempt (Art. 11(3)). Royalties 5% for copyright/films (not modelled; general 10% tier recorded). The 2008 Protocol (in force 2010-11-16) 'shall have effect in respect of income and capital in the taxable year commencing on or after the first day of January in the calendar year in which this Protocol enters into force' -> 2010-01-01; before that: dividends 5% (USD 40,000)/10%, interest 10%, royalties 10%. MLI Art. 8 not applied (no box). MLI WHT effect 2024-01-01 from treaty map.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,70 @@
+{
+ "a": "RS",
+ "b": "NL",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of the Netherlands for the avoidance of double taxation with respect to taxes on income and on capital (1982), applied by Serbia",
+ "signed": "1982-02-22",
+ "entry_into_force": "1983-02-06",
+ "eif_source_url": "https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/03/09/verdragen-op-het-gebied-van-directe-belastingen/verdragen-op-gebied-directe-belastingen-1-juli-2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[NL list] Servië (was Joegoslavië) DTA In werking 22-02-1982 06-02-1983 || [RS MLI position] ...ome and on Capital Netherlands Original 22-02-1982 06-02-1983",
+ "source_title": "Уговор СФРЈ–Холандија (1982), mfin.gov.rs Serbian text; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/WZc4sO_6012f3d3f22ad.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати и у држави чији је резидент друштво које плаћа дивиденде, у складу са законима те државе, али тако разрезан порез не може бити већи од: а) 5 одсто од бруто-износа дивиденди ако је прималац друштво (изузимајући партнерство) које има изравно најмање 25 одсто од капитала друштва које плаћа дивиденде; б) 15 одсто од бруто износа дивиденди, у свим другим случајевима. | MLI art. 8(1): примењују се само ако су услови власништва описани у тим одредбама испуњени током периода од 365 дана који укључује дан исплате дивиденди (ради израчунавања тог периода, не узимају се у обзир промене власништва које би непосредно произилазиле из корпоративне реорганизације, као што су спајање или раздвајање, компаније која поседује акције или исплаћује дивиденде)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати и у држави чији је резидент друштво које плаћа дивиденде, у складу са законима те државе, али тако разрезан порез не може бити већи од: а) 5 одсто од бруто-износа дивиденди ако је прималац друштво (изузимајући партнерство) које има изравно најмање 25 одсто од капитала друштва које плаћа дивиденде; б) 15 одсто од бруто износа дивиденди, у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Камате настале у једној од држава и исплаћене резиденту друге државе уговорнице опорезују се само у тој другој држави."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ауторске накнаде се могу опорезивати у држави у којој настају, и у складу са законом те државе, али тако разрезан порез не може бити већи од 10 посто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/XycreA_6012f3f895f33.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба овог уговора, погодност из овог уговора не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Ex-SFRY treaty applied by Serbia. Dividend 5% tier: recipient company (other than a partnership) holding directly at least 25% of capital; MLI art. 8 365-day holding from 2020-01-01 (5% applied from 1984-01-01 without it). Interest taxable only in residence State (Art. 11(1)); Protocol VI: based on neither State levying interest WHT at signature, renegotiation on request if one introduces it (not self-executing). Protocol ad Arts. 10 and 12: refund claims within 5 years. Treaty applies from 1 Jan of the year after the last notification (EIF 1983-02-06 = 30th day after it, so 1984-01-01 computed - if last notification was in early Jan 1983).",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1984-01-01 computed (last notification assumed January 1983, 30 days before EIF)"
+ ],
+ "latest_protocol": null
+}

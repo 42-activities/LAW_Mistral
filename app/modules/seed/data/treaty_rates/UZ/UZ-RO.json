@@ -1,0 +1,58 @@
+{
+ "a": "UZ",
+ "b": "RO",
+ "treaty_name": "Convention between the Republic of Uzbekistan and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996, as amended 2016)",
+ "signed": "1996-06-06",
+ "entry_into_force": "1997-10-17",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://lex.uz/ru/docs/2578012",
+ "eif_quote": "RO MLI position: 'Uzbekistan Original 06-06-1996 17-10-1997' (lex.uz shows 17.10.1996 — impossible since Romania ratified by OG 26/12.03.1997)",
+ "source_title": "Ўзбекистон Республикаси ва Руминия ўртасида Конвенция (06.06.1996), Uzbek text consolidated with Protocol of 04.07.2016 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2578014",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо уларни олувчи дивидендларнинг ҳақиқий соҳиби бўлса, ундирилаётган солиқ дивидендлар ялпи миқдорининг 10 фоизидан ортиқ бўлмаслиги керак"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо бошқа Аҳдлашувчи Давлатнинг резиденти фоизларнинг ҳақиқий соҳиби бўлса солиқнинг миқдори фоизлар ялпи суммасининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо агар бошқа Аҳдлашувчи Давлат резиденти роялтиларнинг бенефициари (роялтининг фойда олувчи эгаси) бўлса, бундай ҳолда ундириладиган солиқ роялтилар ялпи миқдорининг 10 фоизидан ошиб кетмаслиги керак."
+  }
+ ],
+ "notes": "Art. 11(3): interest to the other State's Government, local/administrative authorities, their agencies or banking institutions, or on debt guaranteed/insured/financed by a wholly government-owned financial institution, exempt at source. 2016 Protocol (in force 2017-05-17) amended Art. 27 and added Arts. 27A (collection assistance) and 28A only. Art. 29: source taxes from 1 January of the year following entry into force; EIF conflict resolved to 1997-10-17 (ANAF: effective 01.01.1998).",
+ "unverified": [
+  "EIF date conflict lex.uz 1996-10-17 vs Romania 1997-10-17"
+ ],
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ }
+}

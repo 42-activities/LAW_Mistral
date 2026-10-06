@@ -1,0 +1,58 @@
+{
+ "a": "FI",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Republic of Finland and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1969, as amended by Protocols 1973, 1979, 1985, 1991 and 1996; modified by the MLI)",
+ "signed": "1969-07-17",
+ "entry_into_force": "1970-02-05",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1970/2",
+ "eif_quote": "... ratifioimiskirjat 5 päivänä tammikuuta 1970 vaihdettu Helsingissä, säädetään ... että sanottu sopimus tulee voimaan 5 päivänä helmikuuta 1970 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–GB Convention (SopS 1-2/1970 as amended, incl. SopS 1-2/1992 and 62-63/1997)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1970/2",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1) (as replaced by Protocol 1996)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Dividends paid by a company being a resident of a Contracting State which are derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1) (as replaced by Protocol 1991)",
+   "valid_from": "1992-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State which is derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1) (as replaced by Protocol 1991)",
+   "valid_from": "1992-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties arising in a Contracting State which are derived and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1970/2",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2020-01-01"
+ },
+ "notes": "Dividend exemption at source from Protocol 1996 (SopS 62-63/1997, in force 1997-08-08): applies in Finland to withholding taxes on income derived on or after 1 January 1998 (UK: tax years from 6 April 1998 / financial years from 1 April 1998). The 1996 Art. 11(4) anti-dividend-stripping rule (>=10% holder not taxable on the dividend in its residence State) not modelled. Interest/royalty exclusivity from Protocol 1991 (SopS 1-2/1992, in force 1991-12-23): in Finland for WHT on income derived from 1 January 1992. Art. 12(4): exemption does not apply to interest on exchange-traded debt sold within 3 months by an untaxed beneficial owner. Art. 13(4) royalty-deduction rule for related companies not modelled. MLI arts 6, 7, 16 apply (PPT from 2020-01-01); no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": [
+  "Whether Protocol 1991 main-purpose clauses (Art. 12(8)/13(6)) survive in the current text or were superseded by MLI Art. 7"
+ ]
+}

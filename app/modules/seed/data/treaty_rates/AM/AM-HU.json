@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "HU",
+ "treaty_name": "Agreement between the Republic of Armenia and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009, as modified by the MLI)",
+ "signed": "2009-11-09",
+ "entry_into_force": "2010-10-26",
+ "eif_source_url": "https://nav.gov.hu/en/taxation/double_taxation_treaties ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[HU list] Armenia | 2009. XI. 09. | Act X of 2010 | 2011. I. 1. || [AM MLI position] ...on Capital Republic of Hungary Original 10-11-2009 26-10-2010",
+ "source_title": "MLI matching and synthesised text Armenia-Hungary (Armenian MoF)",
+ "source_url": "https://minfin.am/website/images/files/f3835fe7.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership that is not liable to tax), which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://minfin.am/website/images/files/f3835fe7.rar",
+  "quote": "Notwithstanding any provisions of Agreement, a benefit under the Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Art. 11(3)(a): interest exempt at source if paid to the Government/local authority/Central Bank/government-owned financial institution of the other State or on loans guaranteed or insured by them; Art. 11(3)(b): max 5% on loans or credits granted by a bank (bank-only tier, not modelled). Art. 28: WHT on income derived on or after 1 January of the year following EIF (2010-10-26 -> 2011-01-01). Synthesised text: MLI effective for WHT in both States where the event occurs on or after 1 January 2024. MLI Art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

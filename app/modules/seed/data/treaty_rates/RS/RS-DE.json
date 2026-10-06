@@ -1,0 +1,71 @@
+{
+ "a": "RS",
+ "b": "DE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (1987), applied by Serbia",
+ "signed": "1987-03-26",
+ "entry_into_force": "1988-12-03",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[DE list] Serbien 26.03.1987 1988 744 1988 372 1988 1179 1989 35 01.01.1989 (Namensänderung; ehem. Bundesrepublik Jugoslawien); (DBA mit SFR Jugoslawien gilt fort, BGBl. 1997 II S. 961) || [RS MLI position] ...on Income and Capital Germany Original 26-03-1987 03-12-1988",
+ "source_title": "Уговор СФРЈ–СР Немачка (1987), mfin.gov.rs Serbian text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/Ab5pBR_6012ebef63504.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "1. Дивиденде које је исплатило друштво - резидент Савезне Републике Немачке резиденту Југославије могу се опорезивати у Савезној Републици Немачкој. Тако разрезан порез не може бити већи од 15 одсто од бруто-износа дивиденди."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "RS",
+   "quote": "Добит коју оствари резидент Савезне Републике Немачке по основу свог улагања у југословенску организацију удруженог рада може се опорезивати у Југославији. Тако разрезан порез не може бити већи од 15 одсто од те добити."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Камата која настаје у држави уговорници и исплаћена је резиденту друге државе уговорнице опорезује се само у тој другој држави, ако је тај резидент стварни корисник камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни корисник ауторских накнада, тако разрезан порез не може бити већи од 10 одсто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Asymmetric ex-SFRY treaty applied by Serbia. Art. 11 only covers dividends paid by a German-resident company to a Yugoslav (Serbian) resident (15% cap). Serbian side: Art. 8 caps Yugoslav tax at 15% on 'profit derived by a German resident from its investment in a Yugoslav organisation of associated labour' - modelled as the RS-source dividend cap (interpretation; wording predates company law). Interest taxable only in residence State (Art. 12(1)); Protocol item 1 ad Arts. 11 and 12: German participating income (silent partnerships, participating loans, profit-sharing bonds) deductible at the German debtor may be taxed in Germany under German law; Protocol also provides for renegotiation if either State introduces interest WHT. Royalties 10% (Art. 13(2)). Treaty applies from 1 Jan of the year after exchange of ratification instruments (EIF 1988-12-03 = one month after exchange, so 1989-01-01). Not MLI-covered (Germany did not list the treaty); no PPT. Revision agreement only initialled (2025).",
+ "confidence": "medium",
+ "unverified": [
+  "RS-side dividend cap relies on Art. 8 (profits from investment in Yugoslav organisations of associated labour)",
+  "valid_from 1989-01-01 computed"
+ ],
+ "latest_protocol": null
+}

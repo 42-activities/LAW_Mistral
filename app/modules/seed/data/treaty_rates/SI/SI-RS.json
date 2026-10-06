@@ -1,0 +1,78 @@
+{
+ "a": "SI",
+ "b": "RS",
+ "treaty_name": "Convention between the Republic of Slovenia and Serbia and Montenegro for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003), applied with Serbia",
+ "signed": "2003-06-11",
+ "entry_into_force": "2003-12-31",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): SRBIJA / ČRNA GORA | MP, št. 30/03 | 1. 1. 2004 | SLO ENG uporablja se samo za razmerje med RS in Srbijo | za davke pri viru 1.1.2019; za druge davke 1.4.2019 |",
+ "source_title": "Synthesised text of the MLI and the SI-Serbia and Montenegro Convention 2003 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB_MLI_KIDO_SLO_-_SRB_angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1) as modified by MLI art. 8(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;] Subparagraph 1) of paragraph 2 of Article 10 of this Convention shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 1 0 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed: ... 2) 10 per cent of the gross amount of the royalties within the meaning of subparagraph 2) of paragraph 3 of this Article."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 per cent of the gross amount of the royalties within the meaning of subparagraph 1) of paragraph 3 of this Article;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/ZB_MLI_KIDO_SLO_-_SRB_angl.pdf",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Convention has effect for income derived in fiscal years beginning on or after 1 January of the year following entry into force (Art. 29(2)) -> 1.1.2004; FURS: applied only between Slovenia and Serbia. Royalties: 5% for copyright of literary/artistic/scientific work incl. films and radio/TV tapes (Art. 12(3)(1)); 10% for patents, trade marks, designs, plans, formulas, equipment and know-how (Art. 12(3)(2)). 5% dividend tier: company holding directly >=25%; MLI art. 8(1) 365-day period from 1 January 2019. Art. 11(3): interest beneficially owned by the other Government, subdivisions, local authorities or Central/National Bank exempt.",
+ "confidence": "high",
+ "unverified": []
+}

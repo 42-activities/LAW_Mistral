@@ -1,0 +1,67 @@
+{
+ "a": "LV",
+ "b": "KW",
+ "treaty_name": "Convention between the Government of the Republic of Latvia and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-11-09",
+ "entry_into_force": "2013-04-25",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 32 | Kuwait | 28.01.09. | 09.11.09. | 25.04.13. | 01.01.14.",
+ "source_title": "Latvia–KW tax treaty, official Latvian text (likumi.lv id 81)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/81",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) sabiedrība (kas nav personālsabiedrība) - otras Līgumslēdzējas Valsts rezidents, kura tieši pārvalda vismaz 10 procentus tās sabiedrības kapitāla, kura izmaksā dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šīm dividendēm var uzlikt nodokļus arī atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kuras rezidents ir sabiedrība, kas izmaksā dividendes, bet, ja šo dividenžu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 5 procentus no dividenžu kopapjoma."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šiem procentiem var uzlikt nodokļus arī atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 5 procentus no procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šādai autoratlīdzībai var arī uzlikt nodokļus atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas, bet, ja autoratlīdzības īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 5 procentus no autoratlīdzības kopapjoma."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2014-01-01",
+  "basis": "treaty art. 29 (main-purpose limitation of benefits for companies/entities)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/81",
+  "quote": "Līgumslēdzējas Valsts sabiedrībai vai citai vienībai var netikt piešķirts jebkurš šajā Konvencijā noteiktais atvieglojums nodokļu samazinājumu vai atbrīvojumu veidā, ja šīs sabiedrības vai vienības izveidošanas vai pastāvēšanas galvenais mērķis vai viens no galvenajiem mērķiem ir bijis izmantot šajā Konvencijā noteiktos atvieglojumus, kas tai citādi nebūtu pieejami."
+ },
+ "notes": "Art. 31(2)(a): WHT provisions apply from 1 January of the year following EIF (2013-04-25) -> 2014-01-01. Dividends: exempt at source where the beneficial owner is a company (other than a partnership) directly holding at least 10% of capital, or the other State's government or a governmental institution/entity as defined in Art. 4(2) (government tier not modelled). Interest: exempt where beneficially owned by the government/governmental institutions (Art. 4(2)) or paid on any loan granted by a bank of the other State - not modelled. Kuwait is not an MLI party. Treaty Art. 29 (Limitation of benefits) denies benefits to a company or other entity if the main purpose or one of the main purposes of its creation or existence was to obtain treaty benefits - recorded as a treaty purpose test (narrower than the MLI PPT).",
+ "confidence": "high",
+ "unverified": []
+}

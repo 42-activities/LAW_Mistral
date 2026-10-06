@@ -1,0 +1,91 @@
+{
+ "a": "AZ",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2004)",
+ "signed": "2004-05-18",
+ "entry_into_force": "2006-08-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "Azerbaïdjan Original 18-05-2004 12-08-2006",
+ "source_title": "FOD Financiën (fiscus.fgov.be): Overeenkomst België–Azerbeidzjan en Protocol, Dutch text (Wayback copy of 2006-08-31)",
+ "source_url": "https://web.archive.org/web/20060831141625id_/http://www.fiscus.fgov.be:80/interfafznl/international/azerbaidjan/Azer-nl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "30",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent van het brutobedrag van de dividenden indien de uiteindelijk gerechtigde een vennootschap is die onmiddellijk of middellijk ten minste 30 percent bezit van het kapitaal van de vennootschap die de dividenden betaalt, en op de datum waarop de dividenden worden betaald ten minste een bedrag met een waarde van 500.000 US dollars heeft belegd in de vennootschap die de dividenden betaalt ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 percent van het brutobedrag van de dividenden indien de uiteindelijk gerechtigde een vennootschap is die onmiddellijk of middellijk ten minste 10 percent bezit van het kapitaal van de vennootschap die de dividenden betaalt, en op de dag waarop de dividenden worden betaald ten minste een bedrag met een waarde van 75.000 US dollars heeft belegd in de vennootschap die de dividenden betaalt ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(d)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "d) 15 percent van het brutobedrag van de dividenden in alle andere gevallen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "maar indien de uiteindelijk gerechtigde tot de interest inwoner is van de andere overeenkomstsluitende Staat, mag de aldus geheven belasting niet hoger zijn dan 10 percent van het brutobedrag van de interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent van het brutobedrag van de royalty's betaald met betrekking tot een auteursrecht op een werk op het gebied van letterkunde of kunst (daaronder begrepen bioscoopfilms en films of banden voor radio of televisie) ; en"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 percent van het brutobedrag van de royalty's in alle andere gevallen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend tiers also carry investment conditions (not modelled): 5% tier (a) requires >=30% holding AND investment of at least USD 500,000; 10% tier (c) requires >=10% holding AND at least USD 75,000 invested. NOT modelled as a separate entry: Art. 10(2)(b) 5% for a company that has invested at least USD 10,000,000 in the paying company (no ownership threshold). Royalty 5% applies to copyright on literary or artistic works incl. films/radio/TV tapes; 10% all other royalties. Interest exempt at source (Art. 11(3)) for trade-credit interest, export-promotion loans granted/guaranteed/insured by a State, and interest paid to the other State, its subdivisions, local authorities or their institutions (not modelled). Protocol 3: technical assistance/service fees are not royalties. Art. 29(2)(a): WHT provisions apply to income attributed or made payable on/after 1 Jan of year following EIF (12 Aug 2006 -> 2007-01-01). EIF from Belgium/Azerbaijan MLI positions (text read predates EIF). Text read: Dutch version from Belgian tax administration (fiscus.fgov.be) archived 31 Aug 2006; no later protocol known. MLI: Belgium chose Art. 7(4) (discretionary relief); no Belgian Art. 35(7) reservation found; Azerbaijan notified Arts. 11(8), 12(7), 21(4) as existing Art. 7(2) provisions. MLI WHT effect 2025-01-01 per merged dataset. Azerbaijan reserved Art. 8, so no 365-day holding period.",
+ "confidence": "medium",
+ "unverified": [
+  "Text is an archived 2006 administrative copy, not the Moniteur belge publication; no check for amending protocols after 2006 beyond merged dataset (latest_protocol null)"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "IE",
+ "treaty_name": "Convention between the Slovak Republic and Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1999), as modified by the MLI",
+ "signed": "1999-06-08",
+ "entry_into_force": "1999-12-30",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/365/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť výmenou ratifikačných listín, t. j. 30. decembra 1999, na základe článku 28 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 365/2000 Z. z. (SK-IE treaty); MLI notice 257/2019 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/365/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3) as modified by MLI art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Dividendy vyplácané spoločnosťou, ktorá je rezidentom zmluvného štátu, sú oslobodené od akejkoľvek dane z dividend v tomto štáte, ak skutočný vlastník dividend je rezidentom druhého zmluvného štátu, ktorý priamo vlastní najmenej 25 percent hlasovacích práv spoločnosti vyplácajúcej dividendy. || MLI: K existujúcim ustanoveniam článku 10 ods. 3 zmluvy sa uplatňuje nasledovné znenie článku 8 ods. 1 dohovoru: „Ustanovenia článku 10 ods. 3 zmluvy sa uplatnia, len ak sú podmienky vlastníctva uvedené v týchto ustanoveniach splnené počas celého obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorý má v držbe akcie alebo ktorý vypláca dividendy).“"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. S výnimkou odseku 3 možno tieto dividendy zdaniť aj v zmluvnom štáte, ktorého rezidentom je spoločnosť, ktorá ich vypláca, a to podľa právnych predpisov tohto štátu, ale ak je skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 percent hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky majúce zdroj v jednom zmluvnom štáte, ktoré sa vyplácajú rezidentovi druhého zmluvného štátu, sa zdaňujú len v tomto druhom štáte, ak je tento rezident skutočným vlastníkom úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Licenčné poplatky uvedené v odseku 3 písm. b) sa môžu zdaniť aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu. Ak je však skutočný vlastník rezidentom druhého zmluvného štátu, takto stanovená daň nepresiahne 10 percent hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2019/257/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 28(2)(a)(i): in Slovakia WHT provisions apply to amounts paid/credited from 1 January of the year following EIF (30.12.1999) -> 2000-01-01 (Ireland: income tax from 6 April 2000, corporation tax from 1 January 2000). Dividends exempt at source where the beneficial owner holds directly >=25% of voting rights (Art. 10(3), no holding period until MLI); MLI art. 8(1) 365-day holding applies from 2020-01-01. Interest taxable only in residence State. Royalties: copyright royalties (Art. 12(3)(a)) taxable only in residence State; industrial royalties (Art. 12(3)(b)) 10% — copyright tier not modelled. MLI applies (notice 257/2019 Z. z.): PPT for WHT from 2020-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

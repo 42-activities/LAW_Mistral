@@ -1,0 +1,67 @@
+{
+ "a": "LV",
+ "b": "MT",
+ "treaty_name": "Convention between the Government of the Republic of Latvia and the Government of Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000)",
+ "signed": "2000-05-22",
+ "entry_into_force": "2000-10-24",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 37 | Malta  | 21.01.00. | 22.05.00. | 24.10.00. | 01.01.01.",
+ "source_title": "Latvia–MT tax treaty, official Latvian text (likumi.lv id 253)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/253",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "LV",
+   "quote": "(i) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība, kas nav līgumsabiedrība un kas pārvalda vismaz 25 procentus tās sabiedrības kapitāla, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LV",
+   "quote": "(ii) 10 procentu no dividenžu kopapjoma visos pārējos gadījumos;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šos procentus var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 10 procentu no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šo autoratlīdzību var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas, bet, ja autoratlīdzības īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentu no autoratlīdzības kopapjoma."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 29(2)(i): WHT provisions apply from 1 January of the year following EIF (2000-10-24) -> 2001-01-01. Dividends are asymmetric: Latvian-source dividends capped at 5% (company other than a partnership holding at least 25% of capital) / 10% otherwise (source_state LV). Maltese-source dividends: Art. 10(2)(b) - Maltese tax on the gross dividend may not exceed the tax on the company profits out of which the dividends are paid (no fixed percentage cap; not modelled as a rate). Art. 11(3): government/local authority/central bank/government-owned financial institution interest and government-guaranteed loans exempt - not modelled. Art. 27: limitation of benefits (remittance-basis rule; persons with special tax regimes listed in the Protocol excluded; main-purpose test for residents) in addition to the MLI PPT. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

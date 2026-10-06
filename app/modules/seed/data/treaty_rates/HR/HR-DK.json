@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "DK",
+ "treaty_name": "Convention between the Republic of Croatia and the Kingdom of Denmark for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2007)",
+ "signed": "2007-09-14",
+ "entry_into_force": "2009-02-22",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2009_02_1_18.html",
+ "eif_quote": "OBJAVLJUJE da će Ugovor između Republike Hrvatske i Kraljevine Danske o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak, potpisan u Kopenhagenu 14. rujna 2007., objavljen u »Narodnim novinama – Međunarodni ugovori« br. 12/2008, stupiti na snagu 22. veljače 2009.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Kraljevine Danske o izbjegavanju dvostrukog oporezivanja (NN-MU 12/2008)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2008_12_12_153.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5% bruto-iznosa dividendi kad je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 25% kapitala društva koje isplaćuje dividendu ako su one u posjedu najmanje godinu dana bez prekida i ako su dividende objavljene unutar tog razdoblja;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10% bruto-iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik kamata rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 5% bruto iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve naknade za autorska prava mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik naknada rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 10% bruto iznosa naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(1): applies to income derived in tax years beginning on or after 1 January of the year following EIF (2009) -> 2010-01-01. Art. 10(2)(b): 5% for recognised pension funds/similar institutions (not modelled). 5% company tier requires holding for at least one year without interruption and dividends declared within that period. Replaces the 1981 SFRY-Denmark agreement.",
+ "confidence": "high",
+ "unverified": []
+}

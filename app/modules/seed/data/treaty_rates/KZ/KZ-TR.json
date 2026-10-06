@@ -1,0 +1,56 @@
+{
+ "a": "KZ",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Kazakhstan and the Government of the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (1995)",
+ "signed": "1995-08-15",
+ "entry_into_force": "1996-11-18",
+ "eif_source_url": "https://www.gib.gov.tr",
+ "eif_quote": "GİB list (per treaty map): '21) Kazakistan 15.08.1995 08.11.1996 - 22811 18.11.1996 01.01.1997'. Art. 28: Каждое Договаривающееся Государство будет уведомлять друг друга о завершении процедуры взаимного согласования, требуемой для вступления в силу настоящего Соглашения. Настоящее Соглашение вступает в силу в день, когда получено последнее из этих уведомлений и его положения начинают действовать в обоих Договаривающихся Государствах: а) по отношению к налогам, удерживаемым у источника, в отношении сумм, выплачиваемых или зачитываемых с или после первого дня второго месяца, следующего за месяцем, в котором данное Соглашение вступает в силу; в) по отношению к другим налогам, в отношении налогооблагаемого года, начиная с или после первого дня января года, следующего за датой, с которой настоящее Соглашение вступает в силу.",
+ "source_title": "Decree of the President of RK U960002741_ on ratification of KZ-TR Agreement (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/U960002741_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и согласно законодательству этого Государства, но если получатель является фактическим владельцем этих дивидендов, налог, взимаемый таким образом, не будет превышать 10 процентов общей суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты также могут облагаться налогом в том Договаривающемся Государстве, в котором они возникают в соответствии с законом этого Государства, но если получатель является фактическим владельцем процентов, налог, взимаемый таким образом, не должен превышать 10 процентов от общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти могут облагаться налогом в Договаривающемся Государстве, в котором они возникают в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, взимаемый таким образом налог не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "1997-01-01",
+  "basis": "treaty art. 27 (limitation of benefits, main-purpose test)",
+  "source_url": "http://insecure.zan.kz/rus/docs/U960002741_",
+  "quote": "Лицо, являющееся резидентом Договаривающегося Государства и получающее доход из другого Договаривающегося Государства, не будет иметь право освобождения от налогообложения в этом другом Государстве, несмотря на договоренность в данном Соглашении, если основной целью или одной из основных целей любого лица относительно создания или передачи такого вида дохода было получить преимущество от положений данного Соглашения."
+ },
+ "notes": "Single 10% tier per category. Interest paid to the Government/central bank/Eximbank of the other State exempt (Art. 11(3)) - not modelled. WHT applies to amounts paid from the first day of the second month after the month of EIF (Art. 28(a)); with EIF 18.11.1996 -> 1997-01-01 (consistent with GİB effective date). CONFLICT on EIF: adilet MFA note says 15 November 1995 (implausible - before ratification) vs GİB 18.11.1996 (Official Gazette 22811). Türkiye is MLI signatory only; MLI not in effect.",
+ "confidence": "high",
+ "unverified": []
+}

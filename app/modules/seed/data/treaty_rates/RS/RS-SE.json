@@ -1,0 +1,70 @@
+{
+ "a": "RS",
+ "b": "SE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1980), applied by Serbia",
+ "signed": "1980-06-18",
+ "entry_into_force": "1981-12-16",
+ "eif_source_url": "https://data.riksdagen.se/dokument/sfs-1982-70.text ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[SE list] Förordning (1982:70) om dubbelbeskattningsavtal mellan Sverige och Jugoslavien ... Övrig text: Upphävd såvitt avser Makedonien fr.o.m. 1998-12-31. ... som Sverige och Jugoslavien undertecknade den 18 juni 1980 || [RS MLI position] ...s on Income and Capital Sweden Original 18-06-1980 16-12-1981",
+ "source_title": "Споразум СФРЈ–Шведска (1980), mfin.gov.rs Serbian text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/8RzeNW_6012f4fe97525.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законом те државе, али тако разрезан порез не може бити већи од: а) 5 одсто од бруто износа дивиденди, ако је прималац друштво (изузимајући партнерство) које непосредно располаже са најмање 25 одсто гласачке снаге друштва које плаћа дивиденде; б) 15 одсто од бруто износа дивиденди, у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законом те државе, али тако разрезан порез не може бити већи од: а) 5 одсто од бруто износа дивиденди, ако је прималац друштво (изузимајући партнерство) које непосредно располаже са најмање 25 одсто гласачке снаге друштва које плаћа дивиденде; б) 15 одсто од бруто износа дивиденди, у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Камата настала у држави уговорници и исплаћена резиденту друге државе уговорнице опорезује се само у тој другој држави."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Ауторске накнаде настале у држави уговорници и исплаћене резиденту друге државе уговорнице опорезују се само у тој другој држави."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Ex-SFRY treaty applied by Serbia. Dividend 5% tier: recipient company (other than a partnership) controlling directly at least 25% of the voting power. Interest and royalties taxable only in residence State (Arts. 11(1), 12(1)); Protocol ad Art. 11: renegotiation if either State introduces interest WHT for non-residents (not self-executing). Applies to income derived on/after 1 Jan following the year of exchange of ratification instruments (Art. 27(2)); EIF 1981-12-16 used, so 1982-01-01. Not MLI-covered (Sweden did not list the treaty); no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1982-01-01 assumes exchange of instruments in 1981"
+ ],
+ "latest_protocol": null
+}

@@ -1,0 +1,67 @@
+{
+ "a": "KZ",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2011)",
+ "signed": "2011-06-07",
+ "entry_into_force": "2016-09-01",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z1600000006",
+ "eif_quote": "(Вступила в силу 1 сентября 2016 года) Art. 29(2)(a): a) в отношении налогов, удерживаемых у источника, в отношении сумм, уплачиваемых с 1 января или после 1 января года, следующего за годом вступления Конвенции в силу; и",
+ "source_title": "Law of RK of 2016 on ratification of KZ-SA Convention with Protocol (adilet, Russian text; English text prevails)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z1600000006",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать 5 процентов общей суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SA",
+   "quote": "2. Однако, такие доходы от долговых требований также облагаются налогом в Договаривающемся государстве, в котором они возникают, и в соответствии с законодательством этого государства, но, если фактический владелец доходов от долговых требований является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать 10 процентов общей суммы доходов от долговых требований."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) + Protocol para 2",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "KZ",
+   "quote": "2. Однако, такие доходы от долговых требований также облагаются налогом в Договаривающемся государстве, в котором они возникают, и в соответствии с законодательством этого государства, но, если фактический владелец доходов от долговых требований является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать 10 процентов общей суммы доходов от долговых требований. || Protocol 2: В случае доходов от долговых требований, возникающих в Казахстане, термин \"общая сумма доходов от долговых требований\" означает сумму эквивалентную 50 процентам от общей суммы доходов от долговых требований."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся государстве, в котором они возникают и в соответствии с законодательством этого Договаривающегося государства, но если фактический владелец роялти, является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать 10 процентов от общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividends: single 5% cap. Interest (\"income from debt-claims\"): 10% of gross; for interest arising in Kazakhstan the Protocol deems the gross amount to be 50% of the actual gross, i.e. an effective 5% cap (modelled as max_rate 5 with source_state KZ); interest arising in Saudi Arabia capped at 10%. Protocol 1: branch profits tax max 5% (not modelled). Art. 28 preserves domestic anti-avoidance rules where a main purpose is obtaining treaty benefits. MLI WHT effect 2021-01-01; Saudi Arabia reserved MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,59 @@
+{
+ "a": "MD",
+ "b": "DE",
+ "treaty_name": "Agreement between the USSR and the Federal Republic of Germany for the avoidance of double taxation of income and capital (1981, with Protocol), continued in force for Moldova",
+ "signed": "1981-11-24",
+ "entry_into_force": "1995-10-11",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Federală Germania | Convenția | 24.11.1981, Bonn | 11.10.1995 | 01.01.1996 ; [DE BMF list 2026] Moldau, Republik 24.11.1981 ... 01.01.1980 (DBA mit UdSSR gilt fort, BGBl. 1996 II S. 768)",
+ "source_title": "MD MoF Romanian translation of the USSR–FRG Agreement of 24.11.1981 (Germania_rom.pdf) and Protocol (Protocol_Germania_rom.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Germania_rom.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 7(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste dividende pot fi, de asemenea, impuse în acel Stat Contractant, în care persoana juridică, plătitoare de dividende, are rezidenţă permanentă, dar impozitul nu va depăşi 15 la sută din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 8(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Aceste dobînzi pot fi, de asemenea, impuse şi în Statul Contractant din care provin, potrivit legislaţiei acestui Stat; dar impozitul nu va depăşi 5 la sută din suma brută a dobînzilor. Totuşi, dobînzile care provin dintr -un Stat Contractant nu vor fi impuse în acest Stat, dacă celălalt Stat Contractant în cazuri similare nu impune aceste dobînzi în conformitate cu legislaţia sa."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 9(1)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Plăţile pentru licenţe, care provin dintr -un Stat Contractant şi plătite unei persoane cu rezidenţă permanentă în celălalt Stat Contractant, pot fi impuse numai în acel celălalt Stat."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Germania_rom.pdf",
+  "quote": ""
+ },
+ "notes": "USSR-era treaty (Arts. 7 dividends, 8 interest, 9 licence payments). Art. 8(2) second sentence: interest is not taxed at source if the other State does not tax such interest in similar cases (reciprocity exemption, not modelled). Art. 8(3): interest taxable only in residence State when recipient is a Government/central bank or loan is state-guaranteed. Protocol para 4: Germany may tax under its domestic law income from profit-participating rights (silent partner, participating loans/bonds) that is deductible for the debtor (no cap). Art. 24(2): applied to withholding taxes on income paid from 1 January 1980; valid_from uses Moldova's application date 01.01.1996 (MD MoF list); DE BMF list states application generally from 01.01.1980. New DE–MD treaty only initialled (27.11.2024) per DE BMF list. Text read in Romanian translation (authentic Russian/German not compared). Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from: MD list 1996-01-01 vs treaty/DE 1980-01-01",
+  "Romanian translation; authentic German/Russian texts not compared"
+ ]
+}

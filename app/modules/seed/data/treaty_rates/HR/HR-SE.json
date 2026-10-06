@@ -1,0 +1,25 @@
+{
+ "a": "HR",
+ "b": "SE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and on capital (1980, with Protocol), applied by Croatia by succession",
+ "signed": "1980-06-18",
+ "entry_into_force": "1981-12-16",
+ "eif_source_url": "https://mvep.gov.hr/print.aspx?id=21905&country=131&url=print",
+ "eif_quote": "MVEP register (per treaty-map): Sporazum između SFRJ i Kraljevine Švedske o izbjegavanju dvostrukog oporezivanja u odnosu na poreze na dohodak i imovinu (s Protokolom) | 18.06.1980. | 7/1981; Porezna uprava: 'Preuzet od SFRJ NN 53/91', datum primjene 08.10.1991.",
+ "source_title": "Treaty text not obtained (SFRY Službeni list - Međunarodni ugovori 7/1981; Swedish SFS 1981 not available online)",
+ "source_url": null,
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not applicable (Sweden does not list the treaty)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Official treaty text could not be retrieved: the SFRY publication (Sl. list SFRJ - MU 7/1981) and the Swedish SFS/SÖ 1981 text are not available on Narodne novine, regeringen.se or riksdagen.se (data.riksdagen.se unreachable; web search budget exhausted). No rates recorded; values must not be filled from secondary sources. Croatia lists the treaty under the MLI but Sweden does not, so the MLI (and PPT) does not apply (per treaty-map).",
+ "confidence": "low",
+ "unverified": [
+  "All rates - text not obtained",
+  "EIF 1981-12-16 from treaty-map metadata (not verified against an official EIF notice)"
+ ]
+}

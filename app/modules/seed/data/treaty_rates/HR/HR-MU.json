@@ -1,0 +1,91 @@
+{
+ "a": "HR",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Republic of Mauritius for the avoidance of double taxation with respect to taxes on income (2002)",
+ "signed": "2002-09-06",
+ "entry_into_force": "2003-08-09",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2004_02_1_6.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Republike Mauricijus o izbje­gava­nju dvostrukog oporeziva­nja porezima na dohodak, potpisan u Port-Louisu 6. rujna 2002., objav­ljen u »Narodnim novinama – Međunarodni ugovori« br. 10/2003., stupio na snagu 9. kolovoza 2003.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Republike Mauricijus o izbjegavanju dvostrukog oporezivanja (NN-MU 10/2003)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2003_06_10_63.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Dividende koje društvo rezident države ugovornice isplaćuje rezidentu druge države ugovornice bit će, ako je primatelj dividendi njihov stvarni korisnik, oporezive samo u toj drugoj državi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Kamate nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice bit će, ako je primatelj kamata njihov stvarni korisnik, oporezive samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "Autorske naknade nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice, bit će oporezive samo u toj drugoj državi."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2004-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Dividende koje društvo rezident države ugovornice isplaćuje rezidentu druge države ugovornice bit će, ako je primatelj dividendi njihov stvarni korisnik, oporezive samo u toj drugoj državi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2004-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Kamate nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice bit će, ako je primatelj kamata njihov stvarni korisnik, oporezive samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2004-07-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MU",
+   "quote": "Autorske naknade nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice, bit će oporezive samo u toj drugoj državi."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(2): Croatia - income in tax years beginning on or after 1 January of the year following EIF (2003) -> 2004-01-01; Mauritius - income years beginning after 1 July following EIF (09.08.2003) -> income year from 2004-07-01 (split by source_state). Dividends, interest and royalties are all taxable only in the residence State.",
+ "confidence": "high",
+ "unverified": [
+  "Mauritius-side start date interpreted as income year commencing 1 July 2004"
+ ]
+}

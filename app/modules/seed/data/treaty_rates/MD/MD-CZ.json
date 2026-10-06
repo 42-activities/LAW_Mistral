@@ -1,0 +1,67 @@
+{
+ "a": "MD",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Moldova and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on property (1999, as amended by Protocol 2004)",
+ "signed": "1999-05-12",
+ "entry_into_force": "2000-04-26",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Cehă | Convenția | 12.05.1999, Praga | 26.04.2000 | 01.01.2001 ; Protocolul | 14.10.2004, Praga | 13.07.2005 | 01.01.2006",
+ "source_title": "MD MoF English text of the MD–CZ Convention (Cehia_eng.pdf) and 2004 Protocol (Cehia_Protocol_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Cehia_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed : a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the property of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Cehia_eng.pdf",
+  "quote": ""
+ },
+ "notes": "2004 Protocol (EIF 13.07.2005) amends Arts. 13, 21, 24, 26 only; Arts. 10-12 unchanged. Art. 28: WHT effect on income paid or credited on or after 1 January following EIF (2000 -> 2001-01-01). 25% threshold refers to 'property' (capital) of paying company. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": []
+}

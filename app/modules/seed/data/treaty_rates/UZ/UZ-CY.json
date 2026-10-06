@@ -1,0 +1,58 @@
+{
+ "a": "UZ",
+ "b": "CY",
+ "treaty_name": "Convention between the Government of the Republic of Cyprus and the Government of the Union of Soviet Socialist Republics for the avoidance of double taxation of income and property (1982), applied to Uzbekistan",
+ "signed": "1982-10-29",
+ "entry_into_force": "1983-08-26",
+ "eif_source_url": "https://www.gov.cy/mof/en/documents/double-tax-treaties/",
+ "eif_quote": "Cyprus MOF treaty table: 'Uzbekistan*** 29/10/1982 26/08/1983 26/11 1982' — '*** The treaty between Cyprus and the Union of Soviet Socialist Republics is still in force.'",
+ "source_title": "Cyprus–USSR Convention 1982, English text as published in the Cyprus Official Gazette of 26.11.1982 (pp. 1064-1068), scanned PDF from Cyprus MOF",
+ "source_url": "https://mof.gov.cy/assets/modules/wnp/articles/201610/45/editor/ussr_en.pdf (archived web.archive.org 20230615135637); listing https://www.gov.cy/mof/en/documents/double-tax-treaties/",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 7(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a resident of a Contracting State to a resident of the other Contracting State shall not be liable to taxation in the first-mentioned State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 8(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest received from sources in a Contracting State by a resident of the other Contracting State shall not be liable to taxation in the first-mentioned State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 6(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Payments for copyrights and licences which are received from sources in a Contracting State by a resident of the other Contracting State shall not be liable to taxation in the first-mentioned State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "No PPT/LOB in the 1982 Cyprus–USSR Convention; Uzbekistan is not an MLI signatory."
+ },
+ "notes": "All three categories exempt at source (0%). Art. 19(2): EIF 30 days after last notification; applies to taxes for tax periods beginning on/after 1 January of the calendar year in which the Convention enters into force (1983). Art. 6(3) extends royalties to equipment use and related technical services. Art. 16(1): Convention applies only to income from activity carried on in conformity with local laws. Cyprus lists the USSR treaty as applying to Uzbekistan; not found on lex.uz, so no Uzbek-side confirmation. Text read from page images (scanned PDF, no OCR).",
+ "unverified": [
+  "Uzbek-side confirmation that the USSR treaty applies with Cyprus not obtained"
+ ],
+ "confidence": "medium"
+}

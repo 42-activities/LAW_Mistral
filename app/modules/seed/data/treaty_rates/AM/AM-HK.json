@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Republic of Armenia and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2024)",
+ "signed": "2024-06-24",
+ "entry_into_force": "2025-04-09",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "[IRD table] Armenia | Date of Signing 24.06.2024 | Date of S49 Order 22.10.2024 | Date of Entry into Force 09.04.2025 | Effective From Year of Assessment 2026/2027 | Modified by MLI N/A",
+ "source_title": "AM-HK Agreement, English text (scanned PDF HONK_KONG_ENG.pdf, Armenian MoF archive), pages read visually",
+ "source_url": "https://minfin.am/website/images/files/d8af3d27.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, interest arising in a Contracting Party may also be taxed in that Party according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, royalties arising in a Contracting Party may also be taxed in that Party according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 26(1)",
+  "source_url": "https://minfin.am/website/images/files/d8af3d27.rar",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Art. 10(3) and 11(3): dividends and interest exempt at source when paid to the HKSAR Government, HKMA, Exchange Fund or agreed government-owned entities, or to the Government of Armenia/local authority, Central Bank of Armenia or agreed government-owned entities (not modelled). Art. 27: in Armenia WHT on income derived on or after 1 January of the year following EIF (EIF 2025-04-09 -> 2026-01-01); in HKSAR for years of assessment beginning on or after 1 April 2026 (IRD: 'Year of Assessment 2026/2027'). Not modified by the MLI; PPT in treaty Art. 26.",
+ "confidence": "high",
+ "unverified": []
+}

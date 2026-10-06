@@ -1,0 +1,56 @@
+{
+ "a": "EE",
+ "b": "CY",
+ "treaty_name": "Convention between the Government of the Republic of Estonia and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012)",
+ "signed": "2012-10-15",
+ "entry_into_force": "2013-10-08",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 13. | Cyprus | 16.02.2011 | 15.10.2011 | 25.09.2013 ( est / eng ) | 08.10.2013 | 01.01.2014 | 01.01.2022",
+ "source_title": "EE-CY Convention 2012 with Protocol, English text (Riigi Teataja annex Est_Cypros_conv.pdf)",
+ "source_url": "https://www.riigiteataja.ee/aktilisa/2041/0201/3002/Est_Cypros_conv.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Synthesised text (fin.ee): \"The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Convention: ... a benefit under this Convention shall not be granted ... if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ...\" ; Estonia Art. 35(7)(b) notification lists \"13 Cyprus 25.11.2021\"; fin.ee: \"the provisions of the MLI enter into effect to the 7 tax treaties listed in the notification from 1 January 2022.\""
+ },
+ "notes": "All three categories taxable only in residence State. Signature date: the English text reads 'Done in duplicate at Luxemburg this 15 the day of October 2012'; the Estonian MoF table shows 15.10.2011 (table error). Protocol covers only Arts 13 and 24. No MLI Art. 8 (Estonia did not opt in).",
+ "confidence": "high",
+ "unverified": []
+}

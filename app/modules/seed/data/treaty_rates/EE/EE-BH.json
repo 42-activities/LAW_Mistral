@@ -1,0 +1,56 @@
+{
+ "a": "EE",
+ "b": "BH",
+ "treaty_name": "Agreement between the Republic of Estonia and the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012)",
+ "signed": "2012-10-12",
+ "entry_into_force": "2013-12-23",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 6. | Bahrein | 06.05.2010 | 12.10.2012 | 11.12.2013 ( est / eng ) | 23.12.2013 | 01.01.2014 | ",
+ "source_title": "EE-BH Agreement 2012, English text (Riigi Teataja annex 537XII_Leping_inglise_k_L2.pdf)",
+ "source_url": "https://www.riigiteataja.ee/aktilisa/2201/2201/3004/537XII_Leping_inglise_k_L2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State and beneficially owned by that resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Income from debt claims arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Article 11 is titled 'Income from debt claims' (interest). All three categories taxable only in residence State. No protocol. Ratification act: https://www.riigiteataja.ee/akt/220122013004.",
+ "confidence": "high",
+ "unverified": []
+}

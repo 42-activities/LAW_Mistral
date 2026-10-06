@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "GB",
+ "treaty_name": "Agreement between the United Kingdom of Great Britain and Northern Ireland and the Republic of Croatia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2015)",
+ "signed": "2015-01-15",
+ "entry_into_force": "2015-11-19",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2015_12_8_68.html",
+ "eif_quote": "OBJAVLJUJE da Ugovor između Republike Hrvatske i Ujedinjene Kraljevine Velike Britanije i Sjeverne Irske o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak i na dohodak od otuđenja imovine, potpisan u Zagrebu 15. siječnja 2015., objavljen u »Narodnim novinama – Međunarodni ugovori« br. 5/2015, stupa na snagu 19. studenoga 2015.",
+ "source_title": "GOV.UK: Synthesised text of the MLI and the 2015 UK-Croatia Double Taxation Agreement (English authentic text); Croatian ratification law NN-MU 5/2015",
+ "source_url": "https://www.gov.uk/government/publications/croatia-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2015-uk-croatia-double-taxation-agreement-in-force ; https://narodne-novine.nn.hr/clanci/medunarodni/2015_07_5_26.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividend if the beneficial owner is a company which is a resident of the other Contracting State and controls, directly or indirectly, at least 25 per cent of the capital of the company paying the dividends (other than where the dividends are paid by an investment vehicle as mentioned in subparagraph (b));"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(c) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/croatia-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2015-uk-croatia-double-taxation-agreement-in-force",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(1): WHT on income derived on or after 1 January of the year following EIF (2015) -> 2016-01-01 in both States. Art. 10(2)(b): 15% on dividends paid out of immovable-property income by a tax-exempt investment vehicle (REIT-type) - not modelled; Art. 10(3): dividends to a pension scheme exempt at source. Art. 11(3): interest on credit sales of equipment/merchandise and on bank loans taxable only in residence State. Main-purpose rules in Arts. 10(7), 11(7), 12(6) replaced by MLI Art. 7(1) (synthesised text: MLI effective for WHT from 1 January 2022). Text read: official GOV.UK synthesised English text (Croatian NN-MU 5/2015 HTML page only contains the ratifying act; treaty body is in the PDF issue).",
+ "confidence": "high",
+ "unverified": []
+}

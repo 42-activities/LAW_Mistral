@@ -1,0 +1,70 @@
+{
+ "a": "AM",
+ "b": "LB",
+ "treaty_name": "Agreement between the Republic of Armenia and the Republic of Lebanon for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (1998)",
+ "signed": "1998-09-16",
+ "entry_into_force": "2000-12-13",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/ ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[LB list] Armenia | September 16, 1998 | February 23, 1999 | December 13, 2000 | Law N. 38 In O.G N.38 of March 1, 1999 || [AM MLI position] ...on Capital Republic of Lebanon Original 16-09-1998 13-12-2000",
+ "source_title": "AM-LB Agreement, English text (scanned PDF LEBANON_DoubleTaxationTreaty_EN, Armenian MoF archive), pages read visually",
+ "source_url": "https://minfin.am/website/images/files/19.LEBANON_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the equity capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://minfin.am/website/images/files/19.LEBANON_DoubleTaxationTreaty.rar",
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest exempt at source if derived and beneficially owned by the Government or the Central Bank of the other State (not modelled). Art. 29: Agreement enters into force on the 30th day after the last notification; WHT 'to the income derived on or after the first day of January in the calendar year next following the year in which the Agreement enters into force' (EIF 2000-12-13 -> 2001-01-01). Lebanon is not an MLI Party; no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "EIF article read from a low-resolution page image",
+  "EIF 2000-12-13 from treaty map (Lebanon matrix 2010 / Armenia MLI list)"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "AZ",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Hellenic Republic and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-02-16",
+ "entry_into_force": "2010-03-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+ "eif_quote": "Azerbaijan Original 16-02-2009 11-03-2010",
+ "source_title": "ΦΕΚ Α' 29/25.2.2010, Νόμος 3826/2010 – Κύρωση Σύμβασης Ελλάδας–Αζερμπαϊτζάν (AADE copy via Wayback Machine)",
+ "source_url": "https://web.archive.org/web/20221012124001id_/https://www.aade.gr/sites/default/files/2017-03/AZERBAIJAN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "αλλά αν ο πραγματικός δικαιούχος των μερισμάτων είναι κάτοικος του άλλου Συμβαλλόμενου Κράτους, ο φόρος που επιβάλλεται με αυτόν τον τρόπο δεν υπερβαίνει το 8% του ακαθάριστου ποσού των μερισμάτων."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "αλλά εάν ο πραγματικός δικαιούχος των τόκων είναι κάτοικος του άλλου Συμβαλλόμενου Κράτους, ο φόρος που επιβάλλεται κατ’ αυτόν τον τρόπο δεν υπερβαίνει το 8% του ακαθάριστου ποσού των τόκων."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "αλλά αν ο πραγματικός δικαιούχος των δικαιωμάτων είναι κάτοικος του άλλου Συμβαλλόμενου Κράτους, ο φόρος που επιβάλλεται κατ’ αυτόν τον τρόπο δεν υπερβαίνει το 8% του ακαθάριστου ποσού των δικαιωμάτων."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Single 8% rate for dividends, interest and royalties. Interest paid to the Government of the other State exempt (Art. 11(3), not modelled). Protocol: payments for chartering ships/aircraft on charter flights are treated as royalties. Art. 29(2)(a): WHT provisions apply to amounts paid or credited on/after 1 Jan of the year following EIF; EIF 11 Mar 2010 taken from Greece MLI position (Greek law text gives no date) -> 2011-01-01. Text read is the Greek-language version published in the Government Gazette (English text pages in the PDF are images). MLI: both list the treaty; Greece has no Art. 35(7) reservation (only 35(3) choice) and chose Art. 7(7)(b); Azerbaijan did not choose SLOB, so PPT only, effective 2025-01-01 for WHT (per merged dataset). Azerbaijan reserved Art. 8, so no 365-day holding period.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2010-03-11 from MLI positions only, not from a Greek gazette notice"
+ ]
+}

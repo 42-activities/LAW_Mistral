@@ -1,0 +1,67 @@
+{
+ "a": "FI",
+ "b": "CH",
+ "treaty_name": "Agreement between the Republic of Finland and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income and on capital (1991, as amended by Protocols 2006, 2009 and 2012)",
+ "signed": "1991-12-16",
+ "entry_into_force": "1993-12-26",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1993/90",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 26 päivänä marraskuuta 1993, tulee voimaan 26 päivänä joulukuuta 1993 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: FI–CH Agreement (SopS 89-90/1993, consolidated with SopS 92/2006, 122/2010, 14/2013), English text; Protocol 2009 SopS 122/2010",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1993/90",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), second sentence (as amended by Protocol 2009)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends shall, however, be exempt from tax in the first-mentioned State if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), first sentence (as amended by Protocol 2009)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a",
+  "source_url": "https://www.vero.fi/en/detailed-guidance/guidance/49062/",
+  "quote": "Switzerland 90/1993 amended 92/2006, 122/2010, 14/2013 (no MLI notice listed; CH does not list this treaty under the MLI)"
+ },
+ "notes": "Dividend Art. 10(2) history: Protocol 2006 (SopS 92/2006) introduced 0% for >=20% corporate holdings (from 2006/2007); Protocol 2009 (SopS 122/2010, in force 2010-12-19) lowered the exemption threshold to 10% of capital, applicable to dividends due on or after 1 January 2011 ('sopimuksen 10 artiklan 2 kappaleen osalta osinkoon, joka erääntyy tämän pöytäkirjan voimaantuloa lähinnä seuraavan vuoden tammikuun 1 päivänä tai sen jälkeen'). Protocol 2012 (SopS 14/2013) concerns exchange of information. Interest/royalty exclusivity from 1 January 1994 (income derived on or after 1 January following 1993 EIF). Not covered by the MLI; no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

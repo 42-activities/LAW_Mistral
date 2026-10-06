@@ -1,0 +1,56 @@
+{
+ "a": "KZ",
+ "b": "BG",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1997)",
+ "signed": "1997-11-13",
+ "entry_into_force": "1998-07-24",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf",
+ "eif_quote": "KZ MLI position: Bulgaria Original 13-11-1997 24-07-1998. Art. 29(2)(a): а) в отношении налогов, взимаемых у источника, к суммам дохода, полученного с или после 1 января календарного года, следующего за годом, в котором Конвенция вступает в силу; и",
+ "source_title": "Law of RK on ratification of KZ-BG Convention (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z980000269_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, налог, взимаемый таким образом, не будет превышать 10 процентов общей суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем процентов, налог, взимаемый таким образом, не будет превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие роялти могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, и соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, налог, взимаемый таким образом, не будет превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Single 10% tier per category. Interest paid to the Government, local authorities, National Bank or wholly state-owned financial institutions exempt (Art. 11(3)) - not modelled. Arts 11(8), 12(8) main-purpose rules. Branch profits tax max 10% (Art. 10(6)). Adilet ratification page shows no EIF note; EIF 1998-07-24 from KZ MLI position. MLI WHT effect 2023-01-01 (BG MLI EIF).",
+ "confidence": "high",
+ "unverified": []
+}

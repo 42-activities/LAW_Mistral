@@ -63,6 +63,15 @@ def s(seeded_session):
         ("DE", "BE", "INTEREST", None, None, "0.000"),  # German domestic: no interest WHT
         ("ES", "SE", "ROYALTY", None, None, "10.000"),
         ("DE", "IE", "DIVIDEND", "5", 400, "15.000"),
+        # Batch-8 network
+        ("KZ", "NL", "DIVIDEND", "10", 400, "5.000"),  # MLI 365-day holding met
+        ("KZ", "NL", "DIVIDEND", "10", 100, "15.000"),
+        ("UZ", "CH", "ROYALTY", None, None, "5.000"),
+        ("RS", "AT", "DIVIDEND", "30", None, "5.000"),
+        ("MD", "ES", "DIVIDEND", "60", None, "0.000"),
+        ("MD", "GB", "DIVIDEND", "60", None, "5.000"),  # 0% needs GBP 1m — curated out
+        ("AZ", "GB", "ROYALTY", None, None, "10.000"),  # higher of the 5%/10% tiers
+        ("UZ", "GB", "DIVIDEND", "5", None, "10.000"),  # REIT-only 15% curated out
         # Ireland hub
         ("CH", "IE", "DIVIDEND", "10", 400, "0.000"),
         ("CH", "IE", "DIVIDEND", "5", 400, "15.000"),

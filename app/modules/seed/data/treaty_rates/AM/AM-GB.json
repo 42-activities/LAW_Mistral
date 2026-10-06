@@ -1,0 +1,67 @@
+{
+ "a": "AM",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Republic of Armenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2011, as modified by the MLI)",
+ "signed": "2011-07-13",
+ "entry_into_force": "2012-02-21",
+ "eif_source_url": "https://www.gov.uk/government/publications/armenia-tax-treaties ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[GB list] 2011 Armenia-UK Double Taxation Convention — in force. The Double Taxation Convention entered into force on 21 February 2012. || [AM MLI position] ...t Britain and Northern Ireland Original 13-07-2011 21-02-2012",
+ "source_title": "UK-Armenia Double Taxation Convention 2011 - in force (gov.uk PDF) + HMRC synthesised text of the MLI and the 2011 UK-Armenia Convention",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a8001d540f0b62305b889c0/uk-armenia-dt_-_in_force.pdf ; https://www.gov.uk/government/publications/armenia-tax-treaties/synthesised-text-of-the-multilateral-instrument-mli-and-the-2011-uk-armenia-double-taxation-convention-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company which is a resident of the other Contracting State and holds, directly or indirectly, at least 25 per cent of the share capital of the company paying the dividends and has invested at least one million pounds sterling (or the equivalent amount in any other currency) in the share capital of the company paying the dividends at the date of payment of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(iii)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/armenia-tax-treaties/synthesised-text-of-the-multilateral-instrument-mli-and-the-2011-uk-armenia-double-taxation-convention-in-force",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Dividends: 0% (exempt) where the beneficial owner is a pension scheme (Art. 10(2)(a)); 15% where paid out of income/gains from immovable property by an investment vehicle distributing most income annually with exempt property income (Art. 10(2)(b)(ii)) - neither modelled. 5% tier also requires investment of at least GBP 1 million in share capital at payment date. Interest Art. 11(3): taxable only in residence State if beneficially owned by the Government/subdivision/local authority/central bank or wholly government-owned institution. MLI Art. 7(1) PPT replaces the treaty main-purpose rules in Arts. 10(6), 11(8), 12(7) and 21(4); MLI Art. 8 not applied. gov.uk: 'The convention is effective in Armenia from 1 January 2013 for ... withholding taxes ... in the UK from: 1 January 2013 for withholding taxes'; MLI modifications effective for 'taxes withheld at source on amounts paid or credited to non-residents, from 1 January 2024'. Note: the UK levies no WHT on dividends under domestic law.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,80 @@
+{
+ "a": "KZ",
+ "b": "CH",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital (1999, as amended by Protocol 2010)",
+ "signed": "1999-10-21",
+ "entry_into_force": "2000-11-24",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z000000064_",
+ "eif_quote": "(Вступила в силу 24 ноября 2000 года - Бюллетень ...) Art. 28: а) к налогам, удерживаемым у источника, в отношении сумм, уплачиваемых или зачитываемых с 1 января или после 1 января календарного года, в котором Конвенция вступает в силу; и || Protocol 2010 (in force 26.02.2014) Art. VIII(2)(a): а) в отношении налога, удержанного у источника, на суммы, выплаченные или зачисленные с или после первого дня января года, следующего за вступлением в силу настоящего Протокола;",
+ "source_title": "Law of RK on ratification of KZ-CH Convention and Protocol 1999 (adilet consolidated Russian text incl. 2010 Protocol) and Law Z1400000173 ratifying the 2010 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z000000064_ ; http://insecure.zan.kz/rus/docs/Z1400000173",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended 2010)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, в котором компания, выплачивающая дивиденды, является резидентом, и в соответствии с законодательством этого Договаривающегося Государства, но если получатель является фактическим владельцем дивидендов, таким образом, взимаемый налог не должен превышать: а) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания (иная чем товарищество), которая владеет прямо, по крайней мере, 10 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as amended 2010)",
+   "valid_from": "2015-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, в котором компания, выплачивающая дивиденды, является резидентом, и в соответствии с законодательством этого Договаривающегося Государства, но если получатель является фактическим владельцем дивидендов, таким образом, взимаемый налог не должен превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают и в соответствии с законодательством этого Договаривающегося Государства, но если получатель является фактическим владельцем процентов, то взимаемый таким образом налог, не должен превышать 10 процентов общей суммы процентов. Компетентные органы Договаривающихся Государств по взаимному согласию решают вопрос о способе применения этих ограничений."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)(d)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "d) проценты, возникающие в Договаривающемся Государстве, облагаются в другом Договаривающемся Государстве, резидент которого является получатель, если такой получатель является фактическим владельцем процентов и если такие проценты выплачиваются: i) в связи с продажей в кредит любого промышленного, коммерческого или научного оборудования, или ii) в связи с продажей в кредит любых товаров одним предприятием другому предприятию."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Договаривающегося Государства, но если получатель и фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог взимаемый таким образом не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty not covered by MLI; no PPT clause in treaty)",
+  "source_url": "http://insecure.zan.kz/rus/docs/Z000000064_",
+  "quote": ""
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) holding directly >=10% of capital. Art. 10(2) restated and Art. 10(3) added by 2010 Protocol (signed 2010-09-03, in force 2014-02-26, WHT from 2015-01-01): dividends to pension funds and the central (national) bank are exempt at source - not modelled; pre-2015 dividend wording not verified. Interest exempt for government/central bank bonds and government-guaranteed loans (Art. 11(3)(a)-(c)) - not modelled; Art. 11(3)(d) (credit sales of equipment/goods between enterprises) is exclusive residence taxation. Art. 28 of the Russian text applies WHT from 1 January of the year the Convention enters into force (2000). PROTOCOL para 3 MFN (automatic): Если Казахстан после 15 декабря 1998 г. подписал Конвенцию об избежании двойного налогообложения с Государством, являющимся в настоящее время членом Организации Экономического Сотрудничества и Развития, которое предусматривает более низкую действующую ставку процентов или роялти (включая нулевую), то в этом случае такая более низкая ставка автоматически применяется к резидентам Швейцарии. Checked KZ treaties with OECD members on adilet (BE, CA, CH, CZ, DE, EE, ES, FI, FR, GB, HU, IE, IT, JP, KR, LT, LU, LV, NL, NO, PL, SE, SI, SK, TR, US; no KZ treaties found with AU, CL, CO, CR, DK, GR, IL, IS, MX, NZ, PT): none sets an interest or royalty cap below 10%, so no MFN reduction applies. Branch tax (Art. 10(8)) waived for Swiss enterprises per Protocol 2(c). Not MLI-covered (Swiss MLI list omits KZ).",
+ "confidence": "medium",
+ "unverified": [
+  "Dividend rates before 2015 (original 1999 Art. 10(2)) not verified"
+ ]
+}

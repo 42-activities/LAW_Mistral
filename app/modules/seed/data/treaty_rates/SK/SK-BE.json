@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "BE",
+ "treaty_name": "Convention between the Government of the Slovak Republic and the Government of the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997), as modified by the MLI",
+ "signed": "1997-01-15",
+ "entry_into_force": "2000-06-13",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2007/92/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť 13. júna 2000 na základe článku 29 ods. 1 , v zmysle oznámenia č. 354/2002 Z. z.",
+ "source_title": "Oznámenie MZV SR č. 92/2007 Z. z. (Slovak text of SK-BE treaty); MLI notice 487/2019 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2007/92/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2. Tieto dividendy však možno zdaniť aj v zmluvnom štáte, ktorého je spoločnosť vyplácajúca dividendy rezidentom, a to podľa právnych predpisov tohto štátu, ak však skutočný vlastník dividend je rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť, ktorá priamo alebo nepriamo vlastní najmenej 25 % majetku spoločnosti vyplácajúcej dividendy, || MLI: K existujúcim ustanoveniam článku 10 ods. 2 písm. a) zmluvy sa uplatňuje nasledovné znenie článku 8 ods. 1 dohovoru: „Ustanovenia článku 10 ods. 2 písm. a) zmluvy sa uplatnia, len ak sú podmienky vlastníctva uvedené v týchto ustanoveniach splnené počas celého obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorý má v držbe akcie alebo ktorý vypláca dividendy).“"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Také úroky možno však zdaniť v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ale ak skutočný vlastník úrokov je rezidentom druhého zmluvného štátu, daň takto uložená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom je ich zdroj, a to podľa právnych predpisov tohto štátu, ale ak je skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2019/487/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to income credited/paid from 1 January of the year following EIF (13.6.2000) -> 2001-01-01. Dividend 5% tier (direct or indirect holding >=25%) applied from 2001-01-01 without holding period; MLI art. 8(1) 365-day holding period added for WHT from 2020-01-01 (notice 487/2019 Z. z.). Art. 11(3): interest exempt at source for trade-credit interest, export-credit-agency guaranteed/insured loans, interbank current accounts/loans (non-bearer), and interest paid to the other State/political subdivision/local authority. Royalties 5% incl. software and copyright. English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

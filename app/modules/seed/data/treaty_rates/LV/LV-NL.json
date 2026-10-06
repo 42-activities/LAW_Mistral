@@ -1,0 +1,80 @@
+{
+ "a": "LV",
+ "b": "NL",
+ "treaty_name": "Convention between the Republic of Latvia and the Kingdom of the Netherlands for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (1994)",
+ "signed": "1994-03-14",
+ "entry_into_force": "1995-01-29",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 42 | Netherlands | 01.10.93. | 14.03.94. | 29.01.95. | 01.01.96.",
+ "source_title": "Latvia–NL tax treaty, official Latvian text (likumi.lv id 209)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/209 ; https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1727",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība, kas nav līgumsabiedrība un kas tieši pārvalda ne mazāk kā 25 procentus no kapitāla sabiedrībā, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šos procentus var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas; ja procentu saņēmējs ir šo procentu īstenais īpašnieks, nodoklis nedrīkst pārsniegt 10 procentus no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no autoratlīdzības kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no autoratlīdzības kopapjoma par ražošanas, tirdzniecības vai zinātnisko iekārtu izmantošanu;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 33: WHT provisions apply to income derived on or after 1 January of the year following EIF (1995-01-29 per FM table and MLI lists; likumi.lv metadata shows 29.05.1995) -> 1996-01-01. 5% dividend tier: company (other than a partnership) directly holding at least 25% of capital. Royalty 5% tier: royalties for the use of industrial, commercial or scientific equipment only (not a holding tier). Art. 11(3): interest paid to the States, central banks, government-owned financial institutions or on loans guaranteed/insured by them, and on credit sales of equipment, taxable only in residence State; Art. 11(3)(d)(ii) bank loans >1 year exemption applied only for the first five years (Protocol IX) - not modelled. Protocol XI(3): royalty MFN clause (later Latvian treaty with an OECD-member third State) (see MFN note below). Protocol VIII: refund claims within 3 years. Latvia reserved the entirety of MLI Art. 8. MFN: Protocol XI(3) - Latvia's later convention with Japan (an OECD member; signed 2017-01-18, in force 2017-07-05, WHT effective 2018-01-01; likumi.lv id 1727) provides exclusive residence taxation of royalties (Art. 12(1)), which by the clause applies automatically; royalty exemption recorded from 2018-01-01 (clause has no start date; 2018-01-01 used, matching Finland's notice SopS 15/2021 for the identical LV-FI clause). The earlier royalty entries describe the treaty text before the MFN took effect. [curated: dropped ROYALTY tier — MFN 0% (Latvia–Japan) not confirmed by an official notice]",
+ "confidence": "medium",
+ "unverified": [
+  "MFN application: no partner-side official notice confirming the MFN exemption was located (Finland published one for the identical LV-FI clause); start date 2018-01-01 is an interpretation"
+ ]
+}

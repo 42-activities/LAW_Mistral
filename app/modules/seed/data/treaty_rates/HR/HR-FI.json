@@ -1,0 +1,71 @@
+{
+ "a": "HR",
+ "b": "FI",
+ "treaty_name": "Convention between the Republic of Finland and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1986), applied by Croatia by succession",
+ "signed": "1986-05-08",
+ "entry_into_force": "1987-12-18",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1987/60",
+ "eif_quote": "Belgradissa 8 päivänä toukokuuta 1986 Suomen tasavallan ja Jugoslavian sosialistisen liittotasavallan välillä tulo- ja varallisuusveroja koskevan kaksinkertaisen verotuksen välttämiseksi tehty sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 18 päivänä marraskuuta 1987, tulee voimaan 18 päivänä joulukuuta 1987 niin kuin siitä on sovittu. (SopS 60/1987)",
+ "source_title": "Finlex Sopimussarja 60/1987 - Finnish translation of the Finland-Yugoslavia convention and protocol (authentic text English only)",
+ "source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1987/60",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1991-10-08",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Osingosta voidaan kuitenkin verottaa myös siinä sopimusvaltiossa, jossa osingon maksava yhtiö asuu, tämän valtion lainsääd[ännön mukaan ...] a) 5 prosenttia osingon kokonaismäärästä, jos saajana on yhtiö (lukuun ottamatta yhtymää), joka välittömästi hallitsee vähintään 25 prosenttia yhtiön pääomasta;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1991-10-08",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 prosenttia osingon kokonaismäärästä muissa tapauksissa."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1991-10-08",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Korosta, joka kertyy sopimusvaltiosta ja maksetaan toisessa sopimusvaltiossa asuvalle henkilölle, voidaan verottaa vain tässä toisessa valtiossa."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1991-10-08",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Rojaltista voidaan kuitenkin verottaa myös siinä sopimusvaltiossa, josta se kertyy, tämän valtion lainsäädännön mukaan, mutta vero ei saa olla suurempi kuin 10 prosenttia rojaltin kokonaismäärästä."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY-Finland convention applied between Croatia and Finland by succession (Porezna uprava: 'Preuzet od SFRJ NN 53/91', Datum primjene 08.10.1991 -> used as valid_from; under the treaty's own Art. 28 WHT effect began 1988-01-01 for SFRY/Finland). Croatian publication (Sl. list SFRJ / NN 53/91) not read; text read is the Finnish official translation in Finlex (authentic text is English only - 'kahtena englanninkielisenä kappaleena'). Protocol para 2: Art. 11 exclusive residence taxation of interest is premised on neither State taxing such interest at signature; renegotiation if either starts. MLI covered by both (Croatia and Finland), WHT effect 2022-01-01 per treaty-map.",
+ "confidence": "medium",
+ "unverified": [
+  "Article number of entry-into-force article (28) inferred from Finlex table of contents",
+  "valid_from 1991-10-08 based on Croatian succession date from Porezna uprava table",
+  "Quotes are from the Finnish translation, not the authentic English text"
+ ]
+}

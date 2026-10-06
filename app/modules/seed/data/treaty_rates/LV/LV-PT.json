@@ -1,0 +1,56 @@
+{
+ "a": "LV",
+ "b": "PT",
+ "treaty_name": "Convention between the Republic of Latvia and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2001)",
+ "signed": "2001-06-19",
+ "entry_into_force": "2003-03-07",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 45 | Portugal | 02.10.00. | 19.06.01. | 07.03.03. | 01.01.04.",
+ "source_title": "Latvia–PT tax treaty, official Latvian text (likumi.lv id 191)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/191",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šīs dividendes var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kuras rezidents ir sabiedrība, kas izmaksā dividendes, bet, ja šo dividenžu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentus no dividenžu kopapjoma."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šos procentus var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 10 procentus no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šo autoratlīdzību var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas, bet, ja autoratlīdzības īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentus no autoratlīdzības kopapjoma."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 30: WHT provisions apply from 1 January of the year following EIF (2003-03-07) -> 2004-01-01. Single 10% dividend cap (no participation tier). Art. 11(3): interest to the government, political or administrative subdivisions, local authorities, central bank or wholly government-owned financial institutions, or on government-guaranteed loans, exempt - not modelled. Protocol: 'dividends' include profit-participation income (associação em participação). Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

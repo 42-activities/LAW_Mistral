@@ -1,0 +1,56 @@
+{
+ "a": "LT",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Lithuania and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998)",
+ "signed": "1998-11-24",
+ "entry_into_force": "2000-05-17",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.87751",
+ "eif_quote": "e-seimas metadata: 1998-11-24 Priėmė 1999-07-08 Ratifikuota 2000-05-17 Įsigalioja Įsigalioja 2000-05-17 || 2. Sutartis įsigalioja nuo paskutiniojo iš 1 paragrafe minimų pranešimų dienos, ir jos nuostatos pradedamos taikyti abiejose Susitariančiosiose Valstybėse:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Agreement between the Government of the Republic of Lithuania and the Government of the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.87751",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Valstybės įstatymus, bet jeigu faktiškasis dividendų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali viršyti 10 procentų bendros dividendų sumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jeigu faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali viršyti 10 procentų bendros palūkanų sumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentų bendros atlyginimų už nuosavybės teisių perleidimą sumos visais kitais atvejais."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": ""
+ },
+ "notes": "Single 10% dividend cap (no participation tier). Art. 10(4): branch profits remaining after Art. 7 tax may be taxed at source under Art. 10(2) (i.e. max 10%) - not modelled. Royalty 5% tier applies only to payments for the use of industrial, commercial or scientific equipment (special tier not modelled; general royalty cap 10% under Art. 12(2)(b)). Interest exempt at source (Art. 11(3)) when paid to the other State's Government or central bank - not modelled. Art. 27(2)(a): WHT provisions apply to amounts paid or credited on or after 1 January of the year following EIF (EIF 2000-05-17 -> 2001-01-01). Turkey is not an MLI Party, so no MLI PPT. No 365-day holding period: Lithuania reserved MLI Art. 8 entirely; MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

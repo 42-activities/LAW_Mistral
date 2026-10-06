@@ -1,0 +1,80 @@
+{
+ "a": "LV",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Italian Republic and the Government of the Republic of Latvia for the avoidance of double taxation with respect to taxes on income and on capital and for the prevention of fiscal evasion (1997; with exchange of notes of 2004)",
+ "signed": "1997-05-21",
+ "entry_into_force": "2008-06-16",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 27 | Italy | 21.12.95. | 21.05.97. | 16.06.08. | 01.01.09.",
+ "source_title": "Italy–Latvia convention 1997 (likumi.lv id 354) and 2004 exchange of notes (likumi.lv id 356), official Latvian texts",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/354 ; https://likumi.lv/ta/lv/starptautiskie-ligumi/id/356 ; https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1727",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība, kas nav līgumsabiedrība, un kas tieši pārvalda vismaz 10 procentus no kapitāla sabiedrībā, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šos procentus var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas; ja procentu saņēmējs ir šo procentu īstenais īpašnieks, nodoklis nedrīkst pārsniegt 10 procentus no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no autoratlīdzības kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no autoratlīdzības kopapjoma par ražošanas, tirdzniecības vai zinātnisko iekārtu izmantošanu;"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 32(2)(a): WHT provisions apply to amounts paid on or after 1 January of the year following EIF (2008-06-16) -> 2009-01-01. The 2004 exchange of notes (likumi.lv id 356; entered into force with the Convention) only concerns the Italian business property tax (Art. 2) - no effect on rates. 5% dividend tier: company (other than a partnership) directly holding at least 10% of capital. Royalty 5% tier: royalties for the use of industrial, commercial or scientific equipment only (not a holding tier). Art. 11(3): government/central bank/government-guaranteed interest exempt - not modelled. Treaty refund article (tax withheld in excess refunded on claim) applies. Protocol para. on Art. 12: royalty MFN clause (later Latvian treaty with an OECD-member third State) (see MFN note below). Italy is not an MLI party, so no MLI PPT; the treaty has no general PPT. MFN: Protocol para. (j) - Latvia's later convention with Japan (an OECD member; signed 2017-01-18, in force 2017-07-05, WHT effective 2018-01-01; likumi.lv id 1727) provides exclusive residence taxation of royalties (Art. 12(1)), which by the clause applies automatically; royalty exemption recorded from 2018-01-01 (clause has no start date; 2018-01-01 used, matching Finland's notice SopS 15/2021 for the identical LV-FI clause). The earlier royalty entries describe the treaty text before the MFN took effect. [curated: dropped ROYALTY tier — MFN 0% (Latvia–Japan) not confirmed by an official notice]",
+ "confidence": "medium",
+ "unverified": [
+  "MFN application: no partner-side official notice confirming the MFN exemption was located (Finland published one for the identical LV-FI clause); start date 2018-01-01 is an interpretation"
+ ]
+}

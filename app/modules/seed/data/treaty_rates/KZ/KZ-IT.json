@@ -1,0 +1,69 @@
+{
+ "a": "KZ",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1994)",
+ "signed": "1994-09-22",
+ "entry_into_force": "1997-02-26",
+ "eif_source_url": "https://www.finanze.gov.it",
+ "eif_quote": "finanze.gov.it (per treaty map): 'Kazakhistan Firma: Roma 22.09.1994; Ratifica: L. 12.03.1996, n.174 In vigore dal : 26.02.1997'. Art. 30(2)(a): a) в отношении налогов, удерживаемых у источника, к суммам, полученным с или после 1 января 1994 года;",
+ "source_title": "Decree of the President of RK U950002225_ on ratification of KZ-IT Convention (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/U950002225_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов налог, взимаемый таким образом не будет превышать: а) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания, владеющая прямо или косвенно по крайней мере 10 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов налог, взимаемый таким образом не будет превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникли и в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем процентов, налог, взимаемый таким образом не будет превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие роялти могут также облагаться налогом в Договаривающемся Государстве, в котором они возникли, в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, налог, взимаемый таким образом, не будет превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "1994-01-01",
+  "basis": "treaty art. 29 (limitation of benefits, main-purpose test)",
+  "source_url": "http://insecure.zan.kz/rus/docs/U950002225_",
+  "quote": "Лицо, являющееся резидентом Договаривающегося Государства и получающее доход от Договаривающегося Государства, не будет иметь право освобождения от налогообложения в этом другом Государстве, несмотря на сговоренность в данной Конвенции, если основной целью или одной из основных целей любого лица относительно создания или распределения такого вида дохода было получить преимущество от положений данной Конвенции."
+ },
+ "notes": "Dividend 5% tier: company holding directly or indirectly >=10% of capital. Interest exempt when paid by or to Governments/local authorities or to agencies financing intergovernmental-agreement loans (Art. 11(3)) - not modelled. Branch tax max 5% (Art. 10(6)). Convention applies retroactively to WHT on amounts received from 1 January 1994 (Art. 30(2)(a)). Italy is MLI signatory only, so MLI does not apply; the treaty's own Art. 29 main-purpose rule applies.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date from finanze.gov.it via treaty map (adilet ratification page has no EIF note)"
+ ]
+}

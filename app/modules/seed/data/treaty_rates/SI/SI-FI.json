@@ -1,0 +1,69 @@
+{
+ "a": "SI",
+ "b": "FI",
+ "treaty_name": "Agreement between the Republic of Slovenia and the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003)",
+ "signed": "2003-09-19",
+ "entry_into_force": "2004-06-16",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-finland-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "FURS \"Seznam veljavnih mednarodnih pogodb o izogibanju dvojnega obdavčevanja ... ki se uporabljajo v letu 2026\" (Država | Objava | Začetek uporabe KIDO | Združeno besedilo | Začetek uporabe MLI): FINSKA | MP, št. 12/04 | 1. 1. 2005 | SLO ENG Sprememba | Določeno v posamezni določbi MLI |",
+ "source_title": "Synthesised text of the MLI and the SI-FI Agreement 2003 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-FIN-angl_POPR.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: ... b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/ZB-MLI-KIDO-SLO-FIN-angl_POPR.pdf",
+  "quote": "Notwithstanding any provisions of the Agreement , a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Agreement has effect for WHT on income derived on or after 1 January of the year following entry into force (Art. 26(2)(a)) -> 1.1.2005; replaced SFRY-Finland 1986 convention. Not modelled: Art. 10(2) exemption at source in Finland for dividends to Slovenian residents 'as long as an individual resident in Finland is under Finnish tax law entitled to a tax credit in respect of dividends' (conditional; Finland-source only). Art. 11(3): interest paid to the States, central banks, FINNFUND / Slovene Export Company and on loans guaranteed by them or by Finnvera taxable only in residence State. No MLI art. 8 in synthesised text; MLI art. 7(1) PPT has effect for WHT from 1 January 2020 in both States (synthesised text footnote).",
+ "confidence": "high",
+ "unverified": [
+  "Whether Finland's dividend tax credit condition in Art. 10(2) is still met (not checked in Finnish law)"
+ ]
+}

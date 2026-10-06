@@ -1,0 +1,67 @@
+{
+ "a": "KZ",
+ "b": "FI",
+ "treaty_name": "Agreement between the Government of the Republic of Finland and the Government of the Republic of Kazakhstan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009)",
+ "signed": "2009-03-24",
+ "entry_into_force": "2010-08-05",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z100000284_",
+ "eif_quote": "(Вступило в силу 5 августа 2010 года) Art. 26(2)(a): a) в отношении налогов, удерживаемых у источника с дохода, полученного 1 января или после 1 января календарного года, следующего за годом вступления Соглашения в силу;",
+ "source_title": "Law of RK on ratification of KZ-FI Agreement with Protocol (adilet, Russian text)",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z100000284_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: a) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания (иная, чем партнерство), которая контролирует прямо не менее чем 10 процентов права голоса в компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если фактический владелец процентов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не должен превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие роялти могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают и в соответствии с законодательством этого Государства, но если фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 процентов общей суммы роялти. Несмотря на предыдущее предложение, фактический владелец роялти, осуществляющий платежи за использование или за предоставление права использования промышленного, коммерческого, или научного оборудования, может по своему выбору облагаться налогом в Договаривающемся Государстве, в котором такие роялти возникают, как если бы оборудование было действительно связано с постоянным учреждением в этом Государстве. В таком случае положения Статьи 7 применяются к доходу и вычетам, относящимся к такому оборудованию."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) directly controlling >=10% of voting power. Interest exempt when paid to the other State, central/local authorities, central bank or majority government-owned bodies (Art. 11(3); Protocol: incl. Samruk-Kazyna, FINNFUND, Finnish Export Credit) - not modelled. Art. 12(2): owner of equipment-rental royalties may elect net taxation as if PE income - not modelled. Branch profits tax max 5% (Art. 10(6)). MLI applies from 2021-01-01 for WHT (Art. 35(1)(a)); Finland reserved the entirety of MLI Art. 8, so no 365-day holding period.",
+ "confidence": "high",
+ "unverified": []
+}

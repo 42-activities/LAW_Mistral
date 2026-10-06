@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "OM",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009, as amended by Protocol 2009)",
+ "signed": "2009-03-30",
+ "entry_into_force": "2009-06-20",
+ "eif_source_url": "https://lex.uz/ru/docs/1585044",
+ "eif_quote": "(Вступило в силу 20 июня 2009 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати билан Ўмон Султонлиги Ҳукумати ўртасида Битим (30.03.2009), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/1584764",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агар дивидендларнинг амалдаги эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, унда шу тарзда олинган солиқнинг миқдори дивидендлар ялпи миқдорининг 7 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агар фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлат резиденти бўлса, унда солиқ фоизлар ялпи миқдорининг 7 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агарда роялтининг ҳақиқий эгаси бошқа Аҳдлашувчи Давлат резиденти бўлса, ушбу ҳолатда ундириладиган солиқ роялти ялпи миқдорининг 10 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2010-01-01",
+  "basis": "treaty arts. 10(8), 11(9), 12(7) (article-level main-purpose rules)",
+  "source_url": "https://lex.uz/ru/docs/1584764",
+  "quote": "8. Агар бундай яратиш ёки тақсимлаш орқали мазкур модда имтиёзларидан фойдаланиш унга нисбатан дивиденд тўланадиган акцияларни ёки бошқа ҳуқуқларни яратиш ёки тақсимлаш билан боғлиқ ҳар қандай шахс учун, асосий мақсад ёки асосий мақсадлардан бири бўлса, мазкур модданинг қоидалари қўлланилмайди."
+ },
+ "notes": "Arts. 10(3)-(4), 11(3)-(4): dividends and interest paid to the other State's Government (incl. central banks, Oman State General Reserve Fund, Oman Investment Fund, NBU) exempt at source. Additional Protocol 05.10.2009 (in force 03.02.2010) only added Art. 27A (assistance in collection). Art. 31: source taxes from 1 January of the year following entry into force (Oman list: effective 1/1/2010).",
+ "confidence": "high",
+ "unverified": []
+}

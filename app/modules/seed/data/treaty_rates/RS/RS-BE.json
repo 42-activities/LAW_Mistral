@@ -1,0 +1,70 @@
+{
+ "a": "RS",
+ "b": "BE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Belgium for the avoidance of double taxation with respect to taxes on income and on capital (1980), applied by Serbia",
+ "signed": "1980-11-21",
+ "entry_into_force": "1983-05-26",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "[RS MLI position] ...of Income and capital Belgium Original 21-11-1980 26-05-1983 || [BE MLI] Convention entre le Royaume de Belgique et la République Socialiste Fédérative de Yougoslavie ... Yougoslavie - Serbie Original 21-11-1980 26-05-1983",
+ "source_title": "Споразум СФРЈ–Белгија (1980), mfin.gov.rs Serbian text; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/bRYUDd_6012e0e0d841b.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезовати и у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законима те државе, али тако разрезан порез не може бити већи од: (а) 10 одсто од бруто износа дивиденди, ако је прималац друштво које непосредно има најмање 25 одсто од капитала друштва које плаћа дивиденде; (б) 15 одсто од бруто износа дивиденди, у свим другим случајевима. | MLI art. 8(1): примењују се само ако су услови власништва описани у тим одредбама испуњени током периода од 365 дана који укључује дан исплате дивиденди (ради израчунавања тог периода, не узимају се у обзир промене власништва које би непосредно произилазиле из корпоративне реорганизације, као што су спајање или раздвајање, компаније која поседује акције или исплаћује дивиденде)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезовати и у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законима те државе, али тако разрезан порез не може бити већи од: (а) 10 одсто од бруто износа дивиденди, ако је прималац друштво које непосредно има најмање 25 одсто од капитала друштва које плаћа дивиденде; (б) 15 одсто од бруто износа дивиденди, у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Камата може бити опорезована и у држави уговорници у којој настаје, сагласно законима те државе, али тако разрезан порез не може бити већи од 15 одсто од бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Међутим, такве ауторске накнаде могу се опорезивати у држави уговорници у којој настају и у складу са законима те државе, али тако разрезан порез не може бити већи од 10 одсто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/QTvcRX_6012e1117d720.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба [Споразума] погодност из овог споразума не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Ex-SFRY treaty applied by Serbia. Dividend 10% tier: recipient company holding directly at least 25% of capital; MLI art. 8 365-day holding period applies from 2020-01-01 (before that the 10% tier applied from 1984-01-01 without holding period). Belgian WHT: applies to income credited/paid on or after 1 Jan of the year after exchange of ratification instruments (Art. 27(2)); EIF 1983-05-26 is 30 days after exchange, so 1984-01-01 is computed. No government-interest exemption in Art. 11.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1984-01-01 computed from EIF (exchange of instruments date not in text)"
+ ],
+ "latest_protocol": null
+}

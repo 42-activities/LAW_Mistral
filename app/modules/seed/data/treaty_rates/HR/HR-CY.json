@@ -1,0 +1,56 @@
+{
+ "a": "HR",
+ "b": "CY",
+ "treaty_name": "Convention between the Republic of Croatia and the Republic of Cyprus for the elimination of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2023)",
+ "signed": "2023-10-17",
+ "entry_into_force": "2023-12-28",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2024_02_1_5.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Republike Cipra o uklanjanju dvostrukog oporezivanja porezima na dohodak i na imovinu te sprječavanju porezne utaje i izbjegavanja plaćanja poreza, potpisan u Luxembourgu 17. listopada 2023., objavljen u »Narodnim novinama – Međunarodni ugovori«, broj 12/23., stupio na snagu 28. prosinca 2023.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Republike Cipra o uklanjanju dvostrukog oporezivanja (NN-MU 12/2023)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2023_12_12_57.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, dividende koje isplaćuje društvo, koje je rezident države ugovornice, mogu se također oporezivati u toj državi ugovornici sukladno propisima te države ugovornice, ali ako je stvarni korisnik dividendi rezident druge države ugovornice, tada tako utvrđen porez ne smije biti veći od 5 posto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takva kamata može se također oporezivati u državi ugovornici u kojoj nastaje i sukladno propisima te države ugovornice, ali ako je stvarni korisnik kamate rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 5 posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, naknade za autorska prava nastale u državi ugovornici mogu se također oporezivati u toj državi ugovornici sukladno propisima te države ugovornice, ali ako je stvarni korisnik naknada za autorska prava rezident druge države ugovornice, tako zaračunat porez ne smije biti veći od 5 posto bruto-iznosa naknada za autorska prava."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2023_12_12_57.html",
+  "quote": "Neovisno o drugim odredbama ovog Ugovora, povlastica prema ovom Ugovoru ne dodjeljuje se u pogledu dijela dohotka ili imovine ako je razumno za zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je ostvarivanje te povlastice bilo jedna od glavnih svrha svakog aranžmana ili transakcije koja je, izravno ili neizravno, rezultirala tom povlasticom, osim ako je utvrđeno da bi dodjeljivanje te povlastice u tim okolnostima bilo u skladu s predmetom i svrhom relevantnih odredaba ovog Ugovora."
+ },
+ "notes": "Art. 29(2)(a): WHT on amounts paid or credited on or after 1 January following EIF (28.12.2023) -> 2024-01-01. Art. 11(3): interest taxable only in residence State when paid in connection with credit sales of industrial, commercial or scientific equipment, credit sales of goods between enterprises, or on any loan granted by a bank (not modelled). Protocol para 2: recognised pension funds, investment funds and non-profit organisations may be beneficial owners. MLI does not cover this new treaty; PPT is in the treaty itself (Art. 28).",
+ "confidence": "high",
+ "unverified": []
+}

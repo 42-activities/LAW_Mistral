@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "MD",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Moldova for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2003, as amended by Protocol 2024)",
+ "signed": "2003-11-25",
+ "entry_into_force": "2006-09-17",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/514/vyhlasene_znenie.html",
+ "eif_quote": "Ratifikačné listiny boli vymenené v Bratislave 19. júla 2006. Zmluva nadobudne platnosť 17. septembra 2006 v súlade s článkom 28 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 514/2006 Z. z. (SK-MD treaty); Oznámenie č. 94/2025 Z. z. (Protocol of 10.9.2024)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2006/514/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (Protocol 2024, art. 6)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "„a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť, ktorá priamo vlastní najmenej 25 % majetku spoločnosti (inej ako osobná obchodná spoločnosť) vyplácajúcej dividendy počas obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorá má v držbe akcie alebo ktorá vypláca dividendy);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto úroky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu; ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 27-A (Protocol 2024, art. 12)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2025/94/vyhlasene_znenie.html",
+  "quote": "Článok 27-A Oprávnenie na výhody 1. Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúcich k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, ak sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Treaty Art. 28(2)(a): WHT from 1 January of the year following EIF (17.9.2006) -> 2007-01-01. Protocol signed 10.9.2024, in force 1.5.2025 (notice 94/2025: \"Protokol nadobudne platnosť 1. mája 2025 v súlade s článkom 13\"); Protocol art. 13(a): effective for WHT from 1 January of the year following its EIF -> 2026-01-01. Dividend 5% tier: company holding directly >=25% (pre-2026 wording: company other than partnership, 25%, no holding period; from 2026 a 365-day holding period applies). Protocol adds PPT Art. 27-A from 2026-01-01. Moldova is not an MLI party.",
+ "confidence": "high",
+ "unverified": []
+}

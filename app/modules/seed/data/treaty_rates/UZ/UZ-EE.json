@@ -1,0 +1,67 @@
+{
+ "a": "UZ",
+ "b": "EE",
+ "treaty_name": "Convention between the Government of the Republic of Uzbekistan and the Government of the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2012)",
+ "signed": "2012-09-28",
+ "entry_into_force": "2013-12-23",
+ "eif_source_url": "https://lex.uz/ru/docs/2412636",
+ "eif_quote": "(Вступила в силу 23 декабря 2013 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Эстония Республикаси Ҳукумати ўртасида Конвенция (Нью-Йорк, 28.09.2012), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2412638",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) амалдаги эгаси дивидендларни тўлаётган компания сармоясининг камида 25 фоизи тегишли бўлган компания учун дивидендларнинг умумий суммасининг 5 фоизи;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) қолган барча ҳолатлар учун 10 фоиз."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бу ҳолда солиқ фоизлар умумий қийматининг 5 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо роялтининг амалдаги эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бу тарзда ундирилаётган солиқ роялти умумий қийматининг 10 фоизидан ошмаслиги керак."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2014-01-01",
+  "basis": "treaty art. 27 (Limitation of benefits)",
+  "source_url": "https://lex.uz/ru/docs/2412638",
+  "quote": "Ушбу Конвенциянинг бошқа ҳар қандай қоидасидан қатъи назар, Аҳдлашувчи Давлат резидентига бошқа Аҳдлашувчи Давлат томонидан ушбу Конвенцияда назарда тутилган солиқларга нисбатан ҳар қандай камайтириш ёки озод этиш бўйича имтиёзлар берилмайди, агарда бундай резидент ёки бундай резидент билан боғлиқ ҳар қандай шахснинг тузилиши ёки фаолиятининг асосий мақсади ёки асосий мақсадларидан бири Конвенцияда кўзда тутилган имтиёзларни суиистеъмол қилишдан иборат бўлса."
+ },
+ "notes": "Div 5% tier: beneficial owner is a company holding at least 25% of the capital of the payer. Art. 27 is a main-purpose (entity-level) anti-abuse rule. Art. 29(2)(a): source taxes on income derived on/after 1 January of the year following entry into force.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SI",
+ "b": "HR",
+ "treaty_name": "Agreement between the Republic of Slovenia and the Republic of Croatia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2005)",
+ "signed": "2005-06-10",
+ "entry_into_force": "2005-11-10",
+ "eif_source_url": "https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997 ; https://mvep.gov.hr/print.aspx?id=21905&country=120&url=print ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+ "eif_quote": "Porezna uprava \"Od Ugovora o izbjegavanju dvostrukog oporezivanja koje je sklopila i preuzela Republika Hrvatska u primjeni su\" (Država | Predmet | NN-MU | Datum primjene): Slovenija | Dohodak i imovina | 8/05 | 01.01.2006. || MVEP (naziv | potpisivanje | NN-MU | stupanje na snagu | objava): Ugovor između Republike Hrvatske i Republike Slovenije o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak i na imovinu | 10.06.2005. | 8/2005 | 10.11.2005. | 11/2005",
+ "source_title": "Synthesised text of the MLI and the SI-HR Agreement 2005 (Slovenian Ministry of Finance, English)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2022/ZB-MLI-KIDO-SLO-HRV-angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-12-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-12-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-12-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2022/ZB-MLI-KIDO-SLO-HRV-angl.pdf",
+  "quote": "Notwithstanding any provisions of the Agreement, a benefit under the Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or tran saction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement."
+ },
+ "notes": "Treaty applies to WHT on income derived on or after the first day of the month following entry into force (Art. 28(2)(a)); FURS list: 1.12.2005 (davki na viru). Art. 11(3): interest on loans made/approved/guaranteed/insured by Government, central bank or export-credit institution exempt in source State. MLI WHT effect 1 January 2022 (synthesised text). No MLI art. 8 holding period (single dividend rate).",
+ "confidence": "high",
+ "unverified": []
+}

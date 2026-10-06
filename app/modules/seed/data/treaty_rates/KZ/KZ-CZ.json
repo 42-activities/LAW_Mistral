@@ -1,0 +1,58 @@
+{
+ "a": "KZ",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Kazakhstan and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998, as amended 2014)",
+ "signed": "1998-04-09",
+ "entry_into_force": "1999-10-29",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z980000294_",
+ "eif_quote": "(Вступила в силу 29 октября 1999 года ...) Art. 28(2)(a): а) в отношении налогов, удерживаемых у источника, к суммам, уплаченным или причитающимся к уплате с или после 1 января календарного года, следующего за годом вступления Конвенции в силу;",
+ "source_title": "Law of RK on ratification of KZ-CZ Convention (adilet consolidated Russian text incl. 2014 Protocol) and Law Z1600000453 ratifying the 2014 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z980000294_ ; http://insecure.zan.kz/rus/docs/Z1600000453",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не будет превышать 10 процентов валовой суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они начисляются, и в соответствии с законодательством этого Государства, но если получатель и фактический владелец процентов является резидентом другого Договаривающегося Государства, то взимаемый таким образом налог не будет превышать 10 процентов валовой суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они начисляются, и в соответствии с законодательством этого Государства, но если получатель и фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 процентов валовой суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Single 10% tier per category. 2014 Protocol (signed 2014-11-24, in force 2016-06-28, WHT from 2017-01-01) amended Art. 10(3) (dividend definition) and Art. 11(3)/(4) but not the 10% caps. Interest exempt when paid to the other Government, subdivisions, Central (National) Bank or wholly state-owned export-promotion institution, or on loans guaranteed by them (Art. 11(3) as amended) - not modelled. MLI: CZ added KZ to its list later (Art. 29(5) extension); WHT effect 2025-01-01 is taken from the treaty map, which assumed the same Czech communication date (2024-09-13) as for other added treaties. Czech Republic reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date for CZ-KZ (2025-01-01) assumed in treaty map"
+ ]
+}

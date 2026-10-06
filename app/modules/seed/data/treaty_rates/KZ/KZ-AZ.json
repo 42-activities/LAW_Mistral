@@ -1,0 +1,56 @@
+{
+ "a": "KZ",
+ "b": "AZ",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996, as amended 2017)",
+ "signed": "1996-09-16",
+ "entry_into_force": "1997-05-07",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z970000073_",
+ "eif_quote": "(Вступила в силу 7 мая 1997 года ...) Art. 29(1)(a): а) к налогам, удерживаемым у источника в отношении сумм, уплачиваемых или зачитываемых с или после первого января календарного года, следующего за годом вступления Конвенции в силу; и",
+ "source_title": "Law of RK on ratification of KZ-AZ Convention (adilet, consolidated Russian text incl. 2017 Protocol amendments) and Law Z1800000141 ratifying the 2017 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z970000073_ ; http://insecure.zan.kz/rus/docs/Z1800000141",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем дивидендов, то взимаемый таким образом налог не будет превышать 10 процентов от общей суммы дивидендов."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в том Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем процентов, то взимаемый в таком случае налог не будет превышать 10 процентов от общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, в соответствии с законодательством этого Государства, но если получатель является фактическим владельцем роялти, то налог взимаемый таким образом не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "treaty art. 28-1(2) (added by 2017 Protocol, in force 2018-04-27, applies from 1 Jan 2019); MLI art. 7(1) from 2025-01-01",
+  "source_url": "http://insecure.zan.kz/rus/docs/Z970000073_",
+  "quote": "2. Резидент Договаривающегося Государства не должен быть наделен правом на применение настоящей Конвенции, если его дела были устроены так, как будто главной целью или одной из главных целей являлось получение выгоды от настоящей Конвенции."
+ },
+ "notes": "Single 10% tier per category. Art. 11(3) interest exemptions (as amended by 2017 Protocol: governments, central banks, etc.) not modelled. 2017 Protocol (signed 2017-04-03, in force 2018-04-27; applies to WHT from 2019-01-01) amended Arts 11(3), 11(6), 12(5), 14, 23, 26 and added Art. 28-1 (limitation of benefits / main purpose); it did not change the 10% caps. Arts 11(8) and 12(7) are main-purpose rules. MLI covers the treaty; MLI WHT effect 2025-01-01 (Art. 35(1)(a)). Branch profits tax capped at 2% (Art. 10(6)) not modelled.",
+ "confidence": "high",
+ "unverified": []
+}

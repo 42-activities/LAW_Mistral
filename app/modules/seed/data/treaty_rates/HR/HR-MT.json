@@ -1,0 +1,56 @@
+{
+ "a": "HR",
+ "b": "MT",
+ "treaty_name": "Agreement between the Republic of Croatia and the Republic of Malta for the avoidance of double taxation with respect to taxes on income (1998)",
+ "signed": "1998-10-21",
+ "entry_into_force": "1999-08-22",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2000_04_5_55.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Republike Malte o izbjegavanju dvostrukog oporezivanja porezima na dohodak, potpisan u Rimu, 21. listopada 1998., objavljen u »Narodnim novinama-međunarodni ugovori« br. 7/99., stupio na snagu 22. kolovoza 1999.",
+ "source_title": "Odluka o proglašenju Zakona o potvrđivanju Ugovora između RH i Republike Malte o izbjegavanju dvostrukog oporezivanja (NN-MU 7/1999)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1999_06_7_149.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "HR",
+   "quote": "a) ako su te dividende plaćene od strane društva koje je rezident Hrvatske rezidentu Malte koji je stvarni korisnik istih, tako razrezan hrvatski porez ne smije biti veći od 5% od bruto-iznosa tih dividendi;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate nastale u državi ugovornici, a isplaćene rezidentu druge države ugovornice, oporezuju se samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade nastale u državi ugovornici i isplaćene rezidentu druge države ugovornice oporezuju se samo u toj drugoj državi, ako je taj rezident stvarni korisnik tih autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(2): applies to income derived in tax years beginning on or after 1 January immediately following EIF (22.08.1999) -> 2000-01-01. Dividends paid by a Maltese company to a Croatian resident (Art. 10(2)(b)): Maltese tax on the gross dividend may not exceed the tax chargeable on the profits out of which the dividends are paid - no fixed percentage, not modelled (no Malta-source dividend entry). Protocol ad Art. 10: dividends understood not to be subject to Croatian tax; renegotiation if either system changes.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,69 @@
+{
+ "a": "HR",
+ "b": "EE",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002)",
+ "signed": "2002-04-03",
+ "entry_into_force": "2004-07-12",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2004_09_8_87.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Republike Estonije o izbjegavanju dvostrukog oporezivanja i sprječavanju izbjegavanja plaćanja poreza na dohodak, potpisan u Tallinnu 3. travnja 2002., objavljen u »Narodnim novinama – Međunarodni ugovori«, br. 8/2003., stupio na snagu 12. srpnja 2004.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Republike Estonije o izbjegavanju dvostrukog oporezivanja (NN-MU 8/2003)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2003_04_8_43.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% bruto iznosa dividendi ako je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 10% kapitala društva koje isplaćuje dividendu;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% bruto iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, te kamate se mogu oporezivati i u državi ugovornici u kojoj su nastale i to prema propisima te države, ali ako je stvarni korisnik kamata rezident druge države ugovornice, tada tako utvrđen porez ne smije biti veći od 10% bruto iznosa tih kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, te autorske naknade mogu se također oporezivati i u državi ugovornici u kojoj nastaju i to prema zakonima te države ugovornice, ali ako je stvarni korisnik autorskih naknada rezident druge države ugovornice, tako utvrđen porez ne smije biti veći od 10% bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) not yet effective (Art. 35(7))",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 27(2)(a): WHT on income received on or after 1 January of the year following EIF (2004) -> 2005-01-01. Art. 11(3): interest received by the other State's government, local authorities, central bank or wholly government-owned financial institutions, or on government loans, exempt at source (not modelled). MLI: both Croatia and Estonia list the treaty, but Estonia reserved Art. 35(7) and has not notified completion of internal procedures (35(7)(b)) for Croatia, so the MLI (incl. PPT) has no effect yet.",
+ "confidence": "high",
+ "unverified": [
+  "Estonia Art. 35(7)(b) notification status taken from treaty-map metadata"
+ ]
+}

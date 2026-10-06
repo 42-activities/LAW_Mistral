@@ -1,0 +1,69 @@
+{
+ "a": "UZ",
+ "b": "ES",
+ "treaty_name": "Convention between the Republic of Uzbekistan and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2013)",
+ "signed": "2013-07-08",
+ "entry_into_force": "2015-09-19",
+ "eif_source_url": "https://lex.uz/ru/docs/2729851",
+ "eif_quote": "(Вступила в силу 19 сентября 2015 года)",
+ "source_title": "Ўзбекистон Республикаси ва Испания Қироллиги ўртасида Конвенция ва Протокол (Мадрид, 08.07.2013), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2729849",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-09-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) агар компания (оддий ширкатдан ташқари) дивидендларнинг ҳақиқий эгаси бўлса ва дивидендлар тўлаётган компания капиталининг камида 25 фоизига эгалик қилса, дивидендлар ялпи миқдорининг 5 фоизидан;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2015-09-19",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) бошқа барча ҳолларда дивидендлар ялпи миқдорининг 10 фоизидан."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-09-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо башарти фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, солиқ ушбу ҳолларда фоизлар ялпи миқдорининг 5 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-09-19",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо башарти роялтининг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, шу тарзда олинадиган солиқ роялти ялпи миқдорининг 5 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2015-09-19",
+  "basis": "treaty Protocol para. 1(d) (main-purpose rule for arts. 10-12)",
+  "source_url": "https://lex.uz/ru/docs/2729849",
+  "quote": "d) Башарти дивиденд тўланадиган акциялар ёки бошқа ҳуқуқларни, фоиз тўланадиган қарз мажбуриятларини, роялти тўланадиган ҳуқуқларни юзага келтириш ёки тақсимлаш билан боғлиқ бўлган ҳар қандай шахснинг асосий мақсади ёки асосий мақсадларидан бири 10, 11 ва 12-моддалардан фойда олиш бўлса, мазкур моддаларнинг қоидалари қўлланилмайди."
+ },
+ "notes": "Protocol para. 3 (ad Art. 10): notwithstanding Art. 10(2)(a), as long as under Spanish corporate tax law a Spanish-resident entity is not subject to corporate tax on dividends received from an Uzbek-resident company, the 10(2)(a) rate is reduced to zero ('ушбу кичик бандда назарда тутилган фоиз ставкаси нолга қадар камайтирилади') — conditional 0% not modelled. Art. 11(3): interest taxable only in residence State when paid to/guaranteed by the State, central bank, political subdivisions, local authorities or designated bodies (COFIDES etc.), and further cases. Art. 28(2): EIF three months after last notification; source taxes apply to amounts paid on/after the date of entry into force.",
+ "unverified": [
+  "Protocol para. 3 0% dividend rule: scope/direction (whether it applies to dividends paid by Uzbek companies only or reciprocally) not modelled"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "AT",
+ "treaty_name": "Agreement between the Republic of Croatia and the Republic of Austria for the avoidance of double taxation with respect to taxes on income and on capital (2000)",
+ "signed": "2000-09-21",
+ "entry_into_force": "2001-06-27",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2001_09_10_91.html ; https://narodne-novine.nn.hr/clanci/medunarodni/2017_06_5_36.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Republike Austrije o izbje­gava­­­nju dvostrukog oporeziva­­­nja porezima na dohodak i na imovinu, potpisan u Beču 21. rujna 2000., objav­­­ljen u »Narodnim novinama – Međunarodni ugovori« br. 3/2001., stupio na snagu 28. lip­­­nja 2001. || Ispravak (NN-MU 5/2017): U tekstu Objave umjesto datuma »28. lipnja 2001.« treba stajati datum »27. lipnja 2001.«.",
+ "source_title": "Zakon o potvrđivanju Ugovora između RH i Republike Austrije o izbjegavanju dvostrukog oporezivanja porezima na dohodak i na imovinu (NN-MU 3/2001)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2001_02_3_12.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende mogu se oporezivati i u državi ugovornici čiji je rezident društvo koje plaća dividende, i to prema zakonima te države, ali ako je primatelj dividendi stvarni korisnik, tada tako utvrđen porez ne smije biti veći od 15% od bruto-iznosa dividendi."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ako je stvarni korisnik društvo (izuzimajući partnerstvo) koje izravno posjeduje najmanje 10% kapitala u društvu koje plaća dividende, takve dividende, koje su predmet odredaba članka 23., stavka 1. podstavka c, se oporezuju samo u državi ugovornici u kojoj je stvarni korisnik dividendi rezident."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati u državi ugovornici u kojoj nastaju, i to sukladno sa zakonima te države, ali ako je stvarni korisnik kamata rezident druge države ugovornice, tada tako utvrđen porez ne smije biti veći od 5% od bruto iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade nastale u državi ugovornici i čiji je vlasnik rezident druge države ugovornice oporezuju se samo u toj drugoj državi."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28: applies to income derived in tax years beginning on or after 1 January of the year following EIF (2001) -> 2002-01-01. Dividend exemption: beneficial owner must be a company (not a partnership) directly holding >=10% and dividends must fall under Art. 23(1)(c). Protocol ad Arts. 10 and 11: renegotiation clause if Austria considers them less favourable than Croatia's treaties with other EU Member States (not self-executing). EIF date corrected from 28.06.2001 to 27.06.2001 by NN-MU 5/2017.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "LV",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Latvia and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "signed": "1994-10-25",
+ "entry_into_force": "1995-05-22",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 13 | Czech Republic  | 03.03.94. | 25.10.94. | 22.05.95. | 01.01.96.",
+ "source_title": "Latvia–CZ tax treaty, official Latvian text (likumi.lv id 272)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/272",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība, kas nav līgumsabiedrība un kas tieši pārvalda ne mazāk kā 25 procentus no kapitāla sabiedrībā, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šos procentus var arī aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas; ja procentu saņēmējs ir šo procentu īstenais īpašnieks, nodoklis nedrīkst pārsniegt 10 procentus no šo procentu kopapjoma. Līgumslēdzēju Valstu kompetentās iestādes, savstarpēji vienojoties, var noteikt šo ierobežojumu piemērošanas veidu."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šā panta 1.punktā minēto autoratlīdzību var aplikt ar nodokļiem atbilstoši attiecīgās valsts likumdošanas aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas. Ja autoratlīdzības saņēmējs ir šīs autoratlīdzības īstenais īpašnieks, nodoklis nedrīkst pārsniegt 10 procentus no autoratlīdzības kopapjoma. Līgumslēdzēju Valstu kompetentās iestādes, savstarpēji vienojoties, var noteikt šo ierobežojumu piemērošanas veidu."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply from 1 January of the year following EIF (1995-05-22) -> 1996-01-01. 5% dividend tier: company (other than a partnership) directly holding at least 25% of capital. Art. 11(3): interest to the government, political subdivisions, local authorities, central bank or wholly government-owned financial institutions, or on government-guaranteed loans, exempt - not modelled. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

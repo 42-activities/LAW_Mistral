@@ -1,0 +1,58 @@
+{
+ "a": "LT",
+ "b": "CH",
+ "treaty_name": "Convention between the Government of the Republic of Lithuania and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital (2002)",
+ "signed": "2002-05-27",
+ "entry_into_force": "2002-12-18",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.193570",
+ "eif_quote": "e-seimas metadata: 2002-05-27 Priėmė 2002-10-22 Ratifikuota 2002-12-18 Įsigalioja Įsigalioja 2002-12-18 || 2. Sutartis įsigalioja vėlesniojo iš 1 dalyje nurodytų pranešimų gavimo dieną, ir jos nuostatos pradedamos taikyti abiejose Susitariančiosiose Valstybėse:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Government of the Republic of Lithuania and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital (2002)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.193570",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Valstybės įstatymus, bet jei faktiškasis dividendų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip: a) 5 procentai bendros dividendų sumos, jeigu faktiškasis savininkas yra kompanija (išskyrus bendriją), kuri dividendus mokančioje kompanijoje tiesiogiai turi ne mažiau kaip 20 procentų kapitalo;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jei faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip 10 procentų bendros palūkanų sumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "5% dividend tier: company (not partnership) beneficial owner holding directly >=20% of capital. Interest exempt at source (Art. 11(3)) for public bonds, payments to the State/subdivisions/central bank, officially guaranteed or insured loans and credit-sale interest between unrelated enterprises - not modelled. Protocol point 5 (interest MFN, automatic, from the later application date): Lithuania-Japan Convention Art. 11(3) exempts interest beneficially owned by any non-individual resident, which covers bank loans and related-company credit sales; hence from 2019-01-01 interest on bank loans and on related-enterprise credit sales should be exempt - special tiers not modelled. ROYALTIES: treaty Art. 12 caps are 5% (industrial, commercial or scientific equipment) and 10% (other) from 2003-01-01. Protocol point 6 (which applies from the date the third-State treaty or this Convention applies, whichever is later) is an automatic MFN clause: if Lithuania, in a later treaty with a State that was an OECD member when this treaty was signed, exempts royalties from Lithuanian tax (or narrows the definition / lowers the rates), that treatment applies automatically to this treaty. Trigger: Lithuania-Japan Convention (signed 2017-07-13, in force 2018-08-31, applicable from 2019-01-01; https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/fa4a6dc1ad5411e8aa33fe8f0fea665f) Art. 12(1) taxes royalties only in the residence State and its definition excludes equipment rentals. Modelled as exclusive residence taxation from 2019-01-01, mirroring the Finnish MoF notice SopS 67/2019 which applies the identical Lithuania-Finland MFN from 1 January 2019. Art. 28(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 2002-12-18 -> 2003-01-01). No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)). [curated: dropped ROYALTY tier — MFN 0% (Lithuania–Japan) not confirmed by an official notice]",
+ "confidence": "medium",
+ "unverified": [
+  "Royalty exemption via MFN (triggered by Lithuania-Japan treaty) not confirmed by an official notice of Switzerland (SIF/ESTV); start date 2019-01-01 inferred"
+ ]
+}

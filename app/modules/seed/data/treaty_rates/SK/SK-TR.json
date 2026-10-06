@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "TR",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1997)",
+ "signed": "1997-04-02",
+ "entry_into_force": "1999-12-02",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/90/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť výmenou ratifikačných listín, t. j. 2. decembra 1999, na základe článku 27 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 90/2000 Z. z. (SK-TR treaty)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/90/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého spoločnosť vyplácajúca dividendy je rezidentom, a to podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom dividend, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť [iná ako osobná obchodná spoločnosť (partnership)], ktorá priamo vlastní najmenej 25 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Takéto úroky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom úrokov, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom licenčných poplatkov, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 27(2)(a): WHT provisions apply to amounts paid/credited on/after 1 January following EIF (2.12.1999) -> 2000-01-01. Dividend 5% tier: company (non-partnership) holding directly >=25%. Art. 11(3): interest paid to the other State government or central bank (Central Bank of Turkey / NBS) exempt. MLI not applicable (Türkiye has not ratified the MLI); no PPT clause in the treaty. English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

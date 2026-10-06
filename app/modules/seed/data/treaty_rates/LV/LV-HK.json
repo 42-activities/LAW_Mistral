@@ -1,0 +1,89 @@
+{
+ "a": "LV",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Republic of Latvia and the Government of the Hong Kong Special Administrative Region of the People's Republic of China for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-04-13",
+ "entry_into_force": "2017-11-24",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 21 | Hong Kong | 21.11.13.  | 13.04.16.  | 24.11.17. | 01.01.18.",
+ "source_title": "Latvia–HK tax treaty, official Latvian text (likumi.lv id 1204)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1204",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no dividenžu kopapjoma, ja dividenžu patiesais labuma guvējs ir sabiedrība (kas nav personālsabiedrība);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no procentu kopapjoma, ja procentus izmaksā sabiedrība, kas ir Līgumslēdzējas Puses rezidents sabiedrībai (kas nav personālsabiedrība), kas ir otras Līgumslēdzējas Puses rezidents un ir procentu patiesais labuma guvējs;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no procentu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 procentus no autoratlīdzības kopapjoma par ražošanas, tirdzniecības vai zinātnisko iekārtu, vai par informācijas attiecībā uz ražošanas, tirdzniecības vai zinātnisko pieredzi izmantošanu vai tiesībām to izmantot, ja autoratlīdzību izmaksā sabiedrība, kas ir Līgumslēdzējas Puses rezidents, sabiedrībai (kas nav personālsabiedrība), kas ir otras Līgumslēdzējas Puses rezidents un ir autoratlīdzības patiesais labuma guvējs;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 3 procentus no autoratlīdzības kopapjoma visos pārējos gadījumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2024-01-01]"
+ },
+ "notes": "Art. 27(2): in Latvia, WHT provisions apply to income derived on or after 1 January of the year following EIF (2017-11-24) -> 2018-01-01; in Hong Kong, for years of assessment beginning on or after 1 April 2018. 0% tiers are recipient-type tiers, not holding thresholds: dividends 0% where the beneficial owner is a company (other than a partnership); interest 0% where paid by a company to a company (other than a partnership) beneficial owner; royalties 0% only for payments for the use of industrial, commercial or scientific equipment or know-how, paid by a company to a company (other than a partnership) beneficial owner; 3% in all other cases. Art. 10(3)/11(3): dividends and interest paid to the governments, HKMA, Exchange Fund, Bank of Latvia, government-owned bodies and pension funds/schemes exempt - not modelled. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

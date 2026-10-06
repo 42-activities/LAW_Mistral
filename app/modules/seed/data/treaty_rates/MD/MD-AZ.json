@@ -1,0 +1,58 @@
+{
+ "a": "MD",
+ "b": "AZ",
+ "treaty_name": "Convention between the Republic of Moldova and the Republic of Azerbaijan for the avoidance of double taxation with respect to taxes on income and on property (1997)",
+ "signed": "1997-11-27",
+ "entry_into_force": "1999-01-28",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Azerbaidjan | Convenția | 27.11.1997, Baku | 28.01.1999 | 01.01.2000 (signed | entry into force | date of application)",
+ "source_title": "MD MoF Romanian (state language) text of the MD–AZ Convention (Azerbaifan_rom.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Azerbaifan_rom.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 la sută din suma brută a dividendelor în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste dobînzi pot fi, de asemenea, impuse în Statul Contractant din care provin şi potrivit legislaţiei acestui Stat, dar dacă destinatarul este beneficiarul efectiv al dobînzilor, impozitul astfel perceput nu va depăşi 10 la sută din suma brută a dobînzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste redevenţe pot fi, de asemenea, impuse în Statul Contractant din care provin şi potrivit legislaţiei acestui Stat, dar dacă destinatarul este beneficiarul efectiv al redevenţelor, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2000-01-01",
+  "basis": "treaty arts. 11(8), 12(7) (article-specific main-purpose rules for interest and royalties; none for dividends; not an MLI-style PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Azerbaifan_rom.pdf",
+  "quote": "8. Prevederile acestui articol nu se vor aplica, dacă scopul principal sau unul din scopurile principale ale unei persoane, care are atribuţie la constituirea sau transmiterea titlului de creanţă pentru care sînt plătite dobînzile, a fost obţinerea avantajelor prevăzute în acest articlol printr -o atare constituire sau transmitere a drepturilor."
+ },
+ "notes": "NOT MODELLED dividend tier Art. 10(2)(a): 8% 'în cazul cînd beneficiarul efectiv al dividendelor este o companie şi capitalul străin investit de ea constituie cel puţin 250 mii dolari SUA' (beneficial owner is a company whose invested foreign capital is at least USD 250,000; no percentage holding threshold, so it cannot be expressed as ownership_threshold). Art. 11(7): interest relief denied where recipient is exempt in its residence State and sells the holding within 12 months; Art. 11(9): interest received by the other State's Government, National Bank, local authorities or their bodies exempt at source (not modelled). Arts. 11(8) and 12(7) contain article-specific main-purpose rules (recorded under ppt). Art. 28: WHT effect on income derived on or after 1 January following EIF (1999 -> 2000-01-01). Read in Romanian (Russian text not compared). Moldova not an MLI signatory.",
+ "confidence": "high",
+ "unverified": [
+  "8% dividend tier (USD 250,000 invested capital) kept in notes only"
+ ]
+}

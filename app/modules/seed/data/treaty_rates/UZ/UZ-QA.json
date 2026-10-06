@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2023)",
+ "signed": "2023-06-06",
+ "entry_into_force": "2024-02-12",
+ "eif_source_url": "https://lex.uz/ru/docs/6808059",
+ "eif_quote": "(Вступило в силу для Республики Узбекистан 12 февраля 2024 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Қатар Давлати Ҳукумати ўртасида Битим (06.06.2023), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/6803663",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) бошқа барча ҳолатларда дивидендлар ялпи миқдорининг 8 фоизи."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "лекин агар фоизларнинг манфаатли эгаси Аҳдлашувчи бошқа давлатнинг резиденти бўлса, ундириладиган солиқлар фоизнинг ялпи миқдорининг 8 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "башарти роялтиларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай тарзда олинадиган солиқ роялти ялпи миқдорининг 10 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 29(1) (Limitation of benefits)",
+  "source_url": "https://lex.uz/ru/docs/6803663",
+  "quote": "1. Мазкур Битимнинг бошқа қоидаларидан қатъий назар, агар ушбу имтиёзни олиш бевосита ёки билвосита равишда амалга оширилган ҳар қандай келишув ёки битимнинг асосий мақсадларидан бири бўлган деган хулосага келинса, ушбу Битимга мувофиқ, бу имтиёз даромад турига нисбатан берилмайди, агар бундай вазиятларда бу имтиёзни бериш ушбу Битимнинг тегишли қоидаларига мувофиқ ёки мос келиши аниқланмаса."
+ },
+ "notes": "Art. 10(2)(a): 0% where the beneficial owner is the State, a political/administrative subdivision, local authority or an entity wholly or almost wholly owned directly or indirectly by the State (government tier, not modelled). Art. 11(3): interest beneficially owned by such government entities exempt at source. Art. 30(2): source taxes from 1 January of the year following entry into force.",
+ "confidence": "high",
+ "unverified": []
+}

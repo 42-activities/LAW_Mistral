@@ -1,0 +1,69 @@
+{
+ "a": "UZ",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Republic of Uzbekistan and the Government of the Czech Republic for the avoidance of double taxation with respect to taxes on income and on capital (2000, as amended 2011)",
+ "signed": "2000-03-02",
+ "entry_into_force": "2001-01-15",
+ "eif_source_url": "https://lex.uz/ru/docs/2090277",
+ "eif_quote": "(Вступило в силу 15 января 2001 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Чехия Республикаси Ҳукумати ўртасида Битим (02.03.2000), Uzbek text consolidated with Protocol of 08.12.2011 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2090190",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended by 2011 Protocol)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) дивидендлар умумий миқдорининг 5 фоизидан ошмаслиги керак, агар ҳақиқий эга компания капиталининг камида 25 фоизига эга бўлган дивиденд тўлайдиган компания бўлса;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as amended by 2011 Protocol)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) бошқа барча ҳолатларда дивидендлар умумий миқдорининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай ҳолда солиқ фоизлар ялпи миқдорининг 5 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо бундай ҳолда, шундай тарзда ундириладиган солиқ роялтилар умумий миқдорининг 10 фоизидан ошмаслиги керак."
+  }
+ ],
+ "notes": "Dividend tiers replaced by Protocol of 08.12.2011 (in force 15.06.2012; Protocol art. 9: applies for tax periods beginning on/after 1 January of the year following its entry into force -> 2013-01-01); pre-2013 dividend wording not captured. Art. 11(3): interest exempt at source when paid to/guaranteed by the other State's government, local authorities, central bank or government-owned/controlled financial institutions, or on credit sales of equipment/goods. Original treaty effective 1 January of the year following EIF (2002-01-01).",
+ "unverified": [
+  "pre-2013 dividend wording not recorded"
+ ],
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ }
+}

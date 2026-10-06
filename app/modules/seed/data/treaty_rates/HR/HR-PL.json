@@ -1,0 +1,67 @@
+{
+ "a": "HR",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Republic of Poland for the avoidance of double taxation with respect to taxes on income and on capital (1994)",
+ "signed": "1994-10-19",
+ "entry_into_force": "1996-02-11",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1997_06_8_56.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor o izbjegavanju dvostrukog oporezivanja porezima na dohodak i na imovinu između Vlade Republike Hrvatske i V1ade Republike Poljske, potpisan u Varšavi 19. listopada 1994, objavljen u »Narodnim novinama - međunarodni ugovori« broj 13/95, stupio na snagu dana 11. veljače 1996.",
+ "source_title": "Odluka o proglašenju Zakona o potvrđivanju Ugovora između Vlade RH i Vlade Republike Poljske o izbjegavanju dvostrukog oporezivanja (NN-MU 13/1995)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1995_12_13_65.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "... ali ako je primatelj dividendi stvarni korisnik, tada tako razrezan porez ne smije biti veći od: a) 5% od bruto-iznosa dividendi kad je stvarni korisnik društvo (izuzimajući partnerstvo) koje izravno posjeduje najmanje 25% kapitala u društvu koje plaća dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% od bruto-iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je primalac kamata stvarni korisnik, tako razrezan porez ne smije biti veći od 10% od bruto-iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve autorske naknade mogu se također oporezivati u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je primatelj autorske naknade stvarni korisnik, s time da porez ne smije biti veći od 10% od bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28: applies to income derived in tax years beginning on or after 1 January of the year following EIF (1996) -> 1997-01-01. Art. 11(3): interest derived by the other State's government, local authority, central bank or wholly government-owned financial institutions (or on debt indirectly financed by them) exempt at source (not modelled). NN text is an OCR'd 1995 publication (minor typos).",
+ "confidence": "high",
+ "unverified": []
+}

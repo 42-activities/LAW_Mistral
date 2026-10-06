@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "AM",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Armenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2015)",
+ "signed": "2015-05-15",
+ "entry_into_force": "2017-02-01",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2017/6/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudne platnosť 1. februára 2017 v súlade s čl. 30.",
+ "source_title": "Oznámenie MZVaEZ SR č. 6/2017 Z. z. (Slovak text of SK-AM treaty and protocol)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2017/6/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého rezidentom je spoločnosť vyplácajúca dividendy, a to podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť (iná ako osobná obchodná spoločnosť), ktorá priamo vlastní najmenej 10 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto dividendy sa však môžu zdaniť aj v zmluvnom štáte, ktorého rezidentom je spoločnosť vyplácajúca dividendy, a to podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť (iná ako osobná obchodná spoločnosť), ktorá priamo vlastní najmenej 10 % majetku spoločnosti vyplácajúcej dividendy, b) 10 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto úroky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto zmluvného štátu, ak je však príjemca skutočným vlastníkom licenčných poplatkov, daň takto stanovená nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not in effect for this pair)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 30: provisions effective for WHT on income paid or credited from 1 January of the calendar year following EIF (2017) -> 2018-01-01. Art. 11(3): interest received by the other State government, political subdivisions, local authorities, central bank or government-owned financial institution (protocol item 5 lists SK institutions) or on government-guaranteed loans exempt at source. MLI does not cover this treaty (Slovakia did not list it); no PPT/LOB clause found in treaty text. Slovak text is a translation; English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

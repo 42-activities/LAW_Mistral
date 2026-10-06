@@ -1,0 +1,56 @@
+{
+ "a": "AZ",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Republic of Hungary and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-02-18",
+ "entry_into_force": "2008-12-15",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=A0800089.TV",
+ "eif_quote": "Hatályba lépett 2008. XII. 15-én az 53/2008. (XII. 23.) KüM határozat alapján. | Art. 29(2): \"in respect of taxes withheld at source, on income derived on or after 1 January in the calendar year next following the year in which the Convention enters into force\"",
+ "source_title": "2008. évi LXXXIX. törvény (Hungarian promulgating Act, authentic English text of the HU–AZ Convention) — Hatályos Jogszabályok Gyűjteménye (net.jogtar.hu; njt.hu unreachable)",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=A0800089.TV",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 8 (eight) per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 8 (eight) per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 (eight) per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[HU MLI] Pursuant to Article 7(17)(b) of the Convention, Hungary hereby chooses to apply Article 7(4). (no Art. 7 reservation; Azerbaijan listed as covered agreement 'Azerbaijan Original 18-02-2008 15-12-2008'); [AZ MLI] no Art. 7 reservation; Hungary listed as covered agreement."
+ },
+ "notes": "Single 8% tier for dividends, interest and royalties. Interest exempt at source (Art. 11(3)) where payer/recipient is a Government, public body, local authority or Central Bank, or for government-approved/guaranteed/insured loans — not modelled. MLI Art. 8 365-day holding does not apply (Azerbaijan reserved the entirety of Art. 8). MLI effective for WHT from 2025-01-01 (later MLI entry into force, AZ). Text read from net.jogtar.hu (Wolters Kluwer free official-law collection, reproduces Act LXXXIX of 2008); njt.hu did not respond.",
+ "confidence": "high",
+ "unverified": []
+}

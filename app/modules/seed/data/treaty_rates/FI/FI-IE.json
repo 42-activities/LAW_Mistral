@@ -1,0 +1,56 @@
+{
+ "a": "FI",
+ "b": "IE",
+ "treaty_name": "Agreement between the Government of the Republic of Finland and the Government of Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1992, as modified by the MLI)",
+ "signed": "1992-03-27",
+ "entry_into_force": "1993-12-26",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1993/88",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 26 päivänä marraskuuta 1993, tulee voimaan 26 päivänä joulukuuta 1993 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–IE Agreement (SopS 87-88/1993)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1993/88",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)(a)(iii) and 11(2)(a)(iii)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(iii) Except as provided in sub-paragraph a)(ii) of this paragraph, dividends derived from a company which is a resident of Finland and which are beneficially owned by a resident of Ireland shall be exempt from any tax which is chargeable in Finland on dividends. | (iii) Except as provided in sub-paragraph a)(ii) of this paragraph, dividends derived from a company which is a resident of Ireland and which are beneficially owned by a resident of Finland shall be exempt from any tax which is chargeable in Ireland on dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and derived by a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and derived by a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1993/88",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2020-01-01"
+ },
+ "notes": "Dividends: source exemption, except that where the recipient is entitled to a tax credit under Art. 11(1)(b)/(2)(b) (imputation credit refund for portfolio holders <10% voting power), source tax up to 15% may be charged on dividend plus credit (Art. 11(1)(a)(ii)/(2)(a)(ii)). Both Finland (2005) and Ireland (1999) have abolished imputation credits, so the 15% tier is obsolete and not modelled. Retroactive effect: Finnish WHT on income derived on or after 1 January 1990 and on dividends for accounting periods ending on/after 1 January 1990 (Art. 29(2)). MLI arts 6, 7, 16 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

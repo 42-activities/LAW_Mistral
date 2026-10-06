@@ -1,0 +1,58 @@
+{
+ "a": "UZ",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Republic of Uzbekistan and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2008)",
+ "signed": "2008-11-18",
+ "entry_into_force": "2010-11-01",
+ "eif_source_url": "https://lex.uz/ru/docs/2075163",
+ "eif_quote": "lex.uz: Дата вступления в силу 01.11.2010; SA MLI: 'Uzbekistan Original 18-11-2008 01-11-2010'",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати билан Саудия Арабистони Подшоҳлиги Ҳукумати ўртасида Конвенция ва Баённома (Ар-Риёд, 18.11.2008), Uzbek text — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2075161",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агар дивидендларнинг амалдаги эгаси бошқа Давлатнинг резиденти бўлса, унда шу тарзда олинган солиқнинг миқдори дивидендлар умумий миқдорининг 7 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агар даромаднинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлат резиденти бўлса, унда солиқ қарз талабларидан даромад ялпи миқдорининг 7 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "бироқ агарда роялтининг ҳақиқий эгаси бошқа Давлат резиденти бўлса, ушбу ҳолатда ундириладиган солиқ роялти ялпи миқдорининг 10 фоизидан ошмаслиги лозим."
+  }
+ ],
+ "notes": "Art. 11 covers 'income from debt claims'. Art. 27: dividends, interest and royalties (and gains on related shares/claims/rights) derived by the Government of a Contracting State (for Uzbekistan the Central Bank and wholly state-owned organisations; for Saudi Arabia SAMA) exempt in the other State. Art. 29: EIF on the first day of the second month after the last notification; Uzbek text of Art. 29(2)(a) ('биринчи январдан ёки ушбу Конвенция кучга кирган санадан кейинги кундан бошлаб тўланадиган суммаларга') is garbled — valid_from taken as 1 January following EIF. Protocol concerns international transport only.",
+ "unverified": [
+  "valid_from 2011-01-01: Art. 29(2)(a) wording ambiguous in Uzbek text (could be the day after EIF, 2010-11-02)"
+ ],
+ "confidence": "medium",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ }
+}

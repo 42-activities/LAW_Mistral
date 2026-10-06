@@ -1,0 +1,56 @@
+{
+ "a": "MD",
+ "b": "EE",
+ "treaty_name": "Agreement between the Republic of Moldova and the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-02-23",
+ "entry_into_force": "1998-07-21",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Estonia | Convenția | 23.02.1998, Tallin | 21.07.1998 | 01.01.1999 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–EE Agreement (Estonia_eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Estonia_eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Estonia_eng.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest derived and beneficially owned by the Government of the other State (incl. political subdivisions, local authorities), the Central (National) Bank or any financial institution wholly owned by that Government, or interest on loans guaranteed by that Government, is exempt in the source State (not modelled). Article 28(2)(a): effective for taxes withheld at source on income derived on or after 1 January of the year following entry into force (EIF 1998 -> 1999-01-01). Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": []
+}

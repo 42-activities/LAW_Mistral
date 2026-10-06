@@ -1,0 +1,56 @@
+{
+ "a": "UZ",
+ "b": "LT",
+ "treaty_name": "Convention between the Government of the Republic of Lithuania and the Government of the Republic of Uzbekistan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-02-18",
+ "entry_into_force": "2002-11-11",
+ "eif_source_url": "https://lex.uz/ru/docs/2780134",
+ "eif_quote": "(Вступила в силу для Республики Узбекистан 11 ноября 2002 года); VMI list: 'Uzbekistanas 2002 Nr. 109-4808 ... 2003-01-01'",
+ "source_title": "Convention Lithuania–Uzbekistan (Tashkent, 18.02.2002), English text published by VMI (Lithuanian State Tax Inspectorate); cross-checked with Uzbek text lex.uz 2780131",
+ "source_url": "https://www.vmi.lt/evmi/documents/20142/1553616/UZBEKISTAN.pdf (via web.archive.org 20260228085726) ; https://lex.uz/ru/docs/2780131",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2003-01-01",
+  "basis": "treaty art. 28 (Limitation of benefits)",
+  "source_url": "https://www.vmi.lt/evmi/documents/20142/1553616/UZBEKISTAN.pdf (via web.archive.org 20260228085726)",
+  "quote": "Notwithstanding any other provision of this Convention, a resident of a Contracting State shall not receive the benefit of any reduction in or exemption from taxes provided for in this Convention by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such resident or any person connected with such resident was to obtain the benefits under this Convention that would not otherwise be available."
+ },
+ "notes": "Art. 11(3): interest derived and beneficially owned by the other State's Government, local authorities, Central Bank or wholly government-owned financial institutions, or on government-guaranteed loans, exempt at source. Art. 30(2)(a): source taxes on income derived on/after 1 January of the year following entry into force. The lex.uz Uzbek text of Art. 11 is defective (paragraph 2 truncated and merged with para 6), so the English VMI text was used for rates.",
+ "confidence": "high",
+ "unverified": []
+}

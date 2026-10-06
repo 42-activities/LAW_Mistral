@@ -1,0 +1,58 @@
+{
+ "a": "HR",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Croatia and the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (1997)",
+ "signed": "1997-09-22",
+ "entry_into_force": "2000-05-18",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2000_06_8_80.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Republike Hrvatske i Republike Turske o izbje­gava­nju dvostrukog oporeziva­nja porezom na dohodak, potpisan u Zagrebu, 22. rujna 1997., objav­ljen u »Narodnim novinama – međunarodni ugovori«, br. 5/99, stupio na snagu 18. svib­nja 2000.",
+ "source_title": "Odluka o proglašenju Zakona o potvrđivanju Ugovora između RH i Republike Turske o izbjegavanju dvostrukog oporezivanja (NN-MU 5/1999)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/1999_05_5_118.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende mogu se oporezivati i u državi ugovornici čiji je rezident društvo koje plaća dividende, i to prema zakonima te države, ali ako je stvarni korisnik dividendi rezident druge države ugovornice, tada tako razrezan porez ne smije biti veći od 10% od bruto-iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je primalac kamata stvarni korisnik, tako razrezan porez ne smije biti veći od 10% od bruto-iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve autorske naknade mogu se također oporezivati u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik autorske naknade rezident druge države ugovornice, takav porez ne smije biti veći od 10% bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not in force for Türkiye",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 27(2)(a): WHT on amounts paid or credited on or after 1 January of the year following EIF (2000) -> 2001-01-01. Art. 10(4): branch profits may be further taxed in the PE State in accordance with para 2 (10%). Protocol 1: tax-sparing (deemed 10% paid) for credit purposes. MLI not applicable: Türkiye signed but has not ratified (per treaty-map).",
+ "confidence": "high",
+ "unverified": [
+  "Türkiye MLI status taken from treaty-map metadata"
+ ]
+}

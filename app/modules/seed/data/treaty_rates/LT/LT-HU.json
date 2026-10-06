@@ -1,0 +1,58 @@
+{
+ "a": "LT",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Lithuania and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2004)",
+ "signed": "2004-05-12",
+ "entry_into_force": "2004-12-22",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.243056",
+ "eif_quote": "e-seimas metadata: 2004-05-12 Priėmė 2004-09-21 Ratifikuota 2004-12-22 Įsigalioja Įsigalioja 2004-12-22 || 2. Sutartis įsigalioja vėlesniojo pranešimo, nurodyto 1 dalyje, gavimo dieną ir jos nuostatos taikomos abejose Susitariančiosiose Valstybėse:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Republic of Lithuania and the Republic of Hungary for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2004)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.243056",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Valstybėje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Valstybės įstatymus, bet jei faktiškasis dividendų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip: a) 5 procentai bendros dividendų sumos, jeigu faktiškasis savininkas yra kompanija, kuri tiesiogiai turi ne mažiau kaip 25 procentus dividendų mokančios kompanijos kapitalo;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Valstybėje, kurioje jos susidaro, ir pagal tos Valstybės įstatymus, bet jei faktiškasis palūkanų savininkas yra kitos Susitariančiosios Valstybės rezidentas, taip imamas mokestis negali būti didesnis kaip 10 procentų bendros palūkanų sumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "5% dividend tier: company beneficial owner holding directly >=25% of capital. Interest exempt at source (Art. 11(3)) for the States/governments/local authorities, central banks, Hungarian Eximbank/MEHIB and similar bodies, loans guaranteed by them, and credit-sale interest between unrelated enterprises - not modelled. ROYALTIES: treaty Art. 12 caps are 5% (industrial, commercial or scientific equipment, or broadcasting by satellite/cable/optic fibre) and 10% (other) from 2005-01-01. Protocol point 3 (applies from the later of the dates on which the provisions of the third-State treaty or of this Convention take effect) is an automatic MFN clause: if Lithuania, in a later treaty with a State that was an OECD member when this treaty was signed, exempts royalties from Lithuanian tax (or narrows the definition / lowers the rates), that treatment applies automatically to this treaty. Trigger: Lithuania-Japan Convention (signed 2017-07-13, in force 2018-08-31, applicable from 2019-01-01; https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/fa4a6dc1ad5411e8aa33fe8f0fea665f) Art. 12(1) taxes royalties only in the residence State and its definition excludes equipment rentals. Modelled as exclusive residence taxation from 2019-01-01, mirroring the Finnish MoF notice SopS 67/2019 which applies the identical Lithuania-Finland MFN from 1 January 2019. Art. 28(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 2004-12-22 -> 2005-01-01). No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)). [curated: dropped ROYALTY tier — MFN 0% (Lithuania–Japan) not confirmed by an official notice]",
+ "confidence": "medium",
+ "unverified": [
+  "Royalty exemption via MFN (triggered by Lithuania-Japan treaty) not confirmed by an official notice of Hungary; start date 2019-01-01 inferred"
+ ]
+}

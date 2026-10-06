@@ -1,0 +1,58 @@
+{
+ "a": "AZ",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital (2014)",
+ "signed": "2014-05-13",
+ "entry_into_force": "2015-05-01",
+ "eif_source_url": "https://zatca.gov.sa/en/_LAYOUTS/15/GAZTInternet/PortalHandler.ashx?op=LoadItems&listUrl=/en/RulesRegulations/Agreements/Pages&viewName=Home",
+ "eif_quote": "Agreement between the government of the kingdom of Saudi Arabia and the government of Azerbaijan for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 13/5/2014 and entered into force on 1/5/2015.",
+ "source_title": "ZATCA: Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Republic of Azerbaijan (English text, with Protocol)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/Azerbaijan.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2016-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 7 per cent of the gross amount of dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 7 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-saudi-arabia-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[SA] Article 7 - Prevention of Treaty Abuse / No Reservation / ... 3 Azerbaijan Article 28 || [AZ] 42 Saudi Arabia Article 28"
+ },
+ "notes": "IMPORTANT unmodelled dividend tier: Art. 10(2)(b) caps dividends at 5% 'if the beneficial owner of dividends have invested to the capital of the company paying the dividends at least 300.000 USD or its equivalent in any other currency' (investment-amount test, no % holding) - not representable with ownership_threshold, so only the 7% general tier is modelled. Art. 10(2)(a): 5% where beneficial owner is the other State's Government, Central Bank or a wholly government-owned entity. Art. 11 covers 'income from debt-claims': exempt at source when paid to the other State's Government, Central Bank, wholly government-owned entity, or under a government-approved loan agreement (Art. 11(3)). Art. 29: EIF on the first day of the second month after the later notification (2015-05-01); WHT effect for amounts paid on or after 1 January next following EIF => 2016-01-01. MLI: both Parties listed the treaty; both notified Art. 28 (main-purpose domestic anti-avoidance clause) as an existing Art. 7(2) provision, so the MLI PPT replaces it; no 35(7) reservation by either; MLI WHT effect 2025-01-01 (AZ MLI in force 2025-01-01). Both AZ and SA reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "How the AZ/SA tax authorities treat the USD 300,000 5% dividend tier in practice"
+ ]
+}

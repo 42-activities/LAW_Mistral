@@ -1,0 +1,67 @@
+{
+ "a": "KZ",
+ "b": "LU",
+ "treaty_name": "Convention between the Government of the Republic of Kazakhstan and the Government of the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008, as amended 2012 and 2019)",
+ "signed": "2008-06-26",
+ "entry_into_force": "2013-12-11",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z1300000138",
+ "eif_quote": "(Вступила в силу 11 декабря 2013 года - Бюллетень международных договоров РК 2014 г., № 1, ст. 3) Art. 29(2)(a): а) в отношении налогов, удерживаемых у источника, с дохода, полученного с 1 января или после 1 января календарного года, следующего за годом вступления настоящей Конвенции в силу;",
+ "source_title": "Law of RK of 2013 on ratification of KZ-LU Convention (as amended by 2012 Protocol; adilet consolidated Russian text incl. 2019 Protocol) and Law Z2000000367 ratifying the 2019 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z1300000138 ; http://insecure.zan.kz/rus/docs/Z2000000367",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать: а) 5 процентов общей суммы дивидендов, если фактическим владельцем является компания (иная, чем товарищество), которая владеет прямо, по крайней мере, 15 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие дивиденды могут также облагаться налогом в Договаривающемся государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося государства, то взимаемый таким образом налог не должен превышать: b) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие проценты могут также облагаться налогом в том Договаривающемся государстве, в котором они возникают и, в соответствии с законодательством этого государства, но если получатель, будучи фактическим владельцем процентов, является резидентом другого Договаривающегося государства, то взимаемый налог не должен превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако такие роялти также могут облагаться налогом в Договаривающемся государстве, в котором они возникают, и в соответствии с законодательством этого Договаривающегося государства, но если получатель, будучи фактическим владельцем роялти, является резидентом другого Договаривающегося государства, то налог, взимаемый таким образом, не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividend 5% tier: company (other than partnership) holding directly >=15% of capital. Art. 10(2-1) (added by 2019 Protocol, in force 2020-11-06, applies from 2021-01-01): dividends beneficially owned by governments, central banks, SNCI and wholly state-owned bodies taxable only in residence State - not modelled. Interest exemptions for government/central-bank and export-credit-agency (Office du Ducroire / KazakhExport) loans (Art. 11(3)-(4)) - not modelled. Art. 11(9)/12(7) main-purpose rules. Convention does not apply to Luxembourg 1929-law holding companies (Art. 28). MLI WHT effect 2021-01-01; Luxembourg reserved the entirety of MLI Art. 8 (no 365-day period).",
+ "confidence": "high",
+ "unverified": []
+}

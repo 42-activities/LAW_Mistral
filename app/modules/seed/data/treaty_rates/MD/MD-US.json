@@ -1,0 +1,36 @@
+{
+ "a": "MD",
+ "b": "US",
+ "treaty_name": "Convention between the United States of America and the Union of Soviet Socialist Republics on matters of taxation (1973), applied by the US to Moldova",
+ "signed": "1973-06-20",
+ "entry_into_force": "1976-01-29",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[IRS ussr.pdf] Signed at Washington June 20, 1973; ... Ratifications Exchanged at Moscow December 30, 1975; ... Entered into Force January 29, 1976; Effective January 1, 1976.",
+ "source_title": "IRS text of the US–USSR Convention on matters of taxation (ussr.pdf)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+ "rates": [
+  {
+   "category": "ROYALTY",
+   "article": "Article III(1)(a)",
+   "valid_from": "1976-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "The following categories of income derived from sources within one Contracting State by a resident of the other Contracting State shall be subject to tax only in that other Contracting State: (a) rentals, royalties, or other amounts paid as consideration for the use of or right to use literary, artistic, and scientific works, or for the use of copyrights of such works, as well as the rights to inventions (patents, author's certificates), industrial designs, processes or formulae, computer programs, trademarks, service marks, and other similar property or rights, or for industrial, commercial, or scientific equipment, or for knowledge, experience, or skill (know- how);"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/ussr.pdf",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: the Convention contains no dividend article and no source-State limit (source State may tax under domestic law). INTEREST omitted as a general category: no general limit; only Art. III(1)(g) exempts at source 'interest on credits, loans and other forms of indebtedness connected with the financing of trade between the USA and the USSR except where received by a resident of the other Contracting State from the conduct of a general banking business in the first Contracting State' (not modelled as a general tier). Art. XIV allows separate termination of Art. III(1)(e)-(g); no such termination identified. Applicability to Moldova: IRS states Moldova is covered by the US–USSR treaty (merged dataset quote); the MD MoF list (20.06.2022) has no US entry - status from Moldova's side unconfirmed. IRS Table 3 shows general effective date 1 Jan 1987 for the CIS row vs. treaty effective 1 Jan 1976 (merged dataset). Neither the US nor Moldova applies the MLI; no PPT/LOB in the 1973 Convention.",
+ "confidence": "medium",
+ "unverified": [
+  "Moldova's own recognition of the US–USSR treaty (absent from MD MoF list)"
+ ]
+}

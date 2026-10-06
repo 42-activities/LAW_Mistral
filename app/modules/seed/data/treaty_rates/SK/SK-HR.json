@@ -1,0 +1,69 @@
+{
+ "a": "SK",
+ "b": "HR",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Croatia for the avoidance of double taxation with respect to taxes on income and on capital (1996), as modified by the MLI",
+ "signed": "1996-02-12",
+ "entry_into_force": "1996-11-14",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1997/220/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť 14. novembra 1996 na základe článku 28 .",
+ "source_title": "Oznámenie MZV SR č. 220/1997 Z. z. (SK-HR treaty); MLI notice 449/2021 Z. z. with annex",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1997/220/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto dividendy však môžu byť zdanené aj v zmluvnom štáte, v ktorom je spoločnosť, ktorá ich vypláca, rezidentom, a to podľa právnych predpisov tohto štátu; ak je však príjemca skutočným vlastníkom dividend, daň takto stanovená nepresiahne a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť [iná ako osobná obchodná spoločnosť (partnership)], ktorá vlastní priamo najmenej 25 % majetku spoločnosti vyplácajúcej dividendy,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Takéto úroky však môžu byť zdanené aj v zmluvnom štáte, v ktorom majú zdroj, podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom úrokov, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Takéto licenčné poplatky však môžu byť zdanené aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto zmluvného štátu; ak je však príjemca skutočným vlastníkom licenčných poplatkov, daň takto stanovená nepresiahne 10 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2021/449/vyhlasene_znenie.html ; https://static.slov-lex.sk/pdf/prilohy/SK/ZZ/2021/449/vyhlasene_znenie_5359641-2.pdf",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu alebo majetku, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej sit uácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 28: applies to income derived in tax periods beginning on/after 1 January of the year following EIF (14.11.1996) -> 1997-01-01. Dividend 5% tier: company (non-partnership) holding directly >=25% (no holding period; MLI art. 8 not applied per annex to notice 449/2021). The notice states signature on 12 Feb 1996 while the treaty closing clause reads \"Dané v Záhrebe 16. februára 1996\". MLI applies: PPT for WHT from 2022-01-01. English text prevails.",
+ "confidence": "high",
+ "unverified": [
+  "Signature date: notice says 12.2.1996, treaty closing clause says 16.2.1996"
+ ]
+}

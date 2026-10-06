@@ -1,0 +1,67 @@
+{
+ "a": "SK",
+ "b": "AZ",
+ "treaty_name": "Convention between the Slovak Republic and the Republic of Azerbaijan for the elimination of double taxation and the prevention of tax evasion with respect to taxes on income (2023)",
+ "signed": "2023-06-07",
+ "entry_into_force": "2024-04-01",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/24/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudne platnosť 1. apríla 2024 v súlade s článkom 29.",
+ "source_title": "Oznámenie MZVaEZ SR č. 24/2024 Z. z. (Slovak text of SK-AZ treaty)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/24/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "2. Dividendy vyplácané spoločnosťou, ktorá je rezidentom jedného zmluvného štátu, sa však môžu zdaniť aj v tomto zmluvnom štáte podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne: a) 8 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť, ktorá priamo vlastní najmenej 25 % majetku spoločnosti vyplácajúcej dividendy počas obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorý má v držbe akcie alebo ktorý vypláca dividendy);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto úroky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj a podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 8 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj a podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne: a) 5% hrubej sumy licenčných poplatkov v prípade platieb uvedených v odseku 3 písm. a),"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/24/vyhlasene_znenie.html",
+  "quote": "Článok 27 Obmedzenie výhod zo zmluvy Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúcich k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 29: effective for WHT on income paid or credited from 1 January of the year following EIF (1.4.2024) -> 2025-01-01. Royalties: 5% for Art. 12(3)(a) (patents, trademarks, designs, plans, secret formulas, software, equipment, know-how); 10% for Art. 12(3)(b) copyright royalties (literary/artistic/scientific works, films, recordings) — copyright tier not modelled separately. Art. 11(3): interest beneficially owned by listed government institutions (AZ: government, Central Bank, State Oil Fund, SOCAR; SK: government, NBS, Eximbanka, SZRB, ARDAL...) taxable only in residence State. MLI does not cover this treaty; treaty contains its own PPT (Art. 27). English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

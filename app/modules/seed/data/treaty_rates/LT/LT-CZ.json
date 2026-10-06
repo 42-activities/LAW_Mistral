@@ -1,0 +1,67 @@
+{
+ "a": "LT",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Lithuania and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "signed": "1994-10-27",
+ "entry_into_force": "1995-08-08",
+ "eif_source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.22668",
+ "eif_quote": "e-seimas metadata: 1994-10-27 Priėmė 1995-01-26 Ratifikuota 1995-08-08 Įsigalioja Įsigalioja 1995-08-08 || 2. Ši Sutartis įsigalioja po paskutinio 1 paragrafe minimo pranešimo dienos, ir joje numatytos nuostatos taikomos:",
+ "source_title": "e-seimas.lrs.lt official Lithuanian text of the Convention between the Republic of Lithuania and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.22668",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie dividendai taip pat gali būti apmokestinami toje Susitariančiojoje Šalyje, kurios rezidentė yra dividendus mokanti kompanija, ir pagal tos Šalies įstatymus, bet jeigu gavėjas yra tikrasis dividendų savininkas, toks mokestis negali viršyti: a) 5 procentų bendros dividendų sumos, jeigu tikrasis savininkas yra kompanija (bet ne bendrija), kuriai tiesiogiai priklauso ne mažiau kaip 25 procentai dividendus mokančios kompanijos kapitalo,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procentų bendros dividendų sumos visais kitais atvejais."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokios palūkanos taip pat gali būti apmokestinamos toje Susitariančiojoje Šalyje, kurioje jos susidaro, ir pagal tos Šalies įstatymus, bet jeigu gavėjas yra tikrasis palūkanų savininkas, toks mokestis negali viršyti 10 procentų bendros palūkanų sumos. Susitariančiųjų Šalių kompetentingi asmenys abipusiu susitarimu gali nustatyti šio apribojimo taikymo būdą."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tačiau tokie atlyginimai už nuosavybės teisių perleidimą taip pat gali būti apmokestinami toje Susitariančiojoje Šalyje, kurioje jie susidaro, ir pagal tos Šalies įstatymus, bet jeigu gavėjas yra tikrasis atlyginimų už nuosavybės teisių perleidimą savininkas, toks mokestis negali viršyti 10 procentų bendros atlyginimų už nuosavybės teisių perleidimą sumos. Susitariančiųjų Šalių kompetentingi asmenys abipusiu susitarimu gali nustatyti šio apribojimo taikymo būdą."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/e66831b0ccc211e8a82fc67610e51066",
+  "quote": "1. Neatsižvelgiant į bet kurias Sutarties, kuriai taikoma Konvencija, nuostatas, Sutarties, kuriai taikoma Konvencija, lengvata nesuteikiama pajamoms ar kapitalui, jei, atsižvelgiant į visus reikšmingus faktus ir aplinkybes, būtų pagrįsta daryti išvadą, kad gauti tokią lengvatą buvo pagrindinis bet kurio susitarimo ar sandorio, kuris tiesiogiai ar netiesiogiai lėmė tos lengvatos atsiradimą, tikslas, nebent nustatoma, kad tos lengvatos suteikimas tokiomis aplinkybėmis atitinka Sutarties, kuriai taikoma Konvencija, atitinkamos nuostatos tikslus. "
+ },
+ "notes": "5% dividend tier: company (not partnership) beneficial owner holding directly >=25% of capital. Interest exempt at source (Art. 11(3)) for the Government, its subdivisions/local authorities, central bank or wholly government-owned financial institutions and government-guaranteed loans - not modelled. Art. 28(2)(a): WHT provisions apply to income derived on or after 1 January of the year following EIF (EIF 1995-08-08 -> 1996-01-01). No MFN clause in the text. No 365-day holding period: Lithuania reserved MLI Art. 8 entirely (Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

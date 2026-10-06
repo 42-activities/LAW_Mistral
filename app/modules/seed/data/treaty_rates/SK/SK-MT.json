@@ -1,0 +1,56 @@
+{
+ "a": "SK",
+ "b": "MT",
+ "treaty_name": "Convention between the Slovak Republic and Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999), as modified by the MLI",
+ "signed": "1999-09-07",
+ "entry_into_force": "2000-08-20",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/318/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudla platnosť tridsať dní po dátume výmeny ratifikačných listín, t. j. 20. augusta 2000 na základe článku 27 ods. 2 .",
+ "source_title": "Oznámenie MZV SR č. 318/2000 Z. z. (SK-MT treaty); MLI notice 258/2019 Z. z.",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2000/318/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SK",
+   "quote": "a) ak sú dividendy vyplácané spoločnosťou, ktorá je rezidentom Slovenska, rezidentovi Malty, ktorý je ich skutočným vlastníkom, slovenská daň takto stanovená nepresiahne 5 % hrubej sumy dividend;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Úroky majúce zdroj v jednom zmluvnom štáte, ktoré poberá rezident druhého zmluvného štátu, podliehajú zdaneniu iba v tomto druhom štáte."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Takéto licenčné poplatky však možno zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov tohto štátu, ak je však príjemca skutočným vlastníkom licenčných poplatkov, daň takto stanovená nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2019/258/vyhlasene_znenie.html",
+  "quote": "Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúceho k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 27(2): applies to income derived in calendar years/accounting periods beginning on/after 1 January immediately following EIF (20.8.2000) -> 2001-01-01. Dividends asymmetric: Slovak-source dividends to a Maltese beneficial owner capped at 5% (any holding); Maltese-source dividends to a Slovak resident: Maltese tax on the gross dividend may not exceed the tax chargeable on the profits out of which the dividends are paid (Art. 10(2)(b)) — no percentage cap, not modelled. Interest taxable only in residence State. Royalties 5% (incl. copyright). MLI applies (notice 258/2019 Z. z.): PPT for WHT from 2020-01-01; MLI art. 8 not applied.",
+ "confidence": "high",
+ "unverified": []
+}

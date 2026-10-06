@@ -1,0 +1,68 @@
+{
+ "a": "RS",
+ "b": "BG",
+ "treaty_name": "Agreement between the Federal Government of the Federal Republic of Yugoslavia and the Government of the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1998), applied by Serbia",
+ "signed": "1998-12-14",
+ "entry_into_force": "2000-01-10",
+ "eif_source_url": "https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[BG list] Serbia (Сърбия): 14-12-1998 10-01-2000 || [RS MLI position] ...on Income and Capital Bulgaria Original 14-12-1998 10-01-2000",
+ "source_title": "Уговор СРЈ–Бугарска (1998), mfin.gov.rs Serbian text; MLI combined text",
+ "source_url": "https://www.mfin.gov.rs/upload/media/6nzwJ3_6012e1f4e88da.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник тих дивиденди, разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник тих дивиденди, разрезан порез не може бити већи од: 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; 2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник те камате, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник тих ауторских накнада, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mfin.gov.rs/upload/media/zklk9F_63970493e424a.pdf",
+  "quote": "ЧЛАН 7. МК - СПРЕЧАВАЊЕ ЗЛОУПОТРЕБЕ УГОВОРА (Одредба о тесту основног разлога) Изузетно од одредаба [овог уговора], погодност из [овог уговора] не одобрава се у односу на део дохотка или имовине, ако се основано може закључити, узимајући у обзир све релевантне чињенице и околности, да је стицање погодности био један од основних разлога било којег аранжмана или трансакције који су непосредно или посредно резултирали том погодношћу, осим ако се установи да би одобравање те погодности у тим околностима било у складу са циљем и сврхом одговарајућих одредаба"
+ },
+ "notes": "Dividend 5% tier: beneficial owner company holding directly at least 25% of capital. Applies from 1 Jan of the year after EIF (Art. 29(2)). No MLI art. 8 holding period in the combined text. MLI PPT for WHT from 2023-01-01.",
+ "confidence": "high",
+ "unverified": [],
+ "latest_protocol": null
+}

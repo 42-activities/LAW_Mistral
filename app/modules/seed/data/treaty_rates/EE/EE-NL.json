@@ -1,0 +1,69 @@
+{
+ "a": "EE",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997, as amended by Protocols 2005 and 2008)",
+ "signed": "1997-03-14",
+ "entry_into_force": "1998-11-08",
+ "eif_source_url": "https://www.fin.ee/en/public-finances-and-taxes/tax-and-customs-policy/overview-estonian-bilateral-conventions-avoidance",
+ "eif_quote": "Estonia MoF table (No. | Jurisdiction | Initialled | Signed | Ratified | In force from | Effective from | MLI effective from): 43. | Netherlands | 01.10.1993 | 14.03.1997 | 05.11.1997 ( est / eng ) | 08.11.1998 | 01.01.1995 |  || Protocol |  || 11.11.2004 | 14.07.2005 | 31.03.2006 ( est/eng ) | 21.05.2006 | 01.01.2005 |  || 04.09.2007 | 26.06.2008 | 11.03.2009 ( est/eng ) | 22.05.2009 | 01.01.2010 | ",
+ "source_title": "EE-NL Convention 1997 with Protocol, English text (Riigi Teataja akt 78769, htmllisa 12971268) + Protocols 2005 (akt 1000824) and 2008 (akt 13163254) + MoF MFN notice",
+ "source_url": "https://www.riigiteataja.ee/akt/78769/htmllisa/12971268",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1995-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as modified by Protocol para. X(3) (MFN)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Protocol X.3: \"If in any Convention for the avoidance of double taxation concluded by Estonia with a third State, being a member of the [OECD] at the date of signature of this Convention, Estonia after that date would agree to exclude any kind of rights or property from the definition contained in paragraph 4 of Article 12 or exempt royalties arising in Estonia from Estonian tax on royalties or to limit the rates of tax provided in paragraph 2 of Article 12, such definition or exemption or lower rate shall automatically apply ...\" ; Estonian MoF: \"From 1 January 2016 the state of residence has the exclusive right to tax royalties and the term \"royalties\" does not contain a reference to the payments for the use of, or the right to use, industrial, commercial or scientific equipment based on the most-favoured nation clause in subparagraph 3 of paragraph X of the Protocol of the Convention between Estonia and the Netherlands, which was triggered by the Amending Protocol of the Convention between Estonia and Switzerland effective from the same date.\""
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.fin.ee/en/multilateral-convention-modify-tax-treaties-mli",
+  "quote": "Estonia reserved MLI Art. 35(7)(a); its Art. 35(7)(b) notifications (25.11.2021, 01.06.2022) do not include this treaty, so the MLI (incl. PPT) has not yet effect."
+ },
+ "notes": "Interest: 10% general cap; bank-loan interest taxable only in residence State (Art. 11(3)(e) added by Protocol 2005 Art. 2: \"interest arising in a Contracting State on a loan of whatever kind granted to an enterprise of that State by a bank of the other Contracting State shall be taxable only in that other State\", effective for periods from 1 January 2005); other exemptions Art. 11(3)(a)-(d): states, central banks, state-controlled financial institutions and loans guaranteed by them, credit-sale interest. Royalties: original 5% (equipment) / 10% (other) superseded from 2016-01-01 by MFN (Protocol X.3) triggered by EE-CH Protocol, per Estonian MoF; Dutch-side confirmation not checked. Protocol 2008 only amends Art. 24(4). Both States list the treaty under the MLI but Estonia has not notified Art. 35(7)(b) for the Netherlands.",
+ "confidence": "medium",
+ "unverified": [
+  "Dutch-side application of royalty MFN not confirmed from a Dutch source"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "MD",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of Moldova and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2010, with Protocol)",
+ "signed": "2010-03-15",
+ "entry_into_force": "2013-06-21",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Statul Kuwait | Convenția | 15.03.2010, Chișinău | 21.06.2013 | 01.01.2014 (signed | entry into force | date of application)",
+ "source_title": "MD MoF English text of the MD–KW Agreement (Kuwait -eng.pdf, scanned; read from page images) and Protocol (Kuwait prot-eng.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Kuwait%20-eng.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "2",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 2 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Kuwait%20-eng.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 10(3): dividends taxable only in residence State where beneficial owner is the Government of the other State or an institution/entity under Art. 4(2)(b)-(c), or a company in which that Government owns directly or indirectly at least 25% (remaining capital owned by resident nationals) - government tier, not modelled. Art. 11(3): interest paid to, or on loans made/guaranteed/insured by, the Government or Central Bank of a State taxable only in residence State (not modelled). Protocol only concerns the term 'capital'. Art. 30: WHT effect on income derived on or after 1 January following EIF (2013 -> 2014-01-01). The English PDF is a scan; text was read visually from rendered page images (pp. 11-14, 24), no main-purpose clause seen in Arts. 10-12. Kuwait is not an MLI party for this treaty and Moldova is not a signatory. Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "medium",
+ "unverified": [
+  "scanned text read visually; remaining articles (e.g. any general anti-abuse article) not fully reviewed"
+ ]
+}

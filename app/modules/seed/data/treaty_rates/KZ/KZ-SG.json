@@ -1,0 +1,69 @@
+{
+ "a": "KZ",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Republic of Kazakhstan and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006, as amended 2013)",
+ "signed": "2006-09-19",
+ "entry_into_force": "2007-08-14",
+ "eif_source_url": "http://insecure.zan.kz/rus/docs/Z070000256_",
+ "eif_quote": "(Вступило в силу 14 августа 2007 года) 2. Настоящее Соглашение вступает в силу со дня последнего из уведомлений, упомянутых в пункте 1, и его положения применяются: a) в Казахстане: в отношении налогов за налоговый период, начинающийся с или после 1 января календарного года, следующего за годом вступления в силу настоящего Соглашения; b) в Сингапуре: в отношении налога, подлежащего начислению в любом году, начинающемся с или после 1 января второго календарного года, следующего за годом вступления в силу настоящего Соглашения.",
+ "source_title": "Law of RK of 2007 on ratification of KZ-SG Agreement with Protocol (adilet, Russian text) and Law Z1400000216 ratifying the 2013 Protocol",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z070000256_ ; http://insecure.zan.kz/rus/docs/Z1400000216",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать: a) 5 % общей суммы дивидендов, если фактическим владельцем является компания, которая прямо владеет не менее, чем 25 % капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие дивиденды могут также облагаться налогом в Договаривающемся Государстве, резидентом которого является компания, выплачивающая дивиденды, и в соответствии с законодательством этого Государства, но если фактический владелец дивидендов является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать: b) 10 % общей суммы дивидендов во всех других случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие проценты могут также облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если фактический владелец процентов является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 % общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Однако, такие роялти также могут облагаться налогом в Договаривающемся Государстве, в котором они возникают, и в соответствии с законодательством этого Государства, но если фактический владелец роялти является резидентом другого Договаривающегося Государства, то налог, взимаемый таким образом, не должен превышать 10 % общей суммы роялти."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf ; MLI RU text: http://insecure.zan.kz/rus/docs/Z2000000304",
+  "quote": "1. Независимо от любых положений Налогового соглашения, на которое распространяется настоящая Конвенция, льгота в соответствии с Налоговым соглашением, на которое распространяется настоящая Конвенция, не предоставляется в отношении вида дохода или капитала, если, принимая во внимание все соответствующие факты и обстоятельства, есть основания полагать, что получение такой льготы было одной из основных целей какого-либо соглашения или сделки, которые прямо или косвенно привели к этой льготе, если только не было установлено, что предоставление такой льготы в этих обстоятельствах будет соответствовать целям и задачам соответствующих положений Налогового соглашения, на которое распространяется настоящая Конвенция."
+ },
+ "notes": "Dividend 5% tier: company directly holding >=25% of capital. Dividends and interest paid to the other Government, central bank, authorised bodies and wholly state-owned entities exempt (Arts 10(3), 11(3)) - not modelled. Arts 11(8), 12(7) main-purpose rules. valid_from is the Kazakh date (taxes for periods from 1 Jan of year after EIF); in Singapore the Agreement applies from 1 Jan of the second year after EIF (2009). 2013 Protocol (in force 2014-09-12) changed only Arts 2 and 25. PROTOCOL para 2 MFN (any third State, treaties after EIF): Если в соответствии с любой Конвенцией, Соглашением или Протоколом, заключенным Казахстаном и третьим Государством после даты вступления в силу настоящего Соглашения, Казахстан снижает свое налогообложение у источника на проценты и роялти на ставку меньшую, чем установлена в настоящем Соглашении, упомянутые виды доходов, схожая ставка (далее именуемая как пересмотренная ставка) установленная для такой Конвенции, Соглашения или Протокола с третьим Государством на упомянутые виды доходов будет применяться для настоящего Соглашения с даты вступления в силу таких Конвенций, Соглашений или Протоколов, независимо от того, какое является более поздним. В таком случае, пересмотренная ставка будет применяться Сингапуром и Казахстаном для целей пункта 2 статей 11 и 12, в зависимости от обстоятельств. Not applied: no post-2007 KZ treaty with a nominal interest/royalty rate below 10% verified; note KZ-SA Protocol deems KZ-source interest base at 50% of gross (effective 5%) - whether this triggers the Singapore MFN is unresolved. MLI WHT effect 2021-01-01; Singapore reserved MLI Art. 8.",
+ "confidence": "medium",
+ "unverified": [
+  "Protocol para 2 MFN for interest/royalties: full scan of KZ treaties concluded after 2007-08-14 not done; KZ-SA effective 5% interest may trigger it"
+ ]
+}

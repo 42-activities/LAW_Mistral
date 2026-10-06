@@ -1,0 +1,69 @@
+{
+ "a": "AM",
+ "b": "ES",
+ "treaty_name": "Convention between the Kingdom of Spain and the Republic of Armenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2010, as modified by the MLI)",
+ "signed": "2010-12-16",
+ "entry_into_force": "2012-03-21",
+ "eif_source_url": "https://www.hacienda.gob.es/es-ES/Normativa%20y%20doctrina/Normativa/CDI/Paginas/CDI_Alfa.aspx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-spain.pdf",
+ "eif_quote": "[ES list] Armenia | | | | 17/04/12 [boe_armenia.pdf] || [AM MLI position] ...nd on Capital Kingdom of Spain Original 16-12-2010 21-03-2012",
+ "source_title": "Synthesised text of the MLI and the ES-AM Convention and Protocol (MLISynthesizedTextSpain.docx, Armenian MoF archive SPAIN_DoubleTaxationTreaty.rar)",
+ "source_url": "https://minfin.am/website/images/files/SPAIN_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-03-21",
+   "max_rate": "0",
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of the sub-paragraph above, the Contracting State of which the company paying the dividends is a resident shall exempt from tax the dividends paid by that company to a company the capital of which is wholly or partly divided into shares, as long as: the beneficial owner of the dividends is a resident of the other Contracting State; and it holds, directly or indirectly, at least 25 per cent of the capital of the company paying the dividends for, at least, two years before the date of such payment; and such dividends are not liable to profit tax in the other Contracting State."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-03-21",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2012-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://minfin.am/website/images/files/SPAIN_DoubleTaxationTreaty.rar",
+  "quote": "Notwithstanding any provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit"
+ },
+ "notes": "Dividend exemption (Art. 10(2)(b)) requires a company with share capital holding directly or indirectly >=25% for at least two years before payment (modelled as 730 days) AND that the dividends are not liable to profit tax in the other State; recorded as exclusive/0% tier. Royalties: 5% for copyright of literary, artistic or scientific work incl. cinematograph films and films/tapes for radio/TV (not modelled); 10% in all other cases. No interest exemptions in Art. 11. Art. 28: Convention enters into force three months after the later notification and has effect 'regarding all other cases, the date on which the Convention enters into force' -> WHT from EIF 2012-03-21. Protocol: domestic anti-abuse rules may apply; benefits only for beneficial owners. MLI Art. 8 not applied. MLI PPT effective for WHT 2025-01-01 per treaty map (Spain Art. 35(7)(b) notification 2024-05-31); the minfin synthesised text leaves the effective dates as 'xxx'.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date (synthesised text shows placeholder 'xxx'; 2025-01-01 from treaty map)"
+ ]
+}

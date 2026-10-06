@@ -1,0 +1,58 @@
+{
+ "a": "HR",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of Croatia and the Government of the Italian Republic for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (1999)",
+ "signed": "1999-10-29",
+ "entry_into_force": "2009-09-15",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2009_10_8_107.html",
+ "eif_quote": "OBJAVLJUJE da je Ugovor između Vlade Republike Hrvatske i Vlade Talijanske Republike o izbjegavanju dvostrukog oporezivanja porezima na dohodak i sprečavanju izbjegavanja plaćanja poreza, potpisan u Rimu 29. listopada 1999., objavljen u »Narodnim novinama – Međunarodni ugovori« br. 10/2000., stupio na snagu 15. rujna 2009.",
+ "source_title": "Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Talijanske Republike o izbjegavanju dvostrukog oporezivanja (NN-MU 10/2000)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2000_07_10_88.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende se mogu oporezivati i u državi ugovornici čiji je rezident društvo koje plaća dividende, i to prema zakonima te države, ali ako je primatelj dividendi njihov stvarni korisnik, tada tako utvrđen porez ne smije biti veći od 15% od bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate se mogu oporezivati i u državi ugovornici u kojoj su nastale i to prema zakonima te države, ali ako je primatelj kamata i njihov stvarni korisnik, tada tako utvrđen porez ne smije biti veći od 10% bruto iznosa tih kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve autorske naknade mogu se također oporezivati u državi ugovornici u kojoj su nastale, i to prema propisima te države, ali ako je primatelj autorske naknade stvarni korisnik, porez ne smije biti veći od 5% od bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not in force for Italy",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 29(2)(a): WHT on income arising on or after 1 January of the year following EIF (2009) -> 2010-01-01. Single dividend rate (no participation tier). Art. 11(3): interest paid by or to the governments/local authorities, wholly-owned agencies, or on loans under intergovernmental agreements exempt at source (not modelled). MLI not applicable: Italy has signed but not ratified the MLI (per treaty-map). Replaces the 1982 SFRY-Italy agreement.",
+ "confidence": "high",
+ "unverified": [
+  "Italy MLI ratification status taken from treaty-map metadata"
+ ]
+}

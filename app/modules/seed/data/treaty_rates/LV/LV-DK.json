@@ -1,0 +1,78 @@
+{
+ "a": "LV",
+ "b": "DK",
+ "treaty_name": "Convention between the Republic of Latvia and the Kingdom of Denmark for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993)",
+ "signed": "1993-12-10",
+ "entry_into_force": "1993-12-27",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 14 | Denmark | 14.01.93. | 10.12.93. | 27.12.93. | 01.01.94.",
+ "source_title": "Latvia–DK tax treaty, official Latvian text (likumi.lv id 316)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/316",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% no dividenžu bruto lieluma, ja īstenais īpašnieks ir sabiedrība (kas nav līgumsabiedrība), kura tieši pārvalda vismaz 25% no kapitāla sabiedrībā, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% no dividenžu bruto apjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šie procenti var tikt aplikti ar nodokļiem arī Līgumslēdzējā Valstī, kurā tie veidojas saskaņā ar šīs Valsts likumdošanu, bet, ja procentu saņēmējs ir šo procentu īstenais īpašnieks, nodoklis nedrīkst pārsniegt 10% no procentu kopapjoma. Līgumslēdzēju Valstu kompetentās iestādes savstarpējas vienošanās ceļā var noteikt šo ierobežojumu pielietošanas veidu."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% no autora honorāra kopapjoma visos pārējos gadījumos. Līgumslēdzēju Valstu kompetentās iestādes savstarpēji vienojoties var noteikt šo ierobežojumu pielietošanas veidu."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% no autora honorāra kopapjoma, kas tiek maksāts par ražošanas, tirdzniecības vai zinātnisko iekārtu izmantošanu;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 31(2)(a): WHT provisions apply from 1 January of the year following EIF (1993-12-27) -> 1994-01-01. 5% dividend tier: company (other than a partnership) directly holding at least 25% of capital. Royalty 5% tier: royalties for the use of industrial, commercial or scientific equipment only (not a holding tier). Art. 11(3): interest paid to the States, political subdivisions, local authorities, statutory bodies, central banks, IFU/IØ, Danish Export Finance Corp., Danish Ship Credit Fund or similar Latvian bodies, on loans guaranteed by them, and on credit sales of goods/equipment between unrelated enterprises - taxable only in residence State; not modelled. Protocol para. 5: payments for drilling rigs used in hydrocarbon exploration excluded from royalties. Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": []
+}

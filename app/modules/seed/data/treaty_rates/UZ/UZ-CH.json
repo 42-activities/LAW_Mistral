@@ -1,0 +1,67 @@
+{
+ "a": "UZ",
+ "b": "CH",
+ "treaty_name": "Agreement between the Republic of Uzbekistan and the Swiss Confederation for the avoidance of double taxation with respect to taxes on income and on capital (2002, as amended 2014)",
+ "signed": "2002-04-03",
+ "entry_into_force": "2003-08-15",
+ "eif_source_url": "https://lex.uz/ru/docs/2098895",
+ "eif_quote": "(Вступило в силу 15 августа 2003 года)",
+ "source_title": "Ўзбекистон Республикаси Ҳукумати ва Швейцария Федерал Кенгаши ўртасида Битим (03.04.2002), Uzbek text consolidated with Protocol of 01.07.2014 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2098891",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) агар компания (ширкатдан ташқари) дивидендларнинг ҳақиқий эгаси бўлса ва дивидендлар тўлаётган компаниянинг камида 20 фоизига бевосита эгалик қилса, дивидендлар ялпи миқдорининг 5 фоиздан;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) бошқа барча ҳолларда дивидендлар ялпи 15 фоиздан."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай ҳолда солиқнинг миқдори фоизлар ялпи 5 фоизидан ошмаслиги лозим."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо, агар роялтиларнинг амалдаги эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, бундай ҳолда, шундай тарзда ундириладиган солиқ роялтилар умумий миқдорининг 5% дан ошмаслиги лозим."
+  }
+ ],
+ "notes": "Div 5% tier: company (other than partnership) directly holding >=20% of the paying company. Art. 11(3): interest taxable only in residence State when paid on loans made/guaranteed/insured by the other State's government or its agencies, on credit sales of equipment or goods, or on any loan granted by a bank. 2014 Protocol concerned exchange of information (art. 25 bis) only. Art. 27: source taxes from 1 January of the year following entry into force.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": null,
+  "quote": "Uzbekistan is not a signatory of the MLI; no PPT in the treaty."
+ },
+ "unverified": []
+}

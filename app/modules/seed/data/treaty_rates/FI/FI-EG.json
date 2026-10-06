@@ -1,0 +1,59 @@
+{
+ "a": "FI",
+ "b": "EG",
+ "treaty_name": "Convention between the Government of the Republic of Finland and the Government of the United Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1965, as amended by Exchange of Notes 1974; modified by the MLI)",
+ "signed": "1965-04-01",
+ "entry_into_force": "1966-04-02",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1966/12",
+ "eif_quote": "... sopimus ratifioitu ja ratifioimiskirjat 3 päivänä maaliskuuta 1966 vaihdettu, säädetään ... että sanottu sopimus on voimassa niin kuin siitä on sovittu. | Art. 28(2): 'This Convention shall enter into force thirty days after the exchange of the instruments of ratification ...'",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–EG Convention (SopS 11-12/1966, Exchange of Notes SopS 55-56/1976)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1966/12",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1966-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "1. Dividends paid by a company which is a resident of Finland to a resident of the United Arab Republic may be taxed in Finland at a rate not exceeding 10 per cent of the gross amount of the dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1966-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "1. Interest paid by a resident of Finland to a resident of the United Arab Republic shall be exempt from Finnish tax."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1966-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in the first-mentioned State at a rate not exceeding 25 per cent of its gross value."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1966/12",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2021-01-01"
+ },
+ "notes": "Asymmetric 1965 treaty. Egyptian-source dividends (Art. 10(2)) and interest (Art. 11(2)) may be taxed in Egypt under its schedular taxes (movable capital tax, supplementary and defence taxes withheld at source) with no overall rate cap — only the general income tax on individuals is capped (20% dividends / 15% interest); these EG-source categories are therefore omitted. Art. 12(3): film rents/royalties may continue to be taxed under domestic law (no cap); Art. 12(4) founders' shares rule. EIF computed as 30 days after exchange of ratifications on 3 March 1966 = 2 April 1966 (merged dataset says 1966-04-03 — 1-day conflict). Finland: effective for income acquired in calendar year 1966; Egypt: movable-capital tax due on or after EIF — valid_from set to 1966-01-01 (Finnish rule). MLI arts 6, 7, 9, 16 apply; no Art. 8 holding period.",
+ "confidence": "medium",
+ "unverified": [
+  "Exact EIF day (2 vs 3 April 1966): decree gives only ratification exchange date 3.3.1966",
+  "valid_from for Egyptian side (taxes due on/after EIF, i.e. ~1966-04-02)"
+ ]
+}

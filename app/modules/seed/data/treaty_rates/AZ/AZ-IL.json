@@ -1,0 +1,59 @@
+{
+ "a": "AZ",
+ "b": "IL",
+ "treaty_name": "Convention between the State of Israel and the Republic of Azerbaijan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2016)",
+ "signed": "2016-12-13",
+ "entry_into_force": "2017-12-27",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-israel-instrument-deposit.pdf",
+ "eif_quote": "[IL MLI] Azerbaijan Original 13-12-2016 27-12-2017 | Art. 30: \"This Convention shall enter into force on the date of receipt of the later of these notifications and shall thereupon have effect: (a) with respect of taxes withheld at source, on amounts paid on or after the first day of January of the calendar year following the year in which the Convention entered into force\"",
+ "source_title": "Israel–Azerbaijan Convention and Protocol, English text (Israel Tax Authority, gov.il BlobFolder, scanned PDF read visually; archived copy)",
+ "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/azerbaijan_dtpa/he/international_agreements_azerbaijan_dtpa-eng.pdf (fetched via https://web.archive.org/web/20260123073430id_/ ; gov.il returns 403)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed: ... b) 10 per cent of the gross amount of such royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2018-01-01",
+  "basis": "treaty art. 27(1) (main-purpose rule); superseded by MLI art. 7(1) from 2025-01-01",
+  "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/azerbaijan_dtpa/he/international_agreements_azerbaijan_dtpa-eng.pdf (fetched via https://web.archive.org/web/20260123073430id_/ ; gov.il returns 403) ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-israel-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[Art. 27(1)] Notwithstanding any other provision of this Convention, a resident of a Contracting State shall not receive the benefit of any reduction in or exemption from taxes provided for in this Convention by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such resident or any person connected with such resident is to obtain the benefits under this Convention that would not otherwise be available. || [IL MLI Art. 7(17)(a)] 3 Azerbaijan Article 27(1); [AZ MLI] 19 Israel Article 27(1)"
+ },
+ "notes": "Royalties: 5% cap (Art. 12(2)(a)) for royalties \"paid for any patent, design or model, plan, secret formula or process, or for the use of, or the right to use, industrial, commercial or scientific equipment or for information (know-how) concerning industrial, commercial or scientific experience\" — category-specific tier not modelled as an entry; 10% (Art. 12(2)(b)) for all other royalties (copyright, films, trade marks). Interest exempt at source (Art. 11(3)) when paid to/by a Government, administrative-territorial or political subdivision, local authority or Central Bank, or to the State Oil Fund of Azerbaijan / Israel's natural-resources fund — not modelled. Articles 10(6), 11(8) and 12 contain main-purpose anti-abuse clauses for dividends/interest. Protocol 3: REIT distributions are not dividends (taxed under domestic law). Both States notified Art. 27(1) under MLI Art. 7(2) so the MLI PPT replaces it, effective for WHT from 2025-01-01. MLI Art. 8 not applicable (Azerbaijan reserved). DATE CONFLICTS: the signature block of the English text reads 'Done ... at Baku this 31 day of December 2016, which corresponds to the 2nd day of Tevet 5777', whereas both MLI positions give signature 13-12-2016 (kept per merged data). EIF 27-12-2017 per Israel MLI position vs 28.12.2017 per Azerbaijan MLI position; either way WHT effect from 2018-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "Signature date: treaty text signature block reads 31 December 2016 (2 Tevet 5777) vs 13-12-2016 in MLI positions",
+  "EIF 27-12-2017 (IL MLI) vs 28-12-2017 (AZ MLI)"
+ ]
+}

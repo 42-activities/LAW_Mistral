@@ -1,0 +1,69 @@
+{
+ "a": "MD",
+ "b": "PL",
+ "treaty_name": "Convention between the Republic of Moldova and the Republic of Poland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on property (1994)",
+ "signed": "1994-11-15",
+ "entry_into_force": "1995-10-27",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022",
+ "eif_quote": "[MD MoF list, status 20.06.2022] Republica Polonia | Convenția | 15.11.1994, Varșovia | 27.10.1995 | 01.01.1996 (signed | entry into force | date of application)",
+ "source_title": "MD MoF Romanian (state language) text of the MD–PL Convention (Polonia_rom.pdf)",
+ "source_url": "https://mf.gov.md/sites/default/files/Polonia_rom.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "impozitul încasat nu trebuie să depăşească: a) cinci la sută din suma totală a dividendelor, dacă dreptul la dividende în realitate îl are compania (spre deosebire de întovărăşiri) şi această companie deţine cel puţin 25 la sută din capitalul companiei plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 la sută din suma totală a dividendelor în alte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Însă asemenea dobînzi pot fi, de asemenea impozitate în acel Stat Contractant din care provin potrivit legislaţiei acestui Stat, dar dacă primitorul are în realitate dreptul la dobînzi, impozitul încasat nu poate depăşi 10 la sută din suma totală a dobînzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste venituri pot fi, de asemenea impuse în Statul Contractant din care provin, potrivit legislaţiei acestui Stat, dar impozitul astfel stabilit nu poate depăşi 10 la sută din suma totală a încasărilor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Moldova not MLI signatory; no treaty PPT)",
+  "source_url": "https://mf.gov.md/sites/default/files/Polonia_rom.pdf",
+  "quote": ""
+ },
+ "notes": "Signature date conflict: MD MoF list and the closing formula of the text read give 15 November 1994 (Varşovia, 15 noiembrie 1994); merged dataset has 1994-11-16; the treaty-text date 1994-11-15 is used here. Art. 11(8)-(9): interest owned by the other State's Government/local authority/agencies, or on loans guaranteed/insured on behalf of the other State, exempt at source (not modelled). Art. 28: WHT effect on income obtained from 1 January following EIF (1995 -> 1996-01-01). Read in Romanian translation published by MD MoF (authentic languages per text: Moldovan, Polish, Russian). Moldova is not an MLI signatory, so the MLI (incl. Art. 7 PPT) does not modify this treaty; no PPT/main-purpose clause found in the treaty text read.",
+ "confidence": "high",
+ "unverified": [
+  "signature date: text/MD list say 15.11.1994, merged dataset 1994-11-16"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "UZ",
+ "b": "LU",
+ "treaty_name": "Convention between the Republic of Uzbekistan and the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997, as amended 2017)",
+ "signed": "1997-07-02",
+ "entry_into_force": "2000-09-01",
+ "eif_source_url": "https://lex.uz/ru/docs/2575613",
+ "eif_quote": "(Вступила в силу 1 сентября 2000 года)",
+ "source_title": "Ўзбекистон Республикаси ва Буюк Люксембург Герцоглиги ўртасида Конвенция (Люксембург, 02.07.1997), Uzbek text consolidated with Protocol of 18.09.2017 — lex.uz",
+ "source_url": "https://lex.uz/ru/docs/2575611",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) агар, дивидендларнинг ҳақиқий эгаси бўлган компанияга Дивидендлар тўлаётган компания сармоясининг камида 25% бевосита тегишли бўлса, дивидендлар ялпи суммасининг 5 % дан;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) қолган барча ҳолларда дивидендлар ялпи суммасининг 15% дан."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "аммо фоизларнинг ҳақиқий эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса шу тариқа ундириладиган солиқнинг миқдори фоизлар ялпи суммасининг 10 фоизидан ошмаслиги керак."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "лекин агар роялтининг эгаси бошқа Аҳдлашувчи Давлатнинг резиденти бўлса, унда бу тариқа ундириладиган солиқ роялти ялпи миқдорининг 5 фоизидан ортиқ бўлмаслиги керак."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 27A (inserted by 2017 Protocol)",
+  "source_url": "https://lex.uz/ru/docs/2575611",
+  "quote": "Ушбу Конвенциянинг бошқа қоидаларидан қатъий назар, агар барча тегишли фактлар ва шартларни ҳисобга олган ҳолда, ҳар қандай келишув ёки битимнинг асосий мақсадларидан бири мазкур Конвенция доирасида имтиёз олиш бўлиб ва бевосита ёки билвосита бундай имтиёзни олинишига олиб келган деб хулоса қилишга асос бўлса, бундай даромад ва фойда предметига нисбатан ушбу имтиёзлар тақдим қилинмайди, башарти бундай шартларда ушбу имтиёзларнинг берилиши мазкур Конвенция тегишли қоидаларининг объекти ва мақсадига мувофиқ деб топилмаса."
+ },
+ "notes": "Div 5% tier: beneficial-owner company holding directly >=25% of capital. Art. 11(3): interest on bank loans exempt at source. 2017 Protocol (in force for UZ 26.07.2019; Protocol art. 6(2): applies to tax periods beginning on/after 1 January of the year following entry into force -> 2020-01-01) amended preamble, MAP, art. 26/26A and added PPT art. 27A; WHT rates unchanged. Art. 28: source taxes from 1 January of the year following entry into force.",
+ "confidence": "high",
+ "unverified": []
+}

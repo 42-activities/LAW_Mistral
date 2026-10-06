@@ -1,0 +1,70 @@
+{
+ "a": "AM",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Armenia and the Federal Republic of Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, and Protocol (2016)",
+ "signed": "2016-06-29",
+ "entry_into_force": "2017-11-23",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[DE list] Armenien 24.11.1981 ... (DBA mit UdSSR galt fort, BGBl. 1993 II S. 169) 29.06.2016 2017 1077 2018 222 2017 1560 2018 238 01.01.2018 || [AM MLI position] ...al Federal Republic of Germany Original 29-07-2016 23-11-2017",
+ "source_title": "AM-DE Agreement and Protocol, English text (scanned PDF GERMANY_DoubleTaxationTreaty_EN, Armenian MoF archive), pages read visually",
+ "source_url": "https://minfin.am/website/images/files/6.GERMANY_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 7 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "6",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 6 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty art. 28 preserves domestic anti-abuse rules only)",
+  "source_url": "https://minfin.am/website/images/files/6.GERMANY_DoubleTaxationTreaty.rar",
+  "quote": "This Agreement shall not be interpreted as preventing a Contracting State from applying its domestic legal provisions on the prevention of tax evasion or tax avoidance."
+ },
+ "notes": "Protocol para 4(b): notwithstanding Art. 10(2)(a)-(b), max 15% on distributions of investment funds connected to immovable property and on distributions by tax-exempt/deducting real estate investment companies (German REITs) - not modelled. Protocol para 8: dividends and interest from profit-participating rights/debt (silent partnerships, partiarische Darlehen, Gewinnobligationen) that are deductible for the debtor may be taxed under domestic law. Interest Art. 11(3): German-source interest paid to the Government/Central Bank of Armenia exempt in Germany; Armenian-source interest on loans guaranteed by Germany for export/FDI or paid to the German Government, Bundesbank, KfW or DEG exempt in Armenia. Protocol para 5 (MFN): if a later Armenian treaty with a 2016 OECD member provides a lower interest rate or exemption, it applies automatically to this Agreement - partially checked: later Armenian treaties with 2016 OECD members read in this batch (Israel 2017: 10%; Denmark 2018: 10%; Japan 2022: 5% general, with exemptions for government-owned/guaranteed debt) give no lower general rate; Japan's broader government-guarantee exemption could extend Art. 11(3)-type relief. Art. 31: WHT on amounts paid on or after 1 January of the year following EIF (2017-11-23 -> 2018-01-01); replaces the 1981 Germany-USSR agreement. Not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Protocol para 5 interest MFN: full list of post-2016 Armenian treaties with OECD members not exhaustively checked",
+  "EIF 2017-11-23 from treaty map (Armenia MLI position)"
+ ]
+}

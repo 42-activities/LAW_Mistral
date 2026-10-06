@@ -1,0 +1,78 @@
+{
+ "a": "FI",
+ "b": "GR",
+ "treaty_name": "Convention between the Republic of Finland and the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1980, as modified by the MLI)",
+ "signed": "1980-01-21",
+ "entry_into_force": "1981-10-04",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1981/58",
+ "eif_quote": "... sopimus, ... jonka hyväksymistä koskevat nootit on vaihdettu 4 päivänä syyskuuta 1981, on voimassa 4 päivästä lokakuuta 1981 niin kuin siitä on sovittu.",
+ "source_title": "Finlex up-to-date income tax treaties: Synthesised text of the MLI and the FI–GR Convention (SopS 57-58/1981)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1981/58",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "47",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "a) 47 per cent of the gross amount of the dividends if the company making the distribution is a resident of Greece; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "13",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "FI",
+   "quote": "b) 13 per cent of the gross amount of the dividends if the company making the distribution is a resident of Finland."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (patents, trade marks, designs, plans, secret formulas, equipment, know-how — Art. 12(3)(b)-(c))",
+   "valid_from": "1982-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, royalties of the kind referred to in sub-paragraphs b) and c) of paragraph 3 may be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1) (copyright royalties — Art. 12(3)(a))",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in that other State. 2. However, royalties of the kind referred to in sub-paragraphs b) and c) of paragraph 3 may be taxed in the Contracting State in which they arise ..."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/1981/58",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. | ... paragraph 1 of Article 7 of the MLI has effect ... with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 2022-01-01"
+ },
+ "notes": "Asymmetric dividend caps: Greek-source 47% (reflecting the then Greek distributed-profits system), Finnish-source 13%; no beneficial-ownership condition in Arts 10-12. Copyright royalties taxable only in residence State. Treaty WHT effect: income derived on or after 1 January following 1981 EIF = 1982-01-01. MLI arts 6, 7, 16, 17 apply; no Art. 8 holding period.",
+ "confidence": "high",
+ "unverified": []
+}

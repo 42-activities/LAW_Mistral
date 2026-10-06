@@ -1,0 +1,91 @@
+{
+ "a": "LV",
+ "b": "FI",
+ "treaty_name": "Convention between the Republic of Latvia and the Republic of Finland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993; Art. 12 modified via MFN clause, Finnish MoF notice 15/2021)",
+ "signed": "1993-03-23",
+ "entry_into_force": "1993-12-30",
+ "eif_source_url": "https://www.fm.gov.lv/en/media/24725/download?attachment",
+ "eif_quote": "[LV Ministry of Finance treaty status table] 16 | Finland | 14.01.93. | 23.03.93. | 30.12.93. | 01.01.94.",
+ "source_title": "Latvia–Finland convention 1993, official Latvian text (likumi.lv id 696) + Finnish MoF notice SopS 15/2021 (Finlex open data)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/696 ; https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2021/15",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% no dividenžu bruto lieluma, ja īstenais īpašnieks ir sabiedrība (kas nav līgumsabiedrība), kura tieši pārvalda vismaz 25% no kapitāla sabiedrībā, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% no dividenžu bruto apjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šie procenti var tikt aplikti ar nodokļiem arī Līgumslēdzējā Valstī, kurā tie veidojas, saskaņā ar šīs Valsts likumdošanu, bet, ja procentu saņēmējs ir šo procentu īstenais īpašnieks nodoklis nedrīkst pārsniegt 10% no procentu kopapjoma. Līgumslēdzēju Valstu kompetentās iestādes savstarpējas vienošanās ceļā var noteikt šo ierobežojumu pielietošanas veidu."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) (original text, applied until 2017)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% no autora honorāra bruto lieluma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) (original text, applied until 2017)",
+   "valid_from": "1994-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% no autora honorāra bruto lieluma, autora honorāra, kas tiek maksāti par ražošanas, tirdzniecības vai zinātnisko iekārtu izmantošanu;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as applied from 2018 under Art. 12(7) MFN (Finnish MoF notice SopS 15/2021)",
+   "valid_from": "2018-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tammikuun 1 päivästä 2018 alkaen Suomen tasavallan ja Latvian tasavallan välillä tulo- ja varallisuusveroja koskevan kaksinkertaisen verotuksen välttämiseksi ja veron kiertämisen estämiseksi tehdyn sopimuksen 12 artiklan 2 ja 3 kappaleiden estämättä sovelletaan seuraavia määräyksiä: 2. Rojaltista, joka kertyy sopimusvaltiosta ja jonka etuudenomistaja on toisessa sopimusvaltiossa asuva henkilö, verotetaan vain tässä toisessa valtiossa. || 7. Ja jebkurā Konvencijā par nodokļu dubultās uzlikšanas novēršanu, kuru noslēdz Latvija ar trešo valsti, kura ir Ekonomiskās Attīstības un Sadarbības Organizācijas (OECD) locekle šīs Konvencijas parakstīšanas brīdī, Latvija pēc šī datuma piekrīt izslēgt jebkura veida tiesības vai īpašumu no šī panta 3. punktā iekļautās definīcijas vai ari atbrīvot autora honorārus, kas rodas Latvijā no Latvijas nodokļa uz autora honorāru, vai arī samazināt nodokļa likmes, kādas norādītas 2. punktā; šī definīcija, atbrīvojums vai samazinātā nodokļa likme tiks automātiski piemērota, it kā tā būtu norādīta 2. vai 3. punktā."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1890",
+  "quote": "1. Neatkarīgi no citiem Ietverto nodokļu līgumu noteikumiem, šādā līgumā paredzētais atvieglojums netiek piešķirts ienākumu vai kapitāla postenim, ja, ņemot vērā visus būtiskos faktus un apstākļus, ir pamatoti secināt, ka minētā atvieglojuma gūšana bija viens no šāda pasākuma vai darījuma veikšanas galvenajiem mērķiem, kā rezultātā tieši vai netieši radās minētais atvieglojums, ja vien netiek konstatēts, ka minētā atvieglojuma piešķiršana šajos apstākļos būtu saskaņā ar Ietverto nodokļu līgumu attiecīgo noteikumu nolūku un mērķi. [MLI WHT effective date for this pair per treaty map: 2021-01-01]"
+ },
+ "notes": "Art. 29(2)(i): WHT provisions apply from 1 January of the year following EIF (1993-12-30) -> 1994-01-01. Dividends: 5% for a company (other than a partnership) directly holding at least 25% of capital, 15% otherwise (Art. 10(1)). Art. 10(2) (Finnish dividends to Latvian residents exempt / 5% for individuals) applied only while Finland granted shareholders an imputation tax credit; Finland abolished that credit (2005, not verified here), so Art. 10(1) is recorded as the current rule - see unverified. Interest: Art. 11(3) exemptions for governments, central banks, FINNFUND/Finnish Export Credit or similar bodies, loans guaranteed by them, and credit sales between unrelated enterprises - not modelled. Royalties: original Art. 12(2) caps were 5% (equipment) / 10% (others) for 1994-2017; under the Art. 12(7) MFN clause (triggered by Latvia's later treaty with an OECD member - consistent with the Latvia-Japan convention 2017, likumi.lv id 1727, Art. 12(1) exclusive residence taxation), Finland's Ministry of Finance notice 15/2021 states that from 1 January 2018 royalties are taxable only in the residence State and narrows the royalty definition (equipment rentals excluded). Latvia reserved the entirety of MLI Art. 8.",
+ "confidence": "high",
+ "unverified": [
+  "Art. 10(2) imputation-credit condition assumed no longer met (Finland's abolition of the imputation credit not verified from an official source here)"
+ ]
+}
