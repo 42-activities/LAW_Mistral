@@ -4,7 +4,7 @@ import type { Flag } from "@/lib/types";
 export function Cite({ ids }: { ids: number[] }) {
   if (!ids.length) return null;
   return (
-    <span className="ml-1 inline-flex gap-0.5 align-super text-[10px]">
+    <span className="ml-1 inline-flex flex-wrap gap-0.5 align-super text-[10px]">
       {ids.map((id) => (
         <Link
           key={id}
