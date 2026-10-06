@@ -1,0 +1,26 @@
+{
+ "a": "SD",
+ "b": "LY",
+ "treaty_name": "Agreement between Libya and the Republic of the Sudan on the avoidance of double taxation (date of signature not found)",
+ "signed": null,
+ "entry_into_force": "1992-01-01",
+ "eif_source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "eif_quote": "[Libyan Tax Authority, list of agreements] تاريخ دخول الاتفاقية حيز النفاذ ... 01/01/1992م السودان 3",
+ "source_title": "Libyan Tax Authority list of agreements in force (treaty text not available)",
+ "source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan and Libya are not MLI signatories)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Treaty text not obtained. tax.gov.ly publishes only a one-page list of agreements in force (Sudan: entry into force 01/01/1992), not the text. tax.gov.sd/agreements does not list Libya. No other official copy was found. The web-search budget for this session was used up, so wider searching was not possible. Rates left empty.",
+ "confidence": "low",
+ "unverified": [
+  "treaty text and all rates",
+  "signature date",
+  "Text searched 2026-10-06 without success: tax.gov.ly links only ET.pdf (list), Erad.pdf and m2016.pdf. m2016.pdf is the Libyan Tax Authority's 'موسوعة التشريعات الضريبية الحديثة في ليبيا' (2016, 227-page scan), whose index (pp. 6-7) lists domestic tax laws only and no treaties. The Wayback index of tax.gov.ly has no treaty files. Sudan side: tax.gov.sd media library (~80 PDFs, full WordPress API listing) has 16 treaty texts and none is Libya; guessed file names (libya.pdf etc.) return 404; the Sudan MoJ law e-book (moj.gov.sd/sudanlaws) has no treaty acts; mof.gov.sd unreachable; web search unavailable (session budget used up)."
+ ]
+}

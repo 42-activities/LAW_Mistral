@@ -1,0 +1,70 @@
+{
+ "a": "SD",
+ "b": "OM",
+ "treaty_name": "Agreement between the Government of the Sultanate of Oman and the Government of the Republic of the Sudan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003)",
+ "signed": "2003-06-07",
+ "entry_into_force": null,
+ "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
+ "eif_quote": "[Oman Tax Authority JSON] \"id\": \"SD\", \"name\": \"Sudan\", \"sign-date\": \"07/06/2003\", \"sign-decree\": \"57/2003\", \"royal-date\": \"20/09/2003\", \"effective\": \"2005\" ; [Art. 27] وتسرى هذه الاتفاقية اعتبارا من اليوم الثلاثين بعد تاريخ آخر هذين الاخطارين ... فيما يتعلق بالضرائب التي تحجز من المنبع : تسري على المبالغ المدفوعة أو المستحقة الدفع اعتبارا من أول يناير من السنة الميلادية التالية مباشرة لتاريخ سريان الاتفاقية",
+ "source_title": "tax.gov.sd: Oman–Sudan agreement (Arabic, signed Khartoum 7/6/2003)",
+ "source_url": "https://tax.gov.sd/wp-content/uploads/2025/02/oman.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "أ ) ٥ % خمسة بالمائة من اجمالي مبلغ أرباح الأسهم اذا كان المالك المستفيد هو شركة تملك نسبة ٢٥% خمسة وعشرين بالمائة على الأقل من رأس مال الشركة التي تدفع أرباح الأسهم ،"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب) ١٥ % خمسة عشر بالمائة من اجمالي مبلغ أرباح الاسهم في جميع الحالات الاخرى ."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن اذا كان المستلم للفائدة هو المالك المستفيد منها ، فان الضريبة المفروضة على هذا النحو لا يجوز أن تتجاوز ١٥ % خمسة عشرة بالمائة من المبلغ الاجمالي للفائدة ."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن اذا كان مستلم الاتاوات هو المالك المستفيد منها ، فان الضريبة المفروضة على هذا النحو لا تجاوز ١٠% عشرة بالمائة من المبلغ الاجمالي لمثل هذه الاتاوات ."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan is not an MLI signatory; only article-level main-purpose rules in Arts. 10(6), 11(8), 12(7))",
+  "source_url": "https://tax.gov.sd/wp-content/uploads/2025/02/oman.pdf",
+  "quote": "٨ - لا تسري أحكام هذه المادة اذا كان الغرض الرئيسي أو أحد الأغراض الرئيسية لأي شخص يختص باجراء أو تحويل الديون التي تدفع عنها الفائدة هو الافادة من أحكام هذه المادة عن طريق هذا الاجراء أو التحويل ."
+ },
+ "notes": "Entry into force: the treaty enters into force on the 30th day after the later notification (Art. 27); the exact date is not published. 20/09/2003 in the merged map is the Oman Royal Decree (ratification) date, not entry into force. Oman gives 'effective 2005', which implies entry into force during 2004; WHT valid_from set to 2005-01-01. Art. 11(3): interest paid to the other State's government, political subdivisions, local authorities or central bank is exempt. Art. 12(1) says royalties are taxable 'only' in the residence State, but Art. 12(2) allows source tax up to 10%; modelled as a 10% cap. Annex: Oman's State General Reserve Fund is treated as a resident and is exempt in Sudan. Articles 10(6), 11(8) and 12(7) are main-purpose anti-abuse rules for each article only. Sudan is not an MLI signatory. Effective-date check: Art. 27 (current Oman text, the Wayback copy of taxoman.gov.om/agree/arebic/sudan_arbic.pdf and the tax.gov.sd copy) says WHT applies from 1 January of the year straight after entry into force. With Oman's 'effective 2005', this agrees with valid_from 2005-01-01.",
+ "confidence": "medium",
+ "unverified": [
+  "exact entry-into-force date (2004)",
+  "entry_into_force searched 2026-10-06 without success: Wayback copies of the old Oman Secretariat General for Taxation pages (taxoman.gov.om/double_tax.html and /ar/double_tax.html, captured 2013-11) list only signature date, Royal Decree no. and the year the agreement applies from; the current tms.taxoman.gov.om JSON has the same fields (sign-date, sign-decree, royal-date, effective) and no entry-into-force field; qanoon.om shows a Cloudflare challenge (not bypassed); Oman MJLA gazette site (mjla.gov.om) unreachable; Oman Foreign Ministry site (fm.gov.om) has no treaty register; web search unavailable (session budget used up); Sudan side: tax.gov.sd (all ~80 media PDFs listed via its WordPress API) has only the treaty text, with no ratification or entry-into-force note; the Sudan MoJ law e-book (moj.gov.sd/sudanlaws) has domestic tax laws only; mof.gov.sd unreachable."
+ ]
+}

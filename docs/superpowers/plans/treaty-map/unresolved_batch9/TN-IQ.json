@@ -1,0 +1,26 @@
+{
+ "a": "TN",
+ "b": "IQ",
+ "treaty_name": "Agreement between Iraq and Tunisia (2001)",
+ "signed": "2001-06-25",
+ "entry_into_force": null,
+ "eif_source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "eif_quote": "3 الاتفاقية التـونسية 25/6/2001 دخلت حيز التنفيذ دخلت حيز التنفيذ (قبل عام 2003)",
+ "source_title": "Treaty text not obtained (only Iraqi GCT list of agreements in force)",
+ "source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Treaty text could not be obtained: not among the ~80 convention PDFs in jibaya.tn's media library (DGI Tunisia), not in Tunisia's MLI list, and the Iraqi General Commission for Taxes publishes only a list. The Iraqi list (PDF) gives signature 25/6/2001 and status 'entered into force (before 2003)'; exact EIF date unknown. Rates left empty. PPT: not applied - Iraq is not an MLI signatory.",
+ "confidence": "low",
+ "unverified": [
+  "entire treaty text",
+  "entry_into_force date",
+  "Text and entry_into_force searched 2026-10-06 without success: Iraqi General Commission for Taxes: the page 'المشاريع المصادق عليها' (tax.mof.gov.iq) links the ratified texts /uploads/relationship/tunis1.pdf, yaman1.pdf, sudan1.pdf (also linked from the 2012 iraqitax.com page). All three now return 404 and the Wayback Machine holds only 404 captures (2024-2025). The page 'المشاريع التي دخلت حيز التنفيذ' gives entry-into-force dates only for Hungary (6/5/2021) and the UAE (28/7/2021); for Yemen, Sudan and Tunisia it says only 'entered into force' ('before 2003' for Sudan and Tunisia). The Iraqi Legal Database (iraqld.hjc.iq) blocks access with Cloudflare (not bypassed). The moj.gov.iq al-Waqai al-Iraqiya pages hold only recent issues, and a site search found nothing. Web search unavailable (session budget used up). Tunisia side: all 831 entries of jibaya.tn's 'docs' collection (66 conventions) were listed via the WordPress API, and none is the Iraq convention. A media search for irak/iraq/العراق returns only a 2024 news item. Tunisian finance documentation portal (documentation.finances.gov.tn, Wayback 2012-2013) has no Iraq item; iort.gov.tn (JORT) and legislation.tn unreachable."
+ ]
+}

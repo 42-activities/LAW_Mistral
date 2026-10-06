@@ -61,3 +61,10 @@ The Arab Maghreb Union convention (1990, in force 1993) replaces the members' bi
 pairs, LY–EG, TN–JO and SD–IQ carry `no_cap` and load as treaties without rates. Curated:
 YE–QA exemptions (ambiguous wording). Australian franking/listing/LOB-conditioned 0% tiers are
 kept in notes only. Rebuild order adds this folder last.
+
+### Unresolved batch-9 treaties (`unresolved_batch9/`)
+
+Not loaded: IR/SD/SY/YE–OM and SD/TN/YE–IQ lack an official entry-into-force date; TN–IQ, YE–IQ,
+LY–SY and SD–LY lack text. Each file's `unverified` lists the sources searched (2026-10-06). The
+Oman files' effective-date articles were checked against Oman Tax Authority PDFs (Wayback). Leads:
+Iraqi Legal Database, Tunisian JORT ratification law, Oman Official Gazette (qanoon.om).
