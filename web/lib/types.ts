@@ -169,3 +169,23 @@ export type Evidence = {
   quoted_text: string;
   review_status: string;
 };
+
+export type CorporateTaxRow = {
+  code: string;
+  name: string;
+  rate: string | null;
+  min_rate: string | null;
+  bracketed: boolean;
+  citation: number | null;
+  summary: {
+    wht: Partial<Record<"DIVIDEND" | "INTEREST" | "ROYALTY", { min: string; max: string }>>;
+    participation_exemption: {
+      dividends: boolean;
+      capital_gains: boolean;
+      min_holding_pct: string | null;
+      exempt_share_pct: string | null;
+    } | null;
+    lists: { code: string; classification: string }[];
+    treaties_in_force: number;
+  };
+};

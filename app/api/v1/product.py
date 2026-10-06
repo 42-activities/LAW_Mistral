@@ -97,6 +97,16 @@ def get_profile(
     return _profile_out(load_profile(session, org_id, profile_id))
 
 
+@router.get("/browse/corporate-tax")
+def browse_corporate_tax(
+    on_date: date | None = None,
+    _org_id: int = Depends(require_api_key),
+    session: Session = Depends(get_session),
+) -> dict[str, Any]:
+    on = on_date or date.today()
+    return {"on_date": on.isoformat(), "jurisdictions": BrowseService(session).corporate_tax(on)}
+
+
 @router.get("/browse/jurisdictions/{code}")
 def browse_jurisdiction(
     code: str,

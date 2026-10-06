@@ -4,7 +4,7 @@ from datetime import date
 from decimal import Decimal
 from typing import Any
 
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.modules.core.models import Jurisdiction
@@ -48,6 +48,92 @@ class BrowseService:
             "quoted_text": ev.quoted_text,
             "review_status": ev.review_status,
         }
+
+    def corporate_tax(self, on: date) -> list[dict[str, Any]]:
+        """Headline corporate income tax per jurisdiction for the map: the flat rate, or for a
+        bracketed rule the top (open-ended) bracket, with the lowest bracket as ``min_rate``."""
+        stmt = (
+            select(Jurisdiction.code, Jurisdiction.name, DomesticTaxRule)
+            .join(DomesticTaxRule, DomesticTaxRule.jurisdiction_id == Jurisdiction.id)
+            .join(TaxType, DomesticTaxRule.tax_type_id == TaxType.id)
+            .join(IncomeCategory, DomesticTaxRule.income_category_id == IncomeCategory.id)
+            .where(
+                TaxType.code == "CIT",
+                IncomeCategory.code == "CORPORATE_PROFIT",
+                DomesticTaxRule.valid_period.contains(on),
+            )
+        )
+        found: dict[str, dict[str, Any]] = {}
+        for code, name, rule in self.session.execute(stmt):
+            rates = [b.rate for b in sorted(rule.brackets, key=lambda b: b.position)]
+            top = rates[-1] if rates else rule.rate
+            if top is None or (code in found and Decimal(found[code]["rate"]) >= top):
+                continue
+            found[code] = {
+                "code": code,
+                "name": name,
+                "rate": _d(top),
+                "min_rate": _d(min(rates)) if rates else None,
+                "bracketed": bool(rates),
+                "citation": rule.source_evidence_id,
+            }
+        wht = self._wht_ranges(on)
+        treaties = self._treaty_counts(on)
+        out = []
+        for c, n in self.session.execute(select(Jurisdiction.code, Jurisdiction.name)):
+            row = found.get(c) or {"code": c, "name": n, "rate": None, "min_rate": None,
+                                   "bracketed": False, "citation": None}
+            regime = HoldingRegimeRepository(self.session).get(c, on)
+            row["summary"] = {
+                "wht": wht.get(c, {}),
+                "participation_exemption": None if regime is None else {
+                    "dividends": regime.participation_exemption_dividends,
+                    "capital_gains": regime.participation_exemption_capgains,
+                    "min_holding_pct": _d(regime.min_holding_pct),
+                    "exempt_share_pct": _d(regime.exempt_share_pct),
+                },
+                "lists": [
+                    {"code": h.list_code, "classification": h.classification}
+                    for h in RiskEngine(self.session).profile(c, on).memberships
+                ],
+                "treaties_in_force": treaties.get(c, 0),
+            }
+            out.append(row)
+        return sorted(out, key=lambda r: r["code"])
+
+    def _wht_ranges(self, on: date) -> dict[str, dict[str, dict[str, str]]]:
+        """Lowest and highest domestic withholding rate per jurisdiction and income category."""
+        stmt = (
+            select(Jurisdiction.code, IncomeCategory.code, DomesticTaxRule.rate)
+            .join(DomesticTaxRule, DomesticTaxRule.jurisdiction_id == Jurisdiction.id)
+            .join(TaxType, DomesticTaxRule.tax_type_id == TaxType.id)
+            .join(IncomeCategory, DomesticTaxRule.income_category_id == IncomeCategory.id)
+            .where(
+                TaxType.code.like("WHT%"),
+                IncomeCategory.code.in_(("DIVIDEND", "INTEREST", "ROYALTY")),
+                DomesticTaxRule.valid_period.contains(on),
+                DomesticTaxRule.rate.is_not(None),
+            )
+        )
+        seen: dict[str, dict[str, list[Decimal]]] = {}
+        for code, category, rate in self.session.execute(stmt):
+            if rate is None:
+                continue
+            seen.setdefault(code, {}).setdefault(category, []).append(rate)
+        return {
+            code: {cat: {"min": str(min(rs)), "max": str(max(rs))} for cat, rs in cats.items()}
+            for code, cats in seen.items()
+        }
+
+    def _treaty_counts(self, on: date) -> dict[str, int]:
+        stmt = (
+            select(Jurisdiction.code, func.count(Treaty.id))
+            .join(TreatyParty, TreatyParty.jurisdiction_id == Jurisdiction.id)
+            .join(Treaty, Treaty.id == TreatyParty.treaty_id)
+            .where(Treaty.entry_into_force_date <= on)
+            .group_by(Jurisdiction.code)
+        )
+        return {code: n for code, n in self.session.execute(stmt)}
 
     def jurisdiction(self, code: str, on: date) -> dict[str, Any] | None:
         j = self.session.scalar(select(Jurisdiction).where(Jurisdiction.code == code))

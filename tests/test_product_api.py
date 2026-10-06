@@ -127,3 +127,17 @@ def test_lists_and_evidence(seeded):
     ev = client.get(f"/v1/evidence/{etnc['citation']}").json()
     assert ev["document_url"].startswith("https://www.legifrance.gouv.fr")
     assert client.get("/v1/evidence/999999").status_code == 404
+
+
+def test_browse_corporate_tax_map(seeded):
+    body = _client(seeded).get("/v1/browse/corporate-tax", params={"on_date": "2026-10-06"}).json()
+    rows = {r["code"]: r for r in body["jurisdictions"]}
+    assert rows["AE"]["rate"] == "9.000" and rows["AE"]["min_rate"] == "0.000"
+    assert rows["AE"]["bracketed"] is True and rows["AE"]["citation"]
+    assert rows["FR"]["rate"] == "25.000" and rows["FR"]["min_rate"] is None
+    assert rows["IE"]["rate"] == "12.500"  # trading rate, not the 25% passive-income rules
+    assert rows["PA"]["rate"] is None  # no corporate tax rule recorded
+    fr = rows["FR"]["summary"]
+    assert fr["wht"]["DIVIDEND"]["max"] and fr["participation_exemption"]["dividends"] is True
+    assert fr["treaties_in_force"] > 50
+    assert "EU_TAX_ANNEX_I" in {x["code"] for x in rows["PA"]["summary"]["lists"]}
