@@ -1,0 +1,58 @@
+{
+ "a": "SY",
+ "b": "AM",
+ "treaty_name": "Convention between the Government of the Republic of Armenia and the Government of the Syrian Arab Republic for the avoidance of double taxation with respect to taxes on income (2005)",
+ "signed": "2005-06-29",
+ "entry_into_force": "2006-12-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+ "eif_quote": "[AM MLI] ... Syrian Arab Republic Original 29-06-2005 11-12-2006",
+ "source_title": "Armenia MoF: SYRIA_DoubleTaxationTreaty_EN.pdf (scanned English text in RAR archive; read visually)",
+ "source_url": "https://minfin.am/website/images/files/43.SYRIA_DoubleTaxationTreaty.rar",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 12 per cent of the gross amount of the royalties referred to in paragraph 3 of this Article."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://minfin.am/website/images/files/43.SYRIA_DoubleTaxationTreaty.rar",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) residence-only for interest derived and beneficially owned by the other State, its administrative-territorial subdivisions, local authorities or Central Bank (not modelled). Royalty definition includes equipment rental. Art. 28: EIF on exchange of ratification instruments (11.12.2006 per AM MLI list); WHT applies to income derived on/after 1 January of the year following EIF (2007-01-01). English text prevails. Not MLI-covered (SY not a signatory).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date from AM MLI list (map); quotes transcribed visually from scan"
+ ]
+}

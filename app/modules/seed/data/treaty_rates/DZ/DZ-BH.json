@@ -1,0 +1,47 @@
+{
+ "a": "DZ",
+ "b": "BH",
+ "treaty_name": "Convention between Algeria and Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2000)",
+ "signed": "2000-06-11",
+ "entry_into_force": "2003-09-29",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.mofne.gov.bh/en/bilateral-agreements ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+ "eif_quote": "[DZ DGI list] البحرين | سارية المفعول ابتداء من 24/09/2003 ... 11/06/2000 البحرين || [BH list] Algeria Signature Date : 11 Jun 2000 Force Date : 29 Sep 2003 Avoidance of Double Taxation Agreement || [BH MLI] Algeria Original 11-06-2000 29-09-2003",
+ "source_title": "JORA n° 50 du 20 août 2003 – Décret présidentiel n° 03-276 portant ratification de la convention Algérie–Bahreïn (11 juin 2000), French edition",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2003/F2003050.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les dividendes payés par une société qui est un résident d’un Etat contractant à un résident de l’autre Etat contractant ne sont imposables que dans cet autre Etat."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les intérêts provenant d’un Etat contractant et payés à un résident de l’autre Etat contractant ne sont imposables que dans cet autre Etat."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Article numbering in this treaty is shifted: Art. 10 = associated enterprises, Art. 11 = dividends, Art. 12 = interest, Art. 13 = royalties. ROYALTY omitted: Art. 13(1) only says royalties 'sont imposables dans cet autre Etat' (may be taxed in the residence State) and the article contains no paragraph granting or capping source-State taxation, so the treaty sets no source-State limit (source State taxes under domestic law). Art. 30(2)(a): WHT provisions apply to amounts paid from 1 January of the calendar year following the exchange of notifications (EIF Sept 2003 -> 2004-01-01). EIF date conflict: 24/09/2003 (Algeria DGI) vs 29/09/2003 (Bahrain list/MLI); Bahrain date kept from map. No MLI (Algeria not ratified).",
+ "confidence": "medium",
+ "unverified": [
+  "Read the French JORA edition only (Arabic is the authentic text); royalty article wording ('sont imposables' without source cap) not cross-checked against the Arabic original."
+ ]
+}

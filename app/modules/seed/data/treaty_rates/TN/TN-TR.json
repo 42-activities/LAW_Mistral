@@ -1,0 +1,67 @@
+{
+ "a": "TN",
+ "b": "TR",
+ "treaty_name": "Agreement between Tunisia and Turkey (1986)",
+ "signed": "1986-10-02",
+ "entry_into_force": "1987-12-28",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "[TN MLI list] Turquie Original 02-10-1986 28-12-1987 || [TR GIB list] 5) Tunus 02.10.1986 30.09.1987 - 19590 28.12.1987 01.01.1988",
+ "source_title": "Accord Tunisie-Turquie 1986, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Turquie.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1988-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a — 12 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b — 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui perçoit la redevance en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 % du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Interest paid to the other State's government or central bank exempt (Art. 11(3)). Tunisia notified Art. 10(2)(a) for MLI art. 8, but the MLI is not in force for Türkiye, so no 365-day rule. valid_from: Art. 28(2) 1 January following exchange of ratification (EIF 28-12-1987) -> 1988-01-01 (matches GIB list). PPT: not applied - Türkiye has signed but not ratified the MLI; no PPT in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

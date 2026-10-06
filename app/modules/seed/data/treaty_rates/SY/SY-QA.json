@@ -1,0 +1,56 @@
+{
+ "a": "SY",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003)",
+ "signed": "2003-10-23",
+ "entry_into_force": "2006-04-27",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "GTA AR feed: سوريا signature 23-أكتوبر-2003, date 27-أبريل-2006 || [QA MLI] Syria Original 23/10/2003 27/04/2006",
+ "source_title": "Qatar GTA: Arabic text of QA-SY Agreement (DTA Syria (AR).pdf)",
+ "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Syria%20(AR).pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- يجوز أيضاً تكليف أرباح الأسهم المذكورة في البند (١) من هذه المادة بالضريبة في الدولة المتعاقدة التي تكون الشركة دافعة الأرباح مقيمة فيها ووفقاً لقوانين تلك الدولة. ولكن إذا كان المستفيد هو المالك الفعلي لأرباح الأسهم ومقيماً في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة هكذا ينبغي أن لا تتجاوز نسبة (٥%) من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- يجوز أن تخضع الفائدة المذكورة في البند السابق أيضاً للتكليف الضريبي في الدولة المتعاقدة التي تنشأ فيها ووفقا لقوانين تلك الدولة، فإذا كان المكلف بالضريبة، وهو المالك المستفيد من الفائدة، مقيماً في الدولة المتعاقدة الأخرى فإن الضريبة المفروضة يجب أن لا تتجاوز نسبة (١٠%) من المبلغ الإجمالي للفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- يجوز أن تخضع أيضاً العائدات المذكورة في البند السابق للتكليف الضريبي في الدولة المتعاقدة التي تنشأ فيها ووفقا لقوانين تلك الدولة، وشريطة أن لا تتجاوز الضريبة المفروضة على هذا النحو نسبة (١٨%)، من المبلغ الإجمالي للعائدات أو ما تقرره التشريعات المحلية في الدولتين المتعاقدتين أيهما أقل."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Syria%20(AR).pdf",
+  "quote": ""
+ },
+ "notes": "Royalties: cap is 18% or the domestic-law rate, whichever is lower. Interest: Art. 11(3) exempts interest beneficially owned by the bodies listed in Art. 4(2) (government entities) and on debt-claims guaranteed/insured/financed by a financial institution wholly owned by the other State's government or local authority (not modelled). Art. 28: EIF 30 days after receipt of the last notification (27.04.2006 per GTA feed); WHT applies to amounts paid/credited on/after 1 January following the EIF year (2007-01-01). Arabic only. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,80 @@
+{
+ "a": "MA",
+ "b": "GB",
+ "treaty_name": "Convention between the United Kingdom of Great Britain and Northern Ireland and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1981)",
+ "signed": "1981-09-08",
+ "entry_into_force": "1990-11-29",
+ "eif_source_url": "https://assets.publishing.service.gov.uk/media/5a7f50f840f0b6230268ec32/morocco-dtc_-_in_force.pdf",
+ "eif_quote": "SIGNED 8 SEPTEMBER 1981 Entered into force 29 November 1990 Effective in United Kingdom from 1 April 1981 for corporation tax and from 6 April 1981 for income tax and capital gains tax Effective in Morocco from 1 January 1991",
+ "source_title": "HMRC/gov.uk: UK/Morocco Double Taxation Convention signed 8 September 1981 (in force)",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a7f50f840f0b6230268ec32/morocco-dtc_-_in_force.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "MA",
+   "quote": "(2) Dividends derived from a company which is a resident of Morocco by a resident of the United Kingdom may be taxed in the United Kingdom. Such dividends may also be taxed in Morocco but where the dividends are beneficially owned by a resident of the United Kingdom the Moroccan tax so charged shall not exceed: (a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company which controls at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1991-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MA",
+   "quote": "(b) in all other cases 25 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1981-04-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GB",
+   "quote": "(1) Dividends derived from a company which is a resident of the United Kingdom by a resident of Morocco may be taxed in Morocco but, where the dividends are beneficially owned by a resident of Morocco, they shall be exempt from any tax in the United Kingdom which is chargeable on dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://assets.publishing.service.gov.uk/media/5a7f50f840f0b6230268ec32/morocco-dtc_-_in_force.pdf",
+  "quote": "No PPT in the 1981 Convention. Morocco has signed but not ratified the MLI, so the MLI does not apply."
+ },
+ "notes": "The dividend article works differently in each direction. Morocco-source dividends: 10% if the beneficial owner is a company that controls at least 10% of the capital, otherwise 25%. UK-source dividends paid to a Moroccan beneficial owner are exempt from any UK tax chargeable on dividends, so it is modelled as exclusive with source_state GB. Interest received by or on behalf of the other Contracting State is exempt (Art. 11(7)); not modelled. 'Royalties' also covers equipment rental and fees for managerial, technical or consultancy services (Art. 12(3)(b)); the recipient may elect to be taxed on a net basis, with deductible expenses capped at 70%. valid_from: Art. 27(2)(a)(i) applies the treaty to Moroccan withholding taxes from the first day of the month after the exchange of ratifications. The exchange date is not stated: entry into force on 29-11-1990 (30 days after the exchange) suggests the exchange took place around 29-10-1990, which would give 1990-11-01. HMRC's cover note says 'Effective in Morocco from 1 January 1991', and that date is used. On the UK side the treaty is effective from 6 April 1981 for income tax and 1 April 1981 for corporation tax. The UK does not levy withholding tax on dividends under its domestic law.",
+ "confidence": "high",
+ "unverified": [
+  "Exact exchange-of-ratifications date. Under Art. 27(2)(a)(i), Moroccan withholding tax may be covered from 1990-11-01 rather than the 1991-01-01 that HMRC states."
+ ]
+}

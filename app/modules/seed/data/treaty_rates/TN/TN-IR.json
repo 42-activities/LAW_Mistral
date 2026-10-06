@@ -1,0 +1,58 @@
+{
+ "a": "TN",
+ "b": "IR",
+ "treaty_name": "Convention between Tunisia and Iran (2001)",
+ "signed": "2001-07-16",
+ "entry_into_force": "2005-07-14",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Iran Original 16-07-2001 14-07-2005",
+ "source_title": "Convention Tunisie-Iran 2001, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/IRAN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif et est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui perçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi, ne peut excéder 8% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Interest paid to the other State's government, ministries, government institutions, local authorities, central bank and 100% state-owned banks exempt (Art. 11(4)). valid_from: Art. 27(2)(a) 1 January following EIF (14-07-2005) -> 2006-01-01. French text likely a translation. PPT: not applied - Iran is not an MLI signatory; no PPT in the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only"
+ ]
+}

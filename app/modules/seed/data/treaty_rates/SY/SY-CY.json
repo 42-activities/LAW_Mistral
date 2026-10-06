@@ -1,0 +1,80 @@
+{
+ "a": "SY",
+ "b": "CY",
+ "treaty_name": "Agreement between the Government of the Republic of Cyprus and the Government of the Syrian Arab Republic for the avoidance of double taxation with respect to taxes on income (1992)",
+ "signed": "1992-03-15",
+ "entry_into_force": "1995-02-22",
+ "eif_source_url": "https://www.gov.cy/mof/documents/forologiki-politiki-kai-metarrythmiseis-2/symvaseis-apofygis-diplis-forologias-2/",
+ "eif_quote": "68 Συρία 15/03/1992 22/02/1995 2863 – 04 /03/ 1994",
+ "source_title": "Cyprus MoF English text of CY-SY Agreement (scan, Wayback copy of mof.gov.cy syria_en.pdf; read visually)",
+ "source_url": "https://web.archive.org/web/20180218235044id_/http://mof.gov.cy:80/assets/modules/wnp/articles/201610/45/editor/syria_en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2 the Contracting State of which the company paying the dividends is a resident shall not levy a tax on dividends paid by that company to a company the capital of which is wholly or partly divided into shares and which is a resident of the other Contracting State and holds directly at least 25 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, interest referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which it arises, and according to the laws of that State , but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties under para. 3(a))",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the royalties referred to in sub-paragraph a) of paragraph 3 and 10 per cent of the gross amount of the royalties referred to in sub-paragraph b) of paragraph 3."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties under para. 3(b))",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "... and 10 per cent of the gross amount of the royalties referred to in sub-paragraph b) of paragraph 3. [3(b): any copyright of literary, artistic or scientific work including cinematograph films, and films or tapes for television or radio broadcasting]"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://web.archive.org/web/20180218235044id_/http://mof.gov.cy:80/assets/modules/wnp/articles/201610/45/editor/syria_en.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends: 0% at source (exempt) for a company resident in the other State holding directly ≥25% of capital (Art. 10(3)); 15% otherwise. Royalties: 15% for patents, trademarks, designs, plans, secret formulas, equipment rental and know-how (para. 3(a), general tier); 10% for copyright incl. films/TV/radio tapes (para. 3(b)). Interest: Art. 11(3) exempts interest derived by the other State's Government, political subdivisions, local authorities, Central Bank or statutory bodies and on loans made/guaranteed by them (not modelled). Art. 27: EIF on exchange of ratification instruments (22.02.1995 per CY MoF list); WHT applies to amounts derived on/after 1 January of the year following EIF (1996-01-01). Text authentic in English only. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Quotes transcribed visually from scanned PDF (Wayback copy; live mof.gov.cy returns 403)"
+ ]
+}

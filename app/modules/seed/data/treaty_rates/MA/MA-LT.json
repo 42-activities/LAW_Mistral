@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "LT",
+ "treaty_name": "Convention between the Government of the Republic of Lithuania and the Government of the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013)",
+ "signed": "2013-04-19",
+ "entry_into_force": "2022-04-04",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://web.archive.org/web/20260228085726/https://www.vmi.lt/evmi/tarptautines-dvigubo-apmokestinimo-isvengimo-sutartys",
+ "eif_quote": "[DGI Maroc, Tableau récapitulatif des conventions fiscales en vigueur] 36 Lituanie | DTC | Washington | 19/04/13 | 04/04/22 || [VMI list] 38. Marokas | 2014 Nr.4858 | (ENG pdf) | 2023-01-01 || [Art. 29(2)] The Convention shall enter into force on the date of the later of the notifications referred to in paragraph 1 and its provisions shall have effect in both Contracting States: a) in respect of taxes withheld at source, on amounts paid or credited, on or after the first day of January of the calendar year following that in which this Convention enters into force",
+ "source_title": "LT-MA Convention, English text (scan) published by the Lithuanian State Tax Inspectorate (VMI), TAR 2014 Nr. 4858",
+ "source_url": "https://www.vmi.lt/evmi/documents/20142/1553616/Marocco.pdf/58fcacf7-4826-787e-32b6-e2c9fa8c6862?t=1737107696628",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty text has no principal purpose test article."
+ },
+ "notes": "Art. 11(3): interest derived and beneficially owned by the Government of the other State (incl. political subdivisions, local authorities, Central Bank) exempt in the source State. Art. 10(6): branch profits remittance tax up to 5% (not modelled). valid_from 2023-01-01 taken from the VMI list (application date), consistent with Art. 29(2)(a) (EIF during 2022). Exact entry-into-force date not found in an official source reachable (e-tar.lt behind Cloudflare; Wayback rate-limited); the LT MLI deposit list shows no EIF date. Text read from page images of the scan. Art. 12(3) royalty definition includes industrial/commercial/scientific equipment rentals and technical assistance (services of a technical nature). Articles 1-30 contain no PPT/LOB clause (Arts 27 assistance in collection, 28 diplomats, 29 EIF, 30 termination). Entry into force 2022-04-04 comes from the Moroccan DGI summary table of conventions in force (Wayback copy, 2023). It matches the VMI application date 2023-01-01 under Art. 29(2).",
+ "confidence": "high",
+ "unverified": []
+}

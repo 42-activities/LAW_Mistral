@@ -1,0 +1,82 @@
+{
+ "a": "TN",
+ "b": "US",
+ "treaty_name": "Convention between Tunisia and the United States (1985, as amended by Protocol 1989)",
+ "signed": "1985-06-17",
+ "entry_into_force": "1990-12-26",
+ "eif_source_url": "https://www.irs.gov/pub/irs-lbi/table-3-list-of-tax-treaties.pdf",
+ "eif_quote": "[TN MLI list] Etats unis d'Amérique Original 17-06-1985 26-12-1990 Subséquent 04-10-1989 || [IRS table 3] Tunisia TIAS Jan. 1, 1990",
+ "source_title": "Convention Tunisie-Etats-Unis 1985 + Protocole 04-10-1989, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Etats-unis-Amerique.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1991-01-01",
+   "max_rate": "14",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 14 pourcent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de fait) qui détient directement au moins 25 pourcent du capital de la société qui paye les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1991-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 20 pourcent du montant brut des dividendes dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi n'excédera pas 15 pourcent du montant brut de ces intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as amended by Protocol Art. VI (paras 3(a)-(c))",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "«L'impôt ainsi prélevé ne doit pas dépasser 15% du montant brut des redevances visées aux alinéas (a), (b) et (c) du paragraphe 3 et 10% des redevances visées à l'alinéa (d) du paragraphe 3»."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as amended by Protocol Art. VI (para. 3(d) equipment)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "«L'impôt ainsi prélevé ne doit pas dépasser 15% du montant brut des redevances visées aux alinéas (a), (b) et (c) du paragraphe 3 et 10% des redevances visées à l'alinéa (d) du paragraphe 3»."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Royalties: 15% for copyright, patents/trademarks/know-how and contingent alienation gains (para. 3(a)-(c)); 10% for industrial/commercial/scientific equipment rental (para. 3(d)). Protocol Art. IV: 14% tier does not apply to dividends from a US RIC (20% applies) or REIT (20% only for individuals holding <25%, otherwise domestic rate). Interest exempt at source when paid to the other State/its subdivisions/exempt government agencies (Ex-Im Bank, OPIC), to a bank or similar financial institution on loans of at least 7 years, or by the Tunisian Government on loans to it (Art. 11(3)). Branch profits tax up to 14% (Art. 10(6) as amended). valid_from: Art. 28(2)(a) first day of quarter after exchange, but not later than 1 January following (EIF 26-12-1990) -> 1991-01-01 (derived); IRS table shows general effective date Jan. 1, 1990. No limitation-on-benefits article found in the French text read. PPT: not applied - United States is not an MLI signatory; no PPT in the treaty text read.",
+ "confidence": "medium",
+ "unverified": [
+  "Protocol amendments read in French translation; authentic English text not checked",
+  "valid_from derived",
+  "absence of LOB clause"
+ ]
+}

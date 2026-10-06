@@ -1,0 +1,70 @@
+{
+ "a": "MA",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Kingdom of Morocco for the avoidance of double taxation with respect to taxes on income and on capital (1972)",
+ "signed": "1972-06-07",
+ "entry_into_force": "1974-10-08",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Marokko/1974-11-16-Marokko-Abkommen-DBA-Bekanntmachung.pdf?__blob=publicationFile&v=1",
+ "eif_quote": "[BGBl. 1974 II S. 1325, scan transcribed] ... wird hiermit bekanntgemacht, daß das Abkommen nach seinem Artikel 29 Abs. 2 sowie das Schlußprotokoll und der Briefwechsel zu diesem Abkommen am 8. Oktober 1974 in Kraft getreten sind. Die Ratifikationsurkunden sind am 8. Oktober 1974 in Bonn ausgetauscht worden.",
+ "source_title": "BGBl. 1974 II S. 21 (Gesetz vom 23.01.1974 zum DBA Deutschland–Marokko vom 7.6.1972, mit Schlußprotokoll und Briefwechsel), BMF PDF (image scan)",
+ "source_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Staatenbezogene_Informationen/Laender_A_Z/Marokko/1974-01-26-Marokko-Abkommen-DBA-Gesetz.pdf?__blob=publicationFile&v=1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "1974-11-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[scan transcribed] 1. 5 vom Hundert des Bruttobetrages der Dividenden, wenn der Empfänger eine Gesellschaft ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "1974-11-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[scan transcribed] 2. 15 vom Hundert des Bruttobetrages der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1974-11-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[scan transcribed] (2) Diese Zinsen können jedoch in dem Vertragstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 10 vom Hundert des Bruttobetrages der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1974-11-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[scan transcribed] (2) Diese Lizenzgebühren können jedoch in dem Vertragstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber 10 vom Hundert des Bruttobetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "notes": "Art. 29(2)(1): WHT provisions apply to income received or paid from the first day of the month following the month of exchange of ratification instruments (8-10-1974 -> 1974-11-01). Art. 10(3) (25.75% German dividend WHT while the German split corporate tax rate differed by >=20 points, for >=25% Moroccan parent) is obsolete since the abolition of the split-rate system; not modelled. Art. 11(3): interest paid to Deutsche Bundesbank, KfW, DEG (Germany) or Banque du Maroc (Morocco) exempt at source - not modelled. Royalties: single 10% cap incl. films, equipment rental and technical/economic studies (Art. 12(3)). Exchange of letters 7-6-1972: if German law on substantial participations is extended to holdings below 25% in EC harmonisation, Arts. 10 and 23 extend to such holdings - contingent, not modelled. No PPT; Morocco not an MLI party.",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from image scan (BMF PDF); quotes are manual transcriptions.",
+  "Whether the 1972 exchange-of-letters extension (<25% holdings) was ever triggered."
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty has no PPT article; MLI not in force for Morocco",
+  "source_url": null,
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; no MLI PPT applies."
+ }
+}

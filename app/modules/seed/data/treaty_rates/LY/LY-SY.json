@@ -1,0 +1,27 @@
+{
+ "a": "LY",
+ "b": "SY",
+ "treaty_name": "Agreement between the Great Socialist People's Libyan Arab Jamahiriya and the Syrian Arab Republic for the avoidance of double taxation (in force 2009) — title not verified",
+ "signed": null,
+ "entry_into_force": "2009-01-01",
+ "eif_source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "eif_quote": "[LY list: تاريخ دخول الاتفاقية حيز النفاذ | اسم الدولة] 01/01/2009م سوريا 11",
+ "source_title": "none — treaty text not obtainable (only Libya's treaty list read)",
+ "source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Libya and Syria not MLI parties)",
+  "source_url": "https://tax.gov.ly/assets/ET.pdf",
+  "quote": ""
+ },
+ "notes": "Treaty text not obtained: tax.gov.ly publishes only a one-page list of treaties (ET.pdf, no texts); Syrian Ministry of Finance site (syrianfinance.gov.sy) returned HTTP 503 and mof.gov.sy serves only a hosting placeholder; no Syrian official list or text found; web search unavailable in this session. The Libyan list date 01/01/2009 may be the effective date rather than the entry-into-force date. Signature date unknown. No rates recorded rather than taking values from secondary sources.",
+ "confidence": "low",
+ "unverified": [
+  "treaty name",
+  "signature date",
+  "entry into force date (Libya's list only)",
+  "all rates"
+ ]
+}

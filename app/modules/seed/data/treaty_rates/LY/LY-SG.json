@@ -1,0 +1,67 @@
+{
+ "a": "LY",
+ "b": "SG",
+ "treaty_name": "Convention between the Republic of Singapore and the Great Socialist People's Libyan Arab Jamahiriya for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009)",
+ "signed": "2009-04-08",
+ "entry_into_force": "2010-12-23",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-libya-dta-ratified-23-dec-2010-.pdf?sfvrsn=99222f1d_7",
+ "eif_quote": "Date of Conclusion: 8 April 2009. Entry into Force: 23 December 2010. Effective Date: 1 January 2011.",
+ "source_title": "Singapore–Libya DTA (IRAS text, ratified 23 Dec 2010)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-libya-dta-ratified-23-dec-2010-.pdf?sfvrsn=99222f1d_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least ten per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Libya not an MLI signatory; IRAS lists MLI: No)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/singapore-libya-dta-ratified-23-dec-2010-.pdf?sfvrsn=99222f1d_7",
+  "quote": ""
+ },
+ "notes": "Dividends and interest paid to the other Contracting State (incl. Central Bank of Libya, MAS, GIC, statutory bodies and wholly/mainly state-owned institutions as agreed) are exempt at source (Arts 11(3)-(4), 12(3)-(4); not modelled). Royalty definition includes software. valid_from = IRAS 'Effective Date: 1 January 2011' (Libya side, Art. 29(2)(a)); for Singapore tax Art. 29(2)(b) gives effect for years of assessment beginning on or after 1 January 2012 (second calendar year after EIF). Art. 29 text is internally inconsistent (para 1: 30 days after later notification; para 2: on date of later notification); EIF date 23 Dec 2010 per IRAS.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "TN",
+ "b": "SA",
+ "treaty_name": "Convention between Tunisia and Saudi Arabia (2010), as modified by the MLI",
+ "signed": "2010-07-08",
+ "entry_into_force": "2013-04-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/default.aspx",
+ "eif_quote": "[ZATCA] ...republic of Tunisia ... signed on 08/7/2010 and entered into force on 1/4/2013. || [TN MLI list] Arabie Saoudite Original 08-07-2010 01-04-2013 || [SA MLI] Tunisia Original 08-07-2010 15-01-2013",
+ "source_title": "اتفاقية بين حكومة الجمهورية التونسية وحكومة المملكة العربية السعودية (Arabic text, DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Arabie-saoudite-langue-arabe.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن إذا كان المالك المنتفع بأرباح الأسهم مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تتجاوز خمسة بالمائة (5%) من إجمالي قيمة أرباح الأسهم. [text extraction has glyph artefacts; normalised]"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب- نسبة خمسة بالمائة (5%) من إجمالي مبلغ الدخل من مطالبات الدين في الحالات الأخرى. [normalised from extraction]"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المنتفع من الإتاوات مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تزيد عن خمسة بالمائة (5%) من المبلغ الإجمالي للإتاوات. [normalised from extraction]"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-saudi-arabia-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1), applied to this covered agreement; no DGI consolidated text available] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest: 2.5% where the beneficial owner is a banking institution (Art. 11(2)(a) 'نسبة اثنان ونصف بالمائة (2,5 %) ... بالنسبة للمؤسسات المصرفية') - bank tier not modelled. Art. 28: treaty does not affect domestic anti-avoidance rules. valid_from: Art. 29(2)(a) WHT on amounts paid on/after 1 January following EIF (01-04-2013 per ZATCA/Tunisia; Saudi MLI says 15-01-2013) -> 2014-01-01. Quotes are normalised from a PDF text layer with Arabic glyph-substitution artefacts; figures are unaffected. Saudi Arabia reserved MLI art. 8 (not relevant: single dividend rate).",
+ "confidence": "high",
+ "unverified": [
+  "Arabic quotes normalised from corrupted text layer"
+ ]
+}

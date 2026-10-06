@@ -1,0 +1,69 @@
+{
+ "a": "IR",
+ "b": "HR",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2003)",
+ "signed": "2003-05-20",
+ "entry_into_force": "2008-10-30",
+ "eif_source_url": "https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+ "eif_quote": "[Porezna uprava list] Iran | Dohodak i imovina | 10/04 | 01.01.2009. || [HR MLI] Iran Original 20-05-2003 30-10-2008",
+ "source_title": "Narodne novine - Međunarodni ugovori 10/2004 (Zakon o potvrđivanju Ugovora HR-IR)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2004_10_10_95.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a. 5% bruto-iznosa dividendi kad je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 25% kapitala društva koje isplaćuje dividendu;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 10% bruto-iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ali ako je primatelj kamata rezident druge države ugovornice i stvarni korisnik kamata, tako razrezan porez ne smije biti veći od 5% bruto-iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ali ako je primatelj stvarni korisnik tih naknada, tako razrezan porez ne može biti veći od 5% bruto-iznosa naknada."
+  }
+ ],
+ "notes": "Art. 28(2): EIF on exchange of ratification instruments; applies to income derived at/after the beginning of the calendar year following EIF -> 1 Jan 2009 (Porezna uprava list). EIF date 30 Oct 2008 from Croatia's MLI notification (NN MU 10/2004 law states treaty not yet in force). Art. 11(4): interest derived by the other State, ministries, other governmental institutions, municipalities, central bank and banks wholly owned by that State exempt at source. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2008-10-30 from MLI notification, not an NN notice"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

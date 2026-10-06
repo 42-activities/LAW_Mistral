@@ -1,0 +1,69 @@
+{
+ "a": "DZ",
+ "b": "BE",
+ "treaty_name": "Convention between Algeria and Belgium for the avoidance of double taxation and the establishment of rules of mutual assistance on taxes on income and on capital (1991)",
+ "signed": "1991-12-15",
+ "entry_into_force": "2003-01-10",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+ "eif_quote": "[DZ DGI list] بلجيكا | سارية المفعول ابتداء من 10/01/2003 ... بلجيكا 15/12/1991 || [BE MLI] Algérie Original 15-12-1991 10-01-2003",
+ "source_title": "JORA n° 82 du 11 décembre 2002 – Décret présidentiel n° 02-432 portant ratification de la convention Algérie–Belgique (Alger, 15 décembre 1991)",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2002/F2002082.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des dividendes est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder quinze pour cent (15%) du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder quinze pour cent (15%) du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) cinq pour cent (5%) du montant brut des redevances payées pour l’usage ou la concession de l’usage d’un droit d’auteur sur une œuvre littéraire, artistique ou scientifique, à l’exclusion des films cinématographiques et des films ou bandes pour la radiodistribution ou la télévision;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) quinze pour cent (15%) du montant brut des redevances dans les autres cas."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29(2): in force on the 30th day after exchange of ratification instruments (EIF 10-01-2003 per both lists, i.e. exchange in Dec 2002); WHT provisions apply to income attributed or paid from 1 January of the year following the exchange (2003-01-01). Interest exclusive to residence State (Art. 11(3)) for trade credits on deferred payment for goods/services, loans by banking enterprises not represented by bearer securities, and bank deposits; interest received by a Contracting State itself exempt (Art. 11(4)). Royalty 5% tier = literary/artistic/scientific copyright excluding films/broadcast tapes; royalty definition includes equipment rental. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": [
+  "Exchange-of-instruments date not printed in the JORA text; valid_from derived from EIF 10-01-2003 (exchange assumed Dec 2002)."
+ ]
+}

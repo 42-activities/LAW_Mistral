@@ -1,0 +1,58 @@
+{
+ "a": "PS",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Arab Republic of Egypt and the Palestine Liberation Organization (for the benefit of the Palestinian National Authority) for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-04-28",
+ "entry_into_force": "1999-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+ "eif_quote": "[EG MLI] ... الفلسطينية ... Palestine Original 28-Apr-1998 28-Dec-1999",
+ "source_title": "Egyptian Tax Authority: Arabic text of EG-PLO agreement (copy of Official Gazette no. 5, 3/2/2000)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/flstyn.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢) ومع ذلك فإن أرباح الأسهم هذه يجوز أن تخضع للضريبة في الطرف المتعاقد المقيم به الشركة الدافعة لهذه الأرباح طبقا لقوانين ذلك الطرف، ولكن إذا كان المستلم هو المالك المستفيد من أرباح الأسهم فإن الضريبة المفروضة لا يجوز أن تزيد عن (١٥%) من المبلغ الإجمالي للتوزيعات"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١) تخضع الفوائد الناجمة عن استثمار رؤوس الأموال في مختلف أشكالها للضريبة في الطرف المتعاقد الذي تنتج فيه تلك الفوائد، ولكن إذا كان المستلم هو المالك المستفيد للفوائد فإن الضريبة التي تفرض يجب ألا تزيد عن (١٥%) من إجمالي مبلغ الفوائد. ويجوز أن تخضع الفوائد للضريبة في الطرف الذي يقيم فيه الشخص المستفيد"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "١) تخضع الإتاوات التي تنشأ في أحد الطرفين المتعاقدين وتدفع إلى شخص مقيم في الطرف المتعاقد الآخر للضريبة في الطرف الذي تنشأ فيه تلك الإتاوات ولكن إذا كان المستلم هو المالك المستفيد للإتاوات فإن الضريبة المفروضة يجب أن لا تزيد عن (١٥%) من إجمالي مبلغ الإتاوات"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; PS not an MLI signatory)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/flstyn.pdf",
+  "quote": ""
+ },
+ "notes": "Counterparty is the PLO for the benefit of the Palestinian National Authority. Art. 30(2): the agreement is effective from the first day of the calendar year following the year in which the notifications were exchanged (EIF 28.12.1999 per EG MLI list → 2000-01-01). Only Arabic text available; quotes reconstructed from the ETA PDF text layer with ligature fixes (ال→لا). Not MLI-covered (PS not a signatory).",
+ "confidence": "high",
+ "unverified": [
+  "Quotes cleaned from garbled PDF text layer (percentages and wording confirmed in extraction)"
+ ]
+}

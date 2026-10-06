@@ -1,0 +1,37 @@
+{
+ "a": "SD",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of the Sudan on the avoidance of double taxation (1998)",
+ "signed": "1998-06-30",
+ "entry_into_force": "2003-01-01",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "[QA GTA] \"date\":\"1-يناير-2003\" ... \"signature_date\":\"30-يونيو-1998\" ; [Art. 27(3)] تعتبر هذه الإتفاقية نافذة أعتبارا من اليوم الأول من السنة الميلادية التي تلي السنة التي فيها تبادل الأخطارين على الوجه المنصوص علية فى البند (2) من هذه المادة",
+ "source_title": "Qatar GTA: Qatar–Sudan double taxation agreement (Arabic, signed Khartoum 30/6/1998); same text as tax.gov.sd qtar.pdf",
+ "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Sudan%20(AR).pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "الفوائد الناتجة في دولة متعاقدة ويتم دفعها إلى مقيم في الدولة المتعاقدة الأخرى تخضع للضريبة في هذه الدولة المتعاقدة الأخرى ."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan is not an MLI signatory; treaty has no PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Short Arab-style agreement that assigns taxing rights instead of setting rate caps. Dividends (Art. 10(1)): 'يجوز أن تخضع للضريبة أرباح الأسهم التي تدفعها شركة مقيمة في إحدى الدولتين المتعاقدتين إلى شركة مقيمة في الدولة المتعاقدة الأخرى' (may be taxed in the residence State); there is no source-State limit, so dividends are omitted. Royalties (Art. 12(1)): 'تخضع الأتاوات ... للضريبة في الدولة التي تنشأ فيها تلك الأتاوات' (taxed in the source State, no cap), so royalties are omitted. Interest (Art. 11(1)) is assigned to the residence State with the same mandatory verb ('تخضع') the treaty uses for exclusive allocations (e.g. Art. 13(4)), and there is no source-State clause, so it is modelled as exclusive. The word 'only' (فقط) is not used. EIF date: Qatar GTA gives 1 Jan 2003, which is the Art. 27(3) effective date (1 Jan after the year notifications were exchanged). Qatar lists the treaty under the MLI, but Sudan is not an MLI signatory.",
+ "confidence": "medium",
+ "unverified": [
+  "whether Art. 11(1) is read as exclusive residence taxation in practice (no 'only')",
+  "the exact date notifications were exchanged (2002 implied)"
+ ]
+}

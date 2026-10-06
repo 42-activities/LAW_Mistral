@@ -1,0 +1,58 @@
+{
+ "a": "SD",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the Hashemite Kingdom of Jordan and the Government of the Republic of the Sudan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2000)",
+ "signed": "2000-03-30",
+ "entry_into_force": "2005-01-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "[JO MLI] Sudan Original 30-03-2000 01-01-2005 ; [Art. 30(2)(a)] تصبح هذه الاتفاقية سارية المفعول من تاريخ تبادل وثائق التصديق ويبدأ سريان أحكامها لاول مرة : أ- على المبالغ التي تدفع في أو بعد أول كانون ثاني ( يناير ) من السنة التقويمية التالية للسنة التي تم فيها تبادل وثائق التصديق ، وذلك بالنسبة للضرائب المحجوزة عند المنبع.",
+ "source_title": "Jordan Official Gazette No. 4436 (1 June 2000), pp. 2136 ff., Jordan–Sudan agreement (scan published on tax.gov.sd)",
+ "source_url": "https://tax.gov.sd/wp-content/uploads/2025/02/Jordan.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن اذا كان المستلم هو المالك المستفيد من أرباح الاسهم فإن الضريبة المفروضة لا يجوز ان تزيد على ( ١٥% ) من المبلغ الاجمالي للتوزيعات"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن اذا كان المستلم هو المالك المستفيد للفوائد فإن الضريبة التي تفرض يجب الا تزيد على ( ١٥% ) من اجمالي مبلغ الفوائد ."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن اذا كان المستلم هو المالك المستفيد للاتاوات فإن الضريبة المفروضة يجب ان لا يزيد سعرها على ( ١٥% ) من اجمالي مبلغ الاتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan is not an MLI signatory; treaty has no PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Read from page images of the Jordan Official Gazette scan; the percentage glyphs are small but the zoomed text reads (١٥%) in all three articles. The dividend paragraph is numbered '٣' in the Gazette (a misprint for 2). The treaty enters into force when ratification instruments are exchanged, and WHT applies from 1 Jan of the following year (Art. 30). Jordan's MLI list gives 01-01-2005 as the entry-into-force date. If that is the exchange date, WHT applies from 2006-01-01 (used here). If 01-01-2005 is really the effective date, WHT applied from 2005. Sudan is not an MLI signatory.",
+ "confidence": "medium",
+ "unverified": [
+  "exact exchange-of-ratification date (valid_from may be 2005-01-01 instead of 2006-01-01)"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "a": "TN",
+ "b": "LB",
+ "treaty_name": "Convention between Tunisia and Lebanon (1998)",
+ "signed": "1998-06-24",
+ "entry_into_force": "2000-06-03",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC",
+ "eif_quote": "[TN MLI list] Liban Original 24-06-1998 03-06-2000 || [LB MoF] Tunisia June 24, 1998 February 23, 1999 June 3, 2000 Law N. 36",
+ "source_title": "Convention Tunisie-Liban 1998, French text + Protocol (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Liban.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 5 % du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 5 % du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "toutefois si la personne qui reçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi, ne peut excéder 5% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Arts 10(1) and 11(1) also cap residence-State tax at 5% ('Cependant, le montant de l'impôt ne peut excéder 5%'), subject to Art. 23. Interest paid to the other State's government, local/territorial authorities or wholly owned enterprises/financial bodies exempt (Art. 11(3)). Protocol (24-06-1998): MFN clause for Tunisian residents with reference to Art. 5 (more favourable provisions in Lebanon's other treaties) - not modelled. valid_from: Art. 28 WHT from 1 January following EIF (03-06-2000) -> 2001-01-01. French text is a translation (Arabic authentic). PPT: not applied - Lebanon is not an MLI signatory; no PPT in the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only",
+  "scope of Protocol MFN clause"
+ ]
+}

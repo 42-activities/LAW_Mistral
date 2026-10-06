@@ -1,0 +1,23 @@
+{
+ "a": "LY",
+ "b": "MA",
+ "treaty_name": "Convention for the avoidance of double taxation and the establishment of rules of mutual assistance with respect to taxes on income between the States of the Arab Maghreb Union (UMA, 1990)",
+ "signed": "1990-07-23",
+ "entry_into_force": "1993-07-14",
+ "eif_source_url": "https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+ "eif_quote": "[jibaya.tn UMA text] Date de signature : le 23/07/90 Date d'entrée en vigueur : — impôts retenus à la source : le 01/01/94 — autres impôts : 01/01/93 || [MA MLI] Convention ... entre les Etats de l'Union du Maghreb Arabe (UMA) Convention 23-07-1990 14-07-1993 || [LY list] 14/07/1993م اتحاد دول المغرب العربي",
+ "source_title": "Convention tendant à éviter les doubles impositions ... entre les Etats de l'Union du Maghreb Arabe (French text, Tunisian tax administration portal jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in UMA convention; Libya not an MLI signatory)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf",
+  "quote": ""
+ },
+ "notes": "No source-State limits under the Arab Maghreb Union (UMA) multilateral convention (signed Algiers 23-07-1990; parties TN, DZ, LY, MA, MR): dividends, interest and royalties are allocated to the SOURCE State without a rate cap, so all three categories are omitted. Art. 11(1): 'Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'un des autres Etats contractants sont imposables dans l'Etat d'où proviennent les bénéfices distribués et selon la législation de l'Etat d'où proviennent ces bénéfices.' Art. 12(1): 'Les intérêts provenant d'un Etat contractant et payés à un résident de l'un des autres Etats contractants sont imposables dans l'Etat où sont payés lesdits intérêts. L'Etat de la résidence du bénéficiaire des intérêts exonère ces derniers ou accorde l'imputation de l'impôt payé dans le pays de la résidence du débiteur des intérêts.' Art. 13(1): 'Les redevances provenant d'un Etat contractant et payées à un résident de l'un des autres Etats contractants ne sont imposables que dans l'Etat cité en premier lieu.' (royalties include technical/economic studies and technical assistance, Art. 13(2)). Art. 29(3): 'Les dispositions de la présente Convention se substituent aux dispositions prévues par les Conventions bilatérales.' Withholding-tax provisions apply from 1 Jan of the year after exchange of ratifications (Tunisian portal: impôts retenus à la source 01/01/94). Neither party is in the MLI for this instrument (Libya not an MLI signatory). Text read: French version on the Tunisian tax administration portal (jibaya.tn). The Algerian DGI link for the UMA convention (mfdgi.gov.dz files/570/---/762) serves a scan of JORA No. 6 of 7 Feb 1990, not the convention, so it was not usable. No bilateral Morocco–Libya treaty appears on Libya's or Morocco's lists; the UMA convention applies.",
+ "confidence": "high",
+ "unverified": [],
+ "no_cap": true
+}

@@ -1,0 +1,70 @@
+{
+ "a": "IR",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the Hashemite Kingdom of Jordan and the Government of the Islamic Republic of Iran for the avoidance of double taxation and exchange of information with respect to taxes on income (2003)",
+ "signed": "2003-05-28",
+ "entry_into_force": "2008-09-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "[JO MLI] Agreement between ... Jordan and ... The Islamic Republic Of Iran ... Iran Original 28-05-2003 01-09-2008",
+ "source_title": "Jordan Income and Sales Tax Department (istd.gov.jo) iran_eng1-3.pdf, signed English text (scanned; istd.gov.jo unreachable here, read via web.archive.org captures)",
+ "source_url": "https://web.archive.org/web/2020id_/http://www.istd.gov.jo:80/AttachedArabic/agreement/iran_eng1.pdf ; https://web.archive.org/web/2020id_/http://www.istd.gov.jo:80/AttachedArabic/agreement/iran_eng2.pdf ; https://web.archive.org/web/2020id_/http://www.istd.gov.jo:80/AttachedArabic/agreement/iran_eng3.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent of the gross amount of the dividends if the beneficial owner of the dividends is a company which has owned at least 25 percent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 7.5 percent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the resident of the other Contracting State and the beneficial owner of the interest the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "notes": "Art. 27(2): EIF upon exchange of ratification instruments; effective for income earned at/after the beginning of the calendar year following the year of legal effect -> 1 Jan 2009 (EIF 1 Sep 2008 per Jordan MLI notification). 5% dividend tier: company that 'has owned' at least 25% of capital (no holding period specified). Art. 11(4): interest derived by the other State, ministries, other governmental institutions, municipalities, Central Bank and banks wholly owned by that State exempt at source. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Official ISTD PDFs read via web.archive.org captures (scanned, visual reading)",
+  "EIF date from Jordan MLI notification only"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

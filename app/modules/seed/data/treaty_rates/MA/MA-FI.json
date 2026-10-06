@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "FI",
+ "treaty_name": "Convention between the Republic of Finland and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006)",
+ "signed": "2006-04-07",
+ "entry_into_force": "2012-10-19",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2013/18",
+ "eif_quote": "Tuloveroja koskevan kaksinkertaisen verotuksen välttämiseksi ja veron kiertämisen estämiseksi Suomen tasavallan ja Marokon kuningaskunnan välillä Helsingissä 7 päivänä huhtikuuta 2006 tehty sopimus on voimassa 19 päivästä lokakuuta 2012 niin kuin siitä on sovittu. ... Hyväksymistä koskevat nootit on vaihdettu 19 päivänä syyskuuta 2012.",
+ "source_title": "Finnish Treaty Series SopS 18/2013 (Finnish/French texts of the Finland-Morocco tax convention)",
+ "source_url": "https://www.finlex.fi/api/media/treaty/909807/mainPdf/main.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 7 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 pour cent du montant brut des dividendes dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des intérêts est un résident de l’autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des redevances est un résident de l’autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; no principal-purpose article found in the treaty."
+ },
+ "notes": "Art. 11(3): interest exempt at source when paid to the States, central banks, FINNFUND / Moroccan state-controlled financial institutions on concessional loans, and on publicly guaranteed/insured export credits (not modelled). Art. 10(6): Moroccan branch remittance tax on Finnish PE capped at 7%. Royalties include technical assistance and services (Art. 12(3)(c)). Art. 29(2): WHT provisions apply from 1 January of the year following EIF (EIF 19-10-2012 -> 2013-01-01). EIF conflict: Finnish decree 18/2013 gives 19-10-2012; Morocco MLI list gives 20-10-2012 — Finnish official decree used. Replaces the 1973 Finland-Morocco convention (Art. 29(3)). MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "OM",
+ "treaty_name": "Agreement between the Government of the Sultanate of Oman and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2004)",
+ "signed": "2004-10-06",
+ "entry_into_force": null,
+ "eif_source_url": "https://tms.taxoman.gov.om/portal/double-tax-agreements",
+ "eif_quote": "[Oman Tax Authority table: Signed | Royal Decree | Royal Date | Effective Date] 18 | Iran | 06/10/2004 | 5/2005 | 03/01/2005 | 1/1/2010",
+ "source_title": "Oman Tax Authority: DTA Iran (English text PDF)",
+ "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1536973/DTA+Iran.pdf/c446fe3b-3ad5-de30-dbd5-bab1ced83a74?t=1738135304830",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) percent of the gross amount of the royalties."
+  }
+ ],
+ "notes": "Art. 28(2): EIF upon exchange of ratification instruments; Oman WHT applies to amounts paid/credited on/after 1 January next following EIF; Iran applies for fiscal years beginning on/after 1 Farvardin (21 March) following the calendar year of EIF. Oman Tax Authority gives effective date 1/1/2010 (so EIF in 2009; exact date not stated in any source read) - Iran side therefore from 21 March 2010. Exemptions not modelled: art. 10(4)/(5) and 11(4)/(5) exempt dividends/interest paid to the Iranian State bodies (governmental institutions, governmental companies, Central Bank, wholly state-owned banks; for interest also non-governmental public foundations, Foundations of the Islamic Revolution, municipalities) and to the Government of Oman (incl. Central Bank of Oman, State General Reserve Fund, Oman Development Bank, bodies wholly or mainly state-owned). Royalty definition includes computer software and equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Exact entry-into-force date not found (only effective date 1/1/2010 from Oman Tax Authority list)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "a": "DZ",
+ "b": "DE",
+ "treaty_name": "Convention between Algeria and Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007, with Protocol)",
+ "signed": "2007-11-12",
+ "entry_into_force": "2008-12-23",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
+ "eif_quote": "[DZ DGI list] ألمانيا | سارية المفعول ابتداء من 23/12/2008 ... 12/11/2007 ألمانيا || [DE BMF list] Algerien 12.11.2007 2008 1188 2009 382 2009 136 2009 396 01.01.2009",
+ "source_title": "JORA n° 33 du 22 juin 2008 – Décret présidentiel n° 08-174 portant ratification de la convention Algérie–Allemagne (Alger, 12 novembre 2007) et du protocole",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2008/F2008033.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu’une société de personnes) qui détient directement au moins 10 pour cent du capital de la société qui paie les dividendes ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des redevances est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 32(2)(a): in force on exchange of instruments (23-12-2008); WHT applies to amounts paid on or after 1 January of the calendar year following entry into force (2009-01-01; BMF list also shows 01.01.2009). Interest: Art. 11(3) exempts at source loans guaranteed by German export/FDI guarantees and interest paid to the German Government, Bundesbank, KfW, DEG (and reciprocal Algerian government/Banque d'Algérie/state-owned institutions); Art. 11(4) exclusive residence taxation for credit sales of equipment. Protocol (2): profit-participating income (stiller Gesellschafter, partiarische Darlehen, Gewinnobligationen) deductible for the payer remains taxable at source without treaty limit. Not modelled. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

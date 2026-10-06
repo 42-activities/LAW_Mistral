@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "RO",
+ "treaty_name": "Agreement between Romania and the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2001)",
+ "signed": "2001-10-03",
+ "entry_into_force": "2007-10-30",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "[RO MLI position] Iran Original 03-10-2001 30-10-2007 || [ANAF list] 40. Iran 279/15.05.2002 401/2002 01.01.2008",
+ "source_title": "Legea nr. 279/2002 privind ratificarea Acordului România-Iran (MO nr. 401/2002), ANAF text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Iran.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al dividendelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10% din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 8% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al redevenţelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10% din suma brută a redevenţelor."
+  }
+ ],
+ "notes": "Art. 28(2): EIF on last notification; effective for income arising at/after the beginning of the calendar year following EIF -> 1 Jan 2008 (matches ANAF list). EIF date 30 Oct 2007 from Romania MLI position (treaty text does not state it). Single dividend rate (no participation tier). Art. 11(4): interest derived by the other State - governmental institutions, central bank and other banks wholly owned by that State - exempt in source State. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2007-10-30 from Romanian MLI notification, not from a Monitorul Oficial notice"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

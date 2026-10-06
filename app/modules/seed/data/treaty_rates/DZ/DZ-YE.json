@@ -1,0 +1,58 @@
+{
+ "a": "DZ",
+ "b": "YE",
+ "treaty_name": "Convention between Algeria and Yemen for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-01-29",
+ "entry_into_force": "2006-02-07",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales')",
+ "eif_quote": "[DZ DGI list] اليمن | سارية المفعول ابتداء من 07/02/2006 ... 29/01/2002 اليمن",
+ "source_title": "JORA n° 16 du 2 mars 2005 – Décret présidentiel n° 05-78 portant ratification de la convention Algérie–Yémen (Sanaâ, 29 janvier 2002), French edition",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2005/F2005016.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Toutefois, ces dividendes sont aussi imposables dans l’Etat contractant dont la société qui paie les dividendes est un résident, et selon la législation de cet Etat. Mais si la personne qui reçoit les dividendes en est le bénéficiaire, l’impôt ainsi établi ne peut excéder 10%"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Les intérêts sont imposables dans l’Etat contractant d’ou ils proviennent, toutefois, ils peuvent être imposés dans l’Etat contractant où le bénéficiaire effectif est résident, à condition, que l’impôt ainsi établi n’excède pas 10% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Les redevances provenant d’un Etat contractant et payées à un résident de l’autre Etat contractant sont imposables dans l’Etat contractant d’où elle proviennent. Ces redevances peuvent être imposées dans l’autre Etat contractant à condition que l’impôt ainsi établi n’excède pas 10% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29(3): in force on exchange of instruments (07-02-2006 per Algeria DGI list); WHT applies to amounts attributed or paid on or after 1 January of the calendar year following entry into force (2007-01-01). The French JORA translation of Arts. 11(2) and 12(2) is garbled (it attaches the 10% cap to the residence State); read as a 10% source-State cap consistent with Art. 10(3) and the treaty's structure. Interest paid directly to a Contracting State, its subdivisions, local authorities or central bank is exempt. Royalty definition includes equipment rental. Authentic text Arabic only. No MLI.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation of interest/royalty paragraphs is ambiguous about which State the 10% cap binds; Arabic original not checked."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "a": "TN",
+ "b": "QA",
+ "treaty_name": "Convention between Tunisia and Qatar (1997), as modified by the MLI",
+ "signed": "1997-03-08",
+ "entry_into_force": "1999-01-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Qatar Original 08-03-1997 01-01-1999 || [QA MLI] Tunisia Original 08-03-1997 01-01-1999",
+ "source_title": "Convention Tunisie-Qatar 1997, French text (DGI Tunisie, jibaya.tn; Arabic authentic)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Qatar.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'autre Etat contractant ne sont soumis à l'impôt dans aucun des deux Etats contractants."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent si la législation de cet Etat le prévoit, mais l'impôt, ainsi établi, ne peut excéder 5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+  "quote": "[MLI Art. 7(1), applied to this covered agreement; no DGI consolidated text available] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends taxable in NEITHER State (Art. 10(1)) - modelled as exclusive/0% at source. INTEREST omitted: Art. 11(1) 'Les intérêts provenant d'un Etat contractant et payés à un résident de l'autre Etat contractant sont imposables dans l'Etat d'où ils proviennent et selon sa législation' - source State taxes under domestic law with no treaty cap. Convention effective from 1 January of the year following exchange of notifications (Art. 27(4)); EIF 01-01-1999. Qatar reserved MLI art. 8 (irrelevant here). French text is a translation.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only"
+ ]
+}

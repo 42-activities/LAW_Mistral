@@ -1,0 +1,58 @@
+{
+ "a": "MA",
+ "b": "JO",
+ "treaty_name": "Convention between the Kingdom of Morocco and the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2005)",
+ "signed": "2005-05-16",
+ "entry_into_force": "2009-03-26",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://web.archive.org/web/20220120071405/https://www.tax.gov.ma/wps/wcm/connect/5d3a09e5-73ce-43e3-b372-f54e2d4381ba/jordanie_bo_5735_ar_p_2777.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-5d3a09e5-73ce-43e3-b372-f54e2d4381ba-l79re81",
+ "eif_quote": "[DGI, Tableau récapitulatif] 32 Jordanie DTC Rabat 16/05/05 26/03/09 5735 du 18/05/09 (AR) || Art. 29(2)(a): بالنسبة للضرائب المقتطعة من المصدر، عن المبالغ المدفوعة أو المقرضة ابتداء من أول كانون الثاني (يناير) من السنة الموالية لسنة دخول الاتفاقية حيز التنفيذ.",
+ "source_title": "Bulletin Officiel n° 5735 (18 May 2009), Arabic text of the MA-JO Convention, BO pp. 2777-2787 (DGI copy via Wayback, scanned)",
+ "source_url": "https://web.archive.org/web/20220120071405/https://www.tax.gov.ma/wps/wcm/connect/5d3a09e5-73ce-43e3-b372-f54e2d4381ba/jordanie_bo_5735_ar_p_2777.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-5d3a09e5-73ce-43e3-b372-f54e2d4381ba-l79re81",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المستفيد الفعلي من أرباح الأسهم مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المستفيد الفعلي من الفوائد مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10 % (عشر بالمائة) من المبلغ الإجمالي للفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المستفيد الفعلي من الإتاوات مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "notes": "Single dividend rate (no participation tier). Interest paid to the other State's Government or central bank exempt (Art. 11(3)) - not modelled. Royalties include technical assistance and services (Art. 12(3)). Branch profits tax capped at 10% (Art. 10(6)). EIF conflict: 26-03-2009 (Morocco MLI list and DGI table) vs 08-04-2009 (Jordan MLI list); WHT effect 1 Jan 2010 either way. Scanned BO text; quotes transcribed from page images (BO pp. 2781-2782, 2787). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "unverified": [
+  "exact entry-into-force day (26-03-2009 vs 08-04-2009)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ }
+}

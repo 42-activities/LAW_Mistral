@@ -1,0 +1,24 @@
+{
+ "a": "YE",
+ "b": "IQ",
+ "treaty_name": "Agreement between the Republic of Iraq and the Republic of Yemen for the avoidance of double taxation (2001)",
+ "signed": "2001-12-25",
+ "entry_into_force": null,
+ "eif_source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "eif_quote": "مشاريع دخلت حيز التنفيذ ... 1 الاتفاقية اليمنية صنعاء/اليمن 25 / 12 / 2001 دخلت حيز التنفيذ دخلت حيز التنفيذ",
+ "source_title": "Iraq General Commission for Taxes: list of agreements in force (no treaty text published)",
+ "source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "unknown (text not obtained; YE/IQ not MLI-covered)",
+  "source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+  "quote": ""
+ },
+ "notes": "RATES EMPTY: treaty text not obtainable. The Iraqi tax authority publishes only a one-page list (signed Sanaa 25/12/2001, status 'entered into force', no EIF date); no text on tax.mof.gov.iq. The Yemen Tax Authority treaty compendium (4th ed., Wayback) covers only Bahrain, Pakistan, Iran, Turkey and Morocco; older tax.gov.ye files in the Wayback Machine are domestic tax laws. Signing date 25/12/2001 taken from the Iraqi list (map had null). Not MLI-covered.",
+ "confidence": "low",
+ "unverified": [
+  "No treaty text; EIF date unknown"
+ ]
+}

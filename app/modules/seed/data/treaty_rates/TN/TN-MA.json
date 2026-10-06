@@ -1,0 +1,25 @@
+{
+ "a": "TN",
+ "b": "MA",
+ "treaty_name": "Convention between Tunisia and Morocco (1974); superseded by the UMA Convention (1990)",
+ "signed": "1974-08-28",
+ "entry_into_force": "1979-06-26",
+ "eif_source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "eif_quote": "[TN MLI] Convention ... en matière d'impôt sur le Revenu Maroc Original 28-08-1974 26-06-1979 || [LY list] 14/07/1993م اتحاد دول المغرب العربي 5 ; ملاحظــة: اتفاقية اتحاد دول المغرب العربي تشمل: (ليبيا وتونس - المغرب - الجزائر- موريتانيا) || [MA MLI] 73 Convention tendant à éviter les doubles impositions ... entre les Etats de l'Union du Maghreb Arabe (UMA) Convention 23-07-1990 14-07-1993 || [TN MLI] UMA Original 23-07-1990 14-07-1993 || [DZ DGI] اتحاد المغرب العربي | جريدة رسمية رقم 06 في 06/02/1991 ; مرسوم رئاسي رقم 90-424 المؤرخ في 22/12/1990",
+ "source_title": "Convention UMA 1990 + bilateral Tunisie-Maroc 1974, French texts (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Two instruments: the bilateral convention and the multilateral UMA convention (signed 23-07-1990; DGI header: WHT effective 01/01/94). UMA Art. 29(3): 'Les dispositions de la présente Convention se substituent aux dispositions prévues par les Conventions bilatérales' (bilaterals revive only if a State withdraws), so the UMA convention governs. Neither instrument sets a source-State cap: UMA Art. 11(1) dividends 'sont imposables dans l'Etat d'où proviennent les bénéfices distribués et selon la législation de l'Etat d'où proviennent ces bénéfices'; Art. 12(1) interest 'imposables dans l'Etat où sont payés lesdits intérêts', residence State exempts or credits; Art. 13(1) royalties 'ne sont imposables que dans l'Etat cité en premier lieu' (source State only). The bilateral text read gives the same source-only rules (Morocco 1974: Art. 10(1) dividends taxable in the payer's State under its law; Art. 11(1) interest taxable where paid, residence State exempts or credits; Art. 12(1) royalties 'ne sont imposables que dans le premier Etat'). All three categories omitted (source State taxes under domestic law without treaty limit). MLI: map records no coverage for this pair (Tunisia lists both the bilateral and UMA; partner side not matched) - PPT not asserted. Bilateral text: https://jibaya.tn/wp-content/uploads/2024/01/Maroc.pdf PPT: not applied - map: no MLI coverage recorded for TN-MA (Morocco lists only UMA); not asserted.",
+ "confidence": "medium",
+ "unverified": [
+  "MLI status of UMA convention for Morocco-Tunisia (map notes conflict)"
+ ],
+ "no_cap": true
+}

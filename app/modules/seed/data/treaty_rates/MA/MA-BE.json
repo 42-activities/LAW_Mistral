@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Kingdom of Morocco for the avoidance of double taxation and the prevention of tax evasion and fraud with respect to taxes on income (2006)",
+ "signed": "2006-05-31",
+ "entry_into_force": "2009-04-30",
+ "eif_source_url": "https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&pd_search=2009-05-06&numac_search=2009A15059&page=1&lg_txt=F&caller=list",
+ "eif_quote": "Publication: 6 mai 2009 Numéro: 2009A15059 page: 35323 Dossier numéro: 2006-05-31/35 Entrée en vigueur : 30 avril 2009",
+ "source_title": "Moniteur belge 06-05-2009 (Numac 2009A15059), Justel: Convention Belgique–Maroc signée à Bruxelles le 31 mai 2006",
+ "source_url": "https://www.ejustice.just.fgov.be/cgi_loi/article.pl?language=fr&pd_search=2009-05-06&numac_search=2009A15059&page=1&lg_txt=F&caller=list",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "6.5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 6,5 % du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement au moins 25 % du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 10 % du montant brut des redevances."
+  }
+ ],
+ "notes": "Art. 29(2): WHT provisions apply to income attributed/paid (BE) or amounts paid/credited (MA) from 1 January of the year following entry into force (30-04-2009) -> 2010-01-01; replaces the 1972 convention/1983 avenant. Art. 10(6): branch profits tax capped at 6.5% (not modelled). Art. 11(3): interest exempt at source when paid to the other State, its subdivisions/local authorities or central bank, or on concessional/publicly guaranteed loans and supported export credits (not modelled). Royalty definition includes software, equipment rental, know-how, and technical assistance/services performed in the source State (single 10% cap). No PPT; Morocco not an MLI party.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty has no PPT article; MLI not in force for Morocco",
+  "source_url": null,
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; no MLI PPT applies."
+ },
+ "unverified": []
+}

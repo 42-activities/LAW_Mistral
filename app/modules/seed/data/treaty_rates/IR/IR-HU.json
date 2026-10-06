@@ -1,0 +1,56 @@
+{
+ "a": "IR",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of Hungary and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2015)",
+ "signed": "2015-11-30",
+ "entry_into_force": "2016-12-30",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=A1600004.TV",
+ "eif_quote": "Kihirdetve: 2016. III. 10. Hatályba lép 2016. XII. 30-án a 46/2016. (XII. 29.) KKM közlemény alapján.",
+ "source_title": "Jogtár: 2016. évi IV. törvény (HU-IR Megállapodás, authentic Hungarian and English texts)",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=A1600004.TV",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State, to a resident of the other Contracting State, being the beneficial owner of the dividends, shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2017-01-01",
+  "basis": "treaty art. 27(1)",
+  "source_url": "https://net.jogtar.hu/jogszabaly?docid=A1600004.TV",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Art. 28(2): EIF on the 15th day after the later notification (30 Dec 2016 per KKM közlemény 46/2016); WHT applies to income derived on/after 1 Jan (11 Dey) 2017. Dividends taxable only in the residence State (0% at source). Interest exempt at source (art. 11(4)) on credit sales of merchandise/equipment, on any loan or credit granted by a bank, when paid to the other Government/subdivisions/local authorities/Central Bank/state-owned or controlled financial institutions, or on loans guaranteed by them. Royalty definition excludes equipment rental. PPT in treaty art. 27 (competent authorities consult before denial). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

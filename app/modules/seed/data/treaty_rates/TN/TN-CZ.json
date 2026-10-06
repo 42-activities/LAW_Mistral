@@ -1,0 +1,80 @@
+{
+ "a": "TN",
+ "b": "CZ",
+ "treaty_name": "Convention between Czechoslovakia and Tunisia (1990), as modified by the MLI",
+ "signed": "1990-03-14",
+ "entry_into_force": "1991-10-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Tchèque Original 14-03-1990 25-10-1991 (Czechoslovak convention) || [CZ list] Tunisko 25.10.1991 419/1992 Sb. ... Úmluva č. 32/2020 Sb.m.s. (Sdělení č. 439/2024 Sb.; FZ č. 18/2024)",
+ "source_title": "Convention Tunisie-Tchécoslovaquie 1990, original text (DGI Tunisie, jibaya.tn 'Republique-Tcheque.pdf')",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Republique-Tcheque.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a — 10 pour cent du montant brut des dividendes si le bénéficiaire est une société qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1992-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b — 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) Toutefois, ces intérêts, à l'exclusion de ceux afférents aux prêts consentis par un Etat contractant, peuvent être imposés dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 12 pour cent de leur montant brut."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (first indent; para. 3(b) copyright)",
+   "valid_from": "1992-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "— 5 pour cent du montant brut des redevances pour celles visées au paragraphe 3 b;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (second indent; para. 3(a) industrial)",
+   "valid_from": "1992-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "— 15 pour cent du montant brut des redevances pour celles visées au paragraphe 3 a."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-czech-republic-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1), applied to the Czech-Tunisia covered agreement; no DGI consolidated text available] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit..."
+ },
+ "notes": "Czechoslovak 1990 convention applied by Czechia (same text as for Slovakia). MLI art. 8 365-day rule does NOT apply: Czech Republic reserved the entirety of Art. 8 (Art. 8(3)(a)) in its MLI position. Royalties: 5% copyright (para. 3(b)); 15% patents/know-how/equipment/technical assistance (para. 3(a)). Interest on loans granted by a Contracting State exempt at source. Treaty rates apply to income paid after 31-12-1991 (Art. 28(2)(a); EIF 25-10-1991). MLI coverage via Czech later notification (2024); WHT effect 2025-01-01 taken from map (derived).",
+ "confidence": "high",
+ "unverified": [
+  "PPT/MLI WHT effective date 2025-01-01 is derived in map, depositary communication date not seen"
+ ]
+}

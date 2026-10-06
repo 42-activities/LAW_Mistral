@@ -1,0 +1,56 @@
+{
+ "a": "TN",
+ "b": "LU",
+ "treaty_name": "Convention between Tunisia and Luxembourg (1996, as amended by Protocol 2014), as modified by the MLI",
+ "signed": "1996-03-27",
+ "entry_into_force": "1999-10-18",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Luxembourg Original 27-03-1996 18-10-1999 subséquent 08-07-2014 30-11-2016 || [LU list] Tunisie - Tunisia Texte de synthèse 22/11/2023 ... Convention signée le 27/03/1996 Mémorial A n° 59 de 1999 à partir de 2000 ... Avenant et échange de lettres signés le 08/07/2014 ... à partir de 2017",
+ "source_title": "Convention Tunisie-Luxembourg, version consolidée CML incl. Protocole 2014 (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/convention-Tunisie-Luxembourg.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 pour cent du montant brut des intérêts, dans tous les autres cas."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 12 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/convention-Tunisie-Luxembourg.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Interest: 7.5% (Art. 11(2)(a)) where the loan is guaranteed or financed by the other State or by a financial institution resident there and granted for at least five years - not modelled as a tier. Royalties include port/agricultural equipment rental, technical/economic studies and technical assistance performed in the source State. Protocol of 08-07-2014 (in force 30-11-2016) only replaces Art. 26 (exchange of information). valid_from: Art. 28(2)(a) 1 January following exchange of ratification (EIF 18-10-1999) -> 2000-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

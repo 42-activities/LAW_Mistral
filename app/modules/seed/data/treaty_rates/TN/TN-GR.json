@@ -1,0 +1,67 @@
+{
+ "a": "TN",
+ "b": "GR",
+ "treaty_name": "Convention between Tunisia and Greece (1992, with additional protocol 2007), as modified by the MLI",
+ "signed": "1992-10-31",
+ "entry_into_force": "2010-09-29",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Grèce Original 31-10-1992 29-09-2010 Subséquent 14-05-2007 || [GR MLI] Tunisia Original 31-10-1992 29-09-2010",
+ "source_title": "Convention Tunisie-Grèce, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Grece.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "35",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "GR",
+   "quote": "a) 35% du montant brut des dividendes si la société distributrice est un résident de la République Hellénique ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TN",
+   "quote": "b) 10% du montant brut des dividendes si la société distributrice est un résident de la République Tunisienne."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt, ainsi établi, ne peut excéder 12 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Grece.pdf",
+  "quote": "7) Nonobstant les dispositions de la présente convention, un avantage au titre des dispositions du présent article ne sera pas accordé s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention.3 [fn 3: Modifié par l'article 7 de la CML] (Art. 12(7))"
+ },
+ "notes": "Dividend caps are asymmetric: 35% where the payer is Greek resident, 10% where the payer is Tunisian resident. Royalties definition includes agricultural/port/industrial equipment rental and technical or economic studies. 2007 additional protocol only replaces Art. 8 (shipping/air). valid_from from Art. 27(2)(a): 1 January after exchange of ratification instruments (EIF 29-09-2010). PPT: Tunisia notified Art. 12(7) as an Art. 7(2) provision; the DGI consolidated text shows the MLI PPT in Art. 12(7) only, but MLI art. 7(1) applies to all benefits of the covered agreement; WHT effect 2024-01-01 per map.",
+ "confidence": "high",
+ "unverified": []
+}

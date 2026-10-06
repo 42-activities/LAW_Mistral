@@ -1,0 +1,58 @@
+{
+ "a": "AU",
+ "b": "ES",
+ "treaty_name": "Agreement between Australia and the Kingdom of Spain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (1992)",
+ "signed": "1992-03-24",
+ "entry_into_force": "1992-12-10",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/1992/41.html (read via web.archive.org/web/20260107200628)",
+ "eif_quote": "[Treasury] Spain | DTA | 24/03/1992 | ... | In force | 10/12/1992 | Art. 27: \"... thereupon this Agreement shall have effect: (a) in both Contracting States, in respect of withholding tax on income that is derived by a non-resident, in relation to income derived on or after 1 January in the calendar year next following that in which the Agreement enters into force\"",
+ "source_title": "Australia-Spain DTA and Protocol [1992] ATS 41 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1992/41.html (read via web.archive.org/web/20260107200628) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-spain-agreement (ATO synthesised text, read via web.archive.org/web/20250317030658)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-spain-agreement (ATO synthesised text, read via web.archive.org/web/20250317030658)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Single dividend tier (15%); Art. 10(4) Spanish transparent-company income excluded from the cap. Protocol: negotiation-only MFN for a Non-discrimination Article (no rate effect). CONFLICT with map_CD: map gives mli_wht_effective 2022-01-01, but the ATO synthesised text states \"In accordance with paragraphs 1 and 7 of Article 35 of the MLI ... with respect to taxes withheld at source ... where the event giving rise to such taxes occurs on or after 1 January 2023\" (Spain made an Art. 35(7) reservation; the ATO text treats the notification as made). PPT from 2023-01-01 used. MLI does not modify Arts 10-12.",
+ "confidence": "high",
+ "unverified": [
+  "Date of Spain's Art. 35(7)(b) notification not shown in the ATO synthesised text; effective date taken from the ATO text"
+ ]
+}

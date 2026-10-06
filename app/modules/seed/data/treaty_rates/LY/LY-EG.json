@@ -1,0 +1,25 @@
+{
+ "a": "LY",
+ "b": "EG",
+ "treaty_name": "Agreement between the Arab Republic of Egypt and the Great Socialist People's Libyan Arab Jamahiriya for the avoidance of double taxation on income (1990)",
+ "signed": "1990-12-03",
+ "entry_into_force": "1991-07-04",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+ "eif_quote": "[EG MLI] Libya Original 03-Dec1990 04-Jul-1991 || [LY list] 04/07/1991م مصر",
+ "source_title": "Egypt–Libya double taxation agreement, Arabic text (Egyptian Tax Authority copy of Official Gazette No. 33 of 15/8/1991)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/lybya.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Libya not an MLI signatory)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/lybya.pdf",
+  "quote": ""
+ },
+ "notes": "No source-State limits: the agreement allocates dividends, interest and royalties EXCLUSIVELY TO THE SOURCE State, so the source State may tax under its domestic law without treaty cap (categories omitted). Art. 10(1): 'لا تخضع للضريبة أرباح السهم التي تدفعها الشركة المسجلة في إحدى الدول المتعاقدة إلا في الدولة محل التسجيل.' Art. 11(1): 'الفوائد التي تنشأ في دولة متعاقدة وتدفع إلى مقيم في دولة متعاقدة أخرى لا تخضع للضريبة إلا في الدولة التي تنشأ فيها الفائدة.' Art. 12(1): 'الإتاوات التي تنشأ في إحدى الدولتين المتعاقدتين تخضع للضريبة في تلك الدولة المذكورة فقط.' (Royalties exclude rents and film-rental income, Art. 12(3).) Art. 28(1)(a): effect for withholding taxes on amounts paid on or after 1 January of the calendar year following exchange of ratification instruments (i.e. from 1 Jan 1992 given EIF 4 Jul 1991). Signed Cairo 3 December 1990, Arabic only. Text read from page images (PDF text layer is garbled).",
+ "confidence": "high",
+ "unverified": [
+  "Signature and EIF dates from Egypt MLI list / Libya list, consistent with the signature line of the text (3 Dec 1990)"
+ ],
+ "no_cap": true
+}

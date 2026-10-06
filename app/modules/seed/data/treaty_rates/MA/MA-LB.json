@@ -1,0 +1,69 @@
+{
+ "a": "MA",
+ "b": "LB",
+ "treaty_name": "Convention between the Kingdom of Morocco and the Lebanese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001)",
+ "signed": "2001-10-20",
+ "entry_into_force": "2003-08-07",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf ; https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Morocco.pdf",
+ "eif_quote": "[MA MLI list] ConventionentreleRoyaumeLibanConvention20-10-200107-08-2003 || [LB MoF list] Morocco October 20, 2001 June 5, 2002 August 9, 2003 Law N. 404 || Art. 29: يتم إبرام هذه الإتفاقية و يسري مفعولها في اليوم الثلاثين من بعد تاريخ الإبلاغ الأخير ... (١) في ما يتعلق بالضرائب المقتطعة عند المصدر، على الدخل الحاصل في، أو بعد اليوم الأول من كانون الثاني (يناير) من السنة المدنية التي تلي السنة التي يبدأ فيها سريان مفعول الإتفاقية",
+ "source_title": "Lebanon MoF: Lebanon-Morocco DTC, Arabic text (scanned; read from page images)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Morocco.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "أ) ٥% من اجمالي حصص الارباح عندما يكون المستفيد العفلي منها شركة تملك ١٠% على الاقل من رأسمال الشركة دافعت حصص الارباح،"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب) و ١٠% في الحالات الاخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "فان الضريبة المفروضة هكذا، يجب ان لا تتجاوز ١٠% بالمائة من المبلغ الاجمالي للفوائد. اما الفوائد الناتجة عن قروض طويلة الاجل لا تقل مدتها عن عشر سنوات فتعفى من الضريبة في الدولة المتعاقدة التي نشأت فيها الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب) ١٠% لباقي الحالات"
+  }
+ ],
+ "notes": "Royalties: 5% for copyright of literary/artistic/scientific works incl. films, radio/TV, satellite/cable/fibre transmission, software 'or similar technical means for broadcasting to the public' (Art. 12(2)(a)) - not modelled. Interest on long-term loans of at least 10 years exempt at source (Art. 11(2) second sentence) and government/central bank/agency/guaranteed interest exempt (Art. 11(3)) - not modelled. Branch profits tax capped at 10% (Art. 10(6)). Art. 11(8) contains an article-level main-purpose anti-abuse rule for interest (not a general PPT). EIF conflict: 07-08-2003 (Morocco MLI list) vs 9 August 2003 (Lebanon MoF list); WHT effect 1 Jan 2004 either way. Scanned Arabic text; quotes transcribed from page images (p. 11-15, 27). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "exact entry-into-force day (7 vs 9 August 2003)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ }
+}

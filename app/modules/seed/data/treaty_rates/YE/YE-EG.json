@@ -1,0 +1,48 @@
+{
+ "a": "YE",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Arab Republic of Egypt and the Government of the Republic of Yemen for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997)",
+ "signed": "1997-12-12",
+ "entry_into_force": "2000-08-02",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+ "eif_quote": "[EG MLI] ... الجمهورية اليمنية ... Yemen Original 12-Dec1997 02-Aug-2000",
+ "source_title": "Egyptian Tax Authority: Arabic text of EG-YE agreement (copy of Official Gazette no. 42, 19/10/2000)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/alymn.pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "بند ٢- تخضع الفوائد الناجمة عن استثمار رؤوس الأموال في مختلف أشكالها للضريبة في الدولة المتعاقدة التي تنتج فيها تلك الفوائد، ويجوز أن تخضع هذه الضريبة في الدولة التي يقيم فيها الشخص المستفيد على أن تتجاوز الضريبة المفروضة نسبة (١٠%) من إجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "بند ٢- تخضع الإتاوات التي تنشأ في إحدى الدولتين المتعاقدتين وتدفع إلى شخص مقيم في الدولة المتعاقدة الأخرى للضريبة في الدولة التي تنشأ فيها تلك الإتاوات ويجوز أن تخضع للضريبة في الدولة المتعاقدة الأخرى على أن لا يزيد سعر الضريبة عن (نسبة ١٠%) من إجمالي مبلغ الإتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; YE not an MLI signatory)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/alymn.pdf",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(2) only provides that dividends 'may be taxed — subject to reciprocity — in that other State' (residence); the article contains no source-State limit, so the treaty sets no cap on source taxation. Interest and royalties: drafting is unusual — the articles give the taxing right to the SOURCE State and say the residence State may also tax, with a 10% limit. For interest the published text literally reads 'على أن تتجاوز' ('provided it exceeds') 10% — evidently missing 'لا'; modelled as a 10% cap on source tax, but whether the 10% binds the source or the residence State is ambiguous. EIF on exchange of ratification instruments (Art. 29); WHT applies from 1 January of the year following EIF (2001-01-01). Only Arabic text available (ETA, Official Gazette copy); Arabic text extraction was cleaned of PDF ligature errors (ال→لا) in quotes, confirmed visually for Art. 11. Not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Ambiguous drafting of Arts. 11(2) and 12(2): unclear whether 10% caps source or residence taxation; literal interest text says 'exceeds'",
+  "No Yemeni-side text checked"
+ ]
+}

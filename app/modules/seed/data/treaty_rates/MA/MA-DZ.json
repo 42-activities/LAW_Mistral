@@ -1,0 +1,25 @@
+{
+ "a": "MA",
+ "b": "DZ",
+ "treaty_name": "Convention between the States of the Arab Maghreb Union (Algeria, Libya, Mauritania, Morocco, Tunisia) for the avoidance of double taxation and the establishment of rules of mutual cooperation in the field of taxes on income (1990)",
+ "signed": "1990-07-23",
+ "entry_into_force": "1993-07-14",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://tax.gov.ly/assets/ET.pdf",
+ "eif_quote": "[DGI Maroc, Tableau récapitulatif] 63 Union du Maghreb Arabe (UMA) | DTC | Alger | 23/07/90 | 14/07/93 | 6049 du 21/05/12 (AR) || 14/07/1993م  اتحاد دول المغرب العربي 5 ... ملاحظــة: اتفاقية اتحاد دول المغرب العربي تشمل: (ليبيا وتونس - المغرب - الجزائر- موريتانيا)",
+ "source_title": "Journal officiel de la République algérienne n° 06 du 6 février 1991 (Arabic edition), pp. 215-224: Décret présidentiel n° 90-424 du 22 décembre 1990 ratifying the UMA income tax convention, with the convention text (image scan, read page by page) ; cross-checked with the French text on jibaya.tn (Tunisian DGI)",
+ "source_url": "https://www.joradp.dz/FTP/jo-arabe/1991/A1991006.pdf ; https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.joradp.dz/FTP/jo-arabe/1991/A1991006.pdf",
+  "quote": "No principal purpose test in the UMA convention text; Morocco has signed but not ratified the MLI, and the multilateral UMA convention is not a covered tax agreement."
+ },
+ "notes": "Multilateral Arab Maghreb Union convention applies between Morocco and Algeria (no bilateral treaty). None of the three income categories has a source-State rate limit, so no rate entries are recorded: Art. 11 (الفصل 11) dividends are taxable in the State where the distributed profits were realised, under that State's legislation, with no cap: \"إن أرباح الأسهم التي تدفعها شركة مقيمة في دولة متعاقدة لشخص مقيم بإحدى الدول المتعاقدة الأخرى تخضع للضريبة بالدولة التي تحققت فيها الأرباح الموزعة وذلك حسب التشريع المعمول به بالدولة التي تحققت بها هذه الأرباح\"; Art. 12(1) interest is taxable in the paying State with no cap, and the beneficiary's State exempts it or gives a credit: \"إن الفوائد المتأتية من دولة متعاقدة والمدفوعة لمقيم في إحدى الدول المتعاقدة الأخرى تخضع للضريبة بالدولة التي تدفع بها الفوائد المذكورة. تعفي الدولة التابع لها مقر المنتفع بالفوائد هذه الأخيرة من الضريبة أو تمنح طرح الضريبة المدفوعة ببلد إقامة المدين بالفوائد\"; Art. 13(1) royalties are taxable ONLY in the source State, at its domestic rate (the reverse of exclusive residence taxation): \"إن الأتاوى المتأتية من دولة متعاقدة والمدفوعة لمقيم في إحدى الدول المتعاقدة الأخرى لا تخضع للضريبة إلا في الدولة الأولى في الذكر\". Effective date: Art. 29(2)(a) applies to withholding taxes from 1 January of the year after the exchange of ratification instruments (so from 1994-01-01, given entry into force on 1993-07-14): \"تنطبق أحكامها: أ) على الضرائب المخصومة من المورد على المداخيل أو التي ستدفع بداية من أول جانفي من السنة الموالية لسنة تبادل وثائق المصادقة\". Art. 29(3) says the convention replaces the bilateral conventions between the parties. Domestic withholding rates therefore apply at source. The French edition of the same JO (F1991006.pdf, p. 189) has only the ratification decree; it says the text is published in the national language (Arabic) edition. CROSS-CHECK against the French text published by the Tunisian tax administration (https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf), which agrees: Art. 11(1) \"Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'un des autres Etats contractants sont imposables dans l'Etat d'où proviennent les bénéfices distribués et selon la législation de l'Etat d'où proviennent ces bénéfices.\" Art. 12(1) \"Les intérêts provenant d'un Etat contractant et payés à un résident de l'un des autres Etats contractants sont imposables dans l'Etat où sont payés lesdits intérêts.\" Art. 13(1) \"Les redevances provenant d'un Etat contractant et payées à un résident de l'un des autres Etats contractants ne sont imposables que dans l'Etat cité en premier lieu.\" Art. 29(2)(a) \"aux impôts dus à la source sur les revenus mis en paiement à partir du 1er janvier de l'année suivant celle de l'échange des instruments de ratification\". Art. 29(3) \"Les dispositions de la présente Convention se substituent aux dispositions prévues par les Conventions bilatérales.\" So domestic withholding rates apply. Morocco published the convention in Bulletin Officiel n° 6049 of 21/05/2012 (Arabic edition), per the DGI table; that BO issue was not read.",
+ "confidence": "high",
+ "unverified": [
+  "No later amending protocol to the UMA convention was found; none was searched for in the Moroccan Bulletin Officiel"
+ ],
+ "no_cap": true
+}

@@ -1,0 +1,58 @@
+{
+ "a": "DZ",
+ "b": "JO",
+ "treaty_name": "Convention between Algeria and Jordan for the avoidance of double taxation, the prevention of fiscal evasion and the establishment of rules of mutual assistance with respect to taxes on income and on capital (1997)",
+ "signed": "1997-09-16",
+ "entry_into_force": "2001-07-14",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "[DZ DGI list] الأردن | سارية المفعول ابتداء من14/07/2001 ... 16/09/1997الأردن || [JO MLI] Algeria Original 16-09-1997 13-07-2001",
+ "source_title": "JORA (Arabic) n° 79 du 23 décembre 2000, pp. 14-29 – Décret présidentiel n° 2000-427 portant ratification de la convention Algérie–Jordanie (Amman, 16 septembre 1997); scanned, read from page images (DGI file)",
+ "source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&format=&task=frontfile.download&catid=566&id=756&Itemid=1000000000000",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن إذا كان الشخص المستلم لأرباح الأسهم هو المستفيد الفعلي فإن الضريبة المفروضة على هذا النحو، لا يمكن أن تتجاوز نسبتها 15٪ من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن إذا كان الشخص المستلم للفوائد هو المستفيد الفعلي منها، فإن الضريبة المفروضة على هذا الأساس، يجب ألا تزيد عن 15٪ من إجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان الشخص الذي يحصل على الأتاوات، هو المستفيد الفعلي، فالضريبة المفروضة على هذا النحو، لا يمكن أن تتجاوز 15 بالمائة من المبلغ الإجمالي للأتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 30(2): in force 30 days after exchange of ratification instruments; WHT applies to income paid or payable from 1 January of the year following the year of exchange. EIF 14/07/2001 (Algeria DGI) vs 13-07-2001 (Jordan MLI list) -> exchange in June 2001 -> valid_from 2002-01-01. Interest exempt at source (Art. 11(3)) for government/local-authority/public-institution payers and payments to the other government, local authorities or wholly state-owned institutions (incl. financial and banking institutions). Royalty definition includes equipment rental. Authentic text Arabic only. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": [
+  "Read from scanned Arabic page images (no text layer); quotes transcribed manually."
+ ]
+}

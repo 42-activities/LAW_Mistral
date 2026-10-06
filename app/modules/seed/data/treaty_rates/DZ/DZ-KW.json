@@ -1,0 +1,58 @@
+{
+ "a": "DZ",
+ "b": "KW",
+ "treaty_name": "Convention between Algeria and Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-04-20",
+ "entry_into_force": "2016-01-18",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales')",
+ "eif_quote": "[DZ DGI list] الكويت | سارية المفعول ابتداء من 18/01/2016 ... 20/04/2008 الكويت",
+ "source_title": "JORA n° 42 du 5 août 2015 – Décret présidentiel n° 15-191 portant ratification de la convention Algérie–Koweït (Koweït, 20 avril 2008), French edition",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2015/F2015042.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les dividendes payés par une société qui est un résident d’un Etat contractant à un résident de l’autre Etat contractant qui est le bénéficiaire effectif de ces dividendes, ne sont imposables que dans cet autre Etat contractant."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2017-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les intérêts provenant d’un Etat contractant et payés à un résident de l’autre Etat contractant, et dont il est le bénéficiaire effectif, ne sont imposables que dans cet autre Etat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais, si le propriétaire bénéficiaire de ces redevances est un résident de l’autre Etat contractant, l’impôt ainsi établi ne doit pas excéder 15% (quinze pour cent) du montant global des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29: in force on date of last notification (18-01-2016 per Algeria DGI list); WHT applies to amounts paid on or after 1 January of the year following entry into force (2017-01-01). Art. 31: replaces the earlier DZ-KW convention signed 30 May 2006. Authentic text Arabic only; read the official French JORA edition. No MLI (Algeria not ratified; Kuwait's MLI list does not include Algeria).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date from Algeria DGI list only (Kuwait list not reachable)."
+ ]
+}

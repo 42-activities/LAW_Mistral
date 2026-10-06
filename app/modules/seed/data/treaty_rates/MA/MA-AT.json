@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Austria and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002)",
+ "signed": "2002-02-27",
+ "entry_into_force": "2006-11-12",
+ "eif_source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20005133",
+ "eif_quote": "Die vom Bundespräsidenten unterzeichnete und vom Bundeskanzler gegengezeichnete Ratifikationsurkunde wurde am 13. September 2006 ausgetauscht; das Abkommen tritt daher gemäß seinem Art. 28 Abs. 2 mit 12. November 2006 in Kraft.",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Österreich–Marokko, BGBl. III Nr. 168/2006 (Fassung vom 06.10.2026)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20005133",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte eine im anderen Vertragsstaat ansässige Person ist, 10 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "notes": "Art. 28(2)(a): WHT provisions apply where the taxable event occurs after 31 December of the year of exchange of ratification instruments (13-09-2006) -> 2007-01-01. Art. 11(3): interest exempt at source when paid to the other State's government/central bank (Österreichische Nationalbank, Bank Al Maghrib), or on concessional/state-guaranteed export credit loans to an enterprise of the other State - not modelled. Royalties single 10% cap incl. software, films, equipment rental, know-how. RIS shows no amending protocol. No PPT; Morocco not an MLI party.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty has no PPT article; MLI not in force for Morocco",
+  "source_url": null,
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; no MLI PPT applies."
+ },
+ "unverified": []
+}

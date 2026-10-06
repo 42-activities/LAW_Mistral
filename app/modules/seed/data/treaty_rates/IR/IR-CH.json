@@ -1,0 +1,70 @@
+{
+ "a": "IR",
+ "b": "CH",
+ "treaty_name": "Agreement between the Swiss Federal Council and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2002, as amended 2019)",
+ "signed": "2002-10-27",
+ "entry_into_force": "2003-12-31",
+ "eif_source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/85/20230220/de/html/fedlex-data-admin-ch-eli-cc-2004-85-20230220-de-html-2.html",
+ "eif_quote": "Abgeschlossen am 27. Oktober 2002 ... Ratifikationsurkunde ausgetauscht am 31. Dezember 2003 In Kraft getreten am 31. Dezember 2003",
+ "source_title": "Fedlex SR 0.672.943.61, consolidated (Stand am 20. Februar 2023)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/85/20230220/de/html/fedlex-data-admin-ch-eli-cc-2004-85-20230220-de-html-2.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 15 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Empfänger im anderen Vertragsstaat ansässig und der Nutzungsberechtigte der Zinsen ist, 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 5 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-02-20",
+  "basis": "treaty art. 28 (inserted by art. 6 of Protocol of 3 June 2019)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2004/85/20230220/de/html/fedlex-data-admin-ch-eli-cc-2004-85-20230220-de-html-2.html",
+  "quote": "Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat, es sei denn, es wird nachgewiesen, dass die Gewährung dieses Vorteils unter diesen Umständen mit dem Ziel und Zweck der einschlägigen Bestimmungen dieses Abkommens im Einklang steht."
+ },
+ "notes": "Art. 29(2) (orig. 28): applies in Switzerland for tax years beginning on/after 1 Jan 2004 and in Iran for tax years beginning on/after 1 Farvardin (21 March 2004). Interest exempt at source (art. 11(3)) when paid to the other State's government/subdivisions/local authorities or central bank, on credit sales of equipment, on credit sales of goods between enterprises, or on any loan granted by a bank (Protocol para. 3: includes state-owned banks). Royalty definition includes equipment rental. PPT (art. 28) inserted by Protocol signed 3 June 2019 (fedlex date; map_CD gives 2019-06-12), in force 20 Feb 2023 by exchange of notes; protocol art. 8(2) application clause is worded for EOI requests concerning tax years from 1 Jan 2024 (CH)/21 Mar 2024 (IR) — PPT 'from' set to protocol EIF date. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "PPT effective date: protocol art. 8(2) wording addresses EOI; 'from' uses protocol EIF 2023-02-20",
+  "Protocol signature date conflict: fedlex says 3 June 2019 vs map_CD 2019-06-12"
+ ]
+}

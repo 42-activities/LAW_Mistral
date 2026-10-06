@@ -1,0 +1,25 @@
+{
+ "a": "TN",
+ "b": "DZ",
+ "treaty_name": "Convention between Tunisia and Algeria (1985); superseded by the UMA Convention (1990)",
+ "signed": "1985-02-09",
+ "entry_into_force": "1986-05-28",
+ "eif_source_url": "https://tax.gov.ly/assets/ET.pdf",
+ "eif_quote": "[TN MLI] 29 Convention entre le gouvernement de la République Tunisienne et le gouvernement de la République Algérienne Démocratique et Populaire en vue d'éviter les doubles impositions ... Algérie Original 09-02-1985 28-05-1986 || [LY list] 14/07/1993م اتحاد دول المغرب العربي 5 ; ملاحظــة: اتفاقية اتحاد دول المغرب العربي تشمل: (ليبيا وتونس - المغرب - الجزائر- موريتانيا) || [MA MLI] 73 Convention tendant à éviter les doubles impositions ... entre les Etats de l'Union du Maghreb Arabe (UMA) Convention 23-07-1990 14-07-1993 || [TN MLI] UMA Original 23-07-1990 14-07-1993 || [DZ DGI] اتحاد المغرب ",
+ "source_title": "Convention UMA 1990 + bilateral Tunisie-Algérie 1985, French texts (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/U.M.A.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Two instruments: the bilateral convention and the multilateral UMA convention (signed 23-07-1990; DGI header: WHT effective 01/01/94). UMA Art. 29(3): 'Les dispositions de la présente Convention se substituent aux dispositions prévues par les Conventions bilatérales' (bilaterals revive only if a State withdraws), so the UMA convention governs. Neither instrument sets a source-State cap: UMA Art. 11(1) dividends 'sont imposables dans l'Etat d'où proviennent les bénéfices distribués et selon la législation de l'Etat d'où proviennent ces bénéfices'; Art. 12(1) interest 'imposables dans l'Etat où sont payés lesdits intérêts', residence State exempts or credits; Art. 13(1) royalties 'ne sont imposables que dans l'Etat cité en premier lieu' (source State only). The bilateral text read gives the same source-only rules (Algeria 1985: Art. 10(1) dividends taxable in the payer's State under its law; Art. 11(1) interest taxable where paid; Art. 12(1) royalties taxable in the first (source) State). All three categories omitted (source State taxes under domestic law without treaty limit). MLI: map records no coverage for this pair (Tunisia lists both the bilateral and UMA; partner side not matched) - PPT not asserted. Bilateral text: https://jibaya.tn/wp-content/uploads/2024/01/Algerie.pdf PPT: not applied - Algeria is not an MLI Party (map); UMA coverage not matched.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether Algeria treats the 1985 bilateral as superseded (its DGI lists only UMA)"
+ ],
+ "no_cap": true
+}

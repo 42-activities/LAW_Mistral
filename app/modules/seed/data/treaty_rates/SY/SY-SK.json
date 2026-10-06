@@ -1,0 +1,58 @@
+{
+ "a": "SY",
+ "b": "SK",
+ "treaty_name": "Agreement between the Government of the Slovak Republic and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2009)",
+ "signed": "2009-02-18",
+ "entry_into_force": "2010-02-27",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/35/vyhlasene_znenie.html",
+ "eif_quote": "Zmluva nadobudne platnosť 27. februára 2010 v súlade s článkom 27 .",
+ "source_title": "Oznámenie MZV SR č. 35/2010 Z. z. (Slov-Lex, vyhlásené znenie)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/35/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto dividendy však môžu byť takisto zdanené v zmluvnom štáte, v ktorom je spoločnosť, ktorá ich vypláca, rezidentom, a to podľa právnych predpisov tohto štátu, ale ak skutočný vlastník dividend je rezidentom druhého zmluvného štátu, daň takto ustanovená nepresiahne 5 percent hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto úroky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov toho štátu, ale ak je skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 percent hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Tieto licenčné poplatky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov toho štátu, ale ak je skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 12 percent hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/35/vyhlasene_znenie.html",
+  "quote": ""
+ },
+ "notes": "Dividends: single 5% rate, no holding threshold. Interest: Art. 11(3) exempts interest received by the other State's government, local authority, central bank or wholly State-owned financial institution (not modelled). Royalty definition includes equipment rental. Protocol: royalty MFN — if Syria agrees a rate below 12% with any EU country after 18.02.2009, Syria automatically applies it to royalties paid to Slovak residents (not modelled). Art. 27: EIF 60th day after exchange of ratification instruments (27.02.2010); WHT applies from 1 January of the year following EIF (2011-01-01). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Royalty MFN in Protocol may lower the SY-source 12% cap; not checked"
+ ]
+}

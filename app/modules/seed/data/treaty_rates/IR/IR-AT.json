@@ -1,0 +1,67 @@
+{
+ "a": "IR",
+ "b": "AT",
+ "treaty_name": "Agreement between the Government of the Republic of Austria and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2002)",
+ "signed": "2002-03-11",
+ "entry_into_force": "2004-07-11",
+ "eif_source_url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003486",
+ "eif_quote": "Die vom Bundespräsidenten unterzeichnete und vom Bundeskanzler gegengezeichnete Ratifikationsurkunde wurde am 12. Mai 2004 ausgetauscht; das Abkommen tritt gemäß seinem Art. 28 Abs. 2 am 11. Juli 2004 in Kraft.",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Iran samt Protokoll, BGBl. III Nr. 81/2004",
+ "source_url": "https://ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003486",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "notes": "Art. 28(2): applies to all tax years beginning after the calendar year of exchange of ratification instruments (12 May 2004), i.e. from 1 Jan 2005 in Austria (Iranian tax year beginning 21 March 2005). Interest exempt at source (art. 11(3)) when paid to a Contracting State, public bodies, municipalities, central banks or wholly state-owned banks; on export-promotion loans by public bodies; on credit sales of industrial/commercial/scientific equipment; or on any loan granted by a bank. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

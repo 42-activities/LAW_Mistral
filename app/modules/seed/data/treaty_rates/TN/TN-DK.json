@@ -1,0 +1,58 @@
+{
+ "a": "TN",
+ "b": "DK",
+ "treaty_name": "Convention between Tunisia and Denmark (1981), as modified by the MLI",
+ "signed": "1981-02-05",
+ "entry_into_force": "1981-05-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Danemark Original 05-02-1981 28-05-1981 || [DK MLI] Tunisia Original 05-02-1981 28-05-1981",
+ "source_title": "Convention Tunisie-Danemark, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Danemark.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire des dividendes en est le véritable ayant droit, l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire des intérêts en est le véritable ayant droit, l'impôt ainsi établi ne peut excéder 12 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui perçoit les redevances en est le bénéficiaire effectif, l'impôt ainsi établi, ne peut excéder 15 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Danemark.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Art. 10(6): branch profits tax up to 15% on transferred PE profits (not modelled). Art. 11(7): interest on loans by the Danish State / Industrialiseringsfonden or similar public funds to the Tunisian State not taxable in Tunisia. Royalties definition includes technical and economic studies. valid_from derived from Art. 29(2)(a): 1 January of the year following the last notification (EIF 28-05-1981, 15 days after last notification), i.e. 1982-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1982-01-01 derived (notification date assumed in 1981)"
+ ]
+}

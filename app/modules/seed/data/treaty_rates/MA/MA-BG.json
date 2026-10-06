@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "BG",
+ "treaty_name": "Agreement between the Republic of Bulgaria and the Kingdom of Morocco for the avoidance of double taxation on income and capital (1996)",
+ "signed": "1996-05-22",
+ "entry_into_force": "1999-12-06",
+ "eif_source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/c5c90a8b-e8c2-4ef4-80b1-3d3af8cd2c87/DTC_BG_MA_bg.pdf?MOD=AJPERES",
+ "eif_quote": "Ратифицирана със закон, приет от 38-о Народно събрание на 28.01.1998 г. - ДВ, бр. 15 от 6.02.1998 г. Издадена от Министерството на финансите и Министерството на икономиката, обн., ДВ, бр. 113 от 28.12.1999 г., в сила от 6.12.1999 г.",
+ "source_title": "Bulgaria-Morocco DTA, Bulgarian text (NRA PDF DTC_BG_MA_bg, as published in ДВ бр. 113/1999)",
+ "source_url": "https://nra.bg/wps/wcm/connect/nra.bg25863/c5c90a8b-e8c2-4ef4-80b1-3d3af8cd2c87/DTC_BG_MA_bg.pdf?MOD=AJPERES",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1999-12-06",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) седем на сто от брутната сума на дивидентите, ако притежателят им е дружество (различно от гражданско дружество), което притежава пряко най-малко 15 % от капитала на дружеството, плащащо дивидентите;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1999-12-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) 10 на сто от брутната сума на дивидентите във всички останали случаи."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-12-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Въпреки това такива лихви могат също да бъдат облагани с данък и в договарящата държава, от която произхождат, и съобразно законодателството на тази държава, но когато получателят им е и техен притежател, така наложеният данък няма да надвишава 10 на сто от брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-12-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Такива авторски и лицензионни възнаграждения обаче могат също да се облагат с данъци и в договарящата държава, от която произхождат, и съобразно законодателството на тази държава, но ако получателят е и притежател на авторските и лицензионните възнаграждения, така наложеният данък няма да надвишава 10 на сто от брутния размер на авторските и лицензионните възнаграждения."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; no principal-purpose article in the treaty."
+ },
+ "notes": "Dividends: 7% for a company (other than a partnership) holding directly at least 15% of capital; 10% otherwise. Interest 10% (no government/central-bank exemption in Art. 11(2)-(3)). Royalties 10%. Art. 28(2)(a): WHT provisions apply to income received from the date of entry into force (exchange of ratification instruments) -> valid_from 1999-12-06. PDF obtained via WebFetch (NRA site blocks curl); text extracted with pypdf (spacing artefacts in 'щ' normalised in quotes). MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

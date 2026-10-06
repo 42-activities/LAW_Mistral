@@ -1,0 +1,69 @@
+{
+ "a": "DZ",
+ "b": "PT",
+ "treaty_name": "Convention between Algeria and Portugal for the avoidance of double taxation, the prevention of fiscal evasion and mutual assistance in the recovery of taxes on income and on capital (2003, with Protocol)",
+ "signed": "2003-12-02",
+ "entry_into_force": "2006-05-01",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "[DZ DGI list] البرتغال | سارية المفعول ابتداء من 01/05/2006 ... البرتغال ; 02/12/2003 || [PT table] ARGÉLIA ... EM VIGOR DESDE 01-05-2006",
+ "source_title": "JORA n° 24 du 3 avril 2005 – Décret présidentiel n° 05-105 portant ratification de la convention Algérie–Portugal (Alger, 2 décembre 2003) et du protocole",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2005/F2005024.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "b) nonobstant l’alinéa a) ci-dessus dix pour cent (10%) du montant brut des dividendes, si le bénéficiaire effectif est une société qui, pour une période consécutive de deux années, antérieure au paiement des dividendes détient directement vingt cinq pour cent (25%) au moins du capital social de la société qui paie les dividendes."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) quinze pour cent (15%) du montant brut des dividendes ;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l’impôt ainsi établi ne peut excéder quinze pour cent (15%) du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les redevances en est le bénéficiaire effectif, l’impôt ainsi établi ne peut excéder dix pour cent (10%) du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 30(2): in force on the first day of the second month after receipt of the second notification (01-05-2006 per both lists); WHT applies to taxable events after 31 December of the year of the exchange (receipt implied March 2006 -> 2007-01-01). Dividend 10% tier requires 25% direct holding for two consecutive years before payment (modelled as 730 days). Interest exempt at source (Art. 11(3)) for government payers/recipients, wholly state-owned institutions and intergovernmental-agreement financing. Royalty definition includes equipment rental. French text is the reference text in case of divergence. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": [
+  "valid_from derived: year of exchange of notifications inferred as 2006 from EIF 01-05-2006."
+ ]
+}

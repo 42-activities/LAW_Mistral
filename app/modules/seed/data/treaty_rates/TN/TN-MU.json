@@ -1,0 +1,56 @@
+{
+ "a": "TN",
+ "b": "MU",
+ "treaty_name": "Convention between Tunisia and Mauritius (2008), as modified by the MLI",
+ "signed": "2008-02-12",
+ "entry_into_force": "2008-11-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Maurice Original 12-02-2008 28-11-2008 || [MU MLI] Tunisia Original 12-02-2008 28-10-2008 || [MRA list] Tunisia DTAA Synthesised text",
+ "source_title": "Convention Tunisie-Maurice, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-MAURICE.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2009-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'autre Etat contractant ne sont imposables dans aucun des Etats contractants."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "2.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif et est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 2,5 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "2.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les redevances en est le bénéficiaire effectif et est un résident de l'autre Etat contractant, l'impôt, ainsi établi, ne peut excéder 2,5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-MAURICE.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Dividends: Art. 10(1) provides that dividends paid by a company resident in one State to a resident of the other State are taxable in NEITHER State (not only exempt at source) - modelled as exclusive/0% at source. Interest paid to the other State's government, political subdivision, local authority or central bank exempt (Art. 11(3)). Royalties include port/agricultural equipment rental. valid_from: Tunisia WHT from 1 January following EIF (28-11-2008) -> 2009-01-01; Mauritius from 1 July following EIF. EIF conflict: 28-11-2008 (Tunisia) vs 28-10-2008 (Mauritius MLI).",
+ "confidence": "high",
+ "unverified": []
+}

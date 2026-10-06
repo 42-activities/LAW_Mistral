@@ -1,0 +1,67 @@
+{
+ "a": "LY",
+ "b": "MT",
+ "treaty_name": "Convention between Malta and the Great Socialist People's Libyan Arab Jamahiriya for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008, with Protocol)",
+ "signed": "2008-12-28",
+ "entry_into_force": "2010-05-20",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.3/eng/pdf",
+ "eif_quote": "(c) that the Convention has entered into force on the 20 May, 2010. [Art. 29:] This Convention shall have effect in respect of income derived during the taxable years beginning on or after the 1st day of January next following that in which this Convention enters into force.",
+ "source_title": "S.L. 123.03 Double Taxation Relief (Taxes on Income) (The Great Socialist People's Libyan Arab Jamahiriya) Order, L.N. 328 of 2010 (legislation.mt)",
+ "source_url": "https://legislation.mt/eli/sl/123.3/eng/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)(i)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "LY",
+   "quote": "where the dividends are paid by a company which is a resident of Libya to a resident of Malta who is the beneficial owner thereof the tax so charged shall not exceed: (i) if the beneficial owner of the dividends is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends, 5 per cent;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)(ii)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "LY",
+   "quote": "(ii) in all other cases, 15%."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed five per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Libya not an MLI signatory)",
+  "source_url": "https://legislation.mt/eli/sl/123.3/eng/pdf",
+  "quote": ""
+ },
+ "notes": "Dividends paid by a Malta company to a Libyan resident: Art. 11(2)(b) caps Malta tax at the tax chargeable on the profits out of which the dividends are paid (Malta imputation system; no fixed % cap, not modelled). Interest exempt at source when paid to and beneficially owned by the other State, local authority, Central Bank or wholly state-owned financial institution (Art. 12(3), not modelled). Protocol: Joint Business profits/dividends to Eligible Persons taxed at max 15% (not modelled). Replaced the 1972 convention and 1995 protocol (Art. 30(2)). Royalties definition includes equipment rental. Libya is not an MLI signatory, so no MLI modification.",
+ "confidence": "high",
+ "unverified": []
+}

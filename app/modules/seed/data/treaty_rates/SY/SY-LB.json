@@ -1,0 +1,60 @@
+{
+ "a": "SY",
+ "b": "LB",
+ "treaty_name": "Agreement between the Lebanese Republic and the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1997)",
+ "signed": "1997-01-12",
+ "entry_into_force": "1998-03-10",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC",
+ "eif_quote": "Syria | January 12,1997 | July 24, 1997 | March 10, 1998 | Law N. 658 In O.G N.37 dated July 31, 1997 | Syria - Amending Protocol | July 18, 2010",
+ "source_title": "Lebanon MoF: Arabic text of LB-SY Agreement (scanned PDF 'Syria ar'; read visually)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Syria%20ar.PDF",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- يمكن أيضاً تكليف حصص الأرباح المذكورة في الفقرة (١) بالضريبة في الدولة المتعاقدة التي تكون الشركة دافعة الأرباح مقيمة فيها ووفقاً لقوانين تلك الدولة، ولكن إذا كان المستفيد هو المالك الفعلي لأرباح الأسهم مقيماً في الدولة المتعاقدة الأخرى فإن الضريبة المفروضة هكذا ينبغي ألا تتجاوز (٥٪) من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- ألا أن مثل هذه الفائدة يمكن أن تخضع للتكليف الضريبي في الدولة المتعاقدة التي تنشأ فيها ووفقاً لقوانين تلك الدولة، لكن إذا كان القابض هو المالك المستفيد للفائدة مقيماً في الدولة المتعاقدة الأخرى فان الضريبة المفروضة هكذا سوف لن تتجاوز نسبة (١٠٪) من المبلغ الإجمالي للفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "٢- بيد أن مثل هذه العائدات يمكن أيضاً أن تخضع للتكليف الضريبي في الدولة المتعاقدة التي تنشأ فيها وفقاً لقوانين تلك الدولة، ولكن الضريبة المفروضة هكذا سوف لن تتجاوز نسبة (١٨٪) من المبلغ الإجمالي للعائدات"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (only article-specific main-purpose tests in Arts. 11(8), 12(7); SY not an MLI signatory)",
+  "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Syria%20ar.PDF",
+  "quote": "٧- لا تسري أحكام هذه المادة إذا كان الغرض الرئيسي، أو أحد الأغراض الرئيسية لأي شخص له علاقة بإنشاء أو تحويل ما يدفع بشأنه العائدات، هو استغلال هذه المادة لمنفعته بصورة غير قانونية خلال ذلك الإنشاء أو التحويل."
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authorities, their agencies/banking units/institutions, or on debt-claims guaranteed/financed by a financial institution wholly owned by that Government (not modelled). Arts. 11(8) and 12(7) contain article-specific main-purpose anti-abuse rules (benefits denied where the main purpose of creating/assigning the debt-claim or right was to take advantage of the article) — not a general PPT. Art. 28: EIF 30 days after the last notification (10.03.1998 per LB MoF list); provisions apply from 1 January of the year following the exchange of ratification instruments (1999-01-01 used). AMENDING PROTOCOL signed 18.07.2010 is listed by the Lebanese MoF without ratification/EIF date; its text was not obtained and may change these rates if in force. Not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Status/content of 2010 amending protocol unknown",
+  "valid_from depends on reading of Art. 28(2) (ratification exchange year vs EIF year)",
+  "Quotes transcribed visually from scanned Arabic"
+ ]
+}

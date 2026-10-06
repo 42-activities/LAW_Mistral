@@ -1,0 +1,80 @@
+{
+ "a": "AU",
+ "b": "MT",
+ "treaty_name": "Agreement between Australia and Malta for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1984)",
+ "signed": "1984-05-09",
+ "entry_into_force": "1985-05-20",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/1985/15.html (read via web.archive.org/web/20240519131050)",
+ "eif_quote": "[Treasury] Malta | DTA | 09/05/1984 | ... | In force | 20/05/1985 | Art. 27: \"(a) in Australia: (i) in respect of withholding tax on income that is derived by a non-resident, in relation to income derived on or after 1 January in the calendar year next following that in which the Agreement enters into force; ... (b) in Malta: in relation to taxes which are levied for the year of assessment beginning on 1 January in the second calendar year following that in which the Agreement enters into force and for any subsequent year of assessment.\"",
+ "source_title": "Australia-Malta DTA [1985] ATS 15 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1985/15.html (read via web.archive.org/web/20240519131050) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Malta-agreement (ATO synthesised text, read via web.archive.org/web/20230607165101)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1986-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "(a) in the case of tax charged by Australia: that tax shall not exceed 15 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "Such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "Such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "MT",
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Malta-agreement (ATO synthesised text, read via web.archive.org/web/20230607165101)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Malta-source dividends have no percentage cap: Art. 10(2)(b) only limits Malta tax on dividends to the tax chargeable on the profits out of which they are paid (or the reduced rate for incentive profits) - category omitted for source_state MT. Interest cap is 15% (not 10%). Malta start date: year of assessment beginning 1 January 1987 (second calendar year after EIF); Australia WHT from 1 January 1986. MLI WHT effect from 2020-01-01 (ATO synthesised text); MLI does not modify Arts 10-12.",
+ "confidence": "high",
+ "unverified": [
+  "Malta valid_from 1987-01-01 is the year of assessment start (Malta assesses on a preceding-year basis; treaty gives no WHT-specific date)"
+ ]
+}

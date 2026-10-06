@@ -1,0 +1,67 @@
+{
+ "a": "DZ",
+ "b": "CH",
+ "treaty_name": "Convention between Algeria and Switzerland for the avoidance of double taxation with respect to taxes on income and on capital (2006, with Protocol)",
+ "signed": "2006-06-03",
+ "entry_into_force": "2009-02-06",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.sif.admin.ch/dam/de/sd-web/Rq53YeWNalWg/DBA-Liste%20DE-per%2001.01.2026.pdf",
+ "eif_quote": "[DZ DGI list] سويسرا | سارية المفعول ابتداء من 06/02/2009 ... سويسرا 03/06/2006 || [CH SIF list] Algerien E & V A 3. 6.06 .912.71",
+ "source_title": "JORA n° 04 du 18 janvier 2009 – Décret présidentiel n° 08-425 portant ratification de la convention Algérie–Suisse (Alger, 3 juin 2006) et du protocole",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2009/F2009004.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent (5 %) du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu’une société de personnes) qui détient directement au moins 20 pour cent (20 %) du capital de la société qui paie les dividendes ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent (15 %) du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder 10 pour cent (10 %) du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif est un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder 10 pour cent (10 %) du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 28(2)(a): WHT provisions apply to income attributed or paid from 1 January of the calendar year following entry into force (EIF 06-02-2009 -> 2010-01-01). Interest exclusive to residence State (Art. 11(3)) for credit sales of equipment, credit sales of goods between enterprises, loans of any kind granted by a bank, government bonds, payments to the other State/central bank, and loans granted/guaranteed/insured by the other State. Protocol point 2: equipment rental payments are business profits (Art. 7), not royalties. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

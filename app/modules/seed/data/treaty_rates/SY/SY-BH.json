@@ -1,0 +1,59 @@
+{
+ "a": "SY",
+ "b": "BH",
+ "treaty_name": "Agreement between the Syrian Arab Republic and the State of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000)",
+ "signed": "2000-09-20",
+ "entry_into_force": "2001-10-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+ "eif_quote": "[BH MLI] ... Syria Original 20-09-2000 25-10-2001",
+ "source_title": "Syrian Ministry of Finance web page (Wayback 2017-08-23): Arabic text 'اتفاقية تجنب الازدواج الضريبي بين سورية و دولة البحرين'",
+ "source_url": "https://web.archive.org/web/20170823105908/http://syrianfinance.gov.sy/arabic/budget/international-agreements/383/670.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 - أرباح الأسهم التي تدفعها شركة مقيمة في دولة متعاقدة إلى مقيمي الدولة المتعاقدة الأخرى والذي هو المالك المستفيد لأرباح الأسهم هذه تكون خاضعة للضريبة فقط في تلك الدولة المتعاقدة الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2-ومع ذلك يجوز إلا أن تخضع أيضا تلك الفائدة للضريبة في الدولة المتعاقدة التي تنشأ فيها ووفقا لقوانين تلك الدولة المتعاقدة و لكن إذا المالك المستفيد من الفائدة مقيما ف الدولة المتعاقدة الأخرى فان الضريبة المفروضة يجب أن لا تزيد عن 10% من المبلغ الإجمالي للفائدة"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2-ومع ذلك يجوز أيضا أن تخضع تلك الأتاوات للضريبة في الدولة المتعاقدة التي تنشأ فيها ووفقاً لقانون تلك الدولة المتعاقدة ولكن إذا كان المالك المستفيد من الأتاوات مقيم في تلك الدولة المتعاقدة فان الضريبة المفروضة يجب ألا تزيد عن 18% من القيمة الإجمالية للأتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://web.archive.org/web/20170823105908/http://syrianfinance.gov.sy/arabic/budget/international-agreements/383/670.html",
+  "quote": ""
+ },
+ "notes": "Dividends: taxable only in the residence State of the beneficial owner. Interest: Art. 11(3) exempts interest beneficially owned by Art. 4(2) bodies (governments etc.) and on debt-claims guaranteed/insured by a wholly government-owned financial institution (not modelled). Art. 29: EIF 30 days after receipt of the later notification (25.10.2001 per BH MLI list); WHT applies from 1 January of the year following EIF (2002-01-01). CAVEATS: the only text found is the Syrian MoF web page (archived), which contains evident copy-editing errors (its ratifying-law header refers to the Syria–Turkey agreement signed in Ankara 6/1/2004, and the final clause mentions 'Arabic and Turkish' originals). The Bahrain MoFNE site lists for Syria only an investment agreement (20 Sep 2000 / 19 Jun 2001), while Bahrain's MLI notification lists the DTA (Original 20-09-2000, in force 25-10-2001). Not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Text from Syrian MoF web page with editorial errors; no Bahraini-side DTA text found",
+  "Royalty clause wording says beneficial owner 'resident in that Contracting State' (drafting slip)"
+ ]
+}

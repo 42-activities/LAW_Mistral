@@ -1,0 +1,91 @@
+{
+ "a": "TN",
+ "b": "NL",
+ "treaty_name": "Convention between Tunisia and the Netherlands (1995), as modified by the MLI",
+ "signed": "1995-05-16",
+ "entry_into_force": "1995-12-15",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Pays-Bas Original 16-05-1995 15-12-1995 || [NL list] Tunesië DTA In werking 16-05-1995 15-12-1995",
+ "source_title": "Convention Tunisie-Pays-Bas, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Pays-Bas.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2024-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui détient directement au moins 10 pour cent du capital de la société qui paie les dividendes ; Le taux de 0 pour cent ne s'applique que si les conditions de détention énoncées dans ces dispositions sont satisfaites tout au long d'une période de 365 jours incluant le jour du paiement des dividendes"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 20 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Protocol para. 7 (ad Art. 11 and 12)",
+   "valid_from": "1996-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TN",
+   "quote": "7. Les intérêts prévus par le paragraphe 2 de l'article 11 sont soumis à l'impôt au taux de 7,5 pour cent tant que les intérêts reçus par un résident de Tunisie ne sont pas soumis à la retenue à la source aux Pays-Bas et tant que les Pays-Bas n'auront pas procédé à la modification de leur législation fiscale."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "11",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt ainsi établi ne peut excéder 11 pour cent du montant brut des redevances."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Protocol para. 9 (ad Art. 11 and 12)",
+   "valid_from": "1996-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TN",
+   "quote": "9. Les redevances prévues par le paragraphe 2 de l'article 12 sont soumises à l'impôt au taux de 7,5 pour cent tant que les redevances reçues par un résident de Tunisie ne sont pas soumises à la retenue à la source aux Pays-Bas et tant que les Pays-Bas n'auront pas procédé à la modification de leur législation fiscale."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Pays-Bas.pdf",
+  "quote": "3. Nonobstant toute disposition de la présente convention, un avantage au titre des dispositions des paragraphes 1 et 2 alinéa a) ne sera pas accordé s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention.9 [fn 9: Modifié par les paragraphes 1 et 2 de l'article 7 de la CML] (Art. 10(3))"
+ },
+ "notes": "Dividends: 0% at >=10% direct holding by a company, 365-day holding added by MLI art. 8 (both notified Art. 10(2)(a); WHT effect 2024-01-01); the 0%/20% tiers otherwise apply from 1996-01-01. Interest/royalties: Protocol paras 7 and 9 reduce the Tunisian rate to 7.5% while the Netherlands does not withhold on interest/royalties received by Tunisian residents and has not changed its law; whether NL's 2021 conditional WHT on interest/royalties (aimed at low-tax jurisdictions only) counts as such a change is not addressed in the text - flagged. Interest exempt at source on government securities and loans by government/central bank/state-controlled entities incl. FMO and NIO (Art. 11(3), Protocol para. 8). Royalties include technical/economic studies and technical assistance. valid_from from Art. 27(2): 1 January after year of EIF (15-12-1995). PPT: Tunisia notified Art. 10(3) as an Art. 7(2) provision; DGI consolidated text shows the PPT in Art. 10(3) only, but MLI art. 7(1) is general.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether the Protocol 7.5% condition still holds after NL Withholding Tax Act 2021"
+ ]
+}

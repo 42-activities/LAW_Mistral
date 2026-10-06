@@ -1,0 +1,56 @@
+{
+ "a": "MA",
+ "b": "RS",
+ "treaty_name": "Agreement between the Republic of Serbia and the Kingdom of Morocco for the avoidance of double taxation with respect to taxes on income (2013)",
+ "signed": "2013-06-06",
+ "entry_into_force": "2022-04-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+ "eif_quote": "[RS MLI consolidated] Morocco Original 06-06-2013 19-04-2022 || Члан 29. 2. Овај уговор ступа на снагу датумом последњег од тих обавештења, а његове одредбе се примењују: ... 2) У случају Марока: (1) у односу на порезе по одбитку, за износе који су плаћени или кредитирани првог јануара или после првог јануара прве године која следи календарску годину у којој овај уговор ступа на снагу",
+ "source_title": "Уговор између Републике Србије и Краљевине Мароко о избегавању двоструког опорезивања у односу на порезе на доходак (Serbian text, Ministry of Finance of Serbia)",
+ "source_url": "https://www.mfin.gov.rs/upload/media/GPUeLI_6397050da49c6.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Дивиденде се могу опорезивати и у држави уговорници чији је резидент компанија која исплаћује дивиденде, у складу са законима те државе, али ако је стварни власник дивиденди резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа дивиденди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty (Arts 1-30) contains no principal purpose test article."
+ },
+ "notes": "Art. 13 (fees for technical services: technical, managerial or consultancy services) capped at 10% at source (not modelled). Art. 11(3): interest paid to the Government/Central Bank (Bank Al-Maghrib / National Bank of Serbia) exempt at source. Art. 12(3) royalties include software, equipment rentals and know-how. Serbia applies the agreement to income of tax years from 1 January 2023; Morocco to WHT on amounts paid from 1 January 2023. English text prevails; Serbian authentic text used.",
+ "confidence": "high",
+ "unverified": []
+}

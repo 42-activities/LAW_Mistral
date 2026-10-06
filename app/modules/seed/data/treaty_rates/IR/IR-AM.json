@@ -1,0 +1,69 @@
+{
+ "a": "IR",
+ "b": "AM",
+ "treaty_name": "Agreement between the Government of the Republic of Armenia and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1995)",
+ "signed": "1995-05-06",
+ "entry_into_force": "1997-07-10",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf ; https://www.arlis.am/hy/acts/21066/latest",
+ "eif_quote": "[AM MLI] Islamic Republic of Iran Original 06-05-1995 10-07-1997 || [ARLIS act card] Ուժի մեջ մտնելու ամսաթիվ 11.07.1997; Գործում է (11.07.1997-մինչ օրս)",
+ "source_title": "ARLIS (Armenian Legal Information System): Agreement Armenia-Iran, Armenian text (ՀՀՊՏ 1997.09.23/21)",
+ "source_url": "https://www.arlis.am/hy/acts/21066/latest",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ա) շահաբաժինների համախառն գումարի 10 %: Եթե ստացող-ընկերությունը (բացառությամբ ընկերակցությունների) համարվում է շահաբաժիններ վճարող ընկերության գույքի առնվազն 25 %-ի սեփականատերը,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "բ) շահաբաժինների համախառն գումարի 15 %, մնացած բոլոր դեպքերում:"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "բայց եթե ստացողը հանդիսանում է տոկոսների փաստացի սեփականատերը, ապա գանձվող հարկն այդ դեպքում չպետք է գերազանցի տոկոսների համախառն գումարի 10 %:"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "բայց եթե ստացողը հանդիսանում է ռոյալտիի փաստացի սեփականատերը, ապա գանձվող հարկն այդ դեպքում չպետք է գերազանցի ռոյալտիի համախառն գումարի 5 %:"
+  }
+ ],
+ "notes": "Art. 29(2): EIF after exchange of ratification instruments; WHT applies to amounts paid on/after 1 January of the calendar year following EIF -> 1 Jan 1998. EIF date conflict: ARLIS act card 11.07.1997 vs Armenia MLI notification 10-07-1997 (map value kept). Dividend 10% tier: company (other than partnership) owning at least 25% of the paying company's 'գույք' (property/capital - Armenian text). Art. 11(3): interest received by the Government, ministries, other state institutions, local authorities, Central Bank and banks wholly owned by the other State's government exempt at source. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF day differs by one day between ARLIS (11.07.1997) and MLI notification (10.07.1997)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

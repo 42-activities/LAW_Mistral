@@ -1,0 +1,56 @@
+{
+ "a": "YE",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Turkey and the Government of the Republic of Yemen for the avoidance of double taxation with respect to taxes on income (2005)",
+ "signed": "2005-10-26",
+ "entry_into_force": "2010-03-16",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "74) Yemen 26.10.2005 13.03.2010 - 27520 16.03.2010 01.01.2011",
+ "source_title": "GİB Turkish text: Türkiye–Yemen Gelir Üzerinden Alınan Vergilerde Çifte Vergilendirmeyi Önleme Anlaşması",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/YEMEN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber söz konusu temettüler, aym zamanda temettü ödemesini yapan şirketin mukim olduğu Akit Devlette ve bu Devletin mevzuatına göre de vergilendirilebilir; ancak, temettünün gerçek lehdan diğer Akit Devletin mukimi ise, bu şekilde alınacak vergi gayrisafı temettü tutarının % 10 unu aşmayacaktır"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir, ancak, faizin gerçek lehdan diğer Akit Devletin bir mukimi ise bu şekilde alınacak vergi faizin gayrisafı tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, söz konusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedelinin gerçek lehdan diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafı tutarının yüzde 10 unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; YE not an MLI signatory)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/YEMEN.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest paid to the other State's Government or Central Bank exempt at source. Art. 10(4): branch profits tax allowed at the Art. 10(2) rate. Art. 28: EIF on date of last notification; WHT applies to amounts paid on/after 1 January following EIF (=2011-01-01, matching GİB list). GİB Turkish text (English is the signature language). Not MLI-covered: YE not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SD",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of the Sudan and the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (2001)",
+ "signed": "2001-08-26",
+ "entry_into_force": "2005-01-31",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "[GIB] 57) Sudan 26.08.2001 17.09.2003 - 25232 31.01.2005 01.01.2006 ; [Art. 27(2)(a)] with regard to taxes withheld at source, in respect of amounts paid or credited on or after the first day of January next following the date upon which this Agreement enters into force",
+ "source_title": "Resmî Gazete No. 25232 (17 Sep 2003), Decision 2003/6087: Türkiye–Sudan DTA, Turkish text (page images); English text checked against the tax.gov.sd copy",
+ "source_url": "https://www.resmigazete.gov.tr/eskiler/2003/09/20030917.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber sözkonusu temettüler, temettüyü ödeyen şirketin mukim olduğu Akit Devlette ve bu Devletin mevzuatına göre de vergilendirilebilir; ancak, temettünün gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, gayrisafi temettü tutarının yüzde 10 unu aşmayacaktır. / EN: but if the beneficial owner of the dividends is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faizin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi faizin gayrisafi tutarının yüzde 10 unu aşmayacaktır. / EN: but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Bununla beraber, sözkonusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, gayrimaddi hak bedelinin gerçek lehdarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10 unu aşmayacaktır. / EN: but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan is not an MLI signatory; treaty has no PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Single 10% cap for all three categories. Art. 11(3): interest paid to the other State's Government or Central Bank is exempt. Art. 10(4): the branch profits remainder may be taxed under Art. 10(2) (not modelled). Signed at Izmir on 26 Aug 2001 in English (the English text is authentic). The tax.gov.sd copy is an undated, unsigned English text; the rates were checked against the Resmî Gazete Turkish text. WHT effect from 1 Jan 2006 (EIF 31 Jan 2005, per GİB). Sudan is not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

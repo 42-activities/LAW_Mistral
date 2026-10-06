@@ -1,0 +1,26 @@
+{
+ "a": "SD",
+ "b": "IQ",
+ "treaty_name": "Agreement between the Government of the Republic of Iraq and the Government of the Republic of the Sudan on the avoidance of double taxation with respect to income tax (2002)",
+ "signed": "2002-04-25",
+ "entry_into_force": null,
+ "eif_source_url": "https://tax.mof.gov.iq/",
+ "eif_quote": "[IQ tax authority] | 2 | الاتفاقية السودانية | بغداد / العراق | 2002 | دخلت حيز التنفيذ (قبل عام2003) | ; [Art. 29(3)] تعتبر هذه الاتفاقية نافذة اعتباراً من اليوم الأول من السنة الميلادية التي تلي السنة التي تم فيها تبادل الاخطارين على الوجه المنصوص عليه في البند (ثانياً) من هذه المادة .",
+ "source_title": "tax.gov.sd: Iraq–Sudan agreement (Arabic scan, signed Baghdad 25/4/2002)",
+ "source_url": "https://tax.gov.sd/wp-content/uploads/2025/02/Iraq.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan and Iraq are not MLI signatories; treaty has no PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "No source-State limits, so all three categories are omitted. This short Arab-style agreement assigns taxing rights without rate caps. Dividends, Art. 10 (أولاً): 'يجوز أن تخضع للضريبة أرباح الأسهم التي تدفعها شركة مقيمة في إحدى الدولتين المتعاقدتين الى شركة مقيمة في الدولة المتعاقدة الأخرى' (may be taxed in the residence State; no source cap). Interest, Art. 11 (أولاً): 'تخضع للضريبة في الدولة المتعاقدة الأخرى الفوائد الناتجة في دولة متعاقدة و يتم دفعها الى مقيم في الدولة المتعاقدة الأخرى ، ومع ذلك فأن هذه الفوائد يجوز ان تخضع للضريبة في الدولة المتعاقدة التي تنشأ فيها وطبقاً لقوانين تلك الدولة' (source State may tax under its own law; no cap). Royalties, Art. 12 (أولاً): 'تخضع الإتاوات التي تنشأ في إحدى الدولتين المتعاقدتين و تدفع الى شخص مقيم في الدولة المتعاقدة الأخرى للضريبة في الدولة التي تنشأ فيها تلك الإتاوات' (taxed in the source State; no cap). Entry into force: the exact date is not published (Iraq says before 2003); the agreement applies from 1 Jan after the year notifications were exchanged.",
+ "confidence": "medium",
+ "unverified": [
+  "entry-into-force date",
+  "Iraq's official text (only the Sudanese scan was read)"
+ ],
+ "no_cap": true
+}

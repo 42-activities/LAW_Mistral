@@ -1,0 +1,69 @@
+{
+ "a": "MA",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Arab Republic of Egypt and the Government of the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1989)",
+ "signed": "1989-03-22",
+ "entry_into_force": "1993-05-28",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19",
+ "eif_quote": "[DGI, Tableau récapitulatif] 15 Egypte DTC Rabat 22/03/89 28/05/93 4804 du 15/06/00 (AR) || Art. 28(2): تصبح هذه الاتفاقية سارية المفعول فور تبادل وثائق التصديق ويبدأ سريان أحكامها لأول مرة في كل من الدولتين المتعاقدتين على الوجه الآتي: (أ) بالنسبة للضرائب التي تحصل من المنبع في أو بعد أول السنة الميلادية التالية لتاريخ سريان هذه الاتفاقية.",
+ "source_title": "Egyptian Tax Authority: Egypt-Morocco DTA (Arabic text; copy of the text published in the Egyptian Official Gazette No. 45 of 11/11/1993)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/almghrb.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(أ) ١٠% من المبلغ الإجمالي لحصص الأرباح، إذا كان المستفيد منها شركة (غير شركة الأشخاص) تتوفر بصفة مباشرة وعلى الأقل ٢٥% من رأس مال الشركة المؤدية لحصص الأرباح."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-01-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ب) ١٢,٥% من المبلغ الإجمالي لحصص الأرباح في جميع الحالات الأخرى"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك يجوز أن تخضع هذه الفوائد للضريبة في الدولة المتعاقدة التي نشأت فيها وبسعر لا يجاوز ٢٠% من القيمة الإجمالية لهذه الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1994-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ومع ذلك يجوز للدولة الدافعة للإتاوات أن تفرض عليها الضريبة بسعر لا يجاوز ١٠% من قيمتها الإجمالية."
+  }
+ ],
+ "notes": "Interest paid to the other State's Government, its public bodies or public institutions exempt at source (Art. 11(6)) - not modelled. Royalties definition includes rentals and payments for economic/technological studies (Art. 12(2)). EIF conflict: 28-05-1993 (Morocco MLI list and DGI table) vs 21-09-1993 (Egypt MLI list); WHT effect from 1 Jan 1994 either way (Art. 28(2)(a)). ETA disclaimer: the posted text is a copy of the text published in the Official Gazette No. 45 of 11/11/1993; the Arabic version is authentic. Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "unverified": [
+  "exact entry-into-force day (28-05-1993 vs 21-09-1993)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ }
+}

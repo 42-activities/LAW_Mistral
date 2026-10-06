@@ -1,0 +1,89 @@
+{
+ "a": "AU",
+ "b": "SG",
+ "treaty_name": "Agreement between the Commonwealth of Australia and the Republic of Singapore for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1969, as amended 1989 and 2009)",
+ "signed": "1969-02-11",
+ "entry_into_force": "1969-06-04",
+ "eif_source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1969/14.html (read via web.archive.org/web/20240612093219)",
+ "eif_quote": "[1] The Agreement entered into force 4 June 1969. | Art. 21: \"... shall thereupon have effect- (a) in Australia- (i) in respect of withholding tax on income that is derived by a non-resident, in respect of income derived on or after 1 July 1969; ... (b) in Singapore- for any year of assessment beginning on or after 1 January 1970.\"",
+ "source_title": "Australia-Singapore DTA [1969] ATS 14; Amending Protocol [1990] ATS 3; Second Amending Protocol [2010] ATS 26 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1969/14.html (read via web.archive.org/web/20240612093219) ; https://www.austlii.edu.au/au/other/dfat/treaties/1990/3.html ; https://www.austlii.edu.au/au/other/dfat/treaties/2010/26.html ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Singapore-agreement (ATO synthesised text, read via web.archive.org/web/20250511061054)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(1)",
+   "valid_from": "1969-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "The Australian tax on dividends, being dividends paid by a company which is a resident of Australia, derived by a Singapore resident who is beneficially entitled to the dividends, shall not exceed 15 per centum of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(4)",
+   "valid_from": "1970-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SG",
+   "quote": "If Singapore, subsequent to the signing of this Agreement, imposes a tax on dividends paid by a company which is resident in Singapore or by a Malaysian company out of profits derived from sources in Singapore, which is in addition to the tax chargeable in respect of the profits of the company, such tax may be charged but the tax so charged on such dividends derived by an Australian resident who is beneficially entitled to the dividends shall not exceed 15 per centum of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(1)",
+   "valid_from": "1969-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "The Australian tax on interest derived by a Singapore resident who is beneficially entitled to the interest shall not exceed 10 per centum of the gross amount of the interest."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SG",
+   "quote": "The Singapore tax on interest derived by an Australian resident who is beneficially entitled to the interest shall not exceed 10 per centum of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(1)",
+   "valid_from": "1969-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "The Australian tax on royalties derived by a Singapore resident who is beneficially entitled to the royalties shall not exceed 10 per centum of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SG",
+   "quote": "The Singapore tax on royalties derived by an Australian resident who is beneficially entitled to the royalties shall not exceed 10 per centum of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Singapore-agreement (ATO synthesised text, read via web.archive.org/web/20250511061054)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Old-style treaty: Dividends = Art. 8, Interest = Art. 9, Royalties = Art. 10. Singapore-source dividends: Art. 8(2) exempts them from any Singapore tax chargeable on dividends in addition to company profits tax; Art. 8(4) caps any such tax Singapore may later impose at 15% (recorded as the SG-source cap). The 1989 Protocol (in force 1990-01-05) replaced the royalty definition (Art. 10(3), excluding literary/dramatic/musical/artistic copyright and film/TV/radio tapes, effective from 1 July 1987 AU / YA 1988 SG) but did not change the rates; the 2009 Second Protocol (in force 2010-12-22) replaced the exchange-of-information article only. Rates cross-checked against the ATO MLI synthesised text. MLI WHT effect from 2020-01-01; MLI does not modify the rate articles.",
+ "confidence": "high",
+ "unverified": []
+}

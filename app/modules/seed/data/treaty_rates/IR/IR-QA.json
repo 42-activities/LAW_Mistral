@@ -1,0 +1,67 @@
+{
+ "a": "IR",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2000)",
+ "signed": "2000-07-18",
+ "entry_into_force": "2010-09-21",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+ "eif_quote": "[GTA feed] \"Iran\" signature_date 18-Jul-2000, date 21-Sep-2010 || [QA MLI] Iran Original 18/07/2000 21/09/2010",
+ "source_title": "Qatar GTA: DTA Iran (EN) PDF",
+ "source_url": "https://www.gta.gov.qa/assets/pdf/DTA%20Iran%20(EN)%20(2)2026.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 percent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 20 percent of the capital of the company paying the dividends ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 7.5 percent of the gross amount of the dividends in all other cases ."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed (10) percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed (5) percent of the gross amount of the royalties."
+  }
+ ],
+ "notes": "Art. 28(2): EIF upon exchange of ratification instruments; effective for income earned on/after the beginning of the calendar year following the year of legal effect -> 1 Jan 2011 (EIF 21 Sep 2010). Art. 11(4): interest derived by the other State, ministries, governmental institutions, municipalities, Central Bank and banks wholly owned by that State exempt at source. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered (Iran not an MLI signatory).",
+ "confidence": "high",
+ "unverified": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

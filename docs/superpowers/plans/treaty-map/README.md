@@ -52,3 +52,12 @@ seed folder: hub research → remaining-treaty research → gap pass → batch-8
 carry corrections (e.g. IE–DE entry into force) that earlier ones lack.
 Investment-conditioned dividend tiers ("holds X% AND invested at least N") are dropped; "or"
 conditions are kept because the percentage alone qualifies.
+
+## Batch-9 network (Middle East completion, North Africa, Kenya, Australia)
+
+Maps for the 11 batch-9 jurisdictions (MAP3 groups A–D) and rates for 203 in-force treaties.
+The Arab Maghreb Union convention (1990, in force 1993) replaces the members' bilaterals
+(art. 29(3), read in JORA 6/1991 and the jibaya.tn French text) and sets no source caps — those
+pairs, LY–EG, TN–JO and SD–IQ carry `no_cap` and load as treaties without rates. Curated:
+YE–QA exemptions (ambiguous wording). Australian franking/listing/LOB-conditioned 0% tiers are
+kept in notes only. Rebuild order adds this folder last.

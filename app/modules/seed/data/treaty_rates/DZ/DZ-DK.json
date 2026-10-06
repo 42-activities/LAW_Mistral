@@ -1,0 +1,69 @@
+{
+ "a": "DZ",
+ "b": "DK",
+ "treaty_name": "Convention between Algeria and Denmark for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2021)",
+ "signed": "2021-09-30",
+ "entry_into_force": "2023-12-17",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales')",
+ "eif_quote": "[DZ DGI list] الدانمارك | سارية المفعول ابتداء من 17/12/2023 ; جريدة رسمية رقم 30 في 03/05/2023 ... الدانمارك ; 30/09/2021",
+ "source_title": "JORA n° 30 du 3 mai 2023 – Décret présidentiel n° 23-168 portant ratification de la convention Algérie–Danemark (Copenhague, 30 septembre 2021), French edition",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2023/F2023030.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2024-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5% du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 15 % du capital de la société qui paie les dividendes pendant une période de 365 jours incluant le jour du paiement des dividendes"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2024-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% du montant brut des dividendes dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 8% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2024-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire effectif des redevances est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder le taux de 10 % du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "treaty art. 28(4)",
+  "source_url": "https://www.joradp.dz/FTP/jo-francais/2023/F2023030.pdf",
+  "quote": "4. Nonobstant les dispositions de la présente Convention, un avantage en vertu de la présente Convention n'est pas accordé pour un élément de revenu ou du capital s'il est raisonnable de conclure, eu égard à tous les faits et circonstances, que l'obtention de cet avantage était l'un des objets principaux de tout accord ou transaction ayant abouti directement ou indirectement à cet avantage, à moins qu'il ne soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente Convention."
+ },
+ "notes": "Art. 29: in force on exchange of instruments (17-12-2023 per Algeria DGI list); WHT applies to amounts paid or credited on or after 1 January following entry into force (2024-01-01). Dividends exempt at source if beneficial owner is a pension fund (Art. 10(3)). Interest exclusive to residence State (Art. 11(3)) for government payers/recipients, wholly state-owned institutions, central bank and intergovernmental-agreement financing. Art. 28(1)-(3): source State may tax interest/royalties under domestic law (overriding Arts. 11-12) where the income is untaxed or preferentially taxed in the residence State — not modelled. Built-in PPT in Art. 28(4) (treaty, not MLI). Authentic texts are Arabic, Danish and English (English prevails); the French JORA text is a translation.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 17-12-2023 from Algeria DGI list only (Danish side not checked)."
+ ]
+}

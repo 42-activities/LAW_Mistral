@@ -1,0 +1,59 @@
+{
+ "a": "KE",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Kenya and the Federal Republic of Germany for the Avoidance of Double Taxation with respect to Taxes on Income and Capital (1977)",
+ "signed": "1977-05-17",
+ "entry_into_force": "1980-07-17",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+ "eif_quote": "Germany Original 17/05/1977 17/07/1980",
+ "source_title": "Kenya Legal Notice No. 20 of 1980, Double Taxation Relief (Federal Republic of Germany) Notice (scan, Kenya Treasury, archived copy)",
+ "source_url": "https://www.treasury.go.ke/wp-content/uploads/2024/07/Kenya-Germany-Agreement-Document.pdf (now 404; read via https://web.archive.org/web/2025id_/https://www.treasury.go.ke/wp-content/uploads/2024/07/Kenya-Germany-Agreement-Document.pdf)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may be taxed in the Contracting State in which it arises, and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such payments may be taxed in the Contracting State in which they arise, and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the payments."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+  "quote": "Germany Original 17/05/1977 17/07/1980 (listed by Kenya only; Germany's deposited list has no Kenya entry)"
+ },
+ "notes": "Not MLI-covered: Kenya lists Germany but Germany does not list Kenya (map), so no PPT. The treaty has no PPT/LOB article. Effect (Art. 29(2)(b)): in Kenya 'in respect of income arising for the year of income in which this Agreement enters into force and subsequent years'; in Germany for the assessment period in which it enters into force -> 1980-01-01. Art. 10(3) allowed German tax up to 25% on dividends paid to a Kenyan company owning >=25% of voting shares 'as long as the rate of German corporation tax on distributed profits is lower than that on undistributed profits and the difference between those two rates is 15 percentage points or more' — the split-rate condition no longer exists under current German law, so 15% applies; not modelled as a tier. Art. 12 also covers management fees (managerial, technical, consultancy services, independent professional activities) at max 15%. Interest exemptions (Art. 11(3)): interest paid to the Kenya Government/Central Bank of Kenya exempt from German tax and to the German Government/Deutsche Bundesbank exempt from Kenya tax. EIF conflict: Kenya Treasury table shows 01/01/1980 (the effective date); Kenya MLI list 17/07/1980 used.",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from a scanned Kenya Legal Notice via Web Archive copy of the Treasury PDF (live link 404)",
+  "Art. 10(3) split-rate condition assessed as inapplicable on current German law (not from treaty text)"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "a": "TN",
+ "b": "SY",
+ "treaty_name": "Convention between Tunisia and Syria (1998)",
+ "signed": "1998-06-22",
+ "entry_into_force": "2001-01-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Syrie Original 22-06-1998 01-01-2001",
+ "source_title": "Convention Tunisie-Syrie 1998, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/SYRIE.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) Les dividendes payés par une société d'un Etat contractant à un résident de l'autre Etat contractant ne sont imposables dans aucun des deux Etats contractants."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif et est un résident de cet autre Etat contractant, l'impôt ainsi établi ne peut excéder 10% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais, l'impôt ainsi établi, ne peut excéder (18%) du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividends taxable in NEITHER State (Art. 10(1)) - modelled as exclusive/0% at source. valid_from: Art. 28(2) provisions apply from 1 January of the year following EIF (EIF 01-01-2001, first day of month after last notification) -> 2002-01-01 (derived). French text is a translation (Arabic authentic). PPT: not applied - Syria is not an MLI signatory; no PPT in the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only",
+  "valid_from derived"
+ ]
+}

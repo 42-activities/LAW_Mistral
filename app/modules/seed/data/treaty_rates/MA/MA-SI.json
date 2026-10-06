@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "SI",
+ "treaty_name": "Convention between the Republic of Slovenia and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-04-05",
+ "entry_into_force": "2022-04-14",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx",
+ "eif_quote": "[SI MLI consolidated] Kingdom of Morocco Original 05-04-2016 14-04-2022 || [FURS list] MAROKO MP, št. 18/16 ... 1. 1. 2023 || Art. 28(2): This Convention shall be applicable: a) in respect of taxes withheld at source, to income derived on or after 1 January of the calendar year next following the year in which the Convention enters into force;",
+ "source_title": "SI-MA Convention 2016, English text (prevailing), published by the Slovenian Ministry of Finance (linked from FURS list of treaties in force)",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO-2023/Convention.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: a) 7 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty (Arts 1-29) contains no principal purpose test article."
+ },
+ "notes": "Art. 11(3): interest paid to the government or Central Bank of the other State exempt at source. Text read: English (prevailing in case of divergence). Article 14 heading not captured in the text extraction but its content (independent personal services) is present; not relevant to WHT.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,56 @@
+{
+ "a": "SY",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the Republic of Bulgaria and the Government of the Syrian Arab Republic for the avoidance of double taxation with respect to taxes on income (2001)",
+ "signed": "2001-03-20",
+ "entry_into_force": "2001-10-04",
+ "eif_source_url": "https://web.archive.org/web/20250604121336id_/https://nra.bg/wps/wcm/connect/nra.bg25863/e012dbc3-e0d5-4c58-9e38-a688841d7cf7/DTC_BG_SY_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-e012dbc3-e0d5-4c58-9e38-a688841d7cf7-nSQkExG",
+ "eif_quote": "Ратифицирана със закон, приет от 39-то Народно събрание на 12.09.2001 г. – ДВ, бр. 82 от 25.09.2001 г. Издадена от Министерството на финансите, обн., ДВ, бр. 33 от 2.04.2002 г., в сила от 4.10.2001 г.",
+ "source_title": "NRA (Bulgaria) text: Спогодба между правителството на Република България и правителството на Сирийската арабска република (ДВ бр. 33/2002)",
+ "source_url": "https://web.archive.org/web/20250604121336id_/https://nra.bg/wps/wcm/connect/nra.bg25863/e012dbc3-e0d5-4c58-9e38-a688841d7cf7/DTC_BG_SY_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-e012dbc3-e0d5-4c58-9e38-a688841d7cf7-nSQkExG",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивидентите, по ал. 1 могат също така да се облагат с данък в договарящата държава, на която дружеството, изплащащо дивидентите, е местно лице и съгласно законодателството на тази държава. Въпреки това, когато притежателят на дивидентите е местно лице на другата договаряща държава, така наложеният данък няма да надвишава 10 на сто от брутната сума на дивидентите."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Въпреки това, тези лихви могат също да се облагат с данък в договарящата държава, от която произхождат и съобразно законодателството на тази държава, но когато притежателят на лихвите е местно лице на другата договаряща държава, наложеният данък няма да надвишава 10 на сто от брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Такива авторски и лицензионни възнаграждения, обаче, могат също да се облагат с данък в договарящата държава, от която произхождат, съобразно законодателството на тази държава, но когато притежателят на авторските и лицензионните възнаграждения е местно лице на другата договаряща държава, така наложеният данък няма да надвишава 18 на сто от брутния размер на авторските и лицензионните възнаграждения."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://web.archive.org/web/20250604121336id_/https://nra.bg/wps/wcm/connect/nra.bg25863/e012dbc3-e0d5-4c58-9e38-a688841d7cf7/DTC_BG_SY_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-e012dbc3-e0d5-4c58-9e38-a688841d7cf7-nSQkExG",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest paid to the other State's Government or National Bank (not modelled). Art. 28: EIF on receipt of the last notification (04.10.2001); WHT applies to amounts paid on/after 1 January following the EIF year (2002-01-01). No protocol / MFN in NRA text. NRA live URL is behind a bot challenge; read via Wayback capture of the NRA PDF. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

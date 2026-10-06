@@ -1,0 +1,58 @@
+{
+ "a": "TN",
+ "b": "KW",
+ "treaty_name": "Convention between Tunisia and Kuwait (2000)",
+ "signed": "2000-04-18",
+ "entry_into_force": "2002-03-20",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Koweït Original 18-04-2000 20-03-2002 || [KW MLI] Tunisia Original 18/04/2000 20/03/2002",
+ "source_title": "Convention Tunisie-Koweït 2000, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/KOWEIT.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) Toutefois, ces dividendes sont aussi imposables dans l'Etat contractant d'où ils proviennent, et selon la législation de cet Etat contractant, mais si le bénéficiaire effectif des dividendes est un résident dudit Etat, l'impôt ainsi établi ne peut excéder 10% du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (second indent)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "-10% dans tous les autres cas."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si le bénéficiaire des redevances est un résident de cet Etat contractant, l'impôt, ainsi établi, ne peut excéder 5 % (cinq pour cent) du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Interest: 2.5% on bank loans ('-2,5 % du montant brut des intérêts au titre des prêts bancaires') - bank tier not modelled. Exemptions: dividends paid to the other State's government, public enterprises or entities under Art. 4(2) (Art. 10(3)); interest paid to a government, central bank or wholly government-owned entities (Art. 11(3)). The French text says 'résident dudit/cet Etat' where the other State is meant (translation wording). valid_from: Art. 29(a) 1 January following EIF (20-03-2002) -> 2003-01-01. Initial 10-year term, tacitly renewed. PPT: not applied - Kuwait has signed but not ratified the MLI; no PPT in the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only; Arabic authentic"
+ ]
+}

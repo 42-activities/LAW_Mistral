@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "US",
+ "treaty_name": "Convention between the United States of America and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1977)",
+ "signed": "1977-08-01",
+ "entry_into_force": "1981-12-30",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/morocco.pdf",
+ "eif_quote": "Ratifications Exchanged at Washington December 30, 1981; Proclaimed by the President of the United States of America January 27, 1982; Entered into Force December 30, 1981. GENERAL EFFECTIVE DATE UNDER ARTICLE 28: 1 JANUARY 1981 || Art. 28(2): The present Convention shall enter into force upon the exchange of instruments of ratification and will apply as follows: (a) To taxes due at the source on income payable or paid on and after the first day of the month following the exchange of instruments of ratification",
+ "source_title": "IRS: Tax Convention with the Kingdom of Morocco, signed at Rabat August 1, 1977 (with Treasury technical explanation)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/morocco.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) When the recipient is a corporation, ten percent of the gross amount actually distributed if- (i) During the part of the paying corporation's taxable year which precedes the date of payment of the dividend and during the whole of its prior taxable year (if any), at least ten percent of the voting shares of the paying corporation was owned by the recipient corporation, and (ii) Not more than twenty-five percent of the gross income of the paying corporation for such prior taxable year (if any) consists of interest or dividends (other than interest derived from the conduct of a banking, insurance, or financing business or dividends or interest received from subsidiary corporations, fifty percent or more of the outstanding shares of the voting stock of which is owned by the paying corporation at the time such dividends or interest is received)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) The rate of tax imposed by one of the Contracting States on dividends derived from sources within that Contracting State by a resident of the other Contracting State shall not exceed- (a) Fifteen percent of the gross amount actually distributed; or"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) The rate of tax imposed by one of the Contracting States on interest derived from sources within that Contracting State by a resident of the other Contracting State shall not exceed fifteen percent."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) The rate of tax imposed by a Contracting State on royalties derived from sources within that Contracting State by a resident of the other Contracting State shall not exceed ten percent."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.irs.gov/pub/irs-trty/morocco.pdf",
+  "quote": "No PPT: the US is not an MLI signatory and Morocco has signed but not ratified the MLI. The treaty has only an anti-holding-company rule (Art. 24): 'A corporation of one of the Contracting States deriving dividends, interest, royalties, or capital gains from sources within the other Contracting State shall not be entitled to the benefits of Article 10 (Dividends), 11 (Interest), 12 (Royalties), or 13 (Capital Gains) if- (a) By reason of special measures the tax imposed on such corporation ... is substantially less ... and (b) Twenty-five percent or more of the capital of such corporation is held ... by one or more persons who are not individual residents of the first-mentioned Contracting State'"
+ },
+ "notes": "The 10% dividend tier needs at least 10% of the voting shares held during the part of the payer's taxable year before payment and its whole prior taxable year (not a fixed day count, so min_holding_days is null), plus a test that no more than 25% of the payer's gross income is passive interest or dividends. Interest received by a Contracting State or a tax-exempt instrumentality of that State is exempt at source (Art. 11(6)); not modelled. Royalties include fees for technical assistance tied to the licensed property (Art. 12(3)(a)) and contingent gains on sale (12(3)(b)). Art. 24 denies Art. 10-13 benefits to companies taxed at a low rate under special measures that are 25% or more owned by non-residents. map_CD gave 1981-01-01 as entry into force; that is the general effective date under Art. 28. The IRS text says the treaty entered into force on 30 Dec 1981 (exchange of ratifications), so withholding tax rates apply from 1 Jan 1982 (Art. 28(2)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

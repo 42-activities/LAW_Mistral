@@ -1,0 +1,25 @@
+{
+ "a": "TN",
+ "b": "IQ",
+ "treaty_name": "Agreement between Iraq and Tunisia (2001)",
+ "signed": "2001-06-25",
+ "entry_into_force": null,
+ "eif_source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "eif_quote": "3 الاتفاقية التـونسية 25/6/2001 دخلت حيز التنفيذ دخلت حيز التنفيذ (قبل عام 2003)",
+ "source_title": "Treaty text not obtained (only Iraqi GCT list of agreements in force)",
+ "source_url": "https://tax.mof.gov.iq/uploads/Najwan/agreement/%D8%AF%D8%AE%D9%84%D8%AA%20%D8%AD%D9%8A%D8%B2%20%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Treaty text could not be obtained: not among the ~80 convention PDFs in jibaya.tn's media library (DGI Tunisia), not in Tunisia's MLI list, and the Iraqi General Commission for Taxes publishes only a list. The Iraqi list (PDF) gives signature 25/6/2001 and status 'entered into force (before 2003)'; exact EIF date unknown. Rates left empty. PPT: not applied - Iraq is not an MLI signatory.",
+ "confidence": "low",
+ "unverified": [
+  "entire treaty text",
+  "entry_into_force date"
+ ]
+}

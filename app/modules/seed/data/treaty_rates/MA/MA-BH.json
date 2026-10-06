@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "BH",
+ "treaty_name": "Convention between the Government of the Kingdom of Morocco and the Government of the State of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000, as amended by Protocol 2016)",
+ "signed": "2000-04-07",
+ "entry_into_force": "2001-02-10",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://web.archive.org/web/20201022094554/https://tax.gov.ma/wps/wcm/connect/348b15fb-a462-45e8-9e23-9d8ba1155855/bahrein_bo_4922_ar_p_2027.pdf?MOD=AJPERES&CACHEID=348b15fb-a462-45e8-9e23-9d8ba1155855",
+ "eif_quote": "[DGI, Tableau récapitulatif des conventions fiscales en vigueur] Bahreïn DTC Rabat 07/04/00 10/02/01 4922 du 02/08/01 (AR) ; Avenant Manama 25/04/16 01/06/22 || Art. 28(a): بالنسبة للضرائب التي تحجز من المنبع، تسري على المبالغ التي تدفع أو تقيد في الحساب اعتبارا من فاتح يناير التالي للسنة الميلادية التي تم فيها تبادل وثائق التصديق.",
+ "source_title": "Bulletin Officiel n° 4922 (2 August 2001), Arabic text of the MA-BH Convention (DGI copy via Wayback, scanned) + 2016 amending Protocol (DGI copy)",
+ "source_url": "https://web.archive.org/web/20201022094554/https://tax.gov.ma/wps/wcm/connect/348b15fb-a462-45e8-9e23-9d8ba1155855/bahrein_bo_4922_ar_p_2027.pdf?MOD=AJPERES&CACHEID=348b15fb-a462-45e8-9e23-9d8ba1155855 ; https://web.archive.org/web/20230307120708/https://www.tax.gov.ma/wps/wcm/connect/91d4fee6-0026-4fdb-8d46-efef214ea8b4/Bahrein.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-91d4fee6-0026-4fdb-8d46-efef214ea8b4-oljD5KK",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "أ) 5% (خمسة بالمائة) من إجمالي قيمة أرباح الأسهم، إذا كان المستفيد الفعلي شركة في حوزتها مباشرة ما لايقل عن 10% من رأس مال الشركة التي تؤدي أرباح الأسهم ؛"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب) 10% (عشرة بالمائة) من إجمالي قيمة أرباح الأسهم في جميع الحالات الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا أنه إذا كان المستفيد الفعلي من الفوائد مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا أنه إذا كان المستفيد الفعلي من الإتاوات مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "notes": "Protocol signed Manama 25-04-2016, in force 01-06-2022 per the DGI table, only renames the State of Bahrain (Art. 1) and replaces Art. 26 (exchange of information) (Art. 2); it does not change Art. 10-12. Interest paid to the other State's Government, political subdivisions, local authorities and their agencies, or central bank exempt at source (Art. 11(5)) - not modelled. Scanned BO text; quotes transcribed from page images (BO pp. 2031-2032, 2036). WHT effect from 1 Jan of the year following the exchange of ratification instruments (EIF 10-02-2001 -> 2002-01-01). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ },
+ "unverified": []
+}

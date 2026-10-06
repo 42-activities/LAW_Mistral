@@ -1,0 +1,67 @@
+{
+ "a": "AU",
+ "b": "US",
+ "treaty_name": "Convention between the Government of Australia and the Government of the United States of America for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1982, as amended by the Protocol of 2001)",
+ "signed": "1982-08-06",
+ "entry_into_force": "1983-10-31",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/2003/14.html (read via web.archive.org/web/20221024080331)",
+ "eif_quote": "[Treasury] United States of America | Amending Protocol | 27/09/2001 | ... | In force | 13/05/2003 | ... | DTA | 06/08/1982 | ... | In force | 31/10/1983 | Protocol Art. 13(2): \"(a) in Australia: (i) in respect of withholding tax on dividends, royalties and interest that is derived by a non-resident, in relation to income derived on or after the later of: (A) the first day of the second month next following the date on which the Protocol enters into force; or (B) 1 July, 2003; ... (b) in the United States: (i) in respect of withholding tax on dividends, royalties and interest that is derived by a non-resident, in relation to income derived on or after the later of: (A) ... or (B) 1 July, 2003\" | footnote [1] Entered into force on 12 May 2003 upon exchange of instruments of ratification.",
+ "source_title": "Australia-US Convention [1983] ATS 16 and 2001 Protocol [2003] ATS 14 (AustLII)",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1983/16.html (read via web.archive.org/web/20250812185806) ; https://www.austlii.edu.au/au/other/dfat/treaties/2003/14.html (read via web.archive.org/web/20221024080331)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as substituted by 2001 Protocol Art. 6)",
+   "valid_from": "2003-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) the tax charged shall not exceed 5 percent of the gross amount of the dividends, if the person beneficially entitled to those dividends is a company which holds directly at least 10 percent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as substituted by 2001 Protocol Art. 6)",
+   "valid_from": "2003-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) the tax charged shall not exceed 15 percent of the gross amount of the dividends to the extent to which those dividends are not within sub-paragraph (a),"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as substituted by 2001 Protocol Art. 7)",
+   "valid_from": "2003-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, that interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (as amended by 2001 Protocol Art. 8)",
+   "valid_from": "2003-07-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such royalties may be taxed in the Contracting State in which they have their source, and according to the law of that State, but the tax so charged shall not exceed 10 percent of the gross amount of the royalties. | Protocol Art. 8: Article 12 of the Convention is amended by: (a) omitting \"10\" and substituting \"5\" in paragraph (2);"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties",
+  "quote": "No PPT: the US is not an MLI Party and the treaty is not an MLI covered agreement. The 2001 Protocol inserted a detailed Limitation on Benefits article (Art. 16), which is not a PPT."
+ },
+ "notes": "Not modelled: Art. 10(3) 0% for a company owning >=80% of voting power for a 12-month period ending on the date the dividend is declared AND qualifying under the LOB listed-company test (Art. 16(2)(c)) or a competent-authority determination (Art. 16(5)); Art. 10(4) RIC/REIT restrictions (5% tier and 0% not available; REIT 15% only for small/portfolio holders and LAPTs); Art. 11(3) interest exempt for governments/central banks and unrelated financial institutions (except back-to-back, Art. 11(4)); Art. 11(9) profit-contingent interest up to 15% and excess securitisation interest taxable under domestic law; Art. 10(8)-(9) branch profits tax at up to 5%. All benefits subject to the Art. 16 LOB. Royalties (Art. 12) 5% from 2001 Protocol; equipment rental removed from the royalty definition. Protocol EIF: Treasury table gives 13/05/2003 while the ATS footnote says 12 May 2003; WHT effect from 1 July 2003 either way.",
+ "confidence": "high",
+ "unverified": []
+}

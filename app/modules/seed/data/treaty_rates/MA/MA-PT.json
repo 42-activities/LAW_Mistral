@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "PT",
+ "treaty_name": "Convention entre la République portugaise et le Royaume du Maroc tendant à éviter la double imposition en matière d'impôts sur le revenu (1997)",
+ "signed": "1997-09-29",
+ "entry_into_force": "2000-06-27",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf",
+ "eif_quote": "[PT table 2026] MARROCOS Resolução da Assembleia da República n.º 69-A/1998 de 23 de Dezembro Aviso n.º 201/2000 publicado em 16-10-2000 EM VIGOR DESDE 27-06-2000 || Art. 28(2): La Convention entrera en vigueur après l'échanger des instruments de ratification et ses dispositions seront applicables pour la première foi: a) Aux impôts dûs à la source dont le fait générateur se produira après le 31 décembre de l'année de l'échange des instruments de ratification;",
+ "source_title": "PT-MA Convention 1997, Diário da República I Série-A n.º 295, 23-12-1998 (Portuguese, Arabic and French texts; French prevails), Portal das Finanças",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Marrocos.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "a) 10 pour cent du montant brut des dividendes versés après le 31 décembre 1996, si le bénéficiaire effectif est une société qui, pour une période consécutive de deux années antérieures au paiement des dividendes, détient directement 25 pour cent au moins du capital social de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'État contractant d'où ils proviennent et selon la législation de cet État, mais si le bénéficiaire effectif des intérêts est résident de l'autre État contractant, l'impôt ainsi établi ne peut excéder 12 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'État contractant d'où elles proviennent et selon la législation de cet État, mais si le bénéficiaire effectif des redevances est un résident de l'autre État contractant, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty (Arts 1-29) contains no principal purpose test article."
+ },
+ "notes": "Dividend 10% tier requires a continuous 2-year holding of at least 25% before payment (modelled as 730 days). valid_from: EIF 27-06-2000 (instruments exchanged in 2000), so source taxes apply to events after 31-12-2000. Art. 12(3) royalties include equipment rentals (industrial, commercial, agricultural or scientific). The PT 2026 table shows 10%/15%, 12%, 10% consistently.",
+ "confidence": "high",
+ "unverified": []
+}

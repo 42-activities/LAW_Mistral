@@ -1,0 +1,59 @@
+{
+ "a": "TN",
+ "b": "YE",
+ "treaty_name": "Convention between Tunisia and Yemen (1998)",
+ "signed": "1998-03-08",
+ "entry_into_force": "2000-09-27",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Yémen Original 08-03-1998 27-09-2000",
+ "source_title": "Convention Tunisie-Yémen 1998, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Yemen.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2000-10-27",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 — Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'autre Etat contractant ne sont soumis à l'impôt dans aucun des deux Etats contractants."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-10-27",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder (10%) du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-10-27",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt, ainsi établi, ne peut excéder (7,5 %) sept et demi pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividends taxable in NEITHER State (Art. 10(1)) - modelled as exclusive/0% at source. Interest paid directly to a Contracting State, its political subdivisions, local authorities or central bank exempt (Art. 11(3)). valid_from: Art. 27(2)(a) WHT on income paid after 30 days from exchange of ratification instruments; EIF = exchange date 27-09-2000 -> 2000-10-27 (derived). PPT: not applied - Yemen is not an MLI signatory; no PPT in the treaty.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only",
+  "valid_from derived"
+ ]
+}

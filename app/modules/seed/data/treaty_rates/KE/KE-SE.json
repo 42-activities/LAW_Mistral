@@ -1,0 +1,69 @@
+{
+ "a": "KE",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the Republic of Kenya and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital (1973)",
+ "signed": "1973-06-28",
+ "entry_into_force": "1973-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+ "eif_quote": "Sweden Original 28/06/1973 28/12/1973",
+ "source_title": "Kenya–Sweden Convention 1973 (Kenya Treasury text)",
+ "source_url": "https://www.treasury.go.ke/sites/default/files/double%20taxation/Kenya-Sweden-Double-Taxation-Agreement.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article VIII(2)(a)",
+   "valid_from": "1973-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 183,
+   "source_state": null,
+   "quote": "2. However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but the tax so charged shall not exceed: (a) 15% of the gross amount of the dividends if the recipient is a company which owns at least 25% of the voting shares of the company paying the dividends during the period of six months immediately preceding the date of payment of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article VIII(2)(b)",
+   "valid_from": "1973-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 25% of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article IX(2)",
+   "valid_from": "1973-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may be taxed in the Contracting State in which it arises, and according to the laws of that State, but the tax so charged shall not exceed 15% of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article X(2)",
+   "valid_from": "1973-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 20% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7)(a) of the Convention, the Kingdom of Sweden reserves the right to replace: i) the references in Article 35(1) and (4) to “the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement”; ..."
+ },
+ "notes": "MLI-covered by both (KE no.14, SE no.31), but Sweden made the Art. 35(7)(a) reservation and no Art. 35(7)(b) completion notification for Kenya was found (per map), so the MLI (incl. PPT) is not yet in effect for this treaty. Sweden reserved the entirety of MLI Art. 8, so the 365-day rule would not apply in any case. Dividend 15% tier requires 25% of voting shares during the six months preceding payment (min_holding_days 183 used as approximation of 'six months'). Effect: in Sweden coupon tax on dividends payable on or after 1 January 1973; in Kenya for any year of income beginning on or after January 1973 (Art. XXVI(3)). Interest: Art. IX(3) exempts interest paid to the other Government, local authority, Central Bank or wholly owned agency. Royalty definition excludes mining/natural resource royalties. Art. VIII(6) Swedish participation exemption not modelled.",
+ "confidence": "high",
+ "unverified": [
+  "Absence of a Swedish Art. 35(7)(b) notification for Kenya not re-verified against OECD depositary notifications (taken from map)"
+ ]
+}

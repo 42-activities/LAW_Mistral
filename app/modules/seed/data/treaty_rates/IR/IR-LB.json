@@ -1,0 +1,59 @@
+{
+ "a": "IR",
+ "b": "LB",
+ "treaty_name": "Agreement between the Lebanese Republic and the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (1998)",
+ "signed": "1998-10-22",
+ "entry_into_force": "2001-01-19",
+ "eif_source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC",
+ "eif_quote": "[Lebanon MoF treaty table: Signed | Ratified | Enforced] Iran | October 22, 1998 | February 23, 1999 | January 19, 2001 | Law N. 43 In O.G of March 1, 1999",
+ "source_title": "Lebanon MoF: Agreement Lebanon-Iran (signed English text copy, scanned PDF read visually)",
+ "source_url": "https://www.finance.gov.lb/en-us/Finance/IA/TC/Documents/Iran.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed five per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed five per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed five per cent of the gross amount of the royalties."
+  }
+ ],
+ "notes": "Art. 28: EIF on the 30th day after exchange of ratification instruments; effective for income earned 'on the calendar year following the fiscal year in which this Agreement shall have legal effect, or any time thereafter' -> valid_from taken as 1 Jan 2002 (EIF 19 Jan 2001 per Lebanese MoF). Art. 11(4): interest derived by the Government, ministries, other governmental institutions, municipalities, Central Bank and other banks wholly owned by the Government of the other State, or on debt-claims warranted, insured or directly/indirectly financed by a financial institution, exempt at source. Royalty definition includes equipment rental and satellite/cable transmission. No PPT/LOB; not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "valid_from: art. 28 effective-date wording ambiguous ('calendar year following the fiscal year in which this Agreement shall have legal effect')",
+  "Text read visually from scanned PDF"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

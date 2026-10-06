@@ -1,0 +1,59 @@
+{
+ "a": "SY",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital, with Protocol (2009)",
+ "signed": "2009-10-07",
+ "entry_into_force": "2010-10-01",
+ "eif_source_url": "https://zatca.gov.sa/en/_LAYOUTS/15/GAZTInternet/PortalHandler.ashx?op=LoadItems&listUrl=/en/RulesRegulations/Agreements/Pages&viewName=Home",
+ "eif_quote": "Agreement between the government of the kingdom of Saudi Arabia and the government of Syria for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 7/10/2009 and entered into force on 1/10/2010.",
+ "source_title": "ZATCA English text: Convention between KSA & Syria (translation; Arabic is the only signed language)",
+ "source_url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/CONVENTIONS%20between%20KSA%26Syria%20EN.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State may be taxed only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "In other cases, if the receiver is the beneficial owner of income from debt-claims, the imposed tax shall not exceed 7.5% of total amount of income."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "In other cases, if the receiver is the beneficial owner of royalties, the imposed tax shall not exceed 15% of total amount of royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Documents/CONVENTIONS%20between%20KSA%26Syria%20EN.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends taxable only in residence State. Protocol para. 2: MFN — if Syria agrees lower interest/royalty rates in a treaty with any other State, Syria automatically applies the lower rate to Saudi residents (one-directional, SY source; not modelled — e.g. SY-LB 1997 interest 10%/royalty 18% are higher, but SY-OM/SY-QA/SY-TR etc. were not compared exhaustively; lower SY rates such as royalty 10% in SY-TR (copyright) or SY-CY could trigger it). Protocol para. 3: Syrian law on dividends received by Syrian citizens from Saudi shares preserved. Protocol para. 6: each State may apply domestic anti-evasion rules (not a PPT). Signing: ZATCA list says 7/10/2009; the English text says 'Done ... on 18th Shawwal 1430H, corresponding to the 1st day of October 2009'. Art. 29: EIF on first day of the month following the later notification (01.10.2010); WHT applies to amounts paid on/after 1 January following the EIF year (2011-01-01). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Quotes from ZATCA English translation (Arabic authentic)",
+  "Protocol MFN may lower SY-source interest/royalty caps"
+ ]
+}

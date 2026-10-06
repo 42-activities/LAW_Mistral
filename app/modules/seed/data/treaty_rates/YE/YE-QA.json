@@ -1,0 +1,24 @@
+{
+ "a": "YE",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of Yemen for the avoidance of double taxation and the prevention of fiscal evasion (2000)",
+ "signed": "2000-08-07",
+ "entry_into_force": "2008-01-01",
+ "eif_source_url": "https://www.gta.gov.qa/ar/ajax/agreements-json",
+ "eif_quote": "GTA AR feed: اليمن signature 7-أغسطس-2000, date 1-يناير-2008 || [QA MLI] Yemen Original 07/08/2000 01/01/2008",
+ "source_title": "Qatar GTA: Arabic text of QA-YE Agreement (DTA Yemen (AR).pdf)",
+ "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Yemen%20(AR).pdf",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; YE not an MLI signatory)",
+  "source_url": "https://www.gta.gov.qa/assets/images/contact-us/DTA%20Yemen%20(AR).pdf",
+  "quote": ""
+ },
+ "notes": "Dividends: Art. 10(1) is poorly drafted ('may be taxed ... dividends paid by a company resident in one State to a resident of the other State only'); read as residence-only taxation (exclusive), consistent with Art. 11 — interpretation uncertain. Interest: residence-only (Art. 11(1)). ROYALTIES omitted: Art. 12(1) allocates royalties to the SOURCE State ('للضريبة في الدولة التي تنشأ فيها تلك الإتاوات') with no rate limit, so source taxation is uncapped by the treaty. Art. 27(3): the agreement is effective from 1 January of the year following the exchange of notifications; GTA lists 1 January 2008 as the date. Arabic only. Not MLI-covered. [curated: dropped DIVIDEND tier — exemption wording ambiguous in the Qatar GTA text] [curated: dropped INTEREST tier — exemption wording ambiguous in the Qatar GTA text]",
+ "confidence": "medium",
+ "unverified": [
+  "Dividend article wording ambiguous (exclusive residence taxation assumed)"
+ ]
+}

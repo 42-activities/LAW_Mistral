@@ -1,0 +1,47 @@
+{
+ "a": "YE",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Republic of Yemen and the Government of the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-12-28",
+ "entry_into_force": "2004-07-14",
+ "eif_source_url": "https://www.mofne.gov.bh/en/bilateral-agreements",
+ "eif_quote": "Yemen Signature Date : 28 Dec 2002 Force Date : 14 Jul 2004 Avoidance of Double Taxation Agreement",
+ "source_title": "Bahrain MoFNE: Arabic text of BH-YE agreement (yemen-agree1.pdf); cross-checked with Yemen Tax Authority compendium (Wayback copy of tax.gov.ye agreementax.pdf, pp. 3-25)",
+ "source_url": "https://www.mofne.gov.bh/media/bbzmfjxg/yemen-agree1.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 - لا تخضع أرباح الأسهم التي تدفعها شركة مقيمة في دولة متعاقدة لمقيم في الدولة المتعاقدة الأخرى للضريبة في أي من الدولتين المتعاقدتين ."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1- الفوائد التي تنشأ في إحدى الدولتين المتعاقدتين والتي تدفع إلى شخص مقيم في الدولة المتعاقدة الأخرى تخضع للضريبة في الدولة الأخرى فقط."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; YE not an MLI signatory)",
+  "source_url": "https://www.mofne.gov.bh/media/bbzmfjxg/yemen-agree1.pdf",
+  "quote": "المادة التاسعة والعشرون أحكام متنوعة 1- لا يترتب على تطبيق أحكام هذه الاتفاقية الإخلال بما تتضمنه قوانين الضرائب في كل من الدولتين المتعاقدتين من أحكام بشأن مكافحة التهرب الضريبي ..."
+ },
+ "notes": "Dividends: Art. 11(1) exempts dividends in BOTH States (not only at source). Interest: residence-only. ROYALTIES omitted: Art. 13(1) only says royalties 'may be taxed' in the residence State ('يجوز أن تخضع للضريبة في تلك الدولة الأخرى') and the article contains no source-State limit, so source taxation is uncapped by the treaty. Valid_from: Art. 30(a) says WHT provisions apply to amounts paid 'from 1 January following the calendar year that follows the date of entry into force' (اعتبارا من اول يناير التالي للسنة الميلادية التي تلي تاريخ دخول هذه الاتفاقية حيز النفاذ); read literally with EIF 2004-07-14 this gives 2006-01-01 (could be read as 2005-01-01). Art. 30 EIF = 30 days after the later notification. Article 12(3) bis exempts interest paid to the other State, its subdivisions and central bank (already exclusive). Not MLI-covered: YE is not an MLI signatory. Bahrain MoFNE text and Yemen compendium text agree on Arts. 11-13 and 30.",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 2006-01-01 vs 2005-01-01 depending on reading of Art. 30(a)"
+ ]
+}

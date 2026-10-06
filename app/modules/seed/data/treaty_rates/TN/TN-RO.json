@@ -1,0 +1,58 @@
+{
+ "a": "TN",
+ "b": "RO",
+ "treaty_name": "Convention between Tunisia and Romania (1987), as modified by the MLI",
+ "signed": "1987-09-23",
+ "entry_into_force": "1989-01-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Roumanie Original 23-09-1987 19-01-1989 || [RO ANAF] Tunisia Tunisia (Text sintetizat) 326/23.12.1987 60/1987 01.01.1990",
+ "source_title": "Convention Tunisie-Roumanie, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Roumanie.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces dividendes sont aussi imposés dans l'Etat contractant dont la société qui paie les dividendes est un résident et selon la législation de cet Etat; l'impôt ainsi établi ne peut excéder 12 pour cent du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les redevances en est le bénéficiaire effectif; l'impôt ainsi établi ne peut excéder 12 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Roumanie.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Royalties are in Article 13; Article 12 covers commissions (brokerage/agency fees), capped at 4% at source (not modelled). Interest on credits granted/guaranteed by a State, territorial unit, local authority or public body (incl. State banks) is excluded from the 10% source taxation (i.e. exempt at source) - not modelled. Profits distributed by joint-venture companies treated as dividends. valid_from derived from Art. 30(2)(a): 1 Jan following exchange (EIF 19-01-1989 = 30th day after exchange in Dec 1988) -> 1989-01-01; Romanian ANAF list shows application from 01.01.1990 - conflict. Romania notified Art. 35(7)(b) completion for Tunisia 10-11-2023 -> MLI WHT effect 2024-01-01 (map).",
+ "confidence": "high",
+ "unverified": [
+  "valid_from 1989-01-01 vs ANAF 1990-01-01"
+ ]
+}

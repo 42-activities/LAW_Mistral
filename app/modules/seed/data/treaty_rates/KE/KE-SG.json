@@ -1,0 +1,58 @@
+{
+ "a": "KE",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Republic of Kenya for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2024)",
+ "signed": "2024-09-23",
+ "entry_into_force": "2026-04-20",
+ "eif_source_url": "https://www.treasury.go.ke/double-taxation-agreements/",
+ "eif_quote": "38 Singapore Concluded (In force) 23/9/2024 20/4/2026 Legal Notice",
+ "source_title": "Kenya Gazette Notice No. 5583 of 2 May 2025 (Schedule: Singapore–Kenya Agreement and Protocol)",
+ "source_url": "https://www.treasury.go.ke/sites/default/files/double%20taxation/Double%20Taxation%20Kanya-Singapore%20%20-%20%20Kenya%20Gazette%20Notice%20No.5583.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2027-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 8% of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10% of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://www.treasury.go.ke/sites/default/files/double%20taxation/Double%20Taxation%20Kanya-Singapore%20%20-%20%20Kenya%20Gazette%20Notice%20No.5583.pdf",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "IMPORTANT: entered into force 2026-04-20 but under Art. 29(2)(a)(i)/(b)(i) WHT provisions take effect only for amounts paid on or after 1 January of the calendar year following entry into force, i.e. 2027-01-01. On 2026-10-05 no Kenya–Singapore treaty rates apply (no earlier treaty in force). Art. 29 quote: 'with regard to taxes withheld at source, on amounts paid or accrued on or after the first day of January of the calendar year next following the year upon which this Agreement enters into force'. Not MLI-covered (Kenya does not list Singapore). Government tiers not modelled: dividends and interest paid to the Government of the other State (incl. Central Bank, statutory bodies, GIC entities etc., Arts. 10(3)-(4), 11(3)-(4)) exempt. Art. 10(8) branch profits tax capped at 8%. Royalty definition includes computer software, excludes equipment rental. EIF date taken from the Kenya Treasury table (map); the IRAS ratified text (singapore-kenya-dta-(ratified)(20-apr-2026).pdf) could not be downloaded.",
+ "confidence": "high",
+ "unverified": [
+  "Entry-into-force date 2026-04-20 from Kenya Treasury table only; IRAS PDF not retrievable"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "IR",
+ "b": "SK",
+ "treaty_name": "Convention between the Slovak Republic and the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-01-19",
+ "entry_into_force": "2018-05-01",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2018/122/vyhlasene_znenie.html",
+ "eif_quote": "19. januára 2016 bola v Teheráne podpísaná Zmluva medzi Slovenskou republikou a Iránskou islamskou republikou ... Zmluva nadobudne platnosť 1. mája 2018 v súlade s článkom 27.",
+ "source_title": "Slov-Lex 122/2018 Z. z. (oznámenie MZVEZ o Zmluve SR-Irán)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2018/122/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ak je však skutočný vlastník dividend rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 5 % hrubej sumy dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 5 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 7,5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty art. 26 is an artificial-structure anti-abuse rule, not PPT wording; Iran not in MLI)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2018/122/vyhlasene_znenie.html",
+  "quote": "Obmedzenie výhod Žiadne ustanovenia tejto zmluvy nebránia zmluvným štátom identifikovať obsah transakcie. Výhody plynúce z tejto zmluvy sa neuplatnia, ak príjem plynie v súvislosti s umelo vytvorenou štruktúrou."
+ },
+ "notes": "Art. 27: EIF on first day of third month after later notification (1 May 2018); WHT applies to income paid/credited from 1 Jan 2019 in Slovakia and from 1 Farvardin (21 March 2019) in Iran. Single dividend rate 5%. Art. 11(4): interest paid to the other State, ministries, other state administration bodies, municipalities, central bank and banks wholly owned by that State exempt at source. Royalty definition includes software and equipment rental. Art. 26 'Limitation of benefits': benefits denied where income arises in connection with an artificially created structure (not modelled as PPT). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

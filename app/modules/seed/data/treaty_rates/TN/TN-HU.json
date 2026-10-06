@@ -1,0 +1,67 @@
+{
+ "a": "TN",
+ "b": "HU",
+ "treaty_name": "Convention between Tunisia and Hungary (1992), as modified by the MLI",
+ "signed": "1992-10-22",
+ "entry_into_force": "1997-07-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Hongrie Original 22-10-1992 19-07-1997 || [HU list] Tunisia 1992. X. 22. Act XXVIII of 1999 1998. I. 1. || [HU MLI] Tunisia Original 22-10-1992 19-07-1997",
+ "source_title": "Convention Tunisie-Hongrie 1992, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/hongrie.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 % du montant brut des dividendes si le bénéficiaire des dividendes est une société qui dispose directement d'au moins 25 pour cent du capital de la société qui paie les dividendes ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 12% du montant brut des dividendes dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) Toutefois, ces intérêts à l'exclusion de ceux afférents aux prêts consentis par un Etat contractant par le gouvernement, une subdivision politique, une collectivité locale, la Banque Centrale de cet Etat ou un institut agissant par délégation de ce gouvernement, subdivision politique, collectivité locale, peuvent être imposés dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 12 pour cent de leur montant brut."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent si la législation de cet Etat le prévoit, mais l'impôt ainsi établi ne peut excéder 12% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1), applied to this covered agreement; no DGI consolidated text available] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest on loans granted by the government, political subdivisions, local authorities, central bank or delegated institutions excluded from source taxation (exempt). MLI art. 8 not applicable: Hungary reserved the entirety of Art. 8 (Art. 8(3)(a)), although Tunisia notified Art. 10(2)(a). valid_from: Art. 27(2)(a) 1 January following exchange of notes (EIF 19-07-1997 = 60 days after) -> 1998-01-01 (matches Hungarian list). No DGI consolidated CML version found.",
+ "confidence": "high",
+ "unverified": []
+}

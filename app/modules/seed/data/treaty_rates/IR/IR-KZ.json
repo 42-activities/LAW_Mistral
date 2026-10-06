@@ -1,0 +1,70 @@
+{
+ "a": "IR",
+ "b": "KZ",
+ "treaty_name": "Agreement between the Government of the Republic of Kazakhstan and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996)",
+ "signed": "1996-01-15",
+ "entry_into_force": "1999-04-03",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kazakhstan-consolidated.pdf",
+ "eif_quote": "[KZ MLI] Agreement between ... Kazakhstan and ... Islamic Republic of Iran ... Iran Original 15-01-1996 03-04-1999",
+ "source_title": "Adilet (insecure.zan.kz mirror of the official IPS): Law Z970000148 on ratification of the KZ-IR Agreement, with Russian text",
+ "source_url": "http://insecure.zan.kz/rus/docs/Z970000148_",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) 5 процентов общей суммы дивидендов. Если получателем является компания (за исключением партнерства), которая прямо владеет не менее, чем 20 процентами капитала компании, выплачивающей дивиденды;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) 15 процентов общей суммы дивидендов во всех остальных случаях."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но если получатель является фактическим владельцем процентов, взимаемый таким образом налог, не будет превышать 10 процентов общей суммы процентов."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но если получатель является фактическим владельцем роялти, налог, взимаемый таким образом, не должен превышать 10 процентов общей суммы роялти."
+  }
+ ],
+ "notes": "Art. 29(2): EIF on exchange of ratification instruments; WHT applies to income received on/after 1 January of the calendar year following EIF -> 1 Jan 2000 (EIF 3 Apr 1999 per Kazakhstan MLI notification; signature date conflict: ratification law and Russian text say signed in Almaty on 1 January 1996, 2024 protocol decree says 16 January 1996 (26 Dey 1374), KZ MLI notification 15-01-1996 (map value kept)). Art. 10(6): additional branch tax up to 5% of PE net profit after profit tax. Art. 11(3): interest received by the Government, ministries, other state institutions, local authorities, Central Bank and banks wholly owned by the other State's Government exempt at source. Royalty definition includes software and equipment rental. Amending Protocol: KZ Government Decree No. 865 of 18 Oct 2024 approved a draft protocol (would add 365-day holding to the 5% dividend tier, a PPT and a PE-in-third-state LOB rule, effective from 1 Jan of the year after its EIF); no ratification/EIF found, so not modelled. No PPT in force; not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Status of the 2024 amending protocol (signature/ratification/EIF) not found",
+  "Signature date: 1 Jan 1996 (ratification law) vs 16 Jan 1996 (2024 decree) vs 15 Jan 1996 (MLI list)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

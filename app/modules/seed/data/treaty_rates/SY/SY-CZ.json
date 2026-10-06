@@ -1,0 +1,58 @@
+{
+ "a": "SY",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2008)",
+ "signed": "2008-05-18",
+ "entry_into_force": "2009-11-12",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2009/115/0000-00-00?zalozka=text",
+ "eif_quote": "Ratifikační listiny byly vyměněny v Praze dne 12. listopadu 2009. Smlouva a Protokol vstoupily v platnost na základě článku 28 Smlouvy dne 12. listopadu 2009",
+ "source_title": "Sdělení MZV č. 115/2009 Sb. m. s. (Czech text, e-Sbírka API)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2009/115/0000-00-00?zalozka=text",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 12 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://e-sbirka.gov.cz/sm/2009/115/0000-00-00?zalozka=text",
+  "quote": ""
+ },
+ "notes": "Signing date 18.05.2008 taken from the MZV notice (map had null). Interest: Art. 11(3) exempts interest received by the other State's government, local authority, central bank or wholly government-owned financial institution, and on government-guaranteed loans/credits (not modelled). Royalty definition includes equipment rental. Protocol: royalty MFN — if Syria agrees a rate below 12% with any other EU Member State after signature, Syria automatically applies it to royalties paid to Czech residents from that treaty's EIF (not modelled). Art. 28: EIF on exchange of ratification instruments; WHT applies from 1 January of the year following EIF (2010-01-01). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Royalty MFN in Protocol may lower the SY-source 12% cap; not checked"
+ ]
+}

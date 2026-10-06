@@ -1,0 +1,70 @@
+{
+ "a": "AU",
+ "b": "RO",
+ "treaty_name": "Agreement between Australia and Romania for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (2000)",
+ "signed": "2000-02-02",
+ "entry_into_force": "2001-04-11",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/2001/4.html (read via web.archive.org/web/20240724165822)",
+ "eif_quote": "[Treasury] Romania | DTA | 02/02/2000 | ... | In force | 11/04/2001 | Art. 27: \"(a) in Romania: in respect of taxes on income, profits and gains for the taxable period starting from 1 January of the next calendar year following that in which the Agreement enters into force; (b) in Australia: (i) in respect of withholding tax on income that is derived by a nonresident, in relation to income derived on or after 1 January in the calendar year next following that in which the Agreement enters into force\"",
+ "source_title": "Australia-Romania DTA and Protocol [2001] ATS 4 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/2001/4.html (read via web.archive.org/web/20240724165822) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-romania-agreement (ATO synthesised text, read via web.archive.org/web/20250317030956)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) and 10(3)(a), as modified by MLI art. 8(1)",
+   "valid_from": "2024-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "RO",
+   "quote": "(a) 5 per cent of the gross amount of the dividends, to the extent to which those dividends are paid out of profits that have borne the normal rate of company tax, where those dividends are paid to a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends; ... 3. For the purposes of paragraph 2, profits have borne the normal rate company tax: (a) in Romania, where they have been subject to the profits tax; | MLI art. 8(1): [Subparagraph a) of paragraph 2 of Article 10 of this Agreement] shall apply only if the ownership conditions described in those provisions are met through a 365 day period that includes the day of the payment of the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases,"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, that interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, those royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-romania-agreement (ATO synthesised text, read via web.archive.org/web/20250317030956)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Dividend 5% tier (company, not a partnership, holding directly >=10% of capital) applies only to dividends paid out of profits that have borne the normal rate of company tax: in Romania profits subject to the profits tax (recorded with source_state RO); in Australia only to the extent the dividends are fully franked - franking condition cannot be expressed, so the Australia-source 5% tier is NOT modelled (Australia-source dividends recorded at 15% general tier). The 5% tier applied from 2002-01-01 without a holding period; MLI art. 8(1) 365-day holding requirement applies from 2024-01-01 (valid_from of the recorded tier). Art. 11(3) interest on official funds of governments/central banks exempt. Protocol: negotiation-only MFN on non-discrimination. CONFLICT with map_CD: map gives mli_wht_effective 2023-01-01, but the ATO synthesised text states \"In accordance with paragraphs 1 and 7 of Article 35 of the MLI ... with respect to taxes withheld at source ... on or after 1 January 2024\" (Romania Art. 35(7) reservation); 2024-01-01 used.",
+ "confidence": "medium",
+ "unverified": [
+  "Romania-source 5% tier carries the \"profits subject to the profits tax\" condition, which the schema cannot express",
+  "Date of Art. 35(7)(b) notification not shown; MLI effective date taken from the ATO synthesised text"
+ ]
+}

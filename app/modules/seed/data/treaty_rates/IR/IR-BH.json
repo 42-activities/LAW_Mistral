@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the Kingdom of Bahrain and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (2002)",
+ "signed": "2002-10-19",
+ "entry_into_force": "2007-11-17",
+ "eif_source_url": "https://www.mofne.gov.bh/en/bilateral-agreements",
+ "eif_quote": "[Bahrain MoFNE bilateral agreements] Iran ... Signature Date : 19 Oct 2022 Force Date : 17 Nov 2007 The Avoidance of Double Taxation",
+ "source_title": "Bahrain MoFNE: Agreement Bahrain-Iran (English text, scanned PDF read visually)",
+ "source_url": "https://www.mofne.gov.bh/media/uljfc10l/ci57-ci57-iran.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the resident of the other Contracting State and the beneficial owner of the dividends the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest or income from debt claims may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is a resident of the other Contracting State and the beneficial owner of the interest or income from debt claims the tax so charged shall not exceed 5 percent of the gross amount of the interest or income from debt claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 5 percent of the gross amount of the royalties."
+  }
+ ],
+ "notes": "Art. 28(2): EIF on exchange of ratification instruments; effective for income earned on/after 1 January (11 Dey Solar Hijra) of the calendar year following the year of legal effect -> 1 Jan 2008 (EIF 17 Nov 2007). Signature: text says 'Done in duplicate in Tehran on October 19, 2002, corresponding to 27/Mehr/1381'; MoFNE site shows 19 Oct 2022 (typo). Art. 11(4): interest derived by the other State, ministries, other governmental institutions, municipalities, Central Bank and banks wholly owned by that State exempt at source. Royalty definition includes equipment rental. Bahrain levies no WHT domestically. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Text read visually from scanned PDF"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

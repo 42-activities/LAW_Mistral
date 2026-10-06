@@ -1,0 +1,58 @@
+{
+ "a": "YE",
+ "b": "JO",
+ "treaty_name": "Agreement between the Government of the Hashemite Kingdom of Jordan and the Government of the Republic of Yemen for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-10-26",
+ "entry_into_force": "2000-03-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+ "eif_quote": "[JO MLI] ... Yemen Original 26-10-1998 01-03-2000",
+ "source_title": "Jordan ISTD: Arabic text of JO-YE Agreement (scanned PDF yeman_arb.pdf, Wayback 2018; read visually)",
+ "source_url": "https://web.archive.org/web/20180613173559/http://www.istd.gov.jo:80/AttachedArabic/agreement/yeman_arb.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "بند٣. ومع ذلك فإن أرباح الاسهم هذه يجوز ان تخضع للضريبة في الدولة المتعاقدة التي توجد بها الشركة الدافعة لهذه الارباح طبقا لقوانين تلك الدولة، ولكن اذا كان المستلم هو المالك المستفيد من أرباح الاسهم فإن الضريبة المفروضة لا يجوز ان تزيد على (١٠%) من المبلغ الاجمالي للتوزيعات"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(3)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "بند٣. ومع ذلك فإن هذه الفوائد تخضع للضريبة في الدولة المتعاقدة التي نشأت فيها طبقا لقوانين تلك الدولة، ولكن اذا كان المستلم هو المالك المستفيد للفوائد فإن الضريبة التي تفرض يجب الا تزيد على (١٠%) من اجمالي مبلغ الفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "بند٣. ومع ذلك فإن هذه الاتاوات تخضع للضريبة في الدولة المتعاقدة التي نشأت بها وطبقا لقوانين تلك الدولة ولكن اذا كان المستلم هو المالك المستفيد للاتاوات فإن الضريبة المفروضة يجب ان لا يزيد سعرها على (١٠%) من اجمالي مبلغ الاتاوات."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; YE not an MLI signatory)",
+  "source_url": "https://web.archive.org/web/20180613173559/http://www.istd.gov.jo:80/AttachedArabic/agreement/yeman_arb.pdf",
+  "quote": ""
+ },
+ "notes": "No government interest exemption in Art. 11. Art. 29(3): in force from the date of exchange of ratification instruments (JO MLI list: 01-03-2000); WHT applies to amounts paid on/after 1 January of the calendar year following the year of exchange (2001-01-01). Only Arabic text; scan is faint but rates legible. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date from JO MLI list; quotes transcribed visually from faint scan"
+ ]
+}

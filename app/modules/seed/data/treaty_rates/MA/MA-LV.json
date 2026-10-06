@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "LV",
+ "treaty_name": "Convention between the Republic of Latvia and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-07-24",
+ "entry_into_force": "2012-09-25",
+ "eif_source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/223",
+ "eif_quote": "Spēkā esošs ... Valsts: Maroka ... Stājas spēkā: 25.09.2012. Parakstīts: 24.07.2008. Parakstīšanas vieta: Rīga || 29.pants 2. Šī Konvencija stājas spēkā ar 1.daļā minētā pēdējā paziņojuma datumu un tās noteikumi abās Līgumslēdzējās Valstīs tiek piemēroti: a) attiecībā uz nodokļiem, ko ietur ienākuma izmaksas brīdī - summām, kas izmaksātas vai ieskaitītas janvāra pirmajā dienā vai pēc tās kalendārajā gadā, kas seko gadam, kurā šī Konvencija stājas spēkā;",
+ "source_title": "Latvijas Republikas un Marokas Karalistes konvencija par nodokļu dubultās uzlikšanas un nodokļu nemaksāšanas novēršanu attiecībā uz ienākuma nodokļiem (likumi.lv, Latvian text)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/223",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "6",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "nodoklis nedrīkst pārsniegt: a) 6 procentus no dividenžu kopapjoma, ja dividenžu īstenais īpašnieks ir sabiedrība (kas nav personālsabiedrība), kura tieši pārvalda vismaz 25 procentus tās sabiedrības kapitāla, kura izmaksā dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tomēr šiem procentiem var uzlikt nodokļus arī atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 10 procentus no šo procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tomēr šādai autoratlīdzībai var arī uzlikt nodokļus atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tā rodas, bet, ja autoratlīdzības īstenais īpašnieks ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentus no autoratlīdzības kopapjoma."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty (Arts 1-30) contains no principal purpose test article."
+ },
+ "notes": "Art. 11(3): interest beneficially owned by the Government of the other State, its local authorities, central bank or wholly government-owned financial institutions agreed by competent authorities is exempt at source. Art. 10(6): branch remittance tax up to 6% (not modelled). Art. 12(3) royalties include equipment rentals, software and technical assistance. No protocol. Latvian authentic text used (English text not on the page read). MA-side list gives same dates (signed 24-07-2008, EIF 25-09-2012); LV MoF list: applies from 01.01.13.",
+ "confidence": "high",
+ "unverified": []
+}

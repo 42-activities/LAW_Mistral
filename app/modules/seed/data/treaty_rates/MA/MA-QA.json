@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "QA",
+ "treaty_name": "Convention between the Government of the Kingdom of Morocco and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013, replacing the 2006 convention)",
+ "signed": "2013-12-27",
+ "entry_into_force": "2019-06-22",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://web.archive.org/web/20220810035457/https://tax.gov.ma/wps/wcm/connect/232511e3-a201-4674-b825-bf50e0b3e4bb/DTA+Qatar_ar+page+16.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-232511e3-a201-4674-b825-bf50e0b3e4bb-o3XXvfR",
+ "eif_quote": "[DGI, Tableau récapitulatif des conventions fiscales en vigueur du Royaume du Maroc] 49 Qatar DTC Marrakech 27/12/13 22/06/19 3 du 07/04/2020 (AR) || [BO, Bulletin des conventions internationales n° 3, 7 avril 2020] ظهير شريف رقم 1.15.34 صادر في 21 من رجب 1441 (16 مارس 2020) بنشر الاتفاقية الموقعة بمراكش في 27 ديسمبر 2013 ... ونظرا لتبادل الإعلام باستيفاء الإجراءات اللازمة لدخول الاتفاقية المذكورة حيز التنفيذ || Art. 29(1)(a): بالنسبة للضرائب المستحقة من المصدر، عن المبالغ المؤداة أو المقيدة في الحساب ابتداء من الأول من يناير من السنة الميلادية التالية مباشرة لسنة دخول الاتفاقية حيز النفاذ",
+ "source_title": "GTA Qatar: QA-MA Convention signed Marrakech 27-12-2013 with Protocol (Arabic text, Art. 10-12, 29)",
+ "source_url": "https://gta.gov.qa/assets/pdf/DTA%20Morocco%20(AR)%20(1).pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(أ) 5% (خمسة بالمائة) من إجمالي قيمة أرباح الأسهم، إذا كان المالك المستفيد في حوزته مباشرة ما لا يقل عن 10% (عشرة بالمائة) من رأس مال الشركة التي تؤدي أرباح الأسهم؛"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ب) 10% (عشرة بالمائة) من إجمالي قيمة أرباح الأسهم في جميع الحالات الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المستفيد من الفوائد مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المستفيد من الإتاوات مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "notes": "The 2013 convention entered into force 22-06-2019 (DGI table; Qatar GTA site shows '22-Jun-2029', evidently a typo) and terminates the 17-03-2006 convention from its entry into force (Art. 29(2)); WHT provisions apply from 1 Jan 2020. Dividends, interest and royalties paid to the other State's Government, political subdivisions, local authorities or wholly government-owned institutions taxable only in residence State (Art. 10(3), 11(3), 12(3); Protocol para. 1) - not modelled. Royalties include technical assistance and services (Art. 12(4)). Branch profits tax capped at 5% (Art. 10(7)). The Qatar MLI list (2019/2021) shows the 2013 convention as not yet in force; Qatar covered agreement irrelevant since Morocco is not an MLI Party. Dividend 5% tier applies to any beneficial owner holding directly >=10% of capital (not limited to companies). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ },
+ "unverified": []
+}

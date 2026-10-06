@@ -1,0 +1,69 @@
+{
+ "a": "LY",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Italian Republic and the Great Socialist People's Libyan Arab Jamahiriya (State of Libya) for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (2009, as amended by exchange of notes 2014)",
+ "signed": "2009-06-10",
+ "entry_into_force": "2025-12-10",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Libia — Stipula - Firma: Roma 10.06.2009; Scambio di note emendativo: Roma 7.08.2014 e 22.08.2014; Ratifica: L.16.10.2025, n. 154 In vigore dal : 10.12.2025",
+ "source_title": "Legge 16 gennaio 2025, n. 2 (G.U. Serie generale n. 19 del 24-1-2025) — Convention text in Italian and English (English prevails); exchange of notes 7/22 Aug 2014 (finanze.gov.it)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/LIBIA-testo-G.U.-italiano-e-inglese.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 % per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 % of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 % per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5% per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "2026-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 11(6), 12(8) (article-specific main-purpose rules only)",
+  "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/LIBIA-testo-G.U.-italiano-e-inglese.pdf",
+  "quote": "The provisions of this Article shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Art. 29(2)(a): for taxes withheld at source, effect for amounts derived on or after 1 January of the calendar year following entry into force -> 1 Jan 2026 (EIF 10 Dec 2025 per finanze.gov.it). Interest exempt at source where payer is the Government/local authority of the source State, where paid to the other State's Government/local authority/wholly owned agency incl. financial institution, or for loans under intergovernmental agreements (Art. 12(3), not modelled). Art. 28 refund procedure for tax withheld in excess. Exchange of notes of 7 and 22 Aug 2014 only replaces the name 'Great Socialist People's Libyan Arab Jamahiriya' with 'State of Libya' (no rate change). Conflict: finanze.gov.it lists ratification 'L.16.10.2025, n. 154' while the published G.U. text is Legge 16 gennaio 2025, n. 2 (G.U. n. 19 of 24-1-2025). Libya not in Libya's own (older) treaty list; Libya not an MLI signatory. Main-purpose anti-abuse clauses in Arts 11(6) and 12(8) only.",
+ "confidence": "high",
+ "unverified": [
+  "Entry-into-force date 10 Dec 2025 taken from the finanze.gov.it list; no G.U. comunicato on entry into force was read"
+ ]
+}

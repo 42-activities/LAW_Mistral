@@ -1,0 +1,56 @@
+{
+ "a": "AU",
+ "b": "BE",
+ "treaty_name": "Agreement between Australia and the Kingdom of Belgium for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1977, as amended 1984 and 2009)",
+ "signed": "1977-10-13",
+ "entry_into_force": "1979-11-01",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/1979/21.html (read via web.archive.org/web/20260102080034)",
+ "eif_quote": "[Treasury] DTA | 13/10/1977 | ... | In force | 01/11/1979 | Art. 28: \"... thereupon this Agreement shall have effect - (a) in Australia - (i) with respect to withholding tax on income that is derived by a non-resident, in relation to income derived on or after 1 January in the calendar year immediately following that in which the Agreement enters into force; ... (b) in Belgium - (i) with respect to all tax due at source, on income credited or payable on or after 1 January in the calendar year immediately following that in which the Agreement enters into force\"",
+ "source_title": "Australia-Belgium DTA [1979] ATS 21; 1984 Protocol [1986] ATS 25; 2009 Second Protocol (Treasury PDF); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1979/21.html (read via web.archive.org/web/20260102080034) ; https://www.austlii.edu.au/au/other/dfat/treaties/1986/25.html ; https://treasury.gov.au/sites/default/files/2019-03/Second_Protocol_to_Australia-Belgium_Tax_Treaty_2009.pdf ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Belgium-agreement (ATO synthesised text, read via web.archive.org/web/20210302205748)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident for the purposes of its tax, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Belgium-agreement (ATO synthesised text, read via web.archive.org/web/20210302205748)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Rates unchanged by the 1984 Protocol (adds Art. 10(6) branch-profits clause, replaces royalty definition) and the 2009 Second Protocol (exchange of information only). MLI (AU EIF 2019-01-01, BE 2019-10-01): WHT provisions effective for events on or after 1 January 2020 per ATO synthesised text; MLI does not modify Arts 10-12. The ATO page was read from a 2021 Wayback capture.",
+ "confidence": "high",
+ "unverified": []
+}

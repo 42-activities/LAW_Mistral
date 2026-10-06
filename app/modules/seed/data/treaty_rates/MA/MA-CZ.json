@@ -1,0 +1,56 @@
+{
+ "a": "MA",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Czech Republic and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2001)",
+ "signed": "2001-06-11",
+ "entry_into_force": "2006-07-18",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2006/83/0000-00-00?f=83%2F2006&zalozka=text",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 28 dne 18. července 2006 a její ustanovení se budou provádět v souladu se zněním písmen a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 83/2006 Sb. m. s. (Czech text, e-Sbírka)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2006/83/0000-00-00?f=83%2F2006&zalozka=text",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it, so the MLI (listed by CZ, Úmluva 32/2020 Sb.m.s.) does not modify this treaty; no principal-purpose article in the treaty."
+ },
+ "notes": "Single dividend rate 10% (no participation tier). Art. 11(3): interest exempt at source when received by the other State's government, subdivisions, local authorities, central bank or wholly-owned financial institutions, or on government-guaranteed loans (not modelled). Art. 10(6): branch profits tax capped at 5%. Art. 28(a): WHT applies to income paid/credited on or after 1 January of the year following EIF (2007-01-01). Czech text read; English text prevails. MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

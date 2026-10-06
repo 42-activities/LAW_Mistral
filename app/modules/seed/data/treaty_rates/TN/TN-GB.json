@@ -1,0 +1,69 @@
+{
+ "a": "TN",
+ "b": "GB",
+ "treaty_name": "Convention between Tunisia and the United Kingdom (1982), as modified by the MLI",
+ "signed": "1982-12-15",
+ "entry_into_force": "1984-01-20",
+ "eif_source_url": "https://www.gov.uk/government/publications/tunisia-tax-treaties",
+ "eif_quote": "[HMRC] The double taxation convention entered into force on 20 January 1984 ... The modifications made by the MLI ... effective in the UK and Tunisia from 1 January 2024 for taxes withheld at source. || [TN MLI list] Royaume-Uni Original 15-12-1982 20-01-1984",
+ "source_title": "Convention Tunisie-Royaume-Uni, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Royaume-Uni.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a - 12 pour cent du montant brut des dividendes si le bénéficiaire effectif est une société qui contrôle directement au moins 25 pour cent des droits de vote dans la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b - 20 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt ainsi établi ne peut excéder 12 pour cent de leur montant brut. Etant précisé que ce taux est réduit à 10 pour cent du montant brut lorsque le bénéficiaire effectif de ces intérêts est une banque ou un organisme financier."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt, ainsi établi, ne peut excéder 15 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Royaume-Uni.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Dividend 12% tier requires control of at least 25% of the VOTING RIGHTS (not capital). MLI art. 8 365-day rule not reflected in the DGI consolidated text (no art. 8 footnote; UK did not match Tunisia's art. 8 notification) - not modelled. Interest: 10% where the beneficial owner is a bank or financial institution (not modelled as tier). Art. 10(6): branch profits tax capped at 12% (not modelled). Royalties include agricultural/industrial equipment rental and technical/economic studies. valid_from: Tunisia WHT from 1 Jan of year following exchange of ratification (EIF 20-01-1984 = 30 days after exchange in Dec 1983); UK side effective from 6 April 1984 (income tax) / 1 April 1984 (corporation tax).",
+ "confidence": "high",
+ "unverified": [
+  "exchange of ratification year 1983 derived from EIF minus 30 days"
+ ]
+}

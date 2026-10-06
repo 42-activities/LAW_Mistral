@@ -1,0 +1,67 @@
+{
+ "a": "AU",
+ "b": "FI",
+ "treaty_name": "Agreement between the Government of Australia and the Government of Finland for the Avoidance of Double Taxation with respect to Taxes on Income and the Prevention of Fiscal Evasion, with Protocol (2006, as amended by 2009 Exchange of Notes)",
+ "signed": "2006-11-20",
+ "entry_into_force": "2007-11-10",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/2007/36.html (read via web.archive.org/web/20240519000545)",
+ "eif_quote": "[Treasury] Finland | DTA | 20/11/2006 | ... | In force | 10/11/2007 | Art. 28(1): \"The Agreement shall enter into force 30 days after the date of the later of the notifications and its provisions shall have effect: a) in Australia: (i) in respect of withholding tax on income that is derived by a non-resident, in relation to income derived on or after 1 January in the calendar year next following the date on which the Agreement enters into force; ... b) in Finland: (i) in respect of taxes withheld at source, on income derived on or after 1 January in the calendar year next following the year in which the Agreement enters into force\"",
+ "source_title": "Australia-Finland DTA and Protocol [2007] ATS 36 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/2007/36.html (read via web.archive.org/web/20240519000545) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Finland-agreement (ATO synthesised text, read via web.archive.org/web/20240605174327)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner of those dividends is a company which holds directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases,"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, those royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Finland-agreement (ATO synthesised text, read via web.archive.org/web/20240605174327)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Not modelled: Art. 10(3) 0% for a company owning >=80% of voting power for a 12-month period ending on the date the dividend is declared AND meeting a listed-company test (or competent-authority determination); Art. 11(3) interest exempt for governments/central banks and unrelated financial institutions (except back-to-back, Art. 11(4)). The treaty main-purpose clauses in Arts 10(7), 11(9) and 12 are replaced by MLI art. 7(1) PPT (ATO synthesised text \"[REPLACED by paragraph 1 of Article 7 of the MLI]\"); MLI WHT effect from 2020-01-01. The 2009 Exchange of Notes concerns assistance in collection only.",
+ "confidence": "high",
+ "unverified": []
+}

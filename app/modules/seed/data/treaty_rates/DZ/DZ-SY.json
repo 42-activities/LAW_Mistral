@@ -1,0 +1,59 @@
+{
+ "a": "DZ",
+ "b": "SY",
+ "treaty_name": "Convention between Algeria and Syria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1997)",
+ "signed": "1997-09-14",
+ "entry_into_force": "2002-05-10",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales')",
+ "eif_quote": "[DZ DGI list] سوريا | سارية المفعول ابتداء من 10/05/2002 ... 14/09/1997 سوريا",
+ "source_title": "JORA (Arabic) n° 19 du 1er avril 2001, pp. 12-24 – Décret présidentiel n° 01-78 portant ratification de la convention Algérie–Syrie (Damas, 14 septembre 1997); scanned, read from page images (DGI file)",
+ "source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&format=&task=frontfile.download&catid=566&id=755&Itemid=1000000000000",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ولكن إذا كان المستفيد هو المالك الفعلي لأرباح الأسهم مقيما في الدولة المتعاقدة الأخرى فإن الضريبة المفروضة هكذا ينبغي ألا تتجاوز 15٪ من المبلغ الإجمالي لأرباح الأسهم."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المستفيد للفائدة مقيما في الدولة المتعاقدة الأخرى فإن الضريبة المفروضة هكذا سوف لن تتجاوز نسبة (10٪) من المبلغ الإجمالي للفائدة."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إذا كان الشخص الذي يحصل على العائدات هو المستفيد الفعلي فإن الضريبة المفروضة على هذا النحو سوف لن تتجاوز نسبة (18٪) من المبلغ الإجمالي للعائدات"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 28: in force 30 days after receipt of the last notification (10-05-2002 per Algeria DGI list); applies to taxes on income arising in any year or accounting period beginning on or after 1 January of the calendar year following entry into force (2003-01-01). No government-interest exemption seen in Art. 11. Royalty definition includes industrial/scientific equipment. Authentic text Arabic only. No MLI.",
+ "confidence": "high",
+ "unverified": [
+  "Read from scanned Arabic page images (no text layer); quotes transcribed manually.",
+  "EIF date from Algeria DGI list only (no Syrian official list)."
+ ]
+}

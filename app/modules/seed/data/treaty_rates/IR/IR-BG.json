@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the Republic of Bulgaria and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2004)",
+ "signed": "2004-04-28",
+ "entry_into_force": "2006-06-29",
+ "eif_source_url": "https://web.archive.org/web/20260123040347id_/https://nra.bg/wps/wcm/connect/nra.bg25863/ae61cc29-190c-4439-8b32-1c4b0debd7a5/DTC_BG_IR_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-ae61cc29-190c-4439-8b32-1c4b0debd7a5-nSQpowW",
+ "eif_quote": "(РАТИФИЦИРАНА СЪС ЗАКОН, ПРИЕТ ОТ ХХХIХ НАРОДНО СЪБРАНИЕ НА 30 СЕПТЕМВРИ 2004 Г. - ДВ, БР. 89 ОТ 2004 Г. В СИЛА ЗА РЕПУБЛИКА БЪЛГАРИЯ ОТ 29 ЮНИ 2006 Г.) Обн. ДВ. бр.100 от 12 Декември 2006г.",
+ "source_title": "NRA (Bulgaria) DTC_BG_IR_bg.pdf, as published in ДВ бр. 100/2006 (official NRA file retrieved via Wayback Machine because nra.bg serves a bot challenge)",
+ "source_url": "https://web.archive.org/web/20260123040347id_/https://nra.bg/wps/wcm/connect/nra.bg25863/ae61cc29-190c-4439-8b32-1c4b0debd7a5/DTC_BG_IR_bg.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_PPGAHG8009LJC0QTR5C2HH30I6-ae61cc29-190c-4439-8b32-1c4b0debd7a5-nSQpowW",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но ако получателят е местно лице на другата договаряща държава и действителен притежател на дивидентите, така начисленият данък няма да надвишава 7,5 процента от брутната сума на дивидентите."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но когато получателят е местно лице на другата договаряща държава и действителен притежател на лихвите, така наложеният данък няма да надвишава 5 процента от брутната сума на лихвите."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "но когато получателят е действителен притежател на авторските и лицензионните възнаграждения, така наложеният данък няма да надвишава 5 процента от брутната сума на авторските и лицензионните възнаграждения."
+  }
+ ],
+ "notes": "Art. 27: EIF on date of last notification (29 Jun 2006); WHT applies in Bulgaria to income derived on/after 1 Jan 2007 and in Iran on/after 1 Farvardin (21 Mar 2007). Single dividend rate. Art. 11(4): interest received by the other State, its government, governmental institutions, municipalities, central bank and banks wholly owned by that State exempt at source (Protocol: for wholly state-owned banks only after confirmation by both governments). Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Official NRA PDF obtained through a web.archive.org capture (Jan 2026), not live nra.bg"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

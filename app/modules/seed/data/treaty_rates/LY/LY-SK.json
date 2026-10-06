@@ -1,0 +1,47 @@
+{
+ "a": "LY",
+ "b": "SK",
+ "treaty_name": "Convention between the Slovak Republic and the Great Socialist People's Libyan Arab Jamahiriya for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009)",
+ "signed": "2009-02-20",
+ "entry_into_force": "2010-06-21",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/258/vyhlasene_znenie.html",
+ "eif_quote": "Ministerstvo zahraničných vecí Slovenskej republiky oznamuje, že 20. februára 2009 bola v Bratislave podpísaná Zmluva ... Zmluva nadobudne platnosť 21. júna 2010 v súlade s článkom 27.",
+ "source_title": "Oznámenie MZV SR č. 258/2010 Z. z. (Slov-Lex, vyhlásené znenie) — Slovak-language text (English prevails)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/258/vyhlasene_znenie.html",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tieto úroky sa však môžu zdaniť aj v tom zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov toho zmluvného štátu, ale ak skutočný vlastník úrokov je rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Tieto licenčné poplatky sa však môžu zdaniť aj v zmluvnom štáte, v ktorom majú zdroj, a to podľa právnych predpisov toho zmluvného štátu, ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Libya not an MLI signatory)",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2010/258/vyhlasene_znenie.html",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: Article 10 contains only para (1) ('Dividendy vyplácané spoločnosťou, ktorá je rezidentom jedného zmluvného štátu, rezidentovi druhého zmluvného štátu, ktorý je skutočným vlastníkom dividend, môžu sa zdaniť v tom druhom zmluvnom štáte.') and the definition in para (2); there is no source-State rate limit, so the source State may tax without treaty cap. Interest exempt at source when received and beneficially owned by the other State, its political/administrative subdivision or local authority, or its central (national) bank (Art. 11(3), not modelled). Royalties definition covers software, equipment rental and income from leasing ships, aircraft and containers. Effect (Art. 27(a)): WHT on income paid/credited from 1 Jan of the year following EIF -> 1 Jan 2011. Only the Slovak-language text was read (English prevails in case of divergence; English text not on Slov-Lex). No amending protocol listed on the MF SR list (amendment column '-').",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read; values taken from the official Slovak text"
+ ]
+}

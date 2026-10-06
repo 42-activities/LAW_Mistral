@@ -1,0 +1,67 @@
+{
+ "a": "AU",
+ "b": "NL",
+ "treaty_name": "Agreement between Australia and the Kingdom of the Netherlands for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (1976, as amended by the Second Protocol 1986)",
+ "signed": "1976-03-17",
+ "entry_into_force": "1976-09-27",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/1976/24.html (read via web.archive.org/web/20240613022443)",
+ "eif_quote": "[Treasury] Netherlands | DTA and First Protocol | 17/03/1976 | ... | In force | 27/09/1976 | Art. 29: \"... thereupon this Agreement shall have effect: (a) in both States, in respect of withholding tax on dividends and interest, on dividends and interest derived on or after 1 July 1975; (b) in Australia, in respect of tax on income of any year of income beginning on or after 1 July 1975; (c) in the Netherlands, in respect of taxes, other than the dividend tax, for taxable years and periods beginning on or after 1 January 1975.\"",
+ "source_title": "Australia-Netherlands DTA and Protocol [1976] ATS 24; Second Protocol [1987] ATS 22 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1976/24.html (read via web.archive.org/web/20240613022443) ; https://www.austlii.edu.au/au/other/dfat/treaties/1987/22.html (read via web.archive.org/web/20240710131423) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Netherlands-agreement (ATO synthesised text, read via web.archive.org/web/20251124000458)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1975-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may be taxed in the State of which the company paying the dividends is a resident for the purposes of its tax, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1975-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such interest may be taxed in the State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1975-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "Such royalties may be taxed in the State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1975-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Such royalties may be taxed in the State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Netherlands-agreement (ATO synthesised text, read via web.archive.org/web/20251124000458)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Single dividend tier (15%). Royalty entries split by source State only because start dates differ (Australia: year of income from 1 July 1975; Netherlands: taxable years from 1 January 1975; Art. 29(a) WHT date covers dividends and interest only). Second Protocol 1986 (in force 1987-05-01) only replaced the interest definition (Art. 11(3)) and amended Art. 6. Protocol para (6)(b): negotiation-only MFN for later Australian OECD treaties with lower dividend/interest/royalty rates - no automatic change. MLI WHT effect from 2020-01-01 (ATO synthesised text); MLI does not modify Arts 10-12.",
+ "confidence": "high",
+ "unverified": []
+}

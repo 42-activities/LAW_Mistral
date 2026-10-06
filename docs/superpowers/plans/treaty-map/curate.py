@@ -71,6 +71,8 @@ DROP = {
     "by an official notice",
     ("LV-LU", "INTEREST", None, True): "MFN interest exemption (Latvia–Japan) not confirmed "
     "by an official notice",
+    ("YE-QA", "DIVIDEND", None, True): "exemption wording ambiguous in the Qatar GTA text",
+    ("YE-QA", "INTEREST", None, True): "exemption wording ambiguous in the Qatar GTA text",
     ("NL-HK", "DIVIDEND", "10", True): "0% needs a listing, bank or HQ test or competent-authority "
     "approval — not modelled",
 }
@@ -90,6 +92,13 @@ for _stem, _pct in INVEST_PCT:
         DROP[(_stem, "DIVIDEND", _pct, _excl)] = INVEST
 for _stem, _rate in (("AM-BG", "5"), ("AM-CY", "0"), ("AM-QA", "5")):
     DROP[(_stem, "DIVIDEND", None, False, None, _rate)] = INVEST
+
+# Treaties in force that set no source-State cap on any category (domestic rates apply). The
+# Arab Maghreb Union convention (1990) replaces the members' bilaterals (art. 29(3)).
+NO_CAP = {
+    "LY-EG", "LY-DZ", "LY-MA", "LY-TN", "TN-JO", "TN-DZ", "TN-MA", "MA-DZ", "DZ-MA", "MA-LY",
+    "DZ-LY", "MA-TN", "DZ-TN", "SD-IQ",
+}
 
 # (file stem, category, ownership_threshold) → field changes on the remaining tier
 RETIER = {
@@ -137,6 +146,8 @@ def curate(src: Path) -> int:
                 change = RETIER.get((p.stem, r["category"], r.get("ownership_threshold")))
                 kept.append({**r, **change} if change else r)
         d["rates"] = _invert_upper_tiers(kept, d)
+        if p.stem in NO_CAP and not d["rates"]:
+            d["no_cap"] = True
         out = DEST / p.parent.name / p.name
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

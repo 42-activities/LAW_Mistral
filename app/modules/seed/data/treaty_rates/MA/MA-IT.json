@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "IT",
+ "treaty_name": "Convention between the Kingdom of Morocco and the Italian Republic for the avoidance of double taxation with respect to taxes on income (1972, as amended by the Additional Protocol of 1979)",
+ "signed": "1972-06-07",
+ "entry_into_force": "1983-03-10",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "Stipula - Firma: Rabat 07.06.1972; Ratifica: L. 05.08.1981, n.504 Protocollo aggiuntivo - Firma: Rabat 28.05.1979; Ratifica: L.05.08.1981, n.504 In vigore dal: 10.03.1983",
+ "source_title": "Legge 5 agosto 1981 n. 504, GU n. 250 S.O. 11-09-1981 (Italian/French text of the 1972 Convention and 1979 Additional Protocol; image scan read)",
+ "source_url": "https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Varie/MAROCCO_1972-PROT._1979-Testo_G.U._ita_fr.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as replaced by Additional Protocol Art. 3",
+   "valid_from": "1974-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "« (a) 10 per cento dell'ammontare lordo dei dividendi se il beneficiario dei dividendi è una società (escluse le società di persone) che possiede direttamente almeno il 25 per cento del capitale della società che paga i dividendi »."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1970-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) il 15 per cento dell'ammontare lordo dei dividendi, in ogni altro caso."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tuttavia, detti interessi possono essere tassati nello Stato contraente da cui provengono e secondo la legislazione di detto Stato, ma l'imposta così applicata non deve eccedere il 10 per cento dell'ammontare lordo degli interessi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)-(c)",
+   "valid_from": "1970-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) i canoni relativi alla concessione di licenze di sfruttamento di brevetti, disegni e modelli, progetti, formule o processi segreti, provenienti da fonti situate nel territorio di uno degli Stati contraenti e pagati a una persona domiciliata nel territorio dell'altro Stato, possono essere tassati nel primo Stato, ma l'imposta così applicata non può eccedere il 10 per cento dell'ammontare lordo dei canoni;"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; the treaty has no principal-purpose article."
+ },
+ "notes": "Original 1972 Art. 10(2)(a) (5% at >=10% holding) was replaced by Additional Protocol Art. 3 (10% at >=25%, company other than a partnership); Protocol Art. 8(2): effective for income of tax periods beginning on/after 1 January 1974. Convention Art. 26(2): WHT on income paid on/after 1 January 1970 (retroactive). Royalties: Art. 12(2)(a) copyright on literary/artistic/scientific works (excluding films) capped at 5% (not modelled as separate tier); 10% for patents, designs, secret formulas, and per 12(2)(c) trademarks, cinema/TV films, know-how, technical/economic studies and equipment rental; Art. 12(1) royalties from immovable property/natural resources taxable at source without limit. Interest: Protocol Art. 4 adds exemptions for interest paid by/to governments, local authorities, wholly state-owned bodies and loans under intergovernmental agreements (not modelled). Protocol 'Ad Article 21' tax-sparing provisions not modelled. Authentic texts Arabic/Italian/French (French prevails per Protocol Art. 7); Italian GU text read. MLI not applicable.",
+ "confidence": "high",
+ "unverified": []
+}

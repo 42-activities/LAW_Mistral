@@ -1,0 +1,25 @@
+{
+ "a": "TN",
+ "b": "JO",
+ "treaty_name": "Convention between Tunisia and Jordan (1988), as modified by the MLI",
+ "signed": "1988-02-14",
+ "entry_into_force": "1990-01-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Jordanie Original 14-02-1988 01-01-1990 || [JO MLI] Tunisia Original 14-02-1988 01-01-1990",
+ "source_title": "Convention Tunisie-Jordanie 1988, French text (DGI Tunisie, jibaya.tn; Arabic authentic)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Jordanie.pdf",
+ "rates": [],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1), applied to this covered agreement; no DGI consolidated text available] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "No source-State limits: Art. 10(1) 'Les dividendes payés par une société qui est un résident de l'un des Etats contractants sont imposables dans l'Etat où est située cette société et selon la législation dudit Etat'; Art. 11(1) 'Les intérêts provenant de toutes formes de placements des capitaux sont imposables dans l'Etat contractant d'où proviennent ces intérêts'; Art. 12(1) royalties 'sont imposables dans l'Etat d'où proviennent ces redevances'. Source State taxes under its domestic law without cap, so all three categories omitted. Treaty in force from 1 January of the year following exchange of notifications (Art. 28(2)); EIF 01-01-1990. Convention established in Arabic; French text is a translation.",
+ "confidence": "medium",
+ "unverified": [
+  "French translation only; Arabic authentic text not checked"
+ ],
+ "no_cap": true
+}

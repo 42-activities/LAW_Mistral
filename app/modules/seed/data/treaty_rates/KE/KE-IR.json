@@ -1,0 +1,58 @@
+{
+ "a": "KE",
+ "b": "IR",
+ "treaty_name": "Agreement between the Government of the Republic of Kenya and the Government of the Islamic Republic of Iran for the Avoidance of Double Taxation and Prevention of Fiscal Evasion with Respect to Taxes on Income and on Capital (2012)",
+ "signed": "2012-05-29",
+ "entry_into_force": "2017-07-13",
+ "eif_source_url": "https://www.treasury.go.ke/double-taxation-agreements/",
+ "eif_quote": "16 Iran In Force 29/05/2012 13/07/2017",
+ "source_title": "Kenya–Iran DTA 2012 (Kenya Treasury scanned text, archived copy)",
+ "source_url": "https://www.treasury.go.ke/wp-content/uploads/2020/11/Kenya-Iran-Double-Taxation-Agreement.pdf (now 404; read via https://web.archive.org/web/2025id_/https://www.treasury.go.ke/wp-content/uploads/2020/11/Kenya-Iran-Double-Taxation-Agreement.pdf)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the resident of the other Contracting State and the beneficial owner of the dividends the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+  "quote": "Iran Original 29/05/2012 13/07/2017 (listed by Kenya; Iran is not an MLI Party)"
+ },
+ "notes": "Not MLI-covered: Iran is not an MLI signatory. No PPT/LOB article found in the treaty text. Effect (Art. 28(2)): in Kenya for any year of income beginning on or after 1 January next following the calendar year of entry into force -> 2018-01-01; in Iran for fiscal years beginning on or after 1 Farvardin (21 March) next following -> 2018-03-21 (Iran-source WHT effective from 2018-03-21). Interest: Art. 11(4) exempts interest derived by the other Government, ministries, local authorities, wholly owned institutions, the Central Bank of Iran and the Central Bank of Kenya. Royalty definition includes equipment rental.",
+ "confidence": "high",
+ "unverified": [
+  "Read from Web Archive copy of the Kenya Treasury PDF (live link 404)"
+ ]
+}

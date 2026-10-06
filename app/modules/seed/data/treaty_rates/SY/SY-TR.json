@@ -1,0 +1,69 @@
+{
+ "a": "SY",
+ "b": "TR",
+ "treaty_name": "Agreement between the Government of the Republic of Turkey and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2004, with Protocol)",
+ "signed": "2004-01-06",
+ "entry_into_force": "2004-08-21",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "55) Suriye 06.01.2004 28.06.2004 - 25506 21.08.2004 01.01.2005",
+ "source_title": "GİB Turkish text: Türkiye–Suriye Çifte Vergilendirmeyi Önleme Anlaşması ve Protokol",
+ "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/SURIYE.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Birinci fıkrada bahsedilen temettüler, temettüyü ödeyen şirketin mukim olduğu Akit Devlette ve bu Devletin mevzuatına göre de vergilendirilebilir. Ancak, lehdar temettünün gerçek sahibi ve diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrisafi temettü tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir, ancak, faizin gerçek lehdarı olan faizi elde eden diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(i)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(i) patent, alameti farika, desen veya model, plan, gizli formül ya da üretim yöntemi veya sınai, ticari veya bilimsel tecrübeye dayalı bilgi birikimi için, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 15’ini;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(ii)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ii) sinema filmleri ile radyo ve televizyon kayıtları dahil olmak üzere, edebi, sanatsal veya bilimsel her nevi telif hakkının kullanımı veya kullanım hakkı İçin, gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10'unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/TURKCE_METIN/SURIYE.pdf",
+  "quote": ""
+ },
+ "notes": "Royalties: two tiers by type — 15% for patents/trademarks/designs/know-how etc. (general tier), 10% for copyright incl. films/radio/TV (modelled as a second ROYALTY entry). Protocol para. 2: MFN — if Syria agrees a lower royalty rate with any other country after signature, the lower rate applies from the date that other treaty applies (not modelled). Art. 11(3): interest paid to the other State's Government, local authority or Central Bank exempt. Art. 28: EIF 30 days after the last notification; applies from 1 January of the year following EIF (2005-01-01, matching GİB list). Not MLI-covered: SY not an MLI signatory.",
+ "confidence": "high",
+ "unverified": [
+  "Royalty MFN (Protocol para. 2) may have lowered the 15%/10% rates; not verified"
+ ]
+}

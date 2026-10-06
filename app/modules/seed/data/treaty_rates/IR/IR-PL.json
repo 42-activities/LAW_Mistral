@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Republic of Poland and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income (1998, as amended by Protocol 2004)",
+ "signed": "1998-10-02",
+ "entry_into_force": "2006-12-01",
+ "eif_source_url": "https://www.podatki.gov.pl/podatkowa-wspolpraca-miedzynarodowa/wykaz-umow-o-unikaniu-podwojnego-opodatkowania",
+ "eif_quote": "[podatki.gov.pl list, table row] 34 | Iran | Umowa ... | 02.10.1998 | 01.12.2006 | 01.01.2007 | 2006 - poz. 1770 | Protokół ... | 15.12.2004 | 01.12.2006 | 01.01.2007 | 2006 - poz. 1772",
+ "source_title": "Umowa Polska-Iran, Dz.U. 2006 nr 244 poz. 1770 (scanned PDF, read visually) + Protokół Dz.U. 2006 nr 244 poz. 1772",
+ "source_url": "https://www.podatki.gov.pl/media/nocna4ms/iran-konwencja-tekst-polski.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Jednakże takie dywidendy mogą być opodatkowane także w tym Umawiającym się Państwie, w którym spółka wypłacająca dywidendy ma swoją siedzibę i zgodnie z ustawodawstwem tego Państwa, lecz jeżeli odbiorca dywidend jest ich właścicielem, to podatek ten nie może przekroczyć 7 procent kwoty dywidend brutto."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Jednakże takie odsetki mogą być także opodatkowane w Umawiającym się Państwie, w którym powstają i zgodnie z ustawodawstwem tego Państwa, lecz gdy odbiorca odsetek jest ich właścicielem, podatek w ten sposób ustalony nie może przekroczyć 10 procent kwoty brutto tych odsetek."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Jednakże takie należności licencyjne mogą być także opodatkowane w tym Umawiającym się Państwie, w którym powstają i zgodnie z prawem tego Państwa, lecz jeżeli odbiorca jest właścicielem tych należności, to ustalony podatek nie może przekroczyć 10 procent kwoty brutto należności licencyjnych."
+  }
+ ],
+ "notes": "Art. 27(2): EIF on date of later note; applies to taxes withheld at source on income derived on/after 1 January of the calendar year following EIF (1 Jan 2007). Single dividend rate 7% (no participation tier). Art. 11(4): interest derived by the Government, ministries, other governmental institutions, local authorities, central bank and other banks wholly owned by the Government of the other State exempt at source. Royalty definition includes equipment rental. Protocol of 15 Dec 2004 (in force with the treaty) amends arts. 2, 3, 4, 7, 22 and the signature clause only, not arts. 10-12. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Read visually from scanned Dziennik Ustaw PDFs"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "a": "DZ",
+ "b": "BG",
+ "treaty_name": "Convention between Algeria and Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1998)",
+ "signed": "1998-10-25",
+ "entry_into_force": "2005-04-11",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi",
+ "eif_quote": "[DZ DGI list] بلغاريا | سارية المفعول ابتداء من 11/04/2005 ... بلغاريا 25/10/1998 || [BG list] Алжир 25-10-1998 11-04-2005 Спогодба",
+ "source_title": "JORA n° 01 du 2 janvier 2005 – Décret présidentiel n° 04-435 portant ratification de la convention Algérie–Bulgarie (25 octobre 1998)",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2005/F2005001.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si celui qui reçoit les dividendes est le propriétaire des dividendes, et un résident de l’autre Etat contractant, l’impôt ainsi établi ne peut excéder 10 % du montant global des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mais si le bénéficiaire effectif des intérêts est un résident de l’autre Etat contractant, l’impôt ainsi établi ne pourra excéder 10 % du montant global des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "si la personne qui reçoit les redevances en est le bénéficiaire effectif, l’impôt ainsi établi ne peut excéder le taux de 10 % du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29(2): in force on date of last notification (11-04-2005 per both lists); WHT applies to amounts paid from 1 January of the year following entry into force (2006-01-01). Interest exempt at source (Art. 11(3)) for government payers/recipients, wholly state-owned institutions and financing under intergovernmental agreements. Royalty definition includes equipment rental. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

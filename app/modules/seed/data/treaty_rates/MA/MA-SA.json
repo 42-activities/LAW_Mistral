@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2015)",
+ "signed": "2015-04-14",
+ "entry_into_force": "2022-08-01",
+ "eif_source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Pages/Morocco-Convention.aspx",
+ "eif_quote": "اتفاقية بين حكومة المملكة العربية السعودية وحكومة المملكة المغربية لتجنب الازدواج الضريبي ومنع التهرب الضريبي في شأن الضرائب على الدخل الموقعة في 14 أبريل 2015م والنافذة ابتداء من 1 أغسطس 2022م. | Art. 28(2)(a): فيما يتعلق بالضرائب المستقطعة عند المنبع، على المبالغ المدفوعة في أو بعد اليوم الأول من شهر يناير الذي يلي تاريخ دخول هذه الاتفاقية حيز النفاذ.",
+ "source_title": "ZATCA: SA-MA Convention 2015 with Protocol (Arabic text, Art. 10-12, 28)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "أ- خمسة بالمائة (5%) من إجمالي قيمة أرباح الأسهم إذا كان المالك المستفيد الفعلي شركة (خلاف شركة الأشخاص) يملك بصورة مباشرة عشرة بالمائة (10%) على الأقل من رأس مال الشركة الموزعة لأرباح الأسهم."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب- عشرة بالمائة (10%) من إجمالي قيمة أرباح الأسهم في جميع الحالات الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المستفيد من الدخل من مطالبات الدين مقيما في الدولة المتعاقدة الأخرى، فيجب ألا تتجاوز هذه الضريبة المفروضة عشرة بالمائة (10%) من إجمالي مبلغ الدخل من مطالبات الدين."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "لكن إذا كان المالك المستفيد من الإتاوات مقيما في الدولة المتعاقدة الأخرى، فإن الضريبة المفروضة يجب ألا تزيد عن عشرة بالمائة (10%) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "notes": "Interest paid to the other State's Government, local authority, central bank or wholly government-owned financial institution exempt (Art. 11(3)). Royalties include technical assistance/services fees (Art. 12(3)). Branch profits tax capped at 5% (Art. 10(6)). Art. 27 preserves domestic anti-avoidance rules (not a PPT). EIF 2022-08-01 per ZATCA (consistent with Art. 28(1): first day of the second month after the last notification). Numbers in quotes read from the rendered page images (text layer drops digits). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ },
+ "unverified": []
+}

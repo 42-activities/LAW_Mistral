@@ -1,0 +1,69 @@
+{
+ "a": "SY",
+ "b": "RO",
+ "treaty_name": "Convention between Romania and the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-06-24",
+ "entry_into_force": "2009-06-04",
+ "eif_source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf",
+ "eif_quote": "73. | Siria (Veche) Siria (Nouă) | 40/11.02.1988 | 9/1988 | 01.01.1992 - 31.12.2009 | 106/14.04.2009 | 279/2009 | 01.01.2010 || [RO MLI] Syrian Arab Republic Original 24-06-2008 04-06-2009",
+ "source_title": "Legea nr. 106/2009 (M.Of. 279/29.04.2009) ratifying the RO-SY Convention signed 24.06.2008 (ANAF text 'Siria noua')",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Siria2.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% din suma brută a dividendelor, dacă beneficiarul efectiv este o societate (alta decât un parteneriat) care deţine în mod direct cel puţin 25% din capitalul societăţii plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% din suma brută a dividendelor în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi, astfel de dobânzi sunt, de asemenea, impozabile în statul contractant din care provin şi potrivit legislaţiei acelui stat, dar dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10% din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Totuşi, astfel de redevenţe sunt, de asemenea, impozabile în statul contractant din care provin şi potrivit legislaţiei acelui stat, dar dacă beneficiarul efectiv al redevenţelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 12% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Siria2.htm",
+  "quote": ""
+ },
+ "notes": "Replaces the 1987 RO-SY convention (applied 1992-2009) per Art. 29(3). Interest: Art. 11(3) exempts interest derived by the other State's Government, local/administrative-territorial units and their agencies/banking units/institutions, and debt-claims guaranteed/insured/financed by a wholly government-owned financial institution (not modelled). Royalty definition includes software and equipment rental. Art. 29: EIF 30th day after last notification (04.06.2009 per RO MLI list); WHT effective 1 January of the year following EIF (2010-01-01, matching ANAF list). No protocol/MFN in the ANAF text. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 2009-06-04 from RO MLI list (map); M.Of. EIF notice not read"
+ ]
+}

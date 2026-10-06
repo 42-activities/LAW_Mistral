@@ -1,0 +1,69 @@
+{
+ "a": "KE",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of Kenya for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2014)",
+ "signed": "2014-04-23",
+ "entry_into_force": "2015-06-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+ "eif_quote": "Qatar Original 23/04/2014 25/06/2015",
+ "source_title": "Qatar GTA: DTA Kenya (EN) May 2025 (English treaty text)",
+ "source_url": "https://www.gta.gov.qa/assets/pdf/DTA%20Kenya%20(EN)%20%20May%202025.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: (a) five (5) per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly or indirectly at least 10 percent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) ten (10) per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-instrument-deposit.pdf ; https://www.oecd.org/tax/treaties/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-BEPS.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effect (Art. 29(2)(a)): WHT 'in respect of amounts paid or credited on or after the first day of January of the calendar year immediately following the year in which the Agreement enters into force' -> 2016-01-01. MLI: covered by both (KE no.11, QA no.35); WHT effect 2026-01-01 (map). Qatar notified treaty Art. 28 (main-purpose limitation of benefits) under MLI Art. 7(2) but Kenya did not, so MLI Art. 7(1) applies alongside/supersedes it to the extent incompatible; treaty Art. 28 already contains a main-purpose test ('A resident of a Contracting State shall not be entitled to the benefits of this Agreement if its affairs were arranged in such a manner as if it was the main purpose or one of the main purposes to take the benefits of this Agreement.'). Kenya's SLOB does not apply (Qatar did not choose it). MLI Art. 8 365-day rule does NOT apply: Qatar reserved the entirety of Art. 8. Government tiers not modelled: dividends and interest beneficially owned by the other State, political subdivisions, local authorities, statutory bodies, Central Bank or wholly owned entities (incl. QIA and Qatar Holding) exempt (Arts. 10(3), 11(3)).",
+ "confidence": "high",
+ "unverified": [
+  "Qatar MLI deposit is an OCR scan; absence of an Art. 35(7) reservation by Qatar relied on map"
+ ]
+}

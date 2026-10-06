@@ -101,3 +101,17 @@ def test_reseed_replaces_corrected_rates(db_session, tmp_path):
     t = repo.find_by_parties("CH", "IL")
     caps = sorted(str(r.max_rate) for r in repo.get_rates(t.id, "DIVIDEND", D))
     assert caps == ["10.000", "5.000"]
+
+
+def test_no_cap_treaty_is_stored_without_rates(db_session, tmp_path):
+    from app.modules.seed.builder import Seeder
+
+    sd = Seeder(db_session)
+    sd.jurisdiction("CH", "Switzerland")
+    sd.jurisdiction("IL", "Israel")
+    db_session.flush()
+    _file(tmp_path, "CH-IL.json", {**BASE, "rates": [], "no_cap": True})
+    assert seed_treaty_rates(db_session, tmp_path) == 1
+    from app.modules.treaty.repository import TreatyRepository
+
+    assert TreatyRepository(db_session).find_by_parties("CH", "IL") is not None

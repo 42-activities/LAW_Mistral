@@ -1,0 +1,45 @@
+{
+ "a": "SY",
+ "b": "MT",
+ "treaty_name": "Convention between the Government of the Republic of Malta and the Government of the Syrian Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999)",
+ "signed": "1999-02-22",
+ "entry_into_force": "2000-10-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf",
+ "eif_quote": "66 CONVENTION BETWEEN THE REPUBLIC OF MALTA AND THE SYRIAN ARAB REPUBLIC ... SYRIA Original 22-02-1999 16-10-2000",
+ "source_title": "S.L. 123.59 Double Taxation Relief on Taxes on Income with the Syrian Arab Republic Order (L.N. 246 of 2001)",
+ "source_url": "https://legislation.mt/eli/sl/123.59/eng/pdf",
+ "rates": [
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "18",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 18 percent of the gross amount of the royalties referred to in paragraph 3 of this Article."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; SY not an MLI signatory)",
+  "source_url": "https://legislation.mt/eli/sl/123.59/eng/pdf",
+  "quote": ""
+ },
+ "notes": "DIVIDENDS omitted: Art. 10(2) sets no percentage cap — 'total Malta or Syrian tax on the profits of a company and the dividends distributed by such company, as the case may be, shall not exceed the maximum of the tax chargeable on the profits of the company out of which the dividends are paid' (Malta-style imputation limit; no fixed WHT rate). Interest: Art. 11(3) residence-only for interest paid to/by a State, local authority or statutory body incl. central bank, and on State-guaranteed/insured loans (not modelled). Royalty definition includes industrial/scientific equipment rental. Art. 27: EIF 30 days after later notification; effective for income derived from 1 January following EIF (2001-01-01). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

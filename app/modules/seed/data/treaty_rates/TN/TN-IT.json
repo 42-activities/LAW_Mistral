@@ -1,0 +1,78 @@
+{
+ "a": "TN",
+ "b": "IT",
+ "treaty_name": "Convention between Tunisia and Italy (1979)",
+ "signed": "1979-05-16",
+ "entry_into_force": "1981-09-17",
+ "eif_source_url": "https://www.finanze.gov.it/it/Fiscalita-dellUnione-europea-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/",
+ "eif_quote": "[TN MLI list] Italie Original 16-05-1979 17-09-1981 || [IT list] Tunisia Firma: Tunisi 16.05.1979; Ratifica: L. 25.05.1981, n.388 In vigore dal : 17.09.1981",
+ "source_title": "Convention Tunisie-Italie 1979 + Protocole d'accord, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Italie.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui perçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 15 % du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1982-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui perçoit les intérêts, en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 12 % du montant des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "16",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a — 16 pour cent du montant brut des redevances se rapportant à une marque de fabrique ou de commerce, à des films cinématographiques et de télévision, à un équipement industriel, commercial ou scientifique;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b — 5 pour cent du montant brut des redevances se rapportant à des droits d'auteur sur les œuvres littéraires, artistiques ou scientifiques;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(c)",
+   "valid_from": "1982-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c — 12 pour cent dans les autres cas."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Royalties: 16% trademarks, cinema/TV films and equipment rental; 5% literary/artistic/scientific copyright; 12% other royalties (patents, know-how etc.); Protocol (c) includes industrial/commercial technical and economic studies in royalties. Interest exempt where the debtor is the source-State government/local authority or paid to the other State's government, local authorities or wholly state-owned institutions incl. financial institutions (Art. 11(3)). valid_from: Art. 28(2)(a) 1 January following exchange of ratification (EIF 17-09-1981) -> 1982-01-01. PPT: not applied - Italy has signed but not ratified the MLI; no PPT in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

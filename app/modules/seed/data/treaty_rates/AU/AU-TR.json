@@ -1,0 +1,67 @@
+{
+ "a": "AU",
+ "b": "TR",
+ "treaty_name": "Convention between the Government of Australia and the Government of the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income, with Protocol (2010)",
+ "signed": "2010-04-28",
+ "entry_into_force": "2013-06-05",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/ATS/2013/19.html (read via web.archive.org/web/20240724165108)",
+ "eif_quote": "[Treasury] Turkey | DTA | 28/04/2010 | ... | In force | 05/06/2013 | Art. 28(2): \"(a) in Australia: (i) in respect of withholding tax on income that is derived by a nonresident, in relation to income derived on or after 1 January in the calendar year next following that in which the Convention enters into force; ... (b) in Turkey: (i) with regard to taxes withheld at source, in respect of amounts paid or credited on or after 1 January next following the date upon which this Convention enters into force\"",
+ "source_title": "Australia-Turkey Convention and Protocol [2013] ATS 19 (AustLII)",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/ATS/2013/19.html (read via web.archive.org/web/20240724165108)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "AU",
+   "quote": "(i) in the case of dividends paid by a company that is a resident of Australia, 5 per cent of the gross amount of the dividends, where those dividends are paid to a company (other than a partnership) which holds directly at least 10 per cent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases,"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, that interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but if the beneficial owner of the interest is a resident of the other State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, those royalties may also be taxed in the Contracting State in which they arise and according to the law of that State, but if the beneficial owner of the royalties is a resident of the other State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties",
+  "quote": "Not modified by the MLI (Treasury does not mark the Turkey treaty as MLI-modified; map_CD mli_covered_both=false). No PPT in the treaty or Protocol."
+ },
+ "notes": "Not modelled: Turkey-source 5% tier (Art. 10(2)(a)(ii)) for a company (not a partnership) holding directly >=25% of capital, only for dividends paid out of profits subjected to the full rate of Turkish corporation tax, and under Protocol para 6(a) Turkey may tax at 15% if the dividends are subject to tax in Australia - conditions the schema cannot express; Turkey-source dividends recorded at the 15% general tier. Art. 10(4) branch-profits tax 5%/15%. Art. 11(3): interest on official reserve assets of governments/central banks exempt. Royalties include equipment rental and spectrum licences.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "SD",
+ "b": "RO",
+ "treaty_name": "Convention between Romania and the Republic of the Sudan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007)",
+ "signed": "2007-05-31",
+ "entry_into_force": "2009-11-14",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf",
+ "eif_quote": "[RO MLI] Convention between Romania and the Republic of the Sudan ... Sudan Original 31-05-2007 14-11-2009 ; [ANAF list] Sudan | 386/31.12.2007 | 13/2008 | 01.01.2010 ; [Art. 29(2)] în ceea ce priveşte impozitele reţinute prin stopaj la sursă la venitul plătit în sau după prima zi a lunii ianuarie a anului calendaristic imediat următor anului în care prezenta convenţie a intrat în vigoare",
+ "source_title": "ANAF: Law 386/2007 ratifying the Romania–Sudan Convention (Monitorul Oficial no. 13 of 8 Jan 2008), Romanian text",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Sudan.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% din suma brută a dividendelor, dacă beneficiarul efectiv este o societate (alta decât un parteneriat) care deţine în mod direct cel puţin 25% din capitalul societăţii plătitoare de dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% din suma brută a dividendelor, în toate celelalte cazuri."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al dobânzilor/câştigurilor este un rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 5% din suma brută a dobânzilor/câştigurilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "dar dacă beneficiarul efectiv al redevenţelor este un rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 5% din suma brută a redevenţelor."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Sudan is not an MLI signatory; treaty has no PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 11(3): interest is exempt at source when derived and beneficially owned by the other State's government, local or administrative-territorial units, political subdivisions or their agencies, banks or institutions, or on debt guaranteed, insured or financed by a wholly government-owned financial institution. Art. 11 uses 'câştiguri' (Islamic-finance gains) for Sudan. Signed in Bucharest on 31 May 2007 in English (the authentic text); the Romanian text read here is the official translation published with the ratification law. WHT effect from 2010-01-01 (EIF 14 Nov 2009). Sudan is not an MLI signatory, although Romania lists the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "AZ",
+ "treaty_name": "Agreement between the Government of the Republic of Azerbaijan and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-03-10",
+ "entry_into_force": "2010-01-25",
+ "eif_source_url": "https://web.archive.org/web/20260518054434/https://www.taxes.gov.az/az/page/ikiqat-vergitutmanin-aradan-qaldirilmasina-dair-beynelxalq-sazisler",
+ "eif_quote": "[taxes.gov.az table: No | country | signed | in force | applied from] 17 | İran İslam Respublikası | 10.03.2009 | 25.01.2010 | 01.01.2011",
+ "source_title": "Azerbaijan State Tax Service file eng/iran.zip (IranEng.doc, English text) - taxes.gov.az not reachable here (HTTP 403), read via web.archive.org capture",
+ "source_url": "https://web.archive.org/web/2026id_/https://www.taxes.gov.az/vn/info/sazishler/eng/iran.zip",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of royalties."
+  }
+ ],
+ "notes": "Art. 28(2): EIF on receipt of the later notification (25 Jan 2010); effective for income earned at/after the beginning of the calendar year following the year of legal effect -> 1 Jan 2011 (State Tax Service list); Protocol para. 2: calendar year begins 21 March in Iran (so from 21 Mar 2011 in Iran). Single dividend rate. Art. 11(4): interest derived by the Government, other governmental institutions, Central Bank and banks wholly owned by the other State's Government exempt at source. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "Official file read via web.archive.org capture; text extracted crudely from .doc binary"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

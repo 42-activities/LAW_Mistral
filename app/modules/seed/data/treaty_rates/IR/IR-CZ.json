@@ -1,0 +1,56 @@
+{
+ "a": "IR",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2015)",
+ "signed": "2015-04-30",
+ "entry_into_force": "2016-08-04",
+ "eif_source_url": "https://e-sbirka.gov.cz/sm/2016/47",
+ "eif_quote": "Smlouva a Protokol vstoupily v platnost na základě článku 26 Smlouvy dne 4. srpna 2016 a jejich ustanovení se budou provádět v souladu se zněním písm. a) a b) téhož článku.",
+ "source_title": "e-Sbírka 47/2016 Sb.m.s. (Sdělení MZV o Smlouvě ČR-Írán a Protokolu)",
+ "source_url": "https://e-sbirka.gov.cz/sm/2016/47",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 5 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 5 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 8 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "notes": "Art. 26: EIF on later notification (4 Aug 2016); WHT applies to income paid or credited on/after 1 Jan 2017. Single dividend rate 5%. Interest exempt at source (art. 11(3)) when paid on credit sales of goods/equipment, on any loan/credit granted by a bank, to the other State's government/subdivisions/local authorities/central bank/state-owned or controlled financial institutions, or on loans guaranteed by them. Royalty definition includes equipment rental. Protocol para. 1: treaty does not prevent application of domestic anti-avoidance/anti-evasion rules (general saving clause, not PPT). Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

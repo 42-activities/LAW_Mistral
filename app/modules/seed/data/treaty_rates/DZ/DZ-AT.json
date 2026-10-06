@@ -1,0 +1,67 @@
+{
+ "a": "DZ",
+ "b": "AT",
+ "treaty_name": "Convention between Algeria and Austria on taxes on income and on capital (2003)",
+ "signed": "2003-06-17",
+ "entry_into_force": "2006-12-01",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html",
+ "eif_quote": "[DZ DGI list] النمسا | سارية المفعول ابتداء من 01/12/2006 ... النمسا 17/06/2003 || [AT list] Algerien / Algeria Date of Signature 17.6.2003 Entry into Force 1.12.2006",
+ "source_title": "JORA n° 38 du 1er juin 2005 – Décret présidentiel n° 05-194 portant ratification de la convention Algérie–Autriche (Vienne, 17 juin 2003)",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2005/F2005038.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-12-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) cinq pour cent (5%) du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu’une société de personnes) qui détient directement au moins dix (10) pour cent du capital de la société qui paie les dividentes ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-12-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) quinze pour cent (15%) du montant, brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-12-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les intérêts en est le bénéficiaire effectif, l’impôt ainsi établi ne peut excéder 10% du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-12-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l’impôt ainsi établi ne peut excéder 10% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29(2)(a): WHT provisions apply to amounts paid from the date of entry into force ('aux sommes mises en paiement à compter de la date d’entrée en vigueur'). Interest exempt at source (Art. 11(3)) when paid on credit sales of industrial/commercial/scientific equipment, credit sales of goods/services between enterprises, or loans granted/guaranteed by a credit institution; Art. 11(4) exempts government/state-owned institution interest. Not modelled. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

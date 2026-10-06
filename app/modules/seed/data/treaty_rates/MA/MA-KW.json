@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "KW",
+ "treaty_name": "Convention between the Government of the Kingdom of Morocco and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002)",
+ "signed": "2002-06-15",
+ "entry_into_force": "2006-07-15",
+ "eif_source_url": "https://web.archive.org/web/20230307120711/https://www.tax.gov.ma/wps/wcm/connect/9c2a1aa4-a939-4e88-b908-2f5adc9f349f/TABLEAU%20RECAPITULATIF%20DES%20CONVENTIONS%20%20FISCALES%20EN%20VIGUEUR%20DU%20ROYAUME%20DU%20MAROC.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-9c2a1aa4-a939-4e88-b908-2f5adc9f349f-oljCN19 ; https://web.archive.org/web/20230307121105/https://www.tax.gov.ma/wps/wcm/connect/af22e7ff-a08e-469c-a752-f43b34db89eb/koweit_bo_5997_ar_p_%205461.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-af22e7ff-a08e-469c-a752-f43b34db89eb-l7EFbTb",
+ "eif_quote": "[DGI, Tableau récapitulatif] 33 Koweït DTC Koweït City 15/06/02 15/07/06 5997 du 21/11/11 (AR) || Art. 29(a): فيما يتعلق بالضرائب التي تحجز من المنبع، على المبالغ المدفوعة أو المحجوزة في أو بعد اليوم الأول من يناير من السنة التالية لتلك التي يتم فيها دخول هذه الاتفاقية حيز التنفيذ",
+ "source_title": "Bulletin Officiel n° 5997 (21 November 2011), Dahir 1.04.143 publishing the MA-KW Convention (Arabic, DGI copy via Wayback, scanned)",
+ "source_url": "https://web.archive.org/web/20230307121105/https://www.tax.gov.ma/wps/wcm/connect/af22e7ff-a08e-469c-a752-f43b34db89eb/koweit_bo_5997_ar_p_%205461.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-af22e7ff-a08e-469c-a752-f43b34db89eb-l7EFbTb",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ب) 5% (خمسة بالمائة) من إجمالي أرباح الأسهم، إذا كان المالك المستفيد شركة في حوزتها مباشرة ما لا يقل عن 10% (عشرة بالمائة) من رأس مال الشركة التي تؤدي أرباح الأسهم ؛"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "ج) 10% (عشرة بالمائة) من إجمالي قيمة أرباح الأسهم في جميع الحالات الأخرى."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا أنه إذا كان المالك المستفيد من الفوائد مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للفوائد."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "إلا أنه إذا كان المالك المستفيد من الإتاوات مقيما بالدولة المتعاقدة الأخرى، فإن الضريبة المفروضة على هذا النحو لا يمكن أن تتجاوز 10% (عشرة بالمائة) من المبلغ الإجمالي للإتاوات."
+  }
+ ],
+ "notes": "Dividends: 2.5% where the beneficial owner is the Government of the other State as defined in Art. 4(2) (Art. 10(2)(a)) - not modelled. Interest exempt when paid to the Government of Morocco/Bank Al-Maghrib or the Government of Kuwait as defined in Art. 4(2) (Art. 11(3)) - not modelled. Branch profits tax limited to the Art. 10(2) rates (Art. 10(6)). Scanned BO text; quotes transcribed from page images (BO pp. 5472-5475, 5486). Morocco signed the MLI (25-06-2019) but has not ratified it; MLI not in force for Morocco, so no MLI PPT.",
+ "confidence": "high",
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "[OECD Signatories and Parties, status as of 15 September 2026] 71 Morocco 25-06-2019 (signature only; no deposit of instrument of ratification, no entry into force)"
+ },
+ "unverified": []
+}

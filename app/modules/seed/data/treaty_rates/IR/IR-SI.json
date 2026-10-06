@@ -1,0 +1,58 @@
+{
+ "a": "IR",
+ "b": "SI",
+ "treaty_name": "Agreement between the Republic of Slovenia and the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2011)",
+ "signed": "2011-09-20",
+ "entry_into_force": "2014-04-30",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-instrument-deposit.pdf",
+ "eif_quote": "[FURS list] IRAN | MP, št. 4/14 | 1. 1. 2015 (v Sloveniji) | 21. 3. 2015 (v Iranu) || [SI MLI] Islamic Republic of Iran Original 20-09-2011 30-04-2014",
+ "source_title": "Uradni list RS - MP, št. 4/2014 (BIRIDO), Zakon o ratifikaciji Sporazuma SI-IR s protokolom",
+ "source_url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2014-02-0020?sop=2014-02-0020",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "če pa je upravičeni lastnik dividend rezident druge države pogodbenice, tako obračunani davek ne sme presegati 7 odstotkov bruto zneska dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "če pa je upravičeni lastnik obresti rezident druge države pogodbenice, tako obračunani davek ne sme presegati 5 odstotkov bruto zneska obresti."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "če pa je upravičeni lastnik licenčnin in avtorskih honorarjev rezident druge države pogodbenice, tako obračunani davek ne sme presegati 5 odstotkov bruto zneska licenčnin in avtorskih honorarjev."
+  }
+ ],
+ "notes": "Art. 28(2)(a): WHT applies in Slovenia to amounts derived on/after 1 January, and in Iran on/after 1 Farvardin (21 March), of the calendar year following EIF -> 1 Jan 2015 (SI) / 21 Mar 2015 (IR), per FURS list. Single dividend rate 7%. Art. 11(3): interest exempt at source when paid to the other State's government (Protocol: in Iran incl. ministries and governmental institutions), political subdivision, local authority (municipalities) or central bank; on credit sales of industrial/commercial/scientific equipment; or on credit sales of goods between enterprises. Royalty definition includes equipment rental. No PPT/LOB; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 30 Apr 2014 from Slovenia's MLI notification (not stated in the MP 4/2014 text read)"
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

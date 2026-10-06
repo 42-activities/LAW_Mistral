@@ -1,0 +1,67 @@
+{
+ "a": "IR",
+ "b": "ES",
+ "treaty_name": "Agreement between the Kingdom of Spain and the Islamic Republic of Iran for the avoidance of double taxation (2003)",
+ "signed": "2003-07-19",
+ "entry_into_force": "2006-01-30",
+ "eif_source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_iran.pdf",
+ "eif_quote": "El presente Acuerdo entró en vigor el 30 de enero de 2006, fecha del canje de los Instrumentos de Ratificación, según se establece en su artículo 28.2",
+ "source_title": "Instrumento de ratificación del Acuerdo España-Irán, BOE 2 octubre 2006 (Hacienda CDI PDF)",
+ "source_url": "https://www.hacienda.gob.es/sgt/normativadoctrina/tributaria/cdi/boe_iran.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-03-21",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (excluidas las sociedades de personas) que posea directamente al menos el 20 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-03-21",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "pero si el beneficiario efectivo de los intereses es un residente del otro Estado Contratante, el impuesto así exigido no podrá exceder del 7,5 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-03-21",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "pero si el perceptor es el beneficiario efectivo de los cánones o regalías, el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de los cánones o regalías."
+  }
+ ],
+ "notes": "Effective (art. 28(2)) for taxes of the tax period beginning on/after 1 Farvardin (21 March in Spain) of the year following EIF, i.e. 21 March 2007. Interest exempt at source (art. 11(3)) when paid on credit sales of goods/equipment, on loans by a bank or other credit institution resident in a Contracting State, or received by the other State/central bank/wholly state-controlled banks (Protocol II lists ICO, CESCE, COFIDES for Spain). Protocol III: contracts under art. 107(a) Iranian Direct Taxes Act not royalties. Royalty definition includes equipment rental. No PPT/LOB clause in text; not MLI-covered.",
+ "confidence": "high",
+ "unverified": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Iran not an MLI signatory; no PPT in treaty text read)",
+  "source_url": null,
+  "quote": null
+ }
+}

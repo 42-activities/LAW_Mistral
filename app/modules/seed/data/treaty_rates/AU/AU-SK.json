@@ -1,0 +1,56 @@
+{
+ "a": "AU",
+ "b": "SK",
+ "treaty_name": "Agreement between Australia and the Slovak Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1999)",
+ "signed": "1999-08-24",
+ "entry_into_force": "1999-12-22",
+ "eif_source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1999/35.html (read via web.archive.org/web/20240604071011)",
+ "eif_quote": "Entry into force: 22 December 1999 | Art. 27(2): \"This Agreement shall enter into force on the date of the last notification referred to in paragraph 1, and the provisions of this Agreement shall apply: (a) in the Slovak Republic: (i) in respect of tax withheld at source, in relation to amounts derived on or after 1 January in the calendar year next following that in which the Agreement enters into force; ... (b) in Australia: (i) in respect of withholding tax on income that is derived by a nonresident, in relation to income derived on or after 1 January in the calendar year next following that in which the Agreement enters into force\"",
+ "source_title": "Australia-Slovak Republic DTA [1999] ATS 35 (AustLII); ATO MLI synthesised text",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/1999/35.html (read via web.archive.org/web/20240604071011) ; https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Slovak-agreement (ATO synthesised text, read via web.archive.org/web/20260606143557)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Those dividends may be taxed in the Contracting State of which the company paying the dividends is a resident for the purposes of its tax, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "That interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Those royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ato.gov.au/law/view/document?DocID=MLI/MLI-Slovak-agreement (ATO synthesised text, read via web.archive.org/web/20260606143557)",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income [...] if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Single dividend tier (15%). MLI WHT effect from 2019-01-01 (ATO synthesised text); MLI does not modify Arts 10-12.",
+ "confidence": "high",
+ "unverified": []
+}

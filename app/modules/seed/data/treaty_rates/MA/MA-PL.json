@@ -1,0 +1,67 @@
+{
+ "a": "MA",
+ "b": "PL",
+ "treaty_name": "Convention entre le Gouvernement de la République de Pologne et le Gouvernement du Royaume du Maroc tendant à éviter la double imposition et à prévenir l'évasion fiscale en matière d'impôts sur le revenu et sur la fortune (1994)",
+ "signed": "1994-10-24",
+ "entry_into_force": "1996-08-23",
+ "eif_source_url": "https://www.podatki.gov.pl/podatkowa-wspolpraca-miedzynarodowa/wykaz-umow-o-unikaniu-podwojnego-opodatkowania",
+ "eif_quote": "[PL list] Maroko 24.10.1994 23.08.1996 01.01.1997 1996 - poz. 529 || Art. 29(2): La présente Convention entrera en vigueur trente jours après l'échange des instruments de ratification et ses dispositions seront applicables aux impôts dus à partir du 1er janvier de l'année suivant celle au cours de laquelle les instruments de ratification auront été échangés.",
+ "source_title": "PL-MA Convention 1994, French authentic text (scan), podatki.gov.pl",
+ "source_url": "https://www.podatki.gov.pl/media/mndb5fv0/maroko-konwencja-tekst-francuski.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais l'impôt ainsi établi ne peut excéder: a) sept pour cent du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) quinze pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder dix pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces redevances sont aussi imposables dans l'Etat contractant d'où elles proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder dix pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco has signed the MLI (25-06-2019) but not ratified it (not covered); the treaty (Arts 1-30) contains no principal purpose test article."
+ },
+ "notes": "Conflict on EIF: 22-08-1996 (Morocco MLI list) vs 23-08-1996 (Polish list, used). Ratification instruments exchanged in 1996, so WHT limits apply from 1 January 1997 (Polish list also gives 01.01.1997). Interest/royalty paragraphs do not use 'beneficial owner' wording; no government-interest exemption in Art. 11. Text read from page images of the French scan; Polish text (Dz.U. 1996 poz. 529) also published on podatki.gov.pl.",
+ "confidence": "high",
+ "unverified": []
+}

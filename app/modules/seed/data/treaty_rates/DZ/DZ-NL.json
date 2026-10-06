@@ -1,0 +1,78 @@
+{
+ "a": "DZ",
+ "b": "NL",
+ "treaty_name": "Convention between the Netherlands and Algeria for the avoidance of double taxation with respect to taxes on income and on capital (2018, with Protocol)",
+ "signed": "2018-05-09",
+ "entry_into_force": "2020-07-31",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2020-73.html",
+ "eif_quote": "De bepalingen van het Verdrag, met Protocol, zullen ingevolge artikel 31 in werking treden op 31 juli 2020.",
+ "source_title": "Tractatenblad 2018, 65 – Verdrag Nederland–Algerije (Algiers, 9 mei 2018), English text",
+ "source_url": "https://zoek.officielebekendmakingen.nl/trb-2018-65.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly or indirectly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2021-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2021-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 15 per cent of the gross amount of the royalties paid for the use of, or the right to use any copyright of literary, artistic or scientific work including cinematographic films, or films, tapes and other means of image or sound reproduction;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 1(2)",
+  "source_url": "https://zoek.officielebekendmakingen.nl/trb-2018-65.html",
+  "quote": "2. A benefit under this Convention shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Art. 31: in force 31-07-2020; effective for taxable years/periods beginning and taxable events occurring on or after 1 January of the following calendar year (2021-01-01). Dividends exempt at source when beneficial owner is a pension fund (Art. 10(3)). Interest exempt (Art. 11(3)) for government payers/recipients, central bank, intergovernmental-agreement loans, loans granted by a bank, other financial institution or pension fund, and credit sales of equipment. Royalty 15% tier covers copyright incl. films/tapes (modelled as separate tier; 5% general). Built-in PPT in Art. 1(2) (treaty, not MLI). Algeria DGI list's 'Netherlands' entry wrongly repeats the Belgium row and its PDF is identical to the Romania file.",
+ "confidence": "high",
+ "unverified": []
+}

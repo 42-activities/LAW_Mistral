@@ -1,0 +1,78 @@
+{
+ "a": "DZ",
+ "b": "ES",
+ "treaty_name": "Convention between Spain and Algeria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002, with Protocol)",
+ "signed": "2002-10-07",
+ "entry_into_force": "2005-07-06",
+ "eif_source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-12618",
+ "eif_quote": "El presente Convenio entró en vigor el 6 de julio de 2005, fecha de recepción de la última notificación cruzada entre las Partes de cumplimiento de los procedimientos exigidos por los respectivos derechos internos, según se establece en su artículo 28.",
+ "source_title": "BOE núm. 174, 22-07-2005 (BOE-A-2005-12618) – Convenio España–Argelia, Madrid 7 de octubre de 2002; cross-checked with JORA n° 45 du 29 juin 2005",
+ "source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2005-12618",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad que posea directa o indirectamente, al menos, el 10 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "pero si el beneficiario efectivo de los intereses es un residente del otro Estado Contratante, el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "14",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) del 14 por ciento del importe bruto de los cánones pagados por el uso o la concesión de uso de derechos de autor sobre obras literarias, artísticas o científicas, incluidas películas cinematográficas, o películas, cintas u otros medios de reproducción de la imagen o el sonido."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) del 7 por ciento del importe bruto de los cánones en todos los demás casos."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 28(2): effective for taxes on income for fiscal years beginning on or after 1 January of the year following entry into force (EIF 06-07-2005 -> 2006-01-01); the Algerian DGI list's 01/07/2006 is not supported by the treaty text. Interest exclusive to residence State (Art. 11(3)) for government payers/recipients, wholly state-owned institutions, central bank, credit sales of goods/equipment, and loans granted by a bank or other credit institution. Royalty 14% tier = copyright on literary/artistic/scientific works incl. films/tapes; 7% all other (incl. software rights). Protocol: dividends include liquidation proceeds. Same rates confirmed in JORA n° 45/2005 French edition. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

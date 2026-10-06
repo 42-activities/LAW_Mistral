@@ -1,0 +1,59 @@
+{
+ "a": "TN",
+ "b": "OM",
+ "treaty_name": "Convention between Tunisia and Oman (1997)",
+ "signed": "1997-11-16",
+ "entry_into_force": "1998-04-22",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Oman Original 16-11-1997 22-04-1998 || [OM list] 3 Tunisia 16/11/1997 10/1998 24/02/1998 1/1/1999",
+ "source_title": "Convention Tunisie-Oman 1997, French text (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Oman.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1999-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) Les dividendes payés par une société qui est un résident d'un Etat contractant à un résident de l'autre Etat contractant ne sont soumis à l'impôt dans aucun des Etats contractants."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui les reçoit en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 10% du montant brut de ces intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1999-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui les reçoit en est le bénéficiaire effectif, l'impôt, ainsi établi, ne peut excéder 5 % du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividends taxable in NEITHER State (Art. 10(1)) - modelled as exclusive/0% at source. Interest paid to the other State's government, political subdivisions, local authorities or central bank exempt (Art. 11(4)). valid_from: Art. 28 from 1 January following the last notification (EIF 22-04-1998) -> 1999-01-01 (matches Oman's list). If Oman lists Tunisia in its MLI notifications, MLI PPT would apply from 2024-01-01 (WHT). PPT: not applied - MLI coverage unverified: Tunisia lists Oman, but Oman's MLI position could not be read (image-only / not retrievable); PPT not asserted.",
+ "confidence": "medium",
+ "unverified": [
+  "Oman MLI coverage of the Tunisia treaty (affects ppt)",
+  "French translation only"
+ ]
+}

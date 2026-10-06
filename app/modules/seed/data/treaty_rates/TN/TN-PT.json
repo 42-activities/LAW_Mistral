@@ -1,0 +1,56 @@
+{
+ "a": "TN",
+ "b": "PT",
+ "treaty_name": "Convention between Tunisia and Portugal (1999), as modified by the MLI",
+ "signed": "1999-02-24",
+ "entry_into_force": "2000-08-21",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+ "eif_quote": "[TN MLI list] Portugal Original 24-02-1999 21-08-2000 || [PT table] TUNÍSIA ... EM VIGOR DESDE 21-08-2000",
+ "source_title": "Convention Tunisie-Portugal, version consolidée CML (DGI Tunisie, jibaya.tn)",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Portugal-1.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "mais si la personne qui reçoit les dividendes en est le bénéficiaire effectif, l'impôt ainsi établi ne peut excéder 15 % du montant brut des dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt ainsi établi ne peut excéder 15 % du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "l'impôt ainsi établi ne peut excéder 10% du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://jibaya.tn/wp-content/uploads/2024/01/Convention-Tunisie-Portugal-1.pdf",
+  "quote": "Nonobstant toute disposition de la présente convention, un avantage au titre de la présente convention ne sera pas accordé au titre d'un élément de revenu ou de fortune s'il est raisonnable de conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était l'un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente convention."
+ },
+ "notes": "Royalties include remuneration for technical assistance and technical/economic studies connected with the rights/information (Art. 12(3)). Art. 10(3) treats income under an associação em participação as dividends. valid_from: Art. 28(2)(a) applies to WHT whose taxable event occurs after 31 December of the year of exchange of ratification instruments (EIF 21-08-2000 = one month after exchange in 2000) -> 2001-01-01. No dividend tiers, so MLI art. 8 not relevant.",
+ "confidence": "high",
+ "unverified": []
+}

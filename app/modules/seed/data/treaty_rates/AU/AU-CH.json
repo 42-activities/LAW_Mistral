@@ -1,0 +1,67 @@
+{
+ "a": "AU",
+ "b": "CH",
+ "treaty_name": "Convention between Australia and the Swiss Confederation for the Avoidance of Double Taxation with respect to Taxes on Income, with Protocol (2013)",
+ "signed": "2013-07-30",
+ "entry_into_force": "2014-10-14",
+ "eif_source_url": "https://treasury.gov.au/tax-treaties/income-tax-treaties ; https://www.austlii.edu.au/au/other/dfat/treaties/ATS/2014/33.html (read via web.archive.org/web/20250124125445)",
+ "eif_quote": "[Treasury] Switzerland | 2013 Revised Treaty | 30/07/2013 | ... | In force | 14/10/2014 | Art. 27(2): \"(ii) in respect of withholding tax on income that is derived by a resident of Switzerland, in relation to income derived on or after the first day of January of the calendar year next following the date on which the Convention enters into force; ... in the case of Switzerland: in respect of taxes withheld at source on amounts paid or credited on or after the first day of January of the calendar year next following the entry into force of the Convention\"",
+ "source_title": "Australia-Switzerland Convention and Protocol [2014] ATS 33 (AustLII)",
+ "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/ATS/2014/33.html (read via web.archive.org/web/20250124125445)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company which, in the case of Australia, holds directly at least 10 per cent of the voting power in the company paying the dividends, or in the case of Switzerland, holds directly at least 10 per cent of the capital in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2015-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2015-01-01",
+  "basis": "treaty Protocol para. 1 (treaty main-purpose rule; treaty not modified by the MLI)",
+  "source_url": "https://www.austlii.edu.au/au/other/dfat/treaties/ATS/2014/33.html (read via web.archive.org/web/20250124125445)",
+  "quote": "The benefits of this Convention shall not apply if it was one of the principal purposes of any person concerned with the creation or assignment of the property or right in respect of which the income is paid, or if a person has become a resident of a Contracting State, to take advantage of the provisions of the Convention by means of such creation, assignment or residence."
+ },
+ "notes": "Dividend 5% tier: 10% of voting power when Australia is the source State, 10% of capital when Switzerland is the source State (directly held). Not modelled: Art. 10(3) 0% for a company holding (directly or indirectly) >=80% of voting power (AU) / capital (CH) for a 12-month period ending on the date the dividend is declared AND meeting a listed-company / equivalent-benefits / competent-authority test; Art. 10(4) 0% for governments, central banks, complying superannuation funds and Swiss tax-exempt pension schemes holding no more than 10%. Interest Art. 11(3): 0% for governments/central banks, unrelated financial institutions (except back-to-back loans, Art. 11(4)) and pension funds. Not modified by the MLI (Treasury does not mark it MLI-modified; Switzerland did not list it).",
+ "confidence": "high",
+ "unverified": []
+}

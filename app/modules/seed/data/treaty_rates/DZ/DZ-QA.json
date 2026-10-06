@@ -1,0 +1,56 @@
+{
+ "a": "DZ",
+ "b": "QA",
+ "treaty_name": "Convention between Algeria and Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-07-03",
+ "entry_into_force": "2011-03-17",
+ "eif_source_url": "https://www.mfdgi.gov.dz/index.php?option=com_dropfiles&view=frontfiles&format=json&id=566 (ids 565-570, DGI 'conventions fiscales internationales') ; https://www.gta.gov.qa/en/ajax/agreements-json ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+ "eif_quote": "[DZ DGI list] قطر | سارية المفعول ابتداء من17/03/2011 ... 03/07/2008 قطر || [QA MLI] Algeria Original 03/07/2008 16/03/2011",
+ "source_title": "JORA n° 70 du 21 novembre 2010 – Décret présidentiel n° 10-273 portant ratification de la convention Algérie–Qatar (Doha, 3 juillet 2008), French edition",
+ "source_url": "https://www.joradp.dz/FTP/jo-francais/2010/F2010070.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les dividendes payés par une société qui est un résident d’un Etat contractant à un résident de l’autre Etat contractant sont imposables uniquement dans cet autre Etat."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les intérêts provenant de l’un des deux Etats contractants et payés à un résident de l’autre Etat contractant sont imposables uniquement dans cet autre Etat contractant."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les redevances provenant d’un Etat contractant et payées à un résident de l’autre Etat contractant sont imposables dans le premier Etat, l’impôt ainsi établi ne peut excéder 5% (cinq pour cent) du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-algeria.pdf",
+  "quote": "Algeria signed the MLI (27-06-2024) but has not ratified it (per map_CD/OECD status); the treaty text contains no principal purpose test."
+ },
+ "notes": "Art. 29: in force 30 days after the last notification (EIF conflict: 16-03-2011 Qatar MLI list vs 17/03/2011 Algeria DGI); applies to income of fiscal years from 1 January of the year following entry into force (2012-01-01). Authentic text Arabic only; read the official French JORA edition. No MLI (Algeria not ratified).",
+ "confidence": "high",
+ "unverified": []
+}

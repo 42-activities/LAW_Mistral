@@ -1,0 +1,56 @@
+{
+ "a": "LY",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Great Socialist People's Libyan Arab Jamahiriya for the avoidance of double taxation (2008)",
+ "signed": "2008-11-17",
+ "entry_into_force": "2010-03-08",
+ "eif_source_url": "https://www.gov.uk/government/publications/libya-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 8 March 2010. It's effective in Libya from 1 January 2011 and the UK from: 1 April 2010 for Corporation Tax; 6 April 2010 for Income Tax and Capital Gains Tax",
+ "source_title": "UK/Libya Double Taxation Convention signed 17 November 2008 (HMRC text, April 2010)",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a819e9ded915d74e33ff2ef/uk-libya-dtc_-_in_force.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However: a) except as provided in sub-paragraph b), such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident, if the beneficial owner of the dividends is a resident of the other Contracting State;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(1)",
+   "valid_from": "2011-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "treaty art. 11(6), 12(5), 13(5) (article-specific main-purpose rules only)",
+  "source_url": "https://assets.publishing.service.gov.uk/media/5a819e9ded915d74e33ff2ef/uk-libya-dtc_-_in_force.pdf",
+  "quote": "No relief shall be available under this Article if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Dividends: exemption at source except Art. 11(2)(b): qualifying dividends paid by a property investment company (other than to a pension scheme) may be taxed at source up to 15% (not modelled). Interest and royalties exclusive to residence State. valid_from set to the later effective date (Libya 1 Jan 2011, Art. 29(1)(b)); in the UK the Convention had effect from 6 April 2010 (income tax) / 1 April 2010 (corporation tax). No general PPT; main-purpose anti-abuse rules in Arts 11(6), 12(5), 13(5) only. Libya is not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

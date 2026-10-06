@@ -1,0 +1,59 @@
+{
+ "a": "MA",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of the Republic of Hungary and the Government of the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1991)",
+ "signed": "1991-12-12",
+ "entry_into_force": "2000-08-20",
+ "eif_source_url": "https://net.jogtar.hu/jogszabaly?docid=a0200008.tv",
+ "eif_quote": "(Az Egyezmény megerősítéséről szóló jegyzékváltás 2000. július 21-én megtörtént és az Egyezmény 2000. augusztus 20-án hatályba lépett.)",
+ "source_title": "Act VIII of 2002 promulgating the Hungary-Morocco convention, Hungarian authentic text (secondary: Wolters Kluwer net.jogtar.hu reproduction; official njt.hu unreachable)",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=a0200008.tv",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Mindazonáltal ez az osztalék abban a Szerződő Államban, és ezen Állam jogszabályai szerint megadóztatható, amelyben az osztalékot fizető társaság az osztalékot fizető társaság illetőséggel bír, de az így megállapított adó az osztalék bruttó összegének 12 százalékát nem haladhatja meg."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mindazonáltal ez a kamat – kivéve az egyik Szerződő Állam által nyújtott vagy általa garantált hiteleket és azokat, amelyeket a másik Szerződő Állam vagy politikai egysége, helyi hatósága, vagy ennek az Államnak a Központi Bankja kap – abban a Szerződő Államban is, amelyből származik, ennek az Államnak a jogszabályai szerint megadóztatható, de az így megállapított adó nem haladhatja meg a kamat bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Mindazonáltal az ilyen licencdíj megadóztatható abban a Szerződő Államban is, ahonnan származik, ennek az Államnak a jogszabályai szerint, de az így megállapított adó nem haladhatja meg a licencdíj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-morocco.pdf",
+  "quote": "Morocco signed the MLI (25-06-2019) but has not ratified it; the treaty has no principal-purpose article."
+ },
+ "notes": "Single dividend rate 12% (no participation tier). Art. 11(1): interest on loans granted or guaranteed by a Contracting State, and interest received by the other State, its political subdivisions, local authorities or central bank, is not taxable at source (not modelled). Art. 28(2)(a): WHT provisions apply to income credited or paid after 31 December of the year of the exchange of letters (exchange 21-07-2000) -> valid_from 2001-01-01; the Hungarian NAV list shows application from 2000-01-01 (conflict; treaty text followed). EIF conflict in map (20-02-2000 Morocco MLI list vs 20-08-2000 Hungary MLI) resolved by the promulgating Act: 20-08-2000. Authentic languages Hungarian, Arabic, French; Hungarian text read. MLI not applicable.",
+ "confidence": "medium",
+ "unverified": [
+  "text read from a Wolters Kluwer reproduction, not njt.hu/Magyar Közlöny",
+  "valid_from reading of Art. 28(2)(a) ('a levélváltás évének december 31-ike után') vs NAV list 2000-01-01"
+ ]
+}

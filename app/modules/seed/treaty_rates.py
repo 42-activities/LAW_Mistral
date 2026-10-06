@@ -215,7 +215,9 @@ def load_file(
     data = json.loads(path.read_text(encoding="utf-8"))
     in_force = _d(data.get("entry_into_force"))
     tiers = current_tiers(data.get("rates") or [])
-    if in_force is None or not tiers:
+    # A treaty in force that sets no source-State cap (curated "no_cap") is stored without rates
+    # so the engine reports "no limit recorded" rather than "no treaty".
+    if in_force is None or not (tiers or data.get("no_cap")):
         return False
     repo = JurisdictionRepository(sd.s)
     a, b = repo.get_by_code(data["a"]), repo.get_by_code(data["b"])
