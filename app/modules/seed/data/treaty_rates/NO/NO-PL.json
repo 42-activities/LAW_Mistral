@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "PL",
+ "treaty_name": "Convention between the Kingdom of Norway and the Republic of Poland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2009, as amended 2012)",
+ "signed": "2009-09-09",
+ "entry_into_force": "2010-05-25",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2009-09-09-20",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 25-05-2010\" | Art. 28(2): \"This Convention shall enter into force on the date of the later of these notifications and shall thereupon have effect: a. in Poland: i. in respect of taxes withheld at source, to income derived on or after 1st of January in the calendar year next following the year in which the Convention enters into force; ... b. in Norway: in respect of taxes on income relating to the calendar year (including accounting periods beginning in any such year) next following that in which this Convention enters into force and subsequent years.\"",
+ "source_title": "Lovdata Norges traktater (English version), Convention Norway-Poland 2009 with Protocol, and amending Protocol of 5 July 2012 (Norwegian, Polish, English equally authentic; English prevails)",
+ "source_url": "https://lovdata.no/dokument/TRAKTATEN/traktat/2009-09-09-20 ; https://lovdata.no/dokument/TRAKTATEN/traktat/2012-07-05-10",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": null,
+   "quote": "a. shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is a company which is a resident of the other Contracting State and holds directly at least 10 per cent of the capital of the company paying the dividends on the date the dividends are paid and has done so or will have done so for an uninterrupted 24-month period in which that date falls;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. except as provided in sub-paragraph a) of this paragraph, may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Norway MLI position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf ; partner position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-poland-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (both list the Convention; no Art. 35(7) reservation); WHT effect 2020-01-01 per map.json.]"
+ },
+ "notes": "Dividend 0% tier requires a direct holding of >=10% for an uninterrupted 24-month period (recorded as 730 days). MLI Art. 8 not applicable: both Norway and Poland reserved under Art. 8(3)(b)(i) for this Convention (existing minimum holding period). Art. 10(3): dividends beneficially owned by the Government (incl. Government Pension Fund - Global per Protocol) taxable only in the residence State (not modelled). Art. 11(3): interest exempt at source when paid to the Government/political subdivisions/central bank/wholly-owned state institutions, on export-promotion loans, in connection with credit sales of industrial, commercial or scientific equipment, or on any loan granted by a bank (not modelled). Protocol ad Art. 12: payments for offshore exploration/exploitation equipment are not royalties. The 2012 amending Protocol (in force 2013-04-02) changed only Art. 14(3) and Art. 22(1)(d); it does not affect Arts. 10-12. Replaced the 1977 Convention.",
+ "confidence": "high",
+ "unverified": []
+}

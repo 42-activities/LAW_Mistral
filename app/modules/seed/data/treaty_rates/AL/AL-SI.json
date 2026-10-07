@@ -1,0 +1,69 @@
+{
+ "a": "AL",
+ "b": "SI",
+ "treaty_name": "Convention between the Council of Ministers of the Republic of Albania and the Government of the Republic of Slovenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-02-27",
+ "entry_into_force": "2009-05-04",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf",
+ "eif_quote": "[SI list, via map.json] ALBANIJA | MP, št. 7/09 | 4. 5. 2009 ... 1. 1. 2010 | za davke pri viru 1. 1. 2021 || [SI MLI] Republic of Albania Original 27-02-2008 04-05-2009 || Art. 29(2)(a): \"në lidhje me tatimet që mbahen në burim, për të ardhurat që përftohen në 1 janar ose pas 1 janarit të vitit kalendarik të vitit pasardhës, kur ka hyrë në fuqi konventa\"",
+ "source_title": "Ligj Nr. 9938 dated 26.6.2008 ratifying the Albania-Slovenia Convention (Albanian text), tatime.gov.al",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=373",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 për qind të shumës bruto të dividendëve, nëse pronari përfitues është një kompani që mban direkt të paktën 25 për qind të kapitalit të kompanisë që paguan dividendët;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 për qind të shumës bruto të dividendëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, ky interes mund të tatohet gjithashtu në Shtetin Kontraktues ku rrjedh dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i interesit është rezident i Shtetit tjetër Kontraktues, tatimi i caktuar nuk kalon 7 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto tarifa për licenca mund të tatohen edhe në Shtetin Kontraktues ku lindin dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i tarifës për licencë është rezident i Shtetit tjetër Kontraktues, tatimi i ngarkuar nuk kalon 7% të shumës bruto të tarifës për licencë."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both list the Convention; WHT effect 2021-01-01 (also stated in Slovenia's list of treaties in force)]"
+ },
+ "notes": "MLI Art. 8(1) applies: Albania and Slovenia both notified Art. 10(2)(a) under Art. 8(4); the reduced rate requires the shares to be held throughout a 365-day period that includes the day of payment, with effect for WHT from 2021-01-01 (before that date the tier had no holding period). Signed at Tirana 27 Feb 2008 in Slovenian, Albanian and English (English prevails). Art. 11(3): interest exempt at source where paid by or to the government, a political subdivision, local authority or central bank, or paid on loans granted/approved/guaranteed/insured by an export-credit institution authorised under domestic law - not modelled.",
+ "confidence": "high",
+ "unverified": [
+  "Slovenian list quote taken from map.json (FURS docx), not re-read"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "AL",
+ "b": "SA",
+ "treaty_name": "Agreement between the Republic of Albania and the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2019)",
+ "signed": "2019-02-06",
+ "entry_into_force": "2019-12-01",
+ "eif_source_url": "https://www.tatime.gov.al/shkarko.php?id=10466",
+ "eif_quote": "\"Marrëveshja ... nënshkruar në Riad, më 6.2.2019, ka hyrë në fuqi më 1.12.2019. (Njoftim i Ministrisë për Evropën dhe Punët e Jashtme Nr. 6489, datë 31.05.2021, botuar në Fletoren Zyrtare Nr. 84, datë 02.06.2021)\" || Art. 29(2)(a): \"në lidhje me tatimet që mbahen në burim, në lidhje me shumat e paguara në ose pas datës një janar, pas datës në të cilën hyn në fuqi kjo Marrëveshje\"",
+ "source_title": "Ligj Nr. 40/2019 ratifying the Albania-Saudi Arabia Agreement (Albanian text), tatime.gov.al",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=10466",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këta dividendë mund të tatohen edhe në Shtetin Kontraktues në të cilin është rezidente shoqëria që paguan dividiendët dhe sipas ligjeve të atij Shteti, por nëse pronari përfitues i dividendëve është rezident i Shtetit tjetër Kontraktues, tatimi i vendosur nuk duhet të tejkalojë 5 për qind të shumës bruto të dividendëve."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2020-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë këto të ardhura nga pretendimet e borxhit mund të tatohen edhe në shtetin Kontraktues në të cilin zgjidhen edhe sipas ligjeve të atij shteti, por nëse pronari përfitues i të ardhurave nga pretendimet e borxhit është rezident i shtetit tjetër kontraktues, tatimi i vendosur nuk tejkalon 10 për qind të shumës bruto të të ardhurave nga pretendimet e borxhit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2020-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 8 për qind të shumave bruto të këtyre tarifave të licencave në të gjithë rastet e tjera."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty has no PPT; not MLI-covered: Albania does not list Saudi Arabia)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Royalties Art. 12(2)(a): 5% on royalties paid for the use of, or right to use, industrial, commercial or scientific equipment (\"5 për qind të shumës bruto të këtyre tarifave të licencave që paguhen për përdorimin ose të drejtën për të përdorur pajisjet industriale, tregtare ose shkencore\") - not modelled as a separate tier; general 8% recorded. Art. 29(2)(a) says WHT provisions apply to amounts paid on or after 1 January following the date of entry into force -> 2020-01-01. Art. 28 preserves domestic anti-avoidance rules. Not MLI-covered (Saudi Arabia lists it, Albania does not).",
+ "confidence": "high",
+ "unverified": []
+}

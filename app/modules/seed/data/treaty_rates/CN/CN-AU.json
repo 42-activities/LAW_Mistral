@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "AU",
+ "treaty_name": "Agreement between the Government of Australia and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1988)",
+ "signed": "1988-11-17",
+ "entry_into_force": "1990-12-28",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+ "eif_quote": "[China MLI deposit position, list of agreements] Australia Original 17-11-1988 28-12-1990",
+ "source_title": "International Tax Agreements Act 1953 (Cth), compilation 24 Sep 2007 (C2007C00600) vol. 2, Schedule 28 - official English text of the Chinese agreement",
+ "source_url": "https://api.prod.legislation.gov.au/v1/documents(titleid='C1953A00082',start=2007-09-24,retrospectivestart=2007-09-24,rectificationversionnumber=0,type='Primary',uniqueTypeNumber=0,volumeNumber=2,format='Pdf') (legislation.gov.au, International Tax Agreements Act 1953 compilation C2007C00600, vol. 2, Schedule 28)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1991-07-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1991-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1991-07-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; China MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1), applied to the Agreement as a Covered Tax Agreement; China and Australia both list it (China list: 'Australia Original 17-11-1988 28-12-1990'; Australia deposit position: 'China Original 17-11-1988 28-12-1990'); effective for WHT from 2023-01-01 per Art. 35(1)(a)]"
+ },
+ "notes": "Art. 27: effect in Australia for withholding tax on income derived on or after 1 July of the calendar year after entry into force (i.e. 1991-07-01); in China for taxable years beginning on or after 1 January following entry into force (1991-01-01); valid_from uses the later date. Single flat tiers; no government/central bank interest exemption in the Agreement. Royalty definition includes equipment rentals (Art. 12(3)(b)). MLI Art. 8 not relevant (no reduced participation tier; China's Art. 8(4) list does not include Australia). Text read from the 2007 legislation.gov.au compilation (schedules later removed from the Act; no amending protocol per map).",
+ "confidence": "high",
+ "unverified": [
+  "entry-into-force date taken from the China MLI deposit position list, not from an exchange-of-notes notice"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "BA",
+ "b": "CY",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Republic of Cyprus for the avoidance of double taxation with respect to taxes on income and on capital (1985), applied between Cyprus and Bosnia and Herzegovina by succession",
+ "signed": "1985-06-29",
+ "entry_into_force": "1986-09-08",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=f90292eb-dcdb-40d2-91a9-d65e928275f8&lang=hr",
+ "eif_quote": "[BA MLI] Cyprus Original 29-06-1985 08-09-1986 || [CY MLI] Socialist Federal Republic of Yugoslavia (Bosnia and Herzegovina) Original 29-06-1985 08-09-1986 || Art. 27(2): Ugovor stupa na snagu na dan razmjene instrumenata ratifikacije, a njegove odredbe primjenjuju se u odnosu na poreze na dohodak i na imovinu za svaku poreznu godinu koja počinje prvog januara ili nakon prvog januara kalendarske godine koja slijedi godinu u kojoj je izvršena razmjena instrumenata ratifikacije",
+ "source_title": "BiH Ministry of Finance and Treasury: Ugovor SFRJ–Republika Kipar (Službeni list SFRJ – Međunarodni ugovori 2/86), Bosnian text; MLI combined text BiH–Cyprus",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=f90292eb-dcdb-40d2-91a9-d65e928275f8&lang=hr ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Cipar_-_bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende mogu se oporezivati i u državi ugovornici čiji je rezident društvo koje isplaćuje dividende, u skladu sa zakonima te države, ali tako razrezan porez ne može preći 10 posto od bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata iz stava 1. ovog člana može biti oporezivana i u državi ugovornici u kojoj nastaje, u skladu sa zakonima te države, ali tako razrezan porez ne može preći 10 posto od bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade iz stava 1. ovog člana mogu se oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali tako razrezan porez ne može preći 10 posto od bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Cipar_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY treaty applied by succession: Cyprus MLI position lists it as \"Socialist Federal Republic of Yugoslavia (Bosnia and Herzegovina)\"; BiH MoF lists it in force. Cyprus MoF list (gov.cy) not reachable (403) and Cypriot official English text not retrieved; rates from the official BiH MoF Bosnian text. Art. 10(2) second sentence: as long as Cyprus does not levy a tax on dividends in addition to the tax on company profits, dividends paid by a Cypriot company to a resident of Yugoslavia (BiH) are exempt from such additional Cypriot tax. Art. 10(3): \"dividends\" excludes income of a Cypriot resident from investment in a Yugoslav organisation of associated labour. Art. 11(2)/12(2): competent authorities settle mode of application. No beneficial-owner wording. MLI Art. 8 not applicable (BiH reserved). valid_from = 1 Jan of year after exchange of ratification instruments (1986) -> 1987-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "Cypriot official English text not cross-checked (gov.cy 403)"
+ ]
+}

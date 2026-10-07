@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Polish People's Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1988), as modified by the MLI",
+ "signed": "1988-06-07",
+ "entry_into_force": "1989-01-07",
+ "eif_source_url": "http://web.archive.org/web/20250414022122/http://www.chinatax.gov.cn/n810341/n810770/c1153216/5027010/files/%E5%85%AC%E7%BA%A6%EF%BC%88MLI%EF%BC%89%E5%92%8C%E4%B8%AD%E5%9B%BD%E2%80%94%E6%B3%A2%E5%85%B0%E7%A8%8E%E6%94%B6%E5%8D%8F%E5%AE%9A%E7%9A%84%E6%95%B4%E5%90%88%E6%96%87%E6%9C%AC.pdf",
+ "eif_quote": "第二十八条 生效：本协定在缔约国双方交换外交照会确认已履行为本协定生效所必需的各自的法律程序之日起的第三十天开始生效。本协定将适用于在协定生效年度的次年1月1日或以后开始的纳税年度中取得的所得。(EIF date 1989-01-07 from STA list via map.json)",
+ "source_title": "STA: 《多边公约》和中国—波兰税收协定的整合文本 (Chinese synthesised text of MLI and 1988 China-Poland DTA) - Wayback copy of chinatax.gov.cn PDF; Chinese original treaty text also read (Wayback, file 11532161.pdf)",
+ "source_url": "http://web.archive.org/web/20250414022122/http://www.chinatax.gov.cn/n810341/n810770/c1153216/5027010/files/%E5%85%AC%E7%BA%A6%EF%BC%88MLI%EF%BC%89%E5%92%8C%E4%B8%AD%E5%9B%BD%E2%80%94%E6%B3%A2%E5%85%B0%E7%A8%8E%E6%94%B6%E5%8D%8F%E5%AE%9A%E7%9A%84%E6%95%B4%E5%90%88%E6%96%87%E6%9C%AC.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些股息也可以在支付股息的公司是其居民的缔约国，按照该缔约国法律征税。但是，如果收款人是股息受益所有人，则所征税款不应超过股息总额的百分之十。"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些利息也可以在该利息发生的缔约国，按照该缔约国的法律征税。但是，如果收款人是利息受益所有人，则所征税款不应超过利息总额的百分之十。"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(1)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些特许权使用费也可以在其发生的缔约国，按照该国的法律征税。但是，如果该项特许权使用费的受益所有人是缔约国另一方居民，则所征税款不应超过：（一）在本条第三款第（一）项所述的特许权使用费的情况下，该项特许权使用费总额的百分之十。"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "http://web.archive.org/web/20250414022122/http://www.chinatax.gov.cn/n810341/n810770/c1153216/5027010/files/%E5%85%AC%E7%BA%A6%EF%BC%88MLI%EF%BC%89%E5%92%8C%E4%B8%AD%E5%9B%BD%E2%80%94%E6%B3%A2%E5%85%B0%E7%A8%8E%E6%94%B6%E5%8D%8F%E5%AE%9A%E7%9A%84%E6%95%B4%E5%90%88%E6%96%87%E6%9C%AC.pdf",
+  "quote": "虽有本协定的任何规定，如果在考虑所有相关事实与情况后，可以合理地认定就某项所得获取本协定某项优惠是直接或间接产生该优惠的安排或交易的主要目的之一，则不应对该项所得给予该优惠，除非可以确认，在这些情形下给予该优惠符合本协定相关规定的宗旨和目的。"
+ },
+ "notes": "Royalties: Art. 12(2)(2) - equipment-rental royalties (Art. 12(3)(2)) capped at 10% of the 'adjusted amount' = 70% of gross (effective 7%), not modelled as separate tier. Interest: Art. 11(3) exempts interest derived by the other State's Government, local authorities, central bank or wholly government-owned financial institutions, or on debt-claims indirectly financed by them. Dividends: single 10% rate (no threshold) - MLI Art. 8 irrelevant. MLI effect for WHT from 2023-01-01 per the synthesised text (公约条款...对于支付给或归于非居民的款项源泉扣缴的税收，适用于2023年1月1日起发生的应税事项). Treaty signed with the Polish People's Republic, continues to apply to the Republic of Poland.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "DE",
+ "treaty_name": "Abkommen zwischen der Bundesrepublik Deutschland und der Volksrepublik China zur Vermeidung der Doppelbesteuerung und zur Verhinderung der Steuerverkürzung und -hinterziehung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (2014, mit Protokoll)",
+ "signed": "2014-03-28",
+ "entry_into_force": "2016-04-06",
+ "eif_source_url": "https://www.chinatax.gov.cn/chinatax/n810341/n810770/common_list_ssty.html (via RATES4/map.json); Art. 32 in https://dserver.bundestag.de/brd/2015/0396-15.pdf",
+ "eif_quote": "Art. 32(2): Dieses Abkommen ist anzuwenden a) bei den im Abzugsweg erhobenen Steuern auf die Beträge, die am oder nach dem 1. Januar des Kalenderjahrs gezahlt werden, das dem Jahr folgt, in dem das Abkommen in Kraft getreten ist; [in force 2016-04-06 per STA list -> applies from 2017-01-01]",
+ "source_title": "Bundesrat Drucksache 396/15: Gesetzentwurf zum DBA Deutschland-China vom 28. März 2014 (German/English treaty text and protocol)",
+ "source_url": "https://dserver.bundestag.de/brd/2015/0396-15.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 Buchstabe a",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrages der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 Buchstabe c",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 Absatz 2",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen im anderen Vertragsstaat ansässig ist, 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 Absatz 2 Buchstabe a",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 Prozent des Bruttobetrags der Lizenzgebühren im Falle von Lizenzgebühren im Sinne des Absatzes 3 Buchstabe a"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2017-01-01",
+  "basis": "treaty art. 29(1)",
+  "source_url": "https://dserver.bundestag.de/brd/2015/0396-15.pdf",
+  "quote": "(1) Die Vergünstigungen dieses Abkommens werden nicht gewährt, wenn bestimmte Geschäftsvorgänge oder Gestaltungen vornehmlich zur Inanspruchnahme dieser Vergünstigungen vorgenommen werden und die Inanspruchnahme der Vergünstigungen dem Sinn und Zweck der einschlägigen Bestimmungen dieses Abkommens zuwiderlaufen würde."
+ },
+ "notes": "Treaty-based main-purpose anti-abuse rule (Art. 29(1)), not MLI: Germany's MLI deposit position does not list China, so the treaty is not an MLI Covered Tax Agreement. Not modelled: Art 10(2)(b) 15% on dividends paid out of immovable-property income by a tax-exempt investment vehicle (in Germany a REIT-AG, Protocol No. 3); Art 11(3) exemptions for interest paid to the Government, on loans guaranteed by the State or wholly-owned financial institutions, to Deutsche Bundesbank/KfW/DEG and to People's Bank of China, China Development Bank, Agricultural Development Bank, Export-Import Bank, National Council for Social Security Fund, CIC; Art 11(4) interest on credit sales of industrial or scientific equipment taxable only in residence State; Art 12(2)(b) equipment-rental royalties 10% of adjusted amount (60% of gross) = effective 6%; Protocol No. 4: dividends/interest from profit-participating rights (silent partnerships, partiarische Darlehen, Gewinnobligationen) deductible at payer may be taxed under domestic law without treaty limit. 1985 treaty ceased.",
+ "confidence": "high",
+ "unverified": [
+  "Entry-into-force date 2016-04-06 taken from map.json (STA list); BGBl 2016 II notice not read."
+ ]
+}

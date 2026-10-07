@@ -1,0 +1,69 @@
+{
+ "a": "NO",
+ "b": "SK",
+ "treaty_name": "Convention between the Government of the Czechoslovak Socialist Republic and the Government of the Kingdom of Norway for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1979), applied by Slovakia by succession",
+ "signed": "1979-06-27",
+ "entry_into_force": "1979-12-28",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/1980/35/19800404.html",
+ "eif_quote": "Vyhláška 35/1980 Zb.: \"Ratifikačné listiny boli vymenené v Prahe 28. decembra 1979. Zmluva nadobudla podľa svojho článku 28 ods. 2 platnosť 28. decembrom 1979.\" | Čl. 28 ods. 2: \"Zmluva nadobudne platnosť výmenou listín o jej schválení a jej ustanovenia sa budú aplikovať na príjem dosiahnutý 1. januára nasledujúceho po roku, v ktorom boli vymenené listiny o schválení Zmluvy, alebo neskoršie\" | Lovdata: \"Videreføring av avtale mellom Norge og Tsjekkoslovakia av 27-06-1979\" (date for Slovakia 01-01-1993)",
+ "source_title": "Slov-lex: Vyhláška ministra zahraničných vecí č. 35/1980 Zb. (official Slovak translation; the Convention was done in English only - authentic English text not read)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1980/35/19800404.html ; https://static.slov-lex.sk/pdf/SK/ZZ/1980/35/ZZ_1980_35_19800404.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Článok 10 ods. 2 písm. a)",
+   "valid_from": "1980-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % hrubej sumy dividend, ak príjemcom je spoločnosť (iná než osobná spoločnosť, ktorá nie je právnickou osobou), ktorá vlastní priamo najmenej 25 % majetku spoločnosti vyplácajúcej dividendy;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Článok 10 ods. 2 písm. b)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Článok 11 ods. 1",
+   "valid_from": "1980-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Úroky majúce zdroj v jednom zmluvnom štáte a platené osobe majúcej bydlisko alebo sídlo v druhom zmluvnom štáte sa môžu zdaniť iba v tomto druhom štáte."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Článok 12 ods. 2",
+   "valid_from": "1980-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Licenčné poplatky uvedené v odseku 3 písm. a) sa však môžu zdaniť v zmluvnom štáte, v ktorom je ich zdroj, a to podľa práva tohto štátu; takto uložená daň však nesmie prekročiť 5 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered: Slovakia lists Norway but Norway does not list Slovakia; no PPT in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Succession: the 1979 Czechoslovakia-Norway Convention continues to apply between Norway and Slovakia (Lovdata ident 1979-06-27 nr 1, \"Videreføring av avtale mellom Norge og Tsjekkoslovakia av 27-06-1979\", effective for Slovakia from 1993-01-01; Slovakia lists it in its MLI position as \"The Kingdom of Norway Original 27-06-1979 28-12-1979\"). Royalties: Art. 12(2) 5% cap applies to royalties under Art. 12(3)(a) (patents, trade marks, designs/models, plans, secret formulas/processes, industrial/commercial/scientific equipment, know-how) - recorded; royalties for copyrights of literary, artistic or scientific works incl. films/tapes (Art. 12(3)(b)) are taxable only in the residence State (0% at source, not modelled as separate tier). Interest: taxable only in the residence State. Quotes are from the official Slovak translation; the sole authentic text is English (\"Dané vo dvoch vyhotoveniach v Oslo 27. júna 1979 v anglickom jazyku\"). Not MLI-covered.",
+ "confidence": "medium",
+ "unverified": [
+  "Authentic English text not read (official Slovak translation used)"
+ ]
+}

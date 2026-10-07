@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "QA",
+ "treaty_name": "Agreement between the Council of Ministers of Bosnia and Herzegovina and the Government of the State of Qatar for the avoidance of double taxation with respect to taxes on income and on capital (2010)",
+ "signed": "2010-07-21",
+ "entry_into_force": "2012-02-13",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Katar_-_bos._verzija.pdf",
+ "eif_quote": "[QA MLI consolidated] Bosnia and Herzegovina Original 21/07/2010 13/02/2012 || Art. 28: Ovaj sporazum stupa na snagu tridesetog dana od datuma razmjene diplomatskih nota ... Ovaj sporazum važi u odnosu na dohodak ostvaren tokom kalendarske godine koja počinje na dan ili nakon prvog januara godine nakon godine u kojoj je ovaj sporazum stupio na snagu.",
+ "source_title": "BiH MoF: MLI combined text of the BiH–Qatar Agreement (Bosnian)",
+ "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Katar_-_bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procenata bruto iznosa dividendi ako je stvarni vlasnik rezident koji posjeduje najmanje 20 procenata imovine kompanije koja isplaćuje dividende"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procenata bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, kamata se može oporezovati i u državi Ugovornici u kojoj nastaje, saglasno zakonima te države, ali ako je primalac stvarni vlasnik te kamate, utvrđeni porez ne može biti veći od 7% bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, autorske naknade se mogu oporezovati i u državi Ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali ako je primalac stvarni vlasnik autorskih naknada, porez ne može biti veći od 7% bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Katar_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 5% tier: beneficial owner (any resident, not limited to companies) holding at least 20% of the \"imovine\" (capital) of the paying company. The BiH MoF link for the ratification gazette resolves to an unrelated issue (same file as the Austria link), so rates were read from the BiH MoF MLI combined text; English text on mft.gov.ba is a scan without text layer; Qatari official text not retrieved. EIF 13-02-2012 per Qatar MLI position and map; applies from 2013-01-01. MLI Art. 8 not applicable (BiH reserved the entirety of Art. 8 under Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": [
+  "English/Arabic official text not cross-checked"
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "LV",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Government of the Republic of Latvia for the avoidance of double taxation with respect to taxes on income and on capital (2005), applied by Montenegro",
+ "signed": "2005-11-22",
+ "entry_into_force": "2006-05-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-latvia-consolidated.pdf ; https://www.vid.gov.lv/lv/nodoklu-konvencijas ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[LV MLI] ... SERBIA AND MONTENEGRO ... MONTENEGRO Original 22-11-2005 19-05-2006 || [LV list] 41 | Melnkalne | ... | 22.11.05. | 19.05.06. | 01.01.07. || Art. 29(2): \"Овај уговор ступа на снагу датумом последњег од обавештења наведених у ставу 1. овог члана, а његове одредбе се примењују: 1) у Летонији: (1) у односу на порезе по одбитку, на доходак који се оствари првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу; ... 2) у Србији и Црној Гори: у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској години која почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Letonija, Službeni list SCG - Međunarodni ugovori br. 3/2006 (12.05.2006), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/25989207-2ef1-4933-b03d-4360c0945ccf (file https://wapi.gov.me/download/25989207-2ef1-4933-b03d-4360c0945ccf?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10 одсто бруто износа ауторских накнада наведених у подставу 2) става 3. овог члана."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-latvia-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (Belgrade, 22-11-2005; ratified Sl. list SCG - MU 3/2006); continued by Montenegro after independence (Latvian State Revenue Service list: 41 Melnkalne, in force 19.05.06, applied 01.01.07; Latvia lists it in its MLI position as Serbia and Montenegro - Montenegro). Royalties: 5% cap for copyright royalties on literary, artistic or scientific works incl. films, recordings for radio/TV (Art. 12(2)(1)/(3)(1)) - not modelled; 10% for patents, trademarks, designs, secret formulas, equipment and know-how. Interest exempt when derived and beneficially owned by the other State's government, political subdivision, local authority, central bank or wholly government-owned financial institution (Art. 11(3)) - not modelled. Authentic in Serbian, Latvian and English (English prevails) - Serbian text read. MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 not applicable (Latvia reserved Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

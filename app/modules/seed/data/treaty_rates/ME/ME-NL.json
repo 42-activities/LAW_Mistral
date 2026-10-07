@@ -1,0 +1,81 @@
+{
+ "a": "ME",
+ "b": "NL",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of the Netherlands for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (1982), applied by Montenegro",
+ "signed": "1982-02-22",
+ "entry_into_force": "1983-02-06",
+ "eif_source_url": "https://www.rijksoverheid.nl/onderwerpen/belastingverdragen ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-netherlands-consolidated.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[NL list] Montenegro (was Joegoslavië) DTA In werking 22-02-1982 06-02-1983 || [NL MLI] Yugoslavia (Montenegro) Original 22-02-1982 06-02-1983 || [ME PU table] 12 | Holandija | dohodak i imovina | SFRJ 12/82 | 1.1.1983. || Art. 28: \"Овај уговор ступа на снагу тридесетог дана од последњег датума када су односне државе писмено обавестиле једна другу да су испуњени уставни поступци ... и његове се одредбе примењују: а) у Југославији у односу на порезе за сваку пореску годину која почиње на дан или после 1 јануара календарске године која следи годину у којој је примљено последње обавештење; б) у Холандији у односу на порезе за пореске године и периоде који почињу на дан или после 1 јануара календарске године која следи годину у којој је примљено последње обавештење\"",
+ "source_title": "Zakon o ratifikaciji Ugovora SFRJ-Holandija s Protokolom, Službeni list SFRJ - Međunarodni ugovori br. 12/1982 (19.11.1982), Serbo-Croatian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/5daf8a5d-3844-436d-8abb-6c928c4411e0 (file https://wapi.gov.me/download/5daf8a5d-3844-436d-8abb-6c928c4411e0?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "а) 5 одсто од бруто-износа дивиденди, ако је прималац друштво (изузимајући партнерство) које има директно најмање 25 одсто од капитала друштва које плаћа дивиденде,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI Art. 8(1)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[Art. 10(2)(a)] а) 5 одсто од бруто-износа дивиденди, ако је прималац друштво (изузимајући партнерство) које има директно најмање 25 одсто од капитала друштва које плаћа дивиденде, [MLI Art. 8(1)] ... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "б) 15 одсто од бруто-износа дивиденди, у свим другим случајевима"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 Камата настала у једној од држава и исплаћена резиденту друге државе уговорнице опорезује се само у тој другој држави"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 Ауторске накнаде могу се опорезивати и у држави у којој настају и у складу са законом те државе, али тако разрезан порез не може бити већи од 10 одсто од бруто-износа ауторских накнада"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-netherlands-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Belgrade, 22-02-1982; Sl. list SFRJ - MU 12/1982); the Netherlands applies it to Montenegro (Dutch treaty overview: \"Montenegro (was Joegoslavië)\"; NL MLI list \"Yugoslavia (Montenegro)\"). Protocol V: where source tax exceeds the Art. 10/12 limits, refund claims must be filed within 5 years. Protocol VI: Art. 11 (interest taxable only in residence State) is based on neither State levying interest WHT at signature; the States will renegotiate if one introduces such a tax - no automatic change (note: the Dutch conditional WHT on interest to low-tax jurisdictions does not alter the treaty allocation). Rate limits apply to the recipient (no beneficial-owner wording). Start of application: entry into force 06-02-1983 -> provisions apply from 1 January 1984 (year following the last notification, received in January 1983); the Poreska uprava table shows 1.1.1983 (conflict; historical only). Authentic in Serbo-Croatian, Dutch and English (English prevails) - Serbo-Croatian text read. MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 365-day holding period applies to the 5% tier from 2027-01-01: Netherlands (No.47 Montenegro, Article 10(2)(a)) and Montenegro (No.26 Netherlands, Article 10(2)(a)) notified the same provision; before 2027-01-01 no holding period (two entries).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read",
+  "Start-of-application year (1984 computed vs 1983 in Poreska uprava table)"
+ ]
+}

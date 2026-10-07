@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "AU",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of Australia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1991, as amended by Protocol 2011; modified by MLI)",
+ "signed": "1991-07-25",
+ "entry_into_force": "1991-12-30",
+ "eif_source_url": "https://web.archive.org/web/20190818013034/https://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000004.htm",
+ "eif_quote": "Whereas the annexed Agreement between the Government of the Republic of India and the Government of Australia ... has entered into force on the 30th day of December, 1991, on the exchange of notes notifying each other that the last of such things has been done as is necessary to give the said Agreement the force of law in India and in Australia, in accordance with paragraph (1) of Article 28 of the said Agreement ... Notification : No. GSR 60(E), dated 22-1-1992 as amended by Notification No.74/2013 [F.No.503/1/2009-FTD-II]/SO 2820(E), dated 20-9-2013",
+ "source_title": "Income Tax Department (India), India-Australia DTAA with Notifications GSR 60(E)/1992 and 74/2013 (Wayback copy of official incometaxindia.gov.in page, captured 2019-08-18)",
+ "source_url": "https://web.archive.org/web/20190818013034/https://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000004.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1992-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident for the purposes of its tax, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1992-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)(ii)",
+   "valid_from": "1997-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) in the case of other royalties : ( i ) during the first 5 years of income for which this Agreement has effect : ( a ) where the payer is the Government or a political sub-division of that State or a public sector company: 15 per cent of the gross amount of the royalties; and ( b ) in all other cases: 20 per cent of the gross amount of the royalties; and ( ii ) during all subsequent years of income: 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates (Art. 28(1)): Australia, withholding tax on income derived on or after 1 July 1992; India, years of income beginning on or after 1 April 1992. Royalty 15% general cap applies after the first 5 years of income (India from FY 1997-98, Australia from 1 July 1997); earlier 20% (15% for Government/public-sector payers) not modelled. Not modelled: Art. 12(2)(a) 10% cap for royalties for the use of industrial, commercial or scientific equipment (Art. 12(3)(b)) and ancillary services/forbearance relating to such equipment; Art. 12 'royalties' includes technical services that make available technical knowledge (Art. 12(3)(g)). No ownership-based dividend tiers and no special interest exemptions in the text read. Protocol 2011 (in force 2013-04-02) reflected via Notification 74/2013. MLI: covered by both; MLI WHT provisions effective 2020-01-01 on the Australian side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2020. India chose the Simplified LOB (Art. 7(6)) but Australia's MLI deposit position contains no SLOB choice and no Art. 7(7) acceptance, so only the PPT applies.",
+ "confidence": "high",
+ "unverified": [
+  "No check of post-2019 amendments in Australian sources (none expected)",
+  "Indian-side MLI date 2020-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

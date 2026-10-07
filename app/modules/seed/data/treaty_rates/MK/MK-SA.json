@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the Kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income and on capital (2014)",
+ "signed": "2014-12-15",
+ "entry_into_force": "2016-05-01",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28: The Agreement shall enter into force on the first day of the second month following the month in which the later notification was received. 2. The provisions of this Agreement shall be applicable: a) with regard to taxes withheld at source, in respect of amounts paid on or after the first day of January of the calendar year next following the date upon which this Agreement enters into force; | UJP table: Saudi Arabia | 130/2015 | 01.05.2016 | 01.01.2017",
+ "source_title": "UJP English text (scanned, signed) of the MK-Saudi Arabia agreement (Саудиска Арабија - Македонија ЕНГ.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads//%D0%A1%D0%B0%D1%83%D0%B4%D0%B8%D1%81%D0%BA%D0%B0%20%D0%90%D1%80%D0%B0%D0%B1%D0%B8%D1%98%D0%B0%20-%20%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0%20%D0%95%D0%9D%D0%93.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of such income."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Article 11 is titled 'Income from Debt-Claims'. Art. 11(3): exempt at source where the payer or the beneficial owner is a Government, administrative subdivision, local authority, Central bank or wholly government-owned financial institution (not modelled). Text read from scanned page images (pp. 11-13).",
+ "confidence": "high",
+ "unverified": []
+}

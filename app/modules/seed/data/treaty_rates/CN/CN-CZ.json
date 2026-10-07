@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2009)",
+ "signed": "2009-08-28",
+ "entry_into_force": "2011-05-04",
+ "eif_source_url": "https://www.e-sbirka.cz/sm/2011/65 (text via https://www.e-sbirka.cz/sbr-cache/dokumenty-sbirky/%2Fsm%2F2011%2F65%2F0000-00-00/fragmenty?cisloStranky=0)",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 27 odst. 1 dne 4. května 2011 a její ustanovení se budou provádět v souladu se zněním písmen a) a b) téhož článku.",
+ "source_title": "Sdělení MZV č. 65/2011 Sb. m. s. (Czech text of the Agreement, e-Sbírka)",
+ "source_url": "https://www.e-sbirka.cz/sm/2011/65 (text via https://www.e-sbirka.cz/sbr-cache/dokumenty-sbirky/%2Fsm%2F2011%2F65%2F0000-00-00/fragmenty?cisloStranky=0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procent hrubé částky dividend, jestliže skutečným vlastníkem je společnost (jiná než osobní společnost), která přímo drží alespoň 25 procent kapitálu společnosti, která vyplácí dividendy;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procent hrubé částky dividend ve všech ostatních případech."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "7.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 7,5 procenta hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; China MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (China list 'Czech Original 28-08-2009 04-05-2011'; Czech Republic lists the Agreement); WHT effect 2023-01-01 per Art. 35(1)(a).]"
+ },
+ "notes": "Art. 27(1)(a): withholding taxes on income paid or credited on or after 1 January of the calendar year following entry into force (2012-01-01). Art. 11(3)-(4): interest derived by the other State's government, subdivisions, local authorities, central bank or government agencies (CDB, ADBC, China Exim, Sinosure; ČEB, EGAP), or on debt financed/guaranteed/insured by them, exempt at source (not modelled). Royalty definition includes equipment rentals; no adjusted-base rule. MLI Art. 8 not applied: Czech Republic reserved the entirety of Art. 8 (Art. 8(3)(a)) although China notified Art. 10(2)(a). The 2009 Agreement replaced the 1987 Czechoslovakia-China Agreement (No. 41/1988 Sb.) for the Czech Republic. Czech text read; English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

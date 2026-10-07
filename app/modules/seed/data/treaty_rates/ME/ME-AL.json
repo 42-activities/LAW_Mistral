@@ -1,0 +1,80 @@
+{
+ "a": "ME",
+ "b": "AL",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Council of Ministers of the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital (2004), applied by Montenegro",
+ "signed": "2004-12-22",
+ "entry_into_force": "2005-11-17",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Albania Original 22-12-2004 17-11-2005 || [AL MLI] Serbia and Montenegro (Montenegro) Original 22-12-2004 17-11-2005 || [ME PU table] 1 | Albanija | dohodak i imovina | SCG 11/05 | 1.1.2006. || Art. 30(2): \"Овај уговор ступа на снагу датумом пријема последњег од тих обавештења, а његове одредбе се примењују у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској години која почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Albanija, Službeni list SCG - Međunarodni ugovori br. 11/2005 (22.10.2005), Serbian-language text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/baf30320-51f2-4cb7-9d81-46a34ad1ed7e (file https://wapi.gov.me/download/baf30320-51f2-4cb7-9d81-46a34ad1ed7e?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1) as modified by MLI Art. 8(1)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[Art. 10(2)(1)] 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; [MLI Art. 8(1)] ... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (signed Tirana 22-12-2004; ratified by the Law published in Sl. list SCG - Međunarodni ugovori 11/2005); continues to apply to Montenegro after independence (Montenegro succeeded to the State Union treaties under its Declaration of Independence of 3 June 2006 / Decision on independence; listed in the Montenegrin MoF treaty list and Poreska uprava table as in application, and by both States in their MLI lists as \"Serbia and Montenegro (Montenegro)\"). Authentic in Serbian, Albanian and English; English prevails in case of divergence - the Serbian text was read (English text not obtained). Technical service fees (Art. 13) capped at 10% - not modelled. MLI: both list the treaty; MLI WHT effect 2027-01-01 per map.json. MLI Art. 8 365-day holding period applies to the 5% tier from 2027-01-01: Montenegro (Art. 8(4) list No.1 Albania, Article 10(2)(1)) and Albania (No.32 Serbia and Montenegro (Montenegro), Article 10(2)(1)) notified the same provision. Before 2027-01-01 the 5% tier has no holding period (two entries recorded).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read (Serbian text from Official Gazette scan used)"
+ ]
+}

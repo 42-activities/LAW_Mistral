@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "HU",
+ "treaty_name": "Convention between the Republic of Hungary and the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003; modified by MLI)",
+ "signed": "2003-11-03",
+ "entry_into_force": "2005-03-04",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hungary-instrument-deposit.pdf",
+ "eif_quote": "[map.json, from MLI positions] 27 Convention Between The India Original 03-11-2003 04-03-2005 || [Act CXLIV of 2005, Art. 28(2)] Ez az Egyezmény e Cikk 1. bekezdésében hivatkozott értesítések közül a későbbi kézhezvételét követő 30 nap elteltével lép hatályba.",
+ "source_title": "Act CXLIV of 2005 promulgating the Hungary-India Convention (Hungarian text) - secondary: net.jogtar.hu reproduction (njt.hu unreachable)",
+ "source_url": "https://net.jogtar.hu/jogszabaly?docid=A0500144.TV",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Mindazonáltal ez az osztalék abban a Szerződő Államban és annak a Szerződő Államnak a jogszabályai szerint is megadóztatható, amelyben az osztalékot fizető társaság belföldi illetőségű, ha azonban a kedvezményezett az osztalék haszonhúzója, az így megállapított adó nem haladhatja meg az osztalék bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Mindazonáltal ez a kamat abban a Szerződő Államban és annak az Államnak a jogszabályai szerint is megadóztatható, amelyben keletkezett, ha azonban a kedvezményezett a kamat haszonhúzója, az így megállapított adó nem haladhatja meg a kamat bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Az ilyen jogdíj vagy műszaki szolgáltatásért járó díj azonban abban a Szerződő Államban is megadóztatható, ahol keletkezik, ezen Állam jogszabályai szerint, ha azonban a kedvezményezett a jogdíj vagy a műszaki szolgáltatásért járó díj haszonhúzója, az így számított adó nem haladhatja meg a jogdíj vagy a műszaki szolgáltatásért járó díj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effect (Art. 28(3)): Hungary - income arising in tax years beginning on or after 1 January following the calendar year of entry into force (2006-01-01; the promulgating act also enters into force 2006-01-01); India - fiscal years beginning on or after 1 April 2006. Same 10% cap covers fees for technical services (Art. 12(2)). Interest exempt at source for governments/political subdivisions/local authorities, central banks, Hungarian Eximbank, Exim Bank of India (incl. loans granted/guaranteed/insured by them) and other agreed banks (Art. 11(3)) - not modelled. Protocol (ad Art. 10): where the paying company is resident in India, the dividend distribution tax is regarded as taxed in the hands of shareholders and shall not exceed 10% of the gross dividends. Protocol (ad Arts 10, 11, 12) MFN: if in any convention/agreement/protocol between India and an OECD member third State India limits source taxation of dividends, interest, royalties or FTS to a lower rate or narrower scope, the same rate or scope applies under this Convention. No Indian s.90 notification or Hungarian official notice confirming an MFN-reduced rate was found (incometaxindia.gov.in blocked); per Nestle SA (Supreme Court of India, 2023) the MFN benefit requires an Indian notification, so no MFN rates recorded. Protocol ad Art. 24: branch profits additional tax in Hungary up to 10% - not modelled. MLI: covered by both (MLI WHT effective 2022-01-01 per map.json; Hungary MLI in force 2021-07-01); PPT text quoted from MLI Art. 7(1) (synthesised text not fetched). Indian side applies MLI WHT provisions from the following 1 April (2022-04-01; India chose Art. 35(2) 'taxable period'). India's SLOB choice not verified for Hungary - PPT only. Text read in Hungarian from net.jogtar.hu (Wolters Kluwer free legislation database reproducing the promulgated act); official njt.hu not reachable.",
+ "confidence": "medium",
+ "unverified": [
+  "Text from net.jogtar.hu (secondary reproduction) - njt.hu/Magyar Kozlony not reachable",
+  "PPT quote from MLI text, no HU-IN synthesised text checked"
+ ]
+}

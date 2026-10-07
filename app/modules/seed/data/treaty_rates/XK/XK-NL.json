@@ -1,0 +1,67 @@
+{
+ "a": "XK",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of Kosovo for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance, with Protocol (2020)",
+ "signed": "2020-07-29",
+ "entry_into_force": "2021-12-31",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2021-165.pdf",
+ "eif_quote": "G. INWERKINGTREDING De bepalingen van het Verdrag, met Protocol, zullen ingevolge artikel 29, eerste lid, van het Verdrag op 31 december 2021 in werking treden. || [Art. 29(2)(a)(i)] in respect of taxes withheld at source, to income derived on or after 1 January of the taxable period next following the year in which the Convention enters into force",
+ "source_title": "Tractatenblad 2020 nr. 77: Convention Netherlands-Kosovo with Protocol (Pristina, 29 July 2020), English text",
+ "source_url": "https://zoek.officielebekendmakingen.nl/trb-2020-77.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, dividends referred to in paragraph 1 shall be taxable only in the other Contracting State, if the beneficial owner of the dividends is: a) a company which is a resident of the other Contracting State and holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, dividends paid by a company which is a resident of a Contracting State may also be taxed in that State according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, interest arising in a Contracting State may also be taxed in that State according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27(1) (Entitlement to benefits - principal purpose test)",
+  "source_url": "https://zoek.officielebekendmakingen.nl/trb-2020-77.pdf",
+  "quote": "1. Notwithstanding the other provisions of this Convention, a benefit under this Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Convention."
+ },
+ "notes": "Dividends also exempt at source when the beneficial owner is a recognised pension fund (Art. 10(3)(b)); Protocol VII: Art. 10(3) does not apply to dividends paid by or received by a collective investment vehicle (incl. Dutch FBI), and NL may tax income from a tax-exempt investment institution (VBI) at up to 15%. Interest taxable only in residence State (Art. 11(3)) for credit sales of equipment/merchandise/services, recognised pension funds, Government/political subdivision/local authority/Central Bank - not modelled. Protocol VIII: refund claims within 5 years. Applies to the European and Caribbean Netherlands (trb-2021-165). Kosovo is not an MLI party; treaty-own PPT Art. 27. ATK summary table shows dividends 15% only (the 10%/365-day exemption is not reflected there).",
+ "confidence": "high",
+ "unverified": []
+}

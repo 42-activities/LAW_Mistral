@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "NL",
+ "treaty_name": "Convention between the Government of the Kingdom of the Netherlands and the Macedonian Government for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998)",
+ "signed": "1998-09-11",
+ "entry_into_force": "1999-04-21",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 33(1): This Convention shall enter into force on the thirtieth day after the latter of the dates on which the respective Governments have notified each other in writing that the formalities constitutionally required in their respective States have been complied with, and its provisions shall have effect for taxable years and periods beginning on or after the first day of January in the calendar year following that in which the Convention has entered into force. | UJP table: Netherland | 13/1999 | 21.04.1999 | 01.01.2000",
+ "source_title": "UJP English text of the MK-Netherlands convention (37Nederlands.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/37Nederlands.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)",
+   "valid_from": "2000-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2 the Contracting State of which the company is a resident shall not levy a tax on dividends paid by that company, if the beneficial owner of the dividends is a company the capital of which is wholly or partly divided into shares and which is a resident of the other Contracting State and holds directly at least 10 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2000-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "0% dividend tier requires the beneficial owner to be a company with capital wholly or partly divided into shares. Replaces the 1982 Netherlands-SFRY convention (Art. 33(2)). Paragraph numbers inferred from order (numbers lost in PDF text extraction).",
+ "confidence": "high",
+ "unverified": []
+}

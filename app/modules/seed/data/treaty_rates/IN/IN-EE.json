@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "EE",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2011, with Protocol; modified by MLI)",
+ "signed": "2011-09-19",
+ "entry_into_force": "2012-06-20",
+ "eif_source_url": "https://web.archive.org/web/20171106175701/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000023.htm",
+ "eif_quote": "AND WHEREAS, the date of entry into force of the said Agreement is the 20th day of June, 2012, being the date of the later of the notifications of completion of the procedures as required by the respective laws for entry into force of the said Agreement, in accordance with paragraph 2 of Article 30 of the said Agreement; ... shall be given effect to in the Union of India with effect from 1st day of April, 2013. Notification : No. 27/2012",
+ "source_title": "Income Tax Department (India), India-Estonia DTAA with Notification No. 27/2012 (Wayback copy of official incometaxindia.gov.in page, captured 2017-11-06)",
+ "source_url": "https://web.archive.org/web/20171106175701/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000023.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates (Art. 30(3)): Estonia, taxes withheld at source on income derived on or after 1 January 2013; India, fiscal years beginning on or after 1 April 2013 (notification gives effect from 1 April 2013). Not modelled: Art. 11(3) exemption for interest beneficially owned by the Government, political sub-divisions, local authorities, Reserve Bank of India, Bank of Estonia (and other institutions as listed); 10% Art. 12 cap also covers FTS. The Protocol contains only an insurance-PE consultation clause and an Art. 6 understanding (no rate MFN). Treaty has its own limitation-of-benefits article (Art. 28(2)-(4), notified by India under MLI Art. 7(17)(a)). MLI: covered by both; Estonia reserved Art. 35(7) and notified completion for India on 2022-06-01, so MLI WHT provisions apply from 2023-01-01 (Estonian side); India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2023. Estonia's deposit position shows no SLOB choice or Art. 7(7) acceptance (text scan), so only the PPT applies.",
+ "confidence": "high",
+ "unverified": [
+  "Indian-side MLI date 2023-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

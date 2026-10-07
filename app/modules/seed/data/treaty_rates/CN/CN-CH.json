@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "CH",
+ "treaty_name": "Abkommen zwischen dem Schweizerischen Bundesrat und der Regierung der Volksrepublik China zur Vermeidung der Doppelbesteuerung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (2013, mit Protokoll)",
+ "signed": "2013-09-25",
+ "entry_into_force": "2014-11-15",
+ "eif_source_url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2014/623/de/pdf-a/fedlex-data-admin-ch-eli-oc-2014-623-de-pdf-a.pdf",
+ "eif_quote": "Abgeschlossen am 25. September 2013 ... In Kraft getreten durch Notenaustausch am 15. November 2014 | Art. 29(1): Das Abkommen findet Anwendung hinsichtlich aller Steuern auf Steuerjahre, die am oder nach dem 1. Januar des auf das Inkrafttreten des Abkommens folgenden Kalenderjahres beginnen.",
+ "source_title": "Fedlex AS 2014 3583 (SR 0.672.924.91): Abkommen Schweiz-China 2013 mit Protokoll (German authentic text; English prevails on divergence)",
+ "source_url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2014/623/de/pdf-a/fedlex-data-admin-ch-eli-oc-2014-623-de-pdf-a.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Art. 10 Abs. 2 Bst. a",
+   "valid_from": "2015-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 Prozent des Bruttobetrags der Dividenden, wenn die zur Nutzung berechtigte Person eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Art. 10 Abs. 2 Bst. b",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 Prozent des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Art. 11 Abs. 2",
+   "valid_from": "2015-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; ist aber die zur Nutzung der Zinsen berechtigte Person im anderen Vertragsstaat ansässig, so darf die Steuer 10 Prozent des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Art. 12 Abs. 2",
+   "valid_from": "2015-01-01",
+   "max_rate": "9",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren können jedoch auch im Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn die nutzungsberechtigte Person eine im andern Vertragsstaat ansässige Person ist, 9 Prozent des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (treaty has no PPT; MLI not applicable)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-switzerland-instrument-deposit.pdf",
+  "quote": "Switzerland's MLI deposit position does not list the treaty with China (China lists it as No. 25), so it is not a Covered Tax Agreement."
+ },
+ "notes": "Not modelled: Art 10(3) exemption for dividends beneficially owned by the other State, its political subdivisions/local authorities, wholly state-owned institutions or funds agreed by the competent authorities (Protocol 5: incl. China Investment Corporation and National Council for Social Security Fund) or the national bank; Art 11(3) exemption for interest derived by the Government, subdivisions, local authorities, central bank, state agencies/wholly-owned institutions or on debt-claims guaranteed/insured by them. Royalty definition includes equipment rental (single 9% rate). Prior 1990 treaty ceased to apply from 2015-01-01. Treaty in DE/ZH/EN, English prevails.",
+ "confidence": "high",
+ "unverified": []
+}

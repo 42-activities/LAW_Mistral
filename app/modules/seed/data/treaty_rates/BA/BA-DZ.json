@@ -1,0 +1,58 @@
+{
+ "a": "BA",
+ "b": "DZ",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and the People's Democratic Republic of Algeria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-02-08",
+ "entry_into_force": "2010-10-27",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+ "eif_quote": "[BA MLI list] Convention between Bosnia and Herzegovina and the People's Democratic Republic of Algeria ... Algeria Original 09-02-2009 27-10-2010 | Art. 30(2)(a): na poreze umanjene na izvoru za iznose plaćene ili otpisane prvog ili nakon prvog dana u siječnju kalendarske godine koja slijedi datum kada je konvencija stupila na snagu;",
+ "source_title": "Službeni glasnik BiH – Međunarodni ugovori 12/10: Odluka o ratifikaciji Sporazuma BiH–Alžir (Croatian version), via BiH Ministry of Finance and Treasury",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=c2520510-3e33-40bb-917a-eeffad46faf2&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Dividende se mogu oporezivati i u državi ugovornici čiji je rezident kompanija koja isplaćuje dividende, sukladno zakonima te države. U tom slučaju, tako utvrđeni porez ne može biti veći od 10 posto."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Kamata se može oporezivati i u državi ugovornici u kojoj nastaje, suglasno zakonima te države, ali ako je primalac stvarni vlasnik te kamate, utvrđeni porez ne može biti veći od 10 % bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Autorske naknade se mogu oporezivati i u državi ugovornici u kojoj nastaju, sukladno zakonima te države, ali ako je primatelj stvarni vlasnik autorskih naknada, porez ne može biti veći od 10 posto bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Algeria has signed but not ratified the MLI)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Interest Art. 11(3): exempt at source when paid by the Government/political subdivision/local authority, paid to the other State's Government, subdivisions, local authorities, wholly-owned institutions or central bank, or paid on loans under intergovernmental agreements — not modelled. Signature date: the treaty testimonium and ratification decision give 8 February 2009 ('8. veljače 2009'), BiH's MLI list gives 09-02-2009 (used text date). EIF 27-10-2010 from BiH's MLI list only (Algerian source not checked). Not MLI-covered (Algeria not an MLI party).",
+ "confidence": "medium",
+ "unverified": [
+  "Entry into force 2010-10-27 from a single source (BiH MLI list)"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "a": "IN",
+ "b": "OM",
+ "treaty_name": "Agreement between the Republic of India and the Sultanate of Oman for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1997, as amended by Protocol 2025)",
+ "signed": "1997-04-02",
+ "entry_into_force": "1997-06-03",
+ "eif_source_url": "https://web.archive.org/web/20171006020757/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000067.htm",
+ "eif_quote": "Whereas the annexed agreement between the Government of the Sultanate of Oman and the Government of the Republic of India ... has entered into force on the 3rd June, 1997 ... Notification : No. SO 563(E), dated 23-9-1997",
+ "source_title": "Wayback copy (2017) of Income Tax Department of India DTAA page (Oman): Notification SO 563(E) dated 23-9-1997 with annexed 1997 Agreement; plus secondary reproduction (cavirtual.webtel.in) of Notification S.O. 2858(E) / No. 69/2025 dated 25-6-2025 annexing the 2025 Protocol",
+ "source_url": "https://web.archive.org/web/20171006020757/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000067.htm ; https://cavirtual.webtel.in/detail/54903.aspx",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed: ( a ) 10 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 per cent of the shares of the company paying the dividends ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1998-04-01",
+   "max_rate": "12.5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 12½ per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2) as amended by Article 7 of the 2025 Protocol",
+   "valid_from": "2026-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[Art. 13(2) 1997] ... but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties. || [Protocol 2025, Art. 7, secondary reproduction] In paragraph 2 of Article 13 (Royalties) of the Agreement, the term '15 per cent' shall be replaced by 'ten per cent (10%)'."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-04-01",
+  "basis": "treaty art. 27B (inserted by Protocol 2025)",
+  "source_url": "https://cavirtual.webtel.in/detail/54903.aspx",
+  "quote": "Article 27B ENTITLEMENT TO BENEFITS Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "1997 Agreement effective (Art. 29): India - fiscal years beginning on or after 1 April 1998; Oman - income arising on or after 1 January 1998 (Oman Tax Authority list: effective 1/1/1998). 2025 Protocol: signed Muscat 27-01-2025, entered into force 28-05-2025 (Oman Tax Authority official DTA list: 'India-Protocol 27/01/2025, Royal Decree 36/2025, 27/03/2025, effective 28/05/2025'; India Notification S.O. 2858(E) / No. 69/2025 dated 25-6-2025). Protocol Art. 15(3): effect in India for income derived in fiscal years beginning on or after 1 April following entry into force -> 2026-04-01; in Oman for income derived in any tax year following entry into force (tax year 2026). Royalty cap reduced from 15% (applied 1998-04-01 to 2026-03-31 on the Indian side) to 10%; Art. 14 fees for technical services also 15% -> 10% (FTS not modelled). Dividend and interest articles not amended by the Protocol as read. Art. 12(3): interest exempt at source for the Government, political sub-divisions, local authorities and the Central Bank of the other State, and (to the extent approved) for Government-approved loans - not modelled. MLI: India lists the Oman agreement, but Oman's MLI deposit position (scanned OECD PDF, Art. 2 list read page-by-page: alphabetical list Algeria ... Hungary, Iran, Italy ... United Kingdom) does NOT include India -> not a Covered Tax Agreement; India's Art. 8(4) notification of Oman Art. 11(2)(a) therefore has no effect (min_holding_days null). PPT comes from the treaty itself (Art. 27B inserted by the 2025 Protocol; Oman side from tax year 2026). The 2025 Protocol text was read from a secondary reproduction of the Indian Gazette notification (incometaxindia.gov.in 403; Oman Gazette PDF of RD 36/2025 only partially archived and scanned; qanoon.om behind a Cloudflare challenge).",
+ "confidence": "medium",
+ "unverified": [
+  "2025 Protocol text (royalty 10%, Art. 27B PPT, effective dates) read only from a secondary reproduction of Notification S.O. 2858(E); not from the eGazette PDF",
+  "Whether Oman later extended its MLI list to India (deposit position excludes India)"
+ ]
+}

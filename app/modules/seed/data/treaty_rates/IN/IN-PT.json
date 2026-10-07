@@ -1,0 +1,91 @@
+{
+ "a": "IN",
+ "b": "PT",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1998, as amended by Protocol 2017; modified by MLI)",
+ "signed": "1998-09-11",
+ "entry_into_force": "2000-04-30",
+ "eif_source_url": "https://web.archive.org/web/20230406083350/https://incometaxindia.gov.in/dtaa/synthesised-text-of-the-mli-and-india-portugal-dtaa.pdf",
+ "eif_quote": "[Art. 29] 1. This Convention shall enter into force on the thirtieth day after the date on which diplomatic notes indicating the completion of internal legal procedures ... have been exchanged. 2. This Convention shall apply: ... b) In India: In respect of income arising in any fiscal year beginning on or after the first day of April next following the calendar year in which the Convention enters into force.",
+ "source_title": "Synthesised text of the MLI and the India-Portugal DTAA (prepared jointly by the competent authorities), incometaxindia.gov.in - Wayback copy (2023-04-06) of the official file",
+ "source_url": "https://web.archive.org/web/20230406083350/https://incometaxindia.gov.in/dtaa/synthesised-text-of-the-mli-and-india-portugal-dtaa.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(ii)",
+   "valid_from": "2001-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": "IN",
+   "quote": "ii) 10 per cent of the gross amount of the dividends if the beneficial owner is a company that, for an uninterrupted period of two fiscal years prior to the payment of the dividend, owns directly at least 25 per cent of the capital stock of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)(i)",
+   "valid_from": "2001-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IN",
+   "quote": "b) Where the dividends are paid by a company which is a resident of India to a resident of Portugal who is the beneficial owner thereof, the Indian tax so charged shall not exceed: i) 15 per cent of the gross amount of the dividends; or"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": "PT",
+   "quote": "ii) 10 per cent of the gross amount of the dividends if the beneficial owner is a company that, for an uninterrupted period of two years prior to the payment of the dividend, owns directly at least 25 per cent of the capital stock (capital social) of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "PT",
+   "quote": "a) Where the dividends are paid by a company which is a resident of Portugal to a resident of India who is the beneficial owner thereof, the Portuguese tax so charged shall not exceed: i) 15 per cent of the gross amount of the dividends; or"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties and fees for included services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties and fees for included services is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://web.archive.org/web/20230406083350/https://incometaxindia.gov.in/dtaa/synthesised-text-of-the-mli-and-india-portugal-dtaa.pdf",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "CONFLICT on entry into force: India 2000-04-30, Portugal 2000-04-05 (map); both give effect in India from 1 April 2001 (income of fiscal years beginning on/after that date) and in Portugal from 1 January 2001 (WHT) under Art. 29(2). Dividend 10% tier holding period: India-source 'two fiscal years', Portugal-source 'uninterrupted period of two years' - modelled as 730 days (approximation for 'two fiscal years'). MLI Art. 8 does not apply: India reserved Art. 8 for Portugal Art. 10(2) (existing holding period longer than 365 days). MLI: India EIF 2019-10-01, Portugal 2020-06-01; synthesised text: WHT effect in India from 1 April 2021, in Portugal from 1 January 2021 (map mli_wht_effective 2021-01-01). PPT applies (no SLOB in synthesised text; Portugal did not choose SLOB). Interest exempt at source when the debtor is a State/political or administrative subdivision/local authority, or when paid to the other State/subdivision/local authority or an institution (incl. financial institution) in connection with financing under an inter-governmental agreement (Art. 11(3)) - not modelled. Royalty cap of 10% also covers fees for included services (Art. 12(2), 12(4)-(5)). Protocol 2017 (signed 2017-06-24, in force 2018-08-08) amended Art. 26 (exchange of information) and added a Protocol note on data protection; no change to rates. No MFN clause.",
+ "confidence": "high",
+ "unverified": [
+  "Entry into force date (India 2000-04-30 vs Portugal 2000-04-05) not checked against a Portuguese aviso; effective dates unaffected"
+ ]
+}

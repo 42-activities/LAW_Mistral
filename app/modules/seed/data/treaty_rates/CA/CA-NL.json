@@ -1,0 +1,80 @@
+{
+ "a": "CA",
+ "b": "NL",
+ "treaty_name": "Convention between Canada and the Kingdom of the Netherlands for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1986, with Protocol; as amended by Protocols of 1993 and 1997; modified by MLI)",
+ "signed": "1986-05-27",
+ "entry_into_force": "1987-08-21",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102312 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102394 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102420",
+ "eif_quote": "Treaty-accord: Convention (CTS 1987/23) \"Entry into Force 21 August 1987\"; 1993 Protocol (CTS 1994/32) \"Entry into Force 30 July 1994\"; 1997 Protocol (CTS 1999/3) \"Entry into Force 15 January 1999\"",
+ "source_title": "Canada Treaty Series 1987/23, 1994/32 and 1999/3 - Canada-Netherlands Convention and amending Protocols of 1993 and 1997 (treaty-accord.gc.ca official texts, consolidated by reader)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=102312&Lang=eng ; https://www.treaty-accord.gc.ca/text-texte.aspx?id=102394&Lang=eng ; https://www.treaty-accord.gc.ca/text-texte.aspx?id=102420&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as replaced by 1997 Protocol Art. I; modified by MLI art. 8(1))",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "“(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) that owns at least 25 per cent of the capital of, or that controls directly or indirectly at least 10 per cent of the voting power in, the company paying the dividends; [MLI art. 8(1): 365-day holding period, effective for WHT from 2020-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c) (as replaced by 1993 Protocol Art. II)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (rate amended by 1993 Protocol Art. III)",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest. || 1993 Protocol Art. III: In paragraph 2 “15 per cent” shall be deleted and replaced by: 10 per cent."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties other than those in Art. 12(3), e.g. trade marks, films/TV, equipment, rental/franchise know-how)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (as replaced by 1997 Protocol Art. II: copyright; computer software, patents, know-how)",
+   "valid_from": "1998-12-16",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“3. Notwithstanding the provisions of paragraph 2 copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or other artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of reproduction for use in connection with television broadcasting), and royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such information provided in connection with a rental or franchise agreement) arising in a State and paid to a resident of the other State who is the beneficial owner of the royalties shall be taxable only in that other State.”"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-netherlands-consolidated.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates: 1986 Convention Art. 30 - WHT on amounts paid or credited on or after 1 January of the year of entry into force (EIF 1987-08-21 -> 1987-01-01). 1993 Protocol Art. XVII (Canada) - WHT on amounts paid on or after 1 January 1993, interest cut from 15% to 10%; the new 5% direct-dividend rate phased in as 9%/8%/7%/6% for 1993-1996, so 5% applies from 1997-01-01. 1997 Protocol Art. IX - effect for WHT on amounts paid on or after the day the later notification was received; EIF was the 30th day after that notification (EIF 1999-01-15), so 1998-12-16 is computed, not stated - used for the expanded Art. 12(3) exemption (before then, cultural copyright and, since 1993, computer software were already exempt). Dividend 5% tier: company (other than a partnership) owning at least 25% of the capital OR controlling directly or indirectly at least 10% of the voting power (voting test recorded as ownership_threshold 10). Art. 10(2)(b): 10% on dividends paid by a Canadian non-resident-owned investment corporation to a Dutch company meeting the same test (source_state CA; not modelled). MLI art. 8 365-day holding applies to Art. 10(2)(a) and (b): Canada notified \"52 Netherlands Article 10(2)(a) and (b)\", Netherlands notified \"12 Canada Article 10(2)(a) and (b)\"; effective for WHT 2020-01-01. Not modelled: Art. 11(3) exemptions (arm's-length credit sales, government bonds, payments to the other State/central bank/instrumentalities, approved financial institutions, tax-exempt pension plans per 1993 Protocol); Art. 11(4) exemption for arm's-length interest on certain long-term Canadian corporate obligations issued after 23 June 1975 (subject to suspension by Canada); Art. 10(7) branch tax at the 5% rate. Finance Canada lists the Netherlands as under negotiation/re-negotiation. Consolidation of the three instruments was done by the reader (Finance Canada consolidated page only reachable via summariser).",
+ "confidence": "high",
+ "unverified": [
+  "1997 Protocol effective date 1998-12-16 computed from EIF minus 30 days (date of later notification not stated in sources read)"
+ ]
+}

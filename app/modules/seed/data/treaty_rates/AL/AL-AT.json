@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Austria and the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion, with Protocol (2007)",
+ "signed": "2007-12-14",
+ "entry_into_force": "2008-09-01",
+ "eif_source_url": "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR30006619/NOR30006619.html",
+ "eif_quote": "Die vom Bundespräsidenten unterzeichnete und vom Bundeskanzler gegengezeichnete Ratifikationsurkunde wurde am 17. Juni 2008 ausgetauscht; das Abkommen tritt daher gemäß seinem Art. 28 Abs. 2 am 1. September 2008 in Kraft. | Art. 28(2): ... seine Bestimmungen finden für alle Steuerjahre Anwendung, die nach dem 31. Dezember des Kalenderjahres beginnen, in dem der Austausch der Ratifikationsurkunden erfolgt ist.",
+ "source_title": "RIS BGBl. III Nr. 107/2008: DBA Österreich-Albanien (German authentic text; English prevails); cross-checked with Albanian text at tatime.gov.al shkarko.php?id=337",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20005944",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Zinsen eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Lizenzgebühren eine im anderen Vertragsstaat ansässige Person ist, 5 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Albania MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI applies to the Convention (RIS: 'Die Änderungen auf Grund des MLI (BGBl. III Nr. 93/2018) ... synthetisierte Version des DBA Albanien plus MLI, als Anlage 2 dokumentiert'); WHT effect 2021-01-01 per Art. 35(1)(a), Albania's MLI in force 2021-01-01.]"
+ },
+ "notes": "Exchange of ratification instruments 17 June 2008 -> Art. 28(2) application to tax years beginning after 31 Dec 2008. Art. 11(3): interest paid to the Government of the other State, and interest on loans granted/guaranteed/insured by Oesterreichische Kontrollbank AG or a similar Albanian public export-promotion body, exempt at source (not modelled; Protocol item 1 limits 3(b) to export transactions). Protocol item 2: technical-service fees are not royalties. MLI Art. 8 not applicable (Austria reserved Art. 8(3)(a)). Conflict on EIF: Albania's MLI list gives 20-01-2008; RIS gives 1 September 2008 (used). Albanian copy on tatime.gov.al is an undated/unsigned version but matches the rates.",
+ "confidence": "high",
+ "unverified": []
+}

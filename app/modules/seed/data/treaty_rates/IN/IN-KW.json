@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2006, as amended by Protocol 2017)",
+ "signed": "2006-06-15",
+ "entry_into_force": "2007-10-17",
+ "eif_source_url": "https://web.archive.org/web/20160326101130/http://www.incometaxindia.gov.in:80/DTAA/Comprehensive%20Agreements/108690000000000045.htm",
+ "eif_quote": "Whereas the annexed Agreement ... signed in India on the 15th day of June, 2006 shall come into force on the 17th day of October, 2007, being the date of receipt of the later of the notifications ... the Central Government hereby directs that all the provisions of the said Agreement annexed hereto shall be given effect to in the Union of India with effect from the 1st day of April, 2008. Notification : No. SO 2000(E), dated 27-11-2007.",
+ "source_title": "Income Tax Department (India): Notification S.O. 2000(E) of 27-11-2007 with annexed India-Kuwait Agreement and Protocol (Wayback copy of incometaxindia.gov.in page, captured 2016-03-26)",
+ "source_url": "https://web.archive.org/web/20160326101130/http://www.incometaxindia.gov.in:80/DTAA/Comprehensive%20Agreements/108690000000000045.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2008-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2008-04-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://web.archive.org/web/20160326101130/http://www.incometaxindia.gov.in:80/DTAA/Comprehensive%20Agreements/108690000000000045.htm",
+  "quote": "A resident of a Contracting State shall not be entitled to the benefits of this Agreement if its affairs were arranged with the primary purpose to take benefits of this Agreement. The case of legal entities not having bona fide business activities shall be covered by the provisions of this Article."
+ },
+ "notes": "Art. 30(3): effect in respect of income derived in any fiscal year beginning on/after 1 April following the year of entry into force (2008-04-01, confirmed by Notification S.O. 2000(E)); same rule for both States. Dividends (Art. 10(3)) and interest (Art. 11(3)) exempt at source when the beneficial owner is the Government, political subdivision, local authority, Central Bank or other agreed governmental agencies/financial institutions of the other State (not modelled). Art. 12 also covers fees for technical services at 10%. No MFN clause. Treaty Art. 27 'limitation of benefits' is a primary-purpose anti-abuse test (India listed it as an Art. 7(2) provision in its MLI position). MLI: Kuwait is a signatory, not a Party -> treaty not covered. Protocol signed 2017-01-15, in force 2018-03-26 per India's MLI position; its text was not read (the archived page predates it) - reported (secondary) to amend Art. 2 (taxes covered, Kuwait) and Art. 26 (exchange of information) only, i.e. not Arts 10-12.",
+ "confidence": "medium",
+ "unverified": [
+  "2017 Protocol text not obtained; assumed not to change Arts 10-12 (secondary sources)",
+  "Kuwaiti official text not found online"
+ ]
+}

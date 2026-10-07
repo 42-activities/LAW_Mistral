@@ -1,0 +1,56 @@
+{
+ "a": "NO",
+ "b": "IT",
+ "treaty_name": "Convenzione tra il Governo della Repubblica italiana ed il Governo del Regno di Norvegia per evitare le doppie imposizioni in materia di imposte sul reddito e sul patrimonio e per prevenire le evasioni fiscali, con protocollo aggiuntivo (1985)",
+ "signed": "1985-06-17",
+ "entry_into_force": "1987-05-25",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1985-06-17-1",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 25-05-1987\" | Art. 30(2): \"La presente Convenzione entrerà in vigore alla data dello scambio degli strumenti di ratifica e le sue disposizioni si applicheranno per la prima volta con riferimento alle imposte sul reddito e sul patrimonio relative all'anno solare (ivi compresi i periodi contabili che terminano nel corso di tale anno) nel quale la Convenzione è firmata.\"",
+ "source_title": "Normattiva: Legge 2 marzo 1987 n. 108 (GU n. 70 del 25-03-1987, S.O. n. 38), annexed Convenzione Italia-Norvegia 1985 with Protocollo aggiuntivo (Italian text; Italian, Norwegian, English equally authentic, English prevails)",
+ "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1987;108 ; https://www.gazzettaufficiale.it/eli/gu/1987/03/25/70/so/38/sg/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Articolo 10(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tuttavia, tali dividendi possono essere tassati anche nello Stato contraente di cui la società che paga i dividendi è residente ed in conformità alla legislazione di detto Stato, ma, se la persona che percepisce i dividendi ne e l'effettivo beneficiario, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare dei dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Articolo 11(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tuttavia, tali interessi possono essere tassati nello Stato contraente dal quale essi provengono ed in conformità della legislazione di detto Stato, ma, se la persona che percepisce gli interessi ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 15 per cento dell'ammontare lordo degli interessi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Articolo 12(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tuttavia, tali canoni possono essere tassati anche nello Stato contraente dal quale essi provengono ed in conformità della legislazione di detto Stato, ma, se la persona che percepisce i canoni ne è l'effettivo beneficiario, l'imposta così applicata non può eccedere il 5 per cento dell'ammontare lordo dei canoni."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy has not ratified the MLI and Norway does not list Italy; no PPT in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Dividends: single 15% limit, no participation tier. Interest: 15% limit; Art. 11(3): exempt at source when paid by the Government/local authority of the source State, paid to the other Government/local authority or wholly state-owned bodies (incl. financial institutions), or paid to bodies financing under intergovernmental agreements (not modelled). Royalties: 5% (definition includes industrial, commercial or scientific equipment). Art. 30(2): applies from the calendar year of signature (1985), with refund claims under Art. 30(3); valid_from set to 1985-01-01. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

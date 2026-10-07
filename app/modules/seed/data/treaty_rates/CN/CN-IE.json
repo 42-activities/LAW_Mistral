@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "IE",
+ "treaty_name": "Agreement between the Government of Ireland and the Government of the People's Republic of China for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000; modified by MLI)",
+ "signed": "2000-04-19",
+ "entry_into_force": "2000-12-29",
+ "eif_source_url": "https://www.chinatax.gov.cn/chinatax/n810341/n810770/common_list_ssty.html (via RATES4/map.json)",
+ "eif_quote": "Art. 28: The Agreement shall enter into force on the thirtieth day following the date of the later of these notifications and shall thereupon have effect: a) in China, in respect of profits, income and capital gains arising in any tax year beginning on or after the first day of January in the calendar year next following that in which this Agreement enters into force; [STA list: in force 2000-12-29, effective 2001-01-01]",
+ "source_title": "Revenue (Ireland): Double Taxation Agreement between Ireland and the People's Republic of China (PDF)",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/c/china.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI Art. 8(1)",
+   "valid_from": "2023-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) in the case of royalties referred to in sub-paragraph a) of paragraph 3 of this Article, 10 per cent of the gross amount of the royalties;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "MLI Art. 7(1): a benefit under a Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... Neither Ireland nor China reserves Art. 7; both list the 2000 treaty; MLI in force CN 2022-09-01, IE 2019-05-01; WHT effect from 2023-01-01 (Art. 35(1)(a))."
+ },
+ "notes": "MLI Art. 8(1) 365-day holding period applies to the 5% tier from 2023-01-01 (WHT): China's Art. 8(4) notification lists '63 Ireland Article 10(2)(a)' and Ireland's lists '13 China Article 10(2)(a)'; Ireland made no Art. 8 reservation. Before 2023-01-01 the same rate applied without a holding period (from the original effective date). Not modelled: Art 11(3) exemption for interest derived by the Government, local authority, Central Bank or wholly government-owned financial institution, or on debt-claims indirectly financed by them; Art 12(2)(b) equipment-rental royalties taxed at 10% of adjusted amount (60% of gross) = effective 6%. Ireland effective dates: income tax 6 April 2001, corporation tax 1 January 2001.",
+ "confidence": "high",
+ "unverified": [
+  "Synthesised MLI text not read (STA site blocked); MLI effects derived from both deposit positions."
+ ]
+}

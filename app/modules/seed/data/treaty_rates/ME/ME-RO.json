@@ -1,0 +1,58 @@
+{
+ "a": "ME",
+ "b": "RO",
+ "treaty_name": "Agreement between the Federal Government of the Federal Republic of Yugoslavia and the Government of Romania for the avoidance of double taxation with respect to taxes on income and on capital (1996), applied by Montenegro",
+ "signed": "1996-05-16",
+ "entry_into_force": "1998-01-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[RO MLI] Yugoslavia (Federal Republic of) Montenegro Original 16-05-1996 01-01-1998 || [ME PU table] 30 | Rumunija | dohodak i imovina | SRJ 4/96 | 1.1.1997. || Art. 30(1): \"Овај уговор се потврђује и ступа на снагу првог дана јануара календарске године која следи годину у којој је дато последње обавештење о томе да су обе државе уговорнице поступиле по процедури за ступање на снагу ... Уговор се примењује у односу на порезе на остварен доходак и на поседовану имовину у свакој фискалној години која почиње на дан или после првог дана јануара календарске године која следи годину у којој је дато последње обавештење.\"",
+ "source_title": "Zakon o potvrđivanju Ugovora SRJ-Rumunija, Službeni list SRJ - Međunarodni ugovori br. 4/1996 (06.09.1996), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/4d1bc67f-246e-40f3-803f-afc8109b1fab (file https://wapi.gov.me/download/4d1bc67f-246e-40f3-803f-afc8109b1fab?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Дивиденде се могу опорезивати и у држави уговорници чији је резидент друштво које исплаћује дивиденде, у складу са законима те државе, али ако је прималац стварни власник тих дивиденди, разрезан порез не може бити већи од 10 одсто бруто износа дивиденди."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник те камате, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник тих ауторских накнада, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the Federal Republic of Yugoslavia (Belgrade, 16-05-1996; ratified Sl. list SRJ - MU 4/1996); it replaced the 1986 SFRY-Romania agreement (Art. 30(2)); continued by Montenegro (via Serbia and Montenegro, then as successor State after 2006; Romania lists it in its MLI position as \"Yugoslavia (Federal Republic of) Montenegro\"). Commissions (Art. 13) capped at 10% - not modelled. Interest exempt at source when the beneficial owner is the Government of the other State, a political or administrative-territorial unit or local authority, or the Central Bank (Art. 11(3)) - not modelled. Authentic in Serbian, Romanian and English (English prevails) - Serbian text read. Poreska uprava table shows application from 1.1.1997; under Art. 30(1) the treaty entered into force and applies from 1 January 1998 (per Romania's MLI list) - 1998-01-01 used. MLI: Romania reserved Art. 35(7)(a); its Art. 35(7)(b) notification for Montenegro was received 15-09-2026, so the MLI (incl. PPT) has WHT effect from 2027-01-01 per map.json. MLI Art. 8 not relevant (single dividend rate; Montenegro did not notify this treaty under Art. 8(4)).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

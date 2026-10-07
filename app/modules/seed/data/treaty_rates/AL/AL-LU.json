@@ -1,0 +1,69 @@
+{
+ "a": "AL",
+ "b": "LU",
+ "treaty_name": "Convention between the Government of the Grand Duchy of Luxembourg and the Council of Ministers of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009, as amended by Protocol 2020)",
+ "signed": "2009-01-14",
+ "entry_into_force": "2025-06-25",
+ "eif_source_url": "https://impotsdirects.public.lu/fr/conventions/luxembourg.html ; https://legilux.public.lu/eli/etat/leg/div/2025/06/25/a518/jo ; https://legilux.public.lu/eli/etat/leg/div/2025/06/25/a514/jo ; https://regfollower.com/albania-luxembourg-tax-treaty-and-amendment-protocol-entered-into-force/ (secondary)",
+ "eif_quote": "[impotsdirects.public.lu] Albanie - Albania | Convention signée le 14/01/2009 | Mémorial A N° 544 du 19 décembre 2024 | à partir du 01/01/2026 | Protocole signé le 21/10/2020 | Mémorial A N° 544 du 19 décembre 2024 | à partir du 01/01/2026 || [secondary, regfollower] the treaty and protocol 'officially entered into force on 25 June 2025' (citing Mémorial ELI .../div/2025/06/25/a518/jo and .../a514/jo) || Art. 28(2)(a): La Convention sera applicable: a) en ce qui concerne les impôts retenus à la source, aux revenus attribués le ou après le 1er janvier de l'année civile suivant immédiatement l'année au cours de laquelle la Convention entrera en vigueur;",
+ "source_title": "Chambre des Députés, projet de loi N° 8401 (texte de la Convention du 14 janvier 2009 et du Protocole du 21 octobre 2020), French authentic text",
+ "source_url": "https://wdocs-pub.chd.lu/docs/exped/0148/089/296895.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 pour cent du montant brut des dividendes, si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 pour cent du capital de la société qui paie les dividendes;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 pour cent du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'État contractant d'où ils proviennent et selon la législation de cet État, mais si le bénéficiaire effectif des intérêts est un résident de l'autre État contractant, l'impôt ainsi établi ne peut excéder 5 pour cent du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces redevances sont aussi imposables dans l'État contractant d'où elles proviennent et selon la législation de cet État, mais si le bénéficiaire effectif des redevances est un résident de l'autre État contractant, l'impôt ainsi établi ne peut excéder 5 pour cent du montant brut des redevances."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 27A (added by Protocol of 21 October 2020, art. 3)",
+  "source_url": "https://wdocs-pub.chd.lu/docs/exped/0148/089/296895.pdf",
+  "quote": "1. Nonobstant les autres dispositions de la présente Convention, un avantage au titre de celle-ci ne sera pas accordé au titre d'un élément de revenu ou de fortune si l'on peut raisonnablement conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'octroi de cet avantage était un des objets principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente Convention. [Protocol Art. 4(2): applicable aux années d'imposition commençant le ou après le premier jour de janvier de l'année civile suivant immédiatement l'année au cours de laquelle le Protocole entrera en vigueur.]"
+ },
+ "notes": "Art. 11(3): interest taxable only in the residence State where the beneficial owner is that State, a local authority or public body, where paid by the source State/its local authorities/public bodies, or on loans/credits owed to, granted, guaranteed or insured by the State, its local authorities or export-financing agencies (not modelled). Royalty definition includes equipment rental. The Protocol of 2020 replaced the preamble and Art. 26 and added the PPT (Art. 27A); it did not change Arts. 10-12. Treaty never applied before 2026: first applicable to WHT on income attributed on or after 1 January 2026. Not MLI-covered (neither Party lists the other). Albanian list (ratified by Law 10094 of 12.03.2009) gives effect from 01.01.2026.",
+ "confidence": "high",
+ "unverified": [
+  "Exact entry-into-force date 2025-06-25 taken from a secondary report citing Mémorial A N° 518/514 ELI dated 2025-06-25; legilux is JavaScript-only and the notices were not read"
+ ]
+}

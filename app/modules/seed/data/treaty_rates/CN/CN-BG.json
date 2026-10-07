@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "BG",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the People's Republic of Bulgaria for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital (1989, as amended by Protocol 2002)",
+ "signed": "1989-11-06",
+ "entry_into_force": "1990-05-25",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876641517 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+ "eif_quote": "[PRC MFA Treaty Database listing] 中华人民共和国政府和保加利亚人民共和国政府关于对所得和财产避免双重征税和防止偷漏税的协定 | 双边 | 税收 | 1989.11.06 | 1990.05.25 || 议定书 2002.07.15 | 2003.01.02 || [China MLI position] Bulgaria Original 06-11-1989 25-05-1990; Amending Instrument (a) 15-07-2002 02-01-2003",
+ "source_title": "China-Bulgaria Agreement 1989 with Protocol, English text (PRC Ministry of Foreign Affairs Treaty Database), and 2002 amending Protocol (scanned English text, same database)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876641553.pdf (PRC MFA Treaty Database, detail1.jsp?objid=1531876641517) ; protocol 2002: https://treaty.mfa.gov.cn/tykfiles/20180718/1531876860566.PDF (objid=1531876860527)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1991-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the royalties in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1991-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 7 per cent of the gross amount of the royalties in the case of the use, or the right to use industrial, commercial or scientific equipment;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; China MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (China list No. 22 'Bulgaria Original 06-11-1989 25-05-1990'; Bulgaria lists the Agreement as No. 10); WHT effect 2023-01-01 per Art. 35(1)(a) (Bulgaria's MLI in force 2023-01-01).]"
+ },
+ "notes": "Article numbering of the 1989 Agreement: dividends Art. 9, interest Art. 10, royalties Art. 11 (the 2002 Protocol inserted Art. 7a without renumbering). Art. 27: effect for income derived in taxable years beginning on or after 1 January following entry into force (1990-05-25 -> 1991-01-01). The 2002 Protocol (in force 2003-01-02) amended Arts. 2, 3, 4, added Art. 7a (associated enterprises) and renamed Bulgaria; it did not change WHT rates. Art. 11(2)(a): 7% cap for equipment royalties is a separate tier (royalties for use of industrial, commercial or scientific equipment). Art. 10(3): interest derived by the other State's government, local authority, central bank or wholly government-owned financial institution, or on debt-claims indirectly financed by them, exempt at source (not modelled). Protocol para. 4: profits from joint ventures under Bulgarian Decree No 535/1980 not dividends. MLI Art. 8 irrelevant (single dividend rate; Bulgaria reserved Art. 8). Bulgarian official sources (nra.bg captcha, minfin.bg 403) not accessible; the PRC MFA treaty database copy of the authentic English text was used.",
+ "confidence": "high",
+ "unverified": []
+}

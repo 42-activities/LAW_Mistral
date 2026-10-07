@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "SI",
+ "treaty_name": "Convention between the Kingdom of Norway and the Republic of Slovenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008, with Protocol)",
+ "signed": "2008-02-18",
+ "entry_into_force": "2009-12-10",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2008-02-18-4",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 10-12-2009\" | Art. 28: \"The Convention shall enter into force on the date of receipt of the last notification. 2. This Convention shall be applicable: a. in respect of taxes withheld at source, to income derived on or after 1 January of the calendar year next following the year in which the Convention enters into force;\"",
+ "source_title": "Lovdata Norges traktater (English version), Convention Norway-Slovenia 2008 with Protocol (Norwegian, Slovenian, English equally authentic; English prevails)",
+ "source_url": "https://lovdata.no/dokument/TRAKTATEN/traktat/2008-02-18-4",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "15",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a. 0 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 15 per cent of the capital of the company paying the dividends; [MLI Art. 8(1): \"... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends ...\"]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2010-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c. 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is a beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Norway MLI position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf ; partner position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (both list the Convention; no Art. 35(7) reservation); WHT effect 2020-01-01 per map.json.]"
+ },
+ "notes": "Dividend 0% tier (>=15% direct holding by a company): no holding period in the treaty (2010-01-01 to 2019-12-31); from 2020-01-01 MLI Art. 8(1) 365-day period applies (Norway and Slovenia both notified Art. 10(2)(a) and (b)). Art. 10(2)(b): also 0% where the beneficial owner is a Norwegian resident partner in a Norwegian partnership holding (alone or with other partners) >=15% directly - Norway-only variant, not modelled (also subject to MLI Art. 8 from 2020). Art. 10(3): dividends derived by the Government (incl. Central Bank of Norway, Government Pension Fund, Bank of Slovenia) taxable only in that State; Art. 11(3)-(4): interest paid to the other Government (incl. GIEK, Eksportfinans, central banks, state-owned institutions) and Norwegian-source interest on loans guaranteed/insured by SID Bank exempt at source (not modelled). Replaced the 1983 Norway-Yugoslavia Convention for Slovenia.",
+ "confidence": "high",
+ "unverified": []
+}

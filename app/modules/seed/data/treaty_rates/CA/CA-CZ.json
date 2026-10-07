@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "CZ",
+ "treaty_name": "Convention between Canada and the Czech Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2001)",
+ "signed": "2001-05-25",
+ "entry_into_force": "2002-05-28",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103873 ; https://laws-lois.justice.gc.ca/eng/acts/I-3.55/FullText.html",
+ "eif_quote": "[CTS 2002/11] Entry into Force 28 May 2002 | Justice Laws I-3.55: [Note: Convention in force May 28, 2002, see Canada Gazette Part I, Volume 136, page 2290.] | Art. 28(1)(a)(i): (i) in respect of tax withheld at the source on amounts paid or credited on or after 1st January in the calendar year next following that in which the Convention enters into force; and",
+ "source_title": "Canada Treaty Information (GAC): Canada-Czech Republic Convention 2001 (E103873); same text in Income Tax Conventions Implementation Act, 2001, Schedule 6",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=103873 ; https://laws-lois.justice.gc.ca/eng/acts/I-3.55/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-czech-republic-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "5% tier threshold is 10% of the VOTING POWER, recorded as ownership_threshold; excluded for Canadian NRO investment corporations. MLI Art. 8 not applicable: Czech Republic reserved the entirety of Art. 8. Art. 11(3): government-debt interest, State-owned export-credit loans, unrelated credit sales and exempt pension plans taxable only in residence State. Art. 10(6) branch tax max 5%. Replaced the 1990 Canada-Czechoslovakia convention (Art. 28(2)).",
+ "confidence": "high",
+ "unverified": []
+}

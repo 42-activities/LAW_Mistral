@@ -1,0 +1,69 @@
+{
+ "a": "CA",
+ "b": "AT",
+ "treaty_name": "Convention between Canada and the Republic of Austria for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1976, as amended by the Protocols of 1999 and 2012)",
+ "signed": "1976-12-09",
+ "entry_into_force": "1981-02-17",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102232 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103285",
+ "eif_quote": "[Convention, CTS 1981/3] Entry into Force 17 February 1981 | [Protocol 1999, CTS 2001/8] Entry into Force 29 January 2001 | Protocol 1999 Art. VI(2): The Protocol shall enter into force 60 days after the exchange of the instruments of ratification and its provisions shall have effect: (a) in respect of tax withheld at the source on amounts paid or credited to non-residents, on or after the first day of the second month following that in which the Protocol enters into force, and",
+ "source_title": "Canada Treaty Information (GAC): Canada-Austria Convention 1976 (E102232) and Protocol 1999 (E103285); Finance Canada text of 2012 Protocol (via WebFetch)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102232 ; https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=103285 ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/austria-protocol-2012.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended by Protocol 1999, Art. I(1))",
+   "valid_from": "2001-03-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company that controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as amended by Protocol 1999)",
+   "valid_from": "2001-03-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as amended by Protocol 1999, Art. II(1))",
+   "valid_from": "2001-03-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "\"2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest.\""
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (as amended by Protocol 1999, Art. III)",
+   "valid_from": "2001-03-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "\"2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-austria-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "5% tier threshold is 10% of the VOTING POWER, recorded as ownership_threshold; excluded for Canadian NRO investment corporations. valid_from: Protocol 1999 in force 2001-01-29; WHT provisions effective from the first day of the second month following entry into force = 2001-03-01. MLI Art. 8 not applicable: Austria reserved the entirety of Art. 8. 2012 Protocol (in force 2013-10-01) amends only Art. 26 (exchange of information) per Finance Canada text. Art. 11(7): exemptions for government bonds, EDC/Oesterreichische Kontrollbank loans, central bank, exempt pension plans (Protocol 1999 Art. II(2)(e)) and unrelated credit sales (II(2)(f)). Art. 12(3) as amended: copyright (excl. film/TV), computer software, patent and know-how royalties (excl. rental/franchise) taxable only in residence State: (b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such information provided in connection with a rental or franchise agreement). Art. 10(6) branch tax limited to the 10(2)(a) rate.",
+ "confidence": "high",
+ "unverified": [
+  "2012 Protocol content checked only via WebFetch summary of the Finance Canada page (amends Art. 26 only)"
+ ]
+}

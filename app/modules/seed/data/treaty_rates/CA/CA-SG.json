@@ -1,0 +1,56 @@
+{
+ "a": "CA",
+ "b": "SG",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Singapore for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1976, as amended by Protocol 2011; modified by MLI)",
+ "signed": "1976-03-06",
+ "entry_into_force": "1977-09-23",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102335 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=105269",
+ "eif_quote": "Treaty-accord: Convention (CTS 1977/3) \"Entry into Force 23 September 1977\"; Protocol 2011 (CTS 2012/20) \"Entry into Force 31 August 2012\"",
+ "source_title": "Canada Treaty Series 1977/3 and 2012/20 - Canada-Singapore Convention and 2011 Protocol (treaty-accord.gc.ca official texts)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=102335&Lang=eng ; https://www.treaty-accord.gc.ca/text-texte.aspx?id=105269&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State; but where the resident of the other Contracting State is the beneficial owner of the dividends, then, subject to the provisions of Article XXI of this Convention, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends. The provisions of this paragraph shall not affect the taxation of the company on the profits out of which the dividends are paid."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article XI(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However such interest may be taxed in the Contracting State in which it arises and according to the law of that State; but the tax so charged shall, provided that the interest is taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)",
+   "valid_from": "1977-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State; but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-singapore-consolidated.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. XXVII: effective in Canada for tax withheld at source on amounts paid or credited on or after 1 January of the year in which the exchange of notifications was completed (EIF 1977-09-23 -> 1977-01-01); in Singapore for years of assessment from the following year. The 2011 Protocol (in force 2012-08-31) only replaces Art. 25 (exchange of information); rates unchanged. Dividends: single 15% cap (no participation tier), subject to Art. XXI remittance-basis limitation; Art. X(3): while Singapore imposes no tax on dividends beyond corporate tax, Canadian-source dividends are exempt from any such additional Singapore tax. Interest and royalty 15% caps apply \"provided that the interest/royalties is taxable in the other Contracting State\" (recipient-taxation condition, recorded only here). Not modelled: Art. XI(4) exemption for Singapore-source interest paid to Export Development Corporation; branch tax. MLI art. 8 does not apply (Singapore reserved the entirety of Art. 8); PPT effective for WHT 2020-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

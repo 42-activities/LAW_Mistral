@@ -1,0 +1,69 @@
+{
+ "a": "CA",
+ "b": "IN",
+ "treaty_name": "Agreement between the Government of Canada and the Government of the Republic of India for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1996)",
+ "signed": "1996-01-11",
+ "entry_into_force": "1997-05-06",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102409",
+ "eif_quote": "[CTS 1997/16] Entry into Force 06 May 1997 | Art. 29(2)(a)(i): (i) in respect of tax withheld at the source on amounts paid or credited to non-residents on or after the first day of January in the calendar year next following that in which the Agreement enters into force; and | Art. 29(2)(b)(i): (i) in respect of income arising in any taxable year beginning on or after the first day of April in the calendar year next following that in which the Agreement enters into force; and",
+ "source_title": "Canada Treaty Information (GAC): Canada-India Agreement 1996 (E102409, CTS 1997/16); Protocol in Income Tax Conventions Implementation Act, 1996, Schedule IV",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102409 ; https://laws-lois.justice.gc.ca/eng/acts/I-3.51/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) 15 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1998-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 25 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the law of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)(ii)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(ii) during the subsequent years, 15 per cent of the gross amount of the royalties or fees for included services; and"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 15% tier threshold is 10% of the VOTING POWER, recorded as ownership_threshold; general dividend cap 25%. MLI Art. 8 applies: Canada (no. 30) and India (no. 12) both notified Art. 10(2)(a); India’s Art. 8(3)(b)(iii) reservation covers only Portugal; from 2020-01-01 the 10% holding must be met throughout a 365-day period. Royalties: 15% applies to Art. 12(3)(a) royalties (copyright, patents, know-how etc.) and fees for included services after the first five taxable years for which the Agreement has effect (Canada WHT from 1998-01-01, so from 2003-01-01; India from FY beginning 1 April 2003 - valid_from uses the Canadian date); during the first five years 15%/20%. Not modelled: Art. 12(2)(b) 10% for equipment-rental royalties (Art. 12(3)(b)) and ancillary fees (\"(b) in the case of royalties referred to in sub-paragraph (b) of paragraph 3 and fees for included services as defined in this Article that are ancillary and subsidiary to the enjoyment of the property for which payment is received under paragraph 3(b) of this Article, 10 per cent of the gross amount of the royalties or fees for included services.\"); Art. 11(3) government, central bank, agreed agencies, EDC/Exim Bank interest exempt. Protocol at signature has no rate provisions.",
+ "confidence": "high",
+ "unverified": [
+  "India-side start of the 15% royalty rate (taxable year beginning 1 April 2003) inferred from Art. 12(2)(a) + Art. 29(2)(b)"
+ ]
+}

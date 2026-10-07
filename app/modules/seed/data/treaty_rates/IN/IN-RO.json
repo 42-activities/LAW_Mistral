@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "RO",
+ "treaty_name": "Agreement between Romania and the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013; modified by MLI)",
+ "signed": "2013-03-08",
+ "entry_into_force": "2013-12-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Conventii/Conventii.htm",
+ "eif_quote": "[RO MLI position] 29 Agreement between Romania and India Original 08-03-2013 16-12-2013 || [ANAF list] India (Noua) 329/05.12.2013 | 769/2013 | 01.01.2014 (Romania) 01.04.2014 (India)",
+ "source_title": "Legea nr. 329/2013 privind ratificarea Acordului dintre România şi Republica India (ANAF PDF, text of the Agreement in Romanian; English text prevails per the final clause)",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/legislatie/L_329_2013.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste dividende sunt de asemenea impozabile în statul contractant în care este rezidentă societatea plătitoare de dividende şi potrivit legislației acelui stat, dar dacă beneficiarul efectiv al dividendelor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a dividendelor."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste dobânzi sunt de asemenea impozabile în statul contractant din care provin şi potrivit legislației acelui stat, dar dacă beneficiarul efectiv al dobânzilor este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a dobânzilor."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Totuşi, aceste redevențe sau plăți pentru servicii tehnice sunt de asemenea impozabile în statul contractant din care provin şi potrivit legislației acelui stat, dar dacă beneficiarul efectiv al redevențelor sau al plăților pentru servicii tehnice este rezident al celuilalt stat contractant, impozitul astfel stabilit nu va depăşi 10 la sută din suma brută a redevențelor sau a plăților pentru servicii tehnice."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-04-01",
+  "basis": "MLI art. 7(1) (replacing treaty Art. 27 under MLI art. 7(2))",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf",
+  "quote": "[RO 35(7)(b) notification] 29 India 06-03-2023 || [RO position, Art 7(17)(a)] 29 India Article 27 || [IN position, Art 7(17)(a)] 65 Romania Article 27"
+ },
+ "notes": "Effective-date Art. 30(2): Romania - WHT on income paid on/after 1 Jan 2014; India - on/after 1 April of the financial year following the year of entry into force (2014-04-01, used as valid_from). Replaced the 1987 convention. Art. 11(3): interest exempt at source when derived by the Government/political subdivisions/local authorities, the National Bank of Romania, EximBank of Romania, Reserve Bank of India, Exim Bank of India, National Housing Bank, or other agreed institutions (not modelled). Art. 12 also covers fees for technical services at the same 10% cap. No MFN clause found in the text. Treaty Art. 27 is a main-purpose/LOB-style anti-abuse rule; both Parties notified it under MLI art. 7(17)(a), so MLI art. 7(1) PPT replaces it. Romania reserved art. 35(7)(a); its 35(7)(b) notification for India was 2023-03-06, so MLI WHT effect is 2024-01-01 on the Romanian side and 2024-04-01 on the Indian side (India's art. 35(2) 'taxable period' choice). India chose SLOB (art. 7(6)) but Romania did not, so SLOB does not apply. Single dividend rate, so MLI art. 8 is not relevant.",
+ "confidence": "high",
+ "unverified": [
+  "Romanian-language authentic text read; English text (prevailing) not obtained (incometaxindia.gov.in 403)"
+ ]
+}

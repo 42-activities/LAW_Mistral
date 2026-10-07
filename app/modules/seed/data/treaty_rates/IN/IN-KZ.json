@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "KZ",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Republic of Kazakhstan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996, as amended by Protocol 2017; modified by MLI)",
+ "signed": "1996-12-09",
+ "entry_into_force": "1997-10-02",
+ "eif_source_url": "https://web.archive.org/web/20260503003145/https://www.incometaxindia.gov.in/w/kazakhstan-comprehensive-agreements-1",
+ "eif_quote": "[Notification GSR 633(E), 31-10-1997] ... will enter into force, on the second day of the October, 1997 ... || [Art. 30(2)] The provisions of this Convention shall have effect : ( a ) in India in respect of income derived or capital held in any fiscal year beginning on or after the first day of April next following the calendar year in which the Convention enters into force",
+ "source_title": "Income Tax Department (India): Kazakhstan Comprehensive Agreement, consolidated as amended by Notification S.O. 1589(E) of 12-4-2018 - Wayback copy (2026-05-03) of the official page",
+ "source_url": "https://web.archive.org/web/20260503003145/https://www.incometaxindia.gov.in/w/kazakhstan-comprehensive-agreements-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient and the beneficial owner of the interest is a resident of other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, or fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-04-01",
+  "basis": "MLI art. 7(1) (plus Simplified LOB, MLI art. 7(8)-(13))",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. || [India MLI position, Art. 7(17)(a) list] 36 Kazakstan Article 28A(2)"
+ },
+ "notes": "Convention EIF 1997-10-02; effective in India for fiscal years beginning on/after 1 April 1998, in Kazakhstan from 1 January 1998. Rates unchanged by the 2017 Protocol (signed 2017-01-06, in force 2018-03-12; India Notification S.O. 1589(E) dated 12-4-2018). Article XIV of the 2017 Protocol DELETED the MFN clause of the 1996 Protocol (Arts. 10-12 'same rate or scope' clause) - no MFN applies now. The Protocol also inserted Art. 28A (LOB/main-purpose rule) and a branch-profits tax rule in Art. 10(6) (capped at the Art. 10(2) rate). MLI: India EIF 2019-10-01, Kazakhstan 2020-10-01; WHT effect in India from 1 April 2021 (India Art. 35(2) 'taxable period'), in Kazakhstan from 1 January 2021 (map mli_wht_effective). PPT (MLI Art. 7(1)) applies; India notified Art. 28A(2) as an existing main-purpose provision. Simplified LOB (MLI Art. 7(8)-(13)) also applies: both India and Kazakhstan chose it under Art. 7(17)(c) (Kazakhstan MLI position deposited 24 June 2020). MLI Art. 8: Kazakhstan's Art. 8(4) list does not include India and the treaty has a single dividend rate -> not applicable. Interest exempt at source when derived by the Government/political subdivision/local authority, or the Central Bank or other mutually agreed governmental bank/financial institution (Art. 11(3)) - not modelled. Royalty cap covers fees for technical services. Art. 8 MLI irrelevant (single dividend rate).",
+ "confidence": "high",
+ "unverified": [
+  "Kazakh-language text not compared"
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "RS",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and Serbia and Montenegro for the avoidance of double taxation with respect to taxes on income and on capital (2004), applied between Bosnia and Herzegovina and Serbia (corrected 2023)",
+ "signed": "2004-05-26",
+ "entry_into_force": "2005-06-02",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/fiskala%20sporazumi/BiH_-_Srbija_-_bos._verzija.pdf",
+ "eif_quote": "[RS MLI] Agreement between Serbia and Montenegro and Bosnia and Herzegovina ... Original 26-05-2004 02-06-2005 || Art. 29(2): Ovaj Ugovor stupa na snagu datumom prijema posljednje od tih obavještenja, a njegove odredbe se primjenjuju u odnosu na poreze na dohodak koji je ostvaren i na imovinu koja se posjeduje u poreznoj godini koja počinje 1. januara ili poslije 1. januara kalendarske godine koja direktno slijedi godinu u kojoj Ugovor stupa na snagu.",
+ "source_title": "BiH MoF: MLI combined text of the BiH–Serbia Agreement (Bosnian); Službeni glasnik BiH-MU 5/2005 (ratification) and 1/2024 (Ispravka – correction of Art. 11)",
+ "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/fiskala%20sporazumi/BiH_-_Srbija_-_bos._verzija.pdf ; http://www.sluzbenilist.ba/page/PdfDownload?BrojIzdanja=5&NivoIzdavanja_FK=7&GodinaIzdanja=2005 ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/Ispavke_Ugovora.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % od bruto iznosa dividendi ako je stvarni vlasnik društvo (izuzimajući partnerstvo) koje izravno ima najmanje 25 % kapitala društva koja isplaćuje dividendu;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % bruto iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata se može oporezovati i u državi ugovornici u kojoj nastaje, u skladu sa zakonima te države, ali ako je stvarni korisnik te kamate rezident druge države ugovornice, utvrđeni porez ne smije biti veći od 10% bruto iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa propisima te države, ali ako je stvarni vlasnik tih naknada rezident druge države ugovornice, porez ne može biti veći od 10 % bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/fiskala%20sporazumi/BiH_-_Srbija_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Treaty signed with Serbia and Montenegro; continues to apply to Serbia (and separately to Montenegro). Correction (Ispravka) published in Sl. glasnik BiH-MU 1/2024 (15.1.2024), Presidency decision 27.11.2023, fixes translation errors in Art. 11 of the BiH-language versions published in Sl. glasnik BiH-MU 5/05: the corrected text keeps the 10% cap and adds para. 3 exempting interest derived and beneficially owned by the Government, political unit or local self-government unit, or the National/Central Bank of the other State (the authentic text is presumed to always have contained it). Arts. 10 and 12 unaffected. MLI Art. 8 not applicable (BiH reserved the entirety of Art. 8 under Art. 8(3)(a)). Serbian official text not cross-checked.",
+ "confidence": "high",
+ "unverified": [
+  "Serbian official text not cross-checked"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "a": "IN",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the State of Qatar and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2025; replaces the 1999 Agreement)",
+ "signed": "2025-02-18",
+ "entry_into_force": "2025-09-10",
+ "eif_source_url": "https://www.taxheal.com/?p=107602 (secondary reproduction of CBDT Notification No. 154/2025, G.S.R. 789(E), 24 Oct 2025; official https://incometaxindia.gov.in/communications/notification/notification-154-2025.pdf blocked 403)",
+ "eif_quote": "[Notification G.S.R. 789(E), as reproduced] the said Agreement and Protocol entered into force on the 10th day of September, 2025 ... provisions of the Agreement and Protocol shall have effect in India in respect of income arising on or after first day of the fiscal year immediately following the calendar year in which the Agreement and Protocol enter into force",
+ "source_title": "Qatar General Tax Authority: English text of the Qatar-India Agreement and Protocol signed 18/02/2025 (scanned PDF 'India (EN)2026.pdf', read visually)",
+ "source_url": "https://www.gta.gov.qa/assets/pdf/India%20(EN)2026.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2026-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least twenty-five per cent of the shares of the company paying the dividend; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2026-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2026-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-04-01",
+  "basis": "treaty art. 28",
+  "source_url": "https://www.gta.gov.qa/assets/pdf/India%20(EN)2026.pdf",
+  "quote": "Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "CONFLICT with map.json: map lists the 1999 Agreement (signed 1999-04-07, EIF 2000-01-15, MLI-covered with WHT effect 2021-01-01). The official Qatari GTA text now published is a NEW Agreement signed at New Delhi on 18/02/2025; Art. 30(4) provides that the 1999 Agreement ceases to have effect once the new one becomes operative. Art. 30(3): effect in India and Qatar for income arising on/after the first day of the fiscal year following the calendar year of entry into force -> India 2026-04-01 (valid_from), Qatar from the start of its next fiscal year (2026-01-01 if calendar-year). Entry into force 2025-09-10 taken from the CBDT notification as reproduced by a secondary site (official PDF blocked). New Agreement has its own PPT (Art. 28, MLI-style wording) and a preamble against treaty shopping; the MLI-modified 1999 Agreement (MLI PPT from 2021-04-01 on the Indian side; partner side 2021-01-01; MLI art. 8 365-day test on old Art. 10(2)(a)) applied until 31 Mar 2026 in India. Dividends: 0% source tax (taxable only in residence State) when beneficial owner is the other State, political subdivision or local authority (Art. 10(4)). Interest: exempt at source when derived and beneficially owned by the other State, political subdivision or local authority; Protocol ad Art. 11: 'State' includes Qatar Investment Authority and Qatar Holding LLC, and Reserve Bank of India and Exim Bank of India (not modelled). Art. 12 also caps fees for technical services at 10%. No MFN clause seen.",
+ "confidence": "medium",
+ "unverified": [
+  "Entry-into-force date 2025-09-10 and Indian effective date from a secondary reproduction of Notification 154/2025 (G.S.R. 789(E)); official CBDT/egazette copy not reachable",
+  "Text read visually from scanned PDF"
+ ]
+}

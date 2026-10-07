@@ -1,0 +1,58 @@
+{
+ "a": "ME",
+ "b": "IT",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Italian Republic for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (1982), applied by Montenegro",
+ "signed": "1982-02-24",
+ "entry_into_force": "1985-07-03",
+ "eif_source_url": "https://www.finanze.gov.it/it/fiscalita-comunitaria-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/ ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[IT MEF list] Montenegro (2) ... Stipula - Firma: Belgrado 24.02.1982; Ratifica: L. 18.12.1984, n.974 In vigore dal: 03.07.1985 || [ME PU table] 14 | Italija | dohodak i imovina | SFRJ 2/83 | 1.1.1984. || Art. 28(2): \"The Convention shall enter into force on the thirtieth day after the date of exchange of the instruments of ratification and its provisions shall have effect: a) in Yugoslavia: in respect of the taxes on income and taxes on capital for any fiscal year beginning on or after the first day of January in the calendar year following that in which the instruments of ratification are exchanged; b) in Italy: in respect of the taxes on income for any taxable period beginning on or after the first day of January in the calendar year following that in which the instruments of ratification are exchanged.\"",
+ "source_title": "Zakon o ratifikaciji Sporazuma SFRJ-Italija s Protokolom, Službeni list SFRJ - Međunarodni ugovori br. 2/1983 (18.02.1983), bilingual English authentic text and Serbian translation (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/d419ceaf-7856-470c-87a9-e98e13a7c9ea (file https://wapi.gov.me/download/d419ceaf-7856-470c-87a9-e98e13a7c9ea?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, interest referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. The royalties referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Italy has not ratified the MLI); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Belgrade, 24-02-1982; Sl. list SFRJ - MU 2/1983; Italian ratification L. 18.12.1984 n. 974); Italy lists the convention as in force with Montenegro (MEF treaty list \"Montenegro (2)\"). Authentic in English only - English text read from the bilingual gazette scan. Rate limits apply to the recipient (no beneficial-owner wording). Start of application: entry into force 03-07-1985 (30 days after exchange of instruments in 1985) -> 1 January 1986; the Poreska uprava table shows 1.1.1984 (conflict; historical only). Not MLI-covered -> no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "Start-of-application year (1986 computed vs 1984 in Poreska uprava table)"
+ ]
+}

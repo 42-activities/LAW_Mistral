@@ -1,0 +1,70 @@
+{
+ "a": "BA",
+ "b": "TR",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and the Republic of Turkey for the avoidance of double taxation with respect to taxes on income and on capital (2005)",
+ "signed": "2005-02-16",
+ "entry_into_force": "2008-09-18",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf ; http://sllist.ba/page/PdfDownload?BrojIzdanja=8&NivoIzdavanja_FK=7&GodinaIzdanja=2008",
+ "eif_quote": "[GİB list] 70) Bosna-Hersek 16.02.2005 08.04.2007 - 26487 18.09.2008 01.01.2009 || Art. 29: Ovaj sporazum stu pa na snagu na da tum posljednjeg pismenog obavještenja a njegove odredbe će se primjenjivati na poreze za svaki fiskalni pe riod koji počinje na dan ili nakon 1. januara godine nakon one u kojoj je ovaj sporazum stupio na snagu.",
+ "source_title": "Službeni glasnik BiH – Međunarodni ugovori 8/2008 (15.9.2008): Odluka o ratifikaciji Sporazuma BiH–Republika Turska (Bosnian translation)",
+ "source_url": "http://sllist.ba/page/PdfDownload?BrojIzdanja=8&NivoIzdavanja_FK=7&GodinaIzdanja=2008",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procenata bruto iznosa dividendi ako je stvarni vlasnik dividendi kompanija (osim partnerstva) koja posjeduje direktno najmanje 25 procenata imovine kompa nije koja isplaćuje dividende."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 procenata bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate se također mogu oporezivati u državi Ugovornici u kojoj nastaju i u skladu sa zakonima te države, ali ako je stvarni vlasnik kamate rezident druge države Ugovornice, tako utvrđeni porez ne može prelaziti 10 procenata bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezivati i u državi Ugovornici u kojoj nastaju, a u skladu sa zakonima te države, ali ako je stvarni vlasnik tih autorskih naknada rezident druge države Ugovornice, ta ko zaveden porez ne može biti veći od 10 procenata bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Türkiye has not ratified the MLI)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Interest Art. 11(3): interest on government loans exempt when paid to the Government or Central Bank of BiH (Turkish source) or to the Government of Turkey, the Central Bank of Turkey or Türk Eximbank (BiH source). Art. 10(4): branch profits of a company may additionally be taxed in the PE State under Art. 10(2) (branch tax) - not modelled. EIF conflict: Türkiye GİB list gives EIF 18.09.2008, effective 01.01.2009 (used; consistent with BiH ratification decision of 29 July 2008, published Sl. glasnik BiH-MU 8/08 on 15.9.2008); BiH MLI list gives 23-04-2009 (would mean 2010-01-01). Signature date conflict: BiH ratification decision says \"potpisan 12. februara 2005\", GİB list and map give 16.02.2005 (used). Treaty authentic in English only; Bosnian translation quoted.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF 2008-09-18 vs 2009-04-23 (BiH MLI list)",
+  "signature 2005-02-12 vs 2005-02-16"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "TN",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Tunisia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2002), as modified by the MLI",
+ "signed": "2002-04-16",
+ "entry_into_force": "2003-09-23",
+ "eif_source_url": "http://web.archive.org/web/20211130034724/http://www.chinatax.gov.cn/n810341/n810770/c1153664/5027050/files/e9381163e47c4823a2ca1979f6ad3958.pdf",
+ "eif_quote": "Art. 28: \"This Agreement shall enter into force on the thirtieth day after the latter of the dates on which diplomatic notes indicating the completion of internal legal procedures necessary in each country for the entry into force of this Agreement have been exchanged. This Agreement shall have effect as respects income derived during the taxable years beginning on or after the first day of January of the year following that in which this Agreement enters into force.\" (EIF date 2003-09-23 from STA list via map.json)",
+ "source_title": "STA English text of the 2002 China-Tunisia Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20211130034724/http://www.chinatax.gov.cn/n810341/n810770/c1153664/5027050/files/e9381163e47c4823a2ca1979f6ad3958.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed eight per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed ten per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2), first indent",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed: - 10 per cent of the gross amount of the royalties paid for the use of, or the right to use, any copyright of literary, artistic or scientific work including cinematography films, or films or tapes for radio or television broadcasting, any patent, trade mark, design or model, plan, secret formula or process, or for the use of, or the right to use, industrial, commercial or scientific experience;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties: Art. 12(2) second indent - 5% of gross for royalties paid for technical or economic studies or for technical assistance (payment-type tier, not modelled as a separate entry). Interest: Art. 11(3) exempts interest derived by the other State's Government, local authority, Central Bank or wholly government-owned financial institutions, and on debt-claims indirectly financed by them. Single 8% dividend rate - MLI Art. 8 irrelevant. MLI WHT effect from 2024-01-01 per map.json (Tunisia MLI EIF 2023-11-01 -> Art. 35(1)(a)); SAT Announcement 2024 lists the treaty per map.json.",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text not read; PPT quote is MLI Art. 7(1) wording"
+ ]
+}

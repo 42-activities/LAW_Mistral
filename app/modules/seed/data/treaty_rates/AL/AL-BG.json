@@ -1,0 +1,70 @@
+{
+ "a": "AL",
+ "b": "BG",
+ "treaty_name": "Convention between the Republic of Albania and the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1998)",
+ "signed": "1998-12-09",
+ "entry_into_force": "1999-07-01",
+ "eif_source_url": "https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+ "eif_quote": "[AL MLI] Bulgaria Original 09-12-1998 01-07-1999 || [AL DPT list] BULLGARI | 8447 | 25.01.1999 | ... | 01.01.2000 || Art. 29(2): Konventa do të hyjë në fuqi në datën kur është bërë njoftimi më i vonshëm që i referohet paragrafit 1 dhe dispozitat e tij do të kenë efekt lidhur me të ardhurat e realizuara apo kapitalin e zotëruar më ose pas ditës së parë të Janarit të vitit kalendarik që pason vitin në të cilin Konventa hyn në fuqi.",
+ "source_title": "Albanian authentic text of the Albania-Bulgaria Convention, DPT (tatime.gov.al) copy",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=341",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % të shumës bruto të dividentëve nëse pronari përfitues është një kompani që zotëron direkt të paktën 25 përqind të kapitalit të kompanisë paguese të dividentëve;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % të shumës bruto të dividentëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, këto interesa mund të tatohen edhe në Shtetin Kontraktues ku ato krijohen dhe në përputhje me ligjet e atij Shteti, por nëse marrësi është pronari përfitues i interesave tatimi i zbatuar nuk duhet të kalojë 10 % të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, këto honorare mund të tatohen gjithashtu në Shtetin Kontraktues ku krijohen dhe në përputhje me ligjet e këtij Shteti, por nëse marrësi është pronari përfitues i honorareve, tatimi i ngarkuar nuk duhet të kalojë 10 përqind të shumës bruto të honorarit."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Albania MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both Albania and Bulgaria list the Convention (Bulgaria per its MLI position at signature; deposited position is an image scan). WHT effect 2023-01-01 per Art. 35(1)(a), later MLI entry into force = Bulgaria.]"
+ },
+ "notes": "Authentic in Albanian, Bulgarian and English (English prevails); Albanian text read (tatime copy lacks the day of signature: 'Berë ... në Sofje, më Dhjetor, 1998'). Art. 11(3): interest paid to the other State's Government or National Bank exempt at source (not modelled). Royalty definition includes use of industrial, commercial or scientific equipment. MLI Art. 8 not applicable (Bulgaria reserved Art. 8(3)(a)). No amending protocol found.",
+ "confidence": "high",
+ "unverified": [
+  "Bulgarian/English texts not compared",
+  "PPT effective date derived from MLI Art. 35(1)(a) (map.json)"
+ ]
+}

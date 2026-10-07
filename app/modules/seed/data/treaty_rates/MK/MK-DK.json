@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "DK",
+ "treaty_name": "Convention between the Republic of Macedonia and the Kingdom of Denmark for the avoidance of double taxation with respect to taxes on income and on capital (2000)",
+ "signed": "2000-03-20",
+ "entry_into_force": "2000-12-14",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 31(2): This Convention shall enter into force on the day of the later of these notifications and shall thereupon have effect for taxable years beginning on or after the first day of January in the year next following that of the entry into force of the Convention. | UJP table: Denmark | 48/2000 | 14.12.2000 | 01.01.2001",
+ "source_title": "UJP English text of the MK-Denmark convention (8Denmark.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/8Denmark.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends where such holding is being possessed for an uninterrupted period of no less than one year and the dividends are declared within that period;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 10(2)(b): 0% on dividends beneficially owned by a recognised, generally tax-exempt pension fund or similar institution (not modelled). 5% tier requires the 25% holding for an uninterrupted period of at least one year with dividends declared within that period. Replaces the 1981 SFRY-Denmark convention (Art. 31(3)).",
+ "confidence": "high",
+ "unverified": []
+}

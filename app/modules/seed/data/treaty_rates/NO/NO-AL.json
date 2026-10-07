@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "AL",
+ "treaty_name": "Convention between the Kingdom of Norway and the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital and for the prevention of fiscal evasion (1998)",
+ "signed": "1998-10-14",
+ "entry_into_force": "1999-08-13",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1998-10-14-1",
+ "eif_quote": "Avtalens ikrafttredelsesdato 13-08-1999 | Art. 29(2): Overenskomsten trer i kraft på datoen for den siste av de bekjentgjørelser omtalt i underpunkt 1, og dens bestemmelser skal ha virkning med hensyn til inntekt oppebåret eller formue som eies på eller etter første januar i det kalenderår som følger etter det år da overenskomsten trer i kraft.",
+ "source_title": "Lovdata traktat 1998-10-14-1: Overenskomst mellom Norge og Albania (Norwegian text)",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1998-10-14-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a. 5 prosent av dividendenes bruttobeløp hvis den virkelige rettighetshaver er et selskap som direkte innehar minst 25 prosent av kapitalen i det selskap som utdeler dividendene;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av dividendenes bruttobeløp i alle andre tilfelle."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Slike renter kan imidlertid også skattlegges i den kontraherende stat hvor rentene skriver seg fra og i henhold til denne stats lovgivning, men hvis mottakeren er den virkelige rettighetshaver til rentene skal den skatt som ilegges ikke overstige 10 prosent av rentenes bruttobeløp."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Slik royalty kan imidlertid også skattlegges i den kontraherende stat hvor royaltyen skriver seg fra og i henhold til denne stats lovgivning, men hvis mottakeren er den virkelige rettighetshaver til royaltyen skal den skatt som ilegges ikke overstige 10 prosent av royaltyens bruttobeløp."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable to this pair)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Interest Art. 11(3): exempt where beneficial owner is the other State's central bank, government or local authorities, or (for Norway) interest received by or on loans granted/insured/guaranteed by GIEK, Eksportfinans or similar institutions - not modelled. Not MLI-covered (Norway does not list Albania).",
+ "confidence": "high",
+ "unverified": []
+}

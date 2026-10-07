@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "HR",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Republic of Croatia for the avoidance of double taxation with respect to taxes on income and on capital (1994)",
+ "signed": "1994-07-06",
+ "entry_into_force": "1996-01-11",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28: This Agreement shall enter into force as soon as possible after the date on which diplomatic notes indicating the completion of internal legal procedures necessary in each country for the entry into force of the Agreement have been exchanged. This Agreement shall have effect as respects income derived and capital owned during the taxable years beginning on or after the 1st day of January in the calendar year next following that in which this Agreement enters into force. | UJP table: Croatia | 17/1995 | 11.01.1996 | 01.01.1997",
+ "source_title": "UJP scanned Služben vesnik 17/1995 ratification law with Macedonian, Croatian and English texts (38Croatia.pdf), English text read from page images pp. 17-18, 21",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/38Croatia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15% of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 11(3): interest derived by the Government of the other State, a local authority, the Central Bank or a wholly government-owned financial institution, or on debt-claims guaranteed/financed by them, exempt at source (not modelled). English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

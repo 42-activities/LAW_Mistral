@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "HU",
+ "treaty_name": "Agreement between the Government of the Republic of Hungary and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1992)",
+ "signed": "1992-06-17",
+ "entry_into_force": "1994-12-31",
+ "eif_source_url": "https://njt.hu/jogszabaly/1999-15-00-00",
+ "eif_quote": "(Az Egyezmény megerősítéséről szóló jegyzékváltás 1994. december 1-jén megtörtént, és az Egyezmény 1994. december 31-én hatályba lépett.)",
+ "source_title": "1999. évi XV. törvény (Hungarian official text of the Hungary-China Agreement, Nemzeti Jogszabálytár)",
+ "source_url": "https://njt.hu/jogszabaly/1999-15-00-00",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Mindazonáltal ez az osztalék abban a Szerződő Államban is, amelyben az osztalékot fizető társaság illetőséggel bír, ennek a Szerződő Államnak a jogszabályai szerint megadóztatható, de ha a kedvezményezett az osztalék haszonhúzója, az így megállapított adó nem haladhatja meg az osztalék bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Mindazonáltal ez a kamat abban a Szerződő Államban is, amelyből származik, ennek a Szerződő Államnak a jogszabályai szerint megadóztatható, de ha a kedvezményezett a kamat haszonhúzója, az így megállapított adó nem haladhatja meg a kamat bruttó összegének 10 százalékát."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Mindazonáltal az ilyen licencdíj megadóztatható abban a Szerződő Államban is, amelyből származik, annak a Szerződő Államnak a jogszabályai szerint, de ha a kedvezményezett a licencdíj haszonhúzója, az így megállapított adó nem haladhatja meg a licencdíj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; China MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (China list 'Hungary Original 17-06-1992 31-12-1994'; Hungary lists the Agreement); WHT effect 2023-01-01 per Art. 35(1)(a).]"
+ },
+ "notes": "Art. 28: applies to income arising in tax years beginning on or after 1 January following entry into force; Act XV of 1999 § 3 confirms application to income derived on or after 1995-01-01. Art. 11(3): interest paid to the other State's government, political subdivisions, local authorities, central bank or wholly government-owned financial institutions, or on debt claims directly financed by them, exempt at source (not modelled). Royalty definition includes equipment rentals. MLI Art. 8 irrelevant (single dividend rate; Hungary reserved Art. 8). Hungarian text read; English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": []
+}

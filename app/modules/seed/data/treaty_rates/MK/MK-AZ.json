@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "AZ",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2013)",
+ "signed": "2013-04-19",
+ "entry_into_force": "2013-08-12",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 29: 1. ... The Agreement shall enter into force on the date of receipt of the last notification. 2. The Agreement shall be applicable: (a) in respect of taxes withheld at source, to income derived on or after 1-st January of the calendar year next following the year in which this Agreement enters into force; | UJP table: Azerbaijan | 107/2013 | 12.08.2013 | 01.01.2014",
+ "source_title": "UJP scanned signed English text of the MK-Azerbaijan agreement (Азербејџан - Македонија ЕНГ.pdf), read from page images pp. 10-12, 21-22",
+ "source_url": "https://www.ujp.gov.mk/uploads//%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B5%D1%98%D1%9F%D0%B0%D0%BD%20-%20%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0%20%D0%95%D0%9D%D0%93.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 8 per cent of the gross amount of royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 11(3): interest derived and beneficially owned by the Government of a Contracting State exempt at source, including interest paid to the Central Bank (Macedonia) and the Central Bank and State Oil Fund (Azerbaijan) - not modelled. Royalty definition includes software and equipment rental. English text prevails. Articles 13-24 were not inspected page by page; no separate anti-abuse article appears among Arts. 25-30.",
+ "confidence": "high",
+ "unverified": []
+}

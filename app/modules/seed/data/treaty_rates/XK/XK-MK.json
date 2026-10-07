@@ -1,0 +1,70 @@
+{
+ "a": "XK",
+ "b": "MK",
+ "treaty_name": "Agreement between the Republic of Kosovo and the Republic of Macedonia (North Macedonia) for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2011)",
+ "signed": "2011-04-06",
+ "entry_into_force": "2012-04-13",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-north-macedonia.pdf",
+ "eif_quote": "[MK UJP list, via map.json] Kosovo|10/2012|13.04.2012|01.01.2013 || [MK MLI position, via map.json] Kosovo Original 06-04-2011 13-04-2012 || [Neni 28(1)] Marrëveshja do të hyjë në fuqi në datën e pranimit të njoftimit të fundit.",
+ "source_title": "ATK: Marrëveshje ndërmjet Republikës së Kosovës dhe Republikës së Maqedonisë (signed Albanian text, image scan read visually)",
+ "source_url": "https://www.atk-ks.org/wp-content/uploads/2017/08/METD-KS-Maqedonia.2-23.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 për qind të shumës bruto të dividendave nëse pronari përfitues është një kompani që zotëron direkt të paktën 25 për qind të kapitalit të kompanisë paguese të dividendave;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 për qind të shumës bruto të dividendave në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, interesi i tillë mund të tatohet edhe në Shtetin kontraktues ku ai krijohen dhe në përputhje me ligjet e këtij Shteti, por, kur pronari përfitues i interesit është një rezident i Shtetit tjetër kontraktues, tatimi i zbatuar nuk duhet të kalojë 10 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto tantiema mund të tatohen gjithashtu në Shtetin kontraktues ku krijohen dhe në përputhje me ligjet e këtij Shteti, por nëse pronari përfitues i tantiemave është rezident i Shtetit tjetër kontraktues, tatimi i ngarkuar në këtë mënyrë nuk duhet të kalojë 10 për qind të shumës bruto të tantiemave."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT/LOB article in treaty; MLI not applicable - Kosovo not an MLI party; North Macedonia has not ratified the MLI)",
+  "source_url": "https://www.atk-ks.org/wp-content/uploads/2017/08/METD-KS-Maqedonia.2-23.pdf",
+  "quote": ""
+ },
+ "notes": "Signed Prishtina 6 April 2011 (handwritten date on signature page, Albanian, Macedonian and English authentic; English prevails). Art. 28(2) of the Albanian text contains a drafting error (application dates refer to the year \"in which notice of termination was given\"); application from 1 Jan 2013 is taken from the North Macedonian UJP list (entry into force 13.04.2012). ATK lists in force 06.06.2011 and application 01.01.2014 (conflict). No interest exemption for governments. Kosovo is not an MLI party.",
+ "confidence": "medium",
+ "unverified": [
+  "English/Macedonian authentic texts not read (Albanian scan only)",
+  "Effective date 2013-01-01 relies on UJP list via map.json because Art. 28(2) text is defective"
+ ]
+}

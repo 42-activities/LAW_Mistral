@@ -1,0 +1,67 @@
+{
+ "a": "ME",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income (1981), applied by Montenegro",
+ "signed": "1981-11-06",
+ "entry_into_force": "1982-09-16",
+ "eif_source_url": "https://www.gov.uk/government/publications/montenegro-tax-treaties ; https://assets.publishing.service.gov.uk/media/5db96ba3ed915d1d001e6083/uk-yugoslavia_double-taxation_-_in_force.pdf",
+ "eif_quote": "[gov.uk] \"The double taxation convention with Yugoslavia entered into force on 16 September 1982. It continues to apply to Montenegro.\" || [gov.uk PDF cover] \"Entered into force 16 September 1982. Effective from 1 April 1983 for corporation tax and from 6 April 1983 for income tax and capital gains tax. Effective in Yugoslavia from 1 January 1983\" || Art. 27: \"The Convention shall enter into force on the date of the later of these notifications and shall thereupon have effect: (a) in the United Kingdom: (i) in respect of income tax and capital gains tax, for any year of assessment beginning on or after the sixth day of April in the calendar year following that in which the later notification is received; ... (b) in Yugoslavia: in respect of Yugoslavia tax, for any fiscal year beginning on or after the first day of January in the calendar year following that in which the later notification is received.\"",
+ "source_title": "UK/Yugoslavia Double Taxation Convention signed 6 November 1981 (English authentic text), gov.uk Montenegro tax treaties page",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5db96ba3ed915d1d001e6083/uk-yugoslavia_double-taxation_-_in_force.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner thereof is a company (excluding a partnership) which controls directly or indirectly at least 25 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) in all other cases, 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may also be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-united-kingdom.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (6-11-1981; Sl. list SFRJ - MU 7/1982); continues to apply to Montenegro per the UK government (gov.uk Montenegro tax treaties page) and the Montenegrin MoF list; UK lists \"Yugoslavia (Montenegro)\" in its MLI position. The 5% dividend tier requires control of at least 25% of the VOTING POWER (directly or indirectly), not capital. Art. 10(3)-(4) (UK tax-credit regime for portfolio dividends paid by UK companies) is obsolete since abolition of payable tax credits - not modelled. valid_from 1983-01-01 = effect in Yugoslavia; in the UK the Convention took effect from 6 April 1983 (income tax) / 1 April 1983 (corporation tax). Art. 11/12: interest and royalties must be derived and beneficially owned by a resident of the other State. English authentic text (gov.uk) read; The Montenegrin MoF document (Serbian translation, Sl. list SFRJ - MU 7/82, https://www.gov.me/dokumenta/3f0b0165-390e-445b-97b5-216f6bfa98af) is the Montenegrin official publication; rates taken from the English text. MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 not applicable (UK reserved Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

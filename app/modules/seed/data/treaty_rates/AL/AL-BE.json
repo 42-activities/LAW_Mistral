@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital and for the prevention of fiscal evasion (2002)",
+ "signed": "2002-11-14",
+ "entry_into_force": "2004-09-01",
+ "eif_source_url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=2004-11-10&numac=2004015165",
+ "eif_quote": "(2) Cette convention entre en vigueur le 1 er septembre 2004. | Art. 29(2)(b)(i): [effect in Belgium] with respect to taxes due at source on income credited or payable on or after January 1 of the year next following the year in which the Convention enters into force; [Art. 29(2)(a)] in Albania in respect of income derived ... on or after the first day of January of the calendar year next following the year in which the Convention enters into force",
+ "source_title": "Moniteur belge 10.11.2004 (numac 2004015165): Loi du 7 juillet 2004 portant assentiment à la Convention Belgique-Albanie, English authentic text",
+ "source_url": "https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=fr&caller=summary&pub_date=2004-11-10&numac=2004015165",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2005-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Albania MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Belgium and Albania both list the Convention as a covered tax agreement; WHT effect 2021-01-01 per Art. 35(1)(a) (later MLI entry into force: Albania 2021-01-01).]"
+ },
+ "notes": "Convention in English only. Art. 12(3): technical assistance/services payments are not royalties (taxed under Art. 7/14). No interest exemption tiers in Art. 11. MLI Art. 8 not applicable (Belgium's Art. 8(4) notification does not list Albania). No amending protocol found. Albanian tatime.gov.al copy (shkarko.php?id=338) is an unsigned Albanian translation with the same rates.",
+ "confidence": "high",
+ "unverified": []
+}

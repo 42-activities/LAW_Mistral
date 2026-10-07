@@ -1,0 +1,78 @@
+{
+ "a": "MK",
+ "b": "GB",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-11-08",
+ "entry_into_force": "2007-08-08",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 29(1): This Agreement shall enter into force on the date of the later of these notifications and shall thereupon have effect: a) in Macedonia: (i) in respect of taxes withheld at source, on income derived on or after 1st January of the calendar year next following the year in which this Agreement enters into force; ... b) in the United Kingdom: (i) in respect of taxes withheld at source, for amounts paid or credited on or after 1st January of the calendar year next following the year in which this Agreement enters into force; | UJP table: Great Britain and North Ireland | 47/2007 | 08.08.2007 | 01.01.2008",
+ "source_title": "UJP English text of the MK-UK agreement and protocol (6Great Britain-Macedonia.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/6Great%20Britain-Macedonia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is a resident of the other Contracting State and is either: a) a company that has owned directly shares representing at least 25 per cent of the capital of the company paying the dividends for an uninterrupted 12-month period ending on the date the dividend is paid, or b) a pension scheme."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company that owns directly shares representing at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT; treaty has only article-specific main-purpose anti-abuse rules in Arts. 10(7), 11(8), 12(5), 20(4); MLI not applicable - North Macedonia has not ratified it)",
+  "source_url": "https://www.ujp.gov.mk/uploads/File/6Great%20Britain-Macedonia.pdf",
+  "quote": "7. No relief shall be available under this Article if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Art. 10(3)(b): dividends to a pension scheme exempt at source (not modelled). Art. 11(3): interest exempt at source if (a) paid on a loan granted or credit extended by an enterprise to another enterprise, or (b) paid to the other State, its political subdivisions, local authorities or public entities - the inter-enterprise exemption is broad but conditional on recipient/payer status, so only the 10% general cap is modelled. Article-specific main-purpose rules in Arts. 10(7), 11(8), 12(5) and 20(4).",
+ "confidence": "high",
+ "unverified": []
+}

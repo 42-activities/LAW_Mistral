@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "AL",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2004)",
+ "signed": "2004-09-13",
+ "entry_into_force": "2005-07-28",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876872168",
+ "eif_quote": "[MFA treaty database] 条约生效时间： 2005.07.28 ... 我国签署时间： 2004.09.13 签署地点： 北京 || Art. 29: This Agreement shall have effect in respect of income derived or capital owned during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.",
+ "source_title": "China MFA Treaty Database - English text of the China-Albania Agreement (2004)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876872215.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10% of the gross amount of dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but, if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest derived by the other State's Government, a local authority, the Central Bank or a financial institution wholly owned by the Government is exempt (Art. 11(3)) - government tier not modelled. No protocol. MLI covered by both (China list; Albania deposit position No.5); no Art. 35(7) reservation found in Albania's position; WHT effect 2023-01-01 per map.json (Art. 35(1)(a)). MLI Art. 8 irrelevant (single dividend rate; China's Art. 8(4) list does not include Albania). Date conflict: Albania's MLI position lists the treaty as signed 28-09-2004, whereas the treaty text ('Done at Beijing on the thirteenth day of September, 2004') and MFA/STA give 2004-09-13.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date from map.json; STA synthesised text not consulted (chinatax.gov.cn behind JS check)."
+ ]
+}

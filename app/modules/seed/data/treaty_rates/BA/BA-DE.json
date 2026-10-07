@@ -1,0 +1,70 @@
+{
+ "a": "BA",
+ "b": "DE",
+ "treaty_name": "Agreement between the Socialist Federal Republic of Yugoslavia and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital (1987), applied between Germany and Bosnia and Herzegovina by succession",
+ "signed": "1987-03-26",
+ "entry_into_force": "1988-12-03",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=5c326475-4754-4143-af4a-8013dadaea83&lang=hr",
+ "eif_quote": "[DE BMF list] Bosnien und Herzegowina 26.03.1987 1988 744 1988 372 1988 1179 1989 35 01.01.1989 (DBA mit SFR Jugoslawien gilt fort, BGBl. 1992 II S. 1196) || [BA MLI] Germany Original 26-03-1987 03-12-1988 || Art. 30(2): Ugovor stupa na snagu mjesec dana od dana razmjene instrumenata ratifikacije, a njegove odredbe se primjenjuju: a) u Saveznoj Republici Njemačkoj: ... (ii) u odnosu na poreze po obustavi na dividende, kamatu i autorske naknade koji se plaćaju prvog januara ili poslije prvog januara kalendarske godine koja slijedi kalendarsku godinu u kojoj je izvršena razmjena instrumenata ratifikacije",
+ "source_title": "BiH Ministry of Finance and Treasury: Ugovor SFRJ–SR Njemačka (Službeni list SFRJ – Međunarodni ugovori 12/88), Bosnian text",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=5c326475-4754-4143-af4a-8013dadaea83&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "Dividende koje je isplatilo društvo rezident Savezne Republike Njemačke rezidentu Jugoslavije mogu se oporezivati u Saveznoj Republici Njemačkoj. Tako razrezan porez ne može biti veći od 15 posto od bruto iznosa dividendi."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "BA",
+   "quote": "Dobit koju ostvari rezident Savezne Republike Njemačke po osnovu svog ulaganja u jugoslovensku organizaciju udruženog rada može se oporezivati u Jugoslaviji. Tako razrezan porez ne može biti veći od 15 posto od te dobiti."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata koja nastaje u državi ugovornici i isplaćena je rezidentu druge države ugovornice oporezuje se samo u toj drugoj državi, ako je taj rezident stvarni korisnik kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade mogu se oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali ako je primalac stvarni korisnik autorskih naknada, tako razrezan porez ne može biti veći od 10 posto od bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Germany did not list this treaty under the MLI)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "SFRY treaty applied by succession: German BMF list \"DBA mit SFR Jugoslawien gilt fort, BGBl. 1992 II S. 1196\"; BiH MoF lists it in force. German official text (BGBl. 1988 II S. 744) not retrieved as text; rates read from the official BiH MoF Bosnian text. Asymmetric dividend regime: Art. 11 covers only dividends paid by a German-resident company to a resident of Yugoslavia (DE source, 15%). For BiH-source profit distributions the treaty has only Art. 8 (profits of a German resident from investment in a Yugoslav organisation of associated labour, BiH tax capped at 15%); its application to dividends of present-day BiH companies is an interpretation (not confirmed by an official BiH or German notice) - flagged in unverified. Art. 22 would otherwise make \"other income\" taxable only in the residence State. Interest exclusive to residence State (Art. 12), but Protocol No. 1(a): dividends and interest derived by a resident of Yugoslavia from rights or debt-claims participating in profits (incl. silent partnerships, participating loans, profit-sharing bonds) and deductible for the German payer may be taxed in Germany under German law (no cap). Protocol No. 1(b): MFN-type undertaking to amend Arts. 8 and 11 if Germany agrees a dividend rate below 15% with another country - no official notice of such amendment found; not applied. Not MLI-covered (Germany did not notify it), no PPT. valid_from = 1 Jan 1989 (exchange of instruments in 1988; BMF list: applicable from 01.01.1989).",
+ "confidence": "medium",
+ "unverified": [
+  "Application of Art. 8 (15%) to dividends paid by modern BiH companies",
+  "German original text (BGBl. 1988 II 744) not cross-checked"
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "HR",
+ "treaty_name": "Agreement between the Federal Government of the Federal Republic of Yugoslavia and the Government of the Republic of Croatia for the avoidance of double taxation with respect to taxes on income and on capital (2001), applied by Montenegro",
+ "signed": "2001-12-14",
+ "entry_into_force": "2004-04-22",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf ; https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997 ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[HR MLI] ... Federal Republic of Yugoslavia ... Montenegro Original 14-12-2001 22-04-2004 || [HR list] Crna Gora | Dohodak i imovina | 3/03 | 03.06.2006. || [ME PU table] 13 | Hrvatska | dohodak i imovina | SCG 6/04 | 1.1.2005. || Art. 28(2): \"Уговор ступа на снагу датумом последњег од тих обавештења, а његове одредбе се примењују у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској или календарској години која почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora SRJ-Hrvatska, Službeni list SCG - Međunarodni ugovori br. 6/2004 (26.03.2004), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/77b97edc-3a5b-4b8f-a971-6a41e075ae1f (file https://wapi.gov.me/download/77b97edc-3a5b-4b8f-a971-6a41e075ae1f?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2005-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5% бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25% капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10% бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10% бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10% бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the Federal Republic of Yugoslavia (Zagreb, 14-12-2001; ratified Sl. list SCG - MU 6/2004); continued by Montenegro after independence (Croatian Tax Administration list: Crna Gora, NN-MU 3/03, applicable to Montenegro from 03.06.2006; Croatia lists it in its MLI position for Montenegro). Authentic in Serbian, Croatian and English; English prevails - Serbian text read. MLI: both list the treaty; WHT effect 2027-01-01 per map.json (Croatia made an Art. 35 taxable-period notification; calendar-year effect assumed). MLI Art. 8 not applicable (Croatia reserved Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "BA",
+ "b": "HU",
+ "treaty_name": "Convention between the Hungarian People's Republic and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1985), applied between Hungary and Bosnia and Herzegovina by succession",
+ "signed": "1985-10-17",
+ "entry_into_force": "1987-11-05",
+ "eif_source_url": "https://njt.jog.gov.hu/jogszabaly/1988-6-10-00 ; https://nav.gov.hu/ugyfeliranytu/nemzetkozi_ugyek/kettos_adoztatas/applicable-taxation-treaties ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+ "eif_quote": "[1988. évi 6. tvr.] (Az egyezmény megerősítő okiratait Belgrádban, 1987. november 5-én cserélték ki.) || Art. 28(2): Az Egyezmény a megerősítésről szóló okiratok kicserélésének napján lép hatályba és rendelkezései érvényesek lesznek a jövedelem- és a vagyonadók tekintetében minden olyan adózási évre, amely a megerősítésről szóló okiratok kicserélésének évét közvetlenül követő naptári év január 1. napján vagy az után kezdődik. || [BA MLI / HU MLI] Original 17-10-1985 03-07-1987",
+ "source_title": "Nemzeti Jogszabálytár: 1988. évi 6. törvényerejű rendelet (Hungarian text of the HU–Yugoslavia convention); BiH MoF Bosnian text and MLI combined text BiH–Hungary",
+ "source_url": "https://njt.jog.gov.hu/jogszabaly/1988-6-10-00 ; https://mft.gov.ba/Content/OpenAttachment?id=4f875ef9-c587-4092-a454-eb312dcfef94&lang=hr ; https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/Komb._tekst_BiH-Ma%C4%91arska_-_bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Az e cikk 1. bekezdésében említett osztalék abban a Szerződő Államban is, amelyben az osztalékot fizető társaság illetőséggel bír, ennek az Államnak a jogszabályai szerint megadóztatható, de az így megállapított adó nem haladhatja meg az osztalék bruttó összegének 10 százalékát, ha az osztalék kedvezményezettje egy társaság (de nem személyi társaság)."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. A kamat, amely az egyik Szerződő Államból származik és amelyet a másik Szerződő Államban illetőséggel bíró személynek fizetnek, csak ebben a másik Államban adóztatható."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Az e cikk 1. bekezdésében említett licencdíj megadóztatható abban a Szerződő Államban is, amelyből származik, ennek az Államnak a jogszabályai szerint, de az így megállapított adó nem halaldhatja meg a licencdíj bruttó összegének 10 százalékát."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/Komb._tekst_BiH-Ma%C4%91arska_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY treaty applied by succession: Hungarian NAV list \"Bosnia and Herzegovina | 1985. X. 17. | Decree Law 6 of 1988 | from the date of the state recognition\"; Hungary MLI position lists it for BiH. IMPORTANT: the dividend cap of 10% applies only where the recipient is a company (not a partnership); the treaty sets NO source-State limit for dividends received by individuals or partnerships (domestic rate applies) - the single 10% entry above is the company-recipient tier only, there is no general tier. Art. 10(3): \"dividends\" excludes profits of a Hungarian resident from investment in a Yugoslav organisation of associated labour. EIF conflict: Hungarian promulgating decree states instruments exchanged in Belgrade on 5 Nov 1987 (EIF on exchange date per Art. 28(2)) whereas both MLI lists and map.json give 03-07-1987; the decree date is used; WHT effect 1988-01-01 in either case (decree: applicable from 1 Jan 1988). The BiH MoF Bosnian translation names Bucharest as the place of exchange - a translation error (HU original: Belgrade). MLI WHT effect 2022-01-01 (Hungary MLI in force 2021-07-01). MLI Art. 8 not applicable (BiH reserved).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 1987-11-05 (decree) vs 1987-07-03 (MLI lists)"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "a": "XK",
+ "b": "LT",
+ "treaty_name": "Agreement between the Republic of Lithuania and the Republic of Kosovo for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance, with Protocol (2021)",
+ "signed": "2021-01-25",
+ "entry_into_force": "2021-11-30",
+ "eif_source_url": "https://www.atk-ks.org/marreveshjet/marreveshjet-nderkombetare/ ; https://web.archive.org/web/20260228085726/https://www.vmi.lt/evmi/tarptautines-dvigubo-apmokestinimo-isvengimo-sutartys",
+ "eif_quote": "[ATK list] Lituania Shkarko marrëveshjen 30.11.2021 03.01.2022 || [LT VMI list] Kosovas | 2021 Nr. 23664 (ENG pdf) | 2022-01-01 || [Art. 30(2)(a)] in respect of taxes withheld at source, on income derived on or after the first day of January in the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "VMI (Lithuanian State Tax Inspectorate) English PDF of the Lithuania-Kosovo Agreement (scanned signed copy), Wayback Machine copy captured 2025-08-08 (live vmi.lt returns HTTP 403)",
+ "source_url": "https://web.archive.org/web/20250808185530id_/https://www.vmi.lt/evmi/documents/20142/1553616/KOSOVO.pdf/6d4bbfcb-e23e-cb6d-9a87-b821e599925a?t=1737108092107",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2022-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 29 (Limitation of Benefits - principal purpose test)",
+  "source_url": "https://web.archive.org/web/20250808185530id_/https://www.vmi.lt/evmi/documents/20142/1553616/KOSOVO.pdf/6d4bbfcb-e23e-cb6d-9a87-b821e599925a?t=1737108092107",
+  "quote": "Notwithstanding any other provisions of this Agreement, a benefit under this Agreement, shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Interest: Art. 11(3) \"interest arising in a Contracting State and beneficially owned by a person, other than an individual, who is a resident of the other Contracting State shall be taxable only in that other Contracting State\" - recipient-type condition kept in notes; the 10% cap (Art. 11(2)) is the general tier and in practice applies to individuals. Signed at Stockholm on 25 January 2021 (handwritten date on the scanned signature page; map.json had no signature date). Lithuanian, Albanian and English texts authentic; English prevails. Entry into force 30.11.2021 from ATK list only (Lithuanian e-TAR notice not reachable: e-tar.lt and vmi.lt return HTTP 403, not bypassed); WHT effect 1 Jan 2022 per Art. 30 and VMI list (ATK shows 03.01.2022). ATK summary table: 0/15%, 10%, 0% - consistent (ATK does not show the non-individual interest exemption). Protocol concerns Arts. 6, 7, 13 only. Kosovo is not an MLI party; treaty-own PPT Art. 29.",
+ "confidence": "medium",
+ "unverified": [
+  "Entry-into-force date 2021-11-30 from ATK only",
+  "Signature date read from handwriting on scan (25 January 2021)",
+  "Source is a Wayback copy of the VMI PDF"
+ ]
+}

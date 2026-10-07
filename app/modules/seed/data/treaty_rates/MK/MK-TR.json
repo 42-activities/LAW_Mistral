@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Republic of Turkey for the avoidance of double taxation with respect to taxes on income (1995)",
+ "signed": "1995-06-16",
+ "entry_into_force": "1996-11-28",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28: This Agreement shall enter into force on the day when the latter of these notifications has been received and its provisions shall have effect in both Contracting states for taxes with respect to every taxable year beginning on or after day of January in the calendar year following that in which the Agreement enters into force. | UJP table: Turkey | 45/1995 | 28.11.1996 | 01.01.1997",
+ "source_title": "UJP English text of the MK-Turkey agreement (32Turkey.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/32Turkey.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (excluding partnership) which holds directly at least 25 per cent of the capital of the company paying dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is beneficial owner of the interest the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 10 (third paragraph, numbered '3'): branch profits of a PE may, after Article 7 taxation, be taxed on the remaining amount at a rate not exceeding the general dividend rate (branch profits tax, not modelled). Dividend definition includes income from investment funds and trusts. Art. 11(3): interest derived by the other Government, local authority or Central Bank exempt at source (not modelled).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "SA",
+ "treaty_name": "Convention between the Government of the Kingdom of Saudi Arabia and the Government of the Republic of India for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, with Protocol (2006; modified by MLI)",
+ "signed": "2006-01-25",
+ "entry_into_force": "2006-11-01",
+ "eif_source_url": "https://zatca.gov.sa/en/_LAYOUTS/15/GAZTInternet/PortalHandler.ashx?op=LoadItems&listUrl=/en/RulesRegulations/Agreements/Pages&viewName=Home",
+ "eif_quote": "Convention between the government of the republic of India and the government of the kingdom of Saudi Arabia for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 25/1/2006 and entered into force on 1/11/2006.",
+ "source_title": "ZATCA (Saudi Zakat, Tax and Customs Authority): English text of the Saudi Arabia-India Convention and Protocol (India.pdf)",
+ "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Agreements/Documents/India.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-saudi-arabia-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+  "quote": "[SA MLI position] Article 7 - Prevention of Treaty Abuse: No Reservation || [IN MLI position] 67 Convention between the Saudi Arabia Original 25-01-2006 01-11-2006 || [SA MLI] 15 CONVENTION BETWEEN THE ... India Original 25-01-2006 01-11-2006"
+ },
+ "notes": "Art. 28(3): effective in India for income of fiscal years beginning on/after 1 April following the year of entry into force (2007-04-01, valid_from); in Saudi Arabia for WHT on amounts paid/credited on/after 2007-01-01. Art. 11 covers 'income from debt-claims' (interest). Art. 11(3): exemption at source for Government/political subdivisions/local authorities, Reserve Bank of India, Exim Bank of India, National Housing Bank, Saudi Arabian Monetary Agency, and financial institutions wholly owned and controlled by the other Government (not modelled). No fees-for-technical-services article (Protocol para 15 only provides for a review). No MFN clause on WHT rates (Protocol para 9 review clause concerns Art. 7(3) deductions only). MLI: both list the treaty; latest MLI entry into force 2020-05-01 (Saudi Arabia) -> MLI WHT provisions from 2021-01-01 on the Saudi side and 2021-04-01 on the Indian side (India's art. 35(2) 'taxable period' choice; ppt.from). India chose SLOB but Saudi Arabia did not -> PPT only. Single dividend rate, so MLI art. 8 not relevant.",
+ "confidence": "high",
+ "unverified": [
+  "Saudi MLI position PDF is partly scanned; absence of SLOB choice/35(7) reservation read from the partially legible text"
+ ]
+}

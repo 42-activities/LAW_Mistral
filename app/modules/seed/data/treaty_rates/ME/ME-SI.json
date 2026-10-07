@@ -1,0 +1,80 @@
+{
+ "a": "ME",
+ "b": "SI",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Government of the Republic of Slovenia for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (2003), applied by Montenegro",
+ "signed": "2003-06-11",
+ "entry_into_force": "2003-12-31",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[SI MLI consolidated] ... Serbia and Montenegro (Montenegro) Original 11-06-2003 31-12-2003 || [SI list] SRBIJA / ČRNA GORA | MP, št. 30/03 | 1. 1. 2004 || [ME PU table] 32 | Slovenija | dohodak i imovina | SCG 7/03 | 1.1.2004. || Art. 29(2): \"Овај уговор ступа на снагу датумом пријема последњег од тих обавештења, а његове одредбе се примењују у односу на порезе на доходак који је остварен и на имовину која се поседује у пореској години која почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Slovenija s Protokolom, Službeni list SCG - Međunarodni ugovori br. 7/2003 (10.10.2003), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/52994a8b-8c96-4691-99f1-1703cfa2d543 (file https://wapi.gov.me/download/52994a8b-8c96-4691-99f1-1703cfa2d543?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1) as modified by MLI Art. 8(1)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[Art. 10(2)(1)] 1) 5 одсто бруто износа дивиденди ако је стварни власник компанија која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде; [MLI Art. 8(1)] ... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 10 одсто бруто износа ауторских накнада наведених у подставу 2) става 3. овог члана."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (Ljubljana, 11-06-2003; ratified Sl. list SCG - MU 7/2003); continued by Montenegro after independence (Slovenian FURS list \"Srbija / Črna Gora\", MP 30/03; Slovenia added \"Serbia and Montenegro (Montenegro)\" to its MLI list by notification of 15-09-2026). Royalties: 5% cap for copyright royalties on literary, artistic or scientific works incl. films and TV/radio tapes (Art. 12(2)(1)/(3)(1)) - not modelled; 10% for patents, trademarks, designs, secret formulas, equipment and know-how. Interest exempt when derived and beneficially owned by the other State's government, political subdivision or local authority, or its National/Central Bank (Art. 11(3)) - not modelled. Protocol: the States will renegotiate Arts. 11(2)/12(2)(2) if either lowers its domestic interest/royalty rate below the treaty rate - no automatic change. Authentic in Serbian, Slovenian and English (English prevails) - Serbian text read. MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 365-day holding period applies to the 5% tier from 2027-01-01: Montenegro (Art. 8(4) list No.34 Slovenia, Article 10(2)(1)) and Slovenia (additional notification No.58 Serbia and Montenegro (Montenegro), Article 10(2)(1), received 15-09-2026) notified the same provision; before 2027-01-01 no holding period (two entries).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Kingdom of Saudi Arabia for the Avoidance of Double Taxation and the Prevention of Tax Evasion with respect to Taxes on Income and on Capital (2006), as modified by the MLI",
+ "signed": "2006-01-23",
+ "entry_into_force": "2006-09-01",
+ "eif_source_url": "http://web.archive.org/web/20211130022713/http://www.chinatax.gov.cn/n810341/n810770/c1153846/5027070/files/b227264b362d4f00931c858d24c73a68.pdf",
+ "eif_quote": "Art. 28: \"The Agreement shall enter into force as of the first day of the next month following that month in which the last notice was given. 2. The provisions of this Agreement shall apply: a) in respect of taxes withheld at source, to amounts paid on or after 1st January in any calendar year next following that in which the Agreement enters into force;\" (EIF date 2006-09-01 from STA list via map.json)",
+ "source_title": "STA English text of the 2006 China-Saudi Arabia Agreement (Wayback copy of chinatax.gov.cn PDF)",
+ "source_url": "http://web.archive.org/web/20211130022713/http://www.chinatax.gov.cn/n810341/n810770/c1153846/5027070/files/b227264b362d4f00931c858d24c73a68.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (income from debt-claims)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such income may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the income from debt-claims, the tax so charged shall not exceed 10 percent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: Art. 10(3) - dividends beneficially owned by the other State's Government, its institutions or wholly government-owned entities are taxable only in the residence State (not modelled). Interest is styled 'income from debt-claims' (Art. 11); Art. 11(3) exempts such income derived by the Government, local authorities, Central Bank or wholly government-owned financial institutions, or on debt-claims indirectly financed by them. Single 5% dividend rate - MLI Art. 8 irrelevant. MLI WHT effect from 2023-01-01 per map.json (SA MLI EIF 2020-05-01, CN 2022-09-01; SAT Announcement 2022 No.16).",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text not read; PPT quote is MLI Art. 7(1) wording"
+ ]
+}

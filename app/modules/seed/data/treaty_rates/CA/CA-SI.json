@@ -1,0 +1,78 @@
+{
+ "a": "CA",
+ "b": "SI",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Slovenia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2000; modified by MLI)",
+ "signed": "2000-09-15",
+ "entry_into_force": "2002-08-12",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.55/FullText.html",
+ "eif_quote": "Income Tax Conventions Implementation Act, 2001, Part 1: \"[Note: Convention in force August 12, 2002, see Canada Gazette Part I, Volume 136, page 2474.]\"",
+ "source_title": "Income Tax Conventions Implementation Act, 2001 (S.C. 2001, c. 30), Schedule 1 - Canada-Slovenia Convention (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.55/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i) (as modified by MLI art. 8(1))",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "CA",
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company that: (i) controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends where that company is a resident of Canada; [MLI art. 8(1): 365-day holding period, effective for WHT from 2020-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii) (as modified by MLI art. 8(1))",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "SI",
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company that: (ii) holds directly at least 25 per cent of the capital of the company paying the dividends where that company is a resident of Slovenia; [MLI art. 8(1): 365-day holding period, effective for WHT from 2020-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29(2): Convention entered into force 60 days after exchange of ratification instruments (EIF 2002-08-12; exchange therefore in 2002) and has effect for tax withheld at source on amounts paid or credited on or after 1 January of the following year (2003-01-01). Dividend 5% tiers are direction-specific: Canadian-resident payer (excluding non-resident-owned investment corporations) - company controlling directly or indirectly >=10% of the voting power (voting test recorded as ownership_threshold 10); Slovenian-resident payer - company holding directly >=25% of the capital. MLI art. 8 365-day holding applies: Canada notified \"69 Slovenia Article 10(2)(a)(i) and (ii)\", Slovenia notified \"9 Canada Article 10(2)(a)(i) and (ii)\"; effective for WHT 2020-01-01. Not modelled: Art. 11(3) exemptions (government debt, EDC / Slovenian Export Company loans, pension organisations); branch tax.",
+ "confidence": "high",
+ "unverified": []
+}

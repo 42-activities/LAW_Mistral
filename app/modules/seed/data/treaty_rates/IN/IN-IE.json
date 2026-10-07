@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "IE",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of Ireland for the avoidance of double taxation and for the prevention of fiscal evasion with respect to taxes on income and capital gains (2000; modified by MLI)",
+ "signed": "2000-11-06",
+ "entry_into_force": "2001-12-26",
+ "eif_source_url": "https://web.archive.org/web/20180121111802/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000035.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Government of Ireland ... has entered into force on 26th December, 2001, thirty days after the receipt of the later of the notifications by both the Contracting States to each other of the completion of the procedure required by their respective laws, as required by Article 28 of the said Convention. ... Notification : No. GSR 105(E) [45/2002 (F. No. 503/6/99-FTD)], dated 20-2-2002.",
+ "source_title": "Income Tax Department (India), India-Ireland DTAA with Notification GSR 105(E)/2002 (Wayback copy of official incometaxindia.gov.in page, captured 2018-01-21)",
+ "source_url": "https://web.archive.org/web/20180121111802/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000035.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties or fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective (Art. 28(3)): Ireland, corporation tax financial years beginning on or after 1 January 2002 and income tax/CGT years of assessment from 6 April 2002; India, fiscal years beginning on or after 1 April 2002. Not modelled: Art. 11(3) exemption for interest derived by, or on loans extended/guaranteed/insured by, the Government, political sub-divisions, local authorities, central banks and listed institutions; 10% Art. 12 cap also covers FTS. No MFN clause found. CONFLICT on entry into force (map.json): India 2001-12-26 (used), Ireland 2001-12-27. MLI: covered by both; MLI WHT provisions effective 2020-01-01 on the Irish side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2020. Ireland chose Art. 7(4) only (no SLOB / Art. 7(7)) - PPT only.",
+ "confidence": "high",
+ "unverified": [
+  "Indian-side MLI date 2020-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

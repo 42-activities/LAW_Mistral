@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "KE",
+ "treaty_name": "Agreement between Canada and the Republic of Kenya for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1983, with Protocol; modified by MLI)",
+ "signed": "1983-04-27",
+ "entry_into_force": "1987-01-08",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102301",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 1987/20): \"Entry into Force 08 January 1987\"; Signature \"Ottawa - 27 April 1983\"",
+ "source_title": "Canada Treaty Series 1987/20 - Canada-Kenya Agreement and Protocol (treaty-accord.gc.ca official text)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=102301&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)(a) (as modified by MLI art. 8(1))",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "15 per cent of the gross amount of the dividends if the recipient is a company which owns at least 10 per cent of the voting shares of the company paying the dividends during the period of six months immediately preceding the date of payment of the dividends; [MLI art. 8(1): 365-day holding period applies in place of the 6-month period, effective for WHT from 2026-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)(b)",
+   "valid_from": "1987-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "25 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article XI(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State; but the tax so charged shall, provided that the interest is taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State; but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-kenya-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. XXX: effective for tax withheld at source on amounts paid or credited on or after 1 January of the year in which the Agreement enters into force (EIF 1987-01-08 -> 1987-01-01). Dividend 15% tier: company owning at least 10% of the voting shares \"during the period of six months immediately preceding the date of payment\" (treaty holding period 183 days); MLI art. 8 applies to Art. X(2)(a) (Canada notified \"40 Kenya Article X(2)(a)\", Kenya notified \"1 Canada Article 10 (2)(a)\"), so from 2026-01-01 the 365-day period applies (MLI Art. 8(2): in place of the treaty minimum holding period). Before 2026-01-01: 6-month holding. Interest and royalty caps (15%) apply only \"provided that the interest/royalties is taxable in the other Contracting State\" (recipient-taxation condition, recorded only here). Protocol para. 2: if Kenya later concluded a treaty with Belgium, Germany, France, Italy, Japan, UK or US providing a HIGHER Kenyan rate on substantial-holding dividends, the cap becomes the lesser of 20% and that rate - conditional increase, not modelled. Not modelled: Art. XI(3) exemption for interest paid to the other government, subdivisions, central bank or wholly-owned exempt agencies; Art. X(5) branch taxes (Canada 15%, Kenya 7.5%); Art. XIV management/professional fees. MLI: PPT and Art. 8 effective for WHT from 2026-01-01 (later MLI entry into force 2025-05-01 for Kenya).",
+ "confidence": "high",
+ "unverified": []
+}

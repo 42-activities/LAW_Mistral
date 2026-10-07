@@ -68,3 +68,13 @@ Oman pairs (IR/SD/SY/YE–OM) load on the Oman Tax Authority "applies from" date
 LY–SY and SD–LY lack text. Each file's `unverified` lists the sources searched (2026-10-06). The
 Oman files' effective-date articles were checked against Oman Tax Authority PDFs (Wayback). Leads:
 Iraqi Legal Database, Tunisian JORT ratification law, Oman Official Gazette (qanoon.om).
+
+## Batch-10 network (NO, CA, AL, BA, ME, MK, XK, IN, CN)
+
+Maps MAP4 A–D (`treaties_merged_batch10.json`) and rates for 361 in-force treaties. The loader now
+keeps today's tier plus any later-starting tier (end-dated), so CN–NO's 2023 treaty (applies from
+2027) does not hide the 1986 rates. Curated: NO–AT 15% non-company tier dropped (company dividends
+exempt); where a source State's official rate table is higher than the treaty text (MK–IT, ME–CH
+royalties; XK–IE reduced dividends; XK–MT interest/royalties) the higher figure is stored; IN–LY,
+IN–EG, IN–GR are `no_cap`. BA–IR has no confirmed entry into force (not loaded). Rebuild order adds
+this folder last.

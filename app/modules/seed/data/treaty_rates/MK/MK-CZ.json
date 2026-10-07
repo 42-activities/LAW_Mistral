@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "CZ",
+ "treaty_name": "Convention between the Republic of Macedonia and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2001)",
+ "signed": "2001-06-21",
+ "entry_into_force": "2002-06-17",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 27(1): This Convention shall enter into force on the date of the later of these notifications and its provisions shall have effect: a) in respect of taxes withheld at source, to income paid or credited on or after 1st January in the calendar year next following that in which the Convention enters into force; | UJP table: Czech Republic | 7/2002 | 17.06.2002 | 01.01.2003",
+ "source_title": "UJP English text of the MK-Czech Republic convention (39Czech.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/39Czech.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Replaces the 1981 Czechoslovakia-Yugoslavia convention in MK-CZ relations (Art. 27(2)). Royalty definition includes equipment rental.",
+ "confidence": "high",
+ "unverified": []
+}

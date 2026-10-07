@@ -1,0 +1,81 @@
+{
+ "a": "ME",
+ "b": "DK",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Denmark for the avoidance of double taxation with respect to taxes on income and capital (1981), applied by Montenegro",
+ "signed": "1981-03-19",
+ "entry_into_force": "1982-01-10",
+ "eif_source_url": "https://info.skat.dk/data.aspx?oid=2083297&vid=221020 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[SKAT] Jugoslavien ... DBO | 19.03.1981 ... 10.01.1982 ... Montenegro er det eneste land, der er omfattet af den jugoslaviske DBO. || [DK MLI] Yugoslavia (Montenegro) Original 19-03-1981 10-01-1982 || [ME PU table] 9 | Danska | dohodak i imovina | SFRJ 15/81 | 1.1.1982. || Art. 27(2): \"This Convention shall enter into force on the date of the latter of the notifications referred to in paragraph 1 of this Article and its provisions shall have effect a) in Yugoslavia in respect of income derived and capital owned in any calendar year beginning on or after the first day of January in the year following that in which the last notification has been exchanged, b) in Denmark i) in respect of income derived in the calendar year following the year in which the latter of the notifications referred to in paragraph 1 of this Article is given and subsequent years\"",
+ "source_title": "Sporazum SFRJ-Danska (Službeni list SFRJ - Međunarodni ugovori br. 15/1981, 18.12.1981), bilingual English authentic text and Serbian translation (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/325555cf-9b53-4e71-9b5b-fbd60627d80c (file https://wapi.gov.me/download/325555cf-9b53-4e71-9b5b-fbd60627d80c?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1983-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the recipient is a company (excluding partnership) which holds directly at least 25 per cent of the voting power of the company paying the dividends,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI Art. 8(1)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[Art. 10(2)(a)] a) 5 per cent of the gross amount of the dividends if the recipient is a company (excluding partnership) which holds directly at least 25 per cent of the voting power of the company paying the dividends, [MLI Art. 8(1)] ... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1983-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) in all other cases, 15 per cent of the gross amount of the dividends"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1983-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1983-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However such royalties may be taxed in the Contracting State in which they arise, and according to the laws of that State if they are so taxed the tax charged in the Contracting State in which the royalties arise shall not exceed 10 per cent of the gross amount of the royalties"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-denmark-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Belgrade, 19-03-1981; Sl. list SFRJ - MU 15/1981); Denmark applies it to Montenegro only (SKAT: \"Montenegro er det eneste land, der er omfattet af den jugoslaviske DBO\"); Denmark lists \"Yugoslavia (Montenegro)\" in its MLI position. Authentic in English only - English text read from the bilingual gazette scan. The 5% tier requires a direct holding of at least 25% of the VOTING POWER. Rate limits apply to the \"recipient\" (no beneficial-owner wording). Start of application: under Art. 27(2) provisions apply from the calendar year following the year of the last notification; with entry into force 10-01-1982 (SKAT / MLI lists) this gives 1 January 1983, while the Poreska uprava table shows 1.1.1982 (conflict; historical only). MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 365-day holding period recorded for the 5% tier from 2027-01-01: Montenegro notified \"Article 10(2)(a)\" (No.12 Denmark) and Denmark notified \"Article 10(2)\" (No.37 Yugoslavia (Montenegro)) - same provision, different reference granularity.",
+ "confidence": "high",
+ "unverified": [
+  "MLI Art. 8 match relies on Denmark notifying \"Article 10(2)\" vs Montenegro \"Article 10(2)(a)\"",
+  "Start-of-application year (1983 computed vs 1982 in Poreska uprava table)"
+ ]
+}

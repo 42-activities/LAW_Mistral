@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2012)",
+ "signed": "2012-03-20",
+ "entry_into_force": "2015-02-20",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 30: This Agreement shall enter into force on the date of the later of these notifications and its provisions shall have effect: a) in respect of taxes withheld at source, to income paid or credited on or after 1st January in the calendar year next following that in which the Agreement enters into force; | UJP table: Kuwait | 115/2012 | 20.02.2015 | 01.01.2016",
+ "source_title": "UJP scanned signed English text of the MK-Kuwait agreement (18Kuwait.pdf), read from page images pp. 10-12, 21",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/18Kuwait.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State who is the beneficial owner of such dividends shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State paid to a resident of the other Contracting State who is the beneficial owner of such interest shall be taxable only in that other Contracting State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 15% of the gross amount of such royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividends and interest taxable only in the residence State. Royalty cap 15% exceeds North Macedonia's domestic 10% WHT, so domestic rate is the effective limit in MK. Art. 28 (Miscellaneous Rules) preserves domestic reliefs; no PPT clause seen (Arts. 26-30 inspected).",
+ "confidence": "high",
+ "unverified": []
+}

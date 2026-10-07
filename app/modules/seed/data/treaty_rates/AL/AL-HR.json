@@ -1,0 +1,59 @@
+{
+ "a": "AL",
+ "b": "HR",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital (1994)",
+ "signed": "1994-12-02",
+ "entry_into_force": "1997-06-05",
+ "eif_source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/full/1995_12_13_66.html",
+ "eif_quote": "Article 28: This Agreement shall enter into force on the date of receipt of the latest notification through diplomatic channels ... This Agreement shall have effect as respects income derived and capital owned during the taxable year beginning on or after the 15th [sic; Croatian text: \"l. siječnja\"] day of January in the calendar year next following that in which this Agreement enters into force. [EIF 1997-06-05 from map.json]",
+ "source_title": "Narodne novine – Međunarodni ugovori 13/1995, Zakon o potvrđivanju Ugovora ... između Vlade Republike Hrvatske i Vlade Republike Albanije (English authentic text + Croatian translation)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/full/1995_12_13_66.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10% of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest, may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both list the treaty; WHT effect 2022-01-01 per map.json (later MLI EIF Croatia 2021-06-01)]"
+ },
+ "notes": "Art. 11(3): interest derived by the other Government, a local authority or the Central Bank exempt at source — not modelled. MLI Art. 8 not applicable (Croatia reserved 8(3)(a)). Application-date conflict: Croatian list gives 01.01.1998, Albanian DPT list 01.01.1999; Art. 28 with EIF 1997-06-05 gives 1 Jan 1998 (used). English Art. 28 reads \"15th day of January\" (apparent OCR/print error; Croatian text \"1. siječnja\"). English is the only authentic language; tatime copy (id 357) is a scan without text layer and was not read. Signature date per map.json; the NN text leaves place/date blank.",
+ "confidence": "high",
+ "unverified": [
+  "EIF 1997-06-05 and signature date 1994-12-02 from map.json/NN header, not from an exchange-of-notes notice",
+  "No HR–AL synthesised MLI text located"
+ ]
+}

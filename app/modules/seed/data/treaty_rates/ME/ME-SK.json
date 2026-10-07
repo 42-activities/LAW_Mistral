@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "SK",
+ "treaty_name": "Agreement between the Federal Republic of Yugoslavia and the Slovak Republic for the avoidance of double taxation with respect to taxes on income and on capital (2001), applied by Montenegro",
+ "signed": "2001-02-26",
+ "entry_into_force": "2001-10-15",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovak-republic-instrument-deposit.pdf ; https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/zoznam-platnych-ucinnych-zmluv-zamedzeni-dvojiteho-zdanenia/ ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[SK MLI] The Federal Republic of Yugoslavia (Montenegro) Original 26-02-2001 15-10-2001 || [SK list] 12. | Čierna Hora | 15.10.2001 | 269/2002 || [ME PU table] 31 | Slovačka | dohodak i imovina | SRJ 4/01 | 1.1.2002 || Art. 29(2): \"Уговор ступа на снагу разменом инструмената потврђивања, а његове одредбе се примењују у односу на порезе на доходак и на имовину за сваку пореску годину која почиње првог јануара или после првог јануара календарске године која следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Ugovor SRJ-Slovačka (Službeni list SRJ - Međunarodni ugovori 4/2001), Serbian Cyrillic text, gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/f202b5e2-bc90-4431-b76d-1d7001dc8922 (file https://wapi.gov.me/download/f202b5e2-bc90-4431-b76d-1d7001dc8922?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник те камате, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник тих ауторских накнада, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovak-republic-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the Federal Republic of Yugoslavia (26-02-2001; Sl. list SRJ - MU 4/2001); it replaced the 1981 SFRY-Czechoslovakia agreement between FRY and Slovakia (Art. 29(3)); continued by Montenegro as successor State (Slovak MoF list: \"Čierna Hora\", in force 15.10.2001, Coll. 269/2002; Slovakia lists \"The Federal Republic of Yugoslavia (Montenegro)\" in its MLI position). Authentic in Serbian, Slovak and English (English prevails) - Serbian text read. MLI: both list the treaty; WHT effect 2027-01-01 per map.json (Slovakia made an Art. 35(1)(b)-type taxable-period notification; calendar-year effect assumed). MLI Art. 8 not applicable (Slovakia did not notify this treaty under Art. 8(4)).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

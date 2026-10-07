@@ -1,0 +1,67 @@
+{
+ "a": "IN",
+ "b": "HR",
+ "treaty_name": "Agreement between the Government of the Republic of Croatia and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2014, with Protocol; modified by MLI)",
+ "signed": "2014-02-12",
+ "entry_into_force": "2015-02-06",
+ "eif_source_url": "https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997",
+ "eif_quote": "Indija | Dohodak | 4/14 | 01.01.2016. || [India MLI position fn] India understands that Croatia considers that the treaty entered into force on 11.02.2015",
+ "source_title": "Narodne novine - Međunarodni ugovori 4/2014: Zakon o potvrđivanju Ugovora između Vlade RH i Vlade Republike Indije o izbjegavanju dvostrukog oporezivanja (Croatian text)",
+ "source_url": "https://narodne-novine.nn.hr/clanci/medunarodni/2014_07_4_39.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 posto bruto-iznosa dividendi ako je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 10 posto kapitala društva koje isplaćuje dividendu;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2016-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 posto bruto-iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, takva kamata može se oporezivati i u državi ugovornici u kojoj je nastala, i to prema propisima te države, ali ako je primatelj stvarni korisnik kamate , tako razrezan porez ne smije biti veći od 10 posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, takve naknade za autorska prava ili naknade za tehničke usluge mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema pravu te države, ali ako je primatelj stvarni korisnik naknada za autorska prava ili naknada za tehničke usluge, tako razrezan porez ne smije biti veći od 10 posto bruto-iznosa naknada za autorska prava ili naknada za tehničke usluge."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effect (Art. 29(3)): Croatia - income arising in tax years beginning on or after 1 January 2016; India - fiscal years beginning on or after 1 April 2016. CONFLICT on entry into force: India 2015-02-06 vs Croatia 2015-02-11 (map value kept). 10% royalty cap also covers fees for technical services. Interest exempt at source for Government/political subdivision/local authority and central bank or other agreed bank/government financial institution (Art. 11(3)) - not modelled. Protocol (ad Arts 10-13): a company resident in a Contracting State in which non-residents hold directly or indirectly more than 50% of the share capital is not entitled to treaty relief on dividends, interest, royalties and capital gains unless it carries on substantial business activities there (or competent authorities agree under Art. 25) - a limitation-on-benefits condition, not modelled as a tier. MLI Art. 8 (365-day holding for Art. 10(2)(a)): India notified Art. 10(2)(a) but Croatia reserved the entirety of Art. 8 (Art. 8(3)(a)) - so no holding period applies. Croatia made no Art. 7(17)(c) SLOB choice, so only the PPT applies. MLI WHT effect 2022-01-01 per map.json (Croatia MLI in force 2021-06-01); Indian side applies MLI WHT provisions from the following 1 April (2022-04-01; India chose Art. 35(2) 'taxable period'). No MFN clause.",
+ "confidence": "high",
+ "unverified": []
+}

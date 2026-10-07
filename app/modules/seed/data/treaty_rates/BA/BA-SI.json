@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "SI",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and the Republic of Slovenia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-05-16",
+ "entry_into_force": "2006-11-20",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovenia-consolidated.pdf ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Slovenija_-_bos._verzija_.pdf",
+ "eif_quote": "[SI list] BOSNA IN HERCEGOVINA | MP, št. 19/06 | 1. 1. 2007 (drugi davki) 1. 2. 2007 (davki na viru) | za davke pri viru 1. 1. 2021 || [SI MLI] Original 16-05-2006 20-11-2006 || Art. 28: Ovaj Sporazum stupa na snagu na dan primanja posljednjeg obavještenja. (2) Ovaj Sporazum će se primjenjivati: a) na poreze zadržane na izvoru, na dohodak koji je ostvaren na dan ili nakon prvog dana trećeg mjeseca nakon datuma na koji je ovaj Sporazum stupio na snagu;",
+ "source_title": "Službeni glasnik BiH – Međunarodni ugovori 13/2006 (6.11.2006): Odluka o ratifikaciji Sporazuma BiH–Slovenija; BiH MoF MLI combined text",
+ "source_url": "http://www.sluzbenilist.ba/page/PdfDownload?BrojIzdanja=13&NivoIzdavanja_FK=7&GodinaIzdanja=2006 ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Slovenija_-_bos._verzija_.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procenata bruto iznosa dividendi ako je primalac dividendi kompanija koja posjeduje direktno najmanje 25 procenata imovine kompanije koja isplaćuje dividende."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-02-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procenata bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-02-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, kamate se takođe mogu oporezivati u Državi ugovornici u kojoj nastaju i u skladu sa zakonima te države, ali, ako je stvarni vlasnik kamate rezident druge Države ugovornice, tako utvrđen porez ne može prelaziti 7 procenata bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-02-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezivati i u Državi ugovornici u kojoj nastaju u skladu sa zakonima te države, ali, ako je stvarni vlasnik tih autorskih naknada rezident druge ugovorne države, tako utvrđeni porez ne može biti veći od 5 procenata bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Slovenija_-_bos._verzija_.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Signed in Ljubljana in English (authentic). Interest Art. 11(3): exempt where paid by the Government/political unit/local authority/central bank of the source State, paid to the Government/political unit/local authority/central bank of the other State, or paid on a loan granted/guaranteed/insured by the authorised export-credit institution. WHT provisions apply from the first day of the third month after EIF (20-11-2006) = 2007-02-01 (Slovenian list: \"1. 2. 2007 (davki na viru)\"). The BiH MoF combined text has a garbled Art. 10(2) chapeau, so dividend quotes are from the gazette (legacy font transliterated). MLI Art. 8 not applicable (BiH reserved the entirety of Art. 8 under Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not cross-checked"
+ ]
+}

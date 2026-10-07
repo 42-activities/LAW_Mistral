@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "CZ",
+ "treaty_name": "Agreement between the Government of the Czech Republic and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1998; modified by MLI)",
+ "signed": "1998-10-01",
+ "entry_into_force": "1999-09-27",
+ "eif_source_url": "https://e-sbirka.gov.cz/sb/1999/301",
+ "eif_quote": "Smlouva vstoupila v platnost na základě svého článku 30 odst. 2 dne 27. září 1999.",
+ "source_title": "e-Sbírka (official): Sdělení MZV č. 301/1999 Sb. - Czech text of the Czech Republic-India double taxation treaty",
+ "source_url": "https://e-sbirka.gov.cz/sb/1999/301",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto dividendy však mohou být rovněž zdaněny ve smluvním státě, jehož je společnost, která je vyplácí, rezidentem, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník dividend je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto úroky však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník úroků je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky úroků."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tyto licenční poplatky nebo poplatky za technické služby však mohou být rovněž zdaněny ve smluvním státě, v němž mají zdroj, a to podle právních předpisů tohoto státu, avšak jestliže skutečný vlastník licenčních poplatků nebo poplatků za technické služby je rezidentem druhého smluvního státu, daň takto uložená nepřesáhne 10 procent hrubé částky licenčních poplatků nebo poplatků za technické služby."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effect (Art. 30(3)): Czech Republic - WHT on income paid or credited on or after 1 January 2000; India - tax years beginning on or after 1 April 2000. The Czech text is official; the English text (prevailing) is not published in the Collection. 10% cap also covers fees for technical services (Art. 12(2)). Interest exempt at source when derived/beneficially owned by, or paid on loans granted/guaranteed by, the Government/subdivisions/local authorities, RBI, IFCI, IDBI, Exim Bank of India, National Housing Bank, SIDBI, ICICI, Czech National Bank, Czech Export Bank, EGAP, Konsolidační banka or other agreed institutions (Art. 11(3)) - not modelled. No protocol/MFN clause in the published text. MLI covered by both (Czech list cites MLI 32/2020 Sb.m.s.); MLI WHT effect 2021-01-01 per map.json (CZ MLI in force 2020-09-01); Indian side from 1 April 2021 (India chose Art. 35(2) 'taxable period'). India's SLOB choice not verified for the Czech Republic - PPT only.",
+ "confidence": "high",
+ "unverified": []
+}

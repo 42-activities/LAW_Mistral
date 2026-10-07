@@ -1,0 +1,78 @@
+{
+ "a": "CA",
+ "b": "NO",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Kingdom of Norway for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2002)",
+ "signed": "2002-07-12",
+ "entry_into_force": "2002-12-19",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-7.7/FullText.html",
+ "eif_quote": "Canada-Norway Tax Convention Act, 2002: \"[Note: Convention in force December 19, 2002 see Canada Gazette Part I, Volume 137, page 776.]\"",
+ "source_title": "Canada-Norway Tax Convention Act, 2002 (S.C. 2002, c. 24, Part 5), Schedule - Canada-Norway Convention (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-7.7/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) except in the case of dividends paid by a non-resident owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties other than those in Art. 12(3), e.g. trade marks, films/TV, equipment, rental/franchise know-how)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (copyright; computer software, patents, know-how)",
+   "valid_from": "2003-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3 Notwithstanding the provisions of paragraph 2, a) copyright royalties and other like payments in respect of the production or reproduction of any cultural, dramatic, musical or other artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of reproduction for use in connection with television broadcasting), and b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such royalty in connection with a rental or franchise agreement), arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner of the royalties shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a (MLI not applicable to this treaty)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 31(1)(a): effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following entry into force (EIF 2002-12-19 -> 2003-01-01). Replaced the 1966 Convention. Dividend 5% tier: company which \"holds directly at least 10 per cent of the voting power\" (voting test recorded as ownership_threshold 10); excludes dividends paid by a Canadian non-resident-owned investment corporation. Not modelled: Art. 10(3) and 11(3)(d) exemptions for dividends/interest paid to the other State, subdivisions and wholly-owned agencies (only in circumstances agreed by competent authorities); Art. 11(3)(a)-(c) exemptions (government bonds, EDC, GIEK/Eksportfinans). Art. 30(3) excludes non-resident-owned entities enjoying substantially lower tax. MLI: Canada lists Norway as a Covered Tax Agreement but Norway does not list Canada, so the treaty is not a CTA - no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "AT",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Republic of Austria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1999, as amended by Protocol 2017; modified by MLI)",
+ "signed": "1999-11-08",
+ "entry_into_force": "2001-09-05",
+ "eif_source_url": "https://web.archive.org/web/20170706134422/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000005.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Government of the Republic of Austria ... shall enter into force on 5th September, 2001, thirty days after the exchange of Instrument of Ratification as required by paragraph 2 of Article 28 of the said Convention; ... Notification : No. GSR 682(E) [No. 271/2001 (F. No. 505/1/82-FTD)], dated 20-9-2001",
+ "source_title": "Income Tax Department (India), India-Austria DTAA with Notification GSR 682(E)/2001 (Wayback copy of official incometaxindia.gov.in page, captured 2017-07-06); cross-checked against RIS consolidated version (BGBl. III Nr. 231/2001 idF BGBl. III Nr. 69/2021)",
+ "source_url": "https://web.archive.org/web/20170706134422/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000005.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State; but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties and fees for technical services is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties and fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates (Art. 28(2)): Austria for taxes levied for any fiscal year following the calendar year of the exchange of ratification instruments (2001) i.e. from 2002; India for income arising in fiscal years beginning on or after 1 April 2002. RIS consolidated version shows Arts. 10-12 unchanged since 2001-09-05; only Art. 26/26a and the Protocol (Anl. 1) were changed from 2019-10-01 by the Protocol signed 2017-02-06 (BGBl. III Nr. 69/2021); Anl. 2 = MLI (BGBl. III Nr. 93/2018). The 1999 Protocol contains no MFN clause. Not modelled: Art. 11(3)(a) exemption for interest beneficially owned by the State, political sub-divisions, local authorities, Central Banks, Export-Import Bank of India, Oesterreichische Kontrollbank AG; Art. 11(3)(b) exemption for approved loans; the 10% Art. 12 cap also covers fees for technical services. MLI: covered by both; MLI WHT provisions effective 2020-01-01 on the Austrian side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2020. India chose the Simplified LOB (Art. 7(6)) but Austria's MLI deposit position contains no SLOB choice and no Art. 7(7) acceptance, so only the PPT applies.",
+ "confidence": "high",
+ "unverified": [
+  "Indian-side MLI date 2020-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

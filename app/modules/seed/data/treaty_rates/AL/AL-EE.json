@@ -1,0 +1,70 @@
+{
+ "a": "AL",
+ "b": "EE",
+ "treaty_name": "Convention between the Council of Ministers of the Republic of Albania and the Government of the Republic of Estonia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-04-05",
+ "entry_into_force": "2010-11-25",
+ "eif_source_url": "https://www.riigiteataja.ee/public-api/api/v1/akt/215112010003/txt ; https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare",
+ "eif_quote": "[RT II, 15.11.2010, 3 - Estonian ratification Act] Redaktsiooni jõustumise kp: 25.11.2010 ... lepingu ratifitseerimise seadus, Vastu võetud 27.10.2010 || [AL DPT list] ESTONI | 10285 | 03.06.2010 | 79 | 02.07.2010 | 4115 | 01.01.2018 || [EE list per map.json] Albaania | 15.09.2009 | 05.04.2010 | 27.10.2010 | 25.11.2010 | 01.01.2018 || Art. 28(2): Kjo Konventë hyn në fuqi në datën e marrjes së njoftimit të fundit ... dhe dispozitat e saj do të kenë fuqi ... a) në lidhje me tatimet e mbajtura në burim, për të ardhurat që përftohen në 1 janar ose pas 1 janarit të vitit kalendarik të vitit pasardhës kur ka hyrë në fuqi Konventa;",
+ "source_title": "Ligj Nr. 10 285, datë 3.6.2010 ratifying the Albania-Estonia Convention (Albanian authentic text), DPT copy",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=345",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 për qind të shumës bruto të dividendëve, nëse pronari përfitues është një shoqëri (e ndryshme nga ortakëri) që ka drejtpërdrejt të paktën 10 për qind të kapitalit të shoqërisë që paguan dividendët;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 për qind të shumës bruto të dividendëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, ky interes mund të tatohet në shtetin kontraktues në të cilin ai lind dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i interesit është rezident i shtetit tjetër kontraktues, tatimi i vendosur nuk do të tejkalojë 5 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, këto tarifa të licencave mund të tatohen gjithashtu në shtetin kontraktues në të cilin ato lindin dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i tarifave të licencave është rezident i shtetit tjetër kontraktues, tatimi i vendosur nuk do të tejkalojë 5 për qind të shumës bruto të tarifave të licencave."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none in effect: MLI covers the Convention but Estonia reserved Art. 35(7)(a) and its 35(7)(b) notification does not include Albania",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "valid_from conflict: under Art. 28(2) an entry into force on 25.11.2010 would give application from 2011-01-01, but both Albania's DPT list and Estonia's treaty list show application from 01.01.2018; 25.11.2010 is the date the Estonian ratification Act entered into force (RT II, 15.11.2010, 3), so the treaty itself probably entered into force in 2017 after the last notification. 2018-01-01 used (both official lists). Art. 11(3): interest paid to/by a Contracting State's government, local authority or central bank, or on loans granted/insured/guaranteed by them, taxable only in the residence State (not modelled). MLI: both list the Convention, but MLI not yet in effect for it (Estonia Art. 35(7)); Estonia also reserved Art. 8. Authentic in Albanian, Estonian and English (English prevails).",
+ "confidence": "medium",
+ "unverified": [
+  "Actual date of entry into force of the Convention (exchange of notifications) - no Estonian Välisministeeriumi teadaanne found",
+  "English/Estonian texts not read"
+ ]
+}

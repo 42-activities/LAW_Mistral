@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "IN",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1994, as amended by Protocol 2018)",
+ "signed": "1994-07-18",
+ "entry_into_force": "1994-11-19",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876704541",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和印度共和国政府关于对所得避免双重征税和防止偷漏税的协定 双边 税收 1994.07.18 1994.11.19 || Art. 28: This Agreement shall have effect: (a) in China, in respect of income arising in any taxable year beginning on or after the first day of January next following the calendar year in which this Agreement enters into force; (b) in India, in respect of income arising in any previous year beginning on or after the first day of April next following the calendar year in which this Agreement enters into force.",
+ "source_title": "China MFA Treaty Database - English text of the China-India Agreement and Protocol (1994); 2018 amending Protocol read via secondary reproduction of CBDT Notification 54/2019 (taxguru.in)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20181115/1542256265508.pdf ; https://taxguru.in/income-tax/cbdt-notifies-revised-india-china-dtaa-protocol.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties or fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 27A (inserted by Protocol 2018 Art. 11)",
+  "source_url": "https://taxguru.in/income-tax/cbdt-notifies-revised-india-china-dtaa-protocol.html",
+  "quote": "ARTICLE 27A ENTITLEMENT TO BENEFITS Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Effective dates differ by State: China from 1995-01-01, India from previous year beginning 1995-04-01 (valid_from recorded as 1995-01-01). Protocol signed 2018-11-26, in force 2019-06-05 (CBDT Notification 54/2019 S.O. 2562(E); SAT Announcement 2019 No.28), effective in China from 2020-01-01 and in India from 2020-04-01; it does not change the Art. 10/11/12 rates, but replaced Art. 11(3): interest paid to the Government, political subdivision, local authority, Central Bank or wholly government-owned financial institutions (listed in Protocol para 3), or on loans guaranteed/insured by them, is exempt - not modelled. Art. 12 also covers fees for technical services at 10%. Not MLI-covered (India dropped China at deposit; China does not list India). Official text of the 2018 Protocol (incometaxindia.gov.in) returned HTTP 403; read via a secondary reproduction of the Gazette notification. Conflict: STA/MFA EIF 1994-11-19 vs India's signature-time MLI position 21-11-1994.",
+ "confidence": "medium",
+ "unverified": [
+  "2018 Protocol text read from secondary reproduction (taxguru.in) of CBDT Notification 54/2019; official PDF blocked (403)."
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "a": "ME",
+ "b": "BE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Belgium for the avoidance of double taxation of income and capital, with Protocol (1980), applied by Montenegro",
+ "signed": "1980-11-21",
+ "entry_into_force": "1983-05-26",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Belgium Original 21-11-1980 26-05-1983 || [BE MLI] 59 Convention entre le Royaume de Belgique et la République Socialiste Fédérative de Yougoslavie ... Yougoslavie - Monténégro Original 21-11-1980 26-05-1983 || [ME PU table] 5 | Belgija | dohodak i imovina | SFRJ 11/81 | 1.1.1982. || Art. 27(2): \"Споразум ступа на снагу тридесетог дана од датума размене ратификационих инструмената, а његове одредбе се примењују: (а) у Белгији: (i) у односу на порезе по обустави на доходак који се кредитира, односно плаћа на дан или после првог јануара календарске године која непосредно следи годину у којој је извршена размена ратификационих инструмената; ... (б) у Југославији: у односу на порезе за сваку пореску годину која почиње на дан првог јануара или после првог јануара календарске године која непосредно следи годину у којој је извршена размена ратификационих инструмената.\"",
+ "source_title": "Sporazum SFRJ-Belgija s Protokolom (Službeni list SFRJ - Međunarodni ugovori 11/1981), Serbian Cyrillic text as published by the Montenegrin Ministry of Finance (authentic text: English only)",
+ "source_url": "https://www.gov.me/dokumenta/8783dd1a-2c72-4095-ab47-64012f5da98e (file https://wapi.gov.me/download/8783dd1a-2c72-4095-ab47-64012f5da98e?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(а) 10 одсто од бруто износа дивиденди, ако је прималац друштво које непосредно има најмање 25 одсто од капитала друштва које плаћа дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI Art. 8(1)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "[Art. 10(2)(a)] (а) 10 одсто од бруто износа дивиденди, ако је прималац друштво које непосредно има најмање 25 одсто од капитала друштва које плаћа дивиденде; [MLI Art. 8(1)] ... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividends)."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(б) 15 одсто од бруто износа дивиденди, у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Камата може бити опорезована и у држави уговорници у којој настаје, сагласно законима те државе, али тако разрезан порез не може бити већи од 15 одсто од бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Међутим, такве ауторске накнаде могу се опорезивати у држави уговорници у којој настају и у складу са законима те државе, али тако разрезан порез не може бити већи од 10 одсто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Belgrade, 21-11-1980; Sl. list SFRJ - MU 11/1981); continued by Montenegro as a successor State (Montenegrin MoF list / Poreska uprava table; Belgium lists it in its MLI position as No.59 \"Yougoslavie - Monténégro\"). CONFLICT WITH map.json: map says Belgium lists the Yugoslav convention only for BiH and Kosovo, but Belgium's deposited MLI position lists No.59 \"Yougoslavie - Monténégro\" (Original 21-11-1980 26-05-1983) and Montenegro lists Belgium (No.5) -> treated as MLI-covered with WHT effect 2027-01-01 (Montenegro MLI in force 2026-09-01; no Art. 35(7) reservation found for Belgium). MLI Art. 8 365-day rule applies to the 10% dividend tier from 2027-01-01: Belgium (Art. 8(4) No.59 Yougoslavie - Monténégro, Article 10(2)(a)) and Montenegro (No.5 Belgium, Article 10(2)(a)) notified the same provision. Rate limits apply to the \"recipient\" (no beneficial-owner wording). Start of application: with entry into force 26-05-1983 (30 days after exchange of instruments) the WHT provisions apply from 1 January 1984; the Poreska uprava table shows 1.1.1982 (conflict). Authentic text English only; official Serbian translation read.",
+ "confidence": "medium",
+ "unverified": [
+  "English authentic text not read",
+  "MLI coverage contradicts map.json (Belgium position lists Yougoslavie - Monténégro)",
+  "Application start 1984-01-01 vs Poreska uprava 1.1.1982"
+ ]
+}

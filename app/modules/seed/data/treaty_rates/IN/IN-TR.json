@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Turkey and the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (1995)",
+ "signed": "1995-01-31",
+ "entry_into_force": "1997-02-01",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf ; https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "[IN MLI] 83 Agreement between the Turkey Original 31.01.1995 01.02.1997 [fn 7: India understands that Turkey considers that the treaty entered into force on 30.12.1996] || [TR GIB list] 26) Hindistan 31.01.1995 30.12.1996 - 22863 30.12.1996 01.01.1994 || [Art. 27(1)] This Agreement shall enter into force on the first day of the following month when the latter of these notifications has been received.",
+ "source_title": "Resmî Gazete No. 22863 of 30 December 1996 (Council of Ministers Decision 96/8779), Turkish and English texts of the Agreement and Protocol",
+ "source_url": "https://www.resmigazete.gov.tr/arsiv/22863.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, in accordance with the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if recipient is the beneficial owner of the interest the tax so charged shall not exceed a) 10 per cent of the gross amount, if such interest is paid on any loan of whatever kind granted by a bank or a financial institution; and b) 15 per cent of the gross amount in all other cases"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if recipient is the beneficial owner of the royalties and fees for technical services, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no treaty main-purpose/LOB clause; MLI not applicable)",
+  "source_url": "https://www.resmigazete.gov.tr/arsiv/22863.pdf",
+  "quote": ""
+ },
+ "notes": "Art. 27(2): provisions have effect retroactively - in Turkey for taxable years beginning on/after 1 January 1994, in India for previous years beginning on/after 1 April 1994 (valid_from 1994-04-01). CONFLICT on entry into force: India (MLI position) 1997-02-01, Turkey (GIB list) 1996-12-30 (date of Resmî Gazete publication); India's date used, consistent with Art. 27(1) 'first day of the following month'. Interest: 10% cap for interest paid on loans granted by a bank or financial institution (Art. 11(2)(a), recipient-is-a-bank condition, not modelled as a tier); exemption for government, political subdivision, local authority, central bank and Turkish Eximbank / EXIM Bank of India (Art. 11(3)). Art. 12 also covers fees for technical services at 15%. Art. 10(4) allows a branch profits tax at the Art. 10(2) rate. No MFN clause in the Protocol. MLI: both list the treaty but Turkiye has signed and not ratified the MLI -> not a covered tax agreement; no treaty PPT.",
+ "confidence": "high",
+ "unverified": []
+}

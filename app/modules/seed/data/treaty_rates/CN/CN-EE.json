@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "EE",
+ "treaty_name": "Agreement between the Government of the Republic of Estonia and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1998, as amended by Protocol 2014)",
+ "signed": "1998-05-12",
+ "entry_into_force": "1999-01-08",
+ "eif_source_url": "https://www.riigiteataja.ee/akt/79045 ; https://www.riigiteataja.ee/akt/219122015001 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+ "eif_quote": "[Riigi Teataja metadata RT II 1998, 52, 119] jõustumine 1999-01-08 || [China MLI position] Estonia Original 12-05-1998 08-01-1999; Amending Instrument (a) 09-12-2014 18-12-2015 || [Välisministeeriumi teadaanne] '... lepingu muutmise protokoll, mis on alla kirjutatud 9. detsembril 2014. aastal Tallinnas, jõustub 18. detsembril 2015. aastal.'",
+ "source_title": "Estonia-China income tax Agreement 1998 with Protocol, English text as published in Riigi Teataja (RT II 1998, 52, 119), and amending Protocol of 9 Dec 2014 (RT II 2015, 4, Estonian text)",
+ "source_url": "https://www.riigiteataja.ee/akt/79045 (RT II 1998, 52, 119; XML via https://www.riigiteataja.ee/public-api/api/v1/akt/79045/xml) ; protocol 2014: https://www.riigiteataja.ee/akt/205112015004",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": null,
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-estonia-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Pursuant to Article 35(7) of the Convention, Estonia reserves the right to replace: i) the references in Article 35(1) through (4) to 'the latest of the dates on which this Convention enters into force for each of the Contracting Jurisdictions to the Covered Tax Agreement'; and ..."
+ },
+ "notes": "Art. 28(2)(a): taxes withheld at source on income derived on or after 1 January of the calendar year following entry into force (1999-01-08 -> 2000-01-01). The 2014 Protocol (in force 2015-12-18, applies from tax years beginning on/after 1 Jan 2016) did not change the WHT rates; it replaced Art. 11(3) (interest paid to/derived by the other State's government incl. local authorities, central bank or wholly government-owned financial institution, or on loans guaranteed by them, exempt at source - not modelled). MLI: both list the Agreement (China No. 59; Estonia No. 10) but Estonia made an Art. 35(7) reservation and has not notified completion of internal procedures for China under Art. 35(7)(b) -> MLI (PPT, Art. 8) not yet effective; ppt.applies=false. The Agreement has no treaty main-purpose/LOB clause. Estonia reserved Art. 8 entirely anyway.",
+ "confidence": "high",
+ "unverified": []
+}

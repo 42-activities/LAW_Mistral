@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "AZ",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Azerbaijan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2004)",
+ "signed": "2004-09-07",
+ "entry_into_force": "2006-01-23",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-1.2/FullText.html",
+ "eif_quote": "[Note: Convention in force January 23, 2006, see Canada Gazette Part I, Volume 140, page 391.] | Art. 28: The Convention shall enter into force on the date of the later of these notifications and its provisions shall thereupon have effect: (a) in respect of tax withheld at the source on amounts paid or credited to non-residents, on or after the first day of January in the calendar year following that in which the Convention enters into force; and",
+ "source_title": "Canada–Azerbaijan Tax Convention Act, 2004, Schedule — consolidated, Justice Laws Website",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-1.2/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company that controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend threshold is 10% of the VOTING POWER (controls directly or indirectly), recorded as ownership_threshold. MLI Art. 8 not applicable: Azerbaijan reserved the entirety of Art. 8 (Art. 8(3)(a)). Royalty tier not modelled: Art. 12(2)(a) 5% for computer software, patents and know-how (excluding rental/franchise): (a) 5 per cent of the gross amount of the royalties in the case of royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such royalty provided in connection with a rental or franchise agreement); and Art. 11(3): interest paid to/by a State, subdivision, local authority, central bank or the State Oil Fund of Azerbaijan, and EDC-supported loans, taxable only in residence State. MLI WHT effective 2025-01-01 (map.json).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "LV",
+ "treaty_name": "Agreement between the Government of the Republic of Latvia and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013; modified by MLI)",
+ "signed": "2013-09-18",
+ "entry_into_force": "2013-12-28",
+ "eif_source_url": "https://likumi.lv/ta/id/263565",
+ "eif_quote": "Valsts: Indija ... Stājas spēkā: 28.12.2013. Parakstīts: 18.09.2013. Parakstīšanas vieta: Deli ... || [30.pants 3.] Šī Līguma noteikumi tiek piemēroti: a) Indijā, attiecībā uz ienākumu, kas gūts aprīļa pirmajā dienā vai pēc tās, jebkurā taksācijas gadā, kas seko kalendārajam gadam, kurā Līgums stājas spēkā;",
+ "source_title": "Likumi.lv (official Latvian legal acts portal): Latvijas Republikas valdības un Indijas Republikas valdības līgums par nodokļu dubultās uzlikšanas un nodokļu nemaksāšanas novēršanu attiecībā uz ienākuma nodokļiem (Latvian authentic text)",
+ "source_url": "https://likumi.lv/ta/id/263565",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šīm dividendēm var uzlikt nodokļus arī atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kuras rezidents ir sabiedrība, kas izmaksā dividendes, bet, ja šo dividenžu patiesais labuma guvējs ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentus no dividenžu kopapjoma."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šiem procentiem var uzlikt nodokļus atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tie rodas, bet, ja šo procentu patiesais labuma guvējs ir otras Līgumslēdzējas Valsts rezidents, tad nodoklis nedrīkst pārsniegt 10 procentus no procentu kopapjoma."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Tomēr šādai autoratlīdzībai vai atlīdzībai par tehniskajiem pakalpojumiem var arī uzlikt nodokļus atbilstoši attiecīgās valsts normatīvajiem aktiem tajā Līgumslēdzējā Valstī, kurā tās rodas, bet, ja autoratlīdzības vai atlīdzības par tehniskajiem pakalpojumiem patiesais labuma guvējs ir otras Līgumslēdzējas Valsts rezidents, nodoklis nedrīkst pārsniegt 10 procentus no autoratlīdzības vai atlīdzības par tehniskajiem pakalpojumiem kopapjoma."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf ; https://www.fm.gov.lv/lv/nodoklu-konvencijas",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. || [Latvian MoF] Latvija ir izvēlējusies piemērot tikai un vienīgi tās Konvencijas normas, kas nodrošina BEPS pasākuma plāna minimālā standarta ... ieviešanu – ... Konvencijas 7.pants (Galvenā mērķa tests (Principal Purpose Test - PPT) ..."
+ },
+ "notes": "Signature date CONFLICT resolved: likumi.lv record and the treaty's signing clause give 18.09.2013 (Latvian MoF table shows 18.09.12, apparently a typo; MLI positions 18-09-2013). EIF 2013-12-28 (likumi.lv). Effective in India for income of tax years beginning on/after 1 April 2014; in Latvia WHT from 1 January 2014 (Art. 30(3)). Latvian text read (Latvian, Hindi and English equally authentic; English prevails in case of divergence) - English text not obtained. MLI: India EIF 2019-10-01, Latvia 2020-02-01; Indian side (Art. 35(2) taxable period) first taxable period beginning on/after 2020-02-01 = 1 April 2020; Latvian side WHT from 1 January 2021 (map mli_wht_effective). Latvia applies only the MLI minimum standard (Arts. 6, 7 PPT, 16, 17) -> no SLOB, no Art. 8; treaty Art. 28 (limitation of benefits: competent authorities may deny benefits where main purpose is obtaining treaty benefits) notified by India. Interest exempt at source if derived by the other State's Government/political subdivision/local authority, Reserve Bank of India, Exim Bank of India, National Housing Bank, Bank of Latvia, Latvian Mortgage and Land Bank, Latvian Guarantee Agency, other agreed institutions, or on loans issued/guaranteed/insured by them (Art. 11(3)) - not modelled. Royalty cap covers fees for technical services. No MFN clause on rates (Protocol only has a PE/insurance consultation clause).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not compared",
+  "Indian side MLI WHT date 2020-04-01 computed (Indian synthesised text not found)"
+ ]
+}

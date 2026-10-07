@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1997)",
+ "signed": "1997-08-13",
+ "entry_into_force": "1999-03-24",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876773500",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和阿拉伯埃及共和国政府关于对所得避免双重征税和防止偷漏税的协定 双边 税收 1997.08.13 1999.03.24 || Art. 28: The Agreement shall enter into force on the thirtieth day following the date of the later of these notifications and shall thereupon have effect in both Contracting States: (a) in respect of taxes withheld at source, on income derived on or after 1 January in the calendar year next following the year in which the Agreement enters into force;",
+ "source_title": "China MFA Treaty Database - English text of the China-Egypt Agreement (1997); cross-checked with Egyptian Tax Authority MLI synthesised text",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876773569.pdf ; https://www.eta.gov.eg/sites/default/files/2024-09/china.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 8 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 8 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.eta.gov.eg/sites/default/files/2024-09/china.pdf",
+  "quote": "The provisions of the MLI shall have effect in each Contracting State with respect to the Agreement: (i) with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 January 2023 ... The following paragraph 1 of Article 7 of the MLI applies and supersedes the provisions of this Agreement: ... a benefit under [the Agreement] shall not be granted in respect of an item of income if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ..."
+ },
+ "notes": "Interest derived by the other State's Government, a local authority, the Central Bank or a wholly government-owned financial institution, or by any resident on debt-claims indirectly financed by them, is exempt (Art. 11(3)) - not modelled. No protocol. MLI Art. 8 not applicable (single dividend rate; not in China's Art. 8(4) list). EIF year 1999 -> WHT provisions effective 2000-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "IR",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002)",
+ "signed": "2002-04-20",
+ "entry_into_force": "2003-08-14",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876832719",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和伊朗伊斯兰共和国政府关于对所得避免双重征税和防止偷漏税的协定 双边 税收 2002.04.20 2003.08.14 || Art. 28(3): This Agreement shall have effect as respects income derived during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.",
+ "source_title": "China MFA Treaty Database - English text of the China-Iran Agreement (2002)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876832748.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the resident of the other Contracting State and the beneficial owner of the dividends the tax so charged shall not exceed ten per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the resident of the other Contracting State and the beneficial owner of the interest the tax so charged shall not exceed ten per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed ten per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "Iran is not an MLI signatory (map.json); the treaty contains no PPT/LOB article."
+ },
+ "notes": "Interest derived by the other State's Government, ministries, other governmental institutions, municipalities, the Central Bank and banks wholly owned by the Government is exempt (Art. 11(3)) - not modelled. No protocol in the MFA text. Effective for taxable years beginning on or after 2004-01-01 (for Iran, whose tax year starts on 1 Farvardin (~21 March), the first such year began in March 2004); valid_from recorded as 2004-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "No Iranian official source consulted; MFA English text is an authentic language version."
+ ]
+}

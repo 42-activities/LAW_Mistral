@@ -1,0 +1,80 @@
+{
+ "a": "XK",
+ "b": "TR",
+ "treaty_name": "Agreement between the Republic of Turkey and the Republic of Kosovo for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income, with Protocol (2012)",
+ "signed": "2012-09-10",
+ "entry_into_force": "2015-10-15",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf",
+ "eif_quote": "[GİB list, via map.json] 83) Kosova 10.09.2012 28.08.2015 - 29459 (2.m.) 15.10.2015 01.01.2016 || [Madde 27(2)(a)] kaynakta tevkif edilen vergiler yönünden, bu Anlaşmanın yürürlüğe girdiği tarihi izleyen Ocak ayının birinci günü veya daha sonra ödenen veya mahsup edilen miktarlar için",
+ "source_title": "Resmî Gazete 28.08.2015 sayı 29459 (2. Mükerrer), Karar 2015/8056 annex: Türkiye-Kosova Çifte Vergilendirmeyi Önleme Anlaşması ve Protokol (Turkish text, image scan read visually)",
+ "source_url": "https://www.resmigazete.gov.tr/eskiler/2015/08/20150828M2-2-1.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Protocol para. 3 (re Article 10(2))",
+   "valid_from": "2016-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "XK",
+   "quote": "3- 10 uncu maddenin 2 nci fıkrası ile ilgili olarak: Kosova yönünden, Kosova'nın mukimi olan bir şirket tarafından bir Türkiye mukimine ödenen temettülerin, yüzde sıfır oranında vergilendirileceği anlaşılmaktadır."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "a) gerçek lehtar, temettü ödeyen şirketin sermayesinin doğrudan doğruya en az yüzde 25 ini elinde tutan bir şirket (ortaklık hariç) ise, gayrisafi temettü tutarının yüzde 5 i;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2016-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "TR",
+   "quote": "b) diğer tüm durumlarda gayrisafi temettü tutarının yüzde 15 i."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber bu faiz, elde edildiği Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak, faizin gerçek lehtarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi, faizin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Bununla beraber, söz konusu gayrimaddi hak bedelleri elde edildikleri Akit Devlette ve o Devletin mevzuatına göre de vergilendirilebilir; ancak gayrimaddi hak bedelinin gerçek lehtarı diğer Akit Devletin bir mukimi ise, bu şekilde alınacak vergi gayrimaddi hak bedelinin gayrisafi tutarının yüzde 10 unu aşmayacaktır."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT/LOB article in treaty; MLI not applicable - Kosovo not an MLI party)",
+  "source_url": "https://www.resmigazete.gov.tr/eskiler/2015/08/20150828M2-2-1.pdf",
+  "quote": ""
+ },
+ "notes": "Dividends asymmetric: Protocol para. 3 - dividends paid by a Kosovo-resident company to a Turkish resident are taxed at 0% in Kosovo (source_state XK); Turkish-source dividends 5% (company, other than a partnership, holding directly >=25% of capital) / 15% (source_state TR). Art. 10(4): branch profits of a PE may be taxed again under para. 2 rates (branch tax) - not modelled. Interest exempt (Art. 11(3)) when paid to the other Government or Central Bank - not modelled. Signed Prishtina 10 Sept 2012 in Turkish, Albanian, English (English prevails); Turkish authentic text quoted (read visually from the Resmî Gazete scan). Entry into force 15.10.2015 per GİB list; ATK \"in force\" column 08.11.2012 (conflict, ATK appears to be ratification-related). ATK summary table: dividends 5/10% - conflicts with text (5/15% TR-source, 0% Kosovo-source). Kosovo is not an MLI party.",
+ "confidence": "high",
+ "unverified": [
+  "Entry-into-force date from GİB list via map.json (exchange-of-notes notice not read)"
+ ]
+}

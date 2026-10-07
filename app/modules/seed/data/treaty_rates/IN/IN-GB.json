@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the United Kingdom of Great Britain and Northern Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (1993, as amended by Protocol 2012; modified by MLI)",
+ "signed": "1993-01-25",
+ "entry_into_force": "1993-10-26",
+ "eif_source_url": "https://web.archive.org/web/20180214030215/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000096.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Government of the United Kingdom of Great Britain and Northern Ireland ... has entered into force on 26th October, 1993 on the notification by both the Contracting States to each other of the completion of the procedures required by their respective laws, as required by Article 30 of the said Convention ... Notification : No. GSR 91(E), dated 11-2-1994",
+ "source_title": "Income Tax Department (India), India-UK DTAA with Notifications GSR 91(E)/1994 and 10/2014 (Protocol 2012) (Wayback copy of official incometaxindia.gov.in page, captured 2018-02-14)",
+ "source_url": "https://web.archive.org/web/20180214030215/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000096.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b) (as substituted by Protocol 2012)",
+   "valid_from": "2013-12-27",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 10 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and accordingly to the law of that State, provided that where the resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)(a)(ii)",
+   "valid_from": "1999-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( a ) in the case of royalties within paragraph 3( a ) of this Articles, and fees for technical services within paragraphs 4( a ) and ( c ) of this Article,— ( i ) during the first five years for which this Convention has effect ; ( aa ) 15 per cent ... and ( bb ) 20 per cent of the gross amount of such royalties or fees for technical services in all other cases; and ( ii ) during subsequent years, 15 per cent of the gross amount of such royalties or fees for technical services;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Article numbering: dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Effective (Art. 30(1)): India, fiscal years beginning on or after 1 April 1994; UK, corporation tax financial years from 1 April 1994 / income tax years of assessment from 6 April 1994. Royalty 15% general cap applies after the first five years of effect (from FY 1999-2000; earlier 20%, 15% for Government payers - not modelled). Not modelled: Art. 13(2)(b) 10% cap for royalties for the use of industrial, commercial or scientific equipment (para 3(b)) and FTS ancillary to such equipment (para 4(b)); Art. 12(3)(a) 10% cap for interest paid to a bank carrying on bona fide banking business; Art. 12(3)(b)-(c) exemptions for interest paid to Governments, political sub-divisions, local authorities, Reserve Bank of India, Bank of England and approved institutions. Dividends: Art. 11 substituted by the Protocol signed 30-10-2012 (in force 27-12-2013; Notification 10/2014, w.r.e.f. 27-12-2013; Protocol Art. X(1)(a): WHT on amounts paid on or after entry into force); Art. 11(2)(a) 15% cap on dividends paid out of immovable-property income by an exempt investment vehicle (REIT-type) not modelled. Protocol 2012 also inserted Art. 28C (limitation of benefits). Earlier dividend article (UK tax-credit regime, 15%) superseded. CONFLICT on entry into force (map.json): India 1993-10-26 (used), UK 1993-10-25. MLI: covered by both; MLI WHT provisions effective 2020-01-01 on the UK side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2020. The UK did not choose the SLOB - PPT only.",
+ "confidence": "high",
+ "unverified": [
+  "gov.uk text not cross-checked",
+  "Indian-side MLI date 2020-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

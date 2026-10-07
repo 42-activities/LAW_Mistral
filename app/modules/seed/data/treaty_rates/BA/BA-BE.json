@@ -1,0 +1,70 @@
+{
+ "a": "BA",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Belgium and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1980), applied between Belgium and Bosnia and Herzegovina by succession",
+ "signed": "1980-11-21",
+ "entry_into_force": "1983-05-26",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=17b184bb-81f5-4706-89d8-97689a4c9dd8&lang=hr",
+ "eif_quote": "[BA MLI] Belgium Original 21-11-1980 26-05-1983 || [BE MLI] Yougoslavie – Bosnie-Herzégovine Original 21-11-1980 26-05-1983 || Art. 27(2): Sporazum stupa na snagu tridesetog dana od datuma razmjene ratifikacionih instrumenata, a njegove odredbe se primjenjuju: a) u Belgiji: i. u odnosu na poreze po obustavi na dohodak koji se kreditira, odnosno plaća na dan ili poslije prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj je izvršena razmjena ratifikacionih instrumenata; ... b) u Jugoslaviji: u odnosu na poreze za svaku poresku godinu koja počinje na dan prvog januara ili poslije prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj je izvršena razmjena ratifikacionih instrumenata.",
+ "source_title": "BiH Ministry of Finance and Treasury: Sporazum SFRJ–Kraljevina Belgija o izbjegavanju dvostrukog oporezivanja dohotka i imovine (Službeni list SFRJ – Međunarodni ugovori 11/81), Bosnian text; MLI combined text BiH–Belgium",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=17b184bb-81f5-4706-89d8-97689a4c9dd8&lang=hr ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Belgija_-_bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 10 posto od bruto iznosa dividendi ako je primalac društvo koje neposredno ima najmanje 25 posto od kapitala društva koje plaća dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 posto od bruto iznosa dividendi, u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata može biti oporezovana i u državi ugovornici u kojoj nastaje, saglasno zakonima te države, ali tako razrezan porez ne može biti veći od 15 posto od bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve autorske naknade mogu se oporezovati u državi ugovornici u kojoj nastaju i u skladu sa zakonom te države ali tako razrezan porez ne može biti veći od 10 posto od bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Belgija_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY treaty (signed Belgrade 21-11-1980, Sl. list SFRJ-MU 11/81) applied by succession: Belgium lists it in its MLI position as \"Yougoslavie – Bosnie-Herzégovine\" and BiH MoF lists it among DTAs in force (mft.gov.ba sporazumi-u-primjeni). Original-language (FR/NL/Serbo-Croat) texts on Belgian portal not retrieved; rates read from the official BiH MoF Bosnian text and BiH MoF MLI combined text (Arts. 10-12 unchanged by MLI). Old SFRY wording, no beneficial-owner condition. Protocol para 1: dividends include income from invested capital in Belgian non-share companies. valid_from: Belgian withholding taxes from 1 Jan of year after exchange of ratification instruments (exchange 1983, EIF 26-05-1983) -> 1984-01-01. MLI Art. 8 not applicable (BiH reserved Art. 8(3)(a)). PPT from MLI WHT effect 2021-01-01 per BiH MoF combined text (\"u odnosu na poreze po odbitku ... 01. januara ili poslije 01. januara 2021\").",
+ "confidence": "high",
+ "unverified": [
+  "Belgian official FR/NL text not cross-checked",
+  "exact exchange-of-instruments date (derived as 26-04-1983 from 30-day rule)"
+ ]
+}

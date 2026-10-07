@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "AT",
+ "treaty_name": "Abkommen zwischen der Regierung der Republik Österreich und der Regierung der Volksrepublik China zur Vermeidung der Doppelbesteuerung und zur Verhinderung der Steuerverkürzung und -umgehung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (1991, as amended by Protocol 2023; modified by MLI)",
+ "signed": "1991-04-10",
+ "entry_into_force": "1992-11-01",
+ "eif_source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004755",
+ "eif_quote": "Die Mitteilungen gemäß Art. 29 des Abkommens wurden am 5. August 1991 bzw. 14. August 1992 abgegeben; das Abkommen tritt gemäß seinem Art. 29 mit 1. November 1992 in Kraft. | BGBl. III Nr. 2/2025: Das Protokoll ist gemäß seinem Art. 13 mit 19. November 2024 in Kraft getreten. | Protocol Art. 13: This Protocol shall have effect in respect of income derived in any taxable year beginning on or after the first day of January following the calendar year in which this Protocol enters into force.",
+ "source_title": "RIS Bundesrecht konsolidiert: DBA Österreich-China (BGBl. Nr. 679/1992 idF BGBl. III Nr. 2/2025) + Protocol 2023 English text (RV 2196 d.B. XXVII. GP)",
+ "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004755 ; https://www.parlament.gv.at/dokument/XXVII/I/2196/imfname_1583733.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 lit. a (i) (as amended by Protocol 2023, Art. 7)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte (i) eine Gesellschaft ist, die unmittelbar über mindestens 25 vom Hundert der mit Stimmrecht verbundenen Anteile der die Dividenden zahlenden Gesellschaft verfügt, oder"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artikel 10 Absatz 2 lit. b",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artikel 11 Absatz 2",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Vertragsstaats besteuert werden; die Steuer darf aber, wenn der Empfänger der Zinsen der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artikel 12 Absatz 2",
+   "valid_from": "1993-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Lizenzgebühren dürfen jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Vertragsstaats besteuert werden; die Steuer darf aber, wenn der Empfänger der Lizenzgebühren der Nutzungsberechtigte ist, 10 vom Hundert des Bruttobetrags der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004755 (Anlage 2: synthetisierte Fassung DBA China + MLI)",
+  "quote": "Die Änderungen auf Grund des MLI ( BGBl. III Nr. 93/2018 ) können nicht eindeutig zugeordnet werden, vgl. daher die „synthetisierte“ Version des DBA China plus MLI, als Anlage 2 dokumentiert. [MLI in force CN 2022-09-01, AT 2018-07-01; WHT effect 2023-01-01 per Art. 35(1)(a)]"
+ },
+ "notes": "Dividend 5% tier at >=25% voting shares applies from 2025-01-01 (Protocol 2023 Art. 7; Erläuterungen: 'von derzeit 7% auf 5% ... reduziert'); before that it was 7%. The same 5% applies regardless of holding to the Government, subdivisions, Central Bank or wholly government-owned entities (Art. 10(2)(a)(ii); Protocol No. 7 list incl. CDB, ADBC, Exim, NSSF, Sinosure, CIC, Silk Road Fund) - not modelled. Not modelled: Art 11(3) exemption for interest paid to Government/Central Bank/wholly-owned or mandated entities (incl. OeKB, OeEB) or on loans guaranteed/insured by them; Art 11(4) interest on credit sales of equipment, merchandise or services taxable only in residence State; Protocol No. 3: interest paid to banks or other financial institutions taxed on 70% of gross (effective 7%); Protocol No. 4: royalties for industrial, commercial or scientific equipment taxed on 60% of gross (effective 6%). MLI Art. 8 not applicable (Austria reserved the entirety of Art. 8). Synthesised MLI text (RIS Anlage 2 PDF) not opened.",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text PDF not opened; PPT inferred from both MLI positions and RIS note."
+ ]
+}

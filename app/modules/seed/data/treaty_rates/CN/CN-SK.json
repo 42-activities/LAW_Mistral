@@ -1,0 +1,59 @@
+{
+ "a": "CN",
+ "b": "SK",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Czechoslovak Socialist Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1987), applied to Slovakia by succession, as modified by the MLI",
+ "signed": "1987-06-11",
+ "entry_into_force": "1987-12-23",
+ "eif_source_url": "http://web.archive.org/web/20211130020117/http://www.chinatax.gov.cn/n810341/n810770/c1153207/5027009/files/e52f12ef0c2c4b3db133badc6d21d4a6.pdf",
+ "eif_quote": "第二十八条 生效：二、本协定应自上述通知的最后一方发出之日起生效。其规定适用于：（一）对协定生效的历年的次年1月1日起取得的所得在源泉扣缴的税收；... 本协定于1987年6月11日在布拉格签订 (EIF date 1987-12-23 from STA list via map.json)",
+ "source_title": "STA Chinese text of the 1987 China-Czechoslovakia Agreement (Wayback copy of chinatax.gov.cn PDF)",
+ "source_url": "http://web.archive.org/web/20211130020117/http://www.chinatax.gov.cn/n810341/n810770/c1153207/5027009/files/e52f12ef0c2c4b3db133badc6d21d4a6.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些股息也可以在支付股息的公司是其居民的缔约国，按照该缔约国法律征税。但是，如果收款人是股息受益所有人，则所征税款不应超过该股息总额的百分之十。"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些利息也可以在该利息发生的缔约国，按照该缔约国的法律征税。但是，如果收款人是该利息受益所有人，则所征税款不应超过利息总额的百分之十。"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些特许权使用费也可以在其发生的缔约国，按照该缔约国的法律征税。但是，如果收款人是该特许权使用费受益所有人，则所征税款不应超过特许权使用费总额的百分之十。"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "虽有本协定的任何规定，如果在考虑所有相关事实与情况后，可以合理地认定就某项所得获取本协定某项优惠是直接或间接产生该优惠的安排或交易的主要目的之一，则不应对该项所得给予该优惠，除非可以确认，在这些情形下给予该优惠符合本协定相关规定的宗旨和目的。"
+ },
+ "notes": "Succession: STA treaty list note ② '1993年1月1日，捷克和斯洛伐克联邦共和国分解为捷克共和国和斯洛伐克共和国，上述协定继续适用于中国和上述两国' - the 1987 Czechoslovakia treaty continues to apply to Slovakia (the Czech Republic now has its own 2009 treaty); China's MLI list No.18 'Czechoslovakia (Slovakia)'. Interest: Art. 11(3) exempts interest derived by the other State's Government, administrative bodies, local authorities, central bank or wholly government-owned financial institutions, and on debt-claims indirectly financed by them. Single 10% dividend rate - MLI Art. 8 irrelevant. MLI WHT effect from 2023-01-01 per map.json (SK MLI EIF 2019-01-01, CN 2022-09-01; SAT Announcement 2022 No.16). STA synthesised texts (Chinese/English) are listed on the STA page but were not archived; English treaty PDF not archived either - Chinese authentic text used.",
+ "confidence": "high",
+ "unverified": [
+  "English text not read; rates from Chinese authentic text",
+  "MLI synthesised text not read"
+ ]
+}

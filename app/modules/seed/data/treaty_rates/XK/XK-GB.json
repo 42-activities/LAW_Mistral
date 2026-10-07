@@ -1,0 +1,56 @@
+{
+ "a": "XK",
+ "b": "GB",
+ "treaty_name": "Convention between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of Kosovo for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2015)",
+ "signed": "2015-06-04",
+ "entry_into_force": "2015-12-16",
+ "eif_source_url": "https://www.gov.uk/government/publications/kosovo-tax-treaties",
+ "eif_quote": "The Double Taxation Convention entered into force on 16 December 2015. The convention is effective in Kosovo from 1 January 2016 for: withheld taxes on income ... It's effective in the UK from: 1 January 2016 for withheld taxes on amounts paid or credited",
+ "source_title": "HMRC/gov.uk: Kosovo-UK Double Taxation Convention (signed 4 June 2015), English text",
+ "source_url": "https://assets.publishing.service.gov.uk/media/5a80c98aed915d74e33fc672/Kosovo-UK_Double_Taxation_Convention.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) except as provided in sub-paragraph b), such dividends shall be exempt from tax in the Contracting State of which the company paying the dividends is a resident."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2016-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT; MLI not applicable - Kosovo not an MLI party; only article-specific main-purpose rules in Arts. 10(6), 11(5), 12(5), 21(5))",
+  "source_url": "https://assets.publishing.service.gov.uk/media/5a80c98aed915d74e33fc672/Kosovo-UK_Double_Taxation_Convention.pdf",
+  "quote": "6. No relief shall be available under this Article if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Dividends: general rule is exemption at source (Art. 10(2)(a)); Art. 10(2)(b): dividends paid out of income/gains from immovable property by an investment vehicle that distributes most of that income annually and whose property income is tax-exempt (REIT/PAIF type) may be taxed at source up to 15%, except where the beneficial owner is a pension scheme - not modelled as a plain tier. Interest and royalties taxable only in residence State. Articles 10(6), 11(5) and 12(5) contain article-specific main-purpose anti-abuse rules (not a general treaty PPT); recorded ppt.applies=false. Replaces the SFRY-UK convention of 6 Nov 1981 for Kosovo (Art. 28(3)). Kosovo is not an MLI party. ATK \"in force\" column shows 09.07.2015 (conflict); gov.uk and the treaty cover note give 16 Dec 2015 (used).",
+ "confidence": "high",
+ "unverified": []
+}

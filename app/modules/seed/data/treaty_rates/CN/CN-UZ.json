@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "UZ",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Uzbekistan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1996, as amended by Protocol 2011)",
+ "signed": "1996-07-03",
+ "entry_into_force": "1996-07-03",
+ "eif_source_url": "http://web.archive.org/web/20211130024824/http://www.chinatax.gov.cn/n810341/n810770/c1153533/5027037/files/c97a6134e42846119a8bcef885816ba9.pdf",
+ "eif_quote": "Art. 27: \"This Agreement shall enter into force on the day on which it is signed. This Agreement shall have effect with respect to income derived during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.\" | \"DONE at Tashkent on the 3rd day of July, 1996\"",
+ "source_title": "STA English text of the 1996 China-Uzbekistan Agreement and the 2011 amending Protocol (Wayback copies of chinatax.gov.cn PDFs)",
+ "source_url": "http://web.archive.org/web/20211130024824/http://www.chinatax.gov.cn/n810341/n810770/c1153533/5027037/files/c97a6134e42846119a8bcef885816ba9.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authority, Central Bank or wholly government-owned financial institutions discharging governmental functions (not modelled). The 2011 Protocol (signed 2011-04-18, in force 2011-12-30 per map.json) only replaced Art. 25 (exchange of information) - no WHT change. Uzbekistan is not an MLI signatory; no PPT in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

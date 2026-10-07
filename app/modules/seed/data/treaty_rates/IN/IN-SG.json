@@ -1,0 +1,67 @@
+{
+ "a": "IN",
+ "b": "SG",
+ "treaty_name": "Agreement between the Government of the Republic of Singapore and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1994, as amended by Protocols 2005, 2011 and 2016; modified by MLI)",
+ "signed": "1994-01-24",
+ "entry_into_force": "1994-05-27",
+ "eif_source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-india-dta-(ratified)(mli)(1-oct-2019).pdf?sfvrsn=dd28a790_7",
+ "eif_quote": "Date of Conclusion: 24 January 1994. Entry into Force: 27 May 1994. Effective Date: 1 January 1994 (Singapore); 1 April 1994 (India).",
+ "source_title": "IRAS: Singapore-India DTA (ratified) consolidated with protocols, incl. Annex A effects of the MLI (1 Oct 2019)",
+ "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-india-dta-(ratified)(mli)(1-oct-2019).pdf?sfvrsn=dd28a790_7",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1994-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 10% of the gross amount of the dividends if the beneficial owner is a company which owns at least 25% of the shares of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15% of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15% of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a)",
+   "valid_from": "1994-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) in the case of royalties referred to in paragraph 3(a) and fees for technical services as defined in this Article (other than services described in subparagraph (b) of this paragraph), 15% of the gross amount of the royalties and fees;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1) (inserted as Article 29A)",
+  "source_url": "https://www.iras.gov.sg/docs/default-source/dtas/protocol-amending-singapore-india-dta-(ratified)(mli)(1-oct-2019).pdf?sfvrsn=dd28a790_7",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Valid_from = Indian effective date (Art. 30: India fiscal years beginning on/after 1 April 1994; Singapore 1 January 1994). Interest: Art. 11(2)(a) 10% if paid on a loan granted by a bank carrying on bona fide banking business or a similar financial institution (incl. insurance company) - lender condition, not modelled as tier. Art. 10(3): Singapore does not tax dividends beyond the corporate tax (one-tier system) - Singapore-source dividends exempt from any additional dividend tax. Royalties: Art. 12(2)(b) 10% for royalties for use of industrial, commercial or scientific equipment (Art. 12(3)(b)) and ancillary FTS - not modelled as separate tier; Art. 12 general 15% also covers fees for technical services ('make available' definition). MLI: per IRAS Annex A only the preamble and PPT (new Art. 29A) apply; no MLI Art. 8 holding period (India notified Art. 10(2)(a) but Singapore made no matching notification - no Art. 8 change in Annex A); India's SLOB choice not reflected (Singapore did not adopt it). MLI WHT effect: Singapore 2020-01-01 (Annex A), India 2020-04-01 (Art. 35(2) taxable period). Treaty also contains its own limitation of benefits (Art. 24A, inserted by the 3rd Protocol 2016 with effect from 1 April 2017, for capital-gains relief under Art. 13(4A)/(4C)). 3rd Protocol 2016 (in force 2017-02-27) concerns capital gains on shares and Art. 9(2); rates in Arts. 10-12 unchanged.",
+ "confidence": "high",
+ "unverified": []
+}

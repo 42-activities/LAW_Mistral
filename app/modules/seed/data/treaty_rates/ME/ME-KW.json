@@ -1,0 +1,70 @@
+{
+ "a": "ME",
+ "b": "KW",
+ "treaty_name": "Agreement between the Federal Republic of Yugoslavia and the State of Kuwait for the avoidance of double taxation with respect to taxes on income and on capital (2002), applied by Montenegro",
+ "signed": "2002-04-02",
+ "entry_into_force": "2003-05-08",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Kuwait Original 02-04-2002 08-05-2003 || [ME PU table] 18 | Kuvajt | dohodak i imovinu | SRJ 4/03 | 1.1.2004. || Art. 28: \"Уговор ступа на снагу датумом пријема последњег од ових обавештења, а његове одредбе се, затим, примењују у обе државе уговорнице у односу на порезе на доходак који је остварен и на имовину која се поседује у свакој пореској години која почиње првог јануара или после првог јануара календарске године која следи годину у којој овај уговор ступа на снагу.\"",
+ "source_title": "Ugovor SRJ-Kuvajt (Službeni list SRJ - Međunarodni ugovori 4/2003), Serbian Cyrillic text, gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/1af7daab-4f09-4c14-ac61-b80babd226ef (file https://wapi.gov.me/download/1af7daab-4f09-4c14-ac61-b80babd226ef?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) 10 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са пореским законима те државе уговорнице, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са пореским законима те државе уговорнице, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Kuwait has not ratified the MLI); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by the Federal Republic of Yugoslavia (Kuwait, 02-04-2002; Sl. list SRJ - MU 4/2003); continued by Montenegro (via Serbia and Montenegro, then as successor State after 2006 independence; listed in the Montenegrin MoF list and Poreska uprava table and in Montenegro's MLI list). No Kuwaiti confirmation of continued application to Montenegro was located. Interest exempt at source when derived by the other State, its political subdivision, local authority or their governments (Art. 11(3)) - not modelled. Treaty runs for successive five-year periods unless terminated (Art. 29). Authentic in Serbian, Arabic and English (English prevails) - Serbian text read. Not MLI-covered (Kuwait not an MLI Party per map.json) -> no PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "English authentic text not read",
+  "Kuwait-side confirmation of succession not located"
+ ]
+}

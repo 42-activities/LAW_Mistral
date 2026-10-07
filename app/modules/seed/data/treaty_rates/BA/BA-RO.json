@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "RO",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and Romania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-12-06",
+ "entry_into_force": "2018-05-18",
+ "eif_source_url": "https://www.anaf.ro/anaf/internet/ANAF/asistenta_contribuabili/acorduri_conventii ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Rumunija-komb.tekst.pdf",
+ "eif_quote": "[RO list] Bosnia-Herțegovina (Nouă) ... 75/22.03.2018 | 269/2018 | 01.01.2019 || [RO MLI] Original 06-12-2016 18-05-2018 || Art. 27: 1. Ovaj sporazum stupa na snagu tridesetog dana od razmjene diplomatskih nota ... 2. Odredbe ovog sporazuma se primjenjuju: a) za poreze zadržane na izvoru na dohodak plaćene na ili nakon prvog dana januara u kalendarskoj godini koja slijedi nakon godine u kojoj ovaj sporazum stupa na snagu",
+ "source_title": "BiH MoF: MLI combined text of the BiH–Romania Agreement (Bosnian)",
+ "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Rumunija-komb.tekst.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=66dd6ab1-496b-4364-bc9f-7fd66c404195&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 posto bruto iznosa dividendi ako je stvarni vlasnik društvo (osim partnerstva), koje direktno posjeduje najmanje 25 posto imovine društva koje isplaćuje dividende,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 posto bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, kamata se može oporezivati i u državi ugovornici u kojoj nastaje, sukladno zakonima te države, ali ako je stvarni vlasnik kamate rezident druge države ugovornice, tako naplaćivani porez ne može biti veći od 7 posto bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, autorske naknade se mogu oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali ako je stvarni vlasnik autorskih naknada rezident druge države ugovornice, tako naplaćeni porez ne može biti veći od 5 posto bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Rumunija-komb.tekst.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf",
+  "quote": "Izuzetno od odredbi ovog Sporazuma, olakšica iz ovog Sporazuma ne odobrava se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje olakšica bio jedan od osnovnih razloga bilo kojeg aranžmana ili transakcije koji su direktno ili indirektno rezultirali tom pogodnošću, osim ako se ustanovi da bi odobravanje te olakšice u tim okolnostima bilo u skladu sa ciljem i svrhom odgovarajućih odredbi ovog Sporazuma."
+ },
+ "notes": "Replaced the 1986 Romania–Yugoslavia convention (applicable until 31.12.2018). Interest Art. 11(3): exempt where beneficially owned by the Government/territorial units/local authorities of the other State or their agencies, banks or institutions, or where the debt-claim is guaranteed, insured or financed by a financial institution wholly owned by the other State's Government. Royalty definition includes software. PPT: Romania reserved Art. 35(7)(a) and notified completion for BiH on 06-03-2023 -> MLI WHT effect 2024-01-01 (BiH MoF combined text: \"01. januara ili poslije 01. januara 2024\"). MLI Art. 8 not applicable (BiH reserved the entirety of Art. 8 under Art. 8(3)(a)). Romanian official text (M.Of. 269/2018) not cross-checked.",
+ "confidence": "high",
+ "unverified": [
+  "Romanian/English official text not cross-checked"
+ ]
+}

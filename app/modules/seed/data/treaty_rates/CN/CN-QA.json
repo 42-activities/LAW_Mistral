@@ -1,0 +1,59 @@
+{
+ "a": "CN",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the State of Qatar for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2001, as amended by Protocol 2021), as modified by the MLI",
+ "signed": "2001-04-02",
+ "entry_into_force": "2008-10-21",
+ "eif_source_url": "http://web.archive.org/web/20211130022633/http://www.chinatax.gov.cn/n810341/n810770/c1153858/5027073/files/11538581.pdf",
+ "eif_quote": "第二十八条 生效：本协定在缔约国双方交换外交照会确认已履行为本协定生效所必需的各自的法律程序之日起的第三十天开始生效。本协定将适用于在协定生效年度的次年一月一日或以后开始的纳税年度中取得的所得。(EIF date 2008-10-21 from STA list via map.json)",
+ "source_title": "STA Chinese text of the 2001 China-Qatar Agreement and English/Chinese text of the 2021 Protocol (Wayback copies of chinatax.gov.cn PDFs); the STA English treaty PDF is an image scan without text layer",
+ "source_url": "http://web.archive.org/web/20211130022633/http://www.chinatax.gov.cn/n810341/n810770/c1153858/5027073/files/11538581.pdf ; http://web.archive.org/web/20211130020435/http://www.chinatax.gov.cn/n810341/n810770/c1153858/5027073/files/123.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些股息也可以在支付股息的公司是其居民的缔约国，按照该缔约国法律征税。但是，如果收款人是股息受益所有人，则所征税款不应超过股息总额的百分之十。"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些利息也可以在该利息发生的缔约国，按照该缔约国的法律征税。但是，如果收款人是利息受益所有人，则所征税款不应超过利息总额的百分之十。"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "然而，这些特许权使用费也可以在其发生的缔约国，按照该缔约国的法律征税。但是，如果收款人是特许权使用费受益所有人，则所征税款不应超过特许权使用费总额的百分之十。"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "虽有本协定的任何规定，如果在考虑所有相关事实与情况后，可以合理地认定就某项所得获取本协定某项优惠是直接或间接产生该优惠的安排或交易的主要目的之一，则不应对该项所得给予该优惠，除非可以确认，在这些情形下给予该优惠符合本协定相关规定的宗旨和目的。"
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authorities, Central Bank or wholly government-owned financial institutions, and on debt-claims indirectly financed by them. The 2021 Protocol (signed Doha 2021-03-11, in force 2021-08-24 per SAT Announcement 2021 No.27 via map.json) only exempts international air-transport revenues from VAT - no WHT change. Single 10% dividend rate - MLI Art. 8 irrelevant. MLI WHT effect from 2023-01-01 per map.json (QA MLI EIF 2020-04-01, CN 2022-09-01; SAT Announcement 2022 No.16). Quotes from the Chinese authentic text (English text prevails in case of divergence, but the STA English PDF is image-only).",
+ "confidence": "high",
+ "unverified": [
+  "English text not machine-readable; rates taken from Chinese authentic text",
+  "MLI synthesised text not read"
+ ]
+}

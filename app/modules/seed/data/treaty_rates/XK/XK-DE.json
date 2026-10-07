@@ -1,0 +1,70 @@
+{
+ "a": "XK",
+ "b": "DE",
+ "treaty_name": "Agreement between the Federal Republic of Germany and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (1987), continued in force between Germany and Kosovo",
+ "signed": "1987-03-26",
+ "entry_into_force": "1988-12-03",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf",
+ "eif_quote": "[BMF Stand 1.1.2026] Vereinbarungen über die Fortgeltung des DBA mit der SFRJ vom 26. März 1987 wurden geschlossen mit der: ... Republik Kosovo (BGBl. 2011 II S. 748) ... || Kosovo 26.03.1987 (DBA mit SFR Jugoslawien gilt fort, BGBl. 2011 II S. 748) 1988 744 1988 372 1988 1179 1989 35 01.01.1989 || [Art. 30(2)(a)(ii)] in respect of taxes withheld at source on dividends, interest, and royalties paid on or after the first day of January of the calendar year following that in which the instruments of ratification have been exchanged",
+ "source_title": "BGBl. 1988 II S. 744 (German/English text of the Germany-SFR Yugoslavia Agreement and Protocol, scan published by ATK, read visually); succession: BGBl. 2011 II S. 748 as cited in BMF list of DBA (Stand 1.1.2026)",
+ "source_url": "https://www.atk-ks.org/wp-content/uploads/2017/08/Germany-Yugoslavia_1987_German-Eng_BGBl-II-1988-744-1.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "(1) Dividends paid by a company which is a resident of the Federal Republic of Germany to a resident of Yugoslavia may be taxed in the Federal Republic of Germany. However the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "XK",
+   "quote": "Profit from investments in a Yugoslav organisation of associated labour derived by a resident of the Federal Republic of Germany may be taxed in Yugoslavia. However, the tax so charged shall not exceed 15 per cent of the profit."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State, if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable - Kosovo not an MLI party)",
+  "source_url": "https://www.atk-ks.org/wp-content/uploads/2017/08/Germany-Yugoslavia_1987_German-Eng_BGBl-II-1988-744-1.pdf",
+  "quote": ""
+ },
+ "notes": "Treaty concluded with the SFR Yugoslavia (Bonn, 26 March 1987; German, Serbo-Croatian and English authentic, English prevails); entered into force 3 Dec 1988 (BGBl. 1989 II S. 35), applicable from 1 Jan 1989. Succession instrument: agreement on continued application between Germany and the Republic of Kosovo published in BGBl. 2011 II S. 748 (cited in the official BMF DBA list; the BGBl page itself was not opened); ATK lists the continuation as in force/applicable from 02.09.2011. valid_from shows the treaty's original WHT application date (1 Jan 1989); for Kosovo as an independent State the continuation was formalised in 2011. Article numbering differs from the OECD model: dividends Art. 11 (German-source only, 15%); Art. 8 caps tax in Yugoslavia on profit from investments in a Yugoslav \"organisation of associated labour\" at 15% - recorded as the Kosovo-source dividend cap by analogy (ATK summary table also shows dividends 15%), application of this SFRY-specific wording to Kosovo companies is not confirmed. Protocol 1(a): Germany may tax under its domestic law dividends/interest from profit-participating rights (silent partnerships, partiarische Darlehen, Gewinnobligationen) if deductible for the German payer. Protocol 1(b): MFN-type review clause if Germany grants a dividend rate below 15% to another State - no official notice of a reduction found. Royalties 10% (ATK summary table shows 0% - conflicts with Art. 13(2)). BMF negotiation table: new DBA with Kosovo initialled (\"R-A P: 26.04.2024\"), not in force.",
+ "confidence": "medium",
+ "unverified": [
+  "BGBl. 2011 II S. 748 (succession instrument) not opened; cited via BMF list",
+  "Applicability of Art. 8 (Yugoslav organisation of associated labour) to Kosovo-source dividends"
+ ]
+}

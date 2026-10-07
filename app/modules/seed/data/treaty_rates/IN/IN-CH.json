@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "CH",
+ "treaty_name": "Agreement between the Swiss Confederation and the Republic of India for the avoidance of double taxation with respect to taxes on income (1994, as amended by Protocols 2000 and 2010)",
+ "signed": "1994-11-02",
+ "entry_into_force": "1994-12-29",
+ "eif_source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/845_845_845/20120420/de/html/fedlex-data-admin-ch-eli-cc-1995-845_845_845-20120420-de-html-3.html",
+ "eif_quote": "SR 0.672.942.31 (fedlex consolidated version 2012-04-20): Art. 10(2) 'Fassung gemäss Art. 6 Ziff. 1 des Prot. vom 16. Febr. 2000, ... in Kraft seit 20. Dez. 2000'; Protocol 'Art. 9–13 des Prot. vom 30. Aug. 2010, ... in Kraft seit 7. Okt. 2011'. Entry into force of the Agreement 1994-12-29 per map.json/India MLI position.",
+ "source_title": "Fedlex SR 0.672.942.31 consolidated (DE, status 2012-04-20) + Income Tax Department (India) consolidated English text (Wayback copy of incometaxindia.gov.in, captured 2018-02-04) + ESTV/SIF notice 'Switzerland suspends its unilateral application of the MFN clause' (11 Dec 2024)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/845_845_845/20120420/de/html/fedlex-data-admin-ch-eli-cc-1995-845_845_845-20120420-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State; but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or the fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not an MLI covered tax agreement; Protocol para. 5 conduit-arrangement rule only)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1995/845_845_845/20120420/de/html/fedlex-data-admin-ch-eli-cc-1995-845_845_845-20120420-de-html-3.html",
+  "quote": "Die Bestimmungen der Artikel 10, 11, 12 und 22 werden nicht auf Dividenden, Zinsen, Lizenzgebühren, Vergütungen für technische Dienstleistungen oder sonstige Einkünfte angewandt, die im Rahmen oder als Teil einer Gewinndurchlaufregelung gezahlt werden."
+ },
+ "notes": "10% caps on dividends, interest and royalties/FTS introduced by the Protocol of 16-02-2000 (in force 2000-12-20), effective in Switzerland from 1 January 2001 and in India for fiscal years beginning on or after 1 April 2001. MFN: Protocol para. 5 (inserted by Art. 11 of the 2010 Protocol) contains an MFN clause for dividends, interest, royalties and FTS (OECD-member third States). Switzerland unilaterally applied 5% to dividends from 5 July 2018 (>=10% holdings, Lithuania) and 28 April 2020 (all dividends, Colombia) per its statement of 13 Aug 2021, but by official ESTV/SIF notice of 11 Dec 2024 suspended that unilateral application with effect from 1 January 2025 ('For dividends due from and including 1 January 2025, the residual tax rate in the source State is limited to 10%'), following the Indian Supreme Court ruling of 19 Oct 2023 (AO v. Nestle SA). No Indian notification applying the MFN exists; India applies 10%. So 10% is recorded for both directions as at 2026-10-07; the 2018-2024 Swiss-side 5% is historical and not modelled. Not modelled: Art. 11(3) exemptions for interest on loans made/guaranteed by Governments, central banks and listed public institutions. Not MLI-covered (Switzerland did not list India). WHT on Swiss source dividends is refunded via claim procedure.",
+ "confidence": "high",
+ "unverified": [
+  "Effective date of 2000 Protocol rates assumed per its Art. 16 effect clause (1 Jan 2001 CH / 1 Apr 2001 IN)"
+ ]
+}

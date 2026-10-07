@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "LU",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008; modified by MLI)",
+ "signed": "2008-06-02",
+ "entry_into_force": "2009-07-09",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+ "eif_quote": "[India MLI position, Article 2 list] Luxembourg Original 02.06.2008 09.07.2009",
+ "source_title": "impotsdirects.public.lu: Synthesised text of the MLI and the Luxembourg-India Agreement (2008)",
+ "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/india-mli.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2010-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2010-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2010-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1) (replaces Art. 29(2)-(3))",
+  "source_url": "https://impotsdirects.public.lu/dam-assets/fr/conventions/mli/india-mli.pdf",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Effective (Art. 32(3)): India WHT on income derived on/after 1 April of the calendar year following EIF (2010-04-01); Luxembourg WHT from 1 January 2010. Art. 11(3): interest exempt at source when derived by Governments/political subdivisions/local authorities, RBI, EXIM Bank of India, National Housing Bank, SNCI, Banque Centrale du Luxembourg and other agreed institutions - not modelled. Art. 12 rate also covers fees for technical services; 'royalties' includes equipment rental. Art. 30: the Agreement does not apply to Luxembourg 1929 holding companies or other companies enjoying similar special fiscal treatment (nor income derived by Indian residents from them). MLI (synthesised text, prepared with both competent authorities): MLI in force LU 2019-08-01, IN 2019-10-01; WHT effect Luxembourg 2020-01-01, India 2020-04-01. PPT replaces Art. 29(2)-(3); SLOB not included (India's SLOB choice not matched). No MLI Art. 8 holding period. Protocol MFN clause concerns exchange of information only (Ad Art. 27) - no rate MFN.",
+ "confidence": "high",
+ "unverified": []
+}

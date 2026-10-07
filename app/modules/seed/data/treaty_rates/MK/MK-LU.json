@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "LU",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Grand Duchy of Luxembourg for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2012)",
+ "signed": "2012-05-15",
+ "entry_into_force": "2013-07-23",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 27: 1. ... The Agreement shall enter into force on the date of receipt of the last notification. 2. The Agreement shall be applicable: a) in respect of taxes withheld at source, to income derived on or after 1-st January of the calendar year next following the year in which the Agreement enters into force; | UJP table: Luxembourg | 139/2012 | 23.07.2013 | 01.01.2014",
+ "source_title": "UJP scanned signed English text of the MK-Luxembourg agreement and protocol (21Luxemburg.pdf), read from page images pp. 9-11, 19-22",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/21Luxemburg.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividend definition includes, for Luxembourg, profit shares of sleeping partners and profit-participating bond income. Protocol concerns only exchange of information (Art. 25). No PPT clause in the treaty.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "SD",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Republic of the Sudan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003)",
+ "signed": "2003-10-22",
+ "entry_into_force": "2004-04-15",
+ "eif_source_url": "https://web.archive.org/web/20130724235213/http://law.incometaxindia.gov.in/Directtaxlaws/cbdt/dta/A1_Sudan.htm",
+ "eif_quote": "Whereas the annexed Agreement between the Government of the Republic of India and the Government of the Republic of the Sudan ... has come into force on the 15th day of April, 2004 on the date of receipt of the later of the notifications ... Notification : No. GSR 723(E), dated 1-11-2004.",
+ "source_title": "Wayback copy (2013) of Income Tax Department of India (law.incometaxindia.gov.in) text of Notification GSR 723(E) dated 1-11-2004 with annexed India-Sudan Agreement",
+ "source_url": "https://web.archive.org/web/20130724235213/http://law.incometaxindia.gov.in/Directtaxlaws/cbdt/dta/A1_Sudan.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2005-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2005-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest or gains may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest or gains, the tax so charged shall not exceed 10 per cent of the gross amount of the interest or gains."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2005-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of the State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "Not MLI-covered: Sudan is not an MLI signatory (per map.json); the 2003 Agreement contains no principal purpose / limitation of benefits article."
+ },
+ "notes": "Effective dates (Art. 29(3)): India - income derived in fiscal years beginning on or after 1 April following the calendar year of entry into force (2004) -> 2005-04-01; Sudan - fiscal years beginning on or after 1 January 2005 (valid_from uses the Indian-side date). Art. 11 covers 'interest or gains'. Art. 11(3): exemption at source for the Government, political sub-divisions, local authorities and listed institutions (India: RBI, IFCI, IDBI, EXIM Bank, NHB, SIDBI, ICICI; Sudan: Bank of Sudan, Sudanese Development Corporation) or others agreed - not modelled. Art. 12 10% cap also covers fees for technical services (not modelled). No amending protocol known (map.json). Text read from an archived official Indian Income Tax Department page (live site 403); Sudanese official text not read.",
+ "confidence": "medium",
+ "unverified": [
+  "No later amending protocol confirmed after the 2013 archive capture (map.json lists none)"
+ ]
+}

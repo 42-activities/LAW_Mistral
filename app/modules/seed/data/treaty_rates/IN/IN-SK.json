@@ -1,0 +1,69 @@
+{
+ "a": "IN",
+ "b": "SK",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Czechoslovak Socialist Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1986; applied by the Slovak Republic as successor; modified by MLI)",
+ "signed": "1986-01-27",
+ "entry_into_force": "1987-03-13",
+ "eif_source_url": "https://web.archive.org/web/2024/https://search.incometaxindia.gov.in/_vti_bin/taxmann.iti.webservices/DataWebService.svc/GetFileContentsByPath?path=https://www.incometaxindia.gov.in/DTAA/Synthesised-Text-of-MLI-and-India-Slovak-Republic-DTAA.htm&grp=&searchFilter=&k=IndiaSlovak%20DTAA",
+ "eif_quote": "[Art. 28] This Agreement shall enter into force on the date of the later of these notifications and shall thereupon have effect: ( a ) in India, in respect of income arising in any previous year beginning on or after the first day of April, 1985; ( b ) in Czechoslovakia, in respect of income arising in any year of income beginning on or after the first day of January, 1985.",
+ "source_title": "Synthesised text of the MLI and the India-Czechoslovakia Agreement as applied to the Slovak Republic (prepared jointly by the competent authorities of India and the Slovak Republic), incometaxindia.gov.in - Wayback copy of the official file",
+ "source_url": "https://web.archive.org/web/2024/https://search.incometaxindia.gov.in/_vti_bin/taxmann.iti.webservices/DataWebService.svc/GetFileContentsByPath?path=https://www.incometaxindia.gov.in/DTAA/Synthesised-Text-of-MLI-and-India-Slovak-Republic-DTAA.htm&grp=&searchFilter=&k=IndiaSlovak%20DTAA",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as modified by MLI Art. 8(1))",
+   "valid_from": "2020-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "( a ) [MODIFIED by paragraph 1 of Article 8 of the MLI] [15 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least 25 per cent of the shares of company paying the dividends;] ... [ Subparagraph ( a ) of paragraph 2 of Article 10 of the Agreement ] shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1985-04-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 25 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1985-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1985-04-01",
+   "max_rate": "30",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, or fees for technical services, the tax so charged shall not exceed 30 per cent of gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1) (plus Simplified LOB, MLI art. 7(8)-(13))",
+  "source_url": "https://web.archive.org/web/2024/https://search.incometaxindia.gov.in/_vti_bin/taxmann.iti.webservices/DataWebService.svc/GetFileContentsByPath?path=https://www.incometaxindia.gov.in/DTAA/Synthesised-Text-of-MLI-and-India-Slovak-Republic-DTAA.htm&grp=&searchFilter=&k=IndiaSlovak%20DTAA",
+  "quote": "Notwithstanding any provisions of [ the Agreement ], a benefit under [ the Agreement ] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [ the Agreement ]."
+ },
+ "notes": "Succession: the 1986 India-Czechoslovakia Agreement is applied by the Slovak Republic as one of the successor States of Czechoslovakia (stated in the joint synthesised text: 'which applies to the Slovak Republic, being one of the independent states to have succeeded the Czechoslovak Socialist Republic'; also on the Slovak MF list of valid treaties and in both MLI positions per map). Agreement effective in India for income of previous years beginning on/after 1 April 1985 (Czechoslovakia: 1 January 1985); EIF 1987-03-13 (map). MLI: India EIF 2019-10-01, Slovakia 2019-01-01; WHT effect in India from 1 April 2020, in Slovakia from 1 January 2020 (map mli_wht_effective 2020-01-01). MLI Art. 8 365-day holding period applies to the 15% dividend tier (>=25% shareholding) from those dates. Both PPT (Art. 7(1)) and the Simplified LOB (Art. 7(8)-(13)) apply (Slovakia also chose SLOB per synthesised text). Interest exempt at source when derived by the Government/political subdivision/local authority or Central Bank, or on loans/credits extended or endorsed by Ceskoslovenska obchodni banka / Exim Bank of India (export-import financing), public external-trade financing institutions, or Government-approved loans (Art. 11(3)) - not modelled. Royalty cap of 30% also covers fees for technical services. No MFN clause.",
+ "confidence": "high",
+ "unverified": [
+  "Succession instrument itself not read (relying on the joint synthesised text statement and Slovak MF list per map)"
+ ]
+}

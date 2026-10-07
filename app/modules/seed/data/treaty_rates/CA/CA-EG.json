@@ -1,0 +1,56 @@
+{
+ "a": "CA",
+ "b": "EG",
+ "treaty_name": "Convention between Canada and the Arab Republic of Egypt for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1983)",
+ "signed": "1983-05-30",
+ "entry_into_force": "1984-10-02",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102252",
+ "eif_quote": "[CTS 1984/31] Entry into Force 02 October 1984 | Art. 28(2)(a): (a) in respect of tax withheld at the source on amounts paid or credited on or after the first day of January in the calendar year following that in which the exchange of instruments of ratification takes place; and",
+ "source_title": "Canada Treaty Information (GAC): Canada-Egypt Convention 1983 (E102252, CTS 1984/31)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102252",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 15 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-egypt-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Flat 15% on dividends, interest and royalties; MLI Art. 8 not applicable (no participation tier; Canada did not notify this treaty under Art. 8(4)). Not modelled: Art. 10(3) Egyptian general income tax on dividends paid to Canadian individuals may be imposed up to an average of 20% of net dividends (\"3. Notwithstanding the provisions of paragraph 2, dividends paid by a company which is a resident of Egypt to an individual who is a resident of Canada may in Egypt be subject to the general income tax levied on net total income. However, the general income tax thus imposed shall in no case exceed an average of 20 per cent of the net dividends payable to such individual.\"); Art. 11(3) interest derived by a Contracting State/tax-exempt instrumentality, or on State-made/guaranteed/insured loans, exempt in the other State.",
+ "confidence": "high",
+ "unverified": []
+}

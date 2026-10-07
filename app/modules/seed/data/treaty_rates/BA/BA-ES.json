@@ -1,0 +1,67 @@
+{
+ "a": "BA",
+ "b": "ES",
+ "treaty_name": "Convention between the Kingdom of Spain and Bosnia and Herzegovina for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-02-05",
+ "entry_into_force": "2011-01-04",
+ "eif_source_url": "https://www.boe.es/boe/dias/2010/11/05/pdfs/BOE-A-2010-16974.pdf",
+ "eif_quote": "El presente Convenio entrará en vigor el 4 de enero de 2011, transcurrido un plazo de tres meses a partir de la fecha de recepción de la última notificación ... | Art. 28(2): ... sus disposiciones surtirán efecto: i) en relación con los impuestos de devengo periódico, respecto de los impuestos sobre la renta correspondientes al año fiscal que comience en la fecha de entrada en vigor del Convenio o con posterioridad a la misma; ii) en los restantes casos, en la fecha en la que el Convenio entre en vigor.",
+ "source_title": "BOE núm. 268, 5 Nov 2010 (BOE-A-2010-16974): Convenio entre el Reino de España y Bosnia y Herzegovina",
+ "source_url": "https://www.boe.es/boe/dias/2010/11/05/pdfs/BOE-A-2010-16974.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-04",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (distinta de una sociedad personalista –partnership–) que posea directamente al menos el 20 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-04",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-04",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos intereses pueden someterse también a imposición en el Estado contratante del que procedan y según la legislación de ese Estado, pero si el perceptor de los intereses es el beneficiario efectivo, el impuesto así exigido no podrá exceder del 7 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-04",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos cánones pueden también someterse a imposición en el Estado contratante del que procedan y según la legislación de ese Estado, pero si el beneficiario efectivo de los cánones es un residente del otro Estado contratante el impuesto así exigido no podrá exceder del 7 por ciento del importe bruto de dichos cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.hacienda.gob.es/SGT/NormativaDoctrina/Tributaria/CDI/Textos-Sinteticos/CDI-TS-Bosnia-Herzegovina-SP.pdf ; https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/BiH-%C5%A0panjolska_komb._tekst_-Novo_bos._verzija.pdf",
+  "quote": "No obstante las disposiciones [ del Convenio ], los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta o de patrimonio cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el acuerdo u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo, excepto cuando se determine que la concesión del beneficio en esas circunstancias es conforme con el objeto y propósito de las disposiciones pertinentes [del Convenio]."
+ },
+ "notes": "Interest Art. 11(3): taxable only in residence State where the beneficial owner is the State/central bank/subdivision/local entity, interest is paid by the source State or its subdivisions/public entities, on loans granted/guaranteed/insured by the State or an export-credit agency, to a public financial institution wholly financed by the State, or to an approved tax-exempt pension fund — not modelled. Protocol III: domestic anti-abuse rules (Spain: art. 15 LGT) and CFC rules preserved; benefits denied to non-beneficial owners. valid_from = EIF date per Art. 28(2)(ii) (withholding taxes apply from 04-01-2011). MLI: Spain reserved Art. 35(7)(a); Art. 35(7)(b) notification for BiH 01-06-2022 -> MLI effect for withholding taxes 01.01.2023 (Spanish synthesised text and BiH MoF combined text agree). BiH reserved MLI Art. 8 entirely. BiH Bosnian text (MoF combined) gives identical rates.",
+ "confidence": "high",
+ "unverified": []
+}

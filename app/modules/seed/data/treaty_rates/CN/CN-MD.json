@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "MD",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Moldova for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2000)",
+ "signed": "2000-06-07",
+ "entry_into_force": "2001-05-26",
+ "eif_source_url": "http://web.archive.org/web/20250413225740/https://www.chinatax.gov.cn/chinatax/n810341/n810770/c1153627/5027046/files/11536272.pdf",
+ "eif_quote": "Art. 28: \"This Agreement shall enter into force on the thirtieth day after the date on which diplomatic notes indicating the completion of internal legal procedures necessary in each country for the entry into force of this Agreement have been exchanged. This agreement shall have effect as respects income derived during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.\" (EIF date 2001-05-26 from STA list via map.json)",
+ "source_title": "STA English text of the 2000 China-Moldova Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20250413225740/https://www.chinatax.gov.cn/chinatax/n810341/n810770/c1153627/5027046/files/11536272.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2002-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authority, Central Bank or wholly government-owned financial institutions, and on debt-claims indirectly financed by them. Moldova is not an MLI signatory (China lists the treaty for Art. 8 notification, but this has no effect) - no PPT, no 365-day holding requirement.",
+ "confidence": "high",
+ "unverified": []
+}

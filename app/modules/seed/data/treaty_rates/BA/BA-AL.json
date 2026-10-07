@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "AL",
+ "treaty_name": "Agreement between the Council of Ministers of Bosnia and Herzegovina and the Council of Ministers of the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion (2008)",
+ "signed": "2008-06-18",
+ "entry_into_force": "2012-05-10",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Fiskala/BiH_-_Albanija_Komb._tekst_-_bos._-_28.12..pdf",
+ "eif_quote": "[BA MLI list] Albania Original 17-06-2008 10-05-2012 | [AL MLI list] Bosnia and Herzegovina Original 17-06-2008 10-05-2012 | Art. 29(2)(a): Sporazum se primjenjuje: a) u odnosu na poreze gdje nastaju na dohodak, za svaku fiskalnu godinu koja počinje prvog januara ili poslije prvog januara kalendarske godine koja slijedi godinu u kojoj je Sporazum stupio na snagu.",
+ "source_title": "BiH Ministry of Finance and Treasury: Kombinovani tekst MLI i Sporazuma BiH–Albanija (Bosnian); treaty published in Službeni glasnik BiH – Međunarodni ugovori 5/12",
+ "source_url": "https://www.mft.gov.ba/data/Fiskala/BiH_-_Albanija_Komb._tekst_-_bos._-_28.12..pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5% bruto iznosa dividendi ako je stvarni vlasnik kompanija (osim partnerst va) koja posjeduje direktno najmanje 25% imovine preduzeća koje isplaćuje dividende"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10% bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Kamata se može oporezovati i u džavi ugovornici u kojoj nastaje, saglasno zakonima te države, ali ako je stvarni vlasnik te kamate rezident dr uge države ugovornice, utvrđeni porez ne mož e biti v eći od 10% bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Autorske naknade se mogu oporezovati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali ako je primalac stvarni vlasnik a utorskih nakanda, porez ne može biti već i od 10% bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskala/BiH_-_Albanija_Komb._tekst_-_bos._-_28.12..pdf",
+  "quote": "Iznimno od odredbi ovog Ugovora, olakšica iz ovog Ugovora ne odobrava se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje olakšica bio jedan od osnovnih razloga bilo kojeg aranžmana ili transakcije koji su izravno ili neizravno rezultirali tom pogodnošću, osim ako se ustanovi da bi odobravanje te olakšice u tim okolnostima bilo u skladu sa ciljem i svrhom odgovarajućih odredaba ovog Ugovora."
+ },
+ "notes": "No government/central-bank interest exemption in Art. 11. Dividend 5% tier requires direct holding of at least 25% of the paying company's capital ('imovine' in the Bosnian text). BiH reserved MLI Art. 8 entirely, so no 365-day holding requirement. Signature date: BiH Official Gazette (Sl. glasnik BiH – MU 5/12, ratification decision and testimonium) gives 18.06.2008 (used); both MLI lists give 17-06-2008. Albania's tax administration list shows 'effective from 01.01.2009' (map.json note), which conflicts with BiH's ratification (Presidency decision 28.12.2011) and EIF 10-05-2012 in both MLI lists; valid_from 2013-01-01 follows Art. 29(2)(a). PPT: MoF combined text states MLI Art. 7(1) applies; WHT effect 01.01.2021 per the same document.",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF date 2012-05-10 taken from MLI lists (no exchange-of-notes notice read)"
+ ]
+}

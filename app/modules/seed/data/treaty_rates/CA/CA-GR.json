@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Hellenic Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2009)",
+ "signed": "2009-06-29",
+ "entry_into_force": "2010-12-16",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-5.9/FullText.html",
+ "eif_quote": "[Note: Convention in force December 16, 2010, see Canada Gazette Part I, Volume 145, page 437.] | Art. 29(1)(b)(i): (i) in respect of tax withheld at the source on amounts paid or credited to non-residents, on or after the first day of January of the calendar year next following that in which the Convention enters into force, and",
+ "source_title": "Canada–Greece Tax Convention Act, 2010, Schedule — consolidated, Justice Laws Website",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-5.9/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company that holds directly or indirectly at least 25 per cent of the capital of the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, subject to paragraph 8, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, subject to paragraph 8, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-greece-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Canada notified Arts. 11(8) and 12(8) of this treaty as existing provisions described in MLI Art. 7(2).]"
+ },
+ "notes": "MLI Art. 8 not applicable: Greece reserved the entirety of Art. 8 (Art. 8(3)(a)). Arts. 11(8)/12(8) deny the reduced rates where the debt-claim/right was created or acquired mainly to take advantage of the Article (replaced by MLI Art. 7(1) from 2022-01-01). Art. 11(3): interest beneficially owned by the other State/subdivision/local authority/Central Bank exempt; EDC and Hellenic Export Credit Insurance Organization loans taxable only in residence State. Art. 12(3): copyright royalties for cultural/artistic works (excl. film/TV) taxable only in residence State. Art. 10(6) branch tax max 5%. Effect in Greece: income derived on or after 1 January 2011.",
+ "confidence": "high",
+ "unverified": []
+}

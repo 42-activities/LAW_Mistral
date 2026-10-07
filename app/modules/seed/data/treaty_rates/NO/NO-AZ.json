@@ -1,0 +1,56 @@
+{
+ "a": "NO",
+ "b": "AZ",
+ "treaty_name": "Convention between the Kingdom of Norway and the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital (1996)",
+ "signed": "1996-04-24",
+ "entry_into_force": "1996-12-20",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1996-04-24-1",
+ "eif_quote": "Avtalens ikrafttredelsesdato 20-12-1996 | Art. 30: Denne overenskomst trer i kraft på datoen for mottakelsen av den siste av disse underretninger og skal deretter ha virkning: a. med hensyn til skatter tilbakeholdt ved kilden, på beløp betalt eller godskrevet på eller etter 1. januar i det kalenderår som følger etter det år overenskomsten trer i kraft.",
+ "source_title": "Lovdata traktat 1996-04-24-1: Overenskomst mellom Norge og Aserbajdsjan (Norwegian text)",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1996-04-24-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1997-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av dividendenes bruttobeløp i alle andre tilfelle."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Slike renter kan imidlertid også skattlegges i den kontraherende stat hvor rentene skriver seg fra og i henhold til denne stats lovgivning, men hvis mottakeren er den virkelige rettighetshaver til rentene skal den skatt som ilegges ikke overstige 10 prosent av rentenes bruttobeløp."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1997-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Slik royalty kan imidlertid også skattlegges i den kontraherende stat hvor royaltyen skriver seg fra og i henhold til denne stats lovgivning, men hvis mottakeren er den virkelige rettighetshaver til royaltyen skal den skatt som ilegges ikke overstige 10 prosent av royaltyens bruttobeløp."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable to this pair)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Dividends Art. 10(2)(a): 10% where the beneficial owner is a company (other than a partnership) holding directly at least 30% of the capital AND having invested in the source State at least the equivalent of USD 100,000 ('...minst 30 prosent av kapitalen i det selskap som utdeler dividendene, og til sammen har investert i denne stat et beløp som minst tilsvarer 100.000 USD') - investment-amount condition, so not modelled as a plain tier. EIF conflict: Lovdata 1996-12-20 vs Azerbaijan MLI list 1996-09-19; both give WHT effect from 1997-01-01. Not MLI-covered (Norway does not list Azerbaijan).",
+ "confidence": "high",
+ "unverified": []
+}

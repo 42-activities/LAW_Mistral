@@ -1,0 +1,26 @@
+{
+ "a": "BA",
+ "b": "IR",
+ "treaty_name": "Agreement between the Government of Bosnia and Herzegovina and the Government of the Islamic Republic of Iran for the avoidance of double taxation with respect to taxes on income and on capital (1996)",
+ "signed": "1996-07-27",
+ "entry_into_force": null,
+ "eif_source_url": "https://mft.gov.ba/Content/OpenAttachment?id=7d614a88-45a8-44e2-9db7-547a37eb8d2d&lang=hr",
+ "eif_quote": "Ratificira se Sporazum između Vlade Bosne i Hercegovine i Vlade Islamske Republike Iran o izbjegavanju dvostrukog oporezivanja u odnosu na poreze na dohodak i na imovinu, potpisan 27. srpnja 1996. godine ... (OBJAVLJENO u \"Službenom glasniku BiH - Međunarodni sporazumi\", broj: 7/96) || Članak 28(2): Sporazum stupa na snagu po razmjeni ratifikacijskih instrumenata a njegove odredbe se primjenjuju: (a) u odnosu na poreze koji se zadržavaju na izvoru, na iznose dohotka ostvarene prvog siječnja kalendarske godine koja slijedi godinu u kojoj je ovaj Sporazum stupio na snagu",
+ "source_title": "BiH Ministry of Finance and Treasury: Uredba o ratifikaciji Sporazuma BiH–Iran (Službeni glasnik BiH – Međunarodni sporazumi 7/96), Bosnian text",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=7d614a88-45a8-44e2-9db7-547a37eb8d2d&lang=hr ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/Iran_-_eng..pdf ; https://www.mft.gov.ba/Content/Read/sporazumi-u-primjeni",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Iran is not an MLI signatory)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "RATES NOT RECORDED because the entry into force date (and so the first application date) could not be established from an official source, per lead instruction (rates [] when EIF is unknown). Treaty text rates for reference, read from the BiH MoF text: DIVIDEND Article 10(2): 10% (\"Međutim, takve dividende se mogu oporezivati i u državi ugovornici čiji je rezident društvo koje plaća dividende, sukladno zakonima te države, ali ako je primatelj stvarni vlasnik dividendi tako utvrđen porez ne može biti veći od 10 % od bruto iznosa dividendi.\"); INTEREST Article 11(2): 10% (\"Međutim, takva kamata se može oporezivati i u državi ugovornici u kojoj nastaje, sukladno zakonima te države, ali ako je primatelj stvarni korisnik kamate tako utvrđen porez ne može biti veći od 10 % od bruto iznosa kamata.\"); ROYALTY Article 12(2): 15% (\"Međutim, takve autorske naknade mogu se oporezivati i u državi ugovornici u kojoj nastaju, sukladno zakonima te države, ali ako je primatelj stvarni vlasnik autorskih naknada tako utvrđen porez ne može biti veći od 15 % od bruto iznosa autorskih naknada.\"). Signature date 27-07-1996 from the ratification decree (Uredba of the Government of the Republic of BiH, Sl. glasnik BiH-MS 7/96); signed in English, Persian and Bosnian, English prevails. ENTRY INTO FORCE NOT FOUND: EIF is on exchange of ratification instruments (Art. 28(2)), but no exchange date or EIF notice was found in BiH MoF materials, sluzbenilist.ba (not searchable without login), FIPA, OECD/MLI lists (Iran not a signatory) or Iranian official sources (Majlis research centre/INTA not found via search). BiH MoF lists the agreement among DTAs \"u primjeni\" (in application) and FIPA lists Iran among agreements in force, so rates are recorded but valid_from is null (would be 1 January of the year following EIF). Interest Art. 11(4): interest derived by the Government, ministries, other government institutions, municipalities, the Central Bank and banks wholly owned by the Government of the other State is exempt. English official text on mft.gov.ba is a scan without text layer; rates read from the Bosnian ratification text.",
+ "confidence": "low",
+ "unverified": [
+  "entry_into_force and valid_from unknown",
+  "whether Iran completed ratification (Iranian Majlis approval not located)",
+  "entry into force / first application date of the BA-IR agreement"
+ ]
+}

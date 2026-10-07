@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "ES",
+ "treaty_name": "Convenio entre el Gobierno español y el Gobierno macedonio para evitar la doble imposición y prevenir la evasión fiscal en materia de impuestos sobre la renta y el patrimonio, y Protocolo (2005)",
+ "signed": "2005-06-20",
+ "entry_into_force": "2005-12-01",
+ "eif_source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-35",
+ "eif_quote": "El presente Convenio entró en vigor el 1 de diciembre de 2005, fecha de la última notificación cruzada entre las Partes ... según se establece en su artículo 27. | Art. 27(1)(a): en relación con los impuestos retenidos en la fuente, sobre las rentas pagadas o devengadas a partir del día uno de enero, inclusive, del año civil siguiente a aquel en que el Convenio entre en vigor; | UJP table: Spain | 96/2005 | 01.12.2005 | 01.01.2006",
+ "source_title": "BOE-A-2006-35 (BOE 3 January 2006), Spanish text of the ES-MK convention and protocol",
+ "source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-35",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (distinta de una sociedad personalista «partnership») que posea directamente al menos el 10 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 por cien del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, dichos intereses pueden someterse también a imposición en el Estado contratante del que procedan y según la legislación de ese Estado, pero si el beneficiario efectivo de los intereses es un residente del otro Estado contratante, el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Sin embargo, dichos cánones o regalías pueden también someterse a imposición en el Estado contratante del que procedan y según la legislación de ese Estado, pero si el beneficiario efectivo de los cánones o regalías es un residente del otro Estado contratante el impuesto así exigido no podrá exceder del 5 por ciento del importe bruto de dichos cánones o regalías."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Protocol II excludes persons enjoying special tax regimes listed by exchange of notes - not a PPT; MLI not applicable - North Macedonia has not ratified it)",
+  "source_url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-35",
+  "quote": "Los beneficios previstos en los artículos 6 a 21 del presente Convenio no serán de aplicación a aquellas personas que disfruten de beneficios fiscales especiales en virtud: a) de una ley aplicable en cualquiera de los Estados contratantes a la que se haga referencia en un intercambio de Notas entre estos; o b) una ley de naturaleza similar promulgada con posterioridad."
+ },
+ "notes": "Art. 11(3): interest taxable only in residence State when paid on credit sales of industrial/commercial/scientific equipment, credit sales of goods between enterprises, or on long-term (5+ years) bank loans (not modelled). Protocol II: treaty benefits (Arts. 6-21) denied to persons enjoying special tax regimes designated by exchange of notes. UJP-hosted file (Spain.pdf) is the scanned Služben vesnik publication; Spanish BOE text used for quotes (English text prevails in case of divergence).",
+ "confidence": "high",
+ "unverified": []
+}

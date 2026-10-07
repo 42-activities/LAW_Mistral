@@ -1,0 +1,58 @@
+{
+ "a": "AL",
+ "b": "SG",
+ "treaty_name": "Agreement between the Council of Ministers of the Republic of Albania and the Government of the Republic of Singapore for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-11-23",
+ "entry_into_force": "2011-07-19",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-singapore-consolidated.pdf ; https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare",
+ "eif_quote": "[AL MLI] Singapore Original 23-11-2010 19-07-2011 || [AL DPT list] SINGAPOR, Ligj 10402 24.03.2011, me efekte nga data 01.01.2012 || Art. 27(2): \"a) në rastin e Shqipërisë: Në lidhje me të ardhurat e përftuara në ose pas ditës së parë të janarit të vitit kalendarik që pason vitin në të cilin hyn në fuqi marrëveshja. b) në rastin e Singaporit: Në lidhje me tatimet e vjelshme për çdo vit vlerësimi që fillon më ose pas 1 janarit në vitin e dytë kalendarik pas vitit kur hyn në fuqi marrëveshja.\"",
+ "source_title": "Ligj Nr. 10402 dated 24.3.2011 ratifying the Albania-Singapore Agreement (Albanian text), tatime.gov.al",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=372",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këta dividendë mund të tatohen gjithashtu në shtetin kontraktues në të cilin është rezidente firma që paguan dividendët dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i dividendëve është rezident i shtetit tjetër kontraktues, taksa e vendosur nuk do të tejkalojë 5 përqind të shumës bruto të dividendëve."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, ky interes mund të tatohet në shtetin kontraktues në të cilin ai lind dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i interesit është rezident i shtetit tjetër kontraktues, taksa e vendosur nuk do të tejkalojë 5 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto tarifa të licencave mund të tatohen, gjithashtu, në shtetin kontraktues në të cilin ato lindin dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i tarifave të licencave është rezident i shtetit tjetër kontraktues, taksa e vendosur nuk do të tejkalojë 5 për qind të shumës bruto të tarifave të licencave."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-singapore-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both list the Agreement; WHT effect 2021-01-01 per Art. 35(1)(a) (later MLI entry into force = Albania 2021-01-01)]"
+ },
+ "notes": "valid_from 2012-01-01 is the Albanian-side effective date; on the Singapore side Art. 27(2)(b) applies the Agreement to taxes chargeable for years of assessment beginning on or after 1 January 2013. Art. 10(3)-(4) and 11(3)-(4): dividends and interest paid to the Government (Albania: Council of Ministers, Bank of Albania, agreed institutions; Singapore: Government, MAS, GIC, statutory bodies, agreed institutions) exempt at source - not modelled. Royalty definition includes computer software. Singapore reserved MLI Art. 8 entirely. English text (prevailing) not read.",
+ "confidence": "high",
+ "unverified": [
+  "English (prevailing) text not read"
+ ]
+}

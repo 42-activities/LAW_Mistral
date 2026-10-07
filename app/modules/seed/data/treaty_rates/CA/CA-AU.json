@@ -1,0 +1,80 @@
+{
+ "a": "CA",
+ "b": "AU",
+ "treaty_name": "Convention between Canada and Australia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1980, as amended by the Protocol of 2002)",
+ "signed": "1980-05-21",
+ "entry_into_force": "1981-04-29",
+ "eif_source_url": "https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/australia-protocol-2002.html ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/australia-convention-1980.html",
+ "eif_quote": "Protocol 2002 Art. 17 (Finance Canada text): \"The Protocol shall enter into force on the date of the later of these notifications and its provisions shall thereupon have effect: ... (b) in Canada: (i) in respect of tax withheld at the source on amounts paid or credited to non-residents, on or after 1 January in the calendar year next following that in which the Protocol enters into force\" [Protocol in force 2002-12-18 and Convention EIF 1981-04-29 per map.json; Convention Art. 27 per Finance Canada text: Canadian withholding tax effect from 1 January 1976 (summarised by WebFetch)]",
+ "source_title": "Finance Canada: Canada-Australia Income Tax Convention consolidated 1980-2002, Protocol 2002 and Convention 1980 (canada.ca, read via WebFetch; canada.ca not reachable by curl; ATO synthesised text returned HTTP 403)",
+ "source_url": "https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/australia-convention-consolidated-1980-2002.html ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/australia-protocol-2002.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "AU",
+   "quote": "(i) in the case of dividends paid by a company that is a resident of Australia for the purposes of its tax, 5 per cent of the gross amount of the dividends, to the extent to which the dividends have been fully franked in accordance with the law of Australia, if a company that holds directly at least 10 per cent of the voting power of the company paying the dividends is beneficially entitled to those dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": "CA",
+   "quote": "(ii) in the case of dividends paid by a company that is a resident of Canada for the purposes of its tax, except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada for the purposes of its tax, 5 per cent of the gross amount of the dividends if a company that controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends is beneficially entitled to those dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) (as amended by Protocol 2002, Art. 9)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such interest may be taxed in the Contracting State in which it arises, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1976-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-australia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividend 5% tiers are direction-specific (source_state): Australian dividends only to the extent fully franked and holding directly >=10% of the VOTING POWER; Canadian dividends (excl. NRO investment corporations) where the company controls directly or indirectly >=10% of the VOTING POWER. Unfranked part of Australian dividends falls under the 15% general rate. MLI Art. 8 applies: Canada notified Art. 10(2)(a)(i) and (ii) (no. 4) and Australia notified Art. 10(2)(a)(i) and (ii) of the Canada treaty as amended by the 2002 Protocol (no. 4) under Art. 8(4); from 2020-01-01 the holding must be met throughout a 365-day period. Interest cap reduced from 15% to 10% by the 2002 Protocol (in force 2002-12-18; WHT effect 1 January 2003 in both States). Royalty 10% cap unchanged since the 1980 Convention (Canadian WHT effect from 1 January 1976; Australia from 1 July 1975). Branch tax max 5% (Art. 10(6)). No interest/royalty exemptions in the consolidated text per WebFetch reading.",
+ "confidence": "medium",
+ "unverified": [
+  "All article texts read via WebFetch rendering of canada.ca pages (no raw download possible); quotes may differ in punctuation from the authentic text"
+ ]
+}

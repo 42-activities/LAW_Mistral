@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "MT",
+ "treaty_name": "Convention between the Kingdom of Norway and Malta for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2012)",
+ "signed": "2012-03-30",
+ "entry_into_force": "2013-02-14",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2012-03-30-3",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 14-02-2013\" | Art. 29(2): \"The Convention shall enter into force on the date of receipt of the later of these notifications and shall thereupon have effect in both Contracting States in respect of taxes on income relating to the calendar year (including accounting periods beginning in any such year) next following that in which the Convention enters into force and subsequent years;\"",
+ "source_title": "Lovdata Norges traktater (English version), Convention Norway-Malta 2012 with Protocol (authentic in English only)",
+ "source_url": "https://lovdata.no/dokument/TRAKTATEN/traktat/2012-03-30-3",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2014-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 730,
+   "source_state": "NO",
+   "quote": "a. where the dividends are paid by a company which is a resident of Norway to a resident of Malta who is the beneficial owner thereof, the tax so charged in Norway shall not exceed: i. 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends on the date the dividends are paid and has done so or will have done so for an uninterrupted 24-month period in which that date falls;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NO",
+   "quote": "ii. 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Norway MLI position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf ; partner position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies; Norway notified Art. 10(7) of this Convention as an existing Art. 7(2) provision, which the PPT replaces. WHT effect 2020-01-01 per map.json.]"
+ },
+ "notes": "Dividend limits are asymmetric. Norway as source (Art. 10(2)(a)): 0% for a company holding directly >=10% for an uninterrupted 24-month period (recorded as 730 days), otherwise 15%. Malta as source (Art. 10(2)(b)): \"Malta tax on the gross amount of the dividends shall not exceed that chargeable on the profits out of which the dividends are paid\" - an imputation-style ceiling, not a percentage cap, so no Malta-source dividend rate is modelled. Art. 10(3): dividends derived by the Government (incl. Central Bank of Norway, Government Pension Fund Global, Central Bank of Malta and agreed state-owned bodies) taxable only in the residence State (not modelled). Art. 10(7) main-purpose rule (now superseded by the MLI PPT). Interest and royalties: exclusive residence taxation (0% at source). Protocol: Convention does not apply to persons entitled to special benefits under the Malta Merchant Shipping Act 1973 or trust distribution regimes (Art. 28(3)). MLI Art. 8 not applicable: Norway reserved under Art. 8(3)(b)(i) for this Convention (existing holding period) and Malta reserved the entirety of Art. 8. Replaced the 1975 Convention from 2014.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,70 @@
+{
+ "a": "XK",
+ "b": "LV",
+ "treaty_name": "Agreement between the Republic of Latvia and the Republic of Kosovo for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance, with Protocol (2020)",
+ "signed": "2020-11-24",
+ "entry_into_force": "2021-11-22",
+ "eif_source_url": "https://www.vid.gov.lv/lv/nodoklu-konvencijas ; https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1922",
+ "eif_quote": "[LV VID list, via map.json] 31 | Kosova | 30.11.18. | 24.11.20. | 22.11.21. | 01.01.22. || [likumi.lv treaty passport] Stājas spēkā: 09.11.2021. Parakstīts: 24.11.2020. Parakstīšanas vieta: Stokholma || [Art. 30(2)(a)] attiecībā uz nodokļiem, ko ietur ienākuma izmaksas brīdī - ienākumam, kas gūts janvāra pirmajā dienā vai pēc tās, kalendārajā gadā, kas seko gadam, kurā Līgums stājas spēkā",
+ "source_title": "likumi.lv (Latvijas Vēstnesis 207, 26.10.2021): Latvijas Republikas un Kosovas Republikas līgums par nodokļu dubultās uzlikšanas novēršanu ... (Latvian authentic text, with Protocol)",
+ "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1922",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 0 procentus no dividenžu kopapjoma, ja dividenžu patiesais labuma guvējs ir sabiedrība (kas nav personālsabiedrība), kurai tieši pieder vismaz 10 procenti tās sabiedrības kapitāla, kura izmaksā dividendes visā 365 dienu periodā, kas ietver dividenžu izmaksas dienu (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no dividenžu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no procentu kopapjoma visos pārējos gadījumos."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procentus no autoratlīdzības kopapjoma visos pārējos gadījumos."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 27 (Limitation of benefits - principal purpose test)",
+  "source_url": "https://likumi.lv/ta/lv/starptautiskie-ligumi/id/1922",
+  "quote": "Neatkarīgi no citiem šī līguma noteikumiem, šī līguma priekšrocības netiek piešķirtas attiecībā uz ienākuma veidu, ja ir pamatoti secināt, ņemot vērā visus būtiskos faktus un apstākļus, ka minētās priekšrocības iegūšana bija viens no jebkuras vienošanās vai darījuma galvenajiem mērķiem, kā rezultātā šāda priekšrocība tika tieši vai netieši iegūta, ja vien netiek konstatēts, ka minētās priekšrocības piešķiršana šajos apstākļos būtu saskaņā ar šī līguma attiecīgo noteikumu mērķi un nolūku."
+ },
+ "notes": "Art. 11(2)(a) and 12(2)(a): 0% where the interest/royalties are paid by a company resident in a Contracting State to a company (other than a partnership) resident in the other State that is the beneficial owner - payer/recipient-type condition with no holding threshold, so kept in notes rather than as a plain tier (quotes: \"a) 0 procentus no procentu kopapjoma, ja procentus izmaksā sabiedrība - Līgumslēdzējas Valsts rezidents - sabiedrībai (kas nav personālsabiedrība) - otras Līgumslēdzējas Valsts rezidentam, kas ir procentu patiesais labuma guvējs;\" / \"a) 0 procentus no autoratlīdzības kopapjoma, ja autoratlīdzību izmaksā sabiedrība ... sabiedrībai (kas nav personālsabiedrība) ...\"); the 10% caps are the general tiers. Interest exempt at source (Art. 11(3)) when beneficially owned by the other Government, local authorities, central bank, wholly Government-owned financial institution, or on Government-guaranteed loans - not modelled. Signed Stockholm 24 Nov 2020 (treaty text and likumi.lv passport); map.json \"signed\" 2018-11-30 is the initialling date in the VID list (corrected). Entry into force: VID list and ATK give 22.11.2021 (used); likumi.lv passport says 09.11.2021 (conflict) - either way WHT effect from 1 Jan 2022. Latvian, Albanian and English authentic; English prevails (Latvian quoted). ATK summary table shows royalties 0/5% - conflicts with Art. 12(2)(b) 10%. Kosovo is not an MLI party; treaty-own PPT Art. 27.",
+ "confidence": "high",
+ "unverified": [
+  "Exact entry-into-force date (22.11.2021 vs 09.11.2021): MFA notice in Latvijas Vēstnesis not read",
+  "English authentic text not read"
+ ]
+}

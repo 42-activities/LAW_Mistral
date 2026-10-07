@@ -1,0 +1,56 @@
+{
+ "a": "ME",
+ "b": "AZ",
+ "treaty_name": "Convention between the Government of Montenegro and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013)",
+ "signed": "2013-03-12",
+ "entry_into_force": "2013-11-04",
+ "eif_source_url": "https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c) ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+ "eif_quote": "[ME MLI list] Azerbaijan Original 12.03.2013 04.11.2013 || [ME PU table] 4 | Azerbejdžan | dohodak | CG 8/13 | 1.1.2014 || Art. 28(2): \"This Convention shall enter into force on the date of the later of these notifications and its provisions shall have effect: 1) in Montenegro: in respect of the taxes on income derived in each fiscal year beginning on or after the first day of January in the calendar year next following the year in which this Convention enters into force; 2) in Azerbaijan: (1) in respect of taxes withheld at source, to income derived on or after 1 January in the calendar year next following the year in which the Convention enters into force;\"",
+ "source_title": "Zakon o potvrđivanju Ugovora Crna Gora-Azerbejdžan (Sl. list CG - Međunarodni ugovori 8/2013), Montenegrin and English text, gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/ee8be6ef-bb4a-4ef1-a3cf-b705f6aaa460 (file https://wapi.gov.me/download/ee8be6ef-bb4a-4ef1-a3cf-b705f6aaa460?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Single 10% dividend rate (no participation tier). Interest exempt at source when derived and beneficially owned by the Government, an administrative-territorial subdivision or local authority, the Central Bank or a financial institution wholly owned by the Government (Art. 11(3)) - not modelled. MLI covered by both (ME list and Azerbaijan list); MLI WHT effect 2027-01-01 (Montenegro MLI in force 2026-09-01) per map.json. MLI Art. 8 not relevant (no participation tier; Azerbaijan reserved Art. 8(3)(a), Montenegro did not notify this treaty under Art. 8(4)). Text read from the English authentic text reproduced in the Montenegrin ratification law.",
+ "confidence": "high",
+ "unverified": []
+}

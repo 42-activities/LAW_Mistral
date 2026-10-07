@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "RS",
+ "treaty_name": "Convention between Canada and the Republic of Serbia for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (2012, with Protocol; modified by MLI)",
+ "signed": "2012-04-27",
+ "entry_into_force": "2013-10-31",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-10.14/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=105319",
+ "eif_quote": "Canada-Serbia Tax Convention Act, 2013: \"[Note: Convention and Protocol in force October 31, 2013, see Canada Gazette Part I, Volume 147, page 2725.]\" | Treaty-accord: \"Entry into Force 31 October 2013\"",
+ "source_title": "Canada-Serbia Tax Convention Act, 2013 (S.C. 2013, c. 30), Schedules 1-2 - Convention and Protocol (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-10.14/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1) (as modified by MLI art. 8(1))",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "1) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) that controls directly at least 25 per cent of the voting power of the company paying the dividends; [MLI art. 8(1): 365-day holding period, effective for WHT from 2020-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29(2)1)(1): effective in Canada for tax withheld at source on amounts paid or credited on or after 1 January of the year following entry into force (EIF 2013-10-31 -> 2014-01-01); in Serbia for income derived in fiscal years beginning on or after that date. Dividend 5% tier: company (other than a partnership) that \"controls directly at least 25 per cent of the voting power\" (voting test recorded as ownership_threshold 25). MLI art. 8 365-day holding applies: Canada notified \"66 Serbia Article 10(2)(1)\", Serbia notified \"9 Canada Article 10(2)(1)\"; effective for WHT 2020-01-01. Not modelled: Art. 11(3) exemption for interest beneficially owned by the other State's government, subdivisions, local authorities or central/national bank.",
+ "confidence": "high",
+ "unverified": []
+}

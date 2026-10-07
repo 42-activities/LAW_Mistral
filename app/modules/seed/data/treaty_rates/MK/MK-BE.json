@@ -1,0 +1,78 @@
+{
+ "a": "MK",
+ "b": "BE",
+ "treaty_name": "Convention between the Macedonian Government and the Belgian Government for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion, with Protocol (2010)",
+ "signed": "2010-07-06",
+ "entry_into_force": "2017-07-17",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28(1): This Convention shall enter into force on the date of the later of these notifications and its provisions shall have effect: a) in the case of Macedonia 1° with respect to taxes withheld at source, to income paid or credited on or after 1 January in the calendar year next following that in which the Convention enters into force; ... b) in the case of Belgium 1° with respect to taxes due at source on income credited or payable on or after 1 January in the calendar year next following that in which the Convention enters into force; | UJP table: Belgium | 157/2010 | 17.07.2017 | 01.01.2018",
+ "source_title": "UJP scanned signed English text of the MK-Belgium convention and protocol (Belgium.pdf, Služben vesnik 157/2010 ratification), read from page images pp. 9-12, 21-26",
+ "source_url": "https://www.ujp.gov.mk/uploads//Belgium.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2), last subparagraph",
+   "valid_from": "2018-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the preceding provisions of this paragraph, dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is a company which is a resident of the other Contracting State and which at the moment of the payment of the dividends holds, for an uninterrupted period of at least twelve months, directly or indirectly at least 25 per cent of the capital of the company paying the dividends."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT; Protocol para. 8(c) is a main-purpose rule limited to the Art. 22 exemption/credit for Belgian residents; MLI not applicable - North Macedonia has not ratified it)",
+  "source_url": "https://www.ujp.gov.mk/uploads//Belgium.pdf",
+  "quote": "c) Paragraph 2, a) and e) of Article 22 shall not apply to a resident of Belgium if the main purpose of that resident's activities or investments in Macedonia is to take undue advantage of those provisions ..."
+ },
+ "notes": "0% dividend tier: holding of at least 25% (directly or indirectly) for an uninterrupted period of at least twelve months at the moment of payment. Art. 11(3): interest exempt at source if (a) paid on a loan granted or credit extended by an enterprise to another enterprise, or (b) paid to the other State, its political subdivisions, local authorities or public entities - not modelled (conditional on payer/recipient status). Protocol para. 3: technical assistance/services fees are not royalties (Art. 7). Replaces the 1980 SFRY-Belgium convention.",
+ "confidence": "high",
+ "unverified": []
+}

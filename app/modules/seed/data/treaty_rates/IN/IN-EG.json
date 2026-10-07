@@ -1,0 +1,26 @@
+{
+ "a": "IN",
+ "b": "EG",
+ "treaty_name": "Convention between the Government of India and the Government of the United Arab Republic (Egypt) for the avoidance of double taxation with respect to taxes on income (1969; modified by MLI)",
+ "signed": "1969-02-20",
+ "entry_into_force": "1969-09-30",
+ "eif_source_url": "https://web.archive.org/web/20160618022455/http://www.incometaxindia.gov.in:80/DTAA/Comprehensive%20Agreements/108690000000000094.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of India and the Government of the United Arab Republic for the avoidance of double taxation with respect to taxes on income has been ratified and the instruments of ratification exchanged, as required by article XXIX of the said Convention ; ... Notification: No. GSR 2363, dated 30-9-1969. (Entry-into-force date 1969-09-30 taken from map.json / India's MLI position; Art. 29(2): 'This Convention shall enter into force on the date of the exchange of the instruments of ratification')",
+ "source_title": "Income Tax Department (India), India-United Arab Republic (Egypt) DTC 1969 with Notification GSR 2363/1969 (Wayback copy of official incometaxindia.gov.in page, captured 2016-06-18)",
+ "source_url": "https://web.archive.org/web/20160618022455/http://www.incometaxindia.gov.in:80/DTAA/Comprehensive%20Agreements/108690000000000094.htm",
+ "rates": [],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "No source-State rate caps in this 1969 treaty, so no rates are recorded (text obtained). Art. 11 (Dividends): dividends paid by an Indian company to a UAR resident 'may be taxed in India' without a limit; dividends paid by a UAR company to an Indian resident may be taxed in the UAR, but 'shall only be subject to the tax on income derived from movable capital, the defence tax, the national security tax and the supplementary taxes (which taxes shall be deducted at the source)' (plus general income tax for individuals) - a restriction on which Egyptian taxes apply, not a percentage cap. Art. 12 (Interest): same structure (India may tax without limit; UAR limited to the listed taxes). Art. 13 (Royalties): 'Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in the first-mentioned State' - i.e. exclusive taxation in the SOURCE State with no cap (film rents/royalties likewise, Art. 13(3)). Egyptian domestic taxes named are those of 1969 (Law 14 of 1939 etc.) - modern equivalence not analysed. MLI: covered by both (map.json); MLI WHT provisions effective 2021-01-01 on the Egyptian side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2021. Egypt's deposit position shows no SLOB choice or Art. 7(7) acceptance (text scan), so only the PPT applies.",
+ "confidence": "medium",
+ "unverified": [
+  "Egyptian official text not checked",
+  "Indian-side MLI date 2021-04-01 derived from India's Art. 35(2) choice"
+ ],
+ "no_cap": true
+}

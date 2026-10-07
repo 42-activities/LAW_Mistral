@@ -1,0 +1,69 @@
+{
+ "a": "AL",
+ "b": "CH",
+ "treaty_name": "Convention between the Swiss Confederation and the Republic of Albania for the avoidance of double taxation with respect to taxes on income and on capital (1999, as amended 2015)",
+ "signed": "1999-11-12",
+ "entry_into_force": "2000-12-21",
+ "eif_source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/375/20161201/de/html/fedlex-data-admin-ch-eli-cc-2001-375-20161201-de-html-3.html",
+ "eif_quote": "Ratifikationsurkunden ausgetauscht am 21. Dezember 2000 In Kraft getreten am 21. Dezember 2000 | Art. 28(2): Das Abkommen tritt mit dem Austausch der Ratifikationsurkunden in Kraft, und seine Bestimmungen finden Anwendung: a) in Albanien auf das am oder nach dem 1. Januar des nächsten auf das Inkrafttreten des Abkommens folgenden Jahres erzielte Einkommen ...; b) in der Schweiz auf das am oder nach dem 1. Januar des nächsten auf das Inkrafttreten des Abkommens folgenden Jahres erzielte Einkommen",
+ "source_title": "Fedlex SR 0.672.912.31 consolidated (Stand 1.12.2016, incl. Protocol of 9 Sept 2015, AS 2017 59), German authentic text",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/375/20161201/de/html/fedlex-data-admin-ch-eli-cc-2001-375-20161201-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 vom Hundert des Bruttobetrags der Dividenden, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 25 vom Hundert des Kapitals der die Dividenden zahlenden Gesellschaft verfügt;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 vom Hundert des Bruttobetrags der Dividenden in allen anderen Fällen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Zinsen können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Zinsen der Nutzungsberechtigte ist, 5 vom Hundert des Bruttobetrags der Zinsen nicht übersteigen."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Lizenzgebühren gemäss Absatz 1 dieses Artikels können jedoch auch in dem Vertragsstaat, aus dem sie stammen, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Empfänger der Nutzungsberechtigte der Lizenzgebühren ist, 5 vom Hundert des Bruttobetrages der Lizenzgebühren nicht übersteigen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2017-01-01",
+  "basis": "treaty Protocol para. 4 (main-purpose rule for Arts. 10, 11, 12, 21; inserted by Art. XI of the 2015 Protocol)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2001/375/20161201/de/html/fedlex-data-admin-ch-eli-cc-2001-375-20161201-de-html-3.html ; https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2017/21/de/pdf-a/fedlex-data-admin-ch-eli-oc-2017-21-de-pdf-a-1.pdf",
+  "quote": "a) Die Artikel 10, 11, 12 und 21 gelten nicht für Einkünfte, die aus einem Geschäft, einem Teil eines Geschäfts oder einer Abfolge von Geschäften resultieren oder von einem Rechtsträger vereinnahmt werden, wenn der hauptsächliche Zweck des Abschlusses des Geschäfts, des Teils des Geschäfts, der Abfolge der Geschäfte oder der Errichtung des Rechtsträgers darin besteht, die Vorteile nach Artikel 10, 11, 12 oder 21 in Anspruch zu nehmen, und wenn bei Ausklammerung des Geschäfts ... diese Einkünfte einer Person zugerechnet würden, die in keinem der beiden Vertragsstaaten ansässig ist. [Protocol of 9 Sept 2015 in force 1 Dec 2016; Art. XV(2)(a): applies to source taxes on income paid or credited on or after 1 January of the year following entry into force -> 2017-01-01]"
+ },
+ "notes": "2015 Protocol (signed Tirana 9 Sept 2015, in force 1 Dec 2016, applicable to WHT from 2017-01-01) did not change the Art. 10-12 rates. Art. 11(3) (inserted 2015): interest paid to a pension scheme (Vorsorgeeinrichtung) or to the other State's government, political subdivisions, local authorities or national bank taxable only in residence State (not modelled). Protocol para. 4(b): specific main-purpose rule for the 5% dividend rate. Protocol para. 7 (inserted 2015): MFN - if Albania agrees a royalty rate below 5% with an EU/EEA State, that lower rate applies automatically; no official notice of activation found, so not modelled. Not MLI-covered (Switzerland does not list Albania). Possible MFN trigger: Albania's treaties with Spain (Art. 12, royalties taxable only in residence State, applicable since 2011) and the UK (royalties exempt; UK was an EU member 2013-2020) provide rates below 5%, but both were concluded before the 2015 Protocol and no Swiss/Albanian notice confirms activation.",
+ "confidence": "high",
+ "unverified": [
+  "Whether the royalty MFN clause (Protocol para. 7) has been triggered by any Albanian treaty with an EU/EEA State"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "MK",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Macedonia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1997)",
+ "signed": "1997-06-09",
+ "entry_into_force": "1997-11-29",
+ "eif_source_url": "http://web.archive.org/web/20211130023621/http://www.chinatax.gov.cn/n810341/n810770/c1153682/5027052/files/52345558c7c743ea9e46a778fde0cf7c.pdf",
+ "eif_quote": "Art. 29: \"This Agreement shall enter into force on the thirtieth day after the date on which diplomatic notes indicating the completion of internal legal procedures necessary in each country for the entry into force of this Agreement have been exchanged. This Agreement shall have effect as respects income derived and capital owned during the taxable years beginning on or after the first day of January in the calendar year next following that in which this Agreement enters into force.\" (EIF date 1997-11-29 from STA list via map.json)",
+ "source_title": "STA English text of the 1997 China-Macedonia Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20211130023621/http://www.chinatax.gov.cn/n810341/n810770/c1153682/5027052/files/52345558c7c743ea9e46a778fde0cf7c.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI not in effect",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authority, Central Bank or wholly government-owned financial institutions, and on debt-claims indirectly financed by them. China lists the treaty in its MLI position (No.56 'Macedonia') but North Macedonia has only signed the MLI (2020-01-29), not ratified (OECD status per map.json) - MLI/PPT not in effect. Now applies to the Republic of North Macedonia (name change, same State).",
+ "confidence": "high",
+ "unverified": []
+}

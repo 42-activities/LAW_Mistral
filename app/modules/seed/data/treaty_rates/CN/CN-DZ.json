@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "DZ",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the People's Democratic Republic of Algeria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-11-06",
+ "entry_into_force": "2007-07-27",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876893891",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和阿尔及利亚民主人民共和国政府关于对所得和财产避免双重征税和防止偷漏税的协定 双边 税收 2006.11.06 2007.07.27 || Art. 28(2): The provisions of the Agreement shall apply: (a) with regard to taxes withheld at source, in respect of amounts paid or credited on or after the first day of January next following the date upon which the Agreement enters into force;",
+ "source_title": "China MFA Treaty Database - English text of the China-Algeria Agreement (2006)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876893938.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "...but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 25 per cent of the capital paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 7 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "Algeria signed the MLI on 27-06-2024 but has not ratified it (map.json, OECD status 15-09-2026); the treaty contains no PPT/LOB article."
+ },
+ "notes": "Interest derived by the other State's Government, a local authority, the Central Bank or wholly government-owned financial institutions, or by any resident on debt-claims financed by them, is exempt (Art. 11(3)) - not modelled. Royalty definition in the English text does not mention equipment rentals. No protocol in the MFA text. China lists the Algeria treaty in its MLI Art. 8(4) notification (Article 10(2)(a)), but the MLI is not in force for Algeria, so no 365-day holding period applies yet.",
+ "confidence": "high",
+ "unverified": [
+  "No Algerian official source (JORADP) consulted; MFA English text is authentic language (English prevails)."
+ ]
+}

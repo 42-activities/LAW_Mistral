@@ -1,0 +1,70 @@
+{
+ "a": "ME",
+ "b": "BG",
+ "treaty_name": "Agreement between the Federal Government of the Federal Republic of Yugoslavia and the Government of the Republic of Bulgaria for the avoidance of double taxation with respect to taxes on income and on capital (1998), applied by Montenegro",
+ "signed": "1998-12-14",
+ "entry_into_force": "2000-01-10",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bulgaria.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Bulgaria Original 14-12-1998 10-01-2000 || [ME PU table] 7 | Bugarska | dohodak i imovina | SRJ 1/99 | 1.1.2000. || Art. 29(2): \"Уговор ступа на снагу на дан давања обавештења наведених у ставу 1, а његове одредбе се примењују у односу на порезе на доходак и на имовину, за сваку пореску годину која почиње првог јануара или после првог јануара календарске године која следи годину у којој уговор ступа на снагу.\"",
+ "source_title": "Zakon o potvrđivanju Ugovora SRJ-Bugarska, Službeni list SRJ - Međunarodni ugovori br. 1/1999 (25.12.1999), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/d4c5128c-ecda-4ebf-9ef9-d1fa9a2fa335 (file https://wapi.gov.me/download/d4c5128c-ecda-4ebf-9ef9-d1fa9a2fa335?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је прималац стварни власник те камате, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде се могу опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни власник тих ауторских накнада, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bulgaria.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: concluded by the Federal Republic of Yugoslavia (Sofia, 14-12-1998; ratified Sl. list SRJ - MU 1/1999); continued by Montenegro (via Serbia and Montenegro, then Montenegro as successor after 2006 independence; listed in the Montenegrin MoF list / Poreska uprava table; Bulgaria lists \"Yugoslavia - Montenegro\" in its MLI position at signature). Authentic in Serbian, Bulgarian and English; English prevails - Serbian text read. Conflict: Poreska uprava table shows application from 1.1.2000; with entry into force on 10-01-2000 (MLI list) Art. 29(2) gives application from 1 January 2001 - 2001-01-01 used (historical only; no effect on current rates). MLI: both list the treaty; WHT effect 2027-01-01 per map.json. MLI Art. 8 not applicable (Bulgaria reserved Art. 8(3)(a) per its position at signature).",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read",
+  "Start-of-application date: Poreska uprava table says 1.1.2000; computed 2001-01-01 from EIF 10-01-2000"
+ ]
+}

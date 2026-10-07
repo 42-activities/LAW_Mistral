@@ -1,0 +1,70 @@
+{
+ "a": "CN",
+ "b": "GR",
+ "treaty_name": "Agreement between the Government of the Hellenic Republic and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2002)",
+ "signed": "2002-06-03",
+ "entry_into_force": "2005-11-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+ "eif_quote": "[China MLI deposit position, list of agreements] Greece Original 03-06-2002 11-11-2005",
+ "source_title": "Ν. 3331/2005 (ΦΕΚ Α΄ 83/2005) - κύρωση Συμφωνίας Ελλάδας-Κίνας, Greek text (official Government Gazette)",
+ "source_url": "https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20050100083 (ΦΕΚ Α΄ 83/06.04.2005, Ν. 3331/2005; served via the et.gr redirect)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "α) το 5% του ακαθάριστου ποσού των μερισμάτων αν ο δικαιούχος είναι εταιρεία (εκτός προσωπικής) η οποία κατέχει άμεσα τουλάχιστον το 25% του κεφαλαίου της καταβάλλουσας τα μερίσματα εταιρείας,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "β) το 10% του ακαθάριστου ποσού των μερισμάτων σε όλες τις άλλες περιπτώσεις."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Όμως, οι τόκοι αυτοί δύνανται να φορολογούνται επίσης στο Συμβαλλόμενο Κράτος στο οποίο προκύπτουν και σύμφωνα με τους νόμους αυτού του Κράτους, αλλά αν ο εισπράττων είναι ο δικαιούχος των τόκων ο ούτως επιβαλλόμενος φόρος δεν θα υπερβαίνει το 10% του ακαθάριστου ποσού των τόκων."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Όμως, τα δικαιώματα αυτά δύνανται να φορολογούνται επίσης στο Συμβαλλόμενο Κράτος στο οποίο προκύπτουν και σύμφωνα με τους νόμους αυτού του Κράτους, αλλά αν ο εισπράττων είναι ο δικαιούχος των δικαιωμάτων ο ούτως επιβαλλόμενος φόρος δεν υπερβαίνει το 10% του ακαθάριστου ποσού των δικαιωμάτων."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; China MLI deposit position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies (China list 'Greece Original 03-06-2002 11-11-2005'; Greece lists the Agreement as No. 27); WHT effect 2023-01-01 per Art. 35(1)(a).]"
+ },
+ "notes": "Art. 28(2): applies to income arising in tax years beginning on or after 1 January of the calendar year following entry into force (2005-11-11 -> 2006-01-01). Art. 11(3): interest derived by the other State's government, local authorities, central bank or wholly government-owned financial institutions exempt at source (not modelled). Royalty definition includes equipment rentals. MLI Art. 8 not applied: Greece reserved the entirety of Art. 8 (Art. 8(3)(a)) although China notified Art. 10(2)(a). Greek text read from the FEK PDF; the PDF uses a legacy Greek font, decoded character-by-character (hyphenation removed); the English/Chinese texts in the FEK are scanned images and were not read. English text prevails in case of divergence.",
+ "confidence": "high",
+ "unverified": [
+  "entry-into-force date from China MLI deposit position list",
+  "Greek quotes reconstructed from a legacy-font PDF; wording checked visually but not against the English text"
+ ]
+}

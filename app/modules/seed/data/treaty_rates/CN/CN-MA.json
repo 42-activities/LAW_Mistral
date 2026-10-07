@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "MA",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Kingdom of Morocco for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2002)",
+ "signed": "2002-08-27",
+ "entry_into_force": "2006-08-16",
+ "eif_source_url": "http://web.archive.org/web/20211130020348/http://www.chinatax.gov.cn/n810341/n810770/c1153818/5027064/files/ecce5fb035994018abdbab45391dbac2.pdf",
+ "eif_quote": "Art. 28: \"The Agreement shall enter into force on the thirtieth day following the date of these notifications and shall thereupon have effect in both Contracting States: (a) in respect of taxes withheld at source, on income derived on or after 1 January in the calendar year next following the year in which the Agreement enters into force;\" (EIF date 2006-08-16 from STA list via map.json)",
+ "source_title": "STA English text of the 2002 China-Morocco Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20211130020348/http://www.chinatax.gov.cn/n810341/n810770/c1153818/5027064/files/ecce5fb035994018abdbab45391dbac2.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the law of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest paid to the Government of the other State (defined to include listed central banks/state institutions). Morocco has only signed the MLI (2019-06-25), not ratified (per map.json) - MLI not in effect, no PPT. English text OCR reads 'I 0 per cent' for dividends; Chinese text confirms 10% (百分之十).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "AL",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Council of Ministers of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2013; modified by MLI)",
+ "signed": "2013-07-08",
+ "entry_into_force": "2013-12-04",
+ "eif_source_url": "https://web.archive.org/web/20220617122418/https://incometaxindia.gov.in/DTAA/108690000000000397_Albania.htm",
+ "eif_quote": "And whereas, the date of entry into force of the said agreement is the 4th day of December, 2013, being the date of later of the notifications of completion of the procedures as required by the respective laws for entry into force of the said agreement, in accordance with paragraph 2 of Article 31 of the said agreement; ... Notification No: 2/2014 [F.NO.501/1/2003-FTD-I]/SO 47(E), dated 7-1-2014.",
+ "source_title": "Income Tax Department (India), India-Albania DTAA with Notification No. 2/2014 (Wayback copy of official incometaxindia.gov.in page, captured 2022-06-17)",
+ "source_url": "https://web.archive.org/web/20220617122418/https://incometaxindia.gov.in/DTAA/108690000000000397_Albania.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but, if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates (Art. 31(3)): Albania from 1 January 2014; India for fiscal years beginning on or after 1 April 2014 (valid_from uses the earlier date). Not modelled: Art. 11(3) exemption for interest beneficially owned by the Government, political sub-divisions, local authorities, Central Bank of Albania, Reserve Bank of India, Exim Bank of India, National Housing Bank or other institutions agreed by exchange of letters; the 10% Art. 12 cap also covers fees for technical services. Treaty contains its own limitation-of-benefits article (Art. 29), notified by India under MLI Art. 7(17)(a) as an existing provision (Art. 29(6)). MLI: covered by both Parties (map.json); MLI WHT provisions effective 2021-01-01 on the Albanian side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2021. India also chose the Simplified LOB (Art. 7(6)); whether it applies depends on Albania's choice (not verified). The text read is a Wayback copy of the official Indian Income Tax Department page (incometaxindia.gov.in returns HTTP 403 directly).",
+ "confidence": "high",
+ "unverified": [
+  "Albania's MLI Art. 7 choices (SLOB) not checked",
+  "Indian-side MLI date 2021-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

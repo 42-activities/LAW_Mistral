@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "CY",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Cyprus for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital (1990; modified by MLI)",
+ "signed": "1990-10-25",
+ "entry_into_force": "1991-10-05",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876645304",
+ "eif_quote": "条约生效时间： 1991.10.05 我国签署时间： 1990.10.25 签署地点： 北京 | Art. 29: This Agreement shall have effect as respects income derived during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.",
+ "source_title": "China MFA Treaty Database - English text of the China-Cyprus Agreement (1990)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876645342.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1992-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-cyprus-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "MLI Art. 7(1) principal purposes test; both list the treaty (Cyprus list No. 11 'People's Republic of China'); MLI in force CN 2022-09-01, CY 2020-05-01; effect for taxes withheld at source from 2023-01-01 (Art. 35(1)(a))."
+ },
+ "notes": "Art 10(4): as long as Cyprus does not impose tax at source on dividends, dividends paid by a Cyprus company to a China resident are not subject to Cyprus tax beyond the tax on the underlying profits (imputation/refund rule for individuals) - not modelled. No government/central bank interest exemption in Art 11. Royalty definition includes equipment rental (single 10% rate). MLI Art. 8 not applicable (Cyprus reserved entirety of Art. 8). Synthesised MLI text not read (STA site blocked; Cyprus MoF site returned 403).",
+ "confidence": "high",
+ "unverified": [
+  "Synthesised MLI text not read; PPT inferred from MLI positions and map.json."
+ ]
+}

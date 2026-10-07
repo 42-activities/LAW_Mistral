@@ -1,0 +1,69 @@
+{
+ "a": "CA",
+ "b": "LV",
+ "treaty_name": "Convention between Canada and the Republic of Latvia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1995; modified by MLI)",
+ "signed": "1995-04-26",
+ "entry_into_force": "1995-12-12",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102406",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 1995/28): \"Entry into Force 12 December 1995\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1995 (S.C. 1995, c. 37), Schedule I - Canada-Latvia Convention (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.5/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly at least 25 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Canada notified Art. 28(3) of the Latvia Convention as an existing provision described in MLI Art. 7(2)]"
+ },
+ "notes": "Art. 29(a): effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following entry into force (EIF 1995-12-12 -> 1996-01-01). Dividend 5% tier: company that \"controls directly at least 25 per cent of the voting power\" (voting test recorded as ownership_threshold 25); excludes dividends paid by a Canadian non-resident-owned investment corporation. MLI art. 8 does not apply (Latvia reserved the entirety of Art. 8). MLI WHT effect 2021-01-01 per map (later MLI entry into force 2020-02-01). Art. 12(7) MFN: automatic exemption for copyright/patent/know-how royalties arising in Latvia if Latvia later grants exemption to an OECD member - no official notice found; not modelled. Not modelled: Art. 11(3) exemptions (governments, Bank of Canada/Bank of Latvia, EDC and similar bodies, guaranteed loans, unrelated credit sales, late-payment penalties); Art. 10(6) branch tax 5%.",
+ "confidence": "high",
+ "unverified": [
+  "Whether the Art. 12(7) MFN royalty exemption has been triggered"
+ ]
+}

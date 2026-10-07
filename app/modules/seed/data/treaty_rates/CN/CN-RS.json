@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "RS",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Federal Government of the Federal Republic of Yugoslavia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and Capital (1997), applied to Serbia by succession, as modified by the MLI",
+ "signed": "1997-03-01",
+ "entry_into_force": "1998-01-01",
+ "eif_source_url": "http://web.archive.org/web/20211130031306/http://www.chinatax.gov.cn/n810341/n810770/c1153544/5027038/files/7edff52bb7a64abcb17f7f6b03411065.pdf",
+ "eif_quote": "Art. 28(1): \"This Agreement shall enter into force on the first day of January in the calendar year next following that in which the diplomatic notes indicating the completion of internal legal procedures necessary in each country for the entry into force of this Agreement have been exchanged. This Agreement shall apply in respect of taxes on income derived and capital owned in the calendar years beginning on or after the day on which this Agreement enters into force.\" (EIF 1998-01-01 per STA list)",
+ "source_title": "STA English text of the 1997 China-FR Yugoslavia Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20211130031306/http://www.chinatax.gov.cn/n810341/n810770/c1153544/5027038/files/7edff52bb7a64abcb17f7f6b03411065.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Treaty concluded with the Federal Republic of Yugoslavia ('DONE at Belgrade on the 1st day of March, 1997' in the English text; Chinese text: 本协定于1997年3月1日在贝尔格莱德签订). Conflict: STA list/China MLI list give 1997-03-21 as signature date; the treaty text itself says 1 March 1997 - text value used. Succession: STA treaty list note ④ '2006年6月3日，塞尔维亚和黑山共和国分解为塞尔维亚共和国和黑山共和国，上述协定继续适用于中国和上述两国' (the Agreement continues to apply between China and both Serbia and Montenegro). Interest: Art. 11(3) exempts interest derived and beneficially owned by the other State's Government, political subdivisions, local authorities or government banks (not modelled). Single 5% dividend rate - MLI Art. 8 irrelevant. Art. 28(2): replaced the 1988 China-SFRY agreement. MLI: China's MLI list No.54 'Yugoslavia (Serbia)'; WHT effect from 2023-01-01 (map.json; SAT Announcement 2022 No.16).",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text for Serbia not read; PPT quote is the MLI Art. 7(1) wording"
+ ]
+}

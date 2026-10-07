@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1982), applied between the Netherlands and Bosnia and Herzegovina by succession",
+ "signed": "1982-02-22",
+ "entry_into_force": "1983-02-06",
+ "eif_source_url": "https://www.rijksoverheid.nl/onderwerpen/belastingverdragen ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-netherlands-consolidated.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=4911b488-f993-490d-9970-dd6b33f5b413&lang=hr",
+ "eif_quote": "[NL list] Bosnië-Herzegovina (was Joegoslavië) DTA In werking 22-02-1982 06-02-1983 || [NL MLI] Yugoslavia (Bosnia and Herzegovina) Original 22-02-1982 06-02-1983 || Art. 28: Ovaj ugovor stupa na snagu tridesetog dana od posljednjeg datuma kada su te države pismeno obavijestile jedna drugu da su ispunjeni ustavni postupci ... i njegove se odredbe primjenjuju: a) u Jugoslaviji: (i) na poreze za svaku poresku godinu koja počinje na dan ili nakon 1. januara kalendarske godine koja slijedi godinu u kojoj je primljeno posljednje obavještenje; b) u Holandiji: (i) na poreze za poreske godine i razdoblja koja počinju na dan ili nakon 1. januara kalendarske godine koja slijedi godinu u kojoj je primljeno posljednje obavještenje.",
+ "source_title": "BiH Ministry of Finance and Treasury: Ugovor SFRJ–Kraljevina Holandija (Službeni list SFRJ – Međunarodni ugovori), Bosnian text; MLI combined text BiH–Netherlands",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=4911b488-f993-490d-9970-dd6b33f5b413&lang=hr ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Holandija_-_bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 posto od bruto-iznosa dividendi ako je primalac društvo (izuzimajući partnerstvo) koje ima izravno najmanje 25 posto od kapitala društva koje plaća dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 posto od bruto -iznosa dividendi, u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamate nastale u jednoj od država i isplaćene rezidentu druge države ugovornice oporezuju se samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezivati u državi u kojoj nastaju, i u skladu sa zakonom te države, ali tako razrezan porez ne može biti veći od 10 posto od bruto -iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Holandija_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY treaty (Trb. 1982, 41) applied by succession: Dutch treaty overview lists \"Bosnië-Herzegovina (was Joegoslavië)\" in force, Netherlands MLI position lists \"Yugoslavia (Bosnia and Herzegovina)\"; BiH MoF lists it in force. Dutch/English official text (Tractatenblad 1982, 41) not retrieved online (pre-1995 Trb. not on officielebekendmakingen); rates read from the official BiH MoF Bosnian text and MLI combined text. Art. 10(5): \"dividends\" excludes profits of a Dutch resident from a joint venture with a Yugoslav enterprise. Protocol V: refund claims for excess WHT within 5 years. Protocol VI: exclusive residence taxation of interest premised on neither State levying interest WHT; renegotiation on request (no amendment known). Last notification received in Jan 1983 (EIF 06-02-1983) -> applies from 1984-01-01. MLI Art. 8 not applicable (BiH reserved).",
+ "confidence": "high",
+ "unverified": [
+  "Dutch/English authentic text not cross-checked"
+ ]
+}

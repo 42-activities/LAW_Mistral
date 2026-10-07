@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "LT",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Republic of Lithuania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2007)",
+ "signed": "2007-08-29",
+ "entry_into_force": "2008-08-27",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 29: This Agreement shall enter into force on the date of the later of the written notice confirming the completion by the Contracting States of the internal procedures necessary for its entry into force and its provisions shall have effect in both Contracting States: a) in respect of taxes withheld at source, on income derived on or after the first day of January in the calendar year next following the year in which this Agreement enters into force; | UJP table: Lithuania | 103/2008 | 27.08.2008 | 01.01.2009",
+ "source_title": "UJP English text of the MK-Lithuania agreement (20Lithuania.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/20Lithuania.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 0 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2009-01-01",
+  "basis": "treaty art. 28 (Limitation of benefits - main-purpose rule on residency)",
+  "source_url": "https://www.ujp.gov.mk/uploads/File/20Lithuania.pdf",
+  "quote": "Notwithstanding any other provision of this Agreement, a resident of a Contracting State shall not receive the benefit of any reduction in or exemption from taxes provided for in this Agreement by the other Contracting State if the main purpose or one of the main purposes of the creation or existence of such residency was for the resident or any person connected with such resident to obtain the benefits under this Agreement that would not otherwise be available."
+ },
+ "notes": "Art. 11(3): interest derived by the other Government, local authorities, Central Bank or wholly-owned financial institutions exempt at source (not modelled). Treaty main-purpose rule (Art. 28) is residency-focused; MLI not applicable (North Macedonia has not ratified). EIF per map.json 27.08.2008 (UJP).",
+ "confidence": "high",
+ "unverified": []
+}

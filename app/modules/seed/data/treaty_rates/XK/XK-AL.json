@@ -1,0 +1,69 @@
+{
+ "a": "XK",
+ "b": "AL",
+ "treaty_name": "Agreement between the Council of Ministers of the Republic of Albania and the Government of the Republic of Kosovo for the avoidance of double taxation with respect to taxes on income and on capital and the prevention of fiscal evasion (2014, as amended by Protocol of 2020)",
+ "signed": "2014-03-28",
+ "entry_into_force": "2015-03-11",
+ "eif_source_url": "https://punetejashtme.gov.al/wp-content/uploads/2024/08/Lista-dypaleshe-1.pdf",
+ "eif_quote": "25. Marrëveshje ndërmjet Këshillit të Ministrave të Republikës së Shqipërisë dhe Qeverisë së Republikës së Kosovës për shmangien e tatimit të dyfishtë ... nënshkruar në Prishtinë, më 28.3.2014, hyrë në fuqi më 11.3.2015. || 41. Protokoll ndryshues i Marrëveshjes ... nënshkruar në Tiranë, më 2.10.2020, hyrë në fuqi më 16.3.2021. || [Protocol final clause] Dispozitat e këtij protokolli do të kenë efekt për sa i përket viteve tatimore që fillojnë më ose pas ditës së parë të muajit janar të vitit kalendarik, që vijon pas vitit në të cilin protokolli hyn në fuqi.",
+ "source_title": "Albanian Tax Administration (tatime.gov.al): consolidated text of Law 62/2014 ratifying the Albania-Kosovo Agreement, as amended by Law 12/2021 (Protocol of 2.10.2020)",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=10037",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1.1)(a)",
+   "valid_from": "2022-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 për qind të shumës bruto të devidendëve, nëse pronari përfitues është një shoqëri (përveç nëse është partneritet), e cila drejtpërsëdrejti mban së paku 25 për qind të kapitalit të ndërmarrjes që paguan dividendët gjatë një periudhe 365-ditore, që përfshin ditën e pagesës së devidendit (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1.1)(b)",
+   "valid_from": "2022-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 8 për qind të shumës bruto të devidendëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, interesi i tillë mund të tatohet edhe në Shtetin Kontraktues ku ai krijon dhe në përputhje me ligjet e këtij Shteti, por, kur pronari përfitues i interesit është një rezident i Shtetit tjetër Kontraktues, tatimi i zbatuar nuk duhet të kalojë 10 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1.1)",
+   "valid_from": "2022-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1.1 Megjithatë, e ardhura nga e drejta e pronësisë mund të tatohet edhe në Shtetin kontraktues në të cilin krijohen dhe sipas ligjeve të atij Shteti, por nëse pronari përfitues i të drejtave të pronësisë është rezident i Shtetit tjetër kontraktues, tatimi i vendosur nuk tejkalon 10 për qind të shumës bruto të të drejtave të pronësisë."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "treaty art. 26/1(1) (Entitlement to benefits - principal purpose test, added by 2020 Protocol)",
+  "source_url": "https://www.tatime.gov.al/shkarko.php?id=10037",
+  "quote": "1. Pavarësisht nga dispozitat e tjera të kësaj Marrëveshjeje, një përfitim sipas kësaj Marrëveshjeje nuk do të jepet në lidhje me një zë të të ardhurave ose kapitalit, nëse është e arsyeshme të arrihet në përfundimin, duke marrë parasysh të gjitha faktet përkatëse dhe rrethanat, se marrja e këtij përfitimi ishte një nga qëllimet kryesore të çdo marrëveshjeje ose transaksioni që rezultoi drejtpërdrejt ose indirekt në atë përfitim, përveçse nëse përcaktohet se dhënia e këtij përfitimi në këto rrethana do të ishte në përputhje me objektin dhe qëllimin e dispozitave përkatëse të kësaj Marrëveshjeje."
+ },
+ "notes": "The 2014 Agreement (in Albanian only) replaced the 2004 UNMIK-Albania agreement from 1 Jan 2016 (Art. 28(3)). The amending Protocol (Tirana, 2.10.2020; AL Law 12/2021) added Art. 10 para. 1.1 (source taxation of dividends 5%/8%), replaced Art. 12 para. 1 and added para. 1.1 (source taxation of royalties up to 10%), and added Art. 26/1 (PPT). Before the Protocol took effect, Arts. 10 and 12 contained only the residence-State rule (no source-State paragraph) - not recorded here. Protocol entered into force 16.3.2021 (Albanian MFA treaty list) and takes effect for tax years beginning on/after 1 Jan of the following year -> 1 Jan 2022 used as valid_from for dividend/royalty tiers and PPT; ATK protocol notice states application from 1 Jan 2021 (conflict). Interest 10% unchanged since 1 Jan 2016. Entry into force of the Agreement: AL MFA list and AL MLI position give 11.3.2015; ATK gives 25.04.2014 (conflict); both sides apply it from 1.1.2016. ATK summary table 5/8%, 10%, 10% - consistent. Kosovo is not an MLI party.",
+ "confidence": "high",
+ "unverified": [
+  "Protocol effective date: 2022-01-01 derived from Protocol EIF 16.3.2021 and its effective-date clause; ATK says 2021-01-01"
+ ]
+}

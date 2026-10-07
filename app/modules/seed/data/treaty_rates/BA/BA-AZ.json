@@ -1,0 +1,58 @@
+{
+ "a": "BA",
+ "b": "AZ",
+ "treaty_name": "Agreement between the Council of Ministers of Bosnia and Herzegovina and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2012)",
+ "signed": "2012-10-18",
+ "entry_into_force": "2013-12-26",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/BiH_-_Azerbejd%C5%BEan_-_komb._tekst_-_bos.pdf",
+ "eif_quote": "[BA MLI] Azerbaijan Original 18-10-2012 26-12-2013 | [AZ MLI] Bosnia and Herzegovina Original 18.10.2012 26.12.2013 | Art. 30(2)(a): za poreze zadržane na izvoru, na dohodak plaćen na ili nakon prvog januara kalendarske godine koja slijedi iza godine u kojoj ovaj Sporazum stupa na snagu;",
+ "source_title": "BiH Ministry of Finance and Treasury: Kombinovani tekst MLI i Sporazuma BiH–Azerbejdžan (Bosnian); Agreement published in Službeni glasnik BiH – Međunarodni ugovori 16/13",
+ "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/BiH_-_Azerbejd%C5%BEan_-_komb._tekst_-_bos.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, dividende se mogu oporezivati i u državi ugovornici čiji je rezident kompanija koja plaća dividende, u skladu sa zakonima te države, ali ako je stvarni vlasnik dividendi rezident druge države ugovornice, utvrđeni porez ne može biti veći od 10 posto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, takve kamate se mogu oporezivati i u državi ugovornici u kojoj nastaju, saglasno zakonima te države, ali ako je stvarni vlasnik kamate rezident druge države ugovornice, tako da utvrđeni porez ne može biti veći od 10 posto bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, autorske naknade se mogu oporezivati i u državi ugovornici u kojoj su nastale, u skladu sa zakonima te države, ali ako je stvarni korisnik autorskih naknada rezident druge države ugovornice, porez ne smije biti veći od 10 posto bruto iznosa autorske naknade."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/BiH_-_Azerbejd%C5%BEan_-_komb._tekst_-_bos.pdf",
+  "quote": "1. Izuzetno od odredbi Sporazuma, olakšica iz Sporazuma ne odobrava se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje olakšica bio jedan od osnovnih razloga bilo kojeg angažmana ili transakcije koji su direktno ili indirektno rezultirali tom pogodnošću, osim ako se ustanovi da bi odobravanje te olakšice u tim okolnostima bilo u skladu sa ciljem i svrhom odgovarajućih odredbi Sporazuma."
+ },
+ "notes": "Interest Art. 11(3): exempt at source when paid by or to the Government, political/administrative-territorial subdivision, local authority or Central Bank, or received by a financial institution wholly owned by the other State — not modelled. Royalty definition includes computer software and equipment rental. MLI entered into force for Azerbaijan 01.01.2025; withholding-tax effect 01.01.2025 per BiH MoF combined text. BiH reserved MLI Art. 8 entirely.",
+ "confidence": "high",
+ "unverified": [
+  "EIF date from both MLI lists; gazette EIF notice not read"
+ ]
+}

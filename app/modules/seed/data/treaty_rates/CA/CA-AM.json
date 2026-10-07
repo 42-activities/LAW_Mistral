@@ -1,0 +1,58 @@
+{
+ "a": "CA",
+ "b": "AM",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Armenia for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2004)",
+ "signed": "2004-06-29",
+ "entry_into_force": "2005-12-29",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-0.7/FullText.html",
+ "eif_quote": "[EIF date 2005-12-29 from map.json / Finance Canada in-force list; Justice Laws consolidation carries no in-force note] Art. 29: This Convention shall enter into force upon the exchange of diplomatic notes indicating that all internal legal procedures have been complied with and its provisions shall apply: (a) in respect of tax withheld at the source on amounts paid or credited to non-residents on or after the first day of January in the calendar year next following that in which the Convention enters into force; and",
+ "source_title": "Canada–Armenia Tax Convention Act, 2004 (S.C. 2005, c. 8, s. 4), Schedule — consolidated, Justice Laws Website",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-0.7/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-armenia-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 10(2)(a) 5% tier NOT modelled (investment-amount condition): (a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends and the capital invested by the beneficial owner exceeds US $100,000 (or its equivalent in the currency of either Contracting State) at the time the dividends are declared; Both Canada (Art. 10(2)(a), agreement no. 3) and Armenia (agreement no. 5) notified this provision under MLI Art. 8(4), so from 2024-01-01 the 5% tier also requires the 25% holding to be met throughout a 365-day period. Art. 11(3): interest on government indebtedness, and interest on loans/credits by Export Development Canada or a similar Armenian body, taxable only in residence State. Art. 10(6) branch tax max 5%. MLI WHT effective 2024-01-01 (map.json).",
+ "confidence": "high",
+ "unverified": [
+  "entry_into_force 2005-12-29 taken from map.json (no Canada Gazette note in the Justice Laws consolidation)"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "BH",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Kingdom of Bahrain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2002, as amended by Protocol 2013)",
+ "signed": "2002-05-16",
+ "entry_into_force": "2002-08-08",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876831509 ; https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876967647",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和巴林王国政府关于对所得避免双重征税和防止偷漏税的协定 双边 税收 2002.05.16 2002.08.12 || 《...巴林王国政府...协定》议定书 双边 税收 2013.09.16 2016.04.01 || Protocol Art. 8: This Protocol shall have effect as respects income derived during the taxable years beginning on or after the first day of January next following that in which this Protocol enters into force.",
+ "source_title": "China MFA Treaty Database - English texts of the China-Bahrain Agreement (2002) and Protocol (2013)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876831544.pdf ; https://treaty.mfa.gov.cn/tykfiles/20180718/1531876967686.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) as replaced by Protocol (2013) Art. 4",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest or income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bahrain-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: original Art. 10(2) cap was 5% (applied 2003-01-01 to 2016-12-31); Protocol signed 2013-09-16, in force 2016-04-01, raised it to 10% for taxable years from 2017-01-01. Interest derived by the other State's Government, a local authority, the Central Bank or wholly government-owned financial institutions, or by residents on debt-claims indirectly financed by them, is exempt (Art. 11(3)) - not modelled. Protocol Art. 5: domestic anti-avoidance rules preserved. MLI: covered by both (Bahrain deposit position No.10 incl. amending instrument 16-09-2013); Bahrain reserved Art. 8 entirely (Art. 8(3)(a)); no Art. 35(7) reservation found; WHT effect 2023-01-01 per map.json. EIF conflict for the original treaty: map.json/STA list 2002-08-08; MFA treaty database 2002-08-12; Bahrain MLI position 15-08-2002 - all give WHT effect 2003-01-01. MFA also lists a combined '协定及议定书' entry dated 2013.09.06 (scanned Chinese, not read).",
+ "confidence": "high",
+ "unverified": [
+  "Original treaty EIF date conflicting across sources (2002-08-08 / 08-12 / 08-15); MLI WHT date from map.json."
+ ]
+}

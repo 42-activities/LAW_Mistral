@@ -1,0 +1,78 @@
+{
+ "a": "CA",
+ "b": "UZ",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Uzbekistan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1999, with Protocol)",
+ "signed": "1999-06-17",
+ "entry_into_force": "2000-09-14",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103233",
+ "eif_quote": "Income Tax Conventions Implementation Act, 1999, Part 6: \"[Note: Convention and Protocol in force September 14, 2000, see Canada Gazette Part I, Volume 135, page 38.]\" | Treaty-accord: \"Entry into Force 14 September 2000\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1999, Schedule 6 - Canada-Uzbekistan Convention and Protocol (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) (copyright; computer software, patents, know-how)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed: (a) 5 per cent of the gross amount of the royalties if they are: (i) copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of reproduction for use in connection with television broadcasting), or (ii) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (know-how) (but not including any such information provided in connection with a rental or franchise agreement);"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) (all other royalties)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed: ... (b) 10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a (Uzbekistan not an MLI signatory)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 29(a): effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following entry into force (EIF 2000-09-14 -> 2001-01-01). Dividend 5% tier: company which \"controls directly or indirectly at least 10 per cent of the voting power\" (voting test recorded as ownership_threshold 10). Treaty has article-level main-purpose anti-abuse clauses (Art. 11(8), 12(7)) but no general PPT. Not modelled: Art. 11(3) exemptions (government/local authority debt; Central Bank of Uzbekistan and EDC loans). Protocol para. 5 excludes low-taxed non-resident-owned entities. MLI: Uzbekistan is not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

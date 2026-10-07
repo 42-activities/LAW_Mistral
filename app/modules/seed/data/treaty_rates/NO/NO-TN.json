@@ -1,0 +1,59 @@
+{
+ "a": "NO",
+ "b": "TN",
+ "treaty_name": "Convention entre le Royaume de Norvège et la République Tunisienne en vue d'éviter les doubles impositions en matière d'impôts sur le revenu et sur la fortune (1978)",
+ "signed": "1978-05-31",
+ "entry_into_force": "1979-12-28",
+ "eif_source_url": "https://www.nb.no/items/URN:NBN:no-nb_digitidsskrift_2017101781160_001 (Overenskomster med fremmede stater 1980, pp. 59-100; OCR via https://api.nb.no/catalog/v1/metadata/438e5c18e59e13c1eb48a50a81eb3eb7/altos/URN:NBN:no-nb_digitidsskrift_2017101781160_001_0108, _0110, _0112, _0114, _0132)",
+ "eif_quote": "Overenskomster 1980 footnote: \"I henhold til kgl. res. av 17. mars 1978 ble avtalen undertegnet i Tunis 31. mai 1978. Den ble ved kgl. res. av 21. desember 1979 besluttet ratifisert, og utveksling av ratifikasjonsdokumenter ble foretatt i Oslo 28. desember 1979. ... Avtalen trådte i kraft 28. desember 1979.\" | Art. 28(2): \"La présente Convention entrera en vigueur dès l'échange des instruments de ratification et ses dispositions seront applicables: a) Aux impôts dus à la source sur les revenus attribués ou mis en paiement à partir du premier jour du mois suivant celui de l'échange des instruments de ratification;\" | Lovdata: \"Avtalens ikrafttredelsesdato 28-12-1979\"",
+ "source_title": "Overenskomster med fremmede stater 1980 (official Norwegian treaty series), Convention Norvège-Tunisie 1978, authentic French text (done in French only), National Library of Norway scan, OCR read via nb.no API. Lovdata holds metadata only.",
+ "source_url": "https://www.nb.no/items/URN:NBN:no-nb_digitidsskrift_2017101781160_001 (Overenskomster med fremmede stater 1980, pp. 59-100; OCR via https://api.nb.no/catalog/v1/metadata/438e5c18e59e13c1eb48a50a81eb3eb7/altos/URN:NBN:no-nb_digitidsskrift_2017101781160_001_0108, _0110, _0112, _0114, _0132)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1), second sentence",
+   "valid_from": "1980-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Toutefois, ces dividendes peuvent être imposés dans l'Etat contractant dont la société qui paie les dividendes est un résident si la législation de cet Etat le prévoit, mais l'impôt ainsi établi ne peut excéder 20 p.c. du montant brut des dits dividendes."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "12",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts peuvent être imposés dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais l'impôt ainsi établi ne peut excéder 12 pour cent du montant des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1980-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) Les redevances provenant de la concession de licences d'exploitation de brevets, dessins et modèles, plans, formules ou procédés secrets, provenant de sources situées sur le territoire de l'un des Etats contractants et payées à une personne résidente de l'autre Etat peuvent être imposées dans le premier Etat, mais l'impôt ainsi établi ne peut excéder 15 pour cent du montant brut de ces redevances."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (not MLI-covered: Tunisia lists Norway but Norway does not list Tunisia; no PPT in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Entry-into-force conflict in map.json resolved: the official Norwegian publication states ratifications were exchanged and the Convention entered into force on 1979-12-28 (Tunisia's MLI list gives 03-01-1980); WHT provisions apply from 1980-01-01 either way. Dividends: single 20% limit (applies only if the source State's law provides for the tax). Art. 10(3)-(5): apportionment rule for dividend tax on companies with PEs in the other State (not modelled). Interest: 12% limit (Art. 11(1) beneficial-owner condition). Royalties are tiered by type, no general tier: Art. 12(2)(a) 5% for copyrights of literary, artistic or scientific works (excluding films/TV); 12(2)(b) 15% for patents, designs and models, plans, secret formulas or processes (recorded); 12(2)(c) 15% for know-how and technical or economic studies; 12(2)(d) 20% for trade marks, film/TV rental and agricultural, industrial, port, commercial or scientific equipment. Art. 12(1): royalties for immovable property/natural resources taxable only where situated. Quotes reproduced from OCR of the scanned official print (accents/OCR errors normalised minimally).",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from OCR of the scanned official print (Overenskomster 1980), not a born-digital text",
+  "Choice of the 15% patent tier as the single recorded royalty rate (treaty has no general royalty tier)"
+ ]
+}

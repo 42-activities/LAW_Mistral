@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "MD",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Government of the Republic of Moldova for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (2005), applied by Montenegro",
+ "signed": "2005-06-09",
+ "entry_into_force": "2006-05-23",
+ "eif_source_url": "https://mf.gov.md/ro/content/acorduriconven%C8%9Bii-pentru-evitarea-dublei-impuneri-la-situa%C8%9Bia-din-20062022 ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[MD MoF list] 29. Republica Muntenegru | Convenția | 09.06.2005, Chișinău | 23.05.2006 | 01.01.2007 || [ME PU table] 25 | Moldavija | dohodak i imovina | SCG 3/06 | 1.1.2007. || Art. 28(2): \"Уговор ступа на снагу датумом последњег од тих обавештења, а његове одредбе се примењују у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској години која почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Moldavija s Protokolom, Službeni list SCG - Međunarodni ugovori br. 3/2006 (12.05.2006), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/b15ec233-96e4-4ac0-8081-c068f0b84ec7 (file https://wapi.gov.me/download/b15ec233-96e4-4ac0-8081-c068f0b84ec7?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Moldova is not an MLI signatory); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (Chișinău, 09-06-2005; ratified Sl. list SCG - MU 3/2006); entered into force 23-05-2006 and continued by Montenegro after independence (Moldovan MoF list: \"Republica Muntenegru\", in force 23.05.2006, applied 01.01.2007). Protocol only defines \"political subdivision\". Authentic in Serbian, Moldovan and English (English prevails) - Serbian text read. Not MLI-covered -> no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

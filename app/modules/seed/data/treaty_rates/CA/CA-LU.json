@@ -1,0 +1,78 @@
+{
+ "a": "CA",
+ "b": "LU",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Grand Duchy of Luxembourg for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1999, as amended by Protocol 2012; modified by MLI)",
+ "signed": "1999-09-10",
+ "entry_into_force": "2000-10-17",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103320 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=105149",
+ "eif_quote": "Income Tax Conventions Implementation Act, 1999, Part 9: \"[Note: Convention in force October 17, 2000, see Canada Gazette Part I, Volume 134, page 3718.]\" | Treaty-accord: Convention \"Entry into Force 17 October 2000\"; Protocol 2012 \"Entry into Force 10 December 2013\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1999, Schedule 9 - Canada-Luxembourg Convention (Part 1) and 2012 Protocol (Part 2) (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(c) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties other than those in Art. 12(3), e.g. trade marks, films/TV, equipment, rental/franchise know-how)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (copyright; computer software, patents, know-how)",
+   "valid_from": "2001-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3 Notwithstanding the provisions of paragraph 2, (a) copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or other artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of reproduction for use in connection with television broadcasting), and (b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such information provided in connection with a rental or franchise agreement) arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner of the royalties shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29(2)(a): effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following the exchange of ratification instruments (EIF 2000-10-17 -> 2001-01-01). The 2012 Protocol (in force 2013-12-10) only replaces Art. 26 (exchange of information); rates unchanged. Dividend 5% tier: company (other than a partnership) that \"controls directly or indirectly at least 10 per cent of the voting power\" (voting test recorded as ownership_threshold 10). Art. 10(2)(b): 10% on dividends paid by a Canadian non-resident-owned investment corporation to a Luxembourg company owning >=25% of capital (source_state CA only; not modelled). Art. 10(3): Luxembourg exempts dividends paid to a Canadian company with an uninterrupted 2-year direct holding of >=25% of voting stock, only if the dividend derives from an active trade or business in Luxembourg and is exempt in Canada - conditional on recipient-side exemption, so not modelled as a rate tier. Not modelled: Art. 10(4) pension organisation exemption; Art. 11(3)-(4) exemptions (government debt, EDC loans, pension organisations, late-payment penalties, arm's-length credit sales); Art. 10(9) Canadian branch tax 5%. Art. 28(3): Convention does not apply to Luxembourg 1929 holding companies or similar. MLI art. 8 does not apply (Luxembourg reserved the entirety of Art. 8 under Art. 8(3)(a)); MLI WHT effect 2020-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

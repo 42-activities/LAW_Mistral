@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "BE",
+ "treaty_name": "Convention between Canada and the Kingdom of Belgium for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2002)",
+ "signed": "2002-05-23",
+ "entry_into_force": "2004-10-06",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-1.3/FullText.html",
+ "eif_quote": "[Note: Convention, set out in Schedule II to the Act as amended by subsection 8(1) of the Tax Conventions Implementation Act, 2002, in force October 6, 2004, see SI/2005-86.] | Art. 28(2)(b)(i): (i) with respect to taxes withheld at the source on amounts paid or credited to non-residents on or after January 1 of the year in which the instruments of ratification have been exchanged;",
+ "source_title": "Canada-Belgium Income Tax Convention Act, 1976, Schedule II (2002 Convention, as enacted by Tax Conventions Implementation Act, 2002) — consolidated, Justice Laws Website",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-1.3/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2004-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which owns directly at least 10 per cent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2004-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2004-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-belgium-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "5% tier threshold is 10% of the VOTING STOCK (owned directly), recorded as ownership_threshold. MLI Art. 8 applies: Canada (no. 9, Art. 10(2)(a)) and Belgium (no. 15, Art. 10(2)(a)) both notified, so from 2020-01-01 the holding must be met throughout a 365-day period (\"shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends\"). Art. 11(3): interest on credit sales of equipment/merchandise/services (unrelated), interest paid to the other State/subdivision/local authority, and EDC/agreed Belgian export-credit loans taxable only in residence State. Art. 12(3): copyright (excl. film/TV) and computer software, patent and know-how royalties (excl. rental/franchise) taxable only in residence State: (b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such information provided in connection with a rental or franchise agreement), Art. 10(6) Canadian branch tax max 5%. The 2014 Protocol is signed but not in force (map.json).",
+ "confidence": "high",
+ "unverified": []
+}

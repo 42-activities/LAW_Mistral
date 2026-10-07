@@ -84,6 +84,15 @@ def s(seeded_session):
         ("SY", "DE", "ROYALTY", None, None, "10.000"),  # domestic 10% below the 12% cap
         ("KE", "QA", "DIVIDEND", "10", None, "5.000"),
         ("DZ", "AT", "DIVIDEND", "10", None, "5.000"),
+        # Batch-10 network
+        ("NO", "CN", "DIVIDEND", "30", 730, "15.000"),  # 1986 treaty until the end of 2026
+        ("CA", "US", "DIVIDEND", "10", 730, "5.000"),
+        ("IN", "NL", "DIVIDEND", "30", 730, "10.000"),  # MFN confirmed by Indian notification
+        ("AL", "ES", "DIVIDEND", "80", 730, "0.000"),
+        ("BA", "IE", "DIVIDEND", "30", 730, "0.000"),
+        ("CN", "RO", "ROYALTY", None, None, "3.000"),
+        ("IN", "US", "ROYALTY", None, None, "15.000"),
+        ("ME", "DE", "DIVIDEND", "30", 730, "15.000"),
         # Ireland hub
         ("CH", "IE", "DIVIDEND", "10", 400, "0.000"),
         ("CH", "IE", "DIVIDEND", "5", 400, "15.000"),
@@ -115,3 +124,14 @@ def test_oman_treaties_load_on_official_effective_date(s):
     for partner in ("IR", "SD", "SY", "YE"):
         r = WithholdingEngine(s).compute("OM", partner, "ROYALTY", D, Decimal("100"), 730)
         assert "no_treaty" not in {f.code for f in r.flags}, partner
+
+
+def test_new_china_norway_treaty_applies_from_2027(s):
+    r = WithholdingEngine(s).compute("NO", "CN", "DIVIDEND", date(2027, 6, 1), Decimal("30"), 730)
+    assert str(r.final_rate) == "5.000"
+
+
+def test_india_egypt_treaty_sets_no_cap(s):
+    r = WithholdingEngine(s).compute("IN", "EG", "DIVIDEND", D, Decimal("30"), 730)
+    codes = {f.code for f in r.flags}
+    assert "no_treaty" not in codes and "treaty_rate_not_recorded" in codes

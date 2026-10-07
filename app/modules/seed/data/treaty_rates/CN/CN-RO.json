@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "RO",
+ "treaty_name": "Agreement between the People's Republic of China and Romania for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2016), as modified by the MLI",
+ "signed": "2016-07-04",
+ "entry_into_force": "2017-06-17",
+ "eif_source_url": "http://web.archive.org/web/20211130021623/http://www.chinatax.gov.cn/n810341/n810770/c2238196/5027082/files/d764532907784806a70033cbea904005.pdf",
+ "eif_quote": "Art. 29(1): \"This Agreement shall enter into force on the thirtieth day upon the receipt of the latter notification and shall have effect in respect of income derived during the taxable years beginning on or after the first day of January in the calendar year next following the year in which this Agreement enters into force.\" (EIF date 2017-06-17 from STA list via map.json)",
+ "source_title": "STA English text of the 2016 China-Romania Agreement (Wayback copy of chinatax.gov.cn PDF); Chinese text also read",
+ "source_url": "http://web.archive.org/web/20211130021623/http://www.chinatax.gov.cn/n810341/n810770/c2238196/5027082/files/d764532907784806a70033cbea904005.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, dividends paid by a company which is a resident of a Contracting State may also be taxed in that State according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, interest arising in a Contracting State may also be taxed in that State according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "3",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, royalties arising in a Contracting State may also be taxed in that State according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 3 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Dividends: Art. 10(3) exempts dividends paid to the other State, its subdivisions/local authorities or entities wholly or mainly (>50%) owned by it. Interest: Art. 11(3) - interest taxable only in the residence State to the extent paid (a) on indebtedness from sale on credit of equipment, merchandise or services, (b) on any loan granted by a financial institution of that other State, or (c) to the other State/its subdivisions/central bank/state-owned entities (recipient/loan-type conditions - not modelled as tiers). Treaty main-purpose clauses in Arts. 10(8), 11(8), 12(7), 13. Single 3% dividend rate - MLI Art. 8 irrelevant. MLI: Romania made an Art. 35(7)(a) reservation and notified completion for China on 2023-03-06; WHT effect computed 2024-01-01 (map.json; SAT 2023 No.9). Replaced the 1991 treaty from 2018-01-01.",
+ "confidence": "high",
+ "unverified": [
+  "MLI synthesised text not read; PPT quote is MLI Art. 7(1) wording; MLI effective date from map.json"
+ ]
+}

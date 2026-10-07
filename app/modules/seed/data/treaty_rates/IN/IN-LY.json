@@ -1,0 +1,25 @@
+{
+ "a": "IN",
+ "b": "LY",
+ "treaty_name": "Convention between the Socialist People's Libyan Arab Jamahiriya and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1981)",
+ "signed": "1981-03-02",
+ "entry_into_force": "1982-07-01",
+ "eif_source_url": "https://web.archive.org/web/20170915004536/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000048.htm",
+ "eif_quote": "Whereas the annexed Convention ... has been ratified and the instruments of ratification exchanged as required by Article 25 of the said Convention ; Now, therefore ... the Central Government hereby directs that all the provisions of the said Convention shall be given effect to in the Union of India. Notification : No. GSR 22(E), dated 1-7-1982. TEXT OF ANNEXED CONVENTION, DATED 2-3-1981",
+ "source_title": "Wayback copy (2017) of Income Tax Department of India DTAA page (Libya, Comprehensive Agreements, 108690000000000048.htm): Notification GSR 22(E) dated 1-7-1982 with annexed India-Libya Convention",
+ "source_url": "https://web.archive.org/web/20170915004536/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000048.htm",
+ "rates": [],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": "Not MLI-covered: Libya is not an MLI signatory (per map.json); the 1981 Convention contains no principal purpose / limitation of benefits article."
+ },
+ "notes": "No source-State limits: the Convention gives the source State an uncapped right to tax all three categories, so no rate entries are recorded. Art. 9(1): 'Dividends paid by a company which is registered in one of the Contracting States may be taxed in that State.' Art. 10(1): 'Interest arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in the Contracting State where it arises.' Art. 11(1): 'Royalties arising in a Contracting State may be taxable in that State.' (Art. 11(3) treats cinematograph film rentals as business profits.) Domestic withholding rates therefore apply in full. Entry into force: Art. 25 - on exchange of instruments of ratification, effective from the tax year commencing after ratification; the exact date of exchange is not stated in the notification - 1982-07-01 (map.json, India's MLI position) coincides with the date of Notification GSR 22(E). CONFLICT: Libyan Tax Authority list shows 1981/01/01 (map.json). Text read from an archived official Indian Income Tax Department page (Wayback; live site 403); Libyan official text not read.",
+ "confidence": "medium",
+ "unverified": [
+  "Exact date of exchange of instruments of ratification (1982-07-01 taken from India's MLI position / notification date)"
+ ],
+ "no_cap": true
+}

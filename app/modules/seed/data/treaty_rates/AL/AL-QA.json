@@ -1,0 +1,58 @@
+{
+ "a": "AL",
+ "b": "QA",
+ "treaty_name": "Agreement between the Council of Ministers of the Republic of Albania and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2011)",
+ "signed": "2011-10-18",
+ "entry_into_force": "2012-07-14",
+ "eif_source_url": "https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+ "eif_quote": "[QA MLI list] Albania Original 18/10/2011 14/07/2012 || [AL DPT list] 37 KATARI, Ligj 42/2012, FZ 52 14.05.2012, me efekte nga data 01.01.2013 || Art. 28(2)(a): \"Në lidhje me tatimin e mbajtur në burim, në lidhje me shumat e paguara ose të kredituara më ose pas datës 1 janar të vitit kalendarik menjëherë pas vitit në të cilin hyn në fuqi marrëveshja\"",
+ "source_title": "Albanian text of the Albania-Qatar Agreement (2011), DPT/tatime.gov.al download",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=354",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këta dividendë mund të tatohen gjithashtu në shtetin kontraktues në të cilin është rezidente firma që paguan dividendët dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i dividendëve është rezident i shtetit tjetër kontraktues, tatimi i vendosur nuk tejkalon 5 për qind të shumës bruto të dividendëve."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, ky interes mund të tatohet në shtetin kontraktues ku rrjedh interesi në pajtim me ligjet e atij shteti, por nëse pronari përfitues i interesit është rezident i shtetit tjetër kontraktues, tatimi i vendosur nuk tejkalon 5 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "6",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto tarifa licencash mund të tatohen gjithashtu në shtetin kontraktues ku ato lindin dhe në pajtim me ligjet e atij shteti, por nëse pronari përfitues i tarifave të licencave është rezident i shtetit tjetër kontraktues, tatimi i ngarkuar nuk kalon 6 për qind të shumës bruto të tarifave të licencave."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-qatar-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both Albania and Qatar list the Agreement; WHT effect 2021-01-01 per Art. 35(1)(a) (later MLI entry into force = Albania 2021-01-01)]"
+ },
+ "notes": "Art. 10(3) and 11(3): dividends and interest beneficially owned by a Contracting State, political subdivision, local authority, statutory body or central bank, and (Qatar) QIA, Qatar Holding, Qatar pension fund, Qatar Development Bank, (Albania) Bank of Albania and wholly state-owned entities, are taxable only in the residence State - not modelled. Art. 12(1) of the Albanian text reads \"tatohen vetëm në atë shtet tjetër\" (taxable only in the other State) but para. 2 then allows 6% at source; apparent translation slip, 6% cap recorded (English text prevails). Qatar reserved MLI Art. 8 entirely -> no holding period. Albanian text only; Arabic/English texts not read.",
+ "confidence": "medium",
+ "unverified": [
+  "English (prevailing) text not read; Art. 12(1) \"vetëm\" wording inconsistency in Albanian text"
+ ]
+}

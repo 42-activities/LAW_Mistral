@@ -1,0 +1,80 @@
+{
+ "a": "CA",
+ "b": "US",
+ "treaty_name": "Convention between Canada and the United States of America with respect to Taxes on Income and on Capital (1980, as amended by the Protocols of 1983, 1984, 1995, 1997 and 2007)",
+ "signed": "1980-09-26",
+ "entry_into_force": "1984-08-16",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-10.7/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102370 ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=105099",
+ "eif_quote": "Canada-United States Tax Convention Act, 1984: \"[Note: Convention in force on August 16, 1984, see SI/84-233.]\" | Treaty-accord: Convention \"Entry into Force 16 August 1984\"; 1995 Protocol \"Entry into Force 09 November 1995\"; 2007 (Fifth) Protocol \"Entry into Force 15 December 2008\"",
+ "source_title": "Canada-United States Tax Convention Act, 1984 (S.C. 1984, c. 20), Schedules I-VI - Convention and Protocols of 1983, 1984, 1995, 1997 and 2007 (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-10.7/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)(a) (as amended by 1995 Protocol Art. 5(1) and 2007 Protocol Art. 5(1))",
+   "valid_from": "1997-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 percent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 percent of the voting stock of the company paying the dividends (for this purpose, a company that is a resident of a Contracting State shall be considered to own the voting stock owned by an entity that is considered fiscally transparent under the laws of that State and that is not a resident of the Contracting State of which the company paying the dividends is a resident, in proportion to the company’s ownership interest in that entity);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)(b)",
+   "valid_from": "1984-10-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article XI(1) (as replaced by 2007 Protocol Art. 6)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1 Interest arising in a Contracting State and beneficially owned by a resident of the other Contracting State may be taxed only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2) (royalties other than those in Art. XII(3), e.g. trade marks, films/TV, rental of tangible property, rental/franchise know-how)",
+   "valid_from": "1984-10-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State; but if a resident of the other Contracting State is the beneficial owner of such royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(3) (as replaced by 1995 Protocol Art. 7(1): copyright, computer software, patents and know-how)",
+   "valid_from": "1996-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "“3 Notwithstanding the provisions of paragraph 2, (a) Copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or artistic work (other than payments in respect of motion pictures and works on film, videotape or other means of reproduction for use in connection with television); (b) Payments for the use of, or the right to use, computer software; (c) Payments for the use of, or the right to use, any patent or any information concerning industrial, commercial or scientific experience (but not including any such information provided in connection with a rental or franchise agreement); and (d) Payments with respect to broadcasting as may be agreed for the purposes of this paragraph in an exchange of notes between the Contracting States; arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State.”"
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a (US not an MLI signatory; treaty has LOB Art. XXIX A instead of a PPT)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Effective dates: 1980 Convention Art. XXX(2)(a) - WHT on amounts paid or credited on or after the first day of the second month following EIF (1984-08-16 -> 1984-10-01). 1995 Protocol (EIF 1995-11-09) Art. 21(2)(a): WHT from the first day of the second month following EIF (1996-01-01), with the 5% direct-dividend rate read as 7% before 1996 and 6% in 1996, so 5% applies from 1997-01-01 (originally 10%). 2007 Fifth Protocol (EIF 2008-12-15) Art. 27(2)(a): WHT from the first day of the second month beginning after EIF (2009-02-01); it rewrote Art. X(2)(a) (look-through for fiscally transparent entities, rate unchanged at 5%) and replaced Art. XI with residence-only taxation of interest. Interest: Art. 27(3)(d) phase-in for related-party interest not previously exempt - 7% in the first and 4% in the second calendar year ending after entry into force (2008, 2009), exempt from 2010-01-01 (valid_from used); arm's-length interest exemption applied earlier. Dividend 5% tier: company owning at least 10% of the voting stock (voting test recorded as ownership_threshold 10). Not modelled: Art. X(7)(a) 10% on dividends paid by a Canadian non-resident-owned investment corporation to a 10% US corporate shareholder; X(7)(b)-(c) RIC/REIT rules (15% or domestic rate); Art. XI(6)(a)-(b) contingent/participating interest taxable at up to the 15% dividend rate; XI(6)(c) REMIC excess inclusions at domestic rates; Art. X(6) branch tax 5%; Art. XXI exemptions for pension/charitable organisations. Treaty access subject to Art. XXIX A Limitation on Benefits (added 1995, amended 2007). MLI: not covered (US not a signatory).",
+ "confidence": "high",
+ "unverified": [
+  "Exact start date of the arm's-length interest exemption under the Fifth Protocol (2008 vs 2009-02-01) - not needed for the 2026 position"
+ ]
+}

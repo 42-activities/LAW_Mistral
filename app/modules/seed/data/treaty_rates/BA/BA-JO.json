@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "JO",
+ "treaty_name": "Agreement between the Council of Ministers of Bosnia and Herzegovina and the Government of the Hashemite Kingdom of Jordan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2007)",
+ "signed": "2007-06-25",
+ "entry_into_force": "2012-12-07",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-jordan-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Jordan_-_bos._verzija.pdf",
+ "eif_quote": "[JO MLI] ... Hashemite Kingdom of Jordan and The Council of Ministers of Bosnia and Herzegovina ... Bosnia and Herzegovina Original 25-06-2007 07-12-2012 || [BA MLI] Jordan Original 25-06-2007 01-01-2013 || Član 29: 1. Ovaj sporazum stupa na snagu kasnijeg datuma na koji su odnosne vlade mogle obavijestiti napismeno jedna drugu da su ustavom pripisane formalnosti u njihovim državama zadovoljene. 2. Ovaj sporazum se primjenjuje u odnosu na poreze zadržane na izvoru na dohodak ostvaren na dan ili nakon prvog januara prve kalendarske godine nakon godine u kojoj sporazum stupi na snagu",
+ "source_title": "BiH MoF MLI combined text BiH–Jordan (Bosnian; treaty published in Službeni glasnik BiH-MU 4/12); Sl. glasnik BiH-MU 4/12 issue",
+ "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Jordan_-_bos._verzija.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=5eb55665-f002-48d9-8d1f-40809ec79706&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2013-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 procenata bruto iznosa dividendi ako je stvarni vlasnik kompanija (osim partnerstva) koja posjeduje direktno najmanje 25 procenata imovine preduzeća koje isplaćuje dividende"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 procenata bruto iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata se može oporezovati i u Državi ugovornici u kojoj nastaje, saglasno zakonima te države, ali ako je stvarni vlasnik te kamate rezident druge Države ugovornice, utvrđeni porez ne može biti veći od 10 procenata bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezovati i u Državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali ako je stvarni vlasnik autorskih naknada rezident druge Države ugovornice porez ne može biti veći od 10 procenata bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1) (replaces treaty art. 11(7))",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH_-_Jordan_-_bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Izuzetno od odredbi ovog Sporazuma, olakšica iz ovog Sporazuma ne odobrava se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje olakšica bio jedan od osnovnih razloga bilo kojeg aranžmana ili transakcije koji su direktno ili indirektno rezultirali tom pogodnošću, osim ako se ustanovi da bi odobravanje te olakšice u tim okolnostima bilo u skladu sa ciljem i svrhom odgovarajućih odredbi ovog Sporazuma. || [MLI Art. 7(1) authentic English] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "EIF conflict: Jordan MLI position 07-12-2012, BiH MLI position 01-01-2013. Under Art. 29 the agreement enters into force on the later notification date and applies to WHT from 1 January of the following year; 07-12-2012 (a notification date) is used and 01-01-2013 in the BiH list is read as the first application date, giving valid_from 2013-01-01 (if EIF were 01-01-2013, application would be 2014-01-01). Jordan ISTD list unreachable (connection refused). Art. 12(3): fees for services incl. consultancy furnished by employees/personnel are deemed to arise in the payer State and may be taxed there at max 15% of gross (not modelled as royalty). Dividend threshold wording: \"najmanje 25 procenata imovine\" (capital). Treaty Art. 11(7) main-purpose rule replaced by MLI Art. 7(1) per BiH MLI notification and BiH MoF combined text; MLI WHT effect 2021-01-01 (both MLI in force 01-01-2021). MLI Art. 8 not applicable (BiH reserved). English official text on mft.gov.ba is a poor-quality scan; rates read from the Bosnian text.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF date (07-12-2012 vs 01-01-2013) and therefore valid_from 2013 vs 2014"
+ ]
+}

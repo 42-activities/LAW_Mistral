@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "MA",
+ "treaty_name": "Convention between Canada and Morocco for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1975)",
+ "signed": "1975-12-22",
+ "entry_into_force": "1978-11-09",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103217",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 1978/11): \"Entry into Force 09 November 1978\"; Signature \"22 December 1975\"",
+ "source_title": "Canada Treaty Series 1978/11 - Canada-Morocco Convention (treaty-accord.gc.ca official text)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103217&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)",
+   "valid_from": "1978-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State; but where the resident of the other Contracting State is the beneficial owner of the dividends, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends. The provisions of this paragraph shall not affect the taxation of the company on the profits out of which the dividends are paid."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article XI(2)",
+   "valid_from": "1978-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State; but the tax so charged shall, provided that the interest is taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)(a) (cultural copyright royalties, excluding films/TV)",
+   "valid_from": "1978-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State; but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed: 5 per cent of the gross amount of the copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or artistic work (but not including royalties in respect of motion picture films and works on film or videotape for use in connection with television);"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)(b) (all other royalties)",
+   "valid_from": "1978-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State; but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed: ... 10 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a (Morocco has not ratified the MLI)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. XXX: effective for tax withheld at source on amounts paid to non-residents on or after 1 January of the year in which ratification instruments were exchanged (EIF 1978-11-09 -> 1978-01-01). Dividends: single 15% cap, no participation tier. Interest and royalty caps apply \"provided that the interest/royalties is taxable in the other Contracting State\" (recipient-taxation condition, recorded only here). Not modelled: Art. XI(4) exemption for interest on government bonds/debentures; Art. X(5) branch tax 15%. MLI: Morocco signed (2019-06-25) but has not ratified; Finance Canada also lists Morocco as under (re)negotiation - no PPT.",
+ "confidence": "high",
+ "unverified": []
+}

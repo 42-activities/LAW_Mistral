@@ -1,0 +1,56 @@
+{
+ "a": "BA",
+ "b": "IE",
+ "treaty_name": "Convention between Ireland and Bosnia and Herzegovina for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2009)",
+ "signed": "2009-11-03",
+ "entry_into_force": "2012-06-25",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-ireland-instrument-deposit.pdf ; https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/bosnia-herzegovina.pdf",
+ "eif_quote": "[BA MLI] Ireland Original 03-11-2009 25-06-2012 || Art. 28(2): This Convention shall enter into force on the date of receipt of the later of these notifications and shall thereupon have effect: (a) in Ireland: (i) as respects income tax and capital gains tax, for any year of assessment beginning on or after the first day of January in the calendar year in which this Convention enters into force; ... (b) in Bosnia and Herzegovina, as respects the income and corporation taxes for each fiscal year beginning on or after the first day of January in the calendar year in which this Convention enters into force.",
+ "source_title": "Revenue (Ireland): Convention between Ireland and Bosnia and Herzegovina (2009) and Synthesised text of the MLI and the Ireland–BiH DTC",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/bosnia-herzegovina.pdf ; https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/synthesised-text-mli-ireland-bosnia-herzegovina-dtc.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State, provided such resident is the beneficial owner of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2012-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/b/synthesised-text-mli-ireland-bosnia-herzegovina-dtc.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "All three categories exempt at source (residence-only taxation, beneficial-owner condition). Convention has effect from 1 January of the calendar year in which it entered into force (2012), hence valid_from 2012-01-01. Royalty definition excludes equipment leasing. MLI WHT effect 1 January 2021 per Revenue synthesised text. MLI Art. 8 not applicable (BiH reserved). Same rates in BiH MoF Bosnian MLI combined text.",
+ "confidence": "high",
+ "unverified": []
+}

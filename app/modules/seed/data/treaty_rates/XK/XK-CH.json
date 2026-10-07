@@ -1,0 +1,67 @@
+{
+ "a": "XK",
+ "b": "CH",
+ "treaty_name": "Convention between the Swiss Confederation and the Republic of Kosovo for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance, with Protocol (2017)",
+ "signed": "2017-05-26",
+ "entry_into_force": "2018-10-10",
+ "eif_source_url": "https://www.fedlex.admin.ch/eli/oc/2018/640/fr",
+ "eif_quote": "Conclue le 26 mai 2017 ... Entrée en vigueur le 10 octobre 2018 || [Art. 27(2)(a)] eu égard aux impôts retenus à la source, aux revenus payés ou attribués le 1er janvier de l'année civile suivant celle de l'entrée en vigueur de la Convention, ou après cette date",
+ "source_title": "Fedlex RO 2018 3969 / SR 0.672.947.51: Convention entre la Suisse et le Kosovo (French authentic text, with Protocol)",
+ "source_url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2018/640/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2018-640-fr-pdf-a.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 % du montant brut des dividendes si le bénéficiaire effectif est une société (autre qu'une société de personnes) qui détient directement au moins 25 % du capital de la société qui paie les dividendes durant une période de 365 jours comprenant le jour du paiement du dividende (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 % du montant brut des dividendes, dans tous les autres cas."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Toutefois, ces intérêts sont aussi imposables dans l'Etat contractant d'où ils proviennent et selon la législation de cet Etat, mais si le bénéficiaire effectif des intérêts est un résident de l'autre Etat contractant, l'impôt ainsi établi ne peut excéder 5 % du montant brut des intérêts."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Les redevances provenant d'un État contractant et dont le bénéficiaire effectif est un résident de l'autre État contractant ne sont imposables que dans cet autre État."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2019-01-01",
+  "basis": "treaty art. 21(1) (Entitlement to benefits - principal purpose test)",
+  "source_url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2018/640/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2018-640-fr-pdf-a.pdf",
+  "quote": "1. Nonobstant les autres dispositions de la présente Convention, un avantage au titre de celle-ci ne sera pas accordé au titre d'un élément de revenu si l'on peut raisonnablement conclure, compte tenu de l'ensemble des faits et circonstances propres à la situation, que l'obtention de cet avantage était un des buts principaux d'un montage ou d'une transaction ayant permis, directement ou indirectement, de l'obtenir, à moins qu'il soit établi que l'octroi de cet avantage dans ces circonstances serait conforme à l'objet et au but des dispositions pertinentes de la présente Convention."
+ },
+ "notes": "Dividends exempt at source (Art. 10(3)) when the beneficial owner is a pension institution (institution de prévoyance) or the other State's national bank - not modelled. Interest taxable only in residence State (Art. 11(3)) when paid on credit sales of equipment/goods/services, on loans of any kind granted by a bank, to a pension institution, to the Government/political subdivision/local authority/national bank, or on loans between companies (\"au titre de prêts entre sociétés\") - conditions on recipient/loan type, not modelled as plain tiers. Protocol point 5: refund of 15% tax withheld where the 365-day holding period is completed after payment. Authentic texts French, Albanian, English (English prevails); French quoted; German version on fedlex is a translation. ATK summary table shows dividends 5/10% - conflicts with the treaty text (5%/15%). Kosovo is not an MLI party; treaty-own PPT Art. 21.",
+ "confidence": "high",
+ "unverified": []
+}

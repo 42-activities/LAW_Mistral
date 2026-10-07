@@ -1,0 +1,67 @@
+{
+ "a": "ME",
+ "b": "PT",
+ "treaty_name": "Convention between Montenegro and the Portuguese Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016)",
+ "signed": "2016-07-12",
+ "entry_into_force": "2017-12-07",
+ "eif_source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/convencoes_evitar_dupla_tributacao/convencoes_tabelas_doclib/Documents/Tabela_CDT_2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-portugal-consolidated.pdf",
+ "eif_quote": "[PT list] MONTENEGRO Resolução da Assembleia da República n.º 50/2017 de 21 de Março Aviso n.º 144/2018 publicado em 10/12/2018 EM VIGOR DESDE 07-12-2017 || Art. 28(2): \"The provisions of the present Convention shall have effect: a) in Montenegro: (i) in respect of the taxes on income derived in each fiscal year beginning on or after the first day of January in the calendar year next following the year in which this Convention enters into force; b) in Portugal: (i) in respect of taxes withheld at source, where the event giving rise to them occurs on or after the first day of January next following the date on which this Convention enters into force;\"",
+ "source_title": "Zakon o potvrđivanju Ugovora Crna Gora-Portugal (Sl. list CG - Međunarodni ugovori 9/2017), Montenegrin and English text, gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/ef358f7b-54fc-4452-aac0-21482feebfce (file https://wapi.gov.me/download/ef358f7b-54fc-4452-aac0-21482feebfce?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "5",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly or indirectly at least 5 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the royalties within the meaning of subparagraph b) of paragraph 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-portugal-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties: 5% cap for copyright royalties on literary, artistic or scientific works incl. films, broadcasting recordings and computer software (Art. 12(2)(a)/(3)(a)) - not modelled; 10% for patents, trademarks, designs, secret formulas and know-how. Interest taxable only in the residence State when paid by or beneficially owned by a Contracting State, its subdivisions/local authorities, central bank or wholly owned agencies (Art. 11(3)) - not modelled. Treaty Art. 27 already contains a beneficial-owner condition and a main-purpose rule for the creation or assignment of the property/right (Art. 27(2)-(3)); the general MLI PPT applies from the MLI WHT effective date 2027-01-01 (per map.json). MLI Art. 8 365-day rule does NOT apply: Portugal made an Art. 8(3)(b)(i) reservation listing \"46 Montenegro Article 10(2)(a)\", although the treaty text contains no holding period - noted as an inconsistency. Authentic in Montenegrin, Portuguese and English (English prevails) - English text read.",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,58 @@
+{
+ "a": "AL",
+ "b": "EG",
+ "treaty_name": "Agreement between the Government of the Republic of Albania and the Government of the Arab Republic of Egypt for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2005)",
+ "signed": "2005-02-23",
+ "entry_into_force": "2005-12-14",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare",
+ "eif_quote": "[AL MLI] Egypt Original 23-02-2005 14-12-2005 || [AL DPT list] EGJYPT | 9440 | 11.11.2005 | ... | 01.01.2006 || Art. 30(2): After the entry into force of this Agreement its provisions shall have effect for the first time: (a) in respect of tax withheld at the source, on amounts paid or credited on or after the first day of January in the calendar year following that in which the Agreement enters into force;",
+ "source_title": "Egyptian Tax Authority: Synthesised text of the MLI and the Egypt-Albania Agreement (English)",
+ "source_url": "https://eta.gov.eg/sites/default/files/2024-09/albania.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to t of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://eta.gov.eg/sites/default/files/2024-09/albania.pdf",
+  "quote": "Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income { or capital} if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]. [Synthesised text: MLI provisions have effect with respect to taxes withheld at source where the event giving rise to such taxes occurs on or after 1 January 2021]"
+ },
+ "notes": "Single dividend rate (no participation tier). No interest exemption tiers in Art. 11. Art. 29(2): domestic CFC/anti-avoidance rules preserved. Quote reproduces a typo in the ETA synthesised text ('according to t of that State'). Albanian DPT copy (tatime.gov.al shkarko.php?id=343, unsigned 2004 draft) gives the same 10/10/10 rates. MLI Art. 8 not applicable (Egypt did not notify the Albania treaty under Art. 8(4)).",
+ "confidence": "high",
+ "unverified": [
+  "Signed original English text not read (synthesised text used)"
+ ]
+}

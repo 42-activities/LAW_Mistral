@@ -1,0 +1,58 @@
+{
+ "a": "NO",
+ "b": "US",
+ "treaty_name": "Convention between the United States of America and the Kingdom of Norway for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and property (1971, as amended by Protocol 1980)",
+ "signed": "1971-12-03",
+ "entry_into_force": "1972-11-29",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/norway.pdf",
+ "eif_quote": "IRS text header: \"Entered into Force November 29, 1972.\" | Art. 31(1): \"It shall enter into force two months after the exchange of the instruments of ratification. Its provisions shall for the first time have effect- ... (b) in the case of Norway- (i) As respects the rate of withholding tax, to amounts paid on or after the date on which this Convention enters into force;\" | Protocol 1980: \"Entered into Force December 15, 1981.\" Art. XIII(2)(b): \"In respect of tax withheld at the source; to amounts paid on or after the first day of the sixth month next following the date on which this Protocol enters into force;\"",
+ "source_title": "IRS (irs.gov) United States-Norway Income and Property Tax Convention 1971 with Protocol of 19 September 1980 (English text; English and Norwegian equally authentic). Lovdata holds metadata only.",
+ "source_url": "https://www.irs.gov/pub/irs-trty/norway.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8(2) (as replaced by Protocol 1980, Art. IV(1))",
+   "valid_from": "1982-06-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "\"(2) The rate of tax imposed by one of the Contracting States on dividends derived from sources within that Contracting State by a resident of the other Contracting State shall not exceed 15 percent of the gross amount actually distributed.\""
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 9(2) (as replaced by Protocol 1980, Art. V)",
+   "valid_from": "1982-06-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) The rate of tax imposed by a Contracting State on interest derived from sources within that State by a resident of the other Contracting State shall in no event exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 10(1)",
+   "valid_from": "1972-11-29",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) Royalties derived from sources within one of the Contracting States by a resident of the other Contracting State shall be exempt from tax by the first-mentioned Contracting State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (the United States is not an MLI signatory; no PPT in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Dividends: single 15% limit from 1982-06-01 (the 1971 text had a 10% rate for corporations owning >=10% of voting stock, subject to a passive-income test; repealed by Protocol Art. IV). Interest (Art. 9 as replaced by Protocol Art. V): 10% cap, but \"such interest shall be exempt in the first-mentioned State in any calendar year in which either State exempts similar interest derived from sources within that State from taxation under its domestic law\"; Art. 9(3): always exempt if beneficially owned/paid by a State or tax-exempt instrumentality, on state-guaranteed/insured debt, commercial credit for goods/services, bank loans of any nature, or obligations outstanding on 1980-09-19. Whether the domestic-exemption condition currently yields 0% (e.g. US portfolio-interest exemption) is a domestic-law question not modelled - the 10% treaty cap is recorded. Royalties (Art. 10, unchanged by the Protocol): exempt at source; definition excludes film/TV copyrights. Art. 20: investment or holding companies excluded in certain cases (not modelled). Amendment by exchange of notes of 1990-05-30 (Lovdata 1990-05-30-1, metadata only) - content not read.",
+ "confidence": "medium",
+ "unverified": [
+  "Content of the 1990-05-30 amendment by exchange of notes (not available in full text; not expected to concern Arts. 8-10 but not verified)"
+ ]
+}

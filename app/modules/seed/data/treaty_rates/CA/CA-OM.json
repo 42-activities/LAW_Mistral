@@ -1,0 +1,80 @@
+{
+ "a": "CA",
+ "b": "OM",
+ "treaty_name": "Agreement between the Government of Canada and the Government of the Sultanate of Oman for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2004, with Protocol)",
+ "signed": "2004-06-30",
+ "entry_into_force": "2005-04-27",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=105005",
+ "eif_quote": "Treaty-accord (Canada Treaty Series): \"Entry into Force 27 April 2005\"; Signature \"30 June 2004\"",
+ "source_title": "Canada-Oman Tax Agreement Act, 2004 (S.C. 2004, c. 23), Schedules 1-2 - Agreement and Protocol (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-7.9/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) five per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly, in the case of Canada, at least ten per cent of the voting power in the company paying the dividends and, in the case of the Sultanate of Oman, at least ten per cent of the capital in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) fifteen per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties other than those in Art. 12(3), e.g. trade marks, films/TV, equipment, rental/franchise know-how)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (copyright; computer software, patents, know-how)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3 Notwithstanding the provisions of paragraph 2, a) copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or other artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of production for use in connection with television broadcasting), and b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such royalty provided in connection with a rental or franchise agreement), arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner of the royalties shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) - coverage unverified (treaty has article-level main-purpose clauses Art. 10(6), 11(8), 12(8))",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "6 The provisions of this Article shall not apply if it was the main purpose or one of the main purposes of any person concerned with the creation or assignment of the shares or other rights in respect of which the dividend is paid to take advantage of this Article by means of that creation or assignment."
+ },
+ "notes": "Art. 30(a): effective for taxes withheld at source on amounts paid or credited on or after 1 January next following the date of entry into force (EIF 2005-04-27 -> 2006-01-01). Dividend 5% tier: beneficial owner company controlling directly or indirectly at least 10% of the voting power (where the payer is Canadian) or at least 10% of the capital (where the payer is Omani) - recorded as ownership_threshold 10. Not modelled: Art. 11(3) exemptions (interest paid to the other State/subdivisions; EDC and Oman Export Credit Guarantee Agency loans; pension organisations); Art. 28(8) exemption for dividends to pension organisations; Protocol para. 4 (consultation only, no automatic MFN on interest). Art. 28(4)-(6) exclude certain low-taxed non-resident-owned entities and tax-free-zone entities. MLI: Canada lists Oman as a Covered Tax Agreement (and notified Art. 10(6), 11(8), 12(8) under Art. 7(2) and Art. 10(2)(a) under Art. 8(4)), but Oman's MLI position documents are scanned images and Oman's side could not be verified; if covered, the PPT and possibly the Art. 8 365-day holding period would have effect from 2021-01-01 (Oman MLI in force 2020-11-01). Treated as not verified: ppt.applies=false, no holding period recorded.",
+ "confidence": "medium",
+ "unverified": [
+  "Whether Oman lists the Canada agreement as a Covered Tax Agreement under the MLI (PPT/Art. 8 from 2021-01-01 if so)"
+ ]
+}

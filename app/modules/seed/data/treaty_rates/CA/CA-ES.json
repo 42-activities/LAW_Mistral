@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "ES",
+ "treaty_name": "Convention between Canada and Spain for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1976, as amended by the Protocol of 2014)",
+ "signed": "1976-11-23",
+ "entry_into_force": "1980-12-26",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102340 ; https://www.hacienda.gob.es/SGT/NormativaDoctrina/Tributaria/CDI/BOE_Canada_2015.PDF",
+ "eif_quote": "[CTS 1980/32] Entry into Force 26 December 1980 | Art. XXIX(2)(a): (a) in respect of tax withheld at the source on amounts paid or credited to non-residents on or after the first day of January in the calendar year in which the exchange of instruments of ratification takes place; and | Protocol 2014 (BOE): El presente Protocolo entrará en vigor el 12 de diciembre de 2015; Art. 16(2)(b)(i): (i) en relación con los impuestos retenidos en la fuente, sobre las cantidades pagadas o debidas a no residentes, desde la fecha en la que este Protocolo entre en vigor; y",
+ "source_title": "Ministerio de Hacienda: Texto sintético Convenio España-Canadá + MLI (CDI-TS-Canada-SP); BOE 8-10-2015 Protocolo 2014; GAC text of 1976 Convention (E102340)",
+ "source_url": "https://www.hacienda.gob.es/SGT/NormativaDoctrina/Tributaria/CDI/Textos-Sinteticos/CDI-TS-Canada-SP.pdf ; https://www.hacienda.gob.es/SGT/NormativaDoctrina/Tributaria/CDI/BOE_Canada_2015.PDF ; https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102340",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artículo X(2)(a) (Protocolo 2014)",
+   "valid_from": "2015-12-12",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo es una sociedad (distinta de una sociedad de personas “partnership”) que posea directamente al menos el 10 por ciento del capital de la sociedad que paga los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artículo X(2)(b) (Protocolo 2014)",
+   "valid_from": "2015-12-12",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artículo XI(2) (Protocolo 2014)",
+   "valid_from": "2015-12-12",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, dichos intereses pueden someterse también a imposición en el Estado contratante del que procedan y según la legislación de ese Estado, pero si el beneficiario efectivo de los intereses es un residente del o tro Estado contratante, el impuesto así exigido no podrá exceder del 10 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artículo XII(2)",
+   "valid_from": "1980-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Sin embargo, estos cánones pueden someterse a imposición en el Estado Contratante del que procedan y de acuerdo con la legislación de este Estado; pero, en este caso, el impuesto así establecido no puede exceder del 10 por 100 de l importe bruto de dichos cánones, siempre y cuando éstos estén sujetos a imposición en el otro Estado Contratante."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-spain-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Spain reserved Art. 35(7)(a); its 35(7)(b) notification for Canada is dated 01-06-2022 (map.json).]"
+ },
+ "notes": "MLI Art. 8 applies (Hacienda synthesised text inserts it in Art. X(2)(a)): \"se aplicarán únicamente si las condiciones de propiedad descritas en dichas disposiciones se cumplen durante un período de 365 días que comprenda el día del pago de los dividendos (a fin de calcular dicho período no se tendrán en cuenta los cambios en la propiedad que pudieran derivarse directamente de una reorganización empresarial, como por ejemplo por una fusión o escisión, de la socied ad propietaria de las acciones o que paga los dividendos).\" — effective 2023-01-01 per map.json. Protocol 2014 provisions have effect for WHT from its entry into force (2015-12-12). Royalty 10% cap is subject to the royalties being taxable in the residence State (condition, not modelled as a tier); Art. XII(3) copyright royalties (excl. film/TV) paid to a resident subject to tax thereon taxable only in residence State. Not modelled: Art. XI(7)(a) arm’s-length interest exempt at source (\"a) los intereses procedentes de un Estado contratante y pagados a un residente del otro Estado contratante no podrán someterse a imposición en el Estado contratante mencionado en primer lugar cuando el beneficiario efectivo de los intereses sea un residente del otro Estado contratante y opere en condiciones de plena competencia con el deudor de los mismos;\"), except participating interest (XI(8)); EDC / Spanish export-credit loans; Art. X(8) dividends to pension plans holding <=5% of listed shares exempt; Art. X(6) branch profits tax max 5%. Spanish text is authentic (ES/EN/FR equally authentic).",
+ "confidence": "high",
+ "unverified": []
+}

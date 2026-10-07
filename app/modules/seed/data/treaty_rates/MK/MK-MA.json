@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "MA",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Kingdom of Morocco for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-05-11",
+ "entry_into_force": "2012-09-14",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 29: This Agreement shall enter into force on the date of the latter written notice ... The provisions of the Agreement shall have effect: a) in respect of taxes withheld at source, on amounts paid or credited on or after 1st January of the calendar year next following the year in which this Agreement enters into force; | UJP table: Marocco | 123/2010 | 14.09.2012 | 01.01.2013",
+ "source_title": "UJP scan of Služben vesnik 123/2010 (Međunarodni dogovori) English text of the MK-Morocco agreement (22Morocco.pdf), read from page images pp. 11-14, 24-25",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/22Morocco.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2013-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten (10) per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 10(6): branch profits withholding tax up to 10% on remitted PE profits (not modelled). Art. 11(3): interest borne and paid by a Government or Central Bank to the other Government or Central Bank exempt (not modelled). Royalty definition is broad (software, equipment incl. agricultural, technical assistance and services). English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

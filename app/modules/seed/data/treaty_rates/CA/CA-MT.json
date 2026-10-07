@@ -1,0 +1,56 @@
+{
+ "a": "CA",
+ "b": "MT",
+ "treaty_name": "Agreement between Canada and the Republic of Malta for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1986; modified by MLI)",
+ "signed": "1986-07-25",
+ "entry_into_force": "1987-05-20",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102307 ; https://publications.gc.ca/site/eng/9.824212/publication.html",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 1987/21): \"Entry into Force 20 May 1987\"; Publications.gc.ca catalogue: \"Valetta, July 25, 1986. In force May 20, 1987, with effect from January 1, 1987.\"",
+ "source_title": "Canada Treaty Series 1987/21 - Canada-Malta Agreement (treaty-accord.gc.ca official text)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=102307&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "CA",
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but: where the dividends are paid by a company which is a resident of Canada to a resident of Malta who is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-malta-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 29: Agreement entered into force 30 days after exchange of ratification instruments (EIF 1987-05-20); effective in Canada for tax withheld at source on amounts paid or credited on or after 1 January of the year of the exchange (1987-01-01); in Malta for years of assessment beginning 1 January of the following year (1988). Dividends are asymmetric: Canadian-source dividends to a Maltese beneficial owner capped at 15% (source_state CA, no participation tier); Maltese-source dividends to Canadian residents - Malta tax \"shall not exceed that chargeable on the profits out of which the dividends are paid\" (imputation-system limit, no fixed percentage; special rule for Aids to Industries Ordinance companies) - no fixed cap, so no Malta-source dividend entry. Royalties: Art. 12(3) exempts cultural copyright royalties (excluding films/TV) paid to a resident \"who is subject to tax thereon\" - subject-to-tax condition, not modelled as a tier. Not modelled: Art. 11(3) exemptions (interest to the other Government or Central Bank; EDC; Malta Development Corporation); Art. 10(5) branch tax 15%. MLI art. 8 does not apply (Malta reserved the entirety of Art. 8 and Canada did not list Malta under Art. 8(4)); PPT effective for WHT 2020-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

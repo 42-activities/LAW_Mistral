@@ -1,0 +1,59 @@
+{
+ "a": "BA",
+ "b": "KW",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and the State of Kuwait for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2008)",
+ "signed": "2008-10-28",
+ "entry_into_force": "2016-02-11",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=3807c4c2-f6b3-471c-828f-8d84596a70d8&lang=hr",
+ "eif_quote": "[BA MLI] 18 Agreement between Kuwait Original 28-10-2008 11-02-2016 || Art. 29: Ovaj sporazum stupa na snagu na datum posljednjeg od tih obavještenja i njegove odredbe će potom imati dejstvo u obje Države ugovornice: a) u odnosu na poreze zadržane na izvoru, za dohodak koji nastane na dan ili nakon prvog dana januara godine u kojoj ovaj sporazum stupa na snagu,",
+ "source_title": "Službeni glasnik BiH – Međunarodni ugovori 2/2012 (23.2.2012): Odluka o ratifikaciji Sporazuma BiH–Država Kuvajt (Serbian-Latin and Croatian texts)",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=3807c4c2-f6b3-471c-828f-8d84596a70d8&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve dividende se mogu oporezovati i u Državi ugovornici čiji je rezident kompanija koja isplaćuje dividende, u skladu sa zakonima te države, ali ako je stvarni vlasnik dividendi rezident, utvrđeni porez ne može biti veći od 5 % (pet procenata) bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata se može oporezovati i u Državi ugovornici u kojoj nastaje, saglasno zakonima te države, ali ako je rezident stvarni vlasnik te kamate, utvrđeni porez ne može biti veći od 5% (pet procenata) bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2016-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade se mogu oporezovati i u Državi ugovornici u kojoj nastaju, u skladu sa zakonima te Države ugovornice, ali ako je stvarni vlasnik autorskih naknada rezident druge Države ugovornice, porez ne može biti veći od 10 procenata bruto iznosa autorskih nakanda."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Kuwait has signed but not ratified the MLI)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Interest Art. 11(3): exempt where derived by the Government of the other State or a governmental institution/other entity defined in Art. 4(2). Treaty applies from 1 January of the year in which it enters into force (Art. 29(a)), hence valid_from 2016-01-01. BiH ratification: Presidency decision 28 Dec 2011, published Sl. glasnik BiH-MU 2/12. The BiH MoF link for the Kuwait gazette text resolves to the whole issue 2/2012 (which also contains other acts); text read from that issue (legacy YUSCII font transliterated in quotes). EIF date 11-02-2016 only from BiH MLI position (Kuwait MLI position shows N/A); no Kuwaiti official confirmation retrieved. English scan on mft.gov.ba (no text layer) not read.",
+ "confidence": "medium",
+ "unverified": [
+  "EIF date 2016-02-11 (BiH MLI list only)",
+  "Kuwaiti/English official text not cross-checked"
+ ]
+}

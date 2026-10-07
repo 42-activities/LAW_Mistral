@@ -1,0 +1,69 @@
+{
+ "a": "AL",
+ "b": "RS",
+ "treaty_name": "Convention between the Government of the Republic of Albania and the Council of Ministers of Serbia and Montenegro for the avoidance of double taxation with respect to taxes on income and on capital (2004), applied by Serbia",
+ "signed": "2004-12-22",
+ "entry_into_force": "2005-11-17",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare",
+ "eif_quote": "[RS MLI] Albania Original 22-12-2004 17-11-2005 || [AL DPT list] SERBI, MAL I ZI, Ligj 9403 19.05.2005, me efekte nga data 01.01.2006 || Art. 30(2): \"Konventa do të hyjë në fuqi në datën e dorëzimit më të vonshëm të këtij njoftimi dhe dispozitat e saj do të kenë efekt lidhur me tatimin mbi të ardhurat e realizuara dhe tatimin mbi kapitalin e zotëruar në çdo vit fiskal që fillon më ose pas ditës së parë të Janarit të vitit kalendarik që pason vitin në të cilin Konventa hyn në fuqi.\"",
+ "source_title": "Albanian text of the AL-Serbia and Montenegro Convention (2004), DPT/tatime.gov.al download (copy with blank place/date of signature)",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=371",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "1) 5 përqind të shumës bruto të dividentëve nëse pronari përfitues është një shoqëri (e ndryshme nga ortakësia) që zotëron direkt të paktën 25 përqind të kapitalit të shoqërisë paguese të dividentëve;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 përqind të shumës bruto të dividentëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto interesa mund të tatohen gjithashtu edhe në Shtetin Kontraktues ku ato krijohen dhe në përputhje me ligjet e atij Shteti, por, nëse pronari përfitues i interesave është rezident i Shtetit tjetër Kontraktues, tatimi i zbatuar nuk duhet të kalojë 10 përqind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithatë, këto honorare mund të tatohen gjithashtu edhe në Shtetin Kontraktues ku ato krijohen dhe në përputhje me ligjet e atij Shteti, por, nëse pronari përfitues i honorareve është rezident i Shtetit tjetër Kontraktues, tatimi i zbatuar nuk duhet të kalojë 10 përqind të shumës bruto të honorareve."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Both list the Convention (Albania: \"Serbia and Montenegro (Serbia)\"); WHT effect 2021-01-01 per Art. 35(1)(a)]"
+ },
+ "notes": "MLI Art. 8(1) applies: Albania and Serbia both notified Art. 10(2)(1) under Art. 8(4); the reduced rate requires the shares to be held throughout a 365-day period that includes the day of payment, with effect for WHT from 2021-01-01 (before that date the tier had no holding period). Treaty concluded with Serbia and Montenegro and continued by Serbia (succession of the State Union; Serbia is the continuing State under Art. 60 of the Constitutional Charter of Serbia and Montenegro - succession instrument not read). Royalty definition includes equipment rentals. No separate government-interest exemption in the text.",
+ "confidence": "medium",
+ "unverified": [
+  "Serbian/English authentic text not read; tatime copy is an unsigned version (blank place/date)"
+ ]
+}

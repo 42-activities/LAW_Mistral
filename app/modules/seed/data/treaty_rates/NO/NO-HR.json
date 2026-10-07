@@ -1,0 +1,59 @@
+{
+ "a": "NO",
+ "b": "HR",
+ "treaty_name": "Convention between the Kingdom of Norway and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1983), applied provisionally to Croatia under the exchange of notes of 6 March 1996",
+ "signed": "1983-09-01",
+ "entry_into_force": "1985-10-31",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1996-03-06-4",
+ "eif_quote": "Lovdata 1983-09-01-21: Avtalens ikrafttredelsesdato 31-10-1985; Merknad: 'Avtalen er videreført med Serbia og Montenegro og anvendes midlertidig med Slovenia og Kroatia.' | Art. 28: This Convention shall enter into force on the thirtieth day after the latter of the dates on which the Contracting States have notified each other ... and its provisions shall have effect in respect of taxes on income and on capital for any calendar year beginning on or after the first day of January in the calendar year following that in which the latter of the notifications has been received. | Lovdata 1996-03-06-4: Avtalens ikrafttredelsesdato 06-03-1996; note para. 2: 'Som et midlertidig tiltak skal bestemmelsene i Overenskomst mellom Kongeriket Norge og Den sosialistiske føderale republikk Jugoslavia ... undertegnet i Oslo 1. september 1983, få anvendelse mellom Kongeriket Norge og Republikken Kroatia fra denne avtales ikrafttredelse.'",
+ "source_title": "St.prp. nr. 23 (1983-84), Vedlegg: Convention Norway-Yugoslavia 1983 with Protocol (English text) in Stortingsforhandlinger 1983/84 vol. 2a (National Library of Norway scan) + Lovdata traktat 1996-03-06-4 (Norway-Croatia provisional application agreement)",
+ "source_url": "https://www.nb.no/items/URN:NBN:no-nb_digistorting_1983-84_part2_vol-a (St.prp. nr. 23 (1983-84), pages 0317-0355; OCR via https://api.nb.no/catalog/v1/metadata/d742b10027811ff512481af75f28d38a/altos/URN:NBN:no-nb_digistorting_1983-84_part2_vol-a_0334)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-03-06",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may be also taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1996-03-06",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived from sources within one of the Contracting States by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-03-06",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. The royalties referred to in paragraph 1 of this Aritcle may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable to this pair)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Former-Yugoslavia succession: the 1983 Norway-Yugoslavia convention applies provisionally between Norway and Croatia under the agreement by exchange of notes of 1996-03-06 (Lovdata 1996-03-06-4), in force on signature, terminable on 30 days' notice; it does not apply to Norwegian government employees working in Croatia. valid_from = date of the provisional-application agreement (it states application 'fra denne avtales ikrafttredelse' with no calendar-year rule). Original convention: Art. 28 - enters into force on the 30th day after the later notification, effective for calendar years beginning on or after 1 January following the year of the later notification (original effect 1986-01-01). Protocol: Art. 10(2) rate agreed on the basis of Norway's split-rate company tax system and Art. 11 on the basis that neither State levied WHT on interest - each with a renegotiation undertaking, but no automatic change. Text obtained from the official parliamentary bill St.prp. nr. 23 (1983-84) (OCR of National Library scan; English is the sole authentic language); Lovdata (traktat 1983-09-01-21) carries metadata only. Not MLI-covered: Croatia lists it but Norway does not.",
+ "confidence": "medium",
+ "unverified": [
+  "Treaty text read from OCR of the scanned parliamentary bill",
+  "valid_from for Croatia taken as the provisional-application agreement date (no calendar-year rule in the notes)"
+ ]
+}

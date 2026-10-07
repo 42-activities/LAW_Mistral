@@ -1,0 +1,67 @@
+{
+ "a": "BA",
+ "b": "HR",
+ "treaty_name": "Agreement between Bosnia and Herzegovina and the Republic of Croatia for the avoidance of double taxation with respect to taxes on income and on capital (2004)",
+ "signed": "2004-06-07",
+ "entry_into_force": "2005-06-22",
+ "eif_source_url": "https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997 ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf",
+ "eif_quote": "[HR list] BiH | Dohodak i imovina | 2/05 | 01.01.2006. || [BA MLI] Croatia Original 07-06-2004 22-06-2005 || Članak 29: Ovaj Ugovor stupa na snagu 30 dana od datuma primitka zadnje obavijesti ... Ovaj Ugovor primjenjivat će se na dohodak stečen i imovinu posjedovanu tijekom poreznih godina koje počinju na ili nakon 1. siječnja godine koja slijedi iza godine u kojoj ovaj Ugovor stupa na snagu.",
+ "source_title": "Službeni glasnik BiH – Međunarodni sporazumi 5/05: Ugovor BiH–Republika Hrvatska (via BiH MoF); BiH MoF MLI combined text BiH–Croatia",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=f8546d4c-0345-4250-a419-867cd6d8f3bc&lang=hr ; https://www.mft.gov.ba/data/Fiskala/BiH-Hrvatska_-_Komb._tekst_-__bos_-_28.12..pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % bruto iznosa dividendi kad je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 25 % kapitala društva koje isplaćuje dividendu;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % bruto iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve kamate mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik kamata rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 10 % bruto iznosa kamata."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Međutim, takve naknade za autorska prava mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to prema zakonima te države, ali ako je stvarni korisnik naknada rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 10 % bruto iznosa naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskala/BiH-Hrvatska_-_Komb._tekst_-__bos_-_28.12..pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Croatian-language authentic text as published in Službeni glasnik BiH-MU 5/05 (Croatian text prevails). Croatian Narodne novine-MU 2/05 text not separately retrieved; Croatian Tax Administration list confirms application from 01.01.2006. MLI WHT effect 2022-01-01 per BiH MoF combined text (\"u odnosu na poreze po odbitku ... 01.01. ili poslije 01.01.2022\") (Croatia MLI in force 01.06.2021). MLI Art. 8 not applicable (BiH reserved Art. 8(3)(a)).",
+ "confidence": "high",
+ "unverified": []
+}

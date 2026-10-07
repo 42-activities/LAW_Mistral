@@ -13,6 +13,8 @@ DEST = Path(__file__).resolve().parents[4] / "app/modules/seed/data/treaty_rates
 
 # (file stem, category, ownership_threshold or None, exclusive flag) → reason
 DROP = {
+    ("NO-AT", "DIVIDEND", None, False, None, "15"): "15% applies to non-company owners; dividends "
+    "to a company (other than a partnership) are exempt, the case modelled here",
     ("GB-US", "DIVIDEND", "80", False): "0% tier needs the LOB test (art. 23) — not modelled",
     ("GB-BH", "INTEREST", None, True): "exemption limited to qualifying recipients (art. 11(3))",
     ("LU-US", "DIVIDEND", "25", True): "LU-side 0% needs the active-business test — not modelled",
@@ -97,7 +99,7 @@ for _stem, _rate in (("AM-BG", "5"), ("AM-CY", "0"), ("AM-QA", "5")):
 # Arab Maghreb Union convention (1990) replaces the members' bilaterals (art. 29(3)).
 NO_CAP = {
     "LY-EG", "LY-DZ", "LY-MA", "LY-TN", "TN-JO", "TN-DZ", "TN-MA", "MA-DZ", "DZ-MA", "MA-LY",
-    "DZ-LY", "MA-TN", "DZ-TN", "SD-IQ",
+    "DZ-LY", "MA-TN", "DZ-TN", "SD-IQ", "IN-LY", "IN-EG", "IN-GR",
 }
 
 # Entry into force unpublished; Oman Tax Authority publishes the year the treaty applies from,
@@ -108,6 +110,13 @@ OMAN_EFFECTIVE = {"IR-OM": "2010-01-01", "SD-OM": "2005-01-01", "SY-OM": "2007-0
 # (file stem, category, ownership_threshold) → field changes on the remaining tier
 RETIER = {
     ("LU-AT", "ROYALTY", "50"): {"ownership_threshold": None},
+    # The treaty text is lower than the source State's own official rate table; the higher,
+    # conservative figure is stored until the conflict is resolved (noted in the file).
+    ("MK-IT", "ROYALTY", None): {"max_rate": "10", "exclusive": False},
+    ("ME-CH", "ROYALTY", None): {"max_rate": "10", "exclusive": False},
+    ("XK-IE", "DIVIDEND", "10"): {"max_rate": "10"},
+    ("XK-MT", "INTEREST", None): {"max_rate": "10"},
+    ("XK-MT", "ROYALTY", None): {"max_rate": "10", "exclusive": False},
 }
 
 

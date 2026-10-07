@@ -1,0 +1,58 @@
+{
+ "a": "NO",
+ "b": "EG",
+ "treaty_name": "Convention between the Royal Norwegian Government and the Government of the United Arab Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1964)",
+ "signed": "1964-10-20",
+ "entry_into_force": "1965-07-30",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1964-10-20-1",
+ "eif_quote": "Lovdata: Avtalens ikrafttredelsesdato 30-07-1965 | Overenskomster 1965 p. 498 footnote: 'Ratifikasjonsdokumentene ble utvekslet 29. juni 1965, og avtalen trådte i kraft 30 dager etter denne dato.' | Art. 28(2): This Convention shall enter into force thirty days after the exchange of the instruments of ratification and shall for the first time have effect: (a) In Norway: to the income acquired during the calendar year in which this Convention comes into force ... (b) In the United Arab Republic: (1) as respects tax on income from movable capital ... which taxes are due on or after the date of entry into force of this Convention",
+ "source_title": "Overenskomster med fremmede stater 1965, pp. 498-532: Convention Norway-United Arab Republic 1964 (English text + Norwegian translation), official treaty series digitised by the National Library of Norway (Lovdata carries metadata only)",
+ "source_url": "https://www.nb.no/items/URN:NBN:no-nb_digitidsskrift_2020111781002_001 (Overenskomster med fremmede stater 1965, pp. 498-532; OCR via https://api.nb.no/catalog/v1/metadata/6ce4274b19e9756aae05516e3705621d/altos/URN:NBN:no-nb_digitidsskrift_2020111781002_001_0524)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "1965-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NO",
+   "quote": "1. Dividends paid by a company which is a resident of Norway to a resident of the United Arab Republic may be taxed in Norway at a rate not exceeding 15 per cent of the gross amount of the dividend."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1965-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "NO",
+   "quote": "1. Interest paid by a resident of Norway to a resident of the United Arab Republic shall be exempt from Norwegian tax."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1965-07-30",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State may be taxed in the first-mentioned State at a rate not exceeding 15 per cent of its gross value."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; MLI not applicable to this pair)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Asymmetric treaty. Egyptian-source dividends (Art. 10(2)) and interest (Art. 11(2)) may be taxed in Egypt subject only to the tax on income from movable capital, supplementary taxes and defence tax (withheld at source) with NO rate cap; only the general income tax on individuals is capped at 15% - so no Egypt-source dividend/interest limit is recorded. Art. 10(3)-(4): special rules for Norwegian companies operating mainly in Egypt / Egyptian PEs (90% deemed distribution). Art. 12(3): film rents/royalties remain taxable under domestic law. EIF conflict: Lovdata 1965-07-30 vs Egypt MLI list 1965-07-29 (instruments exchanged 1965-06-29 + 30 days). Norway: effect for income of calendar year 1965; Egypt: movable-capital tax due on/after entry into force (royalty valid_from set to 1965-07-30). Lovdata: 'Pågående forhandlinger om inngåelse av ny avtale' (no new treaty in force). Text from the official Norwegian treaty series (OCR of National Library scan). Not MLI-covered: Norway does not list Egypt.",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from OCR of the scanned official treaty series"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of Canada and the Government of the Hong Kong Special Administrative Region of the People’s Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2012, with Protocol)",
+ "signed": "2012-11-11",
+ "entry_into_force": "2013-10-29",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-6.15/FullText.html",
+ "eif_quote": "[Note: Agreement and Protocol in force October 29, 2013, see Canada Gazette Part I, Volume 147, page 2725.] | Art. 27(2)(b)(i): (i) in respect of tax withheld at the source on amounts paid or credited to non-residents, on or after the first day of January in the calendar year next following that in which this Agreement enters into force, and",
+ "source_title": "Canada–Hong Kong Tax Agreement Act, 2013, Schedules 1 (Agreement) and 2 (Protocol) — consolidated, Justice Laws Website",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-6.15/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) that controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2014-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Party in which it arises and according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Party, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Party in which they arise and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Party, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-hong-kong-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Hong Kong Art. 35(7)(b) notification for Canada received 21-02-2023 (map.json); Canada notified Arts. 10(7), 11(9), 12(7) as existing Art. 7(2) provisions.]"
+ },
+ "notes": "5% tier threshold is 10% of the VOTING POWER, recorded as ownership_threshold. MLI Art. 8 not applicable: Hong Kong reserved the entirety of Art. 8. Interest tier not modelled: Art. 11(3)(e) arm’s-length interest exempt at source (\"(e) interest arising in a Party and paid to a resident of the other Party shall not be taxable in the first-mentioned Party if the beneficial owner of the interest is a resident of the other Party and is dealing at arm’s length with the payer.\"), except participating interest (Art. 11(4)); also exemptions for interest paid to the other Government/subdivision/local authority, EDC loans, the HK Monetary Authority and agreed wholly-owned agencies (Art. 11(3)(a)-(d)). Treaty main-purpose rules Arts. 10(7), 11(9), 12(7). Art. 10(6) branch tax max 5%. In HK the Agreement has effect for years of assessment beginning on or after 1 April 2014.",
+ "confidence": "high",
+ "unverified": []
+}

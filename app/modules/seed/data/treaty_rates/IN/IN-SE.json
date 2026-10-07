@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "SE",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Kingdom of Sweden for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1997, as amended by Protocol 2013)",
+ "signed": "1997-06-24",
+ "entry_into_force": "1997-12-25",
+ "eif_source_url": "https://data.riksdagen.se/dokument/sfs-1997-918.text (SFS 1997:918, https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997918-om-dubbelbeskattningsavtal-mellan_sfs-1997-918/) ; https://web.archive.org/web/20170820105309/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000083.htm",
+ "eif_quote": "Regeringen föreskriver att lagen om dubbelbeskattningsavtal mellan Sverige och Indien skall träda i kraft den 31 december 1997. Avtalet träder i kraft den 25 december 1997. || [Indian notification GSR 705(E), 17-12-1997] ...shall come into force, on the twenty-fifth day of the December, 1997...",
+ "source_title": "Lag (1997:918) om dubbelbeskattningsavtal mellan Sverige och Indien, consolidated through SFS 2013:720 (English authentic text in bilaga 1, as amended by Protocol of 7 February 2013)",
+ "source_url": "https://data.riksdagen.se/dokument/sfs-1997-918.text (SFS 1997:918, https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997918-om-dubbelbeskattningsavtal-mellan_sfs-1997-918/)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Notwithstanding the provisions of paragraph (1), such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Notwithstanding the provisions of paragraph (1) such royalties and fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties or fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+  "quote": "[India MLI position] Sweden Original 24.06.1997 25.12.1997 (listed); Sweden reserved Art. 35(7)(a)"
+ },
+ "notes": "Effective (Art. 30(3)): India for income arising in fiscal years beginning on/after 1 April following the calendar year of entry into force (1998-04-01); Sweden for income derived on/after 1 January 1998. The 1997 Convention replaced the 1988 Convention. Art. 11(3): interest exempt at source when derived by/in connection with loans by the Government, political subdivisions, statutory bodies, local authorities and listed institutions (RBI, EXIM Bank, SIDA, Swedfund, EKN, etc.) - not modelled. Art. 12 rate also covers fees for technical services. MFN: Protocol 'With reference to Articles 10, 11 and 12' provides that if India, in a treaty with an OECD member, limits source taxation to a lower rate or narrower scope, the same rate/scope applies under this Convention (one-way, binds India). Later Indian treaties with OECD members (e.g. Slovenia 5% participation dividends, after Slovenia joined OECD in 2010) could trigger it, but no Indian s.90 notification implementing the Swedish MFN clause was found: the Indian Income Tax Department page (Wayback copy 2017-08-20, https://web.archive.org/web/20170820105309/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000083.htm) shows only Notification GSR 705(E) of 17-12-1997 as amended by Notification No. 63/2013 (S.O. 2459(E), 14-8-2013, exchange of information) and Art. 10(2) at 10%; later Indian notifications could not be checked (live site 403); no Swedish official notice was checked; per Nestle SA (Supreme Court of India, 19-10-2023) MFN does not apply in India without notification. Treaty rates recorded. MLI: both list the treaty, but Sweden reserved Art. 35(7)(a) and no Swedish Art. 35(7)(b) notification for India was found (map) -> MLI provisions, incl. PPT, not yet in effect; ppt.applies=false. India chose PPT + SLOB. The 2013 Protocol (in force 2013-08-16) amended exchange of information/collection articles; Arts. 10-12 rates as in consolidated text.",
+ "confidence": "high",
+ "unverified": [
+  "Swedish 35(7)(b) notification status (taken from map)",
+  "Indian MFN notifications after 2017 not checkable (Indian site 403; latest Wayback copy 2017)"
+ ]
+}

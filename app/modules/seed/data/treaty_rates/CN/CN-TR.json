@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "TR",
+ "treaty_name": "Agreement between the People's Republic of China and the Republic of Turkey for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1995, with Protocol)",
+ "signed": "1995-05-23",
+ "entry_into_force": "1997-01-20",
+ "eif_source_url": "http://web.archive.org/web/20211130021424/http://www.chinatax.gov.cn/n810341/n810770/c1153450/5027030/files/9ca1fff865154184bfce0197d3fce743.pdf",
+ "eif_quote": "Art. 28(2): \"This Agreement shall enter into force on the date on which the latter of the notifications has been received. Its provisions shall have effect in respect of taxes for the taxable year beginning on or after the first day of January in the calendar year next following that in which this Agreement enters into force and subsequent taxable years.\" (EIF date 1997-01-20 from STA list via map.json)",
+ "source_title": "STA English text of the 1995 China-Turkey Agreement and Protocol (Wayback copies of chinatax.gov.cn PDFs)",
+ "source_url": "http://web.archive.org/web/20211130021424/http://www.chinatax.gov.cn/n810341/n810770/c1153450/5027030/files/9ca1fff865154184bfce0197d3fce743.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-signatories-and-parties.pdf",
+  "quote": ""
+ },
+ "notes": "Interest: Art. 11(3) exempts interest paid to the Government of China, People's Bank of China, Bank of China, CITIC Industrial Bank / Government of Turkey, Central Bank of Turkey, Turk Eximbank, Development Bank of Turkey. Protocol para. 3: branch profits remaining after Art. 7 tax may be taxed at not more than the Art. 10(2) rate (10%). Protocol para. 2: dividends include income from investment funds and investment trusts. MLI: Turkey has only signed (2017-06-07), not ratified (OECD status per map.json) - no PPT; the treaty itself has no general PPT.",
+ "confidence": "high",
+ "unverified": []
+}

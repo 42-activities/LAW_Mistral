@@ -1,0 +1,70 @@
+{
+ "a": "CA",
+ "b": "HU",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Republic of Hungary for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (1992, as amended by the Protocol of 1994)",
+ "signed": "1992-04-15",
+ "entry_into_force": "1994-10-01",
+ "eif_source_url": "https://ngmszakmaiteruletek.kormany.hu/akadalymentes/download/6/d5/f2000/Canada_synthesised%20text.pdf ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/in-force.html",
+ "eif_quote": "Art. 29(2): (2) This Convention shall enter into force sixty days after the date on which the latter of the notifications referred to in paragraph 1 is received and its provisions shall apply: (a) in respect of tax withheld at the source on amounts paid or credited on or after the first day of January in the calendar year next following that in which the Convention enters into force; [EIF date 1994-10-01 from map.json / Finance Canada list]",
+ "source_title": "Hungarian Ministry for National Economy: Synthesised text of the MLI and the Canada-Hungary Convention (1992, amended by Protocol of 3 May 1994); cross-checked with Finance Canada consolidated text 1992-1994 (WebFetch)",
+ "source_url": "https://ngmszakmaiteruletek.kormany.hu/akadalymentes/download/6/d5/f2000/Canada_synthesised%20text.pdf ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/hungary-convention-consolidated-1992-1994.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended by Protocol 1994)",
+   "valid_from": "1995-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which controls directly or indirectly at least 25 per cent of the voting power in the company paying the dividends ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c) (as amended by Protocol 1994)",
+   "valid_from": "1995-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(c) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such interest may also be taxed in the Contracting State in which it arises, and accordin g to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1995-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://ngmszakmaiteruletek.kormany.hu/akadalymentes/download/6/d5/f2000/Canada_synthesised%20text.pdf ; https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html",
+  "quote": "with respect to taxes withheld at source on amounts paid or credited to non -residents, where the event giving rise to such taxes occurs on or after 1 January 2022; | Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "5% tier threshold is 25% of the VOTING POWER, recorded as ownership_threshold. Not modelled: Art. 10(2)(b) 10% for dividends paid by a Canadian non-resident-owned investment corporation to a Hungarian company with >=25% voting power. MLI Art. 8 not applicable (Hungary reserved Art. 8; no Art. 8 box in the synthesised text). Art. 11(3): government bonds, EDC / Hungarian National Bank loans and exempt pension-plan interest taxable only in residence State; Art. 12(3): cultural/artistic copyright royalties (excl. film/TV) paid to a resident subject to tax thereon taxable only in residence State. Art. 10 is reproduced as amended by the Protocol of 3 May 1994 (in force 1996-04-26); valid_from uses the Convention’s WHT effect (1 January 1995) — the Protocol’s own effective-date clause was not available.",
+ "confidence": "medium",
+ "unverified": [
+  "effective date of the 1994 Protocol amendments to Art. 10 (Protocol text not obtained); dividend valid_from may be later than 1995-01-01",
+  "EIF 1994-10-01 not independently re-verified (map.json)"
+ ]
+}

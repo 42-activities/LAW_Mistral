@@ -1,0 +1,70 @@
+{
+ "a": "IN",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1988, as amended by Protocol 2012; modified by MLI)",
+ "signed": "1988-07-30",
+ "entry_into_force": "1989-01-21",
+ "eif_source_url": "https://web.archive.org/web/20241207215206/https://incometaxindia.gov.in/DTAA/108690000000000062.htm ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+ "eif_quote": "Whereas the annexed convention between the Government of the Republic of India and the Kingdom of the Netherlands ... has come into force on the 21st day of January, 1989 ... NOTIFICATION : No. GSR 382(E), dated 27-3-1989, as amended by Notification No. S.O. 693(E), dated 30-8-1999.",
+ "source_title": "wetten.overheid.nl BWBV0006088 (NL-India Convention 1988, authentic English text, consolidated 02-11-2012); Dutch MFN decree 28-02-2012 (BWBR0031345); Wayback copy (2024-12-07) of incometaxindia.gov.in India-Netherlands DTAA page (GSR 382(E) of 27-3-1989 as amended by Notification S.O. 693(E) of 30-8-1999)",
+ "source_url": "https://wetten.overheid.nl/BWBV0006088 ; https://wetten.overheid.nl/BWBR0031345 ; https://web.archive.org/web/20241207215206/https://incometaxindia.gov.in/DTAA/108690000000000062.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) as substituted (MFN, Protocol IV(2)) - Indian Notification S.O. 693(E) of 30-8-1999 / Dutch decree 28-02-2012",
+   "valid_from": "1997-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[ 2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends.]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2) as read with Protocol IV(2) MFN (India-Slovenia Art. 10(2)(a)) per Dutch decree 28-02-2012",
+   "valid_from": "2010-07-21",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": "NL",
+   "quote": "Article 10 2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed: a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends; (...) (ontleend aan het Verdrag India-Slovenië van 13 januari 2003; van toepassing met ingang van 21 juli 2010)"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2) as substituted by Indian Notification S.O. 693(E) of 30-8-1999 (MFN)",
+   "valid_from": "1997-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[ 2. However, such interest may also be taxed in the Contracting State in which it arises and according to laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of gross amount of the interest.] ... 1.Substituted by Notification No. SO 693(E), dated 30-8-1999, w.r.e.f. 1-4-1997."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) as substituted by Indian Notification S.O. 693(E) of 30-8-1999 (MFN)",
+   "valid_from": "1997-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[ 2. However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, or fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or the fees for technical services.]"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-india-instrument-deposit.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Original treaty rates (wetten.overheid.nl authentic text): dividends 15%; interest 10% (loans made/guaranteed by banks or by an enterprise holding >=10%) / 15% other; royalties, FTS and equipment payments 20%; effective India from fiscal year beginning 1 April 1989 (Art. 29(1)(b)), NL from 1 January 1989. MFN (Protocol IV(2)): rates reduced to those India later agreed with OECD members. Confirmed on the Indian side by Notification S.O. 693(E) dated 30-8-1999, which substituted Arts. 10(2), 11(2) and 12 with 10% caps (interest and royalty/FTS paragraphs 'w.r.e.f. 1-4-1997' per footnotes; dividend substitution date not shown in the Indian page footnotes, 1-4-1997 per Dutch decree - India-Germany rate applicable from 1 April 1997), and narrower royalty/FTS definitions. Confirmed on the Dutch side by decree 'Belastingverdragen, India' of 28-02-2012 (BWBR0031345, in force from 14-03-2012, retroactive to 21-07-2010). Additional 5% participation-dividend rate (>=10% direct holding, from India-Slovenia after Slovenia joined OECD on 21-07-2010) is applied by the Netherlands (Dutch decree) - recorded with source_state=NL only. India has issued no notification for it; Supreme Court of India in Nestle SA (19-10-2023) held MFN benefits require a s.90 notification, so India applies 10% on Indian-source dividends. Art. 11(3)-(4): interest derived by the Government (incl. central banks, EXIM Bank of India, government-owned institutions, FMO etc.) or paid on government-guaranteed/insured loans exempt - not modelled. MLI: covered by both; MLI in force NL 2019-07-01, India 2019-10-01; WHT effect NL side 2020-01-01 (map), Indian side 2020-04-01 (India Art. 35(2) taxable period). PPT applies; India's SLOB choice applies only if NL also chose it (NL position not checked). No MLI Art. 8 holding period. Protocol of 10-05-2012 (in force 02-11-2012) amended exchange of information.",
+ "confidence": "high",
+ "unverified": [
+  "Exact retroactive date of the Indian 10% dividend substitution (footnote not displayed on the archived Indian page; 1-4-1997 taken from the Dutch decree)",
+  "NL SLOB choice not checked"
+ ]
+}

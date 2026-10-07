@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "MT",
+ "treaty_name": "Agreement between the Government of Malta and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013; modified by MLI)",
+ "signed": "2013-04-08",
+ "entry_into_force": "2014-02-07",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.34/eng/pdf",
+ "eif_quote": "*the Agreement came into force on the 7th February, 2014 - see L.N. 67 of 2014.",
+ "source_title": "legislation.mt S.L. 123.34 Double Taxation Relief (Taxes on Income) (Republic of India) Order (L.N. 448 of 2013, as modified by S.L. 123.183)",
+ "source_url": "https://legislation.mt/eli/sl/123.34/eng/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "IN",
+   "quote": "a) if the dividends are paid by a company that is a resident of India to a resident of Malta who is the beneficial owner thereof, the tax charged by India shall not exceed 10 per cent of the gross amount of the dividends;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1) (replaces treaty Art. 27(2)-(3))",
+  "source_url": "https://legislation.mt/eli/sl/123.183/eng/pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective (Art. 29(3)): India for income derived in fiscal years beginning on/after 1 April next following the calendar year of entry into force (EIF 2014-02-07 -> 2015-04-01); Malta from 1 January 2015. The 2013 Agreement replaced the 1994 Agreement. Dividends: Art. 10(2)(b) - Malta-source dividends paid to an Indian resident: Malta tax on the gross dividend may not exceed the Malta tax chargeable on the profits out of which the dividends are paid (Protocol para 1: under Malta's full imputation system there is no withholding tax on dividends) - no percentage cap, not modelled as a rate. Art. 11(3): interest exempt when derived by Governments/political subdivisions/local authorities, RBI, EXIM Bank of India, National Housing Bank, Central Bank of Malta, other agreed institutions - not modelled. Art. 12 rate covers royalties (incl. equipment rental) and fees for technical services. Protocol para 2: Arts. 6-22 do not apply to persons with special fiscal treatment under Malta Merchant Shipping Act 1973 / Malta Freeport Act 1989 (to the extent untaxed). MLI: covered by both (Malta MLI order S.L. 123.183 lists India; Malta notified Art. 27(2)-(3) as Art. 7(2) provision); MLI WHT effect Malta 2020-01-01 (map), India 2020-04-01 (India Art. 35(2)). Malta chose Art. 7(4) and not SLOB, so India's SLOB choice does not apply; Malta reserved the entirety of Art. 8 -> no 365-day holding rule. No MFN clause.",
+ "confidence": "high",
+ "unverified": []
+}

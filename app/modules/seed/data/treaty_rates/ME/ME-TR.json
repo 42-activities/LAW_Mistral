@@ -1,0 +1,70 @@
+{
+ "a": "ME",
+ "b": "TR",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Government of the Republic of Turkey for the avoidance of double taxation with respect to taxes on income and on capital (2005), applied by Montenegro",
+ "signed": "2005-10-12",
+ "entry_into_force": "2007-08-10",
+ "eif_source_url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv/mevzuat/uluslararasi_mevzuat/Cifte_Vergilendirme/Turkiyenin_Sonuclandirdigi_Vergi_Anlasmalari_Listesi.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[GİB list] 66) Karadağ 12.10.2005 08.08.2007 - 26607 10.08.2007 01.01.2008 (6) || [ME PU table] 36 | Turska | dohodak i imovina | SCG 3/06 | 1.1.2007. || Art. 29(2): \"Овај уговор ступа на снагу датумом последњег од тих обавештења, а његове одредбе се примењују у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској години или у пореском периоду који почиње првог јануара или после првог јануара календарске године која непосредно следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Turska, Službeni list SCG - Međunarodni ugovori br. 3/2006 (12.05.2006), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/ff77d21e-b17c-4994-bc98-a77f45f385db (file https://wapi.gov.me/download/ff77d21e-b17c-4994-bc98-a77f45f385db?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 25 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Türkiye has not ratified the MLI); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (Belgrade, 12-10-2005; ratified Sl. list SCG - MU 3/2006); entered into force after Montenegrin independence and applies to Montenegro (Turkish GİB list entry 66 \"Karadağ\", note (6): agreement valid for both Serbia and Montenegro; Montenegro lists it in its MLI list). Art. 10(4): profits of a PE may, after Art. 7 taxation, be taxed on the remaining amount at the 5% rate of para. 2(1) (branch profits tax) - not modelled. Interest exempt when derived and beneficially owned by the other State's government, political subdivision, local authority, or the National/Central Bank (Art. 11(3)) - not modelled. Start of application: entry into force 2007 -> 1 January 2008 (GİB list: 01.01.2008); the Poreska uprava table shows 1.1.2007 (conflict). Authentic in Serbian, Turkish and English (English prevails) - Serbian text read. Not MLI-covered -> no PPT.",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read",
+  "Exact EIF date 08.08.2007 vs 10.08.2007 (GİB list columns)"
+ ]
+}

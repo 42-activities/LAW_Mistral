@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "PL",
+ "treaty_name": "Agreement between the Government of the Polish People's Republic and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1989, as amended by Protocol 2013; modified by MLI)",
+ "signed": "1989-06-21",
+ "entry_into_force": "1989-10-26",
+ "eif_source_url": "https://www.podatki.gov.pl/media/teanzld1/20130129_inie_protokol_ang-1.pdf",
+ "eif_quote": "[2013 Protocol] The Protocol shall enter into force on the thirtieth day after the date of receipt of the latter of the notifications referred to above and shall have effect: a) in India: i) in respect of the taxes withheld at source - to amounts of income derived on or after the first day of the fiscal year next following the year in which the Protocol enters into force; ... b) in Poland: i) in respect of the taxes withheld at source - to amounts of income derived on or after the first of January of the calendar year next following the year in which the Protocol enters into force;",
+ "source_title": "Polish Ministry of Finance (podatki.gov.pl): Synthesised text of the MLI and the Poland-India Agreement (1989) as amended by the Protocol of 29 January 2013, English (prepared jointly by the competent authorities); and the 2013 Protocol (EN)",
+ "source_url": "https://www.podatki.gov.pl/media/o32oqtxj/dta-pl-india-mli-synthesised-text-en.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2) (as amended by Protocol 2013)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2) (as amended by Protocol 2013)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2) (as amended by Protocol 2013)",
+   "valid_from": "2015-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties, or fees for technical services, is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1) (replaces treaty Art. 28A)",
+  "source_url": "https://www.podatki.gov.pl/media/o32oqtxj/dta-pl-india-mli-synthesised-text-en.pdf",
+  "quote": "Notwithstanding any provisions of [ the Agreement], a benefit under [ the Agreement] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Agreement]."
+ },
+ "notes": "Article numbering in this treaty: dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Current rates were introduced by the 2013 Protocol (signed 2013-01-29, in force 2014-06-01 per map): effective in India for WHT on income derived on/after 1 April 2015 (first day of the fiscal year next following 2014), in Poland from 1 January 2015. Earlier 1989 rates (from the original Agreement, EIF 1989-10-26) not modelled. MLI: Poland EIF 2018-07-01, India 2019-10-01; WHT effect for Poland 1 January 2020 (map mli_wht_effective), for India first day of the next taxable period beginning on/after 1 October 2019 = 1 April 2020 (synthesised text). MLI Art. 7(1) PPT replaces Art. 28A (main-purpose LOB added by 2013 Protocol); no SLOB (Poland did not choose it). Art. 8 MLI irrelevant (single dividend rate). Interest exempt at source when derived by the Government/political subdivision/local authority or Central Bank, or on loans/credits extended or endorsed by BGK / Exim Bank of India (export-import financing), public external-trade financing institutions or Government-approved loans (Art. 12(3)) - not modelled. Royalty cap covers fees for technical services. No MFN clause.",
+ "confidence": "high",
+ "unverified": [
+  "Protocol EIF date 2014-06-01 taken from map (not from a Polish/Indian official notice read here)"
+ ]
+}

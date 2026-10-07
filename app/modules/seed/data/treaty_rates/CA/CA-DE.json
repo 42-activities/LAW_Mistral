@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "DE",
+ "treaty_name": "Agreement between Canada and the Federal Republic of Germany for the Avoidance of Double Taxation with respect to Taxes on Income and Certain Other Taxes, the Prevention of Fiscal Evasion and the Assistance in Tax Matters (2001)",
+ "signed": "2001-04-19",
+ "entry_into_force": "2002-03-28",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103872",
+ "eif_quote": "[CTS 2002/6] Entry into Force 28 March 2002 | Art. 31(1)(a): (a) in respect of tax withheld at the source on amounts paid or credited to non-residents on or after the first day of January 2001; and",
+ "source_title": "Canada Treaty Information (GAC): Canada-Germany Agreement 2001 with Protocol (E103872, CTS 2002/6)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=103872",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company that controls at least 10 per cent of the voting power in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT in treaty; MLI not applicable)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "Canada's MLI list of covered agreements (84 agreements) does not include Germany (map.json)."
+ },
+ "notes": "5% tier threshold is 10% of the VOTING POWER, recorded as ownership_threshold. Not MLI-covered. Art. 11(3): unrelated credit-sale interest, government/Land debt, interest paid to EDC/KfW/DEG, to governments/central banks, and to exempt pension plans taxable only in residence State. Art. 12(3): copyright (excl. film/TV), computer software, patent and know-how royalties (excl. rental/franchise) taxable only in residence State: (b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such royalty provided in connection with a rental or franchise agreement). Protocol para. 3: income from profit-participating rights/debt-claims (stiller Gesellschafter, partiarisches Darlehen, Gewinnobligationen) deductible to the debtor may be taxed at source under domestic law (no treaty cap). Protocol: Germany may withhold at domestic rate and refund. Art. 10(6) branch tax limited to 10(2)(a) rate. Treaty effective retroactively from 2001-01-01 (Art. 31(1)).",
+ "confidence": "high",
+ "unverified": []
+}

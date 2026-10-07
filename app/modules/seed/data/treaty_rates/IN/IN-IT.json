@@ -1,0 +1,69 @@
+{
+ "a": "IN",
+ "b": "IT",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Republic of Italy for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1993, with Protocol)",
+ "signed": "1993-02-19",
+ "entry_into_force": "1995-11-23",
+ "eif_source_url": "https://web.archive.org/web/20180213062423/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000038.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Government of the Republic of Italy ... has entered into force on 23-11-1995 after the exchange of instruments of ratification by the Contracting States in accordance with paragraph 1 of Article 30 of the said Convention; ... Notification : No. GSR 189(E), dated 25-4-1996",
+ "source_title": "Income Tax Department (India), India-Italy DTAA with Notification GSR 189(E)/1996 (Wayback copy of official incometaxindia.gov.in page, captured 2018-02-13)",
+ "source_url": "https://web.archive.org/web/20180213062423/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000038.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( a ) 15 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 per cent of the shares of the company paying the dividends ;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 25 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Notwithstanding the provisions of paragraph 1, the tax chargeable in a Contracting State or interest arising in that State and paid to a resident of the other Contracting State in respect of loans or debts shall not exceed 15 per cent of the gross amount of such interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, or fees for technical services, the tax so charged shall not exceed 20 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Italy is an MLI signatory but not yet a Party - not covered as at 2026-10-07 per map.json)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Article numbering: dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Effective (Art. 30(2)): Italy, taxable periods commencing on or after 1 January 1996; India, previous years commencing on or after 1 April 1996. Dividend 15% tier: Art. 11(3) 'The provisions of paragraph 2(a) would apply in respect of dividends arising out of the investment made after the date of signature of the Convention' (investment-date condition, 19-02-1993) - not modelled as a separate tier. Interest: Protocol (b) - in the case of India, 'loans or debts' means loans or debts approved by the Government of India, so the 15% cap on Indian-source interest applies only to approved loans (otherwise Art. 12(1) allows taxation in both States without cap); Art. 12(3) exemptions for interest paid by Governments/local authorities or to agreed agencies not modelled. 20% Art. 13 cap also covers FTS. No MFN clause found in the Protocol. India notified Art. 11(2)(a) under MLI Art. 8(4), but the MLI does not yet apply to this treaty (Italy has not ratified). No PPT.",
+ "confidence": "high",
+ "unverified": [
+  "Italian official text (Gazzetta Ufficiale) not cross-checked"
+ ]
+}

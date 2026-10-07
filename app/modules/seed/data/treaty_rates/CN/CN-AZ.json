@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "AZ",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Azerbaijan for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2005)",
+ "signed": "2005-03-17",
+ "entry_into_force": "2005-08-17",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876967787",
+ "eif_quote": "[MFA treaty database] 中华人民共和国政府和阿塞拜疆共和国政府关于对所得避免双重征税和防止偷漏税的协定 双边 税收 2005.03.17 2005.08.17 || Art. 27(2): The Agreement shall enter into force on the date of the latter of the notifications referred to in paragraph 1 and its provisions shall have effect in both Contracting States: (a) in respect of taxes withheld at source, on income derived on or after January 1st in the calendar year next following the year in which the Agreement enters into force;",
+ "source_title": "China MFA Treaty Database - English text of the China-Azerbaijan Agreement (2005)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876967801.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed ten percent (10%) of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed ten percent (10%) of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed ten percent (10%) of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-azerbaijan-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest beneficially owned by the other State's Government (incl. local authorities), Central Bank or wholly government-owned financial institutions (named: e.g. China Development Bank, Exim Bank, Bank of China...; National Bank of Azerbaijan, State Oil Fund), or on loans guaranteed by them, is exempt (Art. 11(3)) - not modelled. No protocol in the MFA text. MLI covered (China list; Azerbaijan deposit position); Azerbaijan reserved MLI Art. 8 entirely (Art. 8(3)(a)) and the treaty has a single dividend rate. MLI WHT effect 2025-01-01 per map.json (Azerbaijan MLI in force 2025-01-01); no Art. 35(7) reservation found.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date from map.json; STA synthesised text not consulted."
+ ]
+}

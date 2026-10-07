@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "HK",
+ "treaty_name": "Arrangement between the Mainland of China and the Hong Kong Special Administrative Region for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (2006, as amended by Protocols 2008, 2010, 2015 and 2019)",
+ "signed": "2006-08-21",
+ "entry_into_force": "2006-12-08",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "Chinese Mainland 21.08.2006 17.10.2006 08.12.2006 Year of Assessment 2007/2008 [IRD list via map.json] | Art. 26(1): ... (1) in the Mainland of China: taxable years beginning on or after 1 January in the calendar year next following the year in which this Arrangement enters into force",
+ "source_title": "IRD Hong Kong: Consolidated Text of the Mainland-HKSAR Arrangement (English translation, April 2023; Chinese text authentic)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Consolidated_Text_Mainland_HKSAR.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) where the beneficial owner is a company directly owning at least 25% of the capital of the company which pays the dividends, 5% of the gross amount of the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) in any other case, 10% of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Side in which it arises and according to the laws of that Side, but if the beneficial owner of the interest is a resident of the Other Side the tax so charged shall not exceed 7% of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "7",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Side in which they arise and according to the laws of that Side, but if the beneficial owner of the royalties is a resident of the Other Side the tax so charged shall not exceed 7% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 24A",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Consolidated_Text_Mainland_HKSAR.pdf",
+  "quote": "Article 24A Entitlement to Benefits under the Arrangement: Notwithstanding the other provisions of this Arrangement, a benefit under this Arrangement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit ... [fn 19: added by Art. 6 of the Fifth Protocol, in force 6 December 2019; applies in the Mainland to income derived in taxable years beginning on or after 1 January 2020; in HKSAR from years of assessment beginning on or after 1 April 2020]"
+ },
+ "notes": "Intra-China arrangement, not a treaty; not an MLI Covered Tax Agreement. PPT is the Arrangement's own Art. 24A (Fifth Protocol): from 2020-01-01 in the Mainland, 2020-04-01 in HKSAR. Not modelled: Art 11(3) exemption for interest received by the Government of the Other Side or institutions mutually recognised by the competent authorities; Fourth Protocol Art. 2: royalties paid to an aircraft and ship leasing business capped at 5% (in force 2015-12-29). Royalty definition includes equipment rental. valid_from 2007-01-01 is the Mainland effective date (HKSAR: year of assessment 2007/08 from 2007-04-01). The consolidated text is an English translation for reference only; authentic texts are the Chinese originals.",
+ "confidence": "high",
+ "unverified": [
+  "Consolidated text is a non-authentic convenience translation (IRD); protocols' individual authentic texts not separately read."
+ ]
+}

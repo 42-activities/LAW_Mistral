@@ -1,0 +1,67 @@
+{
+ "a": "CN",
+ "b": "ES",
+ "treaty_name": "Convenio entre el Reino de España y la República Popular China para eliminar la doble imposición en relación con los impuestos sobre la renta y prevenir la elusión y evasión fiscales y su Protocolo (2018)",
+ "signed": "2018-11-28",
+ "entry_into_force": "2021-05-02",
+ "eif_source_url": "https://www.boe.es/boe/dias/2021/03/30/pdfs/BOE-A-2021-4911.pdf",
+ "eif_quote": "El presente Convenio y su Protocolo entrarán en vigor el 2 de mayo de 2021, transcurrido un plazo de tres meses a partir de la fecha de recepción de la última notificación ... | Art. 30(2): surtirá efecto: ... b) en los restantes casos, a partir de la fecha en la que el Convenio entre en vigor.",
+ "source_title": "BOE-A-2021-4911 (BOE núm. 76, 30-03-2021): Convenio España-China 2018 y Protocolo",
+ "source_url": "https://www.boe.es/boe/dias/2021/03/30/pdfs/BOE-A-2021-4911.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Artículo 10.2.a)",
+   "valid_from": "2021-05-02",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 por ciento del importe bruto de los dividendos si el beneficiario efectivo de los dividendos es una sociedad (distinta de una sociedad de personas) que posea directamente al menos el 25 por ciento del capital de la sociedad que paga los dividendos durante un periodo de 365 días que comprenda el día de pago de los dividendos;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Artículo 10.2.b)",
+   "valid_from": "2021-05-02",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 por ciento del importe bruto de los dividendos en todos los demás casos."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Artículo 11.2",
+   "valid_from": "2021-05-02",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "pero si el beneficiario efectivo de los intereses es un residente del otro Estado contratante, el impuesto así exigido no podrá exceder del 10 por ciento del importe bruto de los intereses."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Artículo 12.2",
+   "valid_from": "2021-05-02",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "pero si el beneficiario efectivo de los cánones es un residente del otro Estado contratante, el impuesto así exigido no podrá exceder del 10 por ciento del importe bruto de los cánones."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-05-02",
+  "basis": "treaty art. 24",
+  "source_url": "https://www.boe.es/boe/dias/2021/03/30/pdfs/BOE-A-2021-4911.pdf",
+  "quote": "Artículo 24. Derecho a los beneficios del Convenio. No obstante las restantes disposiciones del presente Convenio, los beneficios concedidos en virtud del mismo no se otorgarán respecto de un elemento de renta cuando sea razonable concluir, teniendo en cuenta todos los hechos y circunstancias pertinentes, que el instrumento jurídico u operación que directa o indirectamente genera el derecho a percibir ese beneficio tiene entre sus objetivos principales la obtención del mismo, excepto cuando se determine que la concesión del beneficio en esas circunstancias es conforme con el objeto y propósito de las disposiciones pertinentes de este Convenio."
+ },
+ "notes": "Treaty-based PPT (Art. 24); not an MLI Covered Tax Agreement. Holding period (365 days incl. payment date) is in the treaty itself. Not modelled: Art 10(3) exemption for dividends beneficially owned by the other State, subdivisions, local entities, central bank or wholly state-owned entities (Protocol 2 lists e.g. China Development Bank, Agricultural Development Bank, Exim Bank, NSSF, Sinosure, CIC, Silk Road Fund; ICO, FROB, Consorcio de Compensación de Seguros); Art 11(3) same for interest and state-guaranteed/insured loans; Art 11(4) interest on credit sales of commercial or scientific equipment exempt at source. Protocol 1: reduced rates apply directly at source (no refund procedure). Royalty definition excludes equipment rental. 1990 treaty ceased.",
+ "confidence": "high",
+ "unverified": []
+}

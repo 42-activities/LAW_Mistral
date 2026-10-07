@@ -1,0 +1,58 @@
+{
+ "a": "AL",
+ "b": "GR",
+ "treaty_name": "Convention between the Government of the Republic of Albania and the Government of the Hellenic Republic for the avoidance of double taxation with respect to taxes on income and on capital (1995)",
+ "signed": "1995-07-14",
+ "entry_into_force": "2000-12-13",
+ "eif_source_url": "https://web.archive.org/web/2023id_/https://www.aade.gr/sites/default/files/2017-03/FEK_ALBANIA_teliko.pdf",
+ "eif_quote": "Aνακοίνωση για τη θέση σε ισχύ της Σύμβασης ... (Φ.E.K.27/16.2.2001/ τ.A'): ... στις 13 Δεκεμβρίου 2000 έλαβε χώραν στα Τίρανα η ανταλλαγή των εγγράφων επικυρώσεως ... τέθηκε σε ισχύ σύμφωνα με τη διάταξη του άρθρου 28 παρ. 2 αυτής την 13 Δεκεμβρίου 2000 οι δε διατάξεις της θα έχουν εφαρμογή σε σχέση με εισόδημα που προκύπτει ή το κεφάλαιο που ανήκει κατά ή μετά την πρώτη ημέρα του Ιανουαρίου του ημερολογιακού έτους που ακολουθεί",
+ "source_title": "Greek Law 2755/1999 (ΦΕΚ Α 252/19.11.1999) with English authentic text, AADE PDF (Wayback copy of the official file)",
+ "source_url": "https://web.archive.org/web/2023id_/https://www.aade.gr/sites/default/files/2017-03/FEK_ALBANIA_teliko.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5%, of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 5%, of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 5% of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI covered by both; WHT effect 2022-01-01 per map.json: later MLI EIF Greece 2021-07-01]"
+ },
+ "notes": "Single 5% dividend rate (no holding threshold). Art. 11(3): interest exempt at source when paid by the Government/local authority, paid to the other Government/local authority or wholly-owned agency (incl. financial institution), or to agencies for loans under an intergovernmental agreement — not modelled. MLI Art. 8 not applicable (Greece reserved 8(3)(a)). Treaty authentic in English only (\"Done at Tirana ... in two originals in the English language\"); tatime.gov.al Albanian translation (id 348) consistent and notes application from 1 Jan 2001.",
+ "confidence": "high",
+ "unverified": [
+  "No Greece–Albania synthesised MLI text located; PPT start derived from MLI Art. 35(1)(a) via map.json"
+ ]
+}

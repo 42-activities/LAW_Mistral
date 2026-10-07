@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "LU",
+ "treaty_name": "Convention between the Government of Montenegro and the Government of the Grand Duchy of Luxembourg for the elimination of double taxation with respect to taxes on income and on capital and the prevention of tax evasion and avoidance (2024)",
+ "signed": "2024-01-29",
+ "entry_into_force": "2025-10-01",
+ "eif_source_url": "https://impotsdirects.public.lu/fr/conventions/luxembourg.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+ "eif_quote": "[ME MLI list] Luxembourg Original 29-01-2024 01-10-2025 || [LU list] Monténégro ... Convention signée le 29/01/2024 | Mémorial A N° 543 du 19 décembre 2024 | à partir du 01/01/2026 || Art. 28(2): \"Ugovor se primjenjuje: a) u Crnoj Gori: u odnosu na poreze na dohodak koji je ostvaren i porez na imovinu koju posjeduje u svakoj poreskoj godini koja počinje prvog januara ili poslije prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj ugovor stupa na snagu; b) u Luksemburgu: (i) u odnosu na poreze po odbitku, na dohodak koji ostvaren prvog januara ili poslije prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj ugovor stupa na snagu;\"",
+ "source_title": "Zakon o potvrđivanju Ugovora Crna Gora-Luksemburg (Sl. list CG - Međunarodni ugovori 7/2024), Montenegrin text, gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/a8dc75dd-0a0d-423d-80fe-7e4e6c35dd84 (file https://wapi.gov.me/download/a8dc75dd-0a0d-423d-80fe-7e4e6c35dd84?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 odsto od bruto iznosa dividendi ako je stvarni vlasnik dividendi kompanija (izuzimajući partnerstvo) koja neposredno ili posredno ima najmanje 10 odsto kapitala kompanije koja isplaćuje dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 odsto bruto iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, kamata koja nastaje u državi ugovornici može se oporezivati i u toj državi ugovornici, u skladu sa zakonima te države, ali ako je stvarni vlasnik kamate rezident druge države ugovornice, razrezan porez ne može biti veći od 10 odsto bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "... razrezan porez ne može biti veći od: a) 5 odsto bruto iznosa autorskih naknada navedenih u tački a stav 3 ovog člana; b) 10 odsto bruto iznosa autorskih naknada navedenih u tački b stav 3 ovog člana."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 27(1)",
+  "source_url": "https://www.gov.me/dokumenta/a8dc75dd-0a0d-423d-80fe-7e4e6c35dd84",
+  "quote": "1. Izuzetno od odredaba ovog ugovora, koristi iz ovog ugovora ne odobravaju se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje koristi bio jedan od osnovnih razloga bilo kojeg aranžmana ili transakcije koje su neposredno ili posredno rezultirali tom korišću, osim ako se ustanovi da bi odobravanje te koristi u tim okolnostima bilo u skladu sa ciljem ili svrhom odgovarajućih odredaba ovog ugovora."
+ },
+ "notes": "First treaty between Montenegro and Luxembourg. Royalties: 5% cap for copyright royalties on literary, artistic or scientific works incl. films and broadcasting recordings (Art. 12(2)(a)/(3)(a)) - not modelled; 10% for patents, trademarks, designs, secret formulas, software and know-how (equipment rental not a royalty). Interest exempt when derived and beneficially owned by the other State's government, local authority, central bank or wholly government-owned financial institution (Art. 11(3)) - not modelled. Protocol: collective investment vehicles treated as residents/beneficial owners; recognised pension funds defined (Art. 3(1)(k)). Not MLI-covered (Luxembourg does not list Montenegro); PPT contained in the treaty (Art. 27(1)), effective with the treaty. Authentic in Montenegrin, French and English (English prevails); Montenegrin text read.",
+ "confidence": "high",
+ "unverified": [
+  "English authentic text not read"
+ ]
+}

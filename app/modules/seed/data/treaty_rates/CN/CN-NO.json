@@ -1,0 +1,100 @@
+{
+ "a": "CN",
+ "b": "NO",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Kingdom of Norway for the Elimination of Double Taxation with respect to Taxes on Income and the Prevention of Tax Evasion and Avoidance (2023, with Protocol) - applies from 2027-01-01; until then the 1986 Agreement (as modified by the MLI) applies",
+ "signed": "2023-05-12",
+ "entry_into_force": "2026-06-16",
+ "eif_source_url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/ssxd/202608/t481367.html",
+ "eif_quote": "《协定》于2026年6月16日生效，适用于2027年1月1日或以后开始的纳税年度取得的所得。(SAT Announcement 2026 No.17) | 2023 Agreement Art. 29(3): \"The Agreement ... signed in Beijing on 25 February 1986 shall be terminated and shall cease to have effect for all taxes covered by that Agreement from the dates on which this Agreement becomes effective in accordance with paragraph 2 of this Article.\"",
+ "source_title": "STA: 2023 China-Norway Agreement English text (chinatax.gov.cn PDF); STA synthesised text of the MLI and the 1986 China-Norway Agreement (Wayback copy of chinatax.gov.cn PDF)",
+ "source_url": "https://www.chinatax.gov.cn/n810341/n810770/c5205201/5205201/files/%E4%B8%AD%E6%8C%AA%E7%A8%8E%E6%94%B6%E5%8D%8F%E5%AE%9A%EF%BC%88%E8%8B%B1%E6%96%87%EF%BC%89.pdf ; http://web.archive.org/web/2026/https://www.chinatax.gov.cn/chinatax/n810341/n810770/c1153116/5027001/files/Synthesised%20text%20of%20the%20MLI%20and%20the%20China-Norway%20DTA.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "1986 Agreement, Article 10(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "1986 Agreement, Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "1986 Agreement, Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "2023 Agreement, Article 10(2)(a)",
+   "valid_from": "2027-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (for the purpose of computing that period, no account shall be taken of changes of ownership that would directly result from a corporate reorganisation, such as a merger or divisive reorganisation, of the company that holds the shares or that pays the dividend);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "2023 Agreement, Article 10(2)(b)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "2023 Agreement, Article 11(2)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "2023 Agreement, Article 12(2)",
+   "valid_from": "2027-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1) for the 1986 Agreement (WHT from 2023-01-01); treaty art. 27 (Entitlement to Benefits) of the 2023 Agreement from 2027-01-01",
+  "source_url": "http://web.archive.org/web/2026/https://www.chinatax.gov.cn/chinatax/n810341/n810770/c1153116/5027001/files/Synthesised%20text%20of%20the%20MLI%20and%20the%20China-Norway%20DTA.pdf ; https://www.chinatax.gov.cn/n810341/n810770/c5205201/5205201/files/%E4%B8%AD%E6%8C%AA%E7%A8%8E%E6%94%B6%E5%8D%8F%E5%AE%9A%EF%BC%88%E8%8B%B1%E6%96%87%EF%BC%89.pdf",
+  "quote": "Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement. || 2023 Agreement Art. 27: Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "TWO TREATIES. (1) 1986 Agreement (signed Beijing 1986-02-25, in force 1986-12-21 per Lovdata 'Avtalens ikrafttredelsesdato 21-12-1986', effective from 1987-01-01 under its Art. 30) remains applicable through income of tax years beginning before 2027-01-01; it is an MLI Covered Tax Agreement with MLI WHT effect from 2023-01-01 (PPT only; MLI Art. 8 n/a - single 15% dividend rate). Its rates: dividends 15%, interest 10%, royalties 10%; Art. 11(3) exempts interest derived by the Government, political subdivisions, local authorities, Central Bank or wholly government-owned financial institutions. (2) 2023 Agreement (signed Oslo 2023-05-12, in force 2026-06-16 per SAT Announcement 2026 No.17) applies to income derived in tax years beginning on/after 2027-01-01 (Art. 29(2)); its entries carry valid_from 2027-01-01 and replace the 1986 entries from that date. New treaty: 5% dividends need direct >=25% holding throughout a 365-day period including the payment date; Art. 11(3) makes interest beneficially owned by the Government or paid on loans guaranteed/insured by the Government (incl. PBoC, CDB, ADBC, China Exim, NSSF, Sinosure, CIC, Silk Road Fund, BOC, ICBC, CCB, ABC; Norges Bank, GPFG, GIEK) taxable only in the residence State. The 2023 Agreement is not an MLI CTA but contains its own PPT (Art. 27). Top-level signed/entry_into_force fields refer to the 2023 Agreement, consistent with map.json.",
+ "confidence": "high",
+ "unverified": []
+}

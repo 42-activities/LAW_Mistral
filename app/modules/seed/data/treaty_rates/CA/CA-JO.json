@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "JO",
+ "treaty_name": "Convention between the Government of Canada and the Hashemite Kingdom of Jordan for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1999, with Protocol; modified by MLI)",
+ "signed": "1999-09-06",
+ "entry_into_force": "2000-12-24",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103318",
+ "eif_quote": "Income Tax Conventions Implementation Act, 1999, Part 7: \"[Note: Convention and Protocol in force December 24, 2000, see Canada Gazette Part I, Volume 135, page 222.]\" | Treaty-accord: \"Entry into Force 24 December 2000\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1999 (S.C. 1999, c. 37), Schedule 7 - Canada-Jordan Convention and Protocol (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as modified by MLI art. 8(1))",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 10 per cent of the gross amount of the dividends if the beneficial owner is a company that controls directly or indirectly at least 10 per cent of the voting power in the company paying the dividends; and [MLI art. 8(1): ownership conditions must be met throughout a 365 day period that includes the day of payment - effective for WHT from 2021-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends, in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 27(2)(a): effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following the exchange of ratification instruments (EIF 2000-12-24 -> 2001-01-01). Dividend 10% tier requires a company that \"controls directly or indirectly at least 10 per cent of the voting power\" (voting-power test, recorded as ownership_threshold 10); tier excludes dividends paid by a Canadian non-resident-owned investment corporation. MLI art. 8 365-day holding applies to Art. 10(2)(a): Canada notified \"38 Jordan Article 10(2)(a)\" and Jordan notified \"6 Canada Article 10(2)(a)\"; effective for WHT from 2021-01-01 (before then no holding period). Not modelled: Art. 11(3) exemption for interest derived by a Contracting State/instrumentality not subject to tax, or on loans made, guaranteed or insured by a State or its instrumentality; Art. 10(6) branch tax capped at 10%. Art. 26(3) excludes from the Convention companies/trusts/partnerships owned by non-residents and benefiting from substantially lower tax.",
+ "confidence": "high",
+ "unverified": []
+}

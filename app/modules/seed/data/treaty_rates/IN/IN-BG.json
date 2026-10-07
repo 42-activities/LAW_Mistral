@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "BG",
+ "treaty_name": "Convention between the Government of the Republic of India and the Government of the Republic of Bulgaria for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994; modified by MLI)",
+ "signed": "1994-05-26",
+ "entry_into_force": "1995-06-23",
+ "eif_source_url": "https://web.archive.org/web/20180214054617/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000015.htm",
+ "eif_quote": "WHEREAS the annexed Convention between the Government of the Republic of India and the Government of the Republic of Bulgaria ... has come into force on the 23rd June, 1995, after the notification by both the Contracting States to each other of the completion of the procedures required under their laws for the bringing into force of the said Convention in accordance with Article 30 of the said Convention; ... Notification : No. GSR 205(E), dated 9-5-1996",
+ "source_title": "Income Tax Department (India), India-Bulgaria DTAA with Notification GSR 205(E)/1996 (Wayback copy of official incometaxindia.gov.in page, captured 2018-02-14)",
+ "source_url": "https://web.archive.org/web/20180214054617/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000015.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, or fees for technical services, the tax so charged shall not exceed : ( a ) 15 per cent of the gross amount of the royalties relating to copyrights of literary, artistic or scientific works, other than cinematograph films or films or tapes used for radio or television broadcasting; and ( b ) 20 per cent of the gross amount of the royalties in all other cases or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Article numbering: Art. 10 is Associated Enterprises; dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Effective dates (Art. 30): Bulgaria, years of income beginning on or after 1 January 1996; India, previous years beginning on or after 1 April 1996. Not modelled: Art. 13(2)(a) 15% cap for royalties relating to copyrights of literary, artistic or scientific works (other than films/tapes); 20% general cap also covers fees for technical services; Art. 12(3) exemptions for interest beneficially owned by the Government, political sub-divisions, local authorities, Central Bank (Reserve Bank of India), and loans extended or endorsed by Foreign Trade Bank (Bulgaria)/Exim Bank etc. Protocol para. 3 (to Art. 26 non-discrimination) contains a general no-less-favourable-than-third-State understanding, not a rate MFN; no official notification reducing WHT rates found - not applied. MLI: covered by both; MLI WHT provisions effective 2023-01-01 on the Bulgarian side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2023. India's SLOB choice applies only if Bulgaria also chose it (not verified).",
+ "confidence": "high",
+ "unverified": [
+  "Text as of 2018 snapshot; no later amending protocol known (map.json latest_protocol null)",
+  "Indian-side MLI date 2023-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

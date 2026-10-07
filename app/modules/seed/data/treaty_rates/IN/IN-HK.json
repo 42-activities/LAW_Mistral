@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "HK",
+ "treaty_name": "Agreement between the Government of the Hong Kong Special Administrative Region of the People's Republic of China and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2018; modified by MLI)",
+ "signed": "2018-03-19",
+ "entry_into_force": "2018-11-30",
+ "eif_source_url": "https://www.ird.gov.hk/eng/tax/dta_inc.htm",
+ "eif_quote": "India 19.03.2018 04.09.2018 30.11.2018 Year of Assessment 2019/2020 DD Yes Yes",
+ "source_title": "HK IRD: Synthesised text of the MLI and the HKSAR-India Agreement (Cap. 112DD)",
+ "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_India.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2019-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting Party of which the company paying the dividends is a resident and according to the laws of that Party, but if the beneficial owner of the dividends is a resident of the other Contracting Party, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting Party in which it arises and according to the laws of that Party, but if the beneficial owner of the interest is a resident of the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2019-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting Party in which they arise, and according to the laws of that Party, but if the beneficial owner of the royalties is a resident of the other Contracting Party, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.ird.gov.hk/eng/pdf/Synthesised_Text_HKSAR_India.pdf",
+  "quote": "ARTICLE 7 OF THE MLI – PREVENTION OF TREATY ABUSE (Principal purposes test provision) Notwithstanding any provisions of the Agreement, a benefit under the Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Agreement. || The provisions of the MLI shall have effect with respect to the Agreement: (a) in the HKSAR: (i) with respect to taxes withheld at source on amounts paid or credited to non-residents, where the event giving rise to such taxes occurs on or after 1 April 2023; ... (b) in the Republic of India: (i) with respect to taxes withheld at source ... on or after the first day of the next taxable period that begins on or after 23 March 2023"
+ },
+ "notes": "Effect: Art. 29(3) - both sides from 1 April following EIF (30.11.2018), i.e. HK year of assessment 2019/20 and Indian fiscal year 2019-20 (2019-04-01). Article 13 Fees for technical services: 10% cap at source (not a modelled category). Interest exempt at source when derived and beneficially owned by the Government/political subdivision/local authority, HKMA and Exchange Fund, Reserve Bank of India, Export-Import Bank of India or other agreed institutions (Art. 11(3)) - not modelled. The treaty's own main-purpose clauses (Arts 10(7), 11(8), 12(7), 13, 14(7), 28(2)) are superseded by MLI Art. 7(1) PPT to the extent of incompatibility; Art. 28(1) domestic anti-avoidance and 28(3) remain. CONFLICT: map.json gives MLI WHT effective 2024-01-01, but the official HK IRD synthesised text states WHT effect from 1 April 2023 in HKSAR and, in India, from the first day of the next taxable period beginning on or after 23 March 2023 (i.e. 2023-04-01) - HK notified Art. 35(7)(b) on 21 Feb 2023 and both use 'taxable period' (Art. 35(2)); ppt.from set to 2023-04-01 per the official synthesised text. No MFN clause in Arts 10-12. India's SLOB choice (Art 7(6)) does not apply unless HK also chose it - not verified, PPT alone recorded.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date conflicts with map.json (2024-01-01 vs 2023-04-01 per HK IRD synthesised text)"
+ ]
+}

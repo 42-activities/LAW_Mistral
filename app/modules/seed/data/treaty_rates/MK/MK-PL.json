@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "PL",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Republic of Poland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1996)",
+ "signed": "1996-11-28",
+ "entry_into_force": "1999-12-17",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 29(2): This Agreement shall enter into force on the day of the latter of the notifications referred to in paragraph 1 of this Article and its provisions shall apply: a) in Macedonia: for taxes with respect to income tax and capital tax for every taxable year beginning on or after the first day of January of the year following that of entry into force by the Agreement; b) in Poland: i) in respect of taxes withheld at source to amounts of income derived on or after 1st January in the calendar year next following the year in which the Agreement enters into force; | UJP table: Poland | 17/1997 | 17.12.1999 | 01.01.2000",
+ "source_title": "UJP English text of the MK-Poland agreement (Poland.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads//Poland.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2000-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the recipient is a company (excluding partnership), which holds directly at least 25 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2000-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2000-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 11(3): interest derived by the other Government, local authorities, Central Bank, government-controlled financial institutions or on government-guaranteed loans exempt at source (not modelled).",
+ "confidence": "high",
+ "unverified": []
+}

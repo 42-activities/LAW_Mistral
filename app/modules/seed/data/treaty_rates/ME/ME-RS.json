@@ -1,0 +1,56 @@
+{
+ "a": "ME",
+ "b": "RS",
+ "treaty_name": "Agreement between Montenegro and the Republic of Serbia for the avoidance of double taxation with respect to taxes on income (2011)",
+ "signed": "2011-07-20",
+ "entry_into_force": "2011-12-21",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Serbia Original 20-07-2011 21-12-2011 || [ME PU table] 33 | Srbija | dohodak | CG 16/11 | 1.1.2012 || Art. 28(2): \"Ovaj ugovor stupa na snagu datumom poslednjeg od tih obavještenja, a njegove odredbe se primjenjuju u odnosu na poreze na dohodak koji je ostvaren u svakoj poreskoj godini koja počinje prvog januara ili posle prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj Ugovor stupa na snagu.\"",
+ "source_title": "Zakon o potvrđivanju Ugovora Crna Gora-Srbija (Sl. list CG - Međunarodni ugovori 16/2011), Montenegrin text (authentic in Montenegrin and Serbian), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/3cb3f5f2-f81e-459c-8808-208e74551569 (file https://wapi.gov.me/download/3cb3f5f2-f81e-459c-8808-208e74551569?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Dividende se mogu oporezivati i u državi ugovornici čiji je rezident kompanija koja isplaćuje dividende i to u skladu sa zakonima te države, ali ako je stvarni vlasnik dividendi rezident druge države ugovornice, razrezan porez ne može biti veći od 10 odsto bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Kamata se može oporezivati i u državi ugovornici u kojoj nastaje, u skladu sa zakonima te države, ali ako je stvarni vlasnik kamate rezident druge države ugovornice, razrezan porez ne može biti veći od 10 odsto bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "... razrezan porez ne može biti veći od: 5 odsto bruto iznosa autorskih naknada navedenih u podstavu 1) stava 3; 10 odsto bruto iznosa autorskih naknada navedenih u podstavu 2) stava 3."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2027-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-serbia-consolidated.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Royalties: 5% cap for copyright royalties on literary, artistic or scientific works incl. films and TV/radio tapes (Art. 12(2), first indent / (3) first indent) - not modelled; 10% for patents, trademarks, designs, secret formulas, equipment and know-how. Interest exempt when derived and beneficially owned by the other State's government, political subdivision, local authority, central/national bank or a financial institution wholly or almost wholly owned by them (Art. 11(3)) - not modelled. Single 10% dividend rate. This bilateral 2011 agreement replaced, between Montenegro and Serbia, the intra-State Union arrangements. MLI: both list the treaty; WHT effect 2027-01-01 per map.json; MLI Art. 8 not relevant.",
+ "confidence": "high",
+ "unverified": []
+}

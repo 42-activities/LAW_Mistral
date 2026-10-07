@@ -1,0 +1,69 @@
+{
+ "a": "ME",
+ "b": "SE",
+ "treaty_name": "Convention between the Socialist Federal Republic of Yugoslavia and the Kingdom of Sweden for the avoidance of double taxation with respect to taxes on income and capital, with Protocol (1980), applied by Montenegro",
+ "signed": "1980-06-18",
+ "entry_into_force": "1981-12-16",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Sweden Original 18-06-1980 16-12-1981 || [ME PU table] 35 | Švedska | dohodak i imovina | SFRJ 7/81 | 1.1.1982. || Art. 27(2): \"The Convention shall enter into force upon the exchange of instruments of ratification and its provisions shall have effect: a) in Sweden: in the case of income derived on or after 1st January next following the calendar year in which the exchange of instruments of ratification takes place ... b) in Yugoslavia: in the case of income derived and capital owned during any calendar year following the calendar year in which the exchange of instruments of ratification takes place.\"",
+ "source_title": "Zakon o ratifikaciji Sporazuma SFRJ-Švedska s Protokolom, Službeni list SFRJ - Međunarodni ugovori br. 7/1981 (30.07.1981), bilingual English authentic text and Serbian translation (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/8a4c30db-c3f3-45d2-8e4e-2fca6ad5a72c (file https://wapi.gov.me/download/8a4c30db-c3f3-45d2-8e4e-2fca6ad5a72c?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1982-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the recipient is a company (excluding partnership) which holds directly at least 25 per cent of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1982-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) in all other cases, 15 per cent of the gross amount the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1982-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Sweden does not list the Yugoslav convention for Montenegro); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Stockholm, 18-06-1980; Sl. list SFRJ - MU 7/1981); listed as applicable by the Montenegrin MoF and Poreska uprava (Švedska, SFRJ 7/81; dividends 15/5, interest and royalties 0 - consistent with the text) and in Montenegro's MLI list (No.35 Sweden). A Swedish-side confirmation of continued application to Montenegro was not retrieved. Authentic in English only - English text read from the bilingual gazette scan. The 5% tier requires a direct holding of at least 25% of the VOTING POWER. Interest and royalties taxable only in the residence State (Arts. 11(1), 12(1)); Protocol 2: Art. 11 drafted on the basis that neither State then taxed interest paid to non-residents - renegotiation if one introduces such a tax (no automatic change). Not MLI-covered (Sweden's MLI position does not list Montenegro) -> no PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "Swedish confirmation of succession for Montenegro not retrieved"
+ ]
+}

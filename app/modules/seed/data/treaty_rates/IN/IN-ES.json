@@ -1,0 +1,59 @@
+{
+ "a": "IN",
+ "b": "ES",
+ "treaty_name": "Convention between the Government of the Republic of India and the Kingdom of Spain for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1993, as amended by Protocol 2012; modified by MLI)",
+ "signed": "1993-02-08",
+ "entry_into_force": "1995-01-12",
+ "eif_source_url": "https://web.archive.org/web/20180214034219/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000080.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Kingdom of Spain ... has entered into force on 12th January, 1995 after the exchange of Instruments of Ratification as required by paragraph 2 of Article 30 of the said Convention ; ... Notification : No. GSR 356(E), dated 21-4-1995.",
+ "source_title": "Income Tax Department (India), India-Spain DTAA with Notification GSR 356(E)/1995 (Wayback copy of official incometaxindia.gov.in page, captured 2018-02-14) + BOE-A-2020-7506 (Protocol of 26-10-2012)",
+ "source_url": "https://web.archive.org/web/20180214034219/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000080.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)(ii)",
+   "valid_from": "1996-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( ii ) in the case of fees for technical services and other royalties, 20 per cent of the gross amount of fees for technical services or royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Article numbering: Art. 10 Associated Enterprises; dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Effective (Art. 30(2)): Spain, taxable years beginning on or after 1 January 1996; India, taxable years beginning on or after 1 April 1996. Not modelled: Art. 13(2)(i) 10% cap for royalties for the use of industrial, commercial or scientific equipment; Art. 12(3) exemptions for interest beneficially owned by Governments, political sub-divisions, local authorities, central banks and listed institutions; Protocol para. 6 (Spanish transparent entities). MFN: Protocol para. 7 provides that if India, under a treaty with an OECD member entering into force after 1-1-1990, limits source taxation on royalties/FTS to a lower rate or narrower scope, that rate/scope applies; no official Indian notification implementing it (unlike Belgium, Notification SO 54(E)) and no Spanish official notice was found, so the treaty rates (20%/10%) are recorded (post-Nestle SC 2023 an Indian notification is required). Protocol of 26-10-2012 (in force 2014-12-29, BOE 9-7-2020) amended Art. 2(3)(a), Art. 10 (associated enterprises), replaced Art. 28 (EOI), added Art. 28A (collection) and Art. 28B (limitation of benefits - domestic anti-abuse rules) - no change to WHT rates; CONFLICT noted in map.json (India MLI position lists the protocol as N/A). MLI: covered by both; Spain reserved Art. 35(7) and notified completion for India on 2022-06-01, so MLI WHT provisions apply from 2023-01-01 (Spanish side); India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2023. Spain's position shows no SLOB choice or Art. 7(7) acceptance (text scan) - PPT only.",
+ "confidence": "high",
+ "unverified": [
+  "Spanish administrative practice on the royalty MFN clause not checked",
+  "Indian-side MLI date 2023-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

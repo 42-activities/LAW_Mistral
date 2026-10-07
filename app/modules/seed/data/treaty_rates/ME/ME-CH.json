@@ -1,0 +1,70 @@
+{
+ "a": "ME",
+ "b": "CH",
+ "treaty_name": "Agreement between the Council of Ministers of Serbia and Montenegro and the Swiss Federal Council for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (2005), applied by Montenegro",
+ "signed": "2005-04-13",
+ "entry_into_force": "2006-05-05",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf ; https://www.sif.admin.ch/dam/de/sd-web/Rq53YeWNalWg/DBA-Liste%20DE-per%2001.01.2026.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[ME MLI list] Switzerland Original 13-04-2005 05-05-2006 || [CH SIF list] Montenegro E & V A 13.4.05 (SR 0.672.957.31) gleiches Abkommen wie mit Serbien bis zum 24.07.2025 (968.21), Fassung vom 13.04.05 || [ME PU table] 34 | Švajcarska | dohodak i imovina | SCG 11/05 | 1.1.2006. || Art. 28(1)-(2): \"Уговор ступа на снагу датумом пријема последњег од тих обавештења. 2. Одредбе Уговора се примењују у односу на порезе на доходак који је остварен и на порезе на имовину која се поседује у свакој пореској години која почиње првог јануара или после првог јануара календарске године која следи годину у којој Уговор ступа на снагу.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora Srbija i Crna Gora-Švajcarska s Protokolom, Službeni list SCG - Međunarodni ugovori br. 11/2005 (22.10.2005), Serbian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/07de99e5-baf3-44a4-a605-a6995b7c179f (file https://wapi.gov.me/download/07de99e5-baf3-44a4-a605-a6995b7c179f?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(1)",
+   "valid_from": "2007-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "20",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(1) 5 одсто бруто износа дивиденди ако је стварни власник компанија (изузимајући партнерство) која непосредно има најмање 20 одсто капитала компаније која исплаћује дивиденде;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) 15 одсто бруто износа дивиденди у свим другим случајевима."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Камата се може опорезивати и у држави уговорници у којој настаје, у складу са законима те државе, али ако је стварни власник камате резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) and Protocol para. 4",
+   "valid_from": "2007-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "[Protocol 4. Уз члан 12.] У вези са ставом 2. подразумева се да, све док Швајцарска у складу са својим унутрашњим законом, не заведе порез на извору на ауторске накнаде које се исплаћују нерезидентима, неће се примењивати одредбе става 2. и ауторске накнаде опорезоваће се само у држави уговорници чији је резидент стварни власник ауторских накнада. || [Art. 12(2)] Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је стварни власник ауторских накнада резидент друге државе уговорнице, разрезан порез не може бити већи од 10 одсто бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered; no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by Serbia and Montenegro (Belgrade, 13-04-2005; ratified Sl. list SCG - MU 11/2005); continued by Montenegro after independence (Swiss SIF list: Montenegro SR 0.672.957.31, \"same agreement as with Serbia ... version of 13.04.05\"; the 2023 Serbia-Switzerland amending protocol does not apply to Montenegro). Royalties: Art. 12(2) allows 10% at source, but under Protocol para. 4 as long as Switzerland does not levy a withholding tax on royalties paid to non-residents under its domestic law, para. 2 does not apply and royalties are taxable only in the beneficial owner's State of residence - recorded as exclusive (both directions); the 10% cap would revive if Switzerland introduced a royalty withholding tax. The Poreska uprava table shows 10% for royalties (the Art. 12(2) cap, without the Protocol condition). Dividend 5% tier requires a direct holding of at least 20% (consistent with the Poreska uprava table: \"do 20% | 15 | 20 i više % | 5\"). Conflict: Poreska uprava table shows application from 1.1.2006, but with entry into force 05-05-2006 Art. 28(2) gives 1 January 2007. Not MLI-covered (Switzerland does not list the treaty for Montenegro) and no PPT in the treaty -> ppt false. Authentic in Serbian, French and English (English prevails in case of divergence between Serbian and French) - Serbian text read.",
+ "confidence": "high",
+ "unverified": [
+  "English/French authentic text not read",
+  "Royalty exclusivity depends on Switzerland not levying royalty WHT (Protocol 4); Poreska uprava table lists 10%"
+ ]
+}

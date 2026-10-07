@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "FI",
+ "treaty_name": "Convention between the Nordic Countries (Denmark, Faroe Islands, Finland, Iceland, Norway, Sweden) for the avoidance of double taxation with respect to taxes on income and on capital (1996, as amended by protocols of 1997, 2008 and 2018)",
+ "signed": "1996-09-23",
+ "entry_into_force": "1997-05-11",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1996-09-23-1",
+ "eif_quote": "Avtalens undertegningsdato 23-09-1996 ... Avtalens ikrafttredelsesdato 11-05-1997 | Art. 31(2): Etter overenskomstens ikrafttredelse får dens bestemmelser anvendelse: a. for så vidt angår skatter som tilbakeholdes ved kilden, på inntekt som oppebæres den 1. januar i det kalenderår som følger nærmest etter det år da overenskomsten trer i kraft eller senere",
+ "source_title": "Lovdata traktat 1996-09-23-1: Overenskomst mellom de nordiske land (Norwegian text, all language versions equally authentic) + amending protocols 1997-10-06-1, 2008-04-04-22, 2018-08-29-20",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1996-09-23-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3), second sentence",
+   "valid_from": "1998-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Slike dividender skal imidlertid være unntatt fra beskatning i den førstnevnte stat dersom den virkelige rettighetshaver til dividendene er et selskap (med unntak av personsammenslutninger og dødsboer) som direkte eier minst 10 prosent av det utbetalende selskaps kapital."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3), first sentence",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3. Dividender fra et selskap hjemmehørende i en kontraherende stat til en person bosatt i en annen kontraherende stat kan også skattlegges i den kontraherende stat der selskapet som utdeler dividendene er hjemmehørende, og i henhold til lovgivningen i denne stat, men hvis den virkelige rettighetshaver til dividendene er en person bosatt i den andre kontraherende stat skal den skatt som ilegges ikke overstige 15 prosent av dividendenes bruttobeløp."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter som skriver seg fra en kontraherende stat og utbetales til en person bosatt i en annen kontraherende stat, skal bare kunne skattlegges i denne annen stat hvis mottakeren er den virkelige rettighetshaveren til rentene."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalty som skriver seg fra en kontraherende stat og utbetales til en person bosatt i en annen kontraherende stat skal bare kunne skattlegges i denne annen stat hvis mottakeren er den virkelige rettighetshaveren til royaltyen."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "treaty art. 26(4) (inserted by 2018 Protocol Art. II)",
+  "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2018-08-29-20",
+  "quote": "«4. Uavhengig av de øvrige bestemmelsene i denne overenskomsten, skal en fordel etter denne overenskomst ikke innrømmes med hensyn til inntekt eller formue, hvis det, med hensyn til alle relevante omstendigheter, er rimelig å anta at å oppnå fordelen var et av hovedformålene med arrangementet eller transaksjonen som direkte eller indirekte resulterte i denne fordelen. Dette gjelder likevel ikke dersom det fastslås at å innrømme fordelen under disse omstendighetene, er i overensstemmelse med overenskomstens innhold og formål.» | Art. V(2): ... får dens bestemmelser anvendelse på skatter som fastsettes for inntektsår som begynner den 1. januar i det kalenderår som følger nærmest etter det år da protokollen trer i kraft eller senere. [in force 28-11-2019]"
+ },
+ "notes": "Multilateral Nordic convention. 2008 Protocol Art. I (in force 2008-12-29): holdings through partnerships are treated as direct for the 10% test. Art. 10(4) Iceland-specific and Art. 10(7) charitable-institution exemptions not relevant/not modelled. 1997 protocol amends Arts. 3, 5, 21 only. PPT added by 2018 Protocol (in force 2019-11-28, effective income years from 2020-01-01); Norway's MLI list does not include the Nordic convention, so the MLI does not apply. Finland: also applies to Åland.",
+ "confidence": "high",
+ "unverified": []
+}

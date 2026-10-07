@@ -1,0 +1,70 @@
+{
+ "a": "NO",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of Norway and the Kingdom of the Netherlands for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (1990, as amended 2013)",
+ "signed": "1990-01-12",
+ "entry_into_force": "1990-12-31",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1990-01-12-1",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 31-12-1990\" | Art. 33(1) (synthesised text): \"its provisions shall have effect: a) in respect of withholding tax on dividends derived on or after the first day of January in the calendar year next following that in which this Convention enters into force;\" | Protocol 2013 (Lovdata 2013-04-23-4): \"Protokollen trådte i kraft 30. november 2013\"; Art. XX(1): \"shall thereupon have effect in respect of taxes relating to the calendar year (including accounting periods beginning in any such year) next following that in which this Protocol enters into force\"",
+ "source_title": "Netherlands official synthesised text (Tractatenblad 2023 nr. 43, annex dc-2023-63: Convention NL-NO 1990 with Protocol as amended by Protocol 2013 and modified by the MLI; not an authentic text) cross-checked with the authentic English text of the 2013 amending Protocol on Lovdata; the 1990 base text itself is not on Lovdata in full",
+ "source_url": "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2023/dc-2023-63/1/bijlage/dc-2023-63.pdf ; https://zoek.officielebekendmakingen.nl/trb-2023-43.pdf ; https://lovdata.no/dokument/TRAKTATEN/traktat/2013-04-23-4",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(b) (as replaced by Protocol 2013, Art. X) as modified by MLI art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Notwithstanding the provisions of paragraph 2, the State of which the company paying the dividends is a resident shall not levy a tax on dividends paid by that company, if the beneficial owner of the dividends is: ... b. a company (other than a partnership) which is a resident of the other State and holds directly at least 10 per cent of the capital of the company paying the dividends; [MLI Art. 8(1): \"... shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends ...\"]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1991-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the State of which the company paying the dividends is a resident and according to the laws of that State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 15 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in one of the States and paid to a resident of the other State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in one of the States and paid to a resident of the other State shall be taxable only in that other State if such resident is the beneficial owner of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; Norway MLI position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf ; partner position https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-netherlands-consolidated.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies and is included in the Dutch synthesised text (dc-2023-63); WHT effect 2020-01-01 per map.json.]"
+ },
+ "notes": "Dividend exemption (Art. 10(3)) introduced by the 2013 Protocol (in force 2013-11-30, effective 2014-01-01) for (a) pension funds and (b) companies holding directly >=10%; from 2020-01-01 MLI Art. 8(1) adds a 365-day holding period to Art. 10(3)(b) (both Norway and the Netherlands notified it). For 2014-2019 the 0% tier applied without a holding period (not separately recorded). Pre-2014 wording of Art. 10(3) not read (1990 base text not available in full) - the 0% tier is recorded only from 2020. Art. 10(3)(a): 0% for pension funds (not modelled). Art. 10(4): dividends derived by the States (incl. Central Bank of Norway, Government Pension Fund Global, Norfund, Dutch Central Bank, FMO) taxable only in that State (not modelled). Interest and royalties: taxable only in the residence State (0% at source) since the 1990 Convention (Arts. 11 and 12 not amended by the 2013 Protocol). Protocol VII: if either State introduces an interest withholding tax, negotiations on amending Arts. 11 and 23.",
+ "confidence": "medium",
+ "unverified": [
+  "Exact authentic wording of the 1990 Arts. 10(2), 11(1), 12(1) - quoted from the official Dutch synthesised text, not from the authentic Tractatenblad 1990 nr. 8 text",
+  "Dividend regime before 2014 (original Art. 10(3))"
+ ]
+}

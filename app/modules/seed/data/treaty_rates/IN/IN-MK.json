@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "MK",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2013)",
+ "signed": "2013-12-17",
+ "entry_into_force": "2014-09-12",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-north-macedonia.pdf ; https://www.ujp.gov.mk",
+ "eif_quote": "[MK MLI] 19 Agreement Between India Original 17-12-2013 12-09-2014 || [IN MLI] 45 Agreement between the Macedonia Original 17.12.2013 12.09.2014 || [MK UJP table] India|131/2014|12.09.2014|01.01.2015",
+ "source_title": "Public Revenue Office of North Macedonia (UJP): English text of the Agreement as published in Official Gazette (Služben vesnik) No. 131 of 4 September 2014 (scanned PDF, read visually)",
+ "source_url": "https://www.ujp.gov.mk/uploads//Македонија - Индија ЕНГ.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed ten per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2015-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed ten per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2015-04-01",
+  "basis": "treaty art. 28(2)",
+  "source_url": "https://www.ujp.gov.mk/uploads//Македонија - Индија ЕНГ.pdf",
+  "quote": "Benefits of this Agreement shall not be available to a resident of a Contracting State, or with respect to any transaction undertaken by such a resident, if the main purpose or one of the main purposes of the creation or existence of such a resident or of the transaction undertaken by him, was to obtain benefits under this Agreement that would not otherwise be available."
+ },
+ "notes": "Art. 30(3): effective in India for WHT on income paid or credited on/after 1 April of the calendar year next following entry into force (2015-04-01, valid_from); in North Macedonia from 2015-01-01. Art. 11(3): interest exempt at source when derived by the Government/political subdivision/local authority, the National Bank of the Republic of Macedonia, the Reserve Bank of India, Exim Bank of India, National Housing Bank or other agreed institutions (not modelled). Art. 12 also caps fees for technical services at 10%. No protocol / MFN clause in the text. MLI: both list the treaty but North Macedonia has signed and not ratified the MLI -> not a covered tax agreement; anti-abuse is the treaty's own Art. 28 limitation-of-benefits (main purpose test in 28(2)). Indian notification of the Agreement: Notification No. 94/2015 (S.O. 3499(E), 21 Dec 2015) - not read (incometaxindia.gov.in 403).",
+ "confidence": "high",
+ "unverified": [
+  "Text read from scanned Official Gazette pages (visual reading, no OCR)"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "MT",
+ "treaty_name": "Convention between the Government of Malta and the Government of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2000)",
+ "signed": "2000-05-02",
+ "entry_into_force": "2000-11-23",
+ "eif_source_url": "https://legislation.mt/eli/sl/123.53/eng/pdf",
+ "eif_quote": "S.L. 123.53, para. 2(c): that the Convention has entered into force on the 23 November, 2000. || Art. 27(2): This Convention shall enter into force on the date of the later of the notifications referred to in paragraph 1 and its provisions shall have effect: (a) in Albania, in respect of income derived on or after the first day of January of the calendar year next following that of the entry into force of the Convention; (b) in Malta, in respect of taxes on income derived during any calendar year or accounting period, as the case may be, beginning on or after the first day of January next following the date on which the Convention enters into force.",
+ "source_title": "S.L. 123.53 Double Taxation Relief on Taxes on Income with the Republic of Albania Order (L.N. 122 of 2001), legislation.mt, English (prevailing) text",
+ "source_url": "https://legislation.mt/eli/sl/123.53/eng/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": "AL",
+   "quote": "(a) where the dividends are paid by a company which is a resident of Albania to a resident of Malta who is the beneficial owner thereof, the Albanian tax so charged shall not exceed: (i) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds at least 25 per cent of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2001-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "AL",
+   "quote": "(ii) 15 per cent of the gross amount of the dividends in all other cases;"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but, if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 5 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2001-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies to the Convention as a Covered Tax Agreement (Malta's list: ALBANIA Original 02-05-2000 23-11-2000); WHT effect 2021-01-01 per Art. 35(1)(a), later MLI entry into force = Albania 2021-01-01.]"
+ },
+ "notes": "Dividends are asymmetric: the 5%/15% caps apply only to dividends paid by an Albanian company (source_state AL). Art. 10(2)(b): dividends paid by a Malta-resident company to an Albanian resident - Malta tax on the gross dividend shall not exceed the tax chargeable on the profits out of which the dividends are paid (imputation-system clause, no numeric cap; not modelled). The 25% threshold is measured on voting power in the English text ('capital' in the Albanian text; English prevails). No government interest exemption. MLI: covered by both; Malta reserved the entirety of Art. 8, so no 365-day holding period. Albanian tatime.gov.al copy (shkarko.php?id=363) gives the same rates.",
+ "confidence": "high",
+ "unverified": []
+}

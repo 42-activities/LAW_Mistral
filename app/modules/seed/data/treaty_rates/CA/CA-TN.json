@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "TN",
+ "treaty_name": "Convention between Canada and the Republic of Tunisia for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (1982, with Protocol; modified by MLI)",
+ "signed": "1982-02-10",
+ "entry_into_force": "1984-12-04",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102354",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 1985/36): \"Entry into Force 04 December 1984\"; Signature \"10 February 1982\"",
+ "source_title": "Canada Treaty Series 1985/36 - Canada-Tunisia Convention and Protocol (treaty-accord.gc.ca official text)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=102354&Lang=eng",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article X(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the law of that State, but where the resident of the other Contracting State is the beneficial owner of the dividends, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends. The provisions of this paragraph shall not affect the taxation of the company on the profits out of which the dividends are paid."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article XI(2)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may be taxed in the Contracting State in which it arises, and according to the law of that State; but the tax so charged shall, provided that the interest is taxable in the other Contracting State, not exceed 15 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)(a) (patents, trade marks, films/TV, industrial/commercial/scientific/harbour equipment)",
+   "valid_from": "1985-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed: 20 per cent of the gross amount of patent royalties and royalties for the use or the right to use trade marks, motion picture films and films or videotapes for use in connection with television, or for the use of, or the right to use, industrial, commercial, scientific or harbour equipment; and"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article XII(2)(b) (all other royalties)",
+   "valid_from": "1985-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may be taxed in the Contracting State in which they arise, and according to the law of that State, but the tax so charged shall, provided that the royalties are taxable in the other Contracting State, not exceed: ... 15 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-tunisia-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. XXVIII: effective for tax withheld at source on amounts paid or credited on or after 1 January of the year following the exchange of ratification instruments (EIF 1984-12-04 -> 1985-01-01). Dividends: single 15% cap (no participation tier, so MLI art. 8 irrelevant; neither party notified it for this treaty). Interest and royalty caps apply \"provided that the interest/royalties is taxable in the other Contracting State\" (recipient-taxation condition, recorded only here). Royalties: 20% for patents, trade marks, films/TV and equipment rentals; 15% for all other royalties (e.g. know-how, software); Art. XII(3) exempts cultural copyright royalties paid to a resident \"who is subject to tax thereon\" - subject-to-tax condition, not modelled as a tier. Not modelled: Art. XI(3) exemptions for EDC-financed and specified Tunisian export-credit interest; Art. X(6) branch / distributed-profits taxes. MLI: covered by both; Tunisia MLI in force 2023-11-01, WHT effect 2024-01-01.",
+ "confidence": "high",
+ "unverified": []
+}

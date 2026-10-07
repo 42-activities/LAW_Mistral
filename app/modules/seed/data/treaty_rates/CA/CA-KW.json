@@ -1,0 +1,67 @@
+{
+ "a": "CA",
+ "b": "KW",
+ "treaty_name": "Agreement between the Government of Canada and the Government of the State of Kuwait for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income and on Capital (2002)",
+ "signed": "2002-01-28",
+ "entry_into_force": "2003-08-26",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-6.6/FullText.html",
+ "eif_quote": "Canada-Kuwait Tax Agreement Act, 2002: \"[Note: Agreement in force August 26, 2003, see Canada Gazette Part I, Volume 137, page 3312.]\"",
+ "source_title": "Canada-Kuwait Tax Agreement Act, 2002 (S.C. 2002, c. 24, Part 1), Schedule - Canada-Kuwait Agreement (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-6.6/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2003-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) except in the case of dividends paid by a non-resident-owned investment corporation that is a resident of Canada, 5 per cent of the gross amount of the dividends if the beneficial owner is a company that owns 10 per cent or more of the issued and outstanding voting stock, or 25 per cent or more of the value of all the issued and outstanding stock, of the company paying the dividends; and"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2003-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if a resident of the other Contracting State is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2003-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if a resident of the other Contracting State is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "n/a (no MLI; treaty has no PPT clause)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Art. 29: Agreement has effect for taxes withheld at source on amounts paid or credited on or after 1 January of the year in which it enters into force (EIF 2003-08-26 -> 2003-01-01). Dividend 5% tier: company owning 10% or more of the issued and outstanding voting stock, OR 25% or more of the value of all issued and outstanding stock (voting-stock alternative recorded as ownership_threshold 10); tier excludes dividends paid by a Canadian non-resident-owned investment corporation. Not modelled: Art. 21(1) exemption (taxable only in residence State) for dividends and interest paid to the other State's Government/government-owned entities referred to in Art. 4(2), subject to 25% ownership/vote cap and no commercial activity; Art. 11(3) exemptions for government-debt interest and export-credit interest (Export Development Canada / Government of Kuwait); Art. 10(6) branch tax. MLI: Kuwait has signed but not ratified the MLI, so no MLI modification (PPT not applicable).",
+ "confidence": "high",
+ "unverified": []
+}

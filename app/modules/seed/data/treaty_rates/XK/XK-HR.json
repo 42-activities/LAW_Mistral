@@ -1,0 +1,70 @@
+{
+ "a": "XK",
+ "b": "HR",
+ "treaty_name": "Agreement between the Republic of Croatia and the Republic of Kosovo for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2017)",
+ "signed": "2017-03-06",
+ "entry_into_force": "2017-12-04",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-croatia-instrument-deposit.pdf ; https://porezna-uprava.gov.hr/hr/dvostruko-oporezivanje/3997",
+ "eif_quote": "[HR MLI position, via map.json] Kosovo Original 06-03-2017 04-12-2017 || [HR Porezna uprava list, via map.json] Kosovo | Dohodak i imovina | 13/17 | 01.01.2018. || [Čl. 27] Ovaj Ugovor proizvodi učinak u odnosu na dohodak stečen i imovinu posjedovanu tijekom poreznih godina koje počinju na ili nakon prvog dana siječnja kalendarske godine koja slijedi nakon godine u kojoj ovaj Ugovor stupa na snagu.",
+ "source_title": "Hrvatski sabor P.Z. br. 203 (5 Oct 2017): Konačni prijedlog zakona o potvrđivanju Ugovora između Republike Hrvatske i Republike Kosova o izbjegavanju dvostrukog oporezivanja (Croatian text of the Agreement and Protocol); published as NN-MU 13/2017",
+ "source_url": "https://www.sabor.hr/sites/default/files/uploads/sabor/2019-01-18/081252/PZ_203.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 posto bruto-iznosa dividendi ako je stvarni korisnik društvo (osim partnerstva) u čijem je izravnom vlasništvu najmanje 25 posto imovine društva koje isplaćuje dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2018-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 posto bruto-iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, takva kamata može se oporezivati i u državi ugovornici u kojoj je nastala, i to sukladno propisima te države, ali ako je stvarni korisnik kamate rezident druge države ugovornice, tako razrezan porez ne smije biti veći od 5 posto bruto-iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2018-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Međutim, takve naknade za autorska prava mogu se oporezivati i u državi ugovornici u kojoj su nastale, i to sukladno propisima te države, ali ako je stvarni korisnik naknada za autorska prava rezident druge države ugovornice, tako zaračunat porez ne smije biti veći od 5 posto bruto-iznosa naknada za autorska prava."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT/LOB article in treaty; MLI not applicable - Kosovo not an MLI party)",
+  "source_url": "https://www.sabor.hr/sites/default/files/uploads/sabor/2019-01-18/081252/PZ_203.pdf",
+  "quote": ""
+ },
+ "notes": "Dividend 5% tier: company (other than a partnership) directly holding at least 25% of the capital (\"imovine\") of the paying company; no holding period. No interest exemptions for governments in Art. 11. Text read from the Government bill to Parliament (Konačni prijedlog zakona) as transmitted by the Hrvatski sabor; the Narodne novine - Međunarodni ugovori 13/2017 publication itself was not fetched (NN site search returned nothing usable). Croatian, Albanian and English authentic; English prevails (Croatian quoted). Protocol concerns Art. 7 only. Kosovo is not an MLI party; Croatia's MLI position lists the Kosovo treaty but Kosovo is not a signatory, so the MLI does not modify it.",
+ "confidence": "high",
+ "unverified": [
+  "Final published text in NN-MU 13/2017 not compared (bill text used)",
+  "Entry-into-force date from Croatia MLI position via map.json"
+ ]
+}

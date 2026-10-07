@@ -1,0 +1,69 @@
+{
+ "a": "IN",
+ "b": "SY",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Syrian Arab Republic for the avoidance of double taxation and prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-06-18",
+ "entry_into_force": "2008-11-10",
+ "eif_source_url": "https://web.archive.org/web/20170915003926/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000085.htm",
+ "eif_quote": "WHEREAS the annexed Agreement and Protocol ... signed in India on the 18th day of June, 2008 shall come into force on the 10th day of November, 2008, being the date of receipt of later of the notifications ... the Central Government hereby directs that all the provisions of the said Agreement and Protocol annexed hereto shall be given effect to in the Union of India with effect from the 1st day of April, 2009. Notification : No. SO 884(E), dated 30-3-2009",
+ "source_title": "Wayback copy (2017) of Income Tax Department of India DTAA page (Syrian Arab Republic, Comprehensive Agreements): Notification SO 884(E) dated 30-3-2009 with annexed India-Syria Agreement and Protocol",
+ "source_url": "https://web.archive.org/web/20170915003926/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000085.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2009-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "the tax so charged shall not exceed : ( a ) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which owns at least 10 per cent of the shares of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2009-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2009-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest, is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2009-04-01",
+  "basis": "treaty art. 27",
+  "source_url": "https://web.archive.org/web/20170915003926/http://www.incometaxindia.gov.in/dtaa/comprehensive%20agreements/108690000000000085.htm",
+  "quote": "ARTICLE 27 LIMITATION OF BENEFITS A resident of a Contracting State shall not be entitled to the benefit of any reduction in or exemption from tax provided for in this Agreement if its affairs were arranged in such a manner that the primary purpose was to obtain the benefits under this Agreement. The cases of legal entities not having bona fide business activities shall be covered by the provisions of this article."
+ },
+ "notes": "Effective dates (Art. 29(3)): India - income derived in fiscal years beginning on or after 1 April 2009 (Notification SO 884(E) gives effect from 1 April 2009); Syria - taxes withheld at source on amounts paid or credited on or after 1 January 2009 (valid_from uses the Indian-side date). Art. 11(3): interest exempt at source when derived and beneficially owned by the Government, political sub-divisions, local authorities, the Reserve Bank of India or the Central Bank of Syria - not modelled. No separate fees-for-technical-services cap in Art. 12 as read. The 2008 Agreement replaced an earlier agreement (GSR 508(E), dated 25-6-1985). Art. 27 is a 'primary purpose' anti-abuse rule (India's MLI position lists Syria Art. 27 as an existing Art. 7(2) provision); Syria is not an MLI signatory, so no MLI modification and the MLI Art. 8 365-day holding period does not apply even though India notified Syria Art. 10(2)(a) under MLI Art. 8(4). Text read from an archived official Indian Income Tax Department page (Wayback; live site 403); Syrian official text not read.",
+ "confidence": "medium",
+ "unverified": [
+  "No amending protocol after 2017 checked against a live Indian or Syrian source"
+ ]
+}

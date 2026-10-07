@@ -1,0 +1,58 @@
+{
+ "a": "IN",
+ "b": "CY",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Republic of Cyprus for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2016, with Protocol; modified by MLI)",
+ "signed": "2016-11-18",
+ "entry_into_force": "2016-12-14",
+ "eif_source_url": "https://web.archive.org/web/20180214060754/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108620000000000566.htm",
+ "eif_quote": "And whereas, the date of entry into force of the said Agreement and Protocol is the 14th day of December, 2016, being the date of the later of the notifications of completion of the procedures as required by the respective laws for entry into force of the said Agreement and Protocol, in accordance with paragraph 1 of Article 29; ... shall be given effect to in the Union of India with effect from the 1st day of April, 2017",
+ "source_title": "Income Tax Department (India), India-Cyprus DTAA 2016 with notification (Wayback copy of official incometaxindia.gov.in page, captured 2018-02-14)",
+ "source_url": "https://web.archive.org/web/20180214060754/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108620000000000566.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2017-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties or fees for technical services is a resident of the other Contracting State the tax so charged shall not exceed 10 percent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Effective dates (Art. 29(3)): Cyprus, tax withheld at source for amounts paid on or after 1 January 2017; India, taxes withheld at source for amounts paid or credited on or after 1 April 2017 (Indian notification gives effect from 1 April 2017). The 2016 Agreement replaced the 1994 India-Cyprus agreement. Protocol para. 1 (Ad Art. 10) noted that at signature Indian dividends were exempt under s.10(34) (DDT regime) - since abolished (2020); the 10% treaty cap now governs. Not modelled: Art. 11(3) exemption for interest beneficially owned by the Government, political sub-divisions, local authorities, Reserve Bank of India, Exim Bank of India, National Housing Bank or institutions agreed by exchange of letters; the 10% Art. 12 cap also covers fees for technical services. MLI: covered by both; MLI WHT provisions effective 2021-01-01 on the Cypriot side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2021. India chose the Simplified LOB (Art. 7(6)) but Cyprus's MLI deposit position contains no SLOB choice and no Art. 7(7) acceptance, so only the PPT applies.",
+ "confidence": "high",
+ "unverified": [
+  "Indian-side MLI date 2021-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

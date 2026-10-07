@@ -1,0 +1,26 @@
+{
+ "a": "IN",
+ "b": "GR",
+ "treaty_name": "Agreement between the Government of India and the Government of Greece for the avoidance of double taxation of income (1965; modified by MLI)",
+ "signed": "1965-02-11",
+ "entry_into_force": "1967-03-17",
+ "eif_source_url": "https://web.archive.org/web/20170316183904/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000029.htm",
+ "eif_quote": "Whereas the annexed Agreement between the Government of India and the Government of Greece for the avoidance of double taxation of income has been ratified and the instruments of ratification exchanged, as required by Article XX of the said Agreement ; ... Notification : No. GSR 394, dated 17-3-1967. (Entry-into-force date 1967-03-17 per map.json / India MLI position; Art. 20(2): effect in India for years of assessment beginning on or after 1 April 1964, in Greece for fiscal years beginning on or after 1 January 1964)",
+ "source_title": "Income Tax Department (India), India-Greece DTA 1965 with Notification GSR 394/1967 (Wayback copy of official incometaxindia.gov.in page, captured 2017-03-16)",
+ "source_url": "https://web.archive.org/web/20170316183904/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000029.htm",
+ "rates": [],
+ "ppt": {
+  "applies": true,
+  "from": "2022-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "No source-State rate caps exist in this 1965 agreement, so no rates are recorded (text obtained). Art. 7: 'Royalties derived by a resident of one of the territories from sources in the other territory may be taxed only in that other territory.' Art. 8: 'Dividends paid by a company which is a resident of one of the territories to a resident of the other territory may be taxed only in the first-mentioned territory.' Art. 9: 'Interest on bonds, securities, notes, debentures or any other form of indebtedness derived by a resident of one of the territories from sources in the other territory may be taxed only in that other territory.' I.e. royalties, dividends and interest are taxable exclusively in the SOURCE State under its domestic law, without any treaty cap (residence State exempts). MLI: covered by both; MLI WHT provisions effective 2022-01-01 on the Greek side; India chose Art. 35(2) 'taxable period', so on the Indian side from 1 April 2022. India chose the Simplified LOB and Greece chose Art. 7(7)(b) (permitting India to apply the SLOB unilaterally) - so India may apply the SLOB to benefits it grants. Greek national treaty list not accessible (aade.gr 403).",
+ "confidence": "medium",
+ "unverified": [
+  "Greek official text not checked",
+  "Indian-side MLI date 2022-04-01 derived from India's Art. 35(2) choice"
+ ],
+ "no_cap": true
+}

@@ -1,0 +1,58 @@
+{
+ "a": "BA",
+ "b": "IT",
+ "treaty_name": "Convention between the Italian Republic and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1982), applied between Italy and Bosnia and Herzegovina by succession",
+ "signed": "1982-02-24",
+ "entry_into_force": "1985-07-03",
+ "eif_source_url": "https://www.finanze.gov.it/it/fiscalita-comunitaria-e-internazionale/convenzioni-e-accordi/convenzioni-per-evitare-le-doppie-imposizioni/ ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=7869a587-4c17-471a-8df3-2ec671194635&lang=hr",
+ "eif_quote": "[IT MEF list] Bosnia-Herzegovina: (2) ... Stipula - Firma: Belgrado 24.02.1982; Ratifica: L. 18.12.1984, n.974 In vigore dal: 03.07.1985 ... (2) La Convenzione in vigore con la Bosnia-Herzegovina, la Serbia e il Montenegro è stata stipulata con la ex Jugoslavia || Art. 28(2): Ovaj sporazum stupa na snagu tridesetog dana od datuma razmjene ratifikacionih instrumenata, a njegove odredbe se primjenjuju: ... b) u Italiji: u odnosu na poreze na dohodak za svaki porezni period koji počinje na dan ili nakon prvog dana januara kalendarske godine koja slijedi godinu u kojoj je izvršena razmjena ratifikacionih instrumenata.",
+ "source_title": "BiH Ministry of Finance and Treasury: Sporazum SFRJ–Italijanska Republika (Službeni list SFRJ – Međunarodni ugovori 2/83), Bosnian text",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=7869a587-4c17-471a-8df3-2ec671194635&lang=hr",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividende se mogu oporezivati i u državi ugovornici čiji je rezident društvo koje plaća dividende, u skladu sa zakonima te države. Međutim, tako razrezan porez ne može biti veći od 10 posto od bruto iznosa dividendi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata iz stava 1. ovog člana može biti oporezivana i u državi ugovornici u kojoj nastaje, saglasno zakonima te države, ali tako razrezan porez ne može biti veći od 10 posto od bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade iz stava 1. ovog člana mogu se oporezivati i u državi ugovornici u kojoj nastaju, saglasno zakonima te države, ali tako razrezan porez ne može biti veći od 10 posto od bruto iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Italy has not ratified the MLI)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "SFRY treaty applied by succession: Italian MEF list note \"(2) La Convenzione in vigore con la Bosnia-Herzegovina, la Serbia e il Montenegro è stata stipulata con la ex Jugoslavia\"; BiH MoF lists it in force. Italian official text (L. 18.12.1984 n. 974, G.U.) not retrieved; rates from the official BiH MoF Bosnian text. Protocol No. 8: residents claiming WHT relief must furnish documentation required by the source State. Exchange of instruments 1985 (EIF 03-07-1985) -> applies from 1986-01-01. Not MLI-covered (Italy has not deposited MLI ratification).",
+ "confidence": "high",
+ "unverified": [
+  "Italian original text not cross-checked"
+ ]
+}

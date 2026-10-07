@@ -1,0 +1,69 @@
+{
+ "a": "IN",
+ "b": "SI",
+ "treaty_name": "Convention between the Government of the Republic of Slovenia and the Government of the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2003, as amended by Protocol 2016; modified by MLI)",
+ "signed": "2003-01-13",
+ "entry_into_force": "2005-02-17",
+ "eif_source_url": "https://www.fu.gov.si/fileadmin/Internet/Davki_in_druge_dajatve/Podrocja/Mednarodno_obdavcenje/Zakonodaja/Seznam_veljavnih_MP.docx ; https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/Update-9-3-2020/ZB-MLI-KIDO-SLO-IND-angl.pdf",
+ "eif_quote": "[FURS list of treaties in force] INDIJA MP, št. 13/04, Protokol MP, št. 16/16 ... Začetek uporabe KIDO: 1. 1. 2006; 3. 1. 2017 (Protokol) ... MLI: za davke pri viru v RS 1. 1. 2020, v Indiji 1. 4. 2020 || [Art. 29(2)] The Convention shall enter into force upon the exchange of instruments of ratification and its provisions shall have effect: ... b) in India, in respect of income arising in any fiscal year beginning on or after the first day of April next following the calendar year in which the exchange of instruments of ratification takes place.",
+ "source_title": "Slovenian Ministry of Finance: Synthesised text of the MLI and the Slovenia-India Convention (2003, as amended by Protocol 2016), English",
+ "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/Update-9-3-2020/ZB-MLI-KIDO-SLO-IND-angl.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as modified by MLI Art. 8(1))",
+   "valid_from": "2020-04-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) [MODIFIED by paragraph 1 of Article 8 of the MLI] [5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the capital of the company paying the dividends;] ... Subparagraph a of paragraph 2 of Article 10 of the Convention shall apply only if the ownership conditions described in those provisions are met throughout a 365 day period that includes the day of the payment of the dividends"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-04-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2006-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-04-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties and fees for technical services, the tax so charged shall not exceed 10 per cent of the gross amount of such royalties and fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-04-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.si/assets/ministrstva/MF/Davcni-direktorat/KIDO/Update-9-3-2020/ZB-MLI-KIDO-SLO-IND-angl.pdf",
+  "quote": "Notwithstanding any provisions of the Convention, a benefit under the Convention shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Convention."
+ },
+ "notes": "valid_from = Indian-side dates. Treaty effective in India for income of fiscal years beginning on/after 1 April 2006 (exchange of ratifications/EIF 2005-02-17); in Slovenia from 1 January 2006. MLI (Slovenia EIF 2018-07-01, India 2019-10-01): WHT provisions effective in India from 1 April 2020 (India Art. 35(2) 'taxable period'), in Slovenia from 1 January 2020 (map mli_wht_effective 2020-01-01). MLI Art. 8(1) 365-day holding period applies to the 5% dividend tier (India notified Art. 10(2)(a); the synthesised text shows it applying); before the MLI date the 5% tier (>=10% direct holding) applied from 2006 without holding period. Interest exempt at source when derived and beneficially owned by the Government, political subdivisions, local authorities, the Central Bank, Slovene Export Company and Export-Import Bank of India (Art. 11(3)) - not modelled. Royalties cap of 10% also covers fees for technical services (Art. 12(2)). Protocol 2016 (signed 2016-05-17, applied from 2017-01-03 per FURS) amended exchange-of-information provisions; rates text shown in the synthesised text as amended. MLI PPT applies; synthesised text contains no Simplified LOB (Slovenia did not choose SLOB, so India's SLOB choice does not apply). No MFN clause in the Protocol.",
+ "confidence": "high",
+ "unverified": [
+  "Protocol 2016 content not read separately (synthesised text states the Convention as amended by it)"
+ ]
+}

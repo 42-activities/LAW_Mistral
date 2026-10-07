@@ -1,0 +1,80 @@
+{
+ "a": "CA",
+ "b": "SE",
+ "treaty_name": "Convention between Canada and Sweden for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1996)",
+ "signed": "1996-08-27",
+ "entry_into_force": "1997-12-23",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.52/FullText.html ; https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102416",
+ "eif_quote": "Income Tax Conventions Implementation Act, 1997, Part 1: \"[Note: Convention in force December 23, 1997, see Canada Gazette Part I, Volume 132, page 157.]\" | Treaty-accord (conflicting): \"Entry into Force 22 December 1997\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1997 (S.C. 1997, c. 38), Schedule 1 - Canada-Sweden Convention (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.52/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1998-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company that controls directly at least 10 per cent of the voting power, or that holds directly at least 25 per cent of the capital, in the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "1998-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(c) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) (royalties other than those in Art. 12(3), e.g. trade marks, films/TV, equipment, rental/franchise know-how)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(3) (copyright; computer software, patents, know-how)",
+   "valid_from": "1998-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "3 Notwithstanding the provisions of paragraph 2, (a) copyright royalties and other like payments in respect of the production or reproduction of any literary, dramatic, musical or other artistic work (but not including royalties in respect of motion picture films nor royalties in respect of works on film or videotape or other means of reproduction for use in connection with television broadcasting); and (b) royalties for the use of, or the right to use, computer software or any patent or for information concerning industrial, commercial or scientific experience (but not including any such information provided under a rental or franchise agreement), arising in a Contracting State and paid to a resident of the other Contracting State who is the beneficial owner thereof shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "MLI art. 7(1) (not yet in effect)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-sweden-instrument-deposit.pdf",
+  "quote": null
+ },
+ "notes": "Art. 28(2)(a)(i): effective in Canada for tax withheld at source on amounts paid or credited on or after 1 January of the year following the exchange of ratification instruments (-> 1998-01-01); in Sweden for income derived on or after that date. EIF date conflict: Canada Gazette note in the implementing Act says 23 December 1997 (used, matches map), treaty-accord.gc.ca details page says 22 December 1997. Dividend 5% tier: company that controls directly at least 10% of the voting power OR holds directly at least 25% of the capital (voting test recorded as ownership_threshold 10). Art. 10(2)(b): 10% (instead of 5%) on dividends paid by a Canadian non-resident-owned investment corporation to a Swedish company meeting the same 10%/25% test - not modelled separately (source_state CA only). Not modelled: Art. 10(8) exemption for dividends to pension organisations holding <=5% of listed shares; Art. 11(3)-(4) exemptions (late-payment penalties, central bank interest, credit sales between non-associated enterprises, government debt, EDC/Exportkreditnamnden loans, pension organisations); Art. 10(6) branch tax 5%. MLI: both are parties and Canada lists Sweden, but Sweden reserved Art. 35(7)(a) and no Art. 35(7)(b) notification for Canada appears, so the MLI (PPT, Art. 8) does not yet have effect for this treaty.",
+ "confidence": "high",
+ "unverified": [
+  "Exact EIF day (22 vs 23 December 1997) - official Canadian sources differ"
+ ]
+}

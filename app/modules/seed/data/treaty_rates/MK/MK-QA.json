@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "QA",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of the State of Qatar for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-01-28",
+ "entry_into_force": "2008-09-26",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28: The Agreement shall enter into force on the thirtieth day from the date of the later of these notifications. 2. The provisions of this Agreement shall have effect: (a) with regard to taxes withheld at source, in respect of amounts paid or credited on or after the first day of January of the calendar year following the year in which the Agreement enters into force; | UJP table: Qatar | 103/2008 | 26.09.2008 | 01.01.2009",
+ "source_title": "UJP English text of the MK-Qatar agreement (15Qatar.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/15Qatar.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(1)",
+   "valid_from": "2009-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends paid by a company which is a resident of a Contracting State to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2009-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2009-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Dividends and interest taxable only in the residence State. EIF conflict carried from map.json: 26.09.2008 (UJP, used) vs 13.10.2008 (Qatar MLI list); application 01.01.2009 either way.",
+ "confidence": "high",
+ "unverified": []
+}

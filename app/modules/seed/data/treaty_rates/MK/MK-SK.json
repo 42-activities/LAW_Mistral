@@ -1,0 +1,56 @@
+{
+ "a": "MK",
+ "b": "SK",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Slovak Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2009)",
+ "signed": "2009-10-05",
+ "entry_into_force": "2010-04-27",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 27(1): ... it shall enter into force on the 60th day following the date of the receipt of the later notification ... The provisions of this Agreement shall have effect: a) in respect of taxes withheld at source, to income paid or credited on or after first day of January in the calendar year next following the year in which the Agreement enters into force; | UJP table: Slovakia | 19/2010 | 27.04.2010 | 01.01.2011",
+ "source_title": "UJP scan of Služben vesnik 19/2010 (Međunarodni dogovori) English text of the MK-Slovakia agreement (29Slovakia.pdf), read from page images pp. 9-11, 19-20",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/29Slovakia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also by taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Single 5% dividend cap regardless of holding. Royalty definition includes software and equipment rental. Replaces the 1981 SFRY-Czechoslovakia convention in MK-SK relations (Art. 27(2)). English text prevails.",
+ "confidence": "high",
+ "unverified": []
+}

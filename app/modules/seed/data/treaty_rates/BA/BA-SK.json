@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "SK",
+ "treaty_name": "Convention between the Czechoslovak Socialist Republic and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1981), applied between Slovakia and Bosnia and Herzegovina by succession",
+ "signed": "1981-11-02",
+ "entry_into_force": "1983-04-17",
+ "eif_source_url": "https://www.mfsr.sk/sk/dane-cla-uctovnictvo/priame-dane/dane-z-prijmu/zmluvy-zamedzeni-dvojiteho-zdanenia/zmluvy-zamedzeni-dvojiteho-zdanenia/zoznam-platnych-ucinnych-zmluv-zamedzeni-dvojiteho-zdanenia/ ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-slovak-republic-instrument-deposit.pdf ; https://mft.gov.ba/Content/OpenAttachment?id=b5388661-be66-42cf-bfcc-fadbabb66d4f&lang=hr",
+ "eif_quote": "[SK list] 7. | Bosna a Hercegovina | 17.04.1983 | 99/1983 | 327/2020 || [SK MLI] Convention between the Czechoslovak Socialist Republic and the Socialist Federal Republic of Yugoslavia ... Bosnia and Herzegovina Original 02-11-1981 17-04-1983 || Art. 28(2): Ovaj sporazum stupa na snagu nakon proteka tridesetog dana od dana razmjene ratifikacijskih instrumenata i primjenjuje se na poreze koji se uvode za svaku poreznu godinu koja počinje na dan ili nakon prvog januara kalendarske godine koja slijedi godinu u kojoj je Sporazum stupio na snagu.",
+ "source_title": "BiH Ministry of Finance and Treasury: Sporazum SFRJ–ČSSR (Službeni list SFRJ – Međunarodni ugovori 12/82; \"U BiH se primjenjuje samo u odnosu na R Slovačku\"), Bosnian text; MLI combined text BiH–Slovakia",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=b5388661-be66-42cf-bfcc-fadbabb66d4f&lang=hr ; https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Slova%C4%8Dka-bos._verzija.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1984-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 posto od bruto – iznosa dividendi, ako je primalac društvo (izuzimajući partnerstvo) koje neposredno raspolaže s najmanje 25 posto kapitala društva koje plaća dividende,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1984-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 posto od bruto – iznosa dividendi u svim ostalim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1984-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata nastala u državi ugovornici i isplaćena rezidentu druge države ugovornice može se oporezivati samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1984-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade iz stava 1. ovog člana mogu se oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali tako razrezan porez ne može biti već od 10 posto bruto – iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Fiskalni%20sporazumi%202/BiH-Slova%C4%8Dka-bos._verzija.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Czechoslovakia–Yugoslavia convention applied by succession on both sides: Slovak MoF list \"Bosna a Hercegovina | 17.04.1983 | 99/1983 Zb.\" (MLI notice 327/2020 Z.z.); Slovakia MLI position lists it for BiH; BiH MoF header: \"U BiH se primjenjuje samo u odnosu na R Slovačku\" (Czechia has its own 2007 treaty with BiH). Slovak official text (Zb. 99/1983, slov-lex) not retrievable as text (JS application); rates read from the official BiH MoF Bosnian text and MLI combined text. Protocol (to Art. 11): exclusive residence taxation of interest premised on neither State levying interest WHT; to be reconsidered if either does (no amendment known). EIF 17-04-1983 -> applies from 1984-01-01. MLI Art. 8 not applicable (BiH reserved).",
+ "confidence": "high",
+ "unverified": [
+  "Slovak/Czech authentic text not cross-checked"
+ ]
+}

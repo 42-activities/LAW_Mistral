@@ -1,0 +1,67 @@
+{
+ "a": "XK",
+ "b": "SA",
+ "treaty_name": "Agreement between the Government of the Kingdom of Saudi Arabia and the Government of the Republic of Kosovo for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income (2019)",
+ "signed": "2019-10-20",
+ "entry_into_force": "2020-08-01",
+ "eif_source_url": "https://zatca.gov.sa/en/RulesRegulations/Agreements/Pages/Kosovo-convention.aspx",
+ "eif_quote": "Agreement between the government of the Kingdom of Saudi Arabia and the government of the republic of Kosovo for the avoidance of double taxation and the prevention of tax evasion with respect to taxes on income, signed on 20/10/2019 and entered into force on 1/8/2020. || [Art. 28(2)(a)] with regard to taxes withheld at source, in respect of amounts paid on or after the first day of January next following the date upon which this Agreement enters into force",
+ "source_title": "Saudi General Secretariat of the Cabinet (gstc.gov.sa): English text of the Saudi Arabia-Kosovo Agreement (Washington D.C., 20 Oct 2019); cross-checked with ZATCA kosovo.pdf (headed \"Draft Agreement\", same rates)",
+ "source_url": "https://gstc.gov.sa/en/DocumentsLb/Regulations/Documents/kosovo.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(6)",
+   "valid_from": "2021-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "XK",
+   "quote": "6. Notwithstanding the provisions of paragraph 2 of this Article, in the case of the Republic of Kosovo, dividends paid by a company which is a resident of the Republic of Kosovo to a resident of the Kingdom of Saudi Arabia shall be subject to zero per cent taxation at source."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "SA",
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 5 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2021-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such income from debt-claims may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the beneficial owner of the income from debt-claims is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the income from debt-claims."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2021-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10 per cent of the gross amount of such royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT/LOB article; Art. 27 only preserves domestic anti-avoidance rules; MLI not applicable - Kosovo not an MLI party)",
+  "source_url": "https://gstc.gov.sa/en/DocumentsLb/Regulations/Documents/kosovo.pdf",
+  "quote": "Article 27 Miscellaneous Provisions: Nothing in this Agreement shall affect the application of the domestic provisions to prevent tax evasion and tax avoidance."
+ },
+ "notes": "Dividends asymmetric: Kosovo-source dividends to Saudi residents 0% (Art. 10(6), source_state XK); Saudi-source dividends 5% (source_state SA). Royalties: 5% for payments for the use of, or the right to use, industrial, commercial or scientific equipment (Art. 12(2)(a), equipment-leasing royalties - payment-type tier, not modelled as a plain tier); 10% in all other cases. Interest (\"income from debt-claims\") taxable only in residence State (Art. 11(3)) where beneficially owned by the Government/subdivision/local authority/central bank/wholly Government-owned institution, or on debt guaranteed, insured or indirectly financed by them - not modelled. Arabic, Albanian and English authentic; English prevails. ATK summary table shows royalties 0% and dividends 5% - royalties conflict with text (5%/10%). Kosovo is not an MLI party.",
+ "confidence": "high",
+ "unverified": []
+}

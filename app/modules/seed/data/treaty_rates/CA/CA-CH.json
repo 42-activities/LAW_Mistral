@@ -1,0 +1,69 @@
+{
+ "a": "CA",
+ "b": "CH",
+ "treaty_name": "Convention between the Government of Canada and the Swiss Federal Council for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital (1997, as amended by the Protocol of 2010)",
+ "signed": "1997-05-05",
+ "entry_into_force": "1998-04-21",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=102418 ; https://laws-lois.justice.gc.ca/eng/regulations/SI-2012-17/FullText.html",
+ "eif_quote": "[CTS 1998/15] Entry into Force 21 April 1998 | SI/2012-17: Proclamation Giving Notice that the Protocol Amending the Convention between the Government of Canada and the Swiss Federal Council for the Avoidance of Double Taxation with respect to Taxes on Income and on Capital, Came into Force on December 16, 2011 | Protocol Art. XIII(1)(a) (Finance Canada text): \"in respect of taxes withheld at source, on amounts paid or credited on or after the first day of January of the year following the entry into force of this Protocol;\"",
+ "source_title": "Canada Treaty Information (GAC): Canada-Switzerland Convention 1997 (E102418); Finance Canada consolidated text 1997-2010 and 2010 Protocol (canada.ca, read via WebFetch)",
+ "source_url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102418 ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/switzerland-convention-consolidated-1997-2010.html ; https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/switzerland-protocol-2010.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as amended by Protocol 2010, Art. IV)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company that owns at least 10 per cent of the voting stock and of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as amended by Protocol 2010, Art. IV)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1998-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT in treaty; MLI not applicable)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "Canada's MLI list of covered agreements does not include Switzerland (map.json)."
+ },
+ "notes": "5% tier requires 10% of the VOTING STOCK AND of the capital, recorded as ownership_threshold 10. The 2010 Protocol (in force 2011-12-16, WHT effect 2012-01-01) replaced Art. 10(2) (removing the former 10% NRO-investment-corporation tier of 1997 Art. 10(2)(b)) and added Art. 10(3) exemption for the Bank of Canada/Swiss National Bank and qualifying pension entities. Not modelled: Art. 11(3)(c) as amended (from 2012-01-01): interest is not taxable at source if the beneficial owner is a resident of the other State \"and is not related to the payer\" (unrelated-party interest 0%); EDC / Swiss Export Risk Insurance loans taxable only in residence State. Art. 12(3) as amended: copyright (excl. film/TV), computer software and patent/know-how royalties (excl. rental/franchise; related-party restriction removed by Protocol Art. VI) taxable only in residence State. Not MLI-covered. Exchange of letters 2012 on Art. 25 (arbitration) irrelevant to rates. Dividend/Protocol quotes from Finance Canada pages fetched with WebFetch (canada.ca blocks curl).",
+ "confidence": "medium",
+ "unverified": [
+  "Protocol 2010 Art. IV/V/VI and consolidated Art. 10(2) text read via WebFetch rendering of canada.ca, not a raw download"
+ ]
+}

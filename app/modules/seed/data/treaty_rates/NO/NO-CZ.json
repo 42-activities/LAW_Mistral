@@ -1,0 +1,89 @@
+{
+ "a": "NO",
+ "b": "CZ",
+ "treaty_name": "Convention between the Kingdom of Norway and the Czech Republic for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2004)",
+ "signed": "2004-10-19",
+ "entry_into_force": "2005-09-09",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2004-10-19-36",
+ "eif_quote": "Avtalens ikrafttredelsesdato 09-09-2005 | Art. 28(1)(a): med hensyn til skatter tilbakeholdt ved kilden, for inntekt betalt eller kreditert på eller etter 1. januar i det påfølgende kalenderåret etter det året da overenskomsten trer i kraft",
+ "source_title": "Lovdata traktat 2004-10-19-36: Overenskomst mellom Norge og Tsjekkia (Norwegian text)",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2004-10-19-36",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2006-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a. 0 prosent av dividendenes bruttobeløp hvis den virkelige rettighetshaver er et selskap som direkte innehar minst 10 prosent av kapitalen i det selskap som utdeler dividendene;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av dividendenes bruttobeløp i alle andre tilfelle."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter som skriver seg fra en kontraherende stat og oppebæres av en person bosatt i den annen kontraherende stat, skal bare kunne skattlegges i denne annen stat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b) (patents, trade marks, designs, secret formulas, computer software, know-how - Art. 12(3)(c))",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 10 prosent av royaltyens bruttobeløp for så vidt gjelder betalinger som nevnt i underpunkt c) i punkt 3."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(a) (industrial, commercial or scientific equipment - Art. 12(3)(b))",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a. 5 prosent av royaltyens bruttobeløp for så vidt gjelder betalinger som nevnt i underpunkt b) i punkt 3;"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2) chapeau (copyright royalties - Art. 12(3)(a))",
+   "valid_from": "2006-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Med unntak de betalinger som nevnes i underpunkt a) i punkt 3, kan imidlertid slik royalty også skattlegges i den kontraherende stat som den skriver seg fra ... [3. a. enhver opphavsrett til verker av litterær, kunstnerisk eller vitenskapelig karakter, herunder kinematografiske filmer, eller filmer eller bånd for radio- eller fjernsynsutsendelse, men unntatt computer software;]"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/norway-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2013-uk-norway-double-taxation-convention-in-force (MLI Art. 7(1) wording) ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]."
+ },
+ "notes": "Royalties are split by type: cultural copyright (excluding software) taxable only in residence State; equipment rentals max 5%; patents/trademarks/software/know-how max 10% (treated here as the general royalty rate). Dividends Art. 10(3): government bodies (Norges Bank, Petroleum Fund etc.) exempt. MLI art. 8 does not apply (Czech Republic reserved art. 8(3)(a)). Replaced the 1979 Czechoslovakia-Norway convention. MLI WHT effect 2021-01-01 per map.json.",
+ "confidence": "high",
+ "unverified": []
+}

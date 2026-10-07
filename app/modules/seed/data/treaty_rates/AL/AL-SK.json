@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "SK",
+ "treaty_name": "Agreement between the Government of the Slovak Republic and the Council of Ministers of the Republic of Albania for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance (2023)",
+ "signed": "2023-05-30",
+ "entry_into_force": "2024-04-01",
+ "eif_source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/17/20240220.html",
+ "eif_quote": "\"30. mája 2023 bola v Bratislave podpísaná Zmluva ... Zmluva nadobudne platnosť 1. apríla 2024 v súlade s článkom 27.\" || Art. 27: \"Ustanovenia tejto zmluvy potom nadobudnú účinnosť v oboch zmluvných štátoch a) v prípade daní vyberaných zrážkou pri zdroji na príjmy vyplatené alebo pripísané od 1. januára kalendárneho roka nasledujúceho po roku, v ktorom táto zmluva nadobudla platnosť\"",
+ "source_title": "Zbierka zákonov SR 17/2024 (Oznámenie MZVaEZ) with Slovak text of the SK-AL Agreement; cross-checked with Albanian Ligj 73/2023 (tatime.gov.al)",
+ "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/17/20240220.html ; https://www.tatime.gov.al/shkarko.php?id=14358",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2025-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 5 % hrubej sumy dividend, ak skutočným vlastníkom je spoločnosť (iná ako osobná obchodná spoločnosť), ktorá priamo vlastní najmenej 10 % majetku spoločnosti vyplácajúcej dividendy počas obdobia 365 dní, ktoré zahŕňa deň výplaty dividend (na účely výpočtu tohto obdobia sa neprihliada na zmeny vlastníctva, ktoré by priamo vyplývali z reorganizácie podniku, ako napríklad zlúčenie alebo rozdelenie spoločnosti, ktorý má v držbe akcie alebo ktorý vypláca dividendy);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 8 % hrubej sumy dividend vo všetkých ostatných prípadoch."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Úroky majúce zdroj v jednom zmluvnom štáte sa môžu zdaniť aj v tomto zmluvnom štáte podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník úrokov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 10 % hrubej sumy úrokov."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2025-01-01",
+   "max_rate": "8",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Licenčné poplatky majúce zdroj v jednom zmluvnom štáte sa môžu zdaniť aj v tomto zmluvnom štáte podľa právnych predpisov tohto zmluvného štátu, ak je však skutočný vlastník licenčných poplatkov rezidentom druhého zmluvného štátu, daň takto stanovená nepresiahne 8 % hrubej sumy licenčných poplatkov."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2025-01-01",
+  "basis": "treaty art. 26",
+  "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2024/17/20240220.html",
+  "quote": "Článok 26 Zabránenie zneužívania zmluvy: Ak je možné usúdiť, a to s ohľadom na všetky relevantné skutočnosti a okolnosti, že získanie výhody zo zmluvy bolo jedným z hlavných účelov akéhokoľvek opatrenia alebo akejkoľvek transakcie priamo alebo nepriamo vedúcich k tejto výhode, táto výhoda bez ohľadu na ktorékoľvek iné ustanovenia zmluvy, nebude poskytnutá vo vzťahu k časti príjmu, pokiaľ sa nepreukáže, že poskytnutie tejto výhody v danej situácii by bolo v súlade s účelom a cieľom príslušných ustanovení zmluvy."
+ },
+ "notes": "Art. 11(3): interest beneficially owned by the governments, local authorities, central banks and (Slovakia) Eximbanka SR, Slovenská záručná a rozvojová banka, Agentúra pre riadenie dlhu a likvidity is exempt at source - not modelled. Royalty definition includes software and use of industrial/commercial/scientific equipment. Holding period of 365 days is in the treaty itself. Not MLI-covered (new treaty). Slovak and Albanian texts agree on rates (AL Ligj 73/2023: 5%/10%/365 days, 8%, 10%, 8%).",
+ "confidence": "high",
+ "unverified": []
+}

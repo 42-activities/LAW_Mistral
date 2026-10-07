@@ -1,0 +1,56 @@
+{
+ "a": "CN",
+ "b": "US",
+ "treaty_name": "Agreement between the Government of the United States of America and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Tax Evasion with respect to Taxes on Income (1984, with Protocol 1984 and Protocol 1986)",
+ "signed": "1984-04-30",
+ "entry_into_force": "1986-11-21",
+ "eif_source_url": "https://www.irs.gov/pub/irs-trty/china.pdf",
+ "eif_quote": "Instruments of Ratification Exchanged on October 22,1986; Entered into Force on January 1, 1987. GENERAL EFFECTIVE DATE UNDER ARTICLE 27: 1 JANUARY 1987 | Art. 27: \"The Agreement shall enter into force on the thirtieth day after the date of the latter of such notifications and shall take effect as respects income derived during taxable years beginning on or after the first day of January next following the date on which this Agreement enters into force.\"",
+ "source_title": "IRS: United States - People's Republic of China Income Tax Convention (1984) with Protocols of 1984 and 1986 (English authentic text)",
+ "source_url": "https://www.irs.gov/pub/irs-trty/china.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 9(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 percent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 10(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest, the tax so charged shall not exceed 10 percent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (US not an MLI signatory); treaty has LOB in Protocol 1984 para. 7 as interpreted by Protocol 1986",
+  "source_url": "https://www.irs.gov/pub/irs-trty/china.pdf",
+  "quote": "Paragraph 1 shall not apply if the establishment, acquisition and maintenance of such person and the conduct of its operations did not have as a principal purpose the purpose of obtaining benefits under the Agreement. (Protocol of 10 May 1986, para. 2 - part of the LOB test, not a stand-alone PPT)"
+ },
+ "notes": "Interest: Art. 10(3) exempts interest derived by the other State's government, political subdivisions, local authorities, Central Bank or wholly government-owned financial institutions, and interest on debt-claims indirectly financed by them (not modelled). Royalties: Protocol 1984 para. 6 - for rental of industrial, commercial or scientific equipment the tax is imposed on 70% of the gross royalty (effective 7%). Limitation on benefits: Protocol 1984 para. 7 / Protocol 1986 (ownership/base-erosion and listed-company tests). EIF: STA treaty list gives 1986-11-21 (30th day after exchange of instruments on 1986-10-22); IRS header line states 'Entered into Force on January 1, 1987', which is the general effective date. US is not an MLI signatory.",
+ "confidence": "high",
+ "unverified": []
+}

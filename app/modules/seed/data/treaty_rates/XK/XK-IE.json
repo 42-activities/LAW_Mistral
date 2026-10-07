@@ -1,0 +1,69 @@
+{
+ "a": "XK",
+ "b": "IE",
+ "treaty_name": "Agreement between the Republic of Kosovo and Ireland for the elimination of double taxation with respect to taxes on income and the prevention of tax evasion and avoidance, with Protocol (2021)",
+ "signed": "2021-06-25",
+ "entry_into_force": "2022-02-24",
+ "eif_source_url": "https://www.revenue.ie/en/tax-professionals/tax-agreements/double-taxation-treaties/index.aspx",
+ "eif_quote": "[Revenue, via map.json] \"Ireland and Kosovo signed a DTA on 25 June 2021. The DTA came into force on 24 February 2022. Its provisions began to take effect on 1 January 2023.\" || [Art. 30(1)(a)(i)] in respect of taxes withheld at source, to income derived on or after the first day of January in the calendar year next following the year in which the Agreement enters into force",
+ "source_title": "Revenue (Ireland): Kosovo DTA text (kosovo.pdf), English, signed London 25 June 2021",
+ "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/k/kosovo.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "(a) 5% of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10% of the voting power of the company paying the dividends throughout a 365 day period that includes the day of the payment of the dividend (...)"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 10% of the gross amount of the dividends in all other cases, except as provided for in subparagraph (c);"
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2023-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2023-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "treaty art. 29(1) (Entitlement to benefits - principal purpose test)",
+  "source_url": "https://www.revenue.ie/en/tax-professionals/documents/double-taxation-treaties/k/kosovo.pdf",
+  "quote": "1. Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Dividend 5% tier threshold is 10% of the VOTING POWER (not capital) held for 365 days. Art. 10(2)(c): 15% for dividends paid by a REIT - not modelled as a plain tier. Art. 10(3): dividends to the other Government exempt. Interest taxable only in residence State (Art. 11(3)) when paid to Government/political subdivision/local authority/Central Bank, Kosovo Treasury, Irish NTMA, State-owned bodies agreed by competent authorities, to or by a financial institution, on credit sales, or to a tax-exempt pension fund - not modelled. Ireland effective date: Art. 30(1)(b) is framed by tax year (income tax/corporation tax from 1 Jan 2023); Revenue states provisions take effect 1 Jan 2023. ATK summary table shows dividends 10/15% (conflict with text: 5%/10%, 15% REIT); ATK \"in force\" column 04.03.2022 vs Revenue 24.02.2022 (used). Kosovo is not an MLI party; treaty-own PPT Art. 29.",
+ "confidence": "high",
+ "unverified": [
+  "revenue.ie index page quote taken from map.json (not re-read this round)"
+ ]
+}

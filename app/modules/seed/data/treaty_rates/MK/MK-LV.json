@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "LV",
+ "treaty_name": "Agreement between the Republic of Macedonia and the Republic of Latvia for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (2006)",
+ "signed": "2006-12-08",
+ "entry_into_force": "2007-04-25",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 28(1): This Agreement shall enter into force on the date of the later of the notifications and its provisions shall have effect in both Contracting States: a) in respect of taxes withheld at source, on income derived on or after the first day of January in the calendar year next following the year in which the Agreement enters into force; | UJP table: Latvia | 47/2007 | 25.04.2007 | 01.01.2008",
+ "source_title": "UJP English text of the MK-Latvia agreement (19Latvia.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/19Latvia.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 5 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 5 per cent of the gross amount of the royalties in all other cases."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Royalties: Art. 12(2)(a) allows 10% on royalties for the use of, or the right to use, cinematograph films and films or tapes for radio or television broadcasting; 5% (modelled) in all other cases. Interest Art. 11(3): (a) interest to the Government, local authorities, Central Bank, wholly-owned financial institutions or on government-guaranteed loans exempt; (b) interest on credit sales of industrial/commercial/scientific equipment between unrelated enterprises exempt (not modelled).",
+ "confidence": "high",
+ "unverified": []
+}

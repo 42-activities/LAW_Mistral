@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "FI",
+ "treaty_name": "Convention between the Republic of Finland and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1986), applied between Finland and Bosnia and Herzegovina by succession",
+ "signed": "1986-05-08",
+ "entry_into_force": "1987-12-18",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/1987/60 ; https://www.vero.fi/en/About-us/finnish-tax-administration/legislation/tax-treaties/ ; https://mft.gov.ba/Content/OpenAttachment?id=329dde44-517a-437d-a60c-548c8f28505c&lang=hr",
+ "eif_quote": "[Finlex SopS 60/1987] ... jonka hyväksymistä koskevat nootit on vaihdettu 18 päivänä marraskuuta 1987, tulee voimaan 18 päivänä joulukuuta 1987 niin kuin siitä on sovittu. || Art. 27(2): Ugovor stupa na snagu trideset dana od datuma kasnijeg obavještenja iz stava 1, a njegove odredbe se primjenjuju: ... b) u Finskoj: (i) u odnosu na poreze po obustavi na dohodak ostvaren prvog januara ili nakon prvog januara kalendarske godine koja neposredno slijedi godinu u kojoj Ugovor stupa na snagu.",
+ "source_title": "BiH Ministry of Finance and Treasury: Ugovor SFRJ–Republika Finska (Službeni list SFRJ – Međunarodni ugovori 8/87), Bosnian text; MLI combined text BiH–Finland; Finlex SopS 60/1987 (EIF)",
+ "source_url": "https://mft.gov.ba/Content/OpenAttachment?id=329dde44-517a-437d-a60c-548c8f28505c&lang=hr ; https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/BiH_-_Finska_-_bos._verzija.docx_kona%C4%8Dno.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1988-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 posto od bruto – iznosa dividendi ako je primalac društvo (izuzimajući partnerstvo) koje direktno ima najmanje 25 odsto kapitala društva koje isplaćuje dividende,"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1988-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 posto od bruto – iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1988-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Kamata koja nastaje u državi ugovornici i isplaćena je rezidentu druge države ugovornice oporezuje se samo u toj drugoj državi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1988-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Autorske naknade iz stavka 1. ovog članka mogu se oporezivati i u državi ugovornici u kojoj nastaju, u skladu sa zakonima te države, ali tako razrezan porez ne može preći 10 posto od bruto - iznosa autorskih naknada."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/BiH_-_Finska_-_bos._verzija.docx_kona%C4%8Dno.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "SFRY treaty applied by succession: Finnish Tax Administration list \"The tax treaty between Finland and former Yugoslavia (SopS 60/1987) is applicable to international tax situations where Croatia, Bosnia-Hertsegovina, Montenegro, Kosovo or Serbia is involved with Finland\"; Finland MLI position lists \"Socialist Federal Republic of Yugoslavia (Bosnia and Herzegovina)\". Finlex page gives only headings/EIF (article bodies not rendered as text), so rates were read from the official BiH MoF Bosnian text and MLI combined text. Protocol No. 2 (to Art. 11): exclusive residence taxation of interest is premised on neither State taxing interest paid to non-residents; States to negotiate if that changes (no amendment known). MLI Art. 8 not applicable (BiH reserved).",
+ "confidence": "high",
+ "unverified": [
+  "Finnish-language article texts not cross-checked"
+ ]
+}

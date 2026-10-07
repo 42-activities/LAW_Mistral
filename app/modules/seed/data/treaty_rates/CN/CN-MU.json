@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "MU",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Government of the Republic of Mauritius for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1994, as amended 2006, modified by the MLI)",
+ "signed": "1994-08-01",
+ "entry_into_force": "1995-05-04",
+ "eif_source_url": "https://www.mra.mu/download/PeoplesRepublicofChina.pdf",
+ "eif_quote": "Art. 28: \"This Agreement shall enter into force on the thirtieth day after the date on which diplomatic notes indicating the completion of internal legal procedures ... have been exchanged. This Agreement shall have effect: (a) in China, as respects income derived during the taxable years beginning on or after the first day of January next following that in which this Agreement enters into force.\" (EIF date 1995-05-04 from STA treaty list via map.json)",
+ "source_title": "MRA: Synthesised text of the MLI and the China-Mauritius DTA (1994 as amended by 2006 Protocol), prepared with both competent authorities",
+ "source_url": "https://www.mra.mu/download/PeoplesRepublicofChina.pdf ; https://www.mra.mu/download/ChinaProtocol.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 5 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mra.mu/download/PeoplesRepublicofChina.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Interest: Art. 11(3) exempts interest derived by the other State's Government, local authority, Central Bank or wholly government-owned/agreed financial institutions and on debt-claims indirectly financed by them (not modelled). Dividends: single 5% cap, no holding threshold, so MLI Art. 8 is irrelevant. 2006 Protocol (in force 2007-01-25) amended Arts. 13 and 26 only. valid_from 1996-01-01 = China-side effective date (Art. 28(a)); in Mauritius effect from income years beginning on/after 1 July following EIF. MLI WHT effect in China from 2023-01-01 (synthesised text disclaimer; map.json).",
+ "confidence": "high",
+ "unverified": [
+  "EIF date 1995-05-04 taken from map.json (STA list), not stated in the MRA text"
+ ]
+}

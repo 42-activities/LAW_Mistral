@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "CH",
+ "treaty_name": "Abkommen zwischen der Schweizerischen Eidgenossenschaft und dem Königreich Norwegen zur Vermeidung der Doppelbesteuerung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen (1987, as amended by protocols of 2005, 2009, 2015 and 2019)",
+ "signed": "1987-09-07",
+ "entry_into_force": "1989-05-02",
+ "eif_source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1356_1356_1356/20201026/de/html/fedlex-data-admin-ch-eli-cc-1989-1356_1356_1356-20201026-de-html-3.html",
+ "eif_quote": "Abgeschlossen am 7. September 1987 ... Ratifikationsurkunden ausgetauscht am 2. Mai 1989 In Kraft getreten am 2. Mai 1989 | Art. 29(2)(a): hinsichtlich der an der Quelle erhobenen Steuern auf die Beträge, die am oder nach dem ersten Tag des Kalenderjahres, das auf das Inkrafttreten des Abkommens folgt, an nicht ansässige Personen gezahlt oder gutgeschrieben werden | Prot. 31 Aug. 2009 (in Kraft seit 22. Dez. 2010) Art. VII(2)(a): in Bezug auf Artikel 10 Absatz 2 des Abkommens auf Dividenden, die am oder nach dem 1. Januar des auf das Inkrafttreten dieses Protokolls folgenden Jahres fällig werden",
+ "source_title": "Fedlex SR 0.672.959.81, consolidated German text as of 2020-10-26 (DBA Schweiz-Norwegen incl. protocols 2005, 2009, 2015, 2019)",
+ "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1356_1356_1356/20201026/de/html/fedlex-data-admin-ch-eli-cc-1989-1356_1356_1356-20201026-de-html-3.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Art. 10 Abs. 2 Satz 2 (Fassung Prot. 2009)",
+   "valid_from": "2011-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Diese Dividenden sind jedoch von der Steuer im erstgenannten Staat befreit, wenn der Nutzungsberechtigte eine Gesellschaft (jedoch keine Personengesellschaft) ist, die unmittelbar über mindestens 10 Prozent des Kapitals der die Dividenden zahlenden Gesellschaft verfügt."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Art. 10 Abs. 2 Satz 1",
+   "valid_from": "2011-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Diese Dividenden können jedoch auch in dem Vertragsstaat, in dem die die Dividenden zahlende Gesellschaft ansässig ist, nach dem Recht dieses Staates besteuert werden; die Steuer darf aber, wenn der Nutzungsberechtigte der Dividenden eine im anderen Vertragsstaat ansässige Person ist, 15 Prozent des Bruttobetrags der Dividenden nicht übersteigen."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Art. 11 Abs. 1",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Zinsen, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können, wenn diese Person der Nutzungsberechtigte ist, nur im anderen Staat besteuert werden."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Art. 12 Abs. 1",
+   "valid_from": "1990-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Lizenzgebühren, die aus einem Vertragsstaat stammen und an eine im anderen Vertragsstaat ansässige Person gezahlt werden, können, wenn diese Person der Nutzungsberechtigte ist, nur im anderen Staat besteuert werden."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "treaty art. 28a (inserted by Protocol of 20 June 2019, Art. V)",
+  "source_url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1989/1356_1356_1356/20201026/de/html/fedlex-data-admin-ch-eli-cc-1989-1356_1356_1356-20201026-de-html-3.html",
+  "quote": "Ungeachtet der übrigen Bestimmungen dieses Abkommens wird ein Vorteil nach diesem Abkommen nicht für bestimmte Einkünfte oder Vermögenswerte gewährt, wenn unter Berücksichtigung aller massgeblichen Tatsachen und Umstände die Feststellung gerechtfertigt ist, dass der Erhalt dieses Vorteils einer der Hauptzwecke einer Gestaltung oder Transaktion war, die unmittelbar oder mittelbar zu diesem Vorteil geführt hat; ... | Prot. 2019 Art. VII(1)(a): hinsichtlich der an der Quelle erhobenen Steuern auf Einkünfte, die am oder nach dem 1. Januar des auf das Inkrafttreten dieses Protokolls folgenden Kalenderjahres gezahlt oder gutgeschrieben werden [in Kraft seit 26. Okt. 2020]"
+ },
+ "notes": "Dividend exemption at >=10% direct capital holding introduced by the 2009 Protocol (in force 2010-12-22) for dividends due on/after 2011-01-01; the 2005 Protocol had earlier given an exemption at >=20% (dividends due from 2005). Art. 10(3): government (Norges Bank, Petroleum Fund, Swiss National Bank, state bodies) exempt. Interest and royalties exclusive to residence State since the 1987 convention took effect (1990-01-01). Lovdata (traktat 1987-09-07-2) carries metadata only; text read from Fedlex. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

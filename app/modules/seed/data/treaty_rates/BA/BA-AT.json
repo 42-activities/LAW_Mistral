@@ -1,0 +1,69 @@
+{
+ "a": "BA",
+ "b": "AT",
+ "treaty_name": "Convention between the Republic of Austria and Bosnia and Herzegovina for the avoidance of double taxation with respect to taxes on income and on property (2010)",
+ "signed": "2010-12-16",
+ "entry_into_force": "2012-01-01",
+ "eif_source_url": "https://www.bmf.gv.at/themen/steuern/internationales-steuerrecht/doppelbesteuerungsabkommen/dba-liste.html ; https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/Austrija_bos.pdf",
+ "eif_quote": "[AT list] Bosnien und Herzegowina Unterzeichnung 16.12.2010 Inkrafttreten 1.1.2012 | Art. 28(2): Ova Konvencija će stupiti na snagu prvog dana trećeg mjeseca nakon razmjene instrumenata ratifikacije. (3) Njene odredbe će važiti za poreze za svaku fiskalnu godinu počevši od ili nakon prvog dana januara kalendarske godine nakon razmjene ratifikacionih instrumenata.",
+ "source_title": "BiH Ministry of Finance and Treasury: Kombinovani tekst MLI i Konvencije BiH–Austrija (Bosnian); Convention published in Službeni glasnik BiH – Međunarodni ugovori 7/11",
+ "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/Austrija_bos.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 % od bruto iznosa dividendi, ako je korisnik kompanija (koja nije partnerstvo) i koja direktno posjeduje barem 25 % kapitala kompanije koja daje dividende;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 % od bruto iznosa dividendi u svim drugim slučajevima."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Međutim, takva se kamata također može oporezovati u ugovornoj državi u kojoj nastane i u skladu sa zakonima te države, ali ako je vlasnik kamate predstavnik druge ugovorne države, propisani porez neće prevazići 5 % od bruto iznosa kamate."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(2) Međutim, takav honorar se također može oporezovati u ugovornoj državi u kojoj nastane i u skladu sa zakonima te države, ali ako je primalac honorara predstavnik druge ugovorne države, takav porez neće preći 5% od ukupnog bruto iznosa honorara."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.mft.gov.ba/data/Datoteke/PDF/Fiskala%20sporazumi/MLA%20novi/Austrija_bos.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-austria-consolidated.pdf",
+  "quote": "Izuzetno od odredbi ove Konvencije, olakšica iz ove Konvencije ne odobrava se u odnosu na dio dohotka ili imovine, ako se osnovano može zaključiti, uzimajući u obzir sve relevantne činjenice i okolnosti, da je sticanje olakšica bio jedan od osnovnih razloga bilo kojeg aranžmana ili transakcije koji su direktno ili indirektno rezultirali tom pogodnošću, osim ako se ustanovi da bi odobravanje te olakšice u tim okolnostima bilo u skladu sa ciljem i svrhom odgovarajućih odredaba ovog Sporazuma."
+ },
+ "notes": "Interest Art. 11(3): taxable only in residence State where paid in connection with credit sales of industrial, commercial or scientific equipment, credit sales of goods between enterprises, or on loans granted/secured/guaranteed by the State or central bank (Protocol point 2 extends this to loans covered by Oesterreichische Kontrollbank AG or the BiH export credit agency) — not modelled. EIF conflict resolved: the BiH MLI list date 26-10-2011 is consistent with the exchange of ratification instruments (EIF 'first day of the third month' after exchange = 01.01.2012, Austrian list); Art. 28(3) applies the Convention from 1 January of the year after the exchange, i.e. 2012-01-01. MLI: Austria added this treaty to its covered list only by an Art. 29(5) extension (item 46 in Austria's consolidated position deposited 28 Aug 2023), so the MLI (PPT) has effect for withholding taxes from 01.01.2024 per the BiH MoF combined text ('u odnosu na poreze po odbitku ... 01. januara ili poslije 01. januara 2024. godine'); this CONFLICTS with map.json mli_wht_effective 2021-01-01 (used 2024-01-01). BiH reserved MLI Art. 8 entirely. Quotes are from the official BiH Bosnian translation (English text prevails per testimonium).",
+ "confidence": "high",
+ "unverified": [
+  "Austrian RIS/BGBl text not read; rates taken from the BiH MoF Bosnian text"
+ ]
+}

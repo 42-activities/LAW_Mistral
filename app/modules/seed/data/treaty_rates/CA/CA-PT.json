@@ -1,0 +1,78 @@
+{
+ "a": "CA",
+ "b": "PT",
+ "treaty_name": "Convention between the Government of Canada and the Government of the Portuguese Republic for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1999, with Protocol; modified by MLI)",
+ "signed": "1999-06-14",
+ "entry_into_force": "2001-10-24",
+ "eif_source_url": "https://www.treaty-accord.gc.ca/details.aspx?lang=eng&id=103231",
+ "eif_quote": "Treaty-accord (Canada Treaty Series 2001/27): \"Entry into Force 24 October 2001\"; Signature \"14 June 1999\"",
+ "source_title": "Income Tax Conventions Implementation Act, 1999, Schedule 5 - Canada-Portugal Convention and Protocol (Justice Laws consolidated text)",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/I-3.54/FullText.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(i) (as modified by MLI art. 8(1))",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": "CA",
+   "quote": "(a) (i) in the case of dividends paid by a company that is a resident of Canada, except in the case of dividends paid by a non-resident-owned investment corporation, 10 per cent of the gross amount of the dividends if the beneficial owner is a company that is a resident of Portugal and that controls directly or indirectly at least 25 per cent of the voting power in the company paying the dividends; [MLI art. 8(1): 365-day holding period, effective for WHT from 2021-01-01]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)(ii)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 730,
+   "source_state": "PT",
+   "quote": "(ii) in the case of dividends paid by a company that is a resident of Portugal, 10 per cent of the gross amount of the dividends if the beneficial owner is a company that is a resident of Canada and that, for an uninterrupted period of 2 years prior to the payment of the dividends owns at least 25 per cent of the capital (capital social) of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "(b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2002-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://laws-lois.justice.gc.ca/eng/acts/M-12.8/FullText.html ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf",
+  "quote": "1 Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude; having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Art. 28(2): Convention entered into force 30 days after exchange of ratification instruments; effective in Canada for tax withheld at source on amounts paid or credited on or after 1 January of the following year (EIF 2001-10-24 -> 2002-01-01); same date in Portugal. EIF: treaty-accord says 24 October 2001 (= map); no Canada Gazette note for Part 5 in the implementing Act. Dividend 10% tiers are direction-specific: (a)(i) Canadian-resident payer (not a non-resident-owned investment corporation), Portuguese company controlling directly or indirectly >=25% of the voting power (voting test recorded as ownership_threshold 25); (a)(ii) Portuguese-resident payer, Canadian company owning >=25% of the capital for an uninterrupted 2-year period before payment (recorded as min_holding_days 730, which exceeds the MLI 365-day rule). MLI art. 8 applies to Art. 10(2)(a)(i) and (ii): Canada notified \"62 Portugal Article 10(2)(a)(i) and (ii)\", Portugal notified \"10 Canada Article 10(2)(a)(i)\" and \"(ii)\"; effective 2021-01-01. Not modelled: Art. 11(3) exemptions (government debtor, governments/inter-governmental financing, EDC/COSEC loans); Art. 10(6) branch tax. Protocol para. 8: technical assistance related to Art. 12(3) rights treated as royalties. Art. 27(3): tax-free-zone entities (e.g. Madeira) deemed non-resident, with exceptions.",
+ "confidence": "high",
+ "unverified": []
+}

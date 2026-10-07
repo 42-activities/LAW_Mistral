@@ -1,0 +1,70 @@
+{
+ "a": "AL",
+ "b": "RO",
+ "treaty_name": "Convention between the Government of Romania and the Government of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1994)",
+ "signed": "1994-05-11",
+ "entry_into_force": "1995-10-20",
+ "eif_source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.tatime.gov.al/c/6/125/marreveshje-nderkombetare",
+ "eif_quote": "[RO MLI list] Albania Original 11-05-1994 20-10-1995 || [AL MLI list] Romania Original 11-05-1994 18-10-1994 || [AL DPT list] RUMANI, Ligj 7857 26.01.1994, me efekte nga data 01.01.1995 || Art. 30(2): \"Konventa do te hyje ne fuqi me shkembimin e instrumentave te ratifikimit dhe dispozitat e saj do te kene efekt lidhur me te ardhurat e realizuara ose kapitalin e zoteruar me ose pas dites se pare te Janarit te vitit kalendarik qe ndjek ate te hyrjes ne fuqi te Konventes.\"",
+ "source_title": "Albanian text of the AL-RO Convention (Bucharest, 11 May 1994), DPT/tatime.gov.al download",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=369",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 10 perqind te shumes bruto te dividenteve nese pronari perfitues eshte nje kompani (jo ortakeri) qe zoteron direkt te pakten 25 perqind te kapitalit te kompanise paguese te dividenteve;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 perqind te shumes bruto te dividenteve ne te gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithate, keto interesa mund te tatohen edhe ne Shtetin Kontraktues ku ato krijohen dhe ne perputhje me ligjet e ketij Shteti, por kur marresi eshte pronari perfitues i interesave tatimi i zbatuar nuk duhet te kaloje 10 perqind te shumes bruto te interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1996-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Megjithate, keto te ardhura mund te tatohen gjithashtu ne Shtetin Kontraktues ku krijohen dhe ne perputhje me ligjet e ketij Shteti, por nese marresi eshte pronari perfitues i honorareve, tatimi i ngarkuar nuk duhet te kaloje 15 perqind te shumes bruto te honorarit."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2024-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-romania-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-notification-article-35-7-b-romania.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [Romania reserved Art. 35(7)(a); its 35(7)(b) notification for Albania was received 06-03-2023 -> WHT effect 2024-01-01]"
+ },
+ "notes": "MLI Art. 8(1) applies: Albania and Romania both notified Art. 10(2)(a) under Art. 8(4); the reduced rate requires the shares to be held throughout a 365-day period that includes the day of payment, with effect for WHT from 2024-01-01 (before that date the tier had no holding period). Romania's Art. 8(3)(b)(iii) reservation covers only provisions with a holding period longer than 365 days and does not list Albania. Royalties are in Art. 13; Art. 12 is a separate \"commissions\" article (15% cap on commissions paid to brokers/general commission agents) - not modelled. Art. 11(3)-(4): interest derived by the other State's Government (incl. local authorities, central bank, Banka Kombetare Tregtare / Eximbank of Romania, wholly government-owned institutions agreed) exempt at source - not modelled. Entry into force conflict: Romania's MLI list 20-10-1995 (used, -> effect 1996-01-01); Albania's MLI list 18-10-1994 and DPT list effect 01.01.1995 (would give 1995-01-01).",
+ "confidence": "medium",
+ "unverified": [
+  "Entry-into-force date (1995-10-20 vs 1994-10-18) and hence valid_from (1996-01-01 vs 1995-01-01) not confirmed from an exchange-of-instruments notice",
+  "Romanian/English text not read; Albanian text only"
+ ]
+}

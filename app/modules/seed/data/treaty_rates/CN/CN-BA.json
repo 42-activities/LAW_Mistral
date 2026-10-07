@@ -1,0 +1,58 @@
+{
+ "a": "CN",
+ "b": "BA",
+ "treaty_name": "Agreement between the Government of the People's Republic of China and the Federal Executive Council of the Assembly of the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1988), applied to Bosnia and Herzegovina by succession",
+ "signed": "1988-12-02",
+ "entry_into_force": "1989-12-16",
+ "eif_source_url": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1531876630437",
+ "eif_quote": "[MFA treaty database] 条约生效时间： 1989.12.16 ... 我国签署时间： 1988.12.02 ... 其他： 根据2002年1月28日及2013年12月3日，中国与波斯尼亚和黑塞哥维那分别通过换文达成协议，该条约在中国与波黑之间继续有效。 || Art. 28: ... its provisions shall have effect in respect of the taxes on income and on capital for each taxable year beginning on or after the first day of January in the calendar year following that in which the diplomatic notes have been exchanged.",
+ "source_title": "China MFA Treaty Database - English text of the China-SFRY Agreement (1988)",
+ "source_url": "https://treaty.mfa.gov.cn/tykfiles/20180718/1531876630467.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Dividends referred to in paragraph 1 of this Article may also be taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the dividends the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which it arises and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties referred to in paragraph 1 of this Article may also be taxed in the Contracting State in which they arise and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-bosnia-and-herzegovina-instrument-deposit.pdf",
+  "quote": "[MLI Art. 7(1)] Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Succession: MFA treaty database note - by exchanges of notes of 28 January 2002 and 3 December 2013 China and Bosnia and Herzegovina agreed that the SFRY treaty continues in force between them (also STA list note per map.json). No government-interest exemption in Art. 11; no protocol. valid_from 1990-01-01 assumes the notes were exchanged in 1989 (EIF 1989-12-16 = 30th day after exchange). MLI: covered by both (China list No.21 'Yugoslavia (Bosnia and Herzegovina)'; BiH deposit position No.6); BiH reserved Art. 8 entirely (Art. 8(3)(a)); no Art. 35(7) reservation found; WHT effect 2023-01-01 per map.json.",
+ "confidence": "high",
+ "unverified": [
+  "MLI WHT effective date from map.json; STA synthesised text not consulted."
+ ]
+}

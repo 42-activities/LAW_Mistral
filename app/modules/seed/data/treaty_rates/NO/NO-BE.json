@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "BE",
+ "treaty_name": "Convention between the Kingdom of Norway and the Kingdom of Belgium for the avoidance of double taxation with respect to taxes on income and the prevention of fiscal evasion (2014)",
+ "signed": "2014-04-23",
+ "entry_into_force": "2018-04-26",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2014-04-23-4",
+ "eif_quote": "Avtalens ikrafttredelsesdato 26-04-2018 | Art. 28(2)(a): for skatter forfalt ved kilden, på inntekt som er kreditert eller betalbar på eller etter 1. januar året etter det år overenskomsten trådte i kraft",
+ "source_title": "Lovdata traktat 2014-04-23-4: Overenskomst mellom Norge og Belgia (Norwegian text)",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2014-04-23-4",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2019-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "3. Uansett bestemmelsene i de foregående punkter i denne artikkel, skal utbytte ikke skattlegges i den avtalestat hvor det utdelende selskap er hjemmehørende, hvis den virkelige rettighetshaver av utbyttet er: a. et selskap som er hjemmehørende i den annen avtalestat og som eier, i en uavbrutt periode på minst 12 måneder, aksjer som representerer direkte minst 10 prosent av kapitalen i det selskap som utbetaler utbyttet;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2019-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av utbyttets bruttobeløp i alle andre tilfeller."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2019-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Slike renter kan imidlertid også skattlegges i den avtalestat hvor renten skriver seg fra og i henhold til denne stats lovgivning, men dersom den virkelige rettighetshaver av rentene er hjemmehørende i den annen avtalestat, skal den skatt som ilegges ikke overstige 10 prosent av brutto renteinntekter."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2019-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalty som skriver seg fra en avtalestat og utbetales til en person bosatt i den annen avtalestat, skal, dersom denne personen er den virkelige rettighetshaver av royaltyen, bare kunne skattlegges i denne stat."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no general PPT; MLI not applicable to this pair). Article-level main-purpose rules in Arts. 10(8), 11(8), 12(5), 21(4)",
+  "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2014-04-23-4",
+  "quote": "8. Det kan ikke kreves nedsettelser etter denne artikkel dersom hovedformålet eller et av hovedformålene til noen person knyttet til stiftelsen eller tildelingen av aksjer eller andre rettigheter som utbyttet betales i anledning av, var å oppnå fordelene i artikkelen ved denne stiftelsen eller tildelingen."
+ },
+ "notes": "Dividends: 0% requires an uninterrupted 12-month holding of >=10% capital (recorded as 365 days); Art. 10(2)(a) 5% for pension funds and Art. 10(3)(b)-(c) exemption for States/central banks/GPFG etc. not modelled. Interest Art. 11(3): exempt where beneficially owned by a State/local authority/institution, on commercial credit for goods/equipment/services, on loans of any kind granted by a banking enterprise (not bearer bonds), on any credit or loan granted by one enterprise to another, and interest paid to pension funds - so most intercompany interest is in practice exempt; only the general 10% cap is modelled. Protocol signed 2021-09-08 is NOT in force (Lovdata: 'Avtalen er ikke i kraft'). Replaced the 1988 convention. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": []
+}

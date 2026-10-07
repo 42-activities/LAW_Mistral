@@ -1,0 +1,67 @@
+{
+ "a": "MK",
+ "b": "AT",
+ "treaty_name": "Agreement between the Republic of Austria and the Republic of Macedonia for the avoidance of double taxation and for the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2007)",
+ "signed": "2007-09-10",
+ "entry_into_force": "2008-01-20",
+ "eif_source_url": "https://ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2008_III_9/BGBLA_2008_III_9.html",
+ "eif_quote": "BGBl. III Nr. 9/2008: Die ... Ratifikationsurkunde wurde am 21. Dezember 2007 ausgetauscht; das Abkommen tritt gemäß seinem Art. 27 Abs. 2 am 20. Jänner 2008 in Kraft. | Art. 27(2): The Agreement shall enter into force on the 30th day next following the day on which the exchange of instruments of ratification takes place and its provisions shall have effect in respect of taxes for any fiscal year beginning on or after the 1st of January of the calendar year following that in which the exchange of instruments of ratification takes place.",
+ "source_title": "RIS BGBl. III Nr. 9/2008, English authentic text annex (COO_2026_100_2_410676) - English prevails",
+ "source_url": "https://ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2008_III_9/COO_2026_100_2_410676.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) If the beneficial owner is a company (other than a partnership) which holds directly at least 10 per cent of the capital of the company paying the dividends, such dividends shall be taxable only in the Contracting State of which the beneficial owner of the dividends is a resident."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2008-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2008-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "Not on the UJP download list (no MK-hosted PDF); text taken from the Austrian Federal Law Gazette. Application: ratification instruments exchanged 21.12.2007, so effect for fiscal years from 01.01.2008 (matches UJP table 'Date of application 01.01.2008' although EIF is 20.01.2008). Protocol contains no WHT changes.",
+ "confidence": "high",
+ "unverified": []
+}

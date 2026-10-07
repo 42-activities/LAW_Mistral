@@ -1,0 +1,69 @@
+{
+ "a": "AL",
+ "b": "DE",
+ "treaty_name": "Agreement between the Republic of Albania and the Federal Republic of Germany for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2010)",
+ "signed": "2010-04-06",
+ "entry_into_force": "2011-12-23",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+ "eif_quote": "[AL MLI] Germany Original 06-04-2010 23-12-2011 || [DE BMF list] Albanien 06.04.2010 2011 1186 2012 292 ... 01.01.2012 || Art. 32(2): Marrëveshja do të hyjë në fuqi ditën e shkëmbimit të instrumenteve të ratifikimit dhe do të ketë fuqi në të dyja shtetet kontraktuese: a) në rast të taksave të mbajtura në burim, në lidhje me shumat e paguara në ose pas datës 1 janar të vitit kalendarik vijues, duke ndjekur atë në të cilin Marrëveshja ka hyrë në fuqi;",
+ "source_title": "Ligj Nr. 10 287, datë 10.6.2010 ratifying the Albania-Germany Agreement (Albanian authentic text), DPT copy",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=347",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 për qind të sasisë bruto të dividendëve nëse pronari përfitues është një kompani (e ndryshme nga një ortakëri), që zotëron në mënyrë të drejtpërdrejtë të paktën 25 për qind të kapitalit të kompanisë që paguan dividendët;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 për qind të sasisë bruto të dividendëve në të gjitha rastet e tjera."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, ky interes mund edhe të tatohet në shtetin kontraktues në të cilin ai nxirret dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i interesit është rezident i shtetit tjetër kontraktues, taksa e vendosur nuk do të tejkalojë 5 për qind të shumës bruto të interesit."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Megjithatë, të ardhurat nga të drejtat e autorit mund të tatohen gjithashtu në shtetin kontraktues në të cilin ato lindin dhe sipas ligjeve të atij shteti, por nëse pronari përfitues i të ardhurave nga të drejtat e autorit, është rezident i shtetit tjetër kontraktues, taksa e vendosur nuk do të tejkalojë 5 (pesë) për qind të shumës bruto të të ardhurave nga të drejtat e autorit."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT in treaty; Art. 29 preserves domestic anti-avoidance rules; MLI not applicable - Germany does not list Albania)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Art. 11(3): interest on German-guaranteed export/FDI loans or paid to the German Government, Deutsche Bundesbank, KfW or DEG exempt in Albania; reciprocal exemption in Germany for Albanian-guaranteed loans or interest paid to the Albanian Government or Bank of Albania (not modelled). Protocol para. 4: dividends and interest from profit-participating rights (silent partnerships, profit-participating loans, Gewinnobligationen) deductible in the source State may be taxed under domestic law without treaty cap (not modelled). Protocol para. 3: distributions on units of investment funds/trusts are dividends. Royalty definition includes use of a person's name/image and recording rights of performances. Art. 29: domestic anti-avoidance rules preserved. Not MLI-covered.",
+ "confidence": "high",
+ "unverified": [
+  "German authentic text (BGBl. 2011 II 1186) not read"
+ ]
+}

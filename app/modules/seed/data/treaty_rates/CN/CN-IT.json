@@ -1,0 +1,69 @@
+{
+ "a": "CN",
+ "b": "IT",
+ "treaty_name": "Accordo tra il Governo della Repubblica italiana e il Governo della Repubblica popolare cinese per eliminare le doppie imposizioni in materia di imposte sul reddito e per prevenire le evasioni e le elusioni fiscali, con Protocollo (2019)",
+ "signed": "2019-03-23",
+ "entry_into_force": "2025-02-19",
+ "eif_source_url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/ssxd/202503/t475781.html (SAT Announcement 2025 No.6, via RATES4/map.json)",
+ "eif_quote": "Art. 29(1): Il presente Accordo entrerà in vigore il trentesimo giorno successivo alla data di ricezione dell'ultima notifica ed avrà efficacia: a) con riferimento alle imposte prelevate mediante ritenuta alla fonte, sulle somme realizzate il, o successivamente al, 1° gennaio del primo anno solare successivo a quello in cui il presente Accordo entra in vigore; [in force 2025-02-19 per SAT Announcement 2025 No.6 -> WHT effect from 2026-01-01]",
+ "source_title": "Gazzetta Ufficiale Serie generale n. 283 del 3-12-2024: Legge 18 novembre 2024, n. 182 (ratifica Accordo Italia-Cina 2019 con Protocollo), Italian text",
+ "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/12/03/283/sg/pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Articolo 10(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) il 5 per cento dell'ammontare lordo dei dividendi se il beneficiario effettivo è una società che detiene direttamente il 25 per cento o più del capitale della società che paga i dividendi per un periodo di 365 giorni che include il giorno del pagamento del dividendo (al fine del computo di detto periodo, non si tiene conto di variazioni di proprietà che risultino direttamente da una riorganizzazione societaria, quale una fusione o una scissione, della società che detiene le azioni o che paga il dividendo);"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Articolo 10(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) il 10 per cento dell'ammontare lordo dei dividendi, in tutti gli altri casi."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Articolo 11(2)(b)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) il 10 per cento dell'ammontare lordo degli interessi in tutti gli altri casi."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Articolo 12(2)(a)",
+   "valid_from": "2026-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) per quanto concerne i canoni di cui alla lettera a) del paragrafo 3, il 10 per cento dell'ammontare lordo dei canoni;"
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2026-01-01",
+  "basis": "treaty art. 24",
+  "source_url": "https://www.gazzettaufficiale.it/eli/gu/2024/12/03/283/sg/pdf",
+  "quote": "ARTICOLO 24 DIRITTO AI BENEFICI: Nonostante le altre disposizioni del presente Accordo, un beneficio ai sensi del presente Accordo non può essere concesso in relazione ad un elemento di reddito se è ragionevole concludere, tenuti presenti tutti i fatti e tutte le circostanze pertinenti, che l'ottenimento di tale beneficio era uno degli scopi principali di qualsiasi intesa o transazione che ha portato direttamente o indirettamente a tale beneficio, a meno che non sia stabilito che la concessione di tale beneficio in queste circostanze sarebbe conforme con l'oggetto e lo scopo delle pertinenti disposizioni del presente Accordo."
+ },
+ "notes": "New 2019 treaty applies to WHT on amounts realised from 2026-01-01 and replaces the 1986 treaty (1986 rates: not recorded here). Treaty-based PPT (Art. 24); not MLI-covered (Italy has not ratified the MLI). Not modelled: Art 11(2)(a) 8% on interest paid to a financial institution on a loan of at least three years financing investment projects (recipient/loan condition); Art 11(3) exemption where the debtor is the Government/local authority of the source State, or interest paid to the other State's Government, subdivisions, central bank, public entities or wholly government-owned entities (Protocol 3: CDB, ADBC, Exim, NSSF, Sinosure, CIC and two CIC subsidiaries, Silk Road Fund; CDP, SACE, Simest) or on loans guaranteed/insured by them; Art 11(4) Italian-source interest exempt where the issuer is Banca d'Italia, CDP, SACE or Simest; Art 12(2)(b) equipment-rental royalties 10% of adjusted amount (50% of gross) = effective 5%. Royalty definition expressly includes software. Treaty authentic in Italian, Chinese and English; English prevails.",
+ "confidence": "high",
+ "unverified": [
+  "Entry into force 2025-02-19 taken from map.json (SAT Announcement 2025 No.6); Italian notice of entry into force not read."
+ ]
+}

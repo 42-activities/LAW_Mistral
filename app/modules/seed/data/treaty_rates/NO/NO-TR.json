@@ -1,0 +1,56 @@
+{
+ "a": "NO",
+ "b": "TR",
+ "treaty_name": "Convention between the Kingdom of Norway and the Republic of Turkey for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010)",
+ "signed": "2010-01-15",
+ "entry_into_force": "2011-06-15",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2010-01-15-1",
+ "eif_quote": "Lovdata metadata: \"Avtalens ikrafttredelsesdato 15-06-2011\" | Art. 29(1): \"This Convention shall enter into force on the date of the latter of these notifications and its provisions shall have effect for taxes with respect to every taxable period beginning on or after the first day of January of the year following that of entry into force of the Convention.\"",
+ "source_title": "Lovdata Norges traktater (English version), Convention Norway-Turkey 2010 with Protocol (Norwegian, Turkish, English equally authentic; English prevails)",
+ "source_url": "https://lovdata.no/dokument/TRAKTATEN/traktat/2010-01-15-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c. 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(c)",
+   "valid_from": "2012-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c. 15 per cent of the gross amount of the interest in all other cases"
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2012-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Türkiye is not an MLI Party; no PPT article in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Conditional tiers NOT modelled as plain tiers (per brief: conditions on the recipient's taxation / bank status go to notes): Art. 10(2)(a): 5% \"if the beneficial owner is a company (other than a partnership) which holds directly at least 20 per cent of the capital of the company paying the dividends, provided that such dividends are exempt from tax in that other State\" - i.e. 5% for >=20% direct corporate holdings only where the residence State exempts the dividend (participation exemption); otherwise 15%. Art. 10(2)(b): 5% for dividends derived by the Norwegian Government Pension Fund / Turkish Social Security Fund (if exempt in residence State; Protocol para. 3 extends to Norges Bank as GPF manager). Art. 11(2)(a): 5% on interest paid to the Government Pension Fund, GIEK, Eksportfinans (if passed on to the Government) / Turkish Social Security Fund, Eximbank of Turkey; Art. 11(2)(b): 10% on interest paid to a bank; Art. 11(3): interest paid to the other Government or Central Bank exempt. Art. 10(4): branch profits may be taxed further in accordance with the Art. 10(2)(a) rate (branch tax, not modelled). Protocol para. 4: \"dividends\" includes manufactured dividends and, for Turkey, investment fund/trust income. Protocol para. 9: renegotiation clause (no automatic change). Not MLI-covered (Türkiye not an MLI Party), so no PPT. Replaced the 1971 Convention from 2012.",
+ "confidence": "high",
+ "unverified": []
+}

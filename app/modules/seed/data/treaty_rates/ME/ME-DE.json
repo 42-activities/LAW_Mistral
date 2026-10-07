@@ -1,0 +1,70 @@
+{
+ "a": "ME",
+ "b": "DE",
+ "treaty_name": "Agreement between the Socialist Federal Republic of Yugoslavia and the Federal Republic of Germany for the avoidance of double taxation with respect to taxes on income and on capital, with Protocol (1987), applied by Montenegro",
+ "signed": "1987-03-26",
+ "entry_into_force": "1988-12-03",
+ "eif_source_url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Internationales_Steuerrecht/Allgemeine_Informationen/2026-01-07-stand-DBA-1-januar-2026.pdf ; https://www.gov.me/clanak/dvostruko-oporezivanje (Poreska uprava xlsx v1.0 30.03.2026, https://www.gov.me/dokumenta/9ae6cba3-290b-4b95-879c-58618bcff55c)",
+ "eif_quote": "[DE BMF list] Montenegro 26.03.1987 ... 01.01.1989 (DBA mit SFR Jugoslawien gilt fort, BGBl. 2011 II S. 745) || [ME PU table] 27 | Njemačka | dohodak i imovina | SFRJ 12/88 | 1.1.1989. || Art. 30(2): \"Уговор ступа на снагу месец дана од дана размене инструмената ратификације, а његове одредбе се примењују: а) у Савезној Републици Немачкој: ... ii) у односу на порезе по обустави на дивиденде, камату и ауторске накнаде који се плаћају првог јануара или после првог јануара календарске године која следи календарску годину у којој је извршена размена инструмената ратификације; б) у Југославији: у односу на порезе на доходак и на имовину који се плаћају за сваку пореску годину која почиње првог јануара или после првог јануара календарске године која следи календарску годину у којој је извршена размена инструмената ратификације.\"",
+ "source_title": "Zakon o ratifikaciji Ugovora SFRJ-SR Njemačka s Protokolom, Službeni list SFRJ - Međunarodni ugovori br. 12/1988 (25.11.1988), Serbo-Croatian text (scanned gazette pages), gov.me Ministry of Finance document",
+ "source_url": "https://www.gov.me/dokumenta/8246e41b-198b-49ae-942b-168a70c0bb83 (file https://wapi.gov.me/download/8246e41b-198b-49ae-942b-168a70c0bb83?version=1.0)",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "DE",
+   "quote": "1. Дивиденде које је исплатило друштво - резидент Савезне Републике Немачке резиденту Југославије могу се опорезивати у Савезној Републици Немачкој. Тако разрезан порез не може бити већи од 15 одсто од бруто-износа дивиденди."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 8",
+   "valid_from": "1989-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": "ME",
+   "quote": "Добит коју оствари резидент Савезне Републике Немачке по основу свог улагања у југословенску организацију удруженог рада може се опорезивати у Југославији. Тако разрезан порез не може бити већи од 15 одсто од те добити."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(1)",
+   "valid_from": "1989-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Камата која настаје у држави уговорници и исплаћена је резиденту друге државе уговорнице опорезује се само у тој другој држави, ако је тај резидент стварни корисник камате."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1989-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. Ауторске накнаде могу се опорезивати и у држави уговорници у којој настају, у складу са законима те државе, али ако је прималац стварни корисник ауторских накнада, тако разрезан порез не може бити већи од 10 одсто од бруто износа ауторских накнада."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "not MLI-covered (Germany does not list the Yugoslav agreement for Montenegro); no PPT in treaty",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-montenegro-instrument-deposit.pdf",
+  "quote": ""
+ },
+ "notes": "Succession: concluded by the SFR Yugoslavia (Bonn, 26-03-1987; Sl. list SFRJ - MU 12/1988); continues to apply between Germany and Montenegro (BMF treaty list: \"DBA mit SFR Jugoslawien gilt fort\", Bekanntmachung BGBl. 2011 II S. 745). Treaty structure is asymmetric: Art. 11 limits only dividends paid by a German company to a Yugoslav resident (15%); Art. 8 limits Yugoslav tax on profit derived by a German resident from an investment in a Yugoslav \"organisation of associated labour\" to 15% - Montenegro applies 15% to dividends paid to German residents (Poreska uprava table: Njemačka, dividends 15% regardless of holding), so Art. 8 is recorded as the Montenegro-source dividend limit (interpretation; medium confidence). Interest taxable only in the residence State of the beneficial owner (Art. 12(1)), matching the Poreska uprava table (0%). Protocol 1(a): notwithstanding Arts. 11 and 12, Germany may tax under its law dividends and interest derived by a Yugoslav resident from rights or debt-claims carrying a participation in profits (incl. silent-partner income, participating loans, profit-sharing bonds) where deductible for the payer - not modelled. Protocol 1(b): renegotiation if either State introduces WHT on interest or if Germany grants a dividend WHT rate below 15% to another country. Articles are numbered differently from the OECD model (dividends Art. 11, interest Art. 12, royalties Art. 13). Authentic in Serbo-Croatian, German and English (English prevails in case of divergence) - Serbo-Croatian text read. Not MLI-covered -> no PPT.",
+ "confidence": "medium",
+ "unverified": [
+  "English/German authentic text not read",
+  "Treatment of Montenegro-source dividends under Art. 8 (investment in organisations of associated labour) is an interpretation consistent with the Poreska uprava table"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "a": "CN",
+ "b": "CA",
+ "treaty_name": "Agreement between the Government of Canada and the Government of the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income (1986; modified by MLI)",
+ "signed": "1986-05-12",
+ "entry_into_force": "1986-12-29",
+ "eif_source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SI-87-36/FullText.html",
+ "eif_quote": "Notice is hereby given pursuant to section 18 of the Canada-China Income Tax Agreement Act, 1986* that the Agreement between Canada and the People's Republic of China for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income came into force on December 29, 1986. | Art. 26: ... in respect of tax withheld at the source on amounts paid or credited to non-residents on or after the first day of January next following that in which this Agreement enters into force",
+ "source_title": "Finance Canada: Agreement between the Government of Canada and the Government of the People's Republic of China (1986) - text read via WebFetch (canada.ca blocks direct curl)",
+ "source_url": "https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties/country/china-agreement-1986.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI Art. 8(1)",
+   "valid_from": "2023-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a) 10 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least 10 per cent of the voting stock of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "1987-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 15 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the interest the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1987-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that Contracting State, but if the recipient is the beneficial owner of the royalties the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2023-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-canada-instrument-deposit.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-china-instrument-deposit.pdf",
+  "quote": "MLI Art. 7(1) principal purposes test; neither Canada nor China reserved Art. 7 for this treaty; MLI in force CN 2022-09-01, CA 2019-12-01; effect for taxes withheld at source from 2023-01-01 (Art. 35(1)(a))."
+ },
+ "notes": "MLI Art. 8(1) 365-day holding period applies to the 10% tier from 2023-01-01: Canada's Art. 8(4) notification lists '14 China Article 10(2)(a)' and China's lists '11 Canada Article 10(2)(a)'; before 2023-01-01 the same rate applied without a holding period (from 1987-01-01). Not modelled: Art 11(3) exemption for interest paid to the Government, central bank, export-financing agencies or mutually agreed government-owned financial establishments. Protocol 4: Agreement does not restrict more favourable domestic or intergovernmental benefits. Treaty has no own anti-abuse/main-purpose clause. Synthesised MLI text not read.",
+ "confidence": "medium",
+ "unverified": [
+  "Treaty text read through WebFetch extraction (canada.ca refused direct download); quotes may contain minor wording differences.",
+  "Article 11(3) detail paraphrased by extractor."
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "a": "IN",
+ "b": "DK",
+ "treaty_name": "Convention between the Republic of India and the Kingdom of Denmark for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital (1989, as amended by Protocol 2013; modified by MLI)",
+ "signed": "1989-03-08",
+ "entry_into_force": "1989-06-13",
+ "eif_source_url": "https://web.archive.org/web/20171217111724/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000022.htm",
+ "eif_quote": "Whereas the annexed Convention between the Government of the Republic of India and the Government of the Kingdom of Denmark ... has come into force on the 13th day of June, 1989, on the notification by both the Contracting States to each other of the completion of the constitutional requirements, as required by paragraph 1 of Article 30 of the said Convention; ... Notification : No. GSR 853(E), dated 25-9-1989.",
+ "source_title": "Income Tax Department (India), India-Denmark DTAA with Notification GSR 853(E)/1989 (Wayback copy of official incometaxindia.gov.in page, captured 2017-12-17); Danish Lovtidende C 2015 Nr. 5 (2013 Protocol, skm.dk)",
+ "source_url": "https://web.archive.org/web/20171217111724/http://www.incometaxindia.gov.in:80/dtaa/comprehensive%20agreements/108690000000000022.htm",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(a)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "( a ) 15 per cent of the gross amount of the dividends if the beneficial owner is a company which owns at least 25 per cent of the shares of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 11(2)(b)",
+   "valid_from": "1990-01-01",
+   "max_rate": "25",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "( b ) 25 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 12(2)(b)",
+   "valid_from": "1990-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State. But the tax so charged on interest payable in respect of a loan given or debt created after the date of entry into force of this Convention, shall not exceed : ( a ) 10 per cent of the gross amount, if such interest is paid on any loan of whatever kind granted by a bank, and ( b ) 15 per cent of the gross amount in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 13(2)",
+   "valid_from": "1990-01-01",
+   "max_rate": "20",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2 . However, such royalties and fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the recipient is the beneficial owner of the royalties or fees for technical services the tax so charged shall not exceed 20 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf",
+  "quote": "1. Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement."
+ },
+ "notes": "Article numbering: dividends Art. 11, interest Art. 12, royalties/FTS Art. 13. Effective (Art. 30(2)): income years beginning on or after 1 January 1990. Dividend 15% tier (>=25% of shares): MLI Art. 8(1) 365-day holding period applies because both India (Art. 11(2)(a)) and Denmark (Art. 11(2)) notified this provision under Art. 8(4); the holding period applies only from the MLI WHT effective date (2020-01-01 Danish side; 1 April 2020 Indian side) - before that there was no holding period. Interest cap applies to loans given/debts created after entry into force; not modelled: Art. 12(2)(a) 10% cap for interest on loans granted by a bank; Art. 12(3) exemption for interest derived by Governments, central banks, government agencies or on government-financed/guaranteed/insured debt-claims. 20% Art. 13 cap also covers FTS. The 2013 Protocol (in force 2015-02-01, Lovtidende C 2015 nr. 5) only replaced Art. 26 (exchange of information). No MFN clause found. MLI: covered by both; India chose Art. 35(2) 'taxable period', so on the Indian side MLI WHT provisions apply from 1 April 2020. India chose the Simplified LOB (Art. 7(6)) and Denmark chose Art. 7(7)(a) (permitting symmetric application of the SLOB), so the SLOB applies in addition to the PPT.",
+ "confidence": "high",
+ "unverified": [
+  "Indian-side MLI date 2020-04-01 derived from India's Art. 35(2) choice"
+ ]
+}

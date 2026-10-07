@@ -1,0 +1,69 @@
+{
+ "a": "NO",
+ "b": "IE",
+ "treaty_name": "Convention between the Kingdom of Norway and Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and capital gains (2000)",
+ "signed": "2000-11-22",
+ "entry_into_force": "2001-11-28",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2000-11-22-1",
+ "eif_quote": "Avtalens ikrafttredelsesdato 28-11-2001 | Art. 29(2): Overenskomsten trer i kraft på datoen for mottakelsen av den siste av disse bekjentgjørelser og skal deretter ha virkning: a. i Norge: ... det kalenderår ... som følger etter det år da overenskomsten trer i kraft ...; b. i Irland: i. med hensyn til inntektsskatt ... som begynner på eller etter 6. april som følger etter den dato denne overenskomst trer i kraft; ii. med hensyn til selskapsskatt for ethvert finansår ... som begynner på eller etter 1. januar i det år som følger",
+ "source_title": "Lovdata traktat 2000-11-22-1: Overenskomst mellom Norge og Irland (Norwegian text) + MLI positions of Norway and Ireland",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2000-11-22-1",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) as modified by MLI art. 8(1)",
+   "valid_from": "2020-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "a. 5 prosent av dividendenes bruttobeløp hvis den virkelige rettighetshaver er et selskap som direkte innehar minst 10 prosent av kapitalen i det selskap som utdeler dividendene; [MLI art. 8(1): 365-day holding period - Norway and Ireland both notified Article 10(2)(a); Ireland made no art. 8 reservation]"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2002-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av dividendenes bruttobeløp i alle andre tilfelle."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter som skriver seg fra en kontraherende stat, hvis virkelige rettighetshaver er en person bosatt i den annen kontraherende stat, skal bare kunne skattlegges i denne annen stat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2002-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalty som skriver seg fra en kontraherende stat og som oppebæres av en person bosatt i den annen kontraherende stat som er den virkelige rettighetshaver til royaltyen, skal bare kunne skattlegges i denne annen stat."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/norway-tax-treaties/synthesised-text-of-the-multilateral-instrument-and-the-2013-uk-norway-double-taxation-convention-in-force (MLI Art. 7(1) wording) ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-norway-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of [the Convention], a benefit under [the Convention] shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of [the Convention]. [Norway's MLI notification: replaces existing Articles 11(6) and 12(6) of the Ireland convention]"
+ },
+ "notes": "Dividends: 5% tier applied from 2002-01-01 without holding period; MLI art. 8 365-day holding period from 2020-01-01. Art. 10(3): government (Norges Bank, Petroleum Fund, Folketrygdfondet, Irish State bodies) exempt. valid_from 2002-01-01 = Norwegian effect / Irish corporation tax; Irish income tax from 6 April 2002. Replaced the 1969 convention. MLI WHT effect 2020-01-01 per map.json.",
+ "confidence": "high",
+ "unverified": [
+  "MLI art. 8 holding period applied on the basis of matching notifications; no synthesised text consulted"
+ ]
+}

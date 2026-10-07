@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "FI",
+ "treaty_name": "Agreement between the Republic of Finland and the Republic of India for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2010, with Protocol; modified by MLI)",
+ "signed": "2010-01-15",
+ "entry_into_force": "2010-04-19",
+ "eif_source_url": "https://www.finlex.fi/fi/valtiosopimukset/sopimussarja/2010/58",
+ "eif_quote": "Tuloveroja koskevan kaksinkertaisen verotuksen välttämiseksi ja veron kiertämisen estämiseksi New Delhissä 15 päivänä tammikuuta 2010 Suomen tasavallan ja Intian tasavallan välillä tehty sopimus on voimassa 19 päivästä huhtikuuta 2010 niin kuin siitä on sovittu.",
+ "source_title": "Finlex (official): synthesised text of the MLI and the Finland-India tax agreement, SopS 57-58/2010 (English text)",
+ "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2010/58",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2011-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "However, such royalties or fees for technical services may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 per cent of the gross amount of the royalties or fees for technical services."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2020-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.finlex.fi/en/treaties/tax-treaties/2010/58",
+  "quote": "The following paragraph 1 of Article 7 of the MLI replaces paragraphs 1 and 2 of Article 27 of this Agreement: Notwithstanding any provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement. || ... paragraph 1 of Article 7 of the MLI has effect with respect to the application of this Agreement by the Republic of Finland: a) with respect to taxes withheld at source on amounts paid or credited to nonresidents, where the event giving rise to such taxes occurs on or after 1 January 2020 ... by the Republic of India: a) with respect to taxes withheld at source ... on or after 1 April 2020"
+ },
+ "notes": "Effect (Art. 29(2)): Finland - WHT on income derived on or after 1 January 2011; India - WHT for amounts paid or credited on or after 1 April 2011 (valid_from uses the earlier Finnish date). Same 10% cap applies to fees for technical services (Art. 12(2)). Interest exempt at source (taxable only in residence State) when paid to the State/local authorities/statutory bodies, FINNFUND, Finnish Export Credit, Finnvera, Government of India, RBI, Exim Bank, National Housing Bank, or on loans guaranteed by these bodies (Art. 11(3)) - not modelled. MFN: Protocol para II provides that if after entry into force an Indian treaty with an OECD Member State grants an exemption or a rate lower than Arts 10(2)/11(2)/12(2), it applies to Finland under the same conditions, and 'The competent authority of India shall inform the competent authority of Finland without delay that the conditions for the application of this paragraph have been met and issue a notification to this effect'. No Indian notification or Finnish official notice confirming an MFN reduction was found (incometaxindia.gov.in blocked); per Nestle SA (Supreme Court of India, 2023) a s.90 notification is required, so no MFN rates recorded. PPT: Finnish synthesised text confirms MLI Art. 7(1) replaces Art. 27(1)-(2); India's SLOB choice not applied (not shown in the synthesised text). MLI Art. 8 not applied (Finland treaty has no ownership-threshold dividend tier). Indian side applies the MLI WHT provisions from 1 April 2020.",
+ "confidence": "high",
+ "unverified": []
+}

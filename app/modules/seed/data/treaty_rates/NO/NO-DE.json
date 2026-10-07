@@ -1,0 +1,67 @@
+{
+ "a": "NO",
+ "b": "DE",
+ "treaty_name": "Abkommen zwischen dem Königreich Norwegen und der Bundesrepublik Deutschland zur Vermeidung der Doppelbesteuerung und über gegenseitige Amtshilfe auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (1991, as amended by Protocol of 2013)",
+ "signed": "1991-10-04",
+ "entry_into_force": "1993-10-07",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2013-06-24-15",
+ "eif_quote": "[1991] Avtalens ikrafttredelsesdato 07-10-1993; Art. 30(2): ... skal første gang ha virkning: a. med hensyn til skatter tilbakeholdt ved kilden for beløp betalt eller godskrevet på eller etter 1. januar 1991 | [2013 protocol] Avtalens ikrafttredelsesdato 03-02-2015; Art. XVII(2): Protokollen skal tre i kraft på dagen for utveksling av ratifikasjonsdokumentene ... a. med hensyn til skatter tilbakeholdt ved kilden for beløp betalt på eller etter første dagen i januar i det år denne protokollen trer i kraft",
+ "source_title": "Lovdata traktat 1991-10-04-3 (Overenskomst mellom Norge og Tyskland) + 2013-06-24-15 (Protokoll 2013, Art. 10 replaced) (Norwegian texts; Norwegian and German equally authentic)",
+ "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1991-10-04-3",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a) (as replaced by 2013 Protocol)",
+   "valid_from": "2015-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a. 0 prosent av dividendenes bruttobeløp, dersom den virkelige rettighetshaveren er et selskap (unntatt et interessentskap) som direkte eier minst 25 prosent av det utdelende selskapets kapital;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b) (as replaced by 2013 Protocol)",
+   "valid_from": "2015-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b. 15 prosent av dividendenes bruttobeløp i alle andre tilfeller."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Renter som skriver seg fra en kontraherende stat og utbetales til en person bosatt i den annen kontraherende stat, skal, dersom denne person er den virkelige rettighetshaver til rentene, bare kunne skattlegges i denne annen stat."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "1991-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalty som skriver seg fra en kontraherende stat og utbetales til en person bosatt i den annen kontraherende stat, skal, dersom denne person er den virkelige rettighetshaver til royaltyen, bare kunne skattlegges i denne annen stat."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT; MLI not applicable). 2013 Protocol new Art. 29 preserves domestic anti-avoidance rules",
+  "source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/2013-06-24-15",
+  "quote": "1. Denne overenskomst skal ikke tolkes slik at: a. en kontraherende stat er forhindret fra å anvende sine interne lovregler om forebygging av skattesvik eller skatteunngåelse;"
+ },
+ "notes": "Before 2015 the original Art. 10 gave 15% general / 0% for companies with >=25% (with a split-rate-system override in Art. 10(4)). Interest/royalty exclusivity has applied since the 1991 convention took effect (retroactive to 1991-01-01). The 2013 protocol also adds Art. 29 (domestic anti-abuse, German CFC rules) and switches Germany to credit for certain income. Not MLI-covered (Norway does not list Germany).",
+ "confidence": "high",
+ "unverified": []
+}

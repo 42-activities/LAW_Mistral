@@ -1,0 +1,56 @@
+{
+ "a": "IN",
+ "b": "IR",
+ "treaty_name": "Agreement between the Government of the Republic of India and the Government of the Islamic Republic of Iran for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2018, with Protocol)",
+ "signed": "2018-02-17",
+ "entry_into_force": "2020-09-29",
+ "eif_source_url": "https://web.archive.org/web/20210513084645/https://www.incometaxindia.gov.in/communications/notification/notification_29_2021.pdf",
+ "eif_quote": "S.O. 1442(E).—Whereas, an Agreement between the Government of the Republic of India and the Government of the Islamic Republic of Iran ... was signed at New Delhi on the 17th February, 2018 ... And whereas, the said Agreement entered into force on the 29th day of September, 2020, being the date of the later of the notifications ... in accordance with paragraph 2 of Article 30 of the said Agreement",
+ "source_title": "Gazette of India, Extraordinary - Notification No. 29/2021 (S.O. 1442(E), 1 April 2021) with annexed India-Iran Agreement; incometaxindia.gov.in PDF, Wayback copy of 13 May 2021",
+ "source_url": "https://web.archive.org/web/20210513084645/https://www.incometaxindia.gov.in/communications/notification/notification_29_2021.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "2021-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may also be taxed in the Contracting State of which the company paying the dividends is a resident and according to the laws of that State, but if the beneficial owner of the dividends is a resident of the other Contracting State, the tax so charged shall not exceed 10 (ten) per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2021-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 10 (ten) per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2021-03-21",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise, and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 (ten) per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-03-21",
+  "basis": "treaty art. 28",
+  "source_url": "https://web.archive.org/web/20210513084645/https://www.incometaxindia.gov.in/communications/notification/notification_29_2021.pdf",
+  "quote": "Article 28 ENTITLEMENT TO BENEFITS Notwithstanding the other provisions of this Agreement, a benefit under this Agreement shall not be granted in respect of an item of income if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of this Agreement."
+ },
+ "notes": "Effect (Art. 30(3)): Iran - fiscal years beginning on or after 1 Farvardin (21 March) next following the calendar year of entry into force, i.e. 21 March 2021 (valid_from); India - fiscal years beginning on or after 1 April 2021. Fees for technical services: separate Art. 13, 10% cap (not modelled). Interest exempt at source when paid to and beneficially owned by the other State's Government/political subdivision/local authority, Central Bank (RBI for India) or an institution wholly owned and controlled by that Government (Art. 11(3)) - not modelled. Treaty-based PPT in Art. 28 (Iran is not an MLI signatory, so the MLI does not apply). No MFN clause in the Protocol.",
+ "confidence": "high",
+ "unverified": []
+}

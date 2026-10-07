@@ -1,0 +1,58 @@
+{
+ "a": "NO",
+ "b": "ME",
+ "treaty_name": "Convention between the Kingdom of Norway and the Socialist Federal Republic of Yugoslavia for the avoidance of double taxation with respect to taxes on income and on capital (1983), applied by Montenegro by succession",
+ "signed": "1983-09-01",
+ "entry_into_force": "1985-10-31",
+ "eif_source_url": "https://lovdata.no/dokument/TRAKTAT/traktat/1983-09-01-21",
+ "eif_quote": "Lovdata metadata (1983-09-01-21): \"Avtalens ikrafttredelsesdato 31-10-1985\" | Art. 28: \"This Convention shall enter into force on the thritieth day after the latter of the dates on which the Contracting States have notified each other in writing ... and its provisions shall have effect in respect of taxes on income and on capital for any calendar year beginning on or after the first day of January in the calendar year following that in which the latter of the notifications has been received.\" | Lovdata 2011-10-31-43: \"The Convention for the avoidance of double taxation ... signed at Oslo on 1 September 1983, shall continue with effect as of the date of independence of Montenegro on 3 June 2006.\"",
+ "source_title": "St.prp. nr. 23 (1983-84) annex: Convention Norway-Yugoslavia 1983 with Protocol (English, the only authentic language), National Library of Norway scan of Stortingsforhandlinger 1983/84 (OCR read via nb.no API); succession: Lovdata traktat 2011-10-31-43 (English version)",
+ "source_url": "https://www.nb.no/items/URN:NBN:no-nb_digistorting_1983-84_part2_vol-a (St.prp. nr. 23 (1983-84), English text; OCR via https://api.nb.no/catalog/v1/metadata/d742b10027811ff512481af75f28d38a/altos/URN:NBN:no-nb_digistorting_1983-84_part2_vol-a_0334, _0336, _0352, _0354) ; https://lovdata.no/dokument/TRAKTATEN/traktat/2011-10-31-43",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such dividends may be also taxed in the Contracting State of which the company paying the dividends is a resident, and according to the laws of that State, but the tax so charged shall not exceed 15 per cent of the gross amount of the dividends."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "1986-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Interest derived from sources within one of the Contracting States by a resident of the other Contracting State shall be taxable only in that other State."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "1986-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. The royalties referred to in paragraph 1 of this Aritcle may also be taxed in the Contracting State in which they arise and according to the laws of that State, but the tax so charged shall not exceed 10 per cent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (Norway does not list the Convention under the MLI; no PPT in the Convention)",
+  "source_url": null,
+  "quote": ""
+ },
+ "notes": "Succession: Norway-Montenegro exchange of letters in force 2011-10-31 (Lovdata 2011-10-31-43) continues the 1983 Norway-Yugoslavia Convention with effect from Montenegro's independence on 2006-06-03; previously continued for Serbia and Montenegro by the agreement of 2003-05-29 (Lovdata 2003-05-29-23). valid_from reflects the original effective date (1986-01-01); for Montenegro as a separate State the rates apply from 2006-06-03. Dividends: single 15% limit; Protocol ad Art. 10: agreed against Norway's former split-rate (dividend-deduction) system, with renegotiation if discontinued - no automatic change. Interest: taxable only in the residence State; Protocol ad Art. 11: renegotiation if either State introduces an interest withholding tax (Norway introduced one in 2021 - no automatic change). Royalties: 10% (definition includes equipment rentals). Not MLI-covered (map.json: Norway does not list it; Montenegro's MLI in force only 2026-09-01). Quotes reproduced from OCR of the scanned official print (OCR typos such as \"Aritcle\" retained).",
+ "confidence": "medium",
+ "unverified": [
+  "Text read from OCR of the scanned 1983-84 parliamentary print, not a born-digital official text"
+ ]
+}

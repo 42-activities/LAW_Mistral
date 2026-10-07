@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "NL",
+ "treaty_name": "Convention between the Kingdom of the Netherlands and the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital, with Protocol (2004)",
+ "signed": "2004-07-22",
+ "entry_into_force": "2005-11-15",
+ "eif_source_url": "https://zoek.officielebekendmakingen.nl/trb-2005-323.pdf ; https://zoek.officielebekendmakingen.nl/trb-2004-281.html",
+ "eif_quote": "[Trb. 2005, 323] G. INWERKINGTREDING De bepalingen van het Verdrag, met Protocol, zijn ingevolge artikel 30 van het Verdrag en de preambule tot het Protocol in werking getreden op 15 november 2005. || Art. 30: This Convention shall enter into force on the fifteenth day after the latter of the dates on which the respective Governments have notified each other in writing that the formalities constitutionally required in their respective States have been complied with, and its provisions shall have effect for taxable years and periods beginning on or after the first day of January in the calendar year following that in which the Convention has entered into force.",
+ "source_title": "Tractatenblad 2004, 281 - Verdrag Nederland-Albanië (met Protocol), English (prevailing) text",
+ "source_url": "https://zoek.officielebekendmakingen.nl/trb-2004-281.html",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "b) 5 percent of the gross amounts of the dividends if the beneficial owner is a company which holds directly or indirectly at least 25 percent of the capital of the company the capital of which is wholly or partly divided into shares paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2006-01-01",
+   "max_rate": "15",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 15 percent of the gross amounts of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)(b)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such interest may also be taxed in the Contracting State in which it arises and according to the laws of that State, but if the recipient of the interest is the beneficial owner of the interest the tax so charged shall not exceed: a) 5 percent of the gross amount of interest, in the case of interest arising in a Contracting State and paid on a loan granted by a bank or any other financial institution of the other Contracting State, including investment banks and savings banks, and insurance companies; and b) 10 percent of the gross amount of the interest in all other cases."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(2)",
+   "valid_from": "2006-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "2. However, such royalties may also be taxed in the Contracting State in which they arise and according to the laws of that State, but if the beneficial owner of the royalties is a resident of the other Contracting State, the tax so charged shall not exceed 10 percent of the gross amount of the royalties."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/multilateral-convention-to-implement-tax-treaty-related-measures-to-prevent-beps.pdf ; https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/beps-mli/beps-mli-position-albania-instrument-deposit.pdf",
+  "quote": "Notwithstanding any provisions of a Covered Tax Agreement, a benefit under the Covered Tax Agreement shall not be granted in respect of an item of income or capital if it is reasonable to conclude, having regard to all relevant facts and circumstances, that obtaining that benefit was one of the principal purposes of any arrangement or transaction that resulted directly or indirectly in that benefit, unless it is established that granting that benefit in these circumstances would be in accordance with the object and purpose of the relevant provisions of the Covered Tax Agreement. [MLI Art. 7(1) applies to the Convention as a Covered Tax Agreement (Netherlands list: Albania Original 22-7-2004 15-11-2005); WHT effect 2021-01-01 per Art. 35(1)(a), later MLI entry into force = Albania 2021-01-01.]"
+ },
+ "notes": "Art. 10(2)(a): 0% where the beneficial owner is a company holding directly or indirectly at least 50% of the capital AND having invested more than USD 250,000 in the capital of the paying company (investment-amount condition; not modelled as a tier per brief). Protocol XII: 0% on dividends to pension funds (Protocol IV). Art. 10(8): source-State taxation of dividends to emigrated substantial (5%) individual shareholders. MLI Art. 8(1) applies (Albania and the Netherlands both notified Art. 10(2)(a) and (b) under Art. 8(4)): the 0% and 5% tiers require the ownership conditions to be met throughout a 365-day period including the day of payment, with effect for WHT from 2021-01-01 (min_holding_days 365 recorded on the 5% tier; before 2021 there was no holding period). Art. 11(2)(a): 5% on interest on loans granted by a bank or other financial institution (incl. investment/savings banks and insurance companies) of the other State (lender condition; not modelled as a tier per brief). Art. 11(3): interest exempt where payer or recipient is a Government, political subdivision, local authority or central bank, or on loans granted/approved/guaranteed/insured by a Government, central bank or government-owned agency (not modelled). Protocol XIII: refund claims within three years. Effective date 2006-01-01 per Art. 30 (taxable years beginning on or after 1 January following EIF 15.11.2005).",
+ "confidence": "high",
+ "unverified": []
+}

@@ -1,0 +1,67 @@
+{
+ "a": "AL",
+ "b": "GB",
+ "treaty_name": "Agreement between the Government of the United Kingdom of Great Britain and Northern Ireland and the Council of Ministers of the Republic of Albania for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income and on capital gains (2013)",
+ "signed": "2013-03-26",
+ "entry_into_force": "2013-12-30",
+ "eif_source_url": "https://www.gov.uk/government/publications/albania-tax-treaties",
+ "eif_quote": "The agreement entered into force on 30 December 2013. It is effective in the UK from: 1 April 2014 for Corporation Tax; 6 April 2014 for Income Tax and Capital Gains Tax. It is effective in Albania from 1 January 2014 for Income Tax and Capital Gains Tax. | Art. 29(1)(b): in Albania in respect of income derived or of capital owned on or after 1st January of the calendar year next following the year in which the Agreement enters into force.",
+ "source_title": "GOV.UK: 2021 UK-Albania synthesised text of the MLI and the 2013 DTA (in force)",
+ "source_url": "https://www.gov.uk/government/publications/albania-tax-treaties/2021-uk-albania-synthesised-text-of-the-multilateral-instrument-and-the-2013-double-taxation-agreement-in-force",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2014-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 25 per cent of the capital of the company paying the dividends or is a pension scheme;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(c)",
+   "valid_from": "2014-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "c) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(2)",
+   "valid_from": "2014-01-01",
+   "max_rate": "6",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "... but if the beneficial owner of the interest is a resident of the other Contracting State, the tax so charged shall not exceed 6 per cent of the gross amount of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2014-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "1. Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": true,
+  "from": "2021-01-01",
+  "basis": "MLI art. 7(1)",
+  "source_url": "https://www.gov.uk/government/publications/albania-tax-treaties/2021-uk-albania-synthesised-text-of-the-multilateral-instrument-and-the-2013-double-taxation-agreement-in-force",
+  "quote": "The following paragraph 1 of Article 7 of the MLI replaces paragraph 6 of Article 10, paragraph 5 of Article 12 and paragraph 4 of Article 20 of this Convention ... Notwithstanding any provisions of [the Agreement], a benefit under [the Agreement] shall not be granted in respect of an item of income or capital if it is reasonable to conclude ... that obtaining that benefit was one of the principal purposes of any arrangement or transaction ... | the provisions of the MLI have effect with respect to the Convention: In the United Kingdom and Albania, for taxes withheld at source, from 1 January 2021"
+ },
+ "notes": "Art. 10(2)(a) 5% also applies where the beneficial owner is a pension scheme (not modelled). Art. 10(2)(b): 15% for dividends paid out of income from immovable property by an investment vehicle distributing most of its income annually whose property income is tax-exempt (REIT-type; not modelled as general tier). Art. 11(3): interest exempt at source where beneficial owner is the State/central bank/subdivision, paid by the State, State-related/export-agency loans, financial institution, credit sales, or pension scheme — not modelled. MLI Art. 8 not applied (Albania notified 10(2)(a) but the UK did not; the gov.uk synthesised text contains no Art. 8 box). Treaty main-purpose clauses (10(6), 11(6), 12(5)) replaced/superseded by MLI Art. 7(1). valid_from uses the Albanian effective date (1 Jan 2014); UK effective 1/6 April 2014.",
+ "confidence": "high",
+ "unverified": []
+}

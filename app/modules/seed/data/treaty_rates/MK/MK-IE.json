@@ -1,0 +1,78 @@
+{
+ "a": "MK",
+ "b": "IE",
+ "treaty_name": "Agreement between the Government of the Republic of Macedonia and the Government of Ireland for the avoidance of double taxation and the prevention of fiscal evasion with respect to taxes on income (2008)",
+ "signed": "2008-04-14",
+ "entry_into_force": "2009-01-12",
+ "eif_source_url": "https://www.ujp.gov.mk/en/plakjanje/category/137?print=1",
+ "eif_quote": "Art. 26(1): This Agreement shall enter into force on the date of the later of these notifications and shall thereupon have effect: a) in Macedonia: i) in respect of taxes withheld at source, on income derived on or after 1st January of the calendar year next following the year in which this Agreement enters into force; ... b) in Ireland: i) in respect of income tax and capital gains tax, for any year of assessment beginning on or after 1st January of the calendar year next following the year in which this Agreement enters into force; | UJP table: Ireland | 157/2008 | 23.06.2009 | 01.01.2010",
+ "source_title": "UJP English text of the MK-Ireland agreement and protocol (12Ireland.pdf)",
+ "source_url": "https://www.ujp.gov.mk/uploads/File/12Ireland.pdf",
+ "rates": [
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(3)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "0",
+   "exclusive": false,
+   "ownership_threshold": "25",
+   "min_holding_days": 365,
+   "source_state": null,
+   "quote": "Notwithstanding the provisions of paragraph 2, dividends shall not be taxed in the Contracting State of which the company paying the dividends is a resident if the beneficial owner of the dividends is a resident of the other Contracting State and is either: a) a company that has owned directly shares representing at least 25 per cent of the capital of the company paying the dividends for an uninterrupted twelve month period ending on the date the dividend is paid, or b) a recognised pension fund."
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(a)",
+   "valid_from": "2010-01-01",
+   "max_rate": "5",
+   "exclusive": false,
+   "ownership_threshold": "10",
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "a) 5 per cent of the gross amount of the dividends if the beneficial owner is a company which holds directly at least 10 per cent of the voting power of the company paying the dividends;"
+  },
+  {
+   "category": "DIVIDEND",
+   "article": "Article 10(2)(b)",
+   "valid_from": "2010-01-01",
+   "max_rate": "10",
+   "exclusive": false,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "b) 10 per cent of the gross amount of the dividends in all other cases."
+  },
+  {
+   "category": "INTEREST",
+   "article": "Article 11(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Interest arising in a Contracting State and paid to a resident of the other Contracting State shall be taxable only in that other State if such resident is the beneficial owner of the interest."
+  },
+  {
+   "category": "ROYALTY",
+   "article": "Article 12(1)",
+   "valid_from": "2010-01-01",
+   "max_rate": null,
+   "exclusive": true,
+   "ownership_threshold": null,
+   "min_holding_days": null,
+   "source_state": null,
+   "quote": "Royalties arising in a Contracting State and beneficially owned by a resident of the other Contracting State shall be taxable only in that other State."
+  }
+ ],
+ "ppt": {
+  "applies": false,
+  "from": null,
+  "basis": "none (no PPT clause in treaty; MLI not applicable: North Macedonia signed the MLI on 2020-01-29 but has not ratified it)",
+  "source_url": null,
+  "quote": null
+ },
+ "notes": "5% tier threshold is 10% of voting power. Art. 10(3)(b): dividends to a recognised pension fund exempt at source (Protocol: includes Ireland's National Pensions Reserve Fund) - not modelled. EIF conflict carried from map.json: 12.01.2009 (MK MLI list, used) vs 23.06.2009 (UJP table); application date 01.01.2010 either way.",
+ "confidence": "high",
+ "unverified": []
+}
