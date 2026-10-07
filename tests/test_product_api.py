@@ -66,6 +66,8 @@ def test_questions_endpoint(seeded):
     body = _client(seeded).get("/v1/onboarding/questions").json()
     assert [q["code"] for q in body["questions"]] == ["size", "activity", "flows"]
     assert {"code": "AE", "name": "United Arab Emirates"} in body["jurisdictions"]
+    names = [j["name"] for j in body["jurisdictions"]]
+    assert names == sorted(names)  # dropdowns list countries alphabetically
 
 
 def test_profile_then_recommendation(seeded):
