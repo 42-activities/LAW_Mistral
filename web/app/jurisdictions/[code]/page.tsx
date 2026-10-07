@@ -84,6 +84,41 @@ export default async function JurisdictionPage({ params, searchParams }: Props) 
               </tbody>
             </table>
           )}
+          <div className="mt-4 border-t border-line pt-3">
+            <p className="text-xs font-medium uppercase tracking-wide text-muted">VAT / sales tax</p>
+            {o.vat === null ? (
+              <p className="mt-2 text-sm text-muted">Not recorded for this date.</p>
+            ) : (
+              <div className="mt-2 space-y-1.5 text-sm">
+                <div className="flex justify-between gap-4">
+                  <span>
+                    {o.vat.tax_name}
+                    <span className="block text-xs text-muted">{since(o.vat.valid)}</span>
+                  </span>
+                  <span className="font-mono whitespace-nowrap">
+                    {o.vat.has_vat ? `${pct(o.vat.standard_rate)} standard` : "none at national level"}
+                    <Cite ids={[o.vat.citation]} />
+                  </span>
+                </div>
+                {o.vat.reduced_rates.length > 0 && (
+                  <ul className="space-y-0.5 text-muted">
+                    {o.vat.reduced_rates.map((r) => (
+                      <li key={r.rate + r.scope}>
+                        <span className="font-mono">{pct(r.rate)}</span> — {r.scope}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {o.vat.next_change && (
+                  <p className="text-warn">
+                    Changes to {pct(o.vat.next_change.standard_rate)} from {o.vat.next_change.from}
+                    <Cite ids={[o.vat.next_change.citation]} />
+                  </p>
+                )}
+                {o.vat.notes && <p className="text-xs text-muted">{o.vat.notes}</p>}
+              </div>
+            )}
+          </div>
           {o.wht_exemptions.length > 0 && (
             <div className="mt-4 border-t border-line pt-3">
               <p className="text-xs font-medium uppercase tracking-wide text-muted">Withholding exemptions</p>

@@ -2,7 +2,7 @@ from datetime import date
 from decimal import Decimal
 
 from sqlalchemy import Boolean, CheckConstraint, ForeignKey, Integer, Numeric, String, text
-from sqlalchemy.dialects.postgresql import DATERANGE, ExcludeConstraint, Range
+from sqlalchemy.dialects.postgresql import DATERANGE, JSONB, ExcludeConstraint, Range
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db import Base
@@ -195,5 +195,32 @@ class CitRefund(Base):
     refund_pct: Mapped[Decimal] = mapped_column(Numeric(7, 4))
     legal_ref: Mapped[str] = mapped_column(String(120))
     description: Mapped[str] = mapped_column(String(500))
+    source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
+    valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)
+
+
+class VatRule(Base):
+    """General consumption tax (VAT / GST / general sales tax) as of a period. ``standard_rate``
+    is None where the jurisdiction levies no such tax at national level (``has_vat`` False)."""
+
+    __tablename__ = "vat_rule"
+    __table_args__ = (
+        ExcludeConstraint(
+            ("jurisdiction_id", "="),
+            ("valid_period", "&&"),
+            using="gist",
+            name="no_overlap_vat_rule",
+        ),
+        {"schema": "tax"},
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    jurisdiction_id: Mapped[int] = mapped_column(ForeignKey("core.jurisdiction.id"))
+    has_vat: Mapped[bool] = mapped_column(Boolean)
+    tax_name: Mapped[str] = mapped_column(String(200))
+    standard_rate: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
+    # [{"rate": "10", "scope": "restaurants"}, ...]
+    reduced_rates: Mapped[list[dict[str, str]]] = mapped_column(JSONB, default=list)
+    notes: Mapped[str | None] = mapped_column(String(1000), nullable=True)
     source_evidence_id: Mapped[int] = mapped_column(ForeignKey("source.source_evidence.id"))
     valid_period: Mapped[Range[date]] = mapped_column(DATERANGE)

@@ -12,7 +12,7 @@ from app.modules.core.reference import IncomeCategory, JurisdictionGroup, TaxTyp
 from app.modules.engine.risk import RiskEngine
 from app.modules.risk.models import ListDefinition, ListMembership
 from app.modules.source.models import SourceDocument, SourceEvidence
-from app.modules.tax.models import DomesticTaxRule, WhtExemption
+from app.modules.tax.models import DomesticTaxRule, VatRule, WhtExemption
 from app.modules.tax.repository import AntiAbuseRepository, HoldingRegimeRepository
 from app.modules.treaty.models import Treaty, TreatyArticle, TreatyParty, TreatyRate
 
@@ -79,6 +79,14 @@ class BrowseService:
             }
         wht = self._wht_ranges(on)
         treaties = self._treaty_counts(on)
+        vat = {
+            code: {"has_vat": v.has_vat, "tax_name": v.tax_name, "rate": _d(v.standard_rate)}
+            for code, v in self.session.execute(
+                select(Jurisdiction.code, VatRule)
+                .join(VatRule, VatRule.jurisdiction_id == Jurisdiction.id)
+                .where(VatRule.valid_period.contains(on))
+            )
+        }
         out = []
         for c, n in self.session.execute(select(Jurisdiction.code, Jurisdiction.name)):
             row = found.get(c) or {"code": c, "name": n, "rate": None, "min_rate": None,
@@ -97,9 +105,39 @@ class BrowseService:
                     for h in RiskEngine(self.session).profile(c, on).memberships
                 ],
                 "treaties_in_force": treaties.get(c, 0),
+                "vat": vat.get(c),
             }
             out.append(row)
         return sorted(out, key=lambda r: r["code"])
+
+    def _vat(self, jurisdiction_id: int, on: date) -> dict[str, Any] | None:
+        v = self.session.scalar(
+            select(VatRule).where(
+                VatRule.jurisdiction_id == jurisdiction_id, VatRule.valid_period.contains(on)
+            )
+        )
+        if v is None:
+            return None
+        nxt = self.session.scalar(
+            select(VatRule)
+            .where(VatRule.jurisdiction_id == jurisdiction_id, VatRule.valid_period.contains(
+                v.valid_period.upper
+            ))
+        ) if v.valid_period.upper else None
+        return {
+            "has_vat": v.has_vat,
+            "tax_name": v.tax_name,
+            "standard_rate": _d(v.standard_rate),
+            "reduced_rates": v.reduced_rates,
+            "notes": v.notes,
+            "valid": _period(v.valid_period),
+            "citation": v.source_evidence_id,
+            "next_change": None if nxt is None else {
+                "standard_rate": _d(nxt.standard_rate),
+                "from": _period(nxt.valid_period)["from"],
+                "citation": nxt.source_evidence_id,
+            },
+        }
 
     def _wht_ranges(self, on: date) -> dict[str, dict[str, dict[str, str]]]:
         """Lowest and highest domestic withholding rate per jurisdiction and income category."""
@@ -144,6 +182,7 @@ class BrowseService:
             "name": j.name,
             "on_date": on.isoformat(),
             "domestic_rules": self._rules(j.id, on),
+            "vat": self._vat(j.id, on),
             "wht_exemptions": self._exemptions(j.id, on),
             "holding_regime": self._regime(code, on),
             "cfc_rule": self._cfc(code, on),

@@ -46,6 +46,14 @@ function Bubble({ row }: { row: CorporateTaxRow }) {
         {row.name} <span className="font-mono text-xs text-muted">{row.code}</span>
       </div>
       <div>Corporate tax: {rateText(row)}</div>
+      <div>
+        VAT:{" "}
+        {s.vat === null
+          ? "not recorded"
+          : s.vat.has_vat && s.vat.rate !== null
+            ? `${parseFloat(s.vat.rate)}% standard`
+            : "none at national level"}
+      </div>
       <div className="text-muted">
         Withholding (domestic):{" "}
         {wht.length ? wht.map((k) => `${WHT_LABEL[k]} ${range(s.wht[k]!)}`).join(" · ") : "not recorded"}

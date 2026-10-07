@@ -53,6 +53,18 @@ function rule(o: Overview, taxType: string): Cell {
 
 const ROWS: [string, (o: Overview) => Cell][] = [
   ["Corporate income tax", (o) => rule(o, "CIT")],
+  [
+    "VAT / sales tax",
+    (o) =>
+      o.vat
+        ? {
+            text: o.vat.has_vat
+              ? `${pct(o.vat.standard_rate)} standard${o.vat.reduced_rates.length ? ` · reduced ${o.vat.reduced_rates.map((r) => pct(r.rate)).join(", ")}` : ""}${o.vat.next_change ? ` · ${pct(o.vat.next_change.standard_rate)} from ${o.vat.next_change.from}` : ""}`
+              : "none at national level",
+            cites: [o.vat.citation],
+          }
+        : { text: "not recorded", cites: [] },
+  ],
   ["WHT on dividends", (o) => rule(o, "WHT_DIVIDEND")],
   ["WHT on interest", (o) => rule(o, "WHT_INTEREST")],
   ["WHT on royalties", (o) => rule(o, "WHT_ROYALTY")],

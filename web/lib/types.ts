@@ -86,10 +86,22 @@ export type Profile = {
 
 export type Period = { from: string | null; to: string | null };
 
+export type Vat = {
+  has_vat: boolean;
+  tax_name: string;
+  standard_rate: string | null;
+  reduced_rates: { rate: string; scope: string }[];
+  notes: string | null;
+  valid: Period;
+  citation: number;
+  next_change: { standard_rate: string | null; from: string; citation: number } | null;
+};
+
 export type Overview = {
   code: string;
   name: string;
   on_date: string;
+  vat: Vat | null;
   domestic_rules: {
     tax_type: string;
     income_category: string;
@@ -187,5 +199,6 @@ export type CorporateTaxRow = {
     } | null;
     lists: { code: string; classification: string }[];
     treaties_in_force: number;
+    vat: { has_vat: boolean; tax_name: string; rate: string | null } | null;
   };
 };
