@@ -103,10 +103,11 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
     [a, b].map((c) => (c ? api<Overview>(`/v1/browse/jurisdictions/${encodeURIComponent(c)}?on_date=${on}`).catch(() => null) : null)),
   );
 
+  const byName = [...jurisdictions].sort((x, y) => x.name.localeCompare(y.name));
   const names = new Map(jurisdictions.map((j) => [j.code, j.name]));
   const select = (name: string, value: string | undefined) => (
     <select name={name} defaultValue={value} className="rounded-lg border border-line bg-surface px-3 py-2">
-      {jurisdictions.map((j) => (
+      {byName.map((j) => (
         <option key={j.code} value={j.code}>
           {j.name}
         </option>

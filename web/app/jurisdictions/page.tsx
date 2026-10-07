@@ -18,7 +18,7 @@ export default async function JurisdictionsPage() {
       <h1 className="text-3xl font-semibold tracking-tight">Jurisdictions</h1>
       <p className="mt-2 text-muted">Domestic rules, holding regimes, list status and treaties — as of any date.</p>
       <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {jurisdictions.map((j) => (
+        {[...jurisdictions].sort((x, y) => x.name.localeCompare(y.name)).map((j) => (
           <li key={j.code}>
             <Link
               href={`/jurisdictions/${j.code}`}

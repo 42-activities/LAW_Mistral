@@ -36,7 +36,8 @@ def onboarding_questions(
             for q in questions(session)
         ],
         "jurisdictions": [
-            {"code": j.code, "name": j.name} for j in JurisdictionRepository(session).list()
+            {"code": j.code, "name": j.name}
+            for j in sorted(JurisdictionRepository(session).list(), key=lambda j: j.name)
         ],
     }
 
