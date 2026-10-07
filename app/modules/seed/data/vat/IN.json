@@ -1,0 +1,34 @@
+{
+ "code": "IN",
+ "has_vat": true,
+ "tax_name": "Goods and Services Tax (GST: CGST + SGST/UTGST, or IGST on inter-State supplies)",
+ "standard_rate": "18",
+ "valid_from": "2017-07-01",
+ "legal_ref": "CGST Act 2017 s.9 and SGST Acts; IGST Act 2017 s.5; rate schedule Notification No. 9/2025-Central Tax (Rate) dated 17.09.2025 (w.e.f. 22.09.2025), superseding Notification No. 1/2017-Central Tax (Rate)",
+ "quote": "\"Rationalisation of the current 4-tiered tax rate structure into a citizen-friendly 'Simple Tax' - a 2 rate structure with a Standard Rate of 18% and a Merit Rate of 5%; a special de-merit rate of 40% for a select few goods and services\"; \"the changes in GST rates of goods and services need to be implemented with effect from 22 September 2025\" — PIB release on 56th GST Council, 3 Sep 2025",
+ "source_url": "https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau.pdf",
+ "source_title": "PIB press release 'Recommendations of the 56th Meeting of the GST Council', 3 Sep 2025 (GST Council website)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "5",
+   "scope": "merit rate from 22 Sep 2025: common household items, most food, drugs/medicines, agricultural and labour-intensive goods, hotel accommodation, etc."
+  },
+  {
+   "rate": "40",
+   "scope": "special de-merit (higher) rate from 22 Sep 2025 for select luxury/sin goods and services; for pan masala, cigarettes, tobacco the old rate + compensation cess was retained until the cess account is discharged"
+  },
+  {
+   "rate": "0",
+   "scope": "nil-rated / exempt items (e.g. individual life and health insurance from 22 Sep 2025, UHT milk)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Dual GST: intra-State supplies bear CGST + SGST/UTGST (18% = 9% + 9%), inter-State supplies and imports bear IGST at the combined rate. The Sept 2025 rationalisation (56th GST Council, effective 22 Sep 2025) removed the 12% and 28% slabs. Special low rates also exist (e.g. 3% gold/jewellery, 0.25% rough diamonds). Registration threshold generally INR 40 lakh (goods) / 20 lakh (services), lower in special-category States. GST Compensation Cess on tobacco/pan masala reportedly ended 1 Feb 2026, with those goods moved to 40% GST plus central excise / Health and National Security Cess.",
+ "unverified": [
+  "valid_from 2017-07-01 (18% slab since GST launch) not read from Notification 1/2017-CT(Rate); CBIC notification portal is a JavaScript app",
+  "Notification No. 9/2025-Central Tax (Rate) text not read directly (CBIC portal JS-only); number/date from search results",
+  "Tobacco/pan masala move to 40% GST and end of compensation cess from 2026-02-01: only news sources seen",
+  "Special rates 3% and 0.25% and registration thresholds not read from official text"
+ ]
+}

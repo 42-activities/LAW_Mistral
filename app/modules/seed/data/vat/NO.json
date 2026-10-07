@@ -1,0 +1,36 @@
+{
+ "code": "NO",
+ "has_vat": true,
+ "tax_name": "Merverdiavgift (MVA)",
+ "standard_rate": "25",
+ "valid_from": "2005-01-01",
+ "legal_ref": "Stortingets vedtak om merverdiavgift for 2026 § 2 (annual Storting decision under merverdiavgiftsloven 19.06.2009 nr. 58)",
+ "quote": "§ 2 Alminnelig sats: Merverdiavgift beregnes med 25 pst. av avgiftspliktig omsetning, uttak og innførsel når ikke redusert sats skal anvendes etter bestemmelsene nedenfor. — VAT is charged at 25% of taxable supplies, self-supply and imports unless a reduced rate applies. (SKD 11/04, 26.11.2004: \"Standardsatsen for merverdiavgift er økt fra 24 pst. til 25 pst.\" for 2005)",
+ "source_url": "https://stortinget.no/globalassets/pdf/innstillinger/stortinget/2025-2026/inns-202526-003s.pdf",
+ "source_title": "Stortinget — Innst. 3 S (2025–2026) Skatter og avgifter 2026, VIII Vedtak om merverdiavgift for 2026; valid_from from Skattedirektoratet melding SKD 11/04 (https://www.skatteetaten.no/contentassets/1abc49b72e944900ab25c4a05e1f98a9/skd1104.pdf); rates cross-checked on skatteetaten.no/en/rates/value-added-tax (2026)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "15",
+   "scope": "foodstuffs (mval § 5-2); water supply and wastewater services (§ 5-12)"
+  },
+  {
+   "rate": "12",
+   "scope": "passenger transport, vehicle ferry transport, hotel/room letting, cinema, broadcasting, museums, amusement parks, sports events"
+  },
+  {
+   "rate": "11.11",
+   "scope": "sales of fish etc. through fishermen's sales organisations (råfisklag)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports, books and newspapers (incl. electronic), electric vehicles within limits, etc."
+  }
+ ],
+ "future_changes": [],
+ "notes": "Rates are fixed annually by Storting plenary decision (vedtak om merverdiavgift), in force from 1 Jan 2026 for the 2026 budget year. Revised National Budget 2026 brought no rate changes. Svalbard and Jan Mayen are outside the VAT area. Registration threshold NOK 50,000 in 12 months.",
+ "unverified": [
+  "Registration threshold NOK 50,000 not re-read in an official text this session",
+  "Zero-rate scope list (mval ch. 6) summarised, not each item re-read"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "code": "SD",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / الضريبة على القيمة المضافة",
+ "standard_rate": "17",
+ "valid_from": "2012-06-19",
+ "legal_ref": "Value Added Tax Act 2001, s.14(1) (15% statutory rate) as amended under s.15 by Council of Ministers order of 19 June 2012 (rate 17%)",
+ "quote": "14.(1) The tax rate on commodities, services and business shall be 15% (fifteen percent), and levy of tax upon such commodities and services as may be exported abroad shall be at the rate of (zero) … (2) … the tax rate on communications services shall be 30% … [footnote] *the Council of Ministers issued on 19/6/2012 an order amending the tax rate to 17%, as the Council of Ministers issued on 7/5/2015 an order amending the value added tax on cigarette to 30%.",
+ "source_url": "https://tax.gov.sd/wp-content/uploads/2025/02/The-Value-Add-tax.pdf",
+ "source_title": "Sudan Taxation Chamber (tax.gov.sd) – The Value Added Tax Act 2001 (English, consolidated with amendments to 2011 and footnoted orders); Arabic text https://tax.gov.sd/wp-content/uploads/2025/02/vat2001.pdf has the same footnote",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "exports of goods and services (s.14(1))"
+  }
+ ],
+ "future_changes": [],
+ "notes": "General rate 17% (statutory 15% in s.14(1), raised to 17% by Council of Ministers order of 19 June 2012 under s.15). Higher rates: communications services 30% (s.14(2)); cigarettes 30% (Council of Ministers order 7 May 2015). Exempt goods/services listed in the schedule (vat_list). Revenue is shared 60% federal / 40% states (s.50). Free zones governed by s.15A.",
+ "unverified": [
+  "Effective date of the 17% order taken as its issue date (19 June 2012); the order text itself was not available",
+  "No information found on rate changes after 2015 amid the post-2023 conflict; tax reform committee reports (2025) on tax.gov.sd not reviewed"
+ ]
+}

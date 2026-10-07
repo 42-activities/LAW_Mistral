@@ -55,7 +55,17 @@ def test_no_vat_jurisdiction(db_session, tmp_path):
     Seeder(db_session).jurisdiction("KW", "Kuwait")
     db_session.flush()
     _write(tmp_path, {**BASE, "code": "KW", "has_vat": False, "standard_rate": None,
-                      "tax_name": "none", "reduced_rates": []})
+                      "valid_from": None, "tax_name": "none", "reduced_rates": []})
     seed_vat(db_session, tmp_path)
     vat = BrowseService(db_session).jurisdiction("KW", date(2026, 10, 7))["vat"]
     assert vat["has_vat"] is False and vat["standard_rate"] is None
+    assert vat["valid"]["from"] is None
+
+
+def test_seeded_vat_covers_every_jurisdiction(seeded_session):
+    rows = {r["code"]: r for r in BrowseService(seeded_session).corporate_tax(date(2026, 10, 7))}
+    assert all(r["summary"]["vat"] is not None for r in rows.values())
+    assert rows["FR"]["summary"]["vat"]["rate"] == "20.000"
+    assert rows["SE"]["summary"]["vat"]["rate"] == "25.000"  # food-rate change is not standard
+    assert rows["US"]["summary"]["vat"]["has_vat"] is False
+    assert rows["KZ"]["summary"]["vat"]["rate"] == "16.000"

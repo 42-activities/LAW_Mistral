@@ -1,0 +1,27 @@
+{
+ "code": "CH",
+ "has_vat": true,
+ "tax_name": "Mehrwertsteuer (MWST) / Taxe sur la valeur ajoutée (TVA)",
+ "standard_rate": "8.1",
+ "valid_from": "2024-01-01",
+ "legal_ref": "MWSTG (SR 641.20) Art. 25 Abs. 1, Fassung gemäss V vom 9. Dez. 2022 (AS 2022 863)",
+ "quote": "Die Steuer beträgt 8,1 Prozent (Normalsatz); vorbehalten bleiben die Absätze 2 und 3. [Fn: Fassung gemäss Ziff. I der V vom 9. Dez. 2022 über die Anhebung der Mehrwertsteuersätze zur Zusatzfinanzierung der AHV, in Kraft seit 1. Jan. 2024] — The tax is 8.1 percent (standard rate), in force since 1 Jan 2024.",
+ "source_url": "https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2009/615/20250101/de/html/fedlex-data-admin-ch-eli-cc-2009-615-20250101-de-html-1.html",
+ "source_title": "Fedlex — Bundesgesetz über die Mehrwertsteuer (MWSTG), SR 641.20, Stand 1.1.2025, Art. 25; cross-checked ESTV 'MWST-Steuersätze' page (estv.admin.ch, updated 22.09.2026)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "2.6",
+   "scope": "food (not restaurant), water in pipes, medicines, books/newspapers incl. electronic, menstrual hygiene products, agricultural inputs, radio/TV services (Art. 25 Abs. 2)"
+  },
+  {
+   "rate": "3.8",
+   "scope": "accommodation incl. breakfast (special rate, Art. 25 Abs. 4; valid until 31 Dec 2027 at the latest)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Special accommodation rate 3.8% runs until 31.12.2027 at the latest (Art. 25 Abs. 4 / Art. 196 Ziff. 14 BV). Pending, NOT enacted: Parliament's federal decree (constitutional amendment) raising VAT by 0.4 percentage points to finance the 13th AHV pension — subject to the mandatory popular vote scheduled for 29 November 2026 (parlament.ch SGK press release 17.06.2026); not listed as a future change because not yet adopted. Same rates apply in Liechtenstein (customs union). Exempt from liability below CHF 100,000 annual turnover in Switzerland and abroad (MWSTG Art. 10 Abs. 2 lit. a).",
+ "unverified": [
+  "Exact rate/start date of the proposed 0.4 pp AHV increase (vote 29.11.2026)"
+ ]
+}

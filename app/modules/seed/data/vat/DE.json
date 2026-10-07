@@ -1,0 +1,28 @@
+{
+ "code": "DE",
+ "has_vat": true,
+ "tax_name": "Umsatzsteuer (USt) / Mehrwertsteuer",
+ "standard_rate": "19",
+ "valid_from": "2021-01-01",
+ "legal_ref": "UStG § 12 Abs. 1; § 28 Abs. 1 UStG (temporary 16% from 1 July to 31 December 2020)",
+ "quote": "(1) Die Steuer beträgt für jeden steuerpflichtigen Umsatz 19 Prozent der Bemessungsgrundlage (§§ 10, 11, 25 Abs. 3 und § 25a Abs. 3 und 4). — Tax is 19% of the taxable amount for every taxable supply. [§ 28 Abs. 1: '§ 12 Absatz 1 ist vom 1. Juli 2020 bis 31. Dezember 2020 mit der Maßgabe anzuwenden, dass die Steuer ... 16 Prozent ... beträgt.' — 16% applied 1 Jul–31 Dec 2020, so 19% applies again from 1 Jan 2021]",
+ "source_url": "https://www.gesetze-im-internet.de/ustg_1980/__12.html",
+ "source_title": "Umsatzsteuergesetz (UStG) § 12 Steuersätze, gesetze-im-internet.de (Bundesministerium der Justiz); also § 28 UStG https://www.gesetze-im-internet.de/ustg_1980/__28.html",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "7",
+   "scope": "foodstuffs and other goods in Anlage 2 (excl. beverages other than water/milk drinks), books, newspapers and periodicals incl. electronic, local public passenger transport, short-term accommodation, cultural admissions, restaurant and catering services excluding beverages (UStG § 12 Abs. 2)"
+  },
+  {
+   "rate": "0",
+   "scope": "supply and installation of solar modules, components and storage for photovoltaic systems on or near dwellings/public-benefit buildings (UStG § 12 Abs. 3)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "19% standard rate originally introduced 1 January 2007 (previously 16%); reduced temporarily to 16% from 1 July to 31 December 2020 (§ 28 Abs. 1 UStG), so the current 19% period runs from 1 January 2021. Restaurant/catering food is listed in § 12 Abs. 2 Nr. 15 at 7% (excluding beverages). Heligoland and Büsingen are outside the VAT territory. Small-business threshold under § 19 UStG. Zero rate effectively via exemptions with deduction for exports and intra-EU supplies (§ 4 Nr. 1). TEDB (situation 2026-07-01) also shows 19%. No enacted future change found.",
+ "unverified": [
+  "Start date of the restaurant/catering 7% rate as a permanent rule (believed 2026-01-01) not confirmed in an amending act",
+  "Original introduction date of 19% (2007-01-01) not checked in the amending act"
+ ]
+}

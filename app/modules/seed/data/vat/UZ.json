@@ -1,0 +1,23 @@
+{
+ "code": "UZ",
+ "has_vat": true,
+ "tax_name": "Налог на добавленную стоимость (НДС) / Qo'shilgan qiymat solig'i (QQS)",
+ "standard_rate": "12",
+ "valid_from": "2023-01-01",
+ "legal_ref": "Налоговый кодекс Республики Узбекистан (30.12.2019), ст. 258 ч. 1, в редакции Закона № ЗРУ-812 от 30.12.2022",
+ "quote": "Если иное не установлено главой 36 настоящего Кодекса, налоговая ставка устанавливается в размере 12 процентов. (часть первая статьи 258 в редакции Закона Республики Узбекистан от 30 декабря 2022 года № ЗРУ-812 — Вступает в силу с 1 января 2023 года) — Unless chapter 36 provides otherwise, the VAT rate is 12 percent (in force from 1 January 2023).",
+ "source_url": "https://lex.uz/ru/docs/4674893",
+ "source_title": "Lex.uz (Национальная база данных законодательства) — Налоговый кодекс Республики Узбекистан, ст. 258 'Налоговые ставки'",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "exports, processing services in customs territory, international transport and other cases under chapter 36 (Art. 258 ч. 2, Arts. 260-264)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Single positive rate 12% (reduced from 15% from 1 Jan 2023). No future-dated amendment to Art. 258 found in the consolidated text. Exemptions under Art. 243 etc. Small businesses below the VAT turnover threshold pay turnover tax instead.",
+ "unverified": [
+  "VAT registration/turnover threshold (UZS 1 billion) not checked in the Code text"
+ ]
+}

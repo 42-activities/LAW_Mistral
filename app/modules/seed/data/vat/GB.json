@@ -1,0 +1,25 @@
+{
+ "code": "GB",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT)",
+ "standard_rate": "20",
+ "valid_from": "2011-01-04",
+ "legal_ref": "Value Added Tax Act 1994 s.2(1), as amended by Finance (No. 2) Act 2010 s.3",
+ "quote": "VAT shall be charged at the rate of 20 per cent — VATA 1994 s.2(1). F(No.2)A 2010 s.3(3): \"The amendment made by subsection (1) has effect in relation to any supply made on or after 4 January 2011\"",
+ "source_url": "https://www.legislation.gov.uk/ukpga/1994/23/section/2",
+ "source_title": "legislation.gov.uk — Value Added Tax Act 1994, section 2; Finance (No. 2) Act 2010 section 3 (https://www.legislation.gov.uk/ukpga/2010/31/section/3)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "5",
+   "scope": "domestic fuel and power, children's car seats, smoking cessation products, mobility aids for the elderly, certain residential conversions/renovations (VATA 1994 Sch. 7A)"
+  },
+  {
+   "rate": "0",
+   "scope": "most food, children's clothes, books/newspapers, passenger transport, exports (VATA 1994 Sch. 8)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "HMRC (gov.uk/vat-rates): standard 20%, reduced 5%, zero 0%; exemptions e.g. postage stamps, financial and property transactions. Registration threshold: taxable turnover over £90,000 in the last 12 months (gov.uk/vat-registration/when-to-register). Northern Ireland follows EU VAT rules for goods under the Windsor Framework.",
+ "unverified": []
+}

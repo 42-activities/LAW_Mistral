@@ -1,0 +1,18 @@
+{
+ "code": "AE",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / ضريبة القيمة المضافة",
+ "standard_rate": "5",
+ "valid_from": "2018-01-01",
+ "legal_ref": "Federal Decree-Law No. 8 of 2017 on VAT, Art. 3 (effective 1 Jan 2018)",
+ "quote": "Article 3 – Tax Rate: Without prejudice to the provisions of Title Six of this Decree-Law, a standard rate of 5% Tax shall be imposed on any supply or Import pursuant to Article 2 of this Decree-Law (MoF English consolidated text, not an official translation)",
+ "source_url": "https://tax.gov.ae//Datafolder/Files/Legislation/2025/Federal-Decree-Law-No-8-of-2017-and-amendments.pdf",
+ "source_title": "Federal Tax Authority – Federal Decree-Law No. 8 of 2017 and its amendments (as published by Ministry of Finance; amendments to Decree-Law 16/2024)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Zero rate (Art. 45) on exports outside GCC implementing states, international transport, certain education and healthcare, first supply of residential buildings, investment precious metals, crude oil/natural gas, etc. Exempt (Art. 46): certain financial services, residential leases/subsequent sales, bare land, local passenger transport. Mandatory registration threshold AED 375,000, voluntary AED 187,500 (Executive Regulation, Cabinet Decision 52/2017, Arts. 7-8). Administered by the Federal Tax Authority. The consolidated text on the FTA site covers amendments up to Decree-Law 16/2024; no rate change found.",
+ "unverified": [
+  "Consolidated FTA PDF reflects amendments up to Federal Decree-Law No. 16 of 2024; any later (2025) amendment to the Decree-Law was not checked, though none is known to alter the 5% rate"
+ ]
+}

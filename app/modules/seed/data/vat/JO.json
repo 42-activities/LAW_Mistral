@@ -1,0 +1,28 @@
+{
+ "code": "JO",
+ "has_vat": true,
+ "tax_name": "General Sales Tax (GST) / الضريبة العامة على المبيعات — a VAT-type general sales tax with input-tax credit",
+ "standard_rate": "16",
+ "valid_from": null,
+ "legal_ref": "General Sales Tax Law No. 6 of 1994 and amendments, Art. 6(a)",
+ "quote": "\"ما نسبة الضريبة العامة المفروضة؟ فرضت المادة (6/أ) من القانون ضريبة عامة على استيراد أي سلعة أو خدمة أو بيع أي منهما بنسبة (16%) من قيمة هذه السلعة أو بدل هذه الخدمة\" — Art. 6(a) of the law imposes a general tax on the import or sale of any good or service at 16% of its value (ISTD FAQ on GST Law No. 6/1994; PDF uses a legacy Arabic font, text read from glyphs)",
+ "source_url": "https://web.archive.org/web/2026/https://istd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/kta_document_(6).pdf",
+ "source_title": "Income and Sales Tax Department (ISTD) – 'General questions on General Sales Tax Law No. 6 of 1994 and its amendments' (Wayback Machine copy, listing captured July 2026; istd.gov.jo refused connections)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "4",
+   "scope": "specified goods set by Council of Ministers decision (per ISTD FAQ, 2016 snapshot)"
+  },
+  {
+   "rate": "0",
+   "scope": "goods/services in Schedule 2 of the law; exports; sales to Aqaba Special Economic Zone registrants"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Jordan levies a general sales tax rather than a tax called VAT, but it is a multi-stage consumption tax on supplies and imports of goods and services with deduction of input tax by registered persons, so recorded as has_vat true. A separate 'special tax' (الضريبة الخاصة) applies to Schedule-1 goods/services (tobacco, alcohol, mobile subscriptions, etc.), some of which also bear general tax. Various other reduced rates (e.g. 5%, 8%, 10%) exist for specific goods by Cabinet regulation; not individually verified. Aqaba Special Economic Zone has its own lower sales tax regime.",
+ "unverified": [
+  "Date the 16% rate took effect not found in an official text (believed to be mid-2000s)",
+  "Full current list of reduced rates (Cabinet decisions) not verified; only 4% and 0% confirmed, from a 2016 ISTD FAQ page (https://web.archive.org/web/20161015082546/http://www.istd.gov.jo/Arabic/FrequentlyQuestions/FAQSales.aspx)"
+ ]
+}

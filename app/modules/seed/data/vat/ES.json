@@ -1,0 +1,27 @@
+{
+ "code": "ES",
+ "has_vat": true,
+ "tax_name": "Impuesto sobre el Valor Añadido (IVA)",
+ "standard_rate": "21",
+ "valid_from": "2012-09-01",
+ "legal_ref": "Ley 37/1992, de 28 de diciembre, del IVA, art. 90.Uno, as amended by Real Decreto-ley 20/2012, de 13 de julio, art. 23.2 (BOE-A-2012-9364)",
+ "quote": "Artículo 90. Tipo impositivo general. Uno. El Impuesto se exigirá al tipo del 21 por ciento, salvo lo dispuesto en el artículo siguiente. ... Se modifica el apartado 1, con efectos desde el 1 de septiembre de 2012, por el art. 23.2 del Real Decreto-ley 20/2012, de 13 de julio. — VAT is charged at 21% except as provided in art. 91; paragraph 1 amended with effect from 1 September 2012 by RDL 20/2012.",
+ "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+ "source_title": "BOE – Ley 37/1992 del Impuesto sobre el Valor Añadido, consolidated text",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "art. 91.Uno: most foodstuffs and non-alcoholic drinks, water, medical equipment and aids, new housing, passenger transport, hotels and restaurants, cultural and sports admissions, certain agricultural inputs, and other listed items"
+  },
+  {
+   "rate": "4",
+   "scope": "art. 91.Dos: basic foods (bread, bread flour, milk, cheese, eggs, fruit, vegetables, pulses, tubers, cereals, olive oil); books, newspapers and magazines incl. electronic; medicines for human use; vehicles and prostheses for people with disabilities; subsidised social housing (VPO), among others"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Standard rate history: 18% from 1 Jul 2010 (Ley 26/2009), 21% from 1 Sep 2012 (RDL 20/2012). The Canary Islands, Ceuta and Melilla are outside the Spanish/EU VAT territory and levy their own indirect taxes (Canary Islands IGIC general rate 7% — TEDB shows a 7% line labelled 'VAT - Canary Islands'; Ceuta and Melilla levy IPSI). Exports and intra-EU supplies exempt with right of deduction. TEDB (2026-07-01) shows 21% / 10% / 4%, consistent.",
+ "unverified": [
+  "IGIC 7% general rate for the Canary Islands was taken from TEDB, not checked against Canary Islands law"
+ ]
+}

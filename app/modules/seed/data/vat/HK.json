@@ -1,0 +1,19 @@
+{
+ "code": "HK",
+ "has_vat": false,
+ "tax_name": "None (no VAT, GST or sales tax)",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "No VAT/GST legislation; direct taxes under the Inland Revenue Ordinance (Cap. 112)",
+ "quote": "\"There is no sales tax or VAT, withholding tax, capital gains tax, estate tax or tax on dividends in Hong Kong.\" (Brand Hong Kong, HKSAR Government); hkengage.gov.hk: \"Simple Tax Regime No sales tax, VAT, capital gains tax, dividend tax, estate tax, or withholding tax on dividends and interest.\"",
+ "source_url": "https://www.brandhk.gov.hk/en/only-in-hong-kong/unique-advantages",
+ "source_title": "Brand Hong Kong (HKSAR Government) 'Unique advantages'; also https://www.hkengage.gov.hk/en/why-hk/work/low-tax-advantage",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "No general consumption tax. Hong Kong is a free port; excise duties only on specific goods (liquor, tobacco, hydrocarbon oil, methyl alcohol). GovHK Public Finance factsheet (May 2026) lists other levies: hotel accommodation tax 3% from 1 January 2025, stamp duty, betting duty, rates, motor-vehicle first registration tax. A 2006 GST consultation was not pursued.",
+ "unverified": [
+  "Statement that the 2006 GST consultation was shelved is not sourced from a fetched official text",
+  "Dutiable commodities list not fetched"
+ ]
+}

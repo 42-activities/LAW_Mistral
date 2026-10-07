@@ -1,0 +1,23 @@
+{
+ "code": "AZ",
+ "has_vat": true,
+ "tax_name": "Əlavə dəyər vergisi (ƏDV)",
+ "standard_rate": "18",
+ "valid_from": "2001-01-01",
+ "legal_ref": "Azərbaycan Respublikasının Vergi Məcəlləsi, maddə 173.1",
+ "quote": "ƏDV-nin dərəcəsi neçə faizdir? Hər bir vergi tutulan əməliyyatın və hər vergi tutulan idxalın dəyərinin 18 faizi təşkil edir. — The VAT rate is 18 percent of the value of each taxable transaction and each taxable import.",
+ "source_url": "https://www.taxes.gov.az/uploads/2025/buklet/12.pdf",
+ "source_title": "Dövlət Vergi Xidməti — booklet 'Əlavə dəyər vergisi (ƏDV)', Bakı 2025 (Wayback copy https://web.archive.org/web/2025id_/https://www.taxes.gov.az/uploads/2025/buklet/12.pdf; taxes.gov.az refused connections, e-qanun.az returned 403)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "zero-rated supplies under Tax Code Art. 165 (e.g. exports, international transport)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Single positive rate of 18%; exemptions under Art. 164. For 5 years from 1 Jan 2022, VAT on wholesale/retail sales of agricultural products is calculated on the trade margin. Registration required when taxable turnover exceeds AZN 200,000 in any consecutive 12-month period (or a single transaction exceeds AZN 200,000).",
+ "unverified": [
+  "Article number 173.1 and valid_from 2001-01-01 (Tax Code commencement) not confirmed in an official text this session — the booklet states the rate without article/date"
+ ]
+}

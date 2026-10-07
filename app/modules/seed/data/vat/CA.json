@@ -1,0 +1,19 @@
+{
+ "code": "CA",
+ "has_vat": true,
+ "tax_name": "Goods and Services Tax / Harmonized Sales Tax (GST/HST)",
+ "standard_rate": "5",
+ "valid_from": "2008-01-01",
+ "legal_ref": "Excise Tax Act (R.S.C. 1985, c. E-15) s.165(1), as replaced by S.C. 2007, c. 35, s.184",
+ "quote": "\"every recipient of a taxable supply made in Canada shall pay to Her Majesty in right of Canada tax in respect of the supply calculated at the rate of 5% on the value of the consideration for the supply\" (ETA s.165(1)); S.C. 2007 c.35 s.184(2): \"Subsection (1) applies (a) to any supply ... made on or after January 1, 2008\"",
+ "source_url": "https://laws-lois.justice.gc.ca/eng/acts/E-15/section-165.html",
+ "source_title": "Excise Tax Act s.165 (Justice Laws Website); commencement from Budget and Economic Statement Implementation Act, 2007 (S.C. 2007, c. 35) s.184, laws-lois.justice.gc.ca/eng/AnnualStatutes/2007_35/FullText.html",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Federal GST 5%. ETA s.165(2) adds a provincial component in 'participating provinces' (HST). Combined HST per CRA rate table (canada.ca, modified 2025-04-01): Ontario 13%; New Brunswick, Newfoundland and Labrador, Prince Edward Island 15%; Nova Scotia 14% ('As of April 1, 2025, the HST rate has decreased to 14% in Nova Scotia'). GST-only 5% in AB, BC, MB, QC, SK, NT, NU, YT; separate provincial sales taxes: BC PST 7%, MB RST 7%, SK PST 6%, Quebec QST 9.975%. Zero-rated supplies taxed at 0% (ETA s.165(3)), e.g. exports. Small-supplier registration threshold: CAD 30,000 over four consecutive calendar quarters (canada.ca).",
+ "unverified": [
+  "HST/PST rates taken from canada.ca CRA calculator page via a fetch summariser (page blocked direct download); Nova Scotia sentence quoted verbatim",
+  "Examples of zero-rated supplies beyond exports not checked in Schedule VI"
+ ]
+}

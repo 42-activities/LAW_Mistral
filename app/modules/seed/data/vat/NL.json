@@ -1,0 +1,28 @@
+{
+ "code": "NL",
+ "has_vat": true,
+ "tax_name": "Omzetbelasting (btw)",
+ "standard_rate": "21",
+ "valid_from": "2012-10-01",
+ "legal_ref": "Wet op de omzetbelasting 1968, art. 9 lid 1",
+ "quote": "Artikel 9 1 De belasting bedraagt 21 percent. 2 In afwijking van het eerste lid bedraagt de belasting: a. 9 percent voor leveringen van goederen en diensten, genoemd in de bij deze wet behorende tabel I; b. nihil voor leveringen van goederen en diensten, genoemd in de bij deze wet behorende tabel II ... — The tax is 21%; by derogation it is 9% for the goods and services in Table I and nil for those in Table II.",
+ "source_url": "https://wetten.overheid.nl/BWBR0002629/2026-01-01",
+ "source_title": "wetten.overheid.nl – Wet op de omzetbelasting 1968, version in force from 01-01-2026 (consulted 07-10-2026); start date from the consolidated versions in force 01-07-2012 (art. 9: 19 percent) and 01-10-2012 (art. 9: 21 percent)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "9",
+   "scope": "Table I: foodstuffs and food in restaurants/catering, non-alcoholic drinks, water, medicines and medical aids, books and e-books/news sites, flowers and plants, passenger transport, camping, sports facilities, admission to museums/zoos/concerts/theatre etc., hairdressing, minor repairs (bicycles, shoes, clothing), domestic cleaning, insulation and painting of older dwellings, performing artists"
+  },
+  {
+   "rate": "0",
+   "scope": "Table II (nil rate): exports, intra-EU supplies and related services, international transport; supply and installation of solar panels on or near dwellings"
+  }
+ ],
+ "future_changes": [],
+ "notes": "The standard rate went from 19% to 21% on 1 Oct 2012. The 6% reduced rate became 9% on 1 Jan 2019. In the 2026 text, Table I item b.11 (hotel and other accommodation, 'logies') is marked 'vervallen', so short-stay hotel accommodation appears to be at 21% from 1 Jan 2026 while camping (b.10) stays at 9%. The consolidated text also notes amendments that have no commencement date yet. TEDB (2026-07-01) shows 21% / 9% / 0%, consistent.",
+ "unverified": [
+  "Amending act behind the 1 Oct 2012 increase (Belastingplan / Wet verhoging algemeen btw-tarief 2012) not identified by Staatsblad number; date taken from the consolidated-version boundaries on wetten.overheid.nl",
+  "Hotel accommodation moving from 9% to 21% on 2026-01-01 is inferred from Table I item b.11 being repealed, not from the amending act"
+ ]
+}

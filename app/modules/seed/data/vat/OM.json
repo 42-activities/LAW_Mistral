@@ -1,0 +1,19 @@
+{
+ "code": "OM",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / ضريبة القيمة المضافة",
+ "standard_rate": "5",
+ "valid_from": "2021-04-16",
+ "legal_ref": "VAT Law promulgated by Royal Decree No. 121/2020, Art. 36; Royal Decree Art. Four (in force 180 days after publication)",
+ "quote": "Article (36): Subject to the provisions in articles (51, 52, and 53) of this Law, the Tax on the import and supply of taxable Goods or Services shall be computed as (5%) five percent of the Taxable Value. Royal Decree Art. Four: “…shall come into force after (180) one hundred and eighty days from the date of publication.” (Tax Authority English translation; Arabic prevails)",
+ "source_url": "https://tms.taxoman.gov.om/portal/documents/20126/1414820/VAT+Law+.pdf/9cbe8926-066b-d48d-2b7f-14f41b4c19a8?t=1733169733344",
+ "source_title": "Oman Tax Authority – Value Added Tax Law (Royal Decree 121/2020), English translation",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single standard rate 5%; zero rate (Arts. 51-53 and Chairman decisions) on exports, international transport, specified basic food items (Decisions 65/2021, 89/2022, 225/2026), medicines and medical equipment (Decisions 223/2026, 224/2026), investment metals, crude oil/gas, etc. Exempt: financial services, healthcare, education, bare land, resale of residential property, local passenger transport, residential rent. Executive Regulations: Decision 53/2021, amended by 456/2022, 521/2023, 81/2025. Royal Decree issued 12 Oct 2020; commencement 180 days after Official Gazette publication.",
+ "unverified": [
+  "Commencement date 16 April 2021 computed from Official Gazette publication on 18 Oct 2020 (publication date not in the fetched text)",
+  "Mandatory registration threshold (OMR 38,500) not confirmed — Executive Regulations PDF did not extract cleanly"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "code": "IR",
+ "has_vat": true,
+ "tax_name": "Value Added Tax / مالیات بر ارزش افزوده",
+ "standard_rate": "10",
+ "valid_from": "2024-03-20",
+ "legal_ref": "VAT Law approved 1400 (2021), Art. 7 (9% total rate) as increased by one percentage point by annual budget laws: Budget Law 1403 note 6 clause (ر), Budget Law 1404 note 1 clause (خ); continued for 1405 (from 21 Mar 2026)",
+ "quote": "Budget Law 1404, note 1 clause (خ): \"در سال ۱۴۰۴ نرخ مالیات بر ارزش افزوده موضوع ماده (۷) قانون مالیات بر ارزش افزوده … به میزان یک واحد درصد به عنوان سهم دولت افزایش می‌یابد و نرخ کل مالیات بر ارزش افزوده تا ده درصد (۱۰٪) برابر می‌گردد\" — in 1404 the VAT rate under Art. 7 is increased by one percentage point as the government's share, bringing the total VAT rate to 10% (for pensioner pay adjustment)",
+ "source_url": "https://img9.irna.ir/d/r2/2025/04/01/0/171776178.pdf?ts=1743491717916",
+ "source_title": "Budget Law of 1404 (Iranian year 2025/26), full text as published by IRNA (Islamic Republic News Agency, state agency); intamedia.ir and tax.gov.ir were unreachable from here; qavanin.ir not used",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Statutory VAT under the 2021 VAT Law (Art. 7) is 9% in total (government tax plus municipal levy share). Annual budget laws added one percentage point from 1403 (from 20 March 2024), giving 10%, repeated in 1404. The government's 1405 budget bill (Plan and Budget Organization, Dec 2025) proposed keeping the 1-point increase and adding 2 further points for household e-coupons (کالابرگ), i.e. 12%; press reports say parliament removed the extra 2 points so the rate stays 10% in 1405. Higher rates apply to specified goods under Art. 26 (tobacco, petrol etc.). Exemptions under Art. 9 (basic foods, medicines, health, education, etc.). Valid_from is the start of 1403 (1 Farvardin 1403 = 20 March 2024).",
+ "unverified": [
+  "Final Budget Law 1405 text not read: 10% for 1405 (2026/27) relies on the 1405 bill (which proposed 12%) plus press reports that parliament dropped the extra 2 points",
+  "Budget Law 1403 clause text not read directly (rate increase from 1 Farvardin 1403 per tax authority circular reported in press)",
+  "Text extraction of the IRNA PDF was garbled (Persian glyph order); quote reconstructed from the extracted clause (خ)"
+ ]
+}

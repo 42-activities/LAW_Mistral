@@ -1,0 +1,32 @@
+{
+ "code": "AL",
+ "has_vat": true,
+ "tax_name": "Tatimi mbi vlerën e shtuar (TVSH)",
+ "standard_rate": "20",
+ "valid_from": "2015-01-01",
+ "legal_ref": "Ligji nr. 92/2014 'Për tatimin mbi vlerën e shtuar në Republikën e Shqipërisë', i ndryshuar (deri ligji nr. 80/2025), neni 48",
+ "quote": "Neni 48 Shkalla standarde: Shkalla standarde e tatimit mbi vlerën e shtuar për furnizimet e mallrave dhe shërbimeve, e cila aplikohet si një përqindje e vlerës së tatueshme, është 20 përqind. — The standard VAT rate on supplies of goods and services is 20 percent. (Law 92/2014 'hyn në fuqi më 1 janar 2015')",
+ "source_url": "https://www.tatime.gov.al/shkarko.php?id=14534",
+ "source_title": "Drejtoria e Përgjithshme e Tatimeve — Ligji nr. 92/2014 për TVSH, tekst i përditësuar (amended through Law 80/2025 of 11.12.2025)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "6",
+   "scope": "accommodation in tourist structures; supplies in 5-star 'special status' branded hotels/resorts; agritourism accommodation and restaurant (excl. drinks); advertising by audiovisual media; electric public-transport buses; books of all kinds; construction works for sports infrastructure (Art. 49(3)-(9))"
+  },
+  {
+   "rate": "10",
+   "scope": "agricultural inputs: chemical fertilisers, pesticides, seeds and seedlings (Art. 49(10))"
+  },
+  {
+   "rate": "0",
+   "scope": "exports and other zero-rated supplies (Chapter on supplies at 0%)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Law 92/2014 in force from 1 January 2015 (Art. final: 'hyn në fuqi më 1 janar 2015'); Albania's 20% rate predates it under the previous VAT law. Agricultural producers' flat-rate compensation 10%. Registration threshold set by separate fiscal legislation (not checked).",
+ "unverified": [
+  "valid_from: 2015-01-01 is the commencement of the current VAT Law 92/2014; the 20% rate applied already under the previous VAT law (start date of 20% under that law not confirmed)",
+  "VAT registration threshold"
+ ]
+}

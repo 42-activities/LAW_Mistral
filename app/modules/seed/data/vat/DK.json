@@ -1,0 +1,25 @@
+{
+ "code": "DK",
+ "has_vat": true,
+ "tax_name": "Merværdiafgift (moms)",
+ "standard_rate": "25",
+ "valid_from": "1992-01-01",
+ "legal_ref": "Momsloven, LBK nr. 209 af 27/02/2024 (as amended), § 33, stk. 1",
+ "quote": "Afgiften udgør 25 pct. af afgiftsgrundlaget. — The tax is 25% of the taxable amount.",
+ "source_url": "https://www.retsinformation.dk/eli/lta/2024/209",
+ "source_title": "Retsinformation — Bekendtgørelse af lov om merværdiafgift (momsloven), LBK nr. 209 af 27/02/2024 (status: gældende)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "zero rate (exempt with deduction): newspapers; domestic passenger air transport (amending law of 2024-12-30); exports and intra-EU supplies. No positive reduced rates"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Denmark applies a single 25% rate. Faroe Islands and Greenland are outside Danish VAT. Zero VAT on books was agreed in the Finance Act 2026 deal (planned 2026-07-01, bill L 125) but no enacting law appears in the list of amendments to LBK 209/2024 on Retsinformation as of Oct 2026; reportedly withdrawn and awaiting reintroduction. TEDB cross-check: 25% standard, no reduced rates — consistent.",
+ "unverified": [
+  "valid_from 1992-01-01 (increase from 22% to 25%) not confirmed in an official text",
+  "status of zero-rating of books (bill L 125, 2025-26) seen only in secondary sources",
+  "zero-rating scope (newspapers, air passenger transport) taken from Retsinformation amendment titles/TEDB, provisions not read individually"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "code": "MU",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT)",
+ "standard_rate": "15",
+ "valid_from": "2002-07-01",
+ "legal_ref": "Value Added Tax Act 1998 s.10(1) and Fourth Schedule, as amended by Finance Act 20/2002",
+ "quote": "Fourth Schedule (section 10): \"Rate of VAT ... 15 per cent\"; endnote 466: \"FA 20/2002 – FOURTH SCHEDULE amended w.e.f 01.07.02\" (previously 12 per cent from 01.07.01, 10 per cent under VAT Act 1998). MRA guide: \"The standard rate of VAT is 15%.\"",
+ "source_url": "https://www.mra.mu/download/VATAct.pdf",
+ "source_title": "Value Added Tax Act (Consolidated Version up to May 2026), Mauritius Revenue Authority; also MRA 'Guide on Simplified VAT Registration' Sept 2025 (mra.mu/download/GuideVATReg.pdf)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single standard rate 15%; zero-rated supplies (0%) in Fifth Schedule (incl. exports); exempt supplies in First Schedule. Compulsory registration threshold (Sixth Schedule): annual turnover of taxable supplies Rs 3 million from 1 October 2025 (reduced from Rs 6 million by Finance Act 2025).",
+ "unverified": []
+}

@@ -1,0 +1,35 @@
+{
+ "code": "IE",
+ "has_vat": true,
+ "tax_name": "Value-Added Tax (VAT) / Cáin Bhreisluacha (CBL)",
+ "standard_rate": "23",
+ "valid_from": "2021-03-01",
+ "legal_ref": "Value-Added Tax Consolidation Act 2010, s. 46(1)(a) (23% substituted by Finance Act 2012 s. 87 from 1.1.2012); s. 46(1A) (21% from 1 Sep 2020 to 28 Feb 2021, inserted by Financial Provisions (Covid-19) (No. 2) Act 2020 s. 12(b))",
+ "quote": "46.—(1) Tax shall be charged ... at whichever of the following rates is appropriate in any particular case: (a) subject to subsection (1A), 23 per cent of the amount on which tax is chargeable ... (1A) During the period from 1 September 2020 to 28 February 2021, paragraph (a) of subsection (1) shall have effect as if there were substituted “21 per cent” for “23 per cent”. — Standard rate 23%; temporarily 21% from 1 Sep 2020 to 28 Feb 2021, so 23% again from 1 Mar 2021.",
+ "source_url": "https://revisedacts.lawreform.ie/eli/2010/act/31/section/46/revised/en/html",
+ "source_title": "Law Reform Commission Revised Acts: Value-Added Tax Consolidation Act 2010, section 46 (revised, with annotations); cross-checked with Revenue 'Current VAT rates' table (https://www.revenue.ie/en/vat/vat-rates/search-vat-rates/current-vat-rates.aspx) listing 1 March 2021 – 23%",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13.5",
+   "scope": "Schedule 3 goods/services: e.g. fuel for power and heating (other than those at 9%), building and construction services, short-term guest accommodation, certain repair and maintenance, tourist attraction admissions"
+  },
+  {
+   "rate": "9",
+   "scope": "newspapers/periodicals and e-publications, sporting facilities; gas and electricity until 31 Dec 2030; certain apartment construction (social policy) until 31 Dec 2030; from 1 Jul 2026 food and drink in restaurant/catering/hot takeaway services (excl. alcohol, soft drinks, bottled water) and hairdressing (Finance Act 2025 s. 71)"
+  },
+  {
+   "rate": "4.8",
+   "scope": "supply of livestock (s. 46(1)(d))"
+  },
+  {
+   "rate": "0",
+   "scope": "Schedule 2: most food, oral medicines, children's clothing and footwear, books (printed), exports, intra-EU supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Flat-rate addition for unregistered farmers 4.5% from 1 January 2026 (Revenue table). Several 9% measures are time-limited to 31 December 2030 (gas/electricity, social-policy apartments) and would revert to 13.5% thereafter unless extended. Standard 23% first applied from 1 January 2012 (Finance Act 2012 s. 87); temporarily 21% 1.9.2020–28.2.2021. TEDB (situation 2026-07-01) shows 23%, 13.5%, 9%, 0% — consistent.",
+ "unverified": [
+  "Detailed scopes of 13.5% and 0% rates summarised from Schedules 2/3 headings and TEDB categories, not checked item by item"
+ ]
+}

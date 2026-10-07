@@ -1,0 +1,30 @@
+{
+ "code": "MD",
+ "has_vat": true,
+ "tax_name": "Taxa pe valoarea adăugată (TVA)",
+ "standard_rate": "20",
+ "valid_from": null,
+ "legal_ref": "Codul fiscal nr. 1163/1997, Titlul III, art. 96 lit. a)",
+ "quote": "art. 96 lit. a) cota-standard – în mărime de 20% din valoarea impozabilă a mărfurilor şi serviciilor importate şi a livrărilor efectuate pe teritoriul Republicii Moldova — standard rate of 20% of the taxable value of imported goods and services and of supplies made in Moldova.",
+ "source_url": "https://monitorul.fisc.md/en/questions/5-28171-ce-cote-sint-stabilite-pentru-livrarile-de-marfuri-servicii-lucrari.html",
+ "source_title": "Monitorul Fiscal FISC.MD — Q&A 28.17.1 'Ce cote sînt stabilite pentru livrările de mărfuri...' (quotes art. 96 Codul fiscal; version after Law 229/2018). Official portals legis.md and sfs.md returned HTTP 403 / JS-only content.",
+ "secondary": true,
+ "reduced_rates": [
+  {
+   "rate": "8",
+   "scope": "bread and bakery products, milk and dairy, medicines (3001-3004), medical supplies, natural and liquefied gas, agricultural/horticultural production, beet sugar, solid biofuel (art. 96 lit. b)); HoReCa supplies incl. accommodation and food/drink services (CAEM section I) — history 15% (2020) → 6% (2021 emergency) → 12% → 8% under Law 212/2023; SFS confirmed 8% unchanged on 26.03.2026"
+  },
+  {
+   "rate": "0",
+   "scope": "exports and other zero-rated supplies (art. 104)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Government draft law (MF no. 284/2025) amends art. 96 lit. b) fourth indent only (not the standard rate). Emergency declared 24.03.2026 did not change HoReCa rate (SFS statement via logos-pres.md). Transnistria region outside effective administration.",
+ "unverified": [
+  "valid_from: start date of the 20% standard rate not found in an accessible official text (VAT under Title III Codul fiscal since 1998)",
+  "standard rate and reduced-rate list taken from Monitorul Fiscal FISC.MD Q&A 28.17.1 (secondary); legis.md and sfs.md blocked (HTTP 403 / JS-only)",
+  "HoReCa 8% from Law 212/2023 confirmed via Monitorul Fiscal and SFS statement reported by logos-pres.md, not the law text",
+  "Zero-rate article reference (art. 104) not re-read"
+ ]
+}

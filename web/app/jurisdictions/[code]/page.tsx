@@ -93,7 +93,7 @@ export default async function JurisdictionPage({ params, searchParams }: Props) 
                 <div className="flex justify-between gap-4">
                   <span>
                     {o.vat.tax_name}
-                    <span className="block text-xs text-muted">{since(o.vat.valid)}</span>
+                    {o.vat.valid.from && <span className="block text-xs text-muted">{since(o.vat.valid)}</span>}
                   </span>
                   <span className="font-mono whitespace-nowrap">
                     {o.vat.has_vat ? `${pct(o.vat.standard_rate)} standard` : "none at national level"}
@@ -101,7 +101,7 @@ export default async function JurisdictionPage({ params, searchParams }: Props) 
                   </span>
                 </div>
                 {o.vat.reduced_rates.length > 0 && (
-                  <ul className="space-y-0.5 text-muted">
+                  <ul className="space-y-0.5 text-muted" aria-label="Other rates">
                     {o.vat.reduced_rates.map((r) => (
                       <li key={r.rate + r.scope}>
                         <span className="font-mono">{pct(r.rate)}</span> — {r.scope}

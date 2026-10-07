@@ -1,0 +1,24 @@
+{
+ "code": "PS",
+ "has_vat": true,
+ "tax_name": "Value Added Tax / ضريبة القيمة المضافة",
+ "standard_rate": "16",
+ "valid_from": "2025-07-01",
+ "legal_ref": "Decree-Law No. 26 of 2024 on Value Added Tax (issued Ramallah 21 Dec 2024; Official Gazette special issue, 31 Dec 2024), Art. 2(1); Art. 124 (in force six months after publication)",
+ "quote": "\"مادة (2) الضريبة ونسبتها: 1. تفرض الضريبة بنسبة (16%) على كافة الصفقات التي تعقد في الدولة وعلى استيراد البضائع.\" … مادة (124): \"…ويعمل به بعد ستة أشهر من تاريخ نشره في الجريدة الرسمية.\" — VAT is imposed at 16% on all transactions concluded in the State and on imports of goods; the decree-law enters into force six months after publication in the Official Gazette",
+ "source_url": "https://www.pmof.ps/documents/vat/vatLaw.23072025.pdf",
+ "source_title": "Palestinian Ministry of Finance (pmof.ps), General Directorate of Indirect Taxes – Decree-Law No. 26 of 2024 on VAT (text published 23 Jul 2025); Official Gazette copy https://www.pmof.ps/documents/vat/vat.law.2025.pdf (pmof.ps served an invalid TLS certificate; read with certificate check disabled; mof.pna.ps unreachable)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "zero-rated transactions listed in the decree-law and MoF instructions (e.g. exports)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Decree-Law 26/2024 replaced the Local Products Fees Law No. 16 of 1963 and the Unified Fees and Taxes Law No. 25 of 1966 (Art. 123), under which VAT was already levied at 16%. Under Art. 2(2) the Council of Ministers may change the rate or set differentiated rates not exceeding the 16% in Art. 2(1); Art. 2(3) allows lump-sum tax for small professions. Financial institutions and non-profits pay tax on wages/profits instead (Arts. 3-4). Under the Paris Protocol, VAT on imports via Israel is collected by Israel as clearance revenue and transferred to the PA; the PA rate must stay within 2 points of Israel's (18% since 2025). Application in Gaza is disrupted.",
+ "unverified": [
+  "Commencement computed as six months after the 31 Dec 2024 gazette (≈30 Jun/1 Jul 2025); exact effective date not stated in an official notice read",
+  "Date the 16% rate first applied under the pre-2025 regime not established"
+ ]
+}

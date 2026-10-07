@@ -1,0 +1,27 @@
+{
+ "code": "TN",
+ "has_vat": true,
+ "tax_name": "Taxe sur la valeur ajoutée (TVA) / الأداء على القيمة المضافة",
+ "standard_rate": "19",
+ "valid_from": "2018-01-01",
+ "legal_ref": "Code de la TVA, art. 7 as amended by art. 43 of the Finance Law for 2018 (Loi n° 2017-66)",
+ "quote": "\"الفصل 7- تخضع للأداء على القيمة المضافة بنسبة 19 % العمليات المتعلقة بالمنتوجات والخدمات غير الخاضعة لنسبة أخرى. (نقح … بالفصل 43 من قانون المالية لسنة 2018)\" … footnote: \"تم بمقتضى أحكام الفصل 43 من قانون المالية لسنة 2018 الترفيع في نسبة الأداء على القيمة المضافة من 18% إلى 19%\" — Art. 7: operations on goods and services not subject to another rate are taxed at 19%; the Finance Law 2018 raised the rate from 18% to 19%",
+ "source_url": "https://jibaya.tn/wp-content/uploads/2026/05/Code-TVA-2026.pdf",
+ "source_title": "Ministère des Finances / DGI Tunisie (jibaya.tn) – Code de la Taxe sur la Valeur Ajoutée 2026 (Arabic)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13",
+   "scope": "petroleum products (tariff 27-10, 27-11) and low-voltage household electricity above 300 kWh/month, per art. 7(3)"
+  },
+  {
+   "rate": "7",
+   "scope": "goods and services listed in Table B (annex 2), e.g. medicines, certain foodstuffs, medical services, some IT/transport/tourism services"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Three rates: 19% general, 13% and 7% reduced (art. 7, all as amended by LF 2018). Exemptions in Table A (basic foodstuffs, exports suspended, etc.). Art. 8 allows temporary reduction/suspension by decree. Finance Law 2018 entered into force 1 Jan 2018 (Tunisian finance laws apply from 1 January of the budget year).",
+ "unverified": [
+  "Commencement 1 Jan 2018 of LF 2018 art. 43 not read in the law itself; the Code text cites only the amending article"
+ ]
+}

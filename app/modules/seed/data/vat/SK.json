@@ -1,0 +1,27 @@
+{
+ "code": "SK",
+ "has_vat": true,
+ "tax_name": "Daň z pridanej hodnoty (DPH)",
+ "standard_rate": "23",
+ "valid_from": "2025-01-01",
+ "legal_ref": "Zákon č. 222/2004 Z. z. o dani z pridanej hodnoty, § 27 ods. 1, as amended by zákon č. 278/2024 Z. z., čl. VII bod 1 (in force per čl. XV from 1 January 2025)",
+ "quote": "§ 27 Sadzby dane (1) Základná sadzba dane na tovary a služby je 23 % zo základu dane. — The standard VAT rate on goods and services is 23% of the tax base. Amending act 278/2024, čl. VII: \"V § 27 ods. 1 sa číslo „20“ nahrádza číslom „23“\"; čl. XV: \"čl. I až IV, čl. V bodov 1, 2 a 4, čl. VII až X a čl. XII ... nadobúdajú účinnosť 1. januára 2025\" (articles VII–X take effect 1 January 2025).",
+ "source_url": "https://www.slov-lex.sk/static/SK/ZZ/2004/222/20260101.html",
+ "source_title": "Slov-lex – Zákon č. 222/2004 Z. z. o dani z pridanej hodnoty, version in force 01.01.2026–31.12.2026; amending act https://www.slov-lex.sk/static/SK/ZZ/2024/278/20250101.html",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "19",
+   "scope": "goods in Annex 7 point 1 and services in Annex 7a point 1: per TEDB, foodstuffs not in the 5% list, electricity, restaurant/catering services (excl. alcoholic drinks)"
+  },
+  {
+   "rate": "5",
+   "scope": "goods in Annex 7 points 2–3 and services in Annex 7a point 2: per TEDB, selected basic foods, medicines and medical aids, books and newspapers, accommodation, admission to cultural and sports events, certain restaurant services; supplies by registered social enterprises; state-supported rental housing construction and renovation"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Before 1 January 2025 the standard rate was 20% and the reduced rates were 10% and 5%. Zákon 278/2024 (consolidation package) raised the standard rate to 23% and introduced the 19% reduced rate. The consolidated versions in force from 1 Jan 2027 and from 1 Jul 2030 (listed on Slov-lex) leave § 27(1) at 23%. Exports and intra-EU supplies exempt with right of deduction. TEDB (2026-07-01) shows 23% / 19% / 5%, consistent.",
+ "unverified": [
+  "Reduced-rate scope summaries taken from TEDB; Annexes 7 and 7a are published as separate attachments and were not read"
+ ]
+}

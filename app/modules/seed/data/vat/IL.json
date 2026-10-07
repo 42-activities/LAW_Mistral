@@ -1,0 +1,19 @@
+{
+ "code": "IL",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / מס ערך מוסף (מע\"מ)",
+ "standard_rate": "18",
+ "valid_from": "2025-01-01",
+ "legal_ref": "Value Added Tax Law 5736-1975 s.2; Value Added Tax Order (Rate of Tax on Transactions and Import of Goods) 5765-2005 as amended by the (Amendment) Order 5784-2024 (17% -> 18% from 1 Jan 2025)",
+ "quote": "\"בעקבות שינויי החקיקה הנכללים בהצעת התקציב לשם התמודדות עם הגירעון, ובהם העלאה של שיעור המע\"מ ל-18% משנת 2025\" … \"מע\"מ - עלייה מ-17% ל-18%\" — following the legislative changes, including raising the VAT rate to 18% from 2025 … VAT: increase from 17% to 18% (Knesset Research and Information Center, 9 Jan 2025)",
+ "source_url": "https://web.archive.org/web/20250825183755/https://fs.knesset.gov.il/globaldocs/MMM/6745f598-afce-ef11-a856-005056aa1f91/2_6745f598-afce-ef11-a856-005056aa1f91_11_20780.pdf",
+ "source_title": "Knesset Research and Information Center – Analysis of State Revenues in 2024 and the 2025 Budget Proposal (9 Jan 2025) — Wayback Machine copy; gov.il / taxes.gov.il (Israel Tax Authority, incl. page 'vat-increase-2025') behind Cloudflare challenge, and fs.knesset.gov.il geo-blocked",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single positive rate 18% (17% from 1 Oct 2015 to 31 Dec 2024). The rate applies according to the tax liability date (מועד החיוב במס). Zero rate on exports, services to foreign residents, fresh fruit and vegetables, tourist hotel stays, etc.; the Eilat free zone is exempt from VAT on local transactions. Non-profit organisations and financial institutions pay a separate payroll/profit tax ('VAT on wages/profits'), raised to 18% for financial institutions from 2025. Personal imports exemption threshold raised (Ministry of Finance press release 26 Nov 2025: USD 150). No regional VAT.",
+ "unverified": [
+  "The amendment order text in Reshumot and the Israel Tax Authority notice (gov.il/he/pages/vat-increase-2025) could not be fetched (Cloudflare challenge); 18% from 1 Jan 2025 confirmed via official Knesset Research Center document only",
+  "Order title/year cited from secondary professional summaries"
+ ]
+}

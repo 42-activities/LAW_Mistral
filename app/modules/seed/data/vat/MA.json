@@ -1,0 +1,24 @@
+{
+ "code": "MA",
+ "has_vat": true,
+ "tax_name": "Taxe sur la valeur ajoutée (TVA) / الضريبة على القيمة المضافة",
+ "standard_rate": "20",
+ "valid_from": null,
+ "legal_ref": "Code Général des Impôts (CGI), art. 99-A (as rewritten by art. 6 of Finance Law No. 55-23 for 2024); transitional rates art. 247-XXXXI",
+ "quote": "Article 99.- Taux normal de la taxe: Le taux de la taxe sur la valeur ajoutée est fixé à : A.- 20 % ; B.- 10 % … — the VAT rate is set at 20% (normal) and 10% (CGI 2026 edition)",
+ "source_url": "https://web.archive.org/web/20251231114204/https://www.tax.gov.ma/wps/wcm/connect/08712531-1e81-4e28-a38b-2bd9edf8e09e/CGI+2026+FR.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-08712531-1e81-4e28-a38b-2bd9edf8e09e-pM5DEs1",
+ "source_title": "Direction Générale des Impôts – Code Général des Impôts, édition 2026 (FR) — Wayback Machine copy captured 31 Dec 2025; tax.gov.ma shows a CAPTCHA block to automated access",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "with deduction: hotels/restaurants/cafés, tourist property rental, art works, museum/cinema/theatre tickets, edible oils (excl. palm), salt, milled rice, pasta, solar panels/water heaters, animal feed, petroleum gas and oils, banking/credit and Islamic financing, securities transactions, listed agricultural equipment, water for public distribution, sanitation; from 1 Jan 2026 also refined sugar, urban and road transport (transitional schedule ended); without deduction: insurance agents/brokers"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Finance Law 2024 (No. 55-23) reduced Morocco's VAT to two rates (20% and 10%), abolishing the former 7% and 14% rates with a transitional phase-in (art. 247-XXXXI): e.g. electricity 14%→16%→18%→20% (2024-2026), electricity meter rental 7%→20% by 2026, sugar 7%→10% by 2026, non-urban transport 14%→20% by 2026, urban/road transport 14%→10% by 2026, renewable electricity and insurance brokers 14%→10% by 2025. As of 2026 the transition is complete. Exemptions with/without deduction under arts. 91-92 (basic foodstuffs, exports, etc.). Temporary import exemptions for livestock, meat, rice, olive oil in 2025 (art. 247-XXXXII).",
+ "unverified": [
+  "Date from which the 20% normal rate has applied not found in the CGI (rate long pre-dates the 2024 rewrite of art. 99)",
+  "CGI 2026 edition incorporates Finance Law 50-25 for 2026; any later 2026 amendments not checked"
+ ]
+}

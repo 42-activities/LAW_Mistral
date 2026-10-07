@@ -1,0 +1,28 @@
+{
+ "code": "MK",
+ "has_vat": true,
+ "tax_name": "Данок на додадена вредност (ДДВ)",
+ "standard_rate": "18",
+ "valid_from": "2008-01-01",
+ "legal_ref": "Закон за данокот на додадена вредност (Сл. весник на РМ 44/99 ... Сл. весник на РСМ 267/25), чл. 28 и 29",
+ "quote": "Член 29: Општата даночна стапка од 18% се применува врз целокупниот промет и увоз, освен врз прометот и увозот кој се оданочува со повластената даночна стапка. — The general rate of 18% applies to all supplies and imports except those taxed at the preferential rate.",
+ "source_url": "https://www.ujp.gov.mk/files/attachment/0000/0986/______________________________________.____________267____30.12.2025.pdf",
+ "source_title": "Управа за јавни приходи (ujp.gov.mk) — Закон за данокот на додадена вредност, пречистен текст до Сл. весник на РСМ 267/25 (30.12.2025)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "5",
+   "scope": "basic foodstuffs, drinking water, books/newspapers/periodicals, medicines, menstrual products, agricultural inputs and machinery, computers and software, medical aids for disabled, first sale of new housing (within 5 years), baby products, school supplies, pellets, district heating; passenger transport, waste services, accommodation, certain craft services (Art. 30)"
+  },
+  {
+   "rate": "10",
+   "scope": "restaurant and catering services (excl. alcohol); other (non-basic) food products (Art. 30-a); energy products may be moved to 10% by Government decree in crisis conditions (Art. 30-v)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Registration threshold: total turnover MKD 2,000,000 (Art. 51). Art. 30-b (10% on household electricity) applied only 1.1–30.6.2023. Law 267/25 extended a deadline in Art. 22 of amending law 199/23 from 31 Dec 2025 to 31 Dec 2028 (provision content not examined; not a rate change to the 18% general rate).",
+ "unverified": [
+  "valid_from 2008-01-01 (reduction from 19% to 18%, presumably via Сл. весник 114/07) not confirmed in an official text — consolidated text shows only the current rate",
+  "Scope of Art. 22 of law 199/23 extended to 2028 by 267/25"
+ ]
+}

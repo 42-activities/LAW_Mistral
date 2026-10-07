@@ -1,0 +1,16 @@
+{
+ "code": "QA",
+ "has_vat": false,
+ "tax_name": "None (Value Added Tax not introduced)",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "GCC Unified VAT Agreement (signed, not implemented domestically); no VAT law enacted",
+ "quote": "Value Added Tax (VAT) in Qatar: Qatar has not applied the Value Added Tax (VAT). (GTA Investors Guide, FAQ 'Types of Taxes in the State of Qatar')",
+ "source_url": "https://www.gta.gov.qa/en/investors-guide",
+ "source_title": "General Tax Authority (Qatar) – Investors Guide / FAQ on Taxes in Qatar for Foreign Investors",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Qatar signed the GCC Unified VAT Agreement (which provides for a 5% standard rate; the GTA 'Laws and Regulations' page reproduces it) but has not enacted a domestic VAT law. GTA lists the taxes in force as income tax (10%; 35% oil & petrochemicals), withholding tax, capital gains tax, global minimum tax, and Excise Tax (Law No. 25 of 2018, in force 1 Jan 2019: 100% on tobacco, energy drinks, special-purpose goods, 50% on carbonated drinks; sweetened drinks moved to a tiered volumetric model from 6 July 2026). No general sales tax.",
+ "unverified": []
+}

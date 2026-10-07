@@ -1,0 +1,31 @@
+{
+ "code": "EE",
+ "has_vat": true,
+ "tax_name": "Käibemaks",
+ "standard_rate": "24",
+ "valid_from": "2025-07-01",
+ "legal_ref": "Käibemaksuseadus (KMS) § 15 lg 1",
+ "quote": "Alates 01.07.2025 on Eestis käibemaksu standardmäär 24%. — From 1 July 2025 the standard VAT rate in Estonia is 24%. ('Käibemaksuseadusest tulenevalt on Eestis käibemaksumäärad 24%, 13%, 9% ja 0%.')",
+ "source_url": "https://emta.ee/ariklient/maksud-ja-tasumine/kaibemaks/kaibemaksumaarad-ja-maksuvaba-kaive",
+ "source_title": "Maksu- ja Tolliamet (Estonian Tax and Customs Board) — Käibemaksumäärad ja maksuvaba käive",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13",
+   "scope": "accommodation and accommodation with breakfast (from 2025-01-01, previously 9%)"
+  },
+  {
+   "rate": "9",
+   "scope": "books, press publications (from 2025-01-01, previously 5%), medicines and medical devices for disabled persons"
+  },
+  {
+   "rate": "0",
+   "scope": "exports, intra-EU supplies and other zero-rated supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Per EMTA the standard rate rose from 22% to 24% on 2025-07-01. An opposition (Isamaa) bill of 18.06.2025 to cut the rate back to 22% from 2026 was not enacted; EMTA still states 24%. TEDB cross-check: 24% standard; 13% and 9% reduced — consistent.",
+ "unverified": [
+  "KMS § 15 text not read on Riigi Teataja (JavaScript-only site); amending act commencement taken from the Tax Board page"
+ ]
+}

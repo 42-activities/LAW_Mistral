@@ -1,0 +1,19 @@
+{
+ "code": "SA",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / ضريبة القيمة المضافة",
+ "standard_rate": "15",
+ "valid_from": "2020-07-01",
+ "legal_ref": "VAT Law (Royal Decree M/113, 1438H), Art. 2 as amended by Royal Order A/638 (1441H); VAT Implementing Regulations",
+ "quote": "VAT is imposed on all supplies in the Kingdom, most of which are subject to the standard rate of 15%. (ZATCA Retail Sector Guideline, Issue 3, May 2026). Effective date: \"زيادة نسبة ضريبة القيمة المضافة إلى 15% اعتبارًا من 1 يوليو 2020م\" — increase of the VAT rate to 15% from 1 July 2020 (ZATCA VAT 15% rate-change guideline, section 2)",
+ "source_url": "https://zatca.gov.sa/en/HelpCenter/guidelines/Documents/Guideline-For-Retail-Sector-under-VAT-Provisions.pdf",
+ "source_title": "ZATCA – Guideline for Retail Sector under VAT Provisions (Issue 3, May 2026); also ZATCA VAT 15% guideline https://zatca.gov.sa/ar/HelpCenter/guidelines/Documents/VAT15.pdf",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single positive rate 15% (raised from 5% with effect from 1 July 2020; transitional rules for pre-11 May 2020 contracts ended 30 June 2021). Zero rate on exports, international transport, qualifying medicines and medical equipment, investment metals, etc.; exemptions for certain financial services and residential rent; real-estate disposals moved out of VAT into the separate 5% Real Estate Transaction Tax from 4 Oct 2020. Prices in retail must be displayed VAT-inclusive (15/115 fraction).",
+ "unverified": [
+  "Text of Royal Order A/638 itself was not fetched; the 15%/1 July 2020 facts are taken from ZATCA guidelines",
+  "Mandatory registration threshold (SAR 375,000) not confirmed in a fetched official text"
+ ]
+}

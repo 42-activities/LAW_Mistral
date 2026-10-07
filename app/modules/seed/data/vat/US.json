@@ -1,0 +1,19 @@
+{
+ "code": "US",
+ "has_vat": false,
+ "tax_name": "None at federal level (state and local retail sales and use taxes only)",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "No federal VAT/GST statute; general sales taxes are imposed by states and localities (cf. IRC s.164 deduction for state and local general sales taxes)",
+ "quote": "\"State and local general sales taxes ... A general sales tax is a tax imposed at one rate on retail sales of a broad range of items.\" — IRS treats general sales taxes as state/local taxes (deductible federally); there is no federal VAT. CRS R41708: \"The United States is the only member [of the OECD] without a VAT.\"",
+ "source_url": "https://www.irs.gov/taxtopics/tc503",
+ "source_title": "IRS Topic no. 503, Deductible taxes (irs.gov); supplementary: CRS Report R41708 'Value-Added Tax (VAT) as a Revenue Option: A Primer' (2011), read via everycrsreport.com mirror because congress.gov/crsreports.congress.gov served a bot challenge",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "No national VAT or GST. 45 states plus DC levy state general sales/use taxes (Alaska, Delaware, Montana, New Hampshire and Oregon have no statewide sales tax; Alaska allows local sales taxes); many counties/cities add local sales taxes. Rates, bases and economic-nexus thresholds (post-Wayfair, 2018) vary by state. Federal excise taxes exist on specific goods only. GAO-08-566 (gao.gov) frames a VAT as a proposal under US tax-reform debate ('proposals for a national consumption tax').",
+ "unverified": [
+  "Official statement 'the US has no federal VAT' taken from CRS R41708 via a non-government mirror (everycrsreport.com); congress.gov and gao.gov full texts were behind bot protection",
+  "List of states without statewide sales tax is general knowledge, not fetched from an official source"
+ ]
+}

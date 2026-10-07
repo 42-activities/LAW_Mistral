@@ -59,7 +59,7 @@ const ROWS: [string, (o: Overview) => Cell][] = [
       o.vat
         ? {
             text: o.vat.has_vat
-              ? `${pct(o.vat.standard_rate)} standard${o.vat.reduced_rates.length ? ` · reduced ${o.vat.reduced_rates.map((r) => pct(r.rate)).join(", ")}` : ""}${o.vat.next_change ? ` · ${pct(o.vat.next_change.standard_rate)} from ${o.vat.next_change.from}` : ""}`
+              ? `${pct(o.vat.standard_rate)} standard${o.vat.reduced_rates.length ? ` · other rates ${o.vat.reduced_rates.map((r) => pct(r.rate)).join(", ")}` : ""}${o.vat.next_change ? ` · ${pct(o.vat.next_change.standard_rate)} from ${o.vat.next_change.from}` : ""}`
               : "none at national level",
             cites: [o.vat.citation],
           }

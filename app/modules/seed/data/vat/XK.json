@@ -1,0 +1,27 @@
+{
+ "code": "XK",
+ "has_vat": true,
+ "tax_name": "Tatimi mbi vlerën e shtuar (TVSH)",
+ "standard_rate": "18",
+ "valid_from": "2015-09-01",
+ "legal_ref": "Ligji Nr. 05/L-037 për Tatimin mbi Vlerën e Shtuar, neni 26 (hyn në fuqi më 1 shtator 2015)",
+ "quote": "Neni 26 Norma: 1. TVSH ngarkohet me normën standarde prej tetëmbëdhjetë përqind (18%). — VAT is charged at the standard rate of eighteen percent (18%). Final article: \"Ky ligj hyn në fuqi më 1 shtator 2015.\"",
+ "source_url": "https://www.atk-ks.org/wp-content/uploads/2017/07/LIGJI_NR._05_L-037__PER_TATIMIN_MBI_VLEREN_E_SHTUAR_SHTOJCA.pdf",
+ "source_title": "Administrata Tatimore e Kosovës (atk-ks.org, Legjislacioni/Ligjet) — Ligji Nr. 05/L-037 për TVSH me shtojca",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "8",
+   "scope": "water (not bottled), electricity incl. transmission/distribution, district heating, waste collection; cereals and cereal products (flour, bread), cooking oils, milk and dairy, salt, eggs; school books and serial publications, library lending/books; IT equipment; medicines, pharmaceutical and medical/surgical devices; agricultural inputs/machinery (Art. 26(2) and annex)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports and other exempt-with-credit supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Mandatory registration when annual turnover exceeds EUR 30,000 (Art. 6(1)). Draft Law No. 08/L-005 on VAT, intended to replace 05/L-037, was put before the Assembly but no adoption was found (PwC Worldwide Tax Summaries, reviewed 7 Aug 2026, still cites 05/L-037 with 18%/8%). ATK site TLS certificate fails validation; documents fetched directly.",
+ "unverified": [
+  "Whether any later amendment to 05/L-037 changed Art. 26 — ATK publishes only the original 2015 text; PwC (secondary, Aug 2026) confirms 18%/8% still apply"
+ ]
+}

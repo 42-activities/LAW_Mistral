@@ -1,0 +1,31 @@
+{
+ "code": "IT",
+ "has_vat": true,
+ "tax_name": "Imposta sul valore aggiunto (IVA)",
+ "standard_rate": "22",
+ "valid_from": "2013-10-01",
+ "legal_ref": "D.P.R. 26 ottobre 1972, n. 633, art. 16 c. 1; increase from 21% to 22% by D.L. 6 luglio 2011, n. 98, art. 40 c. 1-ter (start date moved to 1 October 2013 by D.L. 28 giugno 2013, n. 76)",
+ "quote": "L'aliquota dell'imposta è stabilita nella misura del ventidue per cento della base imponibile dell'operazione. — The VAT rate is 22% of the taxable amount (DPR 633/1972 art. 16). [D.L. 98/2011 art. 40 c. 1-ter: 'A decorrere dal 1° ottobre 2013, l'aliquota dell'imposta sul valore aggiunto del 21 per cento è rideterminata nella misura del 22 per cento.']",
+ "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;633~art16!vig=2026-10-07",
+ "source_title": "Normattiva (Istituto Poligrafico e Zecca dello Stato): D.P.R. 633/1972 art. 16, testo in vigore dal 1-1-2016 al 31-12-2026; D.L. 98/2011 art. 40 (vigente al 1-10-2013): https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-07-06;98~art40!vig=2013-10-01",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "Tabella A parte III: hotel accommodation, restaurant/catering, certain foodstuffs and pharmaceuticals, housing construction/renovation, electricity and natural gas, district heating, agricultural inputs, cultural admissions"
+  },
+  {
+   "rate": "5",
+   "scope": "Tabella A parte II-bis: certain foodstuffs, passenger transport, social services by recognised organisations, sporting-event admissions, certain medical/pharmaceutical products, live equines, works of art"
+  },
+  {
+   "rate": "4",
+   "scope": "Tabella A parte II: basic foodstuffs, books/newspapers/periodicals, certain medical aids, chemical fertilisers (until 2032)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "From 1 January 2027 the VAT rules move to the Testo unico IVA (D.Lgs. 19 gennaio 2026, n. 10, Allegato art. 171 'Le disposizioni del presente testo unico si applicano a decorrere dal 1° gennaio 2027'), which abrogates DPR 633/1972 art. 16; its Allegato art. 34 keeps 'L'aliquota dell'imposta è stabilita nella misura del 22 per cento' with reduced 4/5/10% — a recodification, not a rate change. Livigno, Campione d'Italia and Lake Lugano waters are outside the VAT territory. Exports/intra-EU supplies are 'non imponibili' (zero-rated). TEDB (situation 2026-07-01) shows 22%, 10%, 5%, 4% — consistent.",
+ "unverified": [
+  "Reduced-rate scopes summarised from TEDB categories (situation 2026-07-01), not checked item by item against Tabella A"
+ ]
+}

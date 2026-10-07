@@ -11,10 +11,11 @@ from pathlib import Path
 from typing import Any
 
 from sqlalchemy import delete, select
+from sqlalchemy.dialects.postgresql import Range
 from sqlalchemy.orm import Session
 
 from app.modules.core.repository import JurisdictionRepository
-from app.modules.seed.builder import Seeder, Src, period
+from app.modules.seed.builder import Seeder, Src
 from app.modules.tax.models import VatRule
 
 DATA_DIR = Path(__file__).parent / "data" / "vat"
@@ -26,12 +27,13 @@ def _cut(text: str | None, n: int) -> str | None:
 
 def _periods(data: dict[str, Any]) -> list[dict[str, Any]]:
     """(start, rate, quote, url) per period, oldest first."""
-    rows = [{
-        "start": date.fromisoformat(data["valid_from"]),
+    # No start date (no VAT at all, or the rate's commencement was not found): open-ended period.
+    rows: list[dict[str, Any]] = [{
+        "start": date.fromisoformat(data["valid_from"]) if data.get("valid_from") else None,
         "rate": data.get("standard_rate"),
         "quote": data["quote"],
         "url": data["source_url"],
-        "title": data["source_title"],
+        "title": data["source_title"] + (" (secondary source)" if data.get("secondary") else ""),
         "article": data.get("legal_ref"),
     }]
     for ch in data.get("future_changes") or []:
@@ -43,7 +45,7 @@ def _periods(data: dict[str, Any]) -> list[dict[str, Any]]:
             "title": data["source_title"],
             "article": data.get("legal_ref"),
         })
-    rows.sort(key=lambda r: r["start"])
+    rows.sort(key=lambda r: r["start"] or date.min)
     for i, r in enumerate(rows):
         r["end"] = rows[i + 1]["start"] if i + 1 < len(rows) else None
     return rows
@@ -52,7 +54,7 @@ def _periods(data: dict[str, Any]) -> list[dict[str, Any]]:
 def load_file(sd: Seeder, path: Path) -> bool:
     data = json.loads(path.read_text(encoding="utf-8"))
     j = JurisdictionRepository(sd.s).get_by_code(data["code"])
-    if j is None or not data.get("valid_from"):
+    if j is None:
         return False
     reduced = [
         {"rate": str(r["rate"]), "scope": _cut(str(r.get("scope", "")), 200) or ""}
@@ -80,7 +82,7 @@ def load_file(sd: Seeder, path: Path) -> bool:
             reduced_rates=reduced,
             notes=notes,
             source_evidence_id=sd.ev(src),
-            valid_period=period(p["start"], p["end"]),
+            valid_period=Range(p["start"], p["end"], bounds="[)"),
         ))
     sd.s.flush()
     return True

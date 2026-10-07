@@ -1,0 +1,18 @@
+{
+ "code": "KE",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT)",
+ "standard_rate": "16",
+ "valid_from": "2013-09-02",
+ "legal_ref": "Value Added Tax Act No. 35 of 2013 s.5(2)(b)",
+ "quote": "\"(2) The rate of tax shall be— (a) in the case of a zero-rated supply, zero per cent; or (b) in any other case, sixteen per cent of the taxable value of the taxable supply...\" (s.5(2)); \"[Date of commencement: 2nd September, 2013.]\"",
+ "source_url": "https://www.kra.go.ke/images/publications/ValueAddedTax_ActNo35of2013.pdf",
+ "source_title": "Value Added Tax Act No. 35 of 2013 (revised text, KRA); KRA 'Value Added Tax' page (kra.go.ke)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Two rates: 16% general and 0% zero-rate (Second Schedule); exempt supplies in First Schedule. KRA: '8% (Other rate) – This rate applied to certain supplies (petroleum products) prior to 1st July 2023 but was deleted by the Finance Act, 2023.' Registration threshold: taxable supplies of KES 5 million or more in 12 months; non-resident digital-service suppliers must register regardless of turnover. 16% also applied under the predecessor VAT Act (Cap 476); valid_from given is commencement of the 2013 Act.",
+ "unverified": [
+  "Date 16% was first introduced under the repealed Cap 476 not checked; valid_from uses the 2013 Act commencement date"
+ ]
+}

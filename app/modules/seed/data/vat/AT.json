@@ -1,0 +1,39 @@
+{
+ "code": "AT",
+ "has_vat": true,
+ "tax_name": "Umsatzsteuer (USt)",
+ "standard_rate": "20",
+ "valid_from": "1984-01-01",
+ "legal_ref": "Umsatzsteuergesetz 1994 (UStG 1994), BGBl. Nr. 663/1994, § 10 Abs. 1",
+ "quote": "Die Steuer beträgt für jeden steuerpflichtigen Umsatz 20% der Bemessungsgrundlage (§§ 4 und 5). — The tax is 20% of the taxable amount for every taxable supply.",
+ "source_url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10004873&Paragraf=10",
+ "source_title": "RIS Bundesrecht konsolidiert: UStG 1994 § 10 (Fassung BGBl. I Nr. 37/2026, in force 01.07.2026)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "4.9",
+   "scope": "basic foodstuffs listed in Annex 3 (new super-reduced rate from 2026-07-01, § 10 Abs. 1a; BGBl. I Nr. 37/2026)"
+  },
+  {
+   "rate": "10",
+   "scope": "foodstuffs in Annex 1 incl. restaurant food/drinks, books/newspapers, residential letting, hotel accommodation, water, waste collection, charities (§ 10 Abs. 2)"
+  },
+  {
+   "rate": "13",
+   "scope": "Annex 2 goods (live animals, plants, art), artists, swimming pools, theatre/concerts/museums/zoos, film shows, circus, domestic air passenger transport, wine sold by producer, sporting events (§ 10 Abs. 3)"
+  },
+  {
+   "rate": "19",
+   "scope": "supplies in Jungholz and Mittelberg by locally established businesses (§ 10 Abs. 4)"
+  },
+  {
+   "rate": "0",
+   "scope": "zero rate with deduction: contraceptives and feminine hygiene products from 2026-01-01; charitable food donations; Austrian leg of cross-border rail (per TEDB)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Single national VAT; no sub-national VAT. 4.9% rate on Annex 3 foodstuffs introduced by BGBl. I Nr. 37/2026, applicable to supplies after 2026-06-30 (§ 28 Abs. 69 UStG 1994). § 28 lists no further enacted rate changes (latest amendment BGBl. I Nr. 62/2026 only touches § 26 from 2027-01-01). Exports and intra-EU supplies exempt with deduction. TEDB cross-check: 20% standard; reduced 4.9/10/13/19/0 — consistent.",
+ "unverified": [
+  "valid_from 1984-01-01: start of 20% rate (increase from 18% under UStG 1972) not confirmed in an official text; current UStG 1994 (in force 1995-01-01) has carried 20% since enactment"
+ ]
+}

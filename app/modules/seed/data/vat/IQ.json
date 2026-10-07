@@ -1,0 +1,19 @@
+{
+ "code": "IQ",
+ "has_vat": false,
+ "tax_name": "None (no VAT); a selective 'sales tax' (ضريبة المبيعات) applies only to specified goods and services",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "Revolutionary Command Council Resolution No. 36 of 1997 (sales tax on luxury/first-class hotels and restaurants); Federal Budget Law 2015 art. 33(a) and GCT Instructions No. 5 of 2015 (import sales tax on cars, alcohol, tobacco); later federal budget laws",
+ "quote": "\"تفرض ضريبة تسمى ضريبة المبيعات بنسبة (10%) عشر من المئة على اقيام جميع الخدمات التي تقدمها فنادق ومطاعم الدرجتين الممتازة والأولى\" (RCC Resolution 36/1997); \"تستقطع ضريبة مبيعات عن استيراد البضائع المدرجة ادناه: أ: السيارات بكافة انواعها بنسبة 15% … ب: المشروبات الكحولية بنسبة 300% … ج: السكاير ومنتجات التبغ بكافة انواعها 300%\" (GCT, under Budget Law 2015 art. 33(a)) — Iraq's sales tax is levied only on listed items, not as a general tax on supplies",
+ "source_url": "https://tax.mof.gov.iq/%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa/",
+ "source_title": "General Commission for Taxes (Iraq Ministry of Finance) – 'ضريبة المبيعات' page; also RCC Resolution 36/1997 text: https://tax.mof.gov.iq/%d9%82%d8%b1%d8%a7%d8%b1-%d8%b1%d9%82%d9%8536-%d9%84%d8%b3%d9%86%d8%a9-1997-%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%a8%d9%8a%d8%b9%d8%a7%d8%aa/",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Federal Iraq has no VAT and no general sales tax. The so-called sales tax is a selective tax: 10% on services of deluxe and first-class hotels and restaurants (RCC Res. 36/1997); on imports, 15% on cars and 300% on alcohol and tobacco (Budget Law 2015 art. 33(a)); budget laws since 2016-2017 also apply sales tax to mobile phone top-up/internet services and air travel tickets (GCT notice that the 2017 budget did not add new amounts beyond 2016). The Kurdistan Region administers its own taxes. Introduction of a VAT has been discussed in reform plans but not legislated.",
+ "unverified": [
+  "Current rates on mobile/internet services and travel tickets (commonly reported as 20% and 15%) not confirmed in a fetched official text",
+  "Whether the 2023-2025 Federal Budget Law (Law 13/2023) changed sales-tax items/rates was not checked"
+ ]
+}

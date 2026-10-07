@@ -1,0 +1,36 @@
+{
+ "code": "MT",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / Taxxa fuq il-Valur Miżjud",
+ "standard_rate": "18",
+ "valid_from": "2004-01-01",
+ "legal_ref": "Value Added Tax Act, Cap. 406, art. 19(1) and (4) (substituted by Act X of 2003; amended by Acts II and III of 2004)",
+ "quote": "19. (1) The tax chargeable on every taxable supply, other than a supply referred to in sub-article (2), shall be at the rate of eighteen per cent of the taxable value of the supply. (2) The tax chargeable on every taxable supply specified in the Eighth Schedule shall be at such rate or rates, not being higher than eighteen per cent or lower than five per cent ... as specified in that Schedule.",
+ "source_url": "https://legislation.mt/eli/cap/406/eng",
+ "source_title": "Leġiżlazzjoni Malta – Value Added Tax Act, Cap. 406, consolidated PDF (https://legislation.mt/getpdf/6ac352947b5e681a8405fbf4); amending Act III of 2004 https://legislation.mt/eli/act/2004/3/eng",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "12",
+   "scope": "Eighth Schedule: e.g. short-term hire of pleasure boats, custody and management of securities, management of credit, certain personal body care services"
+  },
+  {
+   "rate": "7",
+   "scope": "Eighth Schedule: hotel and holiday accommodation"
+  },
+  {
+   "rate": "5",
+   "scope": "Eighth Schedule: e.g. confectionery and some foods, medical equipment, books and periodicals, admission to cultural events, minor repairs, domestic care, electricity, items for disabled persons, art and antiques imports"
+  },
+  {
+   "rate": "0",
+   "scope": "exempt with credit (Fifth Schedule Part Two): most foodstuffs, pharmaceuticals, water supply, scheduled passenger transport, exports and intra-EU supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Malta's zero-rated supplies are described in national law as 'exempt with credit'. TEDB (2026-07-01) shows 18% / 12% / 7% / 5% / 0%, consistent.",
+ "unverified": [
+  "valid_from 2004-01-01 not confirmed: Act III of 2004, art. 114(b), changed \"fifteen per cent\" to \"eighteen per cent\" in art. 19 as inserted by the VAT (Amendment) Act 2003 (Act X of 2003), effective whenever that Act was brought into force. The commencement legal notice for Act X of 2003 was not found; 1 Jan 2004 is the commonly cited date.",
+  "Reduced-rate scopes summarised from TEDB categories; Eighth Schedule not read item by item"
+ ]
+}

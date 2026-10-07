@@ -1,0 +1,19 @@
+{
+ "code": "AU",
+ "has_vat": true,
+ "tax_name": "Goods and Services Tax (GST)",
+ "standard_rate": "10",
+ "valid_from": "2000-07-01",
+ "legal_ref": "A New Tax System (Goods and Services Tax) Act 1999 s.9-70; commencement s.1-2",
+ "quote": "\"The amount of GST on a taxable supply is 10% of the value of the taxable supply.\" (s.9-70); \"This Act commences on 1 July 2000.\" (s.1-2)",
+ "source_url": "https://www.legislation.gov.au/C2004A00446/latest/text",
+ "source_title": "A New Tax System (Goods and Services Tax) Act 1999, Compilation No. 96 (compilation date 1 January 2026), Federal Register of Legislation",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single 10% rate; GST-free supplies (e.g. exports, basic food, most health and education) under Division 38. Registration turnover threshold under s.23-15: '$50,000; or such higher amount as the regulations specify' (non-profit bodies $100,000 or higher prescribed amount). GST revenue is distributed to the states.",
+ "unverified": [
+  "Regulation-prescribed registration thresholds (commonly AUD 75,000 / 150,000 non-profit) not fetched; ato.gov.au returned HTTP 403",
+  "Examples of GST-free supplies (basic food, health, education) in notes not read from Division 38 text"
+ ]
+}

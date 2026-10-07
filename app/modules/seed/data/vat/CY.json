@@ -1,0 +1,36 @@
+{
+ "code": "CY",
+ "has_vat": true,
+ "tax_name": "Φόρος Προστιθέμενης Αξίας (ΦΠΑ)",
+ "standard_rate": "19",
+ "valid_from": "2014-01-13",
+ "legal_ref": "Ο περί Φόρου Προστιθέμενης Αξίας Νόμος 95(I)/2000, άρθρο 17 (as amended, incl. 167(I)/2012)",
+ "quote": "Φ.Π.Α. επιβάλλεται με συντελεστή δεκαοκτώ τοις εκατόν (18%) για την περίοδο από 14 Ιανουαρίου 2013 μέχρι 12 Ιανουαρίου 2014 και με συντελεστή δεκαεννέα τοις εκατόν (19%) από 13 Ιανουαρίου 2014 — VAT is imposed at 18% from 14 Jan 2013 to 12 Jan 2014 and at 19% from 13 January 2014.",
+ "source_url": "https://www.cylaw.org/nomoi/enop/non-ind/2000_1_95/full.html",
+ "source_title": "CyLaw — consolidated text of Law 95(I)/2000 on VAT (Cyprus Bar Association legal database; Tax Department site mof.gov.cy blocked by WAF)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "9",
+   "scope": "hotel accommodation, restaurant/catering services, certain passenger transport (Twelfth Schedule, s.18A)"
+  },
+  {
+   "rate": "5",
+   "scope": "foodstuffs, pharmaceuticals, medical equipment, water, books-related items, passenger transport, admissions, hairdressing, renovation of dwellings, children's car seats etc. (Fifth Schedule, s.18)"
+  },
+  {
+   "rate": "3",
+   "scope": "books, newspapers, periodicals, certain disability aids, waste collection, sewage, first 140 theatre/circus performances (s.18B, inserted by 75(I)/2023)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports, intra-EU supplies and certain zero-rated supplies (Sixth Schedule)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "VAT applies in the government-controlled areas of the Republic of Cyprus. TEDB cross-check: 19% standard; reduced 9/5/3/0 — consistent.",
+ "unverified": [
+  "CyLaw is maintained by the Cyprus Bar Association, not the State; official Gazette/Tax Department text not fetched (mof.gov.cy returned Azure WAF 403)",
+  "amending law number (167(I)/2012) for the 19% rate inferred from the amendment notes beside s.17"
+ ]
+}

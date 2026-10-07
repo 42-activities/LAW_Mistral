@@ -1,0 +1,27 @@
+{
+ "code": "RO",
+ "has_vat": true,
+ "tax_name": "Taxa pe valoarea adăugată (TVA)",
+ "standard_rate": "21",
+ "valid_from": "2025-08-01",
+ "legal_ref": "Legea nr. 227/2015 privind Codul fiscal, art. 291 alin. (1), as amended by Legea nr. 141/2025, art. II pct. 42 (MO nr. 699 din 25.07.2025)",
+ "quote": "(1) Cota standard se aplică asupra bazei de impozitare pentru operațiunile impozabile care nu sunt scutite de taxă sau care nu sunt supuse cotei reduse, iar nivelul acesteia este 21% — The standard rate applies to taxable operations that are not exempt or subject to the reduced rate; its level is 21%.",
+ "source_url": "https://static.anaf.ro/static/10/Anaf/legislatie/Cod_fiscal_norme_2023.htm",
+ "source_title": "ANAF – Legea nr. 227/2015 privind Codul fiscal, consolidated (last update OUG nr. 38/2026); start date per ANAF DGRFP Brașov note 'Modificări aduse Legii nr. 227/2015 ... prin Legea nr. 141/2025 – în vigoare cu 1 august 2025' (https://static.anaf.ro/static/10/Brasov/Brasov/tva_2025.pdf)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "11",
+   "scope": "medicines for human use; foodstuffs and non-alcoholic drinks (excl. NC 2202 drinks, high added-sugar foods, food supplements); water supply and sewerage; irrigation water; agricultural inputs (fertilisers, pesticides, seeds) and agricultural services; books, newspapers, school textbooks (incl. electronic); admission to museums, castles, monuments, zoos and botanical gardens; firewood and wood pellets; district heating in the cold season for households and listed institutions; social housing (care homes, children's homes); hotel accommodation and camping; restaurant and catering (excl. alcohol and NC 2202 drinks)"
+  },
+  {
+   "rate": "9",
+   "scope": "transitional only: one dwelling (max 120 m², max 600,000 lei) bought by an individual between 1 Aug 2025 and 31 Jul 2026 where an advance-payment contract was signed before 1 Aug 2025 (Legea 141/2025 art. III) — window has now closed"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Previous standard rate 19% (from 1 Jan 2017). From 1 Aug 2025 Legea 141/2025 raised the standard rate from 19% to 21% and merged the 5% and 9% reduced rates into a single 11% rate. Exports and intra-EU supplies exempt with right of deduction. TEDB (snapshot 2026-07-01) shows 21% standard and 11% reduced, consistent.",
+ "unverified": [
+  "Commencement date 2025-08-01 taken from ANAF regional guidance notes (DGRFP Brașov and Ploiești) rather than the text of Legea 141/2025 itself — legislatie.just.ro was unreachable"
+ ]
+}

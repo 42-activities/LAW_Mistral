@@ -1,0 +1,27 @@
+{
+ "code": "SE",
+ "has_vat": true,
+ "tax_name": "Mervärdesskatt (moms)",
+ "standard_rate": "25",
+ "valid_from": "1990-07-01",
+ "legal_ref": "Mervärdesskattelag (2023:200), 9 kap. 2 § (wording per Lag 2026:118)",
+ "quote": "Normalskattesats - 25 procent 2 § Skatt enligt denna lag tas ut med 25 procent av beskattningsunderlaget om inte annat följer av 4-19 §§. Lag (2026:118). — Standard rate 25%: VAT is charged at 25% of the taxable amount unless sections 4–19 provide otherwise.",
+ "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/mervardesskattelag-2023200_sfs-2023-200/",
+ "source_title": "Sveriges riksdag – Mervärdesskattelag (2023:200), consolidated text (SFS)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "12",
+   "scope": "hotel accommodation and camping; restaurant and catering (excl. spirits, wine and strong beer); certain art, collectors' items and antiques; repairs of bicycles, shoes, leather goods, clothing and household linen"
+  },
+  {
+   "rate": "6",
+   "scope": "foodstuffs (excl. tap water, spirits, wine, strong beer) — temporary, 1 Apr 2026 to 31 Dec 2027 (Lag 2026:118); passenger transport; books, newspapers, periodicals incl. electronic; concerts, theatre, circus, dance events, zoos and nature areas; library and museum services; copyright licences; sports services"
+  }
+ ],
+ "future_changes": [],
+ "notes": "The temporary food rate cut from 12% to 6% applies from 1 April 2026 (Lag 2026:118) and the 12% food rate returns on 1 January 2028 (Lag 2026:119). The change to 9 kap. 14 § by Lag 2026:841 (admissions) took effect on 1 July 2026. The current VAT Act (2023:200) took effect on 1 July 2023 and replaced ML (1994:200) with the rate unchanged. Exports and intra-EU supplies exempt with right of deduction. TEDB (2026-07-01) shows 25% / 12% / 6%, consistent. Scheduled: from 2028-01-01: 2026:119: Denna lag träder i kraft den 1 januari 2028. (Reduced rate on foodstuffs returns from 6% to 12%; standard rate stays 25%.)",
+ "unverified": [
+  "valid_from 1990-07-01: 25% was introduced by Lag (1990:575) om tillfällig höjning av mervärdeskatten from 1 July 1990 and kept by the 1991 tax reform. This was seen only in search results (riksdagen betänkanden, lagen.nu); the 1990 text was not read. The current law (2023:200) has applied since 1 July 2023."
+ ]
+}

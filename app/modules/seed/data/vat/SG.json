@@ -1,0 +1,19 @@
+{
+ "code": "SG",
+ "has_vat": true,
+ "tax_name": "Goods and Services Tax (GST)",
+ "standard_rate": "9",
+ "valid_from": "2024-01-01",
+ "legal_ref": "Goods and Services Tax Act 1993 s.16(cb), as amended by Act 35 of 2022",
+ "quote": "\"Tax is charged at the rate of — ... (ca) 8% for the period from 1 January 2023 to 31 December 2023 (both dates inclusive); and (cb) 9% from and including 1 January 2024\" (GST Act 1993 s.16); IRAS: \"The current GST rate in Singapore is 9%.\"",
+ "source_url": "https://sso.agc.gov.sg/Act/GSTA1993?ProvIds=pr16-",
+ "source_title": "Goods and Services Tax Act 1993, s.16 Rate of tax (Singapore Statutes Online); IRAS 'Current GST rates' page (iras.gov.sg)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single standard rate; zero rate (0%) for exports and international services (s.21); exempt supplies under s.22 (e.g. financial services, residential property, investment precious metals). IRAS rate history: 3% from 1 Apr 1994, 4% 2003, 5% 2004-30 Jun 2007, 7% 1 Jul 2007-2022, 8% 2023, 9% from 2024.",
+ "unverified": [
+  "Registration threshold (commonly SGD 1 million taxable turnover) not quoted from an official text",
+  "Examples of exempt supplies and the s.21/s.22 references in notes not read in the Act text"
+ ]
+}

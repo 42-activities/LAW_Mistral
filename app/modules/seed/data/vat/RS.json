@@ -1,0 +1,27 @@
+{
+ "code": "RS",
+ "has_vat": true,
+ "tax_name": "Porez na dodatu vrednost (PDV) / Порез на додату вредност",
+ "standard_rate": "20",
+ "valid_from": "2012-10-01",
+ "legal_ref": "Закон о порезу на додату вредност (Сл. гласник РС 84/2004 ... 80/2026), чл. 23 ст. 1 (rate per amendment Сл. гласник РС 93/2012)",
+ "quote": "Општа стопа ПДВ за опорезиви промет добара и услуга или увоз добара износи 20%. [fn: Службени гласник РС, број 93/2012] — The general VAT rate on taxable supplies of goods and services or imports is 20%.",
+ "source_url": "https://www.mfin.gov.rs//upload/media/5MwIQ2_6aa12716d86e0.docx",
+ "source_title": "Министарство финансија РС — Закон о порезу на додату вредност, пречишћен текст (incl. Сл. гласник РС 80/2026); cross-checked Пореска управа 'Опште о ПДВ' (https://www.purs.gov.rs/pravna-lica/pdv/opste-o-pdv.html): 'Општа стопа 20% Посебна стопа 10% (чл. 23)'",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "special rate (Art. 23 para 2, rate per 108/2013): bread, milk, flour, sugar, edible oils, fresh fruit/veg/meat/fish/eggs, medicines, medical implants, fertilisers/seeds/feed, textbooks, daily newspapers, firewood/pellets, hotel accommodation, admission tickets (cinema, theatre, concerts, sports, museums), natural gas, district heating, first transfer of residential buildings, drinking water, waste water, municipal waste, passenger transport, funeral services"
+  },
+  {
+   "rate": "0",
+   "scope": "exemptions with right of input deduction (Art. 24): exports, international transport, free zones etc."
+  }
+ ],
+ "future_changes": [],
+ "notes": "Amending law Сл. гласник РС 80/2026 (in force 8 Sept 2026, mostly applicable from 1 Jan 2027) does not change Art. 23 rates. Registration: mandatory once turnover in previous 12 months exceeds RSD 8,000,000 (Art. 38); small taxpayer threshold RSD 8,000,000 (Art. 33).",
+ "unverified": [
+  "valid_from 2012-10-01: the 20% rate is footnoted to Сл. гласник РС 93/2012 in the official consolidated text, but the application date 1 Oct 2012 (transitional provision of 93/2012) was confirmed only via KPMG Serbia tax news (Oct 2012)"
+ ]
+}

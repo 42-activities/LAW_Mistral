@@ -1,0 +1,33 @@
+{
+ "code": "LU",
+ "has_vat": true,
+ "tax_name": "Taxe sur la valeur ajoutée (TVA)",
+ "standard_rate": "17",
+ "valid_from": "2024-01-01",
+ "legal_ref": "Loi modifiée du 12 février 1979 concernant la TVA, art. 39 (3); temporary 16% for 1.1.2023–31.12.2023 by Loi du 26 octobre 2022 (Mémorial A n° 534), art. 1",
+ "quote": "à partir du 1er janvier 2024, les taux de TVA suivants reviennent à leur niveau d’avant le 1er janvier 2023 : ● Taux normal : 17% (16% pendant l’année 2023) — From 1 January 2024 the standard rate returns to 17% (it was 16% during 2023). [Loi du 26 octobre 2022 art. 1: '... le taux normal de la taxe sur la valeur ajoutée est fixé à seize pour cent ... pour la période du 1er janvier 2023 au 31 décembre 2023 inclus.']",
+ "source_url": "https://pfi.public.lu/dam-assets/pdf/legislation/tva/circulaires/812-1-tva-taux-applicables-partir-01012024.pdf",
+ "source_title": "Administration de l'enregistrement, des domaines et de la TVA (AED), Circulaire N° 812-1 du 27 décembre 2023 'Taux de TVA ; Exigibilité de la taxe'; temporary law: Mémorial A n° 534 du 26.10.2022, https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2022/10/26/a534/jo/fr/pdfa/eli-etat-leg-loi-2022-10-26-a534-jo-fr-pdfa.pdf",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "14",
+   "scope": "intermediate rate, Annex C: certain wines (≤13% alcohol), solid mineral fuels/mineral oils/wood fuel, washing preparations, printed advertising material, securities custody and management, credit management (per TEDB)"
+  },
+  {
+   "rate": "8",
+   "scope": "reduced rate, Annex A: gas and electricity, district heating, hairdressing, minor repairs of bicycles/shoes/clothing, plants and flowers, certain art and collectors' items (per TEDB)"
+  },
+  {
+   "rate": "3",
+   "scope": "super-reduced rate, Annex B: most foodstuffs, non-alcoholic beverages, medicines and medical equipment, books and press (incl. electronic), children's clothing and footwear, passenger transport, accommodation and restaurant services excluding alcohol, housing construction/renovation for main residence (per TEDB)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "17% applied before the temporary 2023 reduction (since 1 January 2015) and again from 1 January 2024. Zero rate (exemption with deduction) for exports and intra-EU supplies; TEDB lists 0% for certain passenger transport. TEDB (situation 2026-07-01) shows 17%, 14%, 8%, 3% — consistent. No enacted future change found.",
+ "unverified": [
+  "Text of art. 39 of the consolidated 1979 law not read directly (Legilux site requires JavaScript; consolidated PDF not located); standard rate taken from the AED circular and the 2022 Mémorial",
+  "Reduced-rate scopes and the 3% super-reduced rate taken from TEDB, not from Annexes A/B/C",
+  "Date 17% was first introduced (2015-01-01) not verified in an official text"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "code": "HU",
+ "has_vat": true,
+ "tax_name": "Általános forgalmi adó (áfa)",
+ "standard_rate": "27",
+ "valid_from": "2012-01-01",
+ "legal_ref": "2007. évi CXXVII. törvény (Áfa tv.) 82. § (1), as set by 2011. évi CLVI. törvény 118. § (in force 2012-01-01 per 477. § (4))",
+ "quote": "82. § (1) Az adó mértéke az adó alapjának 27 százaléka. — The tax rate is 27% of the taxable amount. [Footnote: 'A 82. § (1) bekezdése a 2011: CLVI. törvény 118. §-ával megállapított szöveg.'; 2011. évi CLVI. törvény 477. § (4): '... 114–154. § (1) bekezdése ... 2012. január 1-jén lép hatályba.']",
+ "source_url": "https://njt.jog.gov.hu/jogszabaly/2007-127-00-00",
+ "source_title": "Nemzeti Jogszabálytár: 2007. évi CXXVII. törvény az általános forgalmi adóról (consolidated); commencement from Nemzeti Jogszabálytár 2011. évi CLVI. törvény (https://njt.jog.gov.hu/jogszabaly/2011-156-00-00); cross-checked with NAV 'Áfa kulcsok és a tevékenység közérdekű ... adómentes tevékenységek köre' (nav.gov.hu)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "18",
+   "scope": "Annex 3/A: certain milk and dairy products, cereal/bakery products, admission to certain outdoor events (Áfa tv. 82. § (3))"
+  },
+  {
+   "rate": "5",
+   "scope": "Annex 3: medicines and medical aids, books, periodicals, basic foods (meat, eggs, milk etc.), restaurant/catering (non-alcoholic), commercial accommodation, certain new residential property, district heating (Áfa tv. 82. § (2))"
+  },
+  {
+   "rate": "0",
+   "scope": "Annex 3/B products (Áfa tv. 82. § (4)); TEDB lists newspapers"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Highest standard rate in the EU. Exports and intra-EU supplies exempt with deduction. Reduced 5% on art imports (82. § (5)). Previous standard rate was 25%. TEDB (situation 2026-07-01) also shows 27%. No enacted future change to the standard rate found.",
+ "unverified": [
+  "Reduced-rate scopes summarised from TEDB categories and the NAV guide; Annexes 3, 3/A and 3/B not read item by item",
+  "njt.hu primary host refused connections; the government mirror njt.jog.gov.hu was used"
+ ]
+}

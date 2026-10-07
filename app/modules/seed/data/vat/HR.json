@@ -1,0 +1,31 @@
+{
+ "code": "HR",
+ "has_vat": true,
+ "tax_name": "Porez na dodanu vrijednost (PDV)",
+ "standard_rate": "25",
+ "valid_from": "2012-03-01",
+ "legal_ref": "Zakon o porezu na dodanu vrijednost (NN 73/13 i dr.), čl. 38 st. 1; rate raised 23%→25% by Zakon o izmjenama i dopunama ZPDV, NN 22/2012, čl. 1 and 11",
+ "quote": "(1) PDV se obračunava i plaća po stopi od 25%. — VAT is calculated and paid at the rate of 25%. [NN 22/2012 čl. 11: 'stupa na snagu 1. ožujka 2012.']",
+ "source_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2012_02_22_569.html",
+ "source_title": "Narodne novine 22/2012 — Zakon o izmjenama i dopunama Zakona o porezu na dodanu vrijednost; current art. 38 text quoted in Government bill PZ 274 (sabor.hr, March 2026)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13",
+   "scope": "accommodation, restaurant/catering food, periodicals, water, electricity, natural gas & district heating, firewood/pellets, waste collection, child car seats & nappies, menstrual products, urns/coffins, authors' services (čl. 38 st. 3)"
+  },
+  {
+   "rate": "5",
+   "scope": "bread, milk, books, medicines, medical aids, cinema/concert/sport tickets, daily newspapers, baby food, edible oils, fresh meat/fish/fruit/vegetables/eggs, seeds, fertilisers, animal feed (čl. 38 st. 2); temporarily also natural gas, district heating and firewood/pellets (čl. 38 st. 4-5)"
+  },
+  {
+   "rate": "0",
+   "scope": "supply and installation of solar panels on dwellings and public-interest buildings (čl. 38 st. 6)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Registration threshold EUR 40,000 (per PZ 274 explanatory memorandum). The temporary 5% rate for natural gas, district heating and firewood/pellets/briquettes ran to 2026-03-31 under the law in force; Government bill PZ 274 (March 2026) extends it to 2027-03-31 (entry into force 2026-03-30). TEDB on 2026-10-07 still lists 5% for gas/heating/firewood, consistent with the extension having been adopted. Thereafter these revert to 13%. TEDB cross-check: 25% standard, 13% and 5% reduced — consistent.",
+ "unverified": [
+  "publication of the adopted PZ 274 extension (5% gas/heating/firewood to 2027-03-31) in Narodne novine not fetched; only the bill and TEDB seen"
+ ]
+}

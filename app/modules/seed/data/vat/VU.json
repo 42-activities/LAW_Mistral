@@ -1,0 +1,18 @@
+{
+ "code": "VU",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT)",
+ "standard_rate": "15",
+ "valid_from": "2018-01-01",
+ "legal_ref": "Value Added Tax Act [Cap 247], as amended by Value Added Tax (Amendment) Act No. 42 of 2017",
+ "quote": "\"VAT is an indirect consumption tax imposed at the rate of 15% on most goods and services supplied in Vanuatu by registered persons in the course of a taxable activity.\"; \"...at the rate of 12.5% on the supply of most goods and services. In 2018, this rate was increased to 15%.\"",
+ "source_url": "https://vanuatucustoms.gov.vu/taxes-and-licensing/taxes/value-added-tax-vat/introduction.html",
+ "source_title": "Vanuatu Customs & Inland Revenue – Value Added Tax (VAT) Introduction (vanuatucustoms.gov.vu; customsinlandrevenue.gov.vu did not resolve)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single 15% rate; zero-rated supplies (0%) and exempt supplies. Compulsory registration when taxable supplies in any 12 months exceed or are expected to exceed VT 4 million. VAT administration is also governed by the Tax Administration Act No. 37 of 2018 (from 1 January 2020).",
+ "unverified": [
+  "Exact commencement 1 January 2018 of Act No. 42 of 2017 seen only in search snippet (PacLII, unreachable); official page says only 'In 2018'"
+ ]
+}

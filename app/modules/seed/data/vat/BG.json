@@ -1,0 +1,28 @@
+{
+ "code": "BG",
+ "has_vat": true,
+ "tax_name": "Данък върху добавената стойност (ДДС)",
+ "standard_rate": "20",
+ "valid_from": "2007-01-01",
+ "legal_ref": "Закон за данък върху добавената стойност (ЗДДС), чл. 66, ал. 1, т. 1",
+ "quote": "Стандартна ставка на данъка - 20% — Standard tax rate 20% (applies to taxable supplies in the country, imports and intra-Community acquisitions)",
+ "source_url": "https://nra.bg/wps/portal/nra/taxes/dds-v-balgariya",
+ "source_title": "Национална агенция за приходите (NRA) — ДДС в България",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "9",
+   "scope": "hotel accommodation; books and periodicals (physical or electronic); baby food and food for young children (ZDDS art. 66(2)); TEDB also lists certain pharmaceuticals"
+  },
+  {
+   "rate": "0",
+   "scope": "zero-rated supplies under Chapter 3 and arts. 53, 64a, 140, 146, 173 ZDDS (exports, intra-EU supplies, international transport)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Registration threshold for established persons: EUR 51,130 annual turnover (NRA, figures in euro after Bulgaria's euro changeover). No sub-national VAT. TEDB cross-check: 20% standard, 9% reduced — consistent.",
+ "unverified": [
+  "valid_from: 20% has applied since 1999-01-01 under the former VAT law; 2007-01-01 is the commencement of the current ZDDS (DV 63/2006). Neither date confirmed in an official text fetched",
+  "legal_ref article number (чл. 66) not read in the official law text; NRA page fetched"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "code": "BE",
+ "has_vat": true,
+ "tax_name": "Belasting over de toegevoegde waarde (btw) / Taxe sur la valeur ajoutée (TVA)",
+ "standard_rate": "21",
+ "valid_from": "1996-01-01",
+ "legal_ref": "Btw-Wetboek art. 37 § 1; Koninklijk besluit nr. 20 van 20 juli 1970, art. 1",
+ "quote": "Hierdoor worden \"fytofarmaceutische produkten erkend door de Minister die de Landbouw onder zijn bevoegdheid heeft\" niet langer onderworpen aan het verlaagde btw-tarief van 12 %, maar aan het gewone btw-tarief van 21 %. — (Council of State opinion published with the Royal Decree of 14 Feb 2026) these products are no longer subject to the reduced 12% rate but to the ordinary VAT rate of 21%. [FR: 'au taux ordinaire de T.V.A. de 21 %']",
+ "source_url": "https://www.ejustice.just.fgov.be/eli/besluit/2026/02/14/2026001322/staatsblad",
+ "source_title": "Belgisch Staatsblad 23-02-2026 — Koninklijk besluit van 14 februari 2026 tot wijziging van het koninklijk besluit nr. 20 (hervorming van bepaalde btw-tarieven), incl. advies Raad van State 78.759/3",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "12",
+   "scope": "hotel/furnished accommodation and camping (raised from 6% on 2026-03-01, KB 14 Feb 2026 art. 4-5); restaurant and catering (excl. drinks); social housing; certain foodstuffs such as margarine (KB nr. 20 table B)"
+  },
+  {
+   "rate": "6",
+   "scope": "most foodstuffs, water, medicines, medical aids, books/newspapers, passenger transport, cultural and sporting admissions, renovation of dwellings >10 years, residential electricity/gas/heating, agricultural inputs, fertilisers not mixed with plant-protection products (KB nr. 20 table A)"
+  },
+  {
+   "rate": "0",
+   "scope": "daily/weekly newspapers and certain periodicals, recovered materials, exports and intra-EU supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "From 2026-03-01 (KB 14 Feb 2026, art. 5): plant-protection products moved from 12% to 21%; furnished accommodation and camping moved from 6% to 12%. The draft decree reviewed by the Council of State also proposed 6%→12% for certain take-away meals and ready-to-eat foods, 21%→12% for non-alcoholic drinks served in restaurants and 6%→12% for certain cultural/sport/leisure admissions; the published decree contains only the pesticide/fertiliser and accommodation measures. TEDB cross-check (2026-10-07): 21% standard; 12%, 6% and 0% reduced — consistent; TEDB cites 'Article 1, paragraph 1, of the Royal Decree n° 20 of 20 July 1970' for the standard rate.",
+ "unverified": [
+  "KB nr. 20 art. 1 text not read directly (not found in Justel; FPS Finance site behind CAPTCHA); 21% confirmed via the Official Journal text of 23-02-2026 and TEDB",
+  "valid_from 1996-01-01 (increase from 20.5% to 21%) not confirmed in an official text",
+  "whether the other draft 2026 rate measures (take-away food, soft drinks in restaurants, cultural/sport admissions) were later enacted by a separate decree"
+ ]
+}

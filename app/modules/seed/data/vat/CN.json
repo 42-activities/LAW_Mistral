@@ -1,0 +1,32 @@
+{
+ "code": "CN",
+ "has_vat": true,
+ "tax_name": "增值税 Value-Added Tax (VAT)",
+ "standard_rate": "13",
+ "valid_from": "2019-04-01",
+ "legal_ref": "中华人民共和国增值税法 (VAT Law of the PRC, adopted 2024-12-25) art.10(1), in force 2026-01-01 (art.38); 13% first applied by MOF/STA/GACC Announcement 2019 No.39",
+ "quote": "\"纳税人销售货物、加工修理修配服务、有形动产租赁服务，进口货物，除本条第二项、第四项、第五项规定外，税率为百分之十三。\" (art.10(1)) — sales of goods, processing/repair services, leasing of tangible movables and imports: 13%. \"本法自2026年1月1日起施行。\" (art.38) — law in force 1 Jan 2026. Announcement 2019 No.39: \"原适用16%税率的，税率调整为13%\" ... \"自2019年4月1日起执行\" — 16% cut to 13% from 1 Apr 2019.",
+ "source_url": "https://fgk.chinatax.gov.cn/zcfgk/c100009/c5237365/content.html",
+ "source_title": "中华人民共和国增值税法 (State Taxation Administration policy database); Announcement 2019 No.39 at https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202330/content.html",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "9",
+   "scope": "transport, postal, basic telecoms, construction, real-estate leasing, sale of immovables, land-use rights; agricultural products, edible oils, salt, water/heating/gas, books/newspapers, feed, fertiliser, pesticides, farm machinery (art.10(2))"
+  },
+  {
+   "rate": "6",
+   "scope": "other services and intangible assets (art.10(3))"
+  },
+  {
+   "rate": "0",
+   "scope": "exports of goods; cross-border services/intangibles specified by the State Council (art.10(4)-(5))"
+  }
+ ],
+ "future_changes": [],
+ "notes": "The VAT Law replaced the Provisional Regulations on VAT from 1 Jan 2026 (art.38) without changing the 13%/9%/6% rates. Simplified method levy rate 3% (art.11) for small-scale taxpayers. Consumption tax and surcharges (urban maintenance and construction tax, education surcharges) are levied separately.",
+ "unverified": [
+  "Any temporary preferential levy rate for small-scale taxpayers (e.g. 1%) under State Council/MOF policy after 2026-01-01 not checked",
+  "Note on consumption tax and local surcharges is general background, not from a fetched text"
+ ]
+}

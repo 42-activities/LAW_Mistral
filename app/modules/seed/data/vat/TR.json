@@ -1,0 +1,32 @@
+{
+ "code": "TR",
+ "has_vat": true,
+ "tax_name": "Katma Değer Vergisi (KDV)",
+ "standard_rate": "20",
+ "valid_from": "2023-07-10",
+ "legal_ref": "3065 sayılı KDV Kanunu md. 28; 2007/13033 sayılı BKK (Mal ve Hizmetlere Uygulanacak KDV Oranlarının Tespitine İlişkin Karar) md. 1/1-a, as amended by Cumhurbaşkanı Kararı 7346 (RG 07.07.2023, Sayı 32241)",
+ "quote": "MADDE 1- ... Kararın 1 inci maddesinin birinci fıkrasının; a) (a) bendinde yer alan \"%18\" ibaresi \"%20\" şeklinde, b) (c) bendinde yer alan \"%8\" ibaresi \"%10\" şeklinde, değiştirilmiştir. ... MADDE 3- Bu Karar yayımını izleyen üçüncü gün yürürlüğe girer. — The general rate 18% is replaced by 20% and the 8% rate by 10%; the decree enters into force on the third day after publication (published 7 July 2023 → 10 July 2023).",
+ "source_url": "https://www.resmigazete.gov.tr/eskiler/2023/07/20230707-11.pdf",
+ "source_title": "Resmî Gazete 7 Temmuz 2023, Sayı 32241 — Cumhurbaşkanı Kararı Karar Sayısı 7346",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "goods and services in list (II) of the 2007/13033 decree (e.g. certain foodstuffs, restaurant services, some textiles, toothbrush/toothpaste)"
+  },
+  {
+   "rate": "1",
+   "scope": "goods and services in list (I) (e.g. certain basic foodstuffs such as bread/flour, agricultural products, newspapers/magazines, some residential deliveries)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports and other exemptions with right of deduction (KDV Kanunu md. 11 etc.)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Rates set by Presidential decree under KDV Kanunu art. 28 (President may vary rates within statutory limits). No VAT registration threshold for businesses in general.",
+ "unverified": [
+  "Contents of lists (I) and (II) summarised, not re-read from the consolidated 2007/13033 decree (mevzuat.gov.tr content requires JS)",
+  "No later change to the 20% general rate found, but the consolidated decree could not be retrieved to confirm"
+ ]
+}

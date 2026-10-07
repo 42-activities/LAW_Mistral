@@ -1,0 +1,28 @@
+{
+ "code": "PT",
+ "has_vat": true,
+ "tax_name": "Imposto sobre o Valor Acrescentado (IVA)",
+ "standard_rate": "23",
+ "valid_from": "2011-01-01",
+ "legal_ref": "Código do IVA, art. 18.º n.º 1 alínea c) (Redação da Lei n.º 55-A/2010, de 31 de dezembro – Orçamento do Estado para 2011)",
+ "quote": "1 - As taxas do imposto são as seguintes: a) ... lista I ..., a taxa de 6%; b) ... lista II ..., a taxa de 13%; c) Para as restantes importações, transmissões de bens e prestações de serviços, a taxa de 23%. (Redação da Lei n.º 55-A/2010, de 31 de dezembro) — The rates are 6% (List I), 13% (List II) and 23% for all other imports and supplies of goods and services.",
+ "source_url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva18.aspx",
+ "source_title": "Portal das Finanças (Autoridade Tributária e Aduaneira) – Código do IVA, Artigo 18.º Taxas do imposto",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13",
+   "scope": "List II (intermediate rate): certain foods and drinks (e.g. canned goods, wine, coffee), restaurant and catering services (excl. alcohol, soft drinks), agricultural inputs, admission to some cultural events, fuels (until 2030 under the Directive)"
+  },
+  {
+   "rate": "6",
+   "scope": "List I: basic foodstuffs, water supply, medicines and medical devices, books and newspapers, passenger transport, hotel accommodation, cultural admissions, housing renovation, and other listed items"
+  }
+ ],
+ "future_changes": [],
+ "notes": "The mainland rates are 23% / 13% / 6%; the 23% standard rate applies since 2011 (previously 21%). Under art. 18(3) the autonomous regions set lower rates: Azores 16% / 9% / 4% and Madeira 22% / 12% / 4% (regional standard rates confirmed by TEDB 2026-07-01: Azores 16%, Madeira 22%). Exports and intra-EU supplies exempt with right of deduction. TEDB shows 23% / 13% / 6%, consistent.",
+ "unverified": [
+  "valid_from 2011-01-01 is inferred from the amending law (Lei 55-A/2010, the 2011 State Budget, dated 31 Dec 2010); its commencement article in Diário da República was not read",
+  "Regional intermediate and reduced rates (Azores 9%/4%, Madeira 12%/4%) come from non-official search results; only the regional standard rates (16%, 22%) were cross-checked in TEDB"
+ ]
+}

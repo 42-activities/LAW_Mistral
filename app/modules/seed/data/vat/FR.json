@@ -1,0 +1,32 @@
+{
+ "code": "FR",
+ "has_vat": true,
+ "tax_name": "Taxe sur la valeur ajoutée (TVA)",
+ "standard_rate": "20",
+ "valid_from": "2014-01-01",
+ "legal_ref": "CGI art. 278 (as amended by Loi n° 2012-1510 du 29 décembre 2012 de finances rectificative pour 2012, art. 68)",
+ "quote": "Le taux normal est applicable à toutes les opérations pour lesquelles aucun autre taux n'est prévu. Il est fixé à 20 % pour la France métropolitaine et la Corse ( CGI, art. 278 ). — The standard rate applies to all transactions for which no other rate is provided; it is set at 20% for metropolitan France and Corsica.",
+ "source_url": "https://bofip.impots.gouv.fr/doctrine/pgp/1376-PGP",
+ "source_title": "BOFiP-Impôts BOI-TVA-LIQ-20 « TVA - Liquidation - Taux - Le taux normal » (DGFiP), version en vigueur du 19/09/2014; start date from Assemblée nationale, réponse ministérielle à la question écrite n° 16988 (14e législature): « A compter du 1er janvier 2014 ... article 68 de la loi n° 2012-1510 ... portant le taux normal de TVA de 19,6 % à 20 % » (https://www2.assemblee-nationale.fr/questions/detail/14/qe/16988/(vue)/pdf)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "accommodation, restaurant/catering, cultural admissions, certain pharmaceuticals, housing provision/renovation, agricultural goods and services, water supply, TV broadcasting reception (CGI art. 279 ff.)"
+  },
+  {
+   "rate": "5.5",
+   "scope": "foodstuffs, cultural and sporting admissions, domestic care services, medical equipment for disabled persons, certain pharmaceuticals, social housing, solar panel installation, district heating (CGI art. 278-0 bis ff.)"
+  },
+  {
+   "rate": "2.1",
+   "scope": "newspapers and periodicals, reimbursable pharmaceuticals (CGI art. 281 quater ff.)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Five main rates: 20% standard, 10% and 5.5% reduced, 2.1% particular rate, and zero rate (exemption with deduction, e.g. international passenger transport, exports and intra-EU supplies). Corsica has specific rates (13%, 10%, 2.1%, 0.9%). Overseas departments Guadeloupe, Martinique, Réunion: standard 8.5%, reduced 2.1%, plus 1.05% for some items; VAT not applicable in French Guiana and Mayotte (BOI-TVA-GEO). TEDB (situation 2026-07-01) also shows 20% standard. No enacted future change to the standard rate found in BOFiP or TEDB (TEDB query for 2027-01-01 still 20%).",
+ "unverified": [
+  "Reduced-rate scopes summarised from TEDB categories and BOI-TVA-LIQ overview, not checked article by article against the CGI",
+  "Text of CGI art. 278 itself not read directly (Légifrance blocked automated access); quote is from DGFiP's official BOFiP commentary"
+ ]
+}

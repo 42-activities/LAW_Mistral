@@ -1,0 +1,29 @@
+{
+ "code": "FI",
+ "has_vat": true,
+ "tax_name": "Arvonlisävero (ALV) / Mervärdesskatt",
+ "standard_rate": "25.5",
+ "valid_from": "2024-09-01",
+ "legal_ref": "Arvonlisäverolaki 1501/1993, 84 § (muutettu L 462/2024, voimaan 1.9.2024)",
+ "quote": "Suoritettava vero on 25,5 prosenttia veron perusteesta, ellei 85 tai 85 a §:ssä toisin säädetä. — The tax payable is 25.5% of the taxable amount unless sections 85 or 85a provide otherwise.",
+ "source_url": "https://www.finlex.fi/fi/lainsaadanto/1993/1501",
+ "source_title": "Finlex — Arvonlisäverolaki 1501/1993, ajantasaistettu (consolidated), change log: 'Muutosta 462/2024 … muutt. 84 ja 85 b § 1.9.2024'",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13.5",
+   "scope": "food, restaurant and catering, animal feed, passenger transport, accommodation, medicines, sanitary/incontinence products and nappies, books, sport and cultural admissions, performers' fees, works of art, copyright fees (85 §; 14%→13.5% from 2026-01-01 by L 1358/2025; categories moved from 10% on 2025-01-01 by L 691/2024)"
+  },
+  {
+   "rate": "10",
+   "scope": "newspapers and periodicals, physical or electronic (85 a §)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports, intra-EU supplies and certain other zero-rated supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Finlex change log lists later amendments (585/2026 from 14.7.2026, 597/2026 from 1.1.2027, 25/2026 from 1.7.2027), none of which amend 84, 85 or 85 a §. TEDB cross-check: 25.5% standard; 13.5% and 10% reduced — consistent.",
+ "unverified": []
+}

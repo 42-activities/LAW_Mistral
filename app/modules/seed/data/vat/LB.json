@@ -1,0 +1,20 @@
+{
+ "code": "LB",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / الضريبة على القيمة المضافة (TVA)",
+ "standard_rate": "11",
+ "valid_from": "2018-01-01",
+ "legal_ref": "VAT Law No. 379 of 14 Dec 2001, Art. 25, as amended by Law No. 64 of 20 Oct 2017 (rate 10% -> 11%)",
+ "quote": "\"The standard VAT rate in Lebanon is 11%.\" (PwC Worldwide Tax Summaries, Lebanon – Other taxes, last reviewed 1 July 2026). Note the Ministry of Finance page still reads: \"هناك معدل للضريبة على القيمة المضافة, المعدل المعتمد 10%. المرجع: المادة 25 من القانون رقم 379 تاريخ 14/12/2001\" (outdated, pre-2018).",
+ "source_url": "https://taxsummaries.pwc.com/lebanon/corporate/other-taxes",
+ "source_title": "PwC Worldwide Tax Summaries – Lebanon, Corporate – Other taxes (secondary; official MoF page https://www.finance.gov.lb/ar-lb/Taxation/Companies/VAT/Pages/Tax-Rate.aspx still shows the superseded 10% rate)",
+ "secondary": true,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single positive rate. Law 64/2017 raised the rate from 10% (in force since 1 Feb 2002 when VAT started) to 11%; MoF Decision 1568/1 of 29 Dec 2017 implemented amended Art. 25 (per secondary sources). Zero rate on exports, export-related services and international transport; banking, financial and insurance services exempt. 2024 Budget Law raised the mandatory registration threshold from LBP 100 million to LBP 5 billion (per PwC). In February 2026 the Cabinet approved a proposal to raise VAT to 12% to fund public-sector pay; it requires parliamentary legislation, which press reports say had not been enacted as of mid-2026 — not recorded as a future change.",
+ "unverified": [
+  "11% rate not confirmed in an official Lebanese text: MoF rate page is outdated (10%), the text of Law 64/2017 and Decision 1568/1 were not retrievable",
+  "Effective date of 11% (1 Jan 2018 per secondary sources; some sources say Oct 2017) not confirmed",
+  "Status of the 2026 proposal to raise VAT to 12% (Cabinet approval Feb 2026; parliament not yet enacted per press reports)"
+ ]
+}

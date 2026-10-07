@@ -1,0 +1,24 @@
+{
+ "code": "DZ",
+ "has_vat": true,
+ "tax_name": "Taxe sur la valeur ajoutée (TVA) / الرسم على القيمة المضافة",
+ "standard_rate": "19",
+ "valid_from": "2017-01-01",
+ "legal_ref": "Code des taxes sur le chiffre d'affaires (CTCA), art. 21 as amended by art. 26 of Finance Law (LF) 2017; reduced rate art. 23",
+ "quote": "Art. 21 - La taxe sur la valeur ajoutée est perçue au taux normal de 19 %. [fn: modifié par les articles … 21/LF 2001 et 26/LF2017] … Art. 23 - Le taux réduit de la taxe sur la valeur ajoutée est fixé à 9 %. — VAT is levied at the normal rate of 19%; reduced rate 9%",
+ "source_url": "https://web.archive.org/web/20230202110711/https://www.mfdgi.gov.dz/images/pdf/codes_fiscaux/CTCA_2023_fr.pdf",
+ "source_title": "Direction Générale des Impôts (Algeria) – Code des taxes sur le chiffre d'affaires, édition 2023 (FR) — Wayback Machine copy; mfdgi.gov.dz timed out / TLS error from here, CTCA 2025 edition (mfdgi.gov.dz/files/777/2025/2526/CTCA2025FR.pdf) not retrievable",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "9",
+   "scope": "listed agricultural products and inputs, certain foodstuffs, medicines-related items, social housing, tourism/hotel services, specified equipment and services (CTCA art. 23)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Rates raised by LF 2017 from 17%/7% to 19%/9%. Exports and certain supplies exempt with right to deduction. TVA administered by the DGI under the CTCA; the Code des impôts indirects covers alcohol etc. separately. No sub-national VAT.",
+ "unverified": [
+  "Text checked is the 2023 CTCA edition; the 2025/2026 editions could not be retrieved — rate believed unchanged but not confirmed in a 2026 text",
+  "valid_from assumes LF 2017 (Loi 16-14) applied from 1 January 2017; commencement clause not read"
+ ]
+}

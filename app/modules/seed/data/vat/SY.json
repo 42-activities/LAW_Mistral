@@ -1,0 +1,20 @@
+{
+ "code": "SY",
+ "has_vat": false,
+ "tax_name": "None (no VAT or general sales tax confirmed); selective consumption spending tax (ضريبة الإنفاق الاستهلاكي) on listed goods/services",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "Consumption spending tax legislation (selective tax on listed goods and services such as hotels, restaurants, certain imported and luxury goods); a draft Sales Tax Law (2025) intended to replace it was not confirmed as enacted",
+ "quote": "No official text could be retrieved: mof.gov.sy and syrian-tax.gov.sy did not respond from here, and news pages (enabbaladi.net) returned HTTP 403.",
+ "source_url": "https://www.enabbaladi.net/769219/",
+ "source_title": "Enab Baladi – 'منظومة ضريبية جديدة تفرض مطلع 2026 في سوريا' (Aug 2025) (secondary press; known only from search results, page not readable)",
+ "secondary": true,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Syria has no VAT. Indirect taxation is via the consumption spending tax (ضريبة الإنفاق الاستهلاكي), a selective tax levied at varying rates on specified goods and services (e.g. tourist restaurants and hotels, certain luxury/imported goods), not a general multi-stage tax with input credit. In 2025 the Ministry of Finance's tax reform committee published drafts of a new Income Tax Law and a Sales Tax Law, to replace the consumption spending tax and intended to apply from early 2026 (press reports; draft art. 9 would let the finance minister adjust the rate annually within limits). Whether the Sales Tax Law was enacted and its rate could not be confirmed; if enacted it would likely qualify as a general consumption tax and this record should be revised.",
+ "unverified": [
+  "Entire record unverified against an official text: Syrian official sites unreachable",
+  "Status of the draft Sales Tax Law (2025/2026): enactment, rate and start date unknown",
+  "Current consumption spending tax rates and legal basis not confirmed"
+ ]
+}

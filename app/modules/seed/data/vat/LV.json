@@ -1,0 +1,29 @@
+{
+ "code": "LV",
+ "has_vat": true,
+ "tax_name": "Pievienotās vērtības nodoklis (PVN)",
+ "standard_rate": "21",
+ "valid_from": "2012-07-01",
+ "legal_ref": "Pievienotās vērtības nodokļa likums, 41. pants (1)(1); rate 21% first set by 24.05.2012 likums \"Grozījumi likumā 'Par pievienotās vērtības nodokli'\" (LV 6.06.2012, Nr. 88), in force 1.07.2012; carried into the current PVN likums in force 1.01.2013",
+ "quote": "41.pants. ... (1) Ar nodokli apliekamiem darījumiem piemēro: 1) nodokļa standartlikmi 21 procenta apmērā (turpmāk — nodokļa standartlikme), ja šajā likumā nav noteikts citādi — Taxable transactions are subject to the standard rate of 21% unless otherwise provided. [2012 amendment: 'Aizstāt 5.panta pirmajā daļā ... “22 procentu” ar ... “21 procenta”. ... Likums stājas spēkā 2012.gada 1.jūlijā.']",
+ "source_url": "https://likumi.lv/ta/id/253451-pievienotas-vertibas-nodokla-likums",
+ "source_title": "Likumi.lv (official legal acts portal, Latvijas Vēstnesis): Pievienotās vērtības nodokļa likums, consolidated; start date from Latvijas Vēstnesis 6.06.2012 Nr. 88, https://www.vestnesis.lv/ta/id/248708",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "12",
+   "scope": "medicines and medical devices, specialised infant food, domestic scheduled passenger transport, accommodation services, firewood and heat supplied to households, fresh fruit/berries/vegetables (Annex 1); bread, milk, poultry meat and eggs (Annex 2) only 1 Jul 2026 – 30 Jun 2027 (PVN likums 42. pants)"
+  },
+  {
+   "rate": "5",
+   "scope": "books (print and electronic) and press/periodical publications in qualifying languages (42. pants (5), (7))"
+  },
+  {
+   "rate": "0",
+   "scope": "exports, intra-EU supplies, international transport and related services (43.–50. pants)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Standard rate unchanged; the only enacted future change is the expiry on 30 June 2027 of the temporary 12% rate for bread, milk, poultry and eggs (transitional provision 48). Previous standard rate 22% (until 30 June 2012). TEDB (situation 2026-07-01) shows 21%, 12%, 5%, 0% — consistent; TEDB lists foodstuffs under 12%. Scheduled: from 2027-07-01: The 12% rate on bread, milk, poultry and eggs applies only from 1 July 2026 to 30 June 2027 (these revert to the 21% standard rate afterwards; standard rate itself unchanged).",
+ "unverified": []
+}

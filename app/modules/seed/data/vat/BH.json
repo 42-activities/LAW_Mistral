@@ -1,0 +1,19 @@
+{
+ "code": "BH",
+ "has_vat": true,
+ "tax_name": "Value Added Tax (VAT) / ضريبة القيمة المضافة",
+ "standard_rate": "10",
+ "valid_from": "2022-01-01",
+ "legal_ref": "VAT Law promulgated by Legislative Decree No. 48 of 2018, Art. 3(1) as replaced by Law No. 33 of 2021 (Arts. 3 and 5; OG No. 3572, 23 Dec 2021)",
+ "quote": "“Tax shall be imposed at a standard rate of (10%) of the value of a supply or import, unless a specific provision is made in this Law to exempt from Tax or to impose Tax at a zero rate.” … Article Five: The provisions of Article Three of this law shall come into force on first January 2022. (LLOC English translation; Arabic Official Gazette prevails)",
+ "source_url": "https://www.lloc.gov.bh/FullEn/K3321.docx",
+ "source_title": "Legislation & Legal Opinion Commission (LLOC) – Law No. (33) of 2021 amending some provisions of the VAT Law promulgated by Legislative Decree No. (48) of 2018 (English)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Rate raised from 5% (in force since 1 Jan 2019) to 10% from 1 Jan 2022; 5% continued for pre-existing contracts until expiry/amendment/renewal or one year (i.e. at latest 31 Dec 2022). Zero rate on exports, basic food items, healthcare, education, new buildings, local oil & gas, etc.; exemptions for certain financial services and real estate. Administered by the National Bureau for Revenue (nbr.gov.bh, which returned HTTP 403 to automated access). LLOC amendments page lists only Law 33/2021 as amending Decree-Law 48/2018.",
+ "unverified": [
+  "Mandatory registration threshold (BHD 37,500) not confirmed in an official text fetched here",
+  "nbr.gov.bh not reachable (HTTP 403), so no cross-check with the tax authority page"
+ ]
+}

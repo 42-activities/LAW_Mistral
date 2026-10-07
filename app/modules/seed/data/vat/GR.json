@@ -1,0 +1,37 @@
+{
+ "code": "GR",
+ "has_vat": true,
+ "tax_name": "Φόρος Προστιθέμενης Αξίας (ΦΠΑ)",
+ "standard_rate": "24",
+ "valid_from": "2016-06-01",
+ "legal_ref": "Κώδικας ΦΠΑ (ν. 5144/2024, ΦΕΚ Α' 162/11.10.2024) άρθρο 26 παρ. 1 (ex άρθρο 21 ν. 2859/2000); rate set by ν. 4389/2016 άρθρο 52 παρ. 1-2 (ΦΕΚ Α' 94/27.05.2016)",
+ "quote": "Ο συντελεστής του ΦΠΑ ορίζεται σε είκοσι τέσσερα τοις εκατό (24%) στη φορολογητέα αξία. — The VAT rate is set at twenty-four percent (24%) of the taxable value. [ν. 4389/2016 art. 52(2): 'Οι διατάξεις της προηγούμενης παραγράφου ισχύουν από 1.6.2016.' — applies from 1 June 2016]",
+ "source_url": "https://ia37rg02wpsa01.blob.core.windows.net/fek/01/2024/20240100162.pdf",
+ "source_title": "Εφημερίδα της Κυβερνήσεως ΦΕΚ Α' 162/11.10.2024, ν. 5144/2024 Κύρωση Κώδικα ΦΠΑ, άρθρο 26 (official gazette PDF via National Printing House et.gr storage); commencement from ΦΕΚ Α' 94/27.05.2016, ν. 4389/2016 άρθρο 52 (https://ia37rg02wpsa01.blob.core.windows.net/fek/01/2016/20160100094.pdf)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "13",
+   "scope": "goods and services in Annex III of the VAT Code: most foodstuffs, restaurant/catering (non-alcoholic), hotel accommodation, water supply, certain agricultural inputs and other listed items"
+  },
+  {
+   "rate": "6",
+   "scope": "items specially designated in Annex III: medicines, certain medical devices, books, newspapers and periodicals, theatre/concert tickets, electricity and natural gas, certain basic foodstuffs"
+  },
+  {
+   "rate": "4",
+   "scope": "works/services exclusively for removing architectural barriers to mobility of persons with disabilities in buildings (Annex III, Β); also the island rate on 6% items where the 30% island reduction applies"
+  },
+  {
+   "rate": "0",
+   "scope": "COVID-19 vaccines (art. 26 para 1); certain pharmaceutical/contraceptive and feminine hygiene products per TEDB"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Art. 26 para 4: by ministerial decision VAT rates may be reduced by 30% for the islands of Leros, Lesvos, Kos, Samos and Chios (giving 17%, 9%, 4% — TEDB lists 17% as a regional rate). Mount Athos is outside the VAT territory. Zero-rated (exempt with deduction) exports and intra-EU supplies (arts 29, 33). The VAT Code was recodified by ν. 5144/2024 in force from publication (11.10.2024) without changing the rate. TEDB lists the country as 'EL'; it shows 24% standard (situation 2025-01-01). No enacted future change found.",
+ "unverified": [
+  "Scopes of the 13% and 6% rates summarised from TEDB categories, not checked item by item against Annex III of ν. 5144/2024",
+  "Whether the 30% island reduction is currently activated by ministerial decision for all five islands not checked",
+  "AADE website (aade.gr) blocked automated access (HTTP 403), so the AADE consolidated text was not consulted; official gazette used instead"
+ ]
+}

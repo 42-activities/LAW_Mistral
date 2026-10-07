@@ -1,0 +1,32 @@
+{
+ "code": "PA",
+ "has_vat": true,
+ "tax_name": "Impuesto de Transferencia de Bienes Corporales Muebles y la Prestación de Servicios (ITBMS)",
+ "standard_rate": "7",
+ "valid_from": "2010-07-01",
+ "legal_ref": "Código Fiscal art. 1057-V, as amended by Ley 8 de 15 de marzo de 2010 (art. 76)",
+ "quote": "\"La tarifa de este impuesto será de (7%) a partir del 1 de julio del 2010. (art.76, Ley 8 del 2010)\" — the tax rate is 7% from 1 July 2010",
+ "source_url": "https://dgi.mef.gob.pa/itbms/Generalidades.php",
+ "source_title": "DGI Panamá – ITBMS Generalidades (dgi.mef.gob.pa); also https://dgi.mef.gob.pa/itbms/Itbms.php",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "10",
+   "scope": "higher rate: import and wholesale/retail sale of alcoholic beverages; lodging/accommodation services"
+  },
+  {
+   "rate": "15",
+   "scope": "higher rate: import and wholesale/retail sale of tobacco products"
+  },
+  {
+   "rate": "0",
+   "scope": "exempt (no ITBMS): medicines, basic school supplies, uniforms, textbooks, food, agricultural products, public utilities, medical and laboratory services"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Panama's 10% and 15% rates are higher, not reduced, rates. Registration/charging threshold: annual turnover above B/.36,000 (DGI). Rate was 5% before 1 July 2010.",
+ "unverified": [
+  "Text of Ley 8 de 2010 art.76 not read in the Gaceta Oficial; rate/date taken from DGI page citing it",
+  "Prior 5% rate (before 1 July 2010) from search results only"
+ ]
+}

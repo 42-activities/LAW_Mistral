@@ -1,0 +1,19 @@
+{
+ "code": "LY",
+ "has_vat": false,
+ "tax_name": "None (no VAT or general sales tax)",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "No VAT/general sales tax law; taxes administered by the Tax Authority are income tax (Law 7/2010), stamp duty (Law 12/2004), jihad tax, real estate tax, livestock tax, entertainment tax, etc.",
+ "quote": "\"قوانين الضرائب: … القانون رقم (2) لسنة 1986م بشأن الضريبة على العقارات … قانون رقم (12) لسنة 2004 بشان ضريبة الدمغة … قانون رقم 7 لسنة 2010 لضريبة الدخل … قانون ضريبة الجهاد رقم (44) لسنة 1970 … قانون ضريبة الملاهي رقم (39) لسنة 1968\" — the Tax Authority's list of tax laws contains no value added tax or general sales tax law",
+ "source_url": "https://tax.gov.ly/Law1.aspx",
+ "source_title": "Libyan Tax Authority (مصلحة الضرائب) – 'قوانين الضرائب' (tax laws) page",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Libya has not introduced a VAT or general sales/consumption tax on supplies. Indirect taxation consists of customs duties and fees on imports (administered by the Customs Authority), stamp duty and specific levies (e.g. entertainment tax). Proposals to introduce VAT have been discussed over the years but no law has been enacted.",
+ "unverified": [
+  "Position inferred from the absence of any VAT/sales-tax law in the Tax Authority's list; no explicit official statement 'Libya has no VAT' was found",
+  "Import-stage consumption/excise levies administered by Customs were not checked"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "code": "EG",
+ "has_vat": true,
+ "tax_name": "Value Added Tax / الضريبة على القيمة المضافة",
+ "standard_rate": "14",
+ "valid_from": "2017-07-01",
+ "legal_ref": "VAT Law promulgated by Law No. 67 of 2016 (7 Sep 2016), Art. 3",
+ "quote": "\"يكون السعر العام للضريبة على السلع والخدمات (13%) عن العام المالى 2016/2017، و(14%) اعتبارا من العام المالى 2017/2018، ويخصص (1%) من الضريبة للإنفاق على برامج العدالة الاجتماعية\" — the general rate on goods and services is 13% for FY 2016/2017 and 14% from FY 2017/2018 (which begins 1 July 2017); 1% of the tax is earmarked for social-justice programmes",
+ "source_url": "https://fra.gov.eg/wp-content/uploads/2025/01/قانون-رقم-67-لسنة-2016-وفقا-لاخر-تعديل.pdf",
+ "source_title": "Financial Regulatory Authority (Egypt) – Law No. 67 of 2016 on VAT, consolidated 'according to the latest amendment' (posted Jan 2025); eta.gov.eg has no direct link to the law text",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "5",
+   "scope": "machinery and equipment used to produce goods or render services (excluding buses and passenger cars) (Art. 3)"
+  },
+  {
+   "rate": "0",
+   "scope": "exported goods and services (Art. 3)"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Alongside VAT, a 'table tax' (ضريبة الجدول) applies to listed goods/services (tobacco, alcohol, petroleum products, etc.) at specific or ad-valorem rates. Egypt's fiscal year starts 1 July, so 14% applies from 1 July 2017. Registration threshold EGP 500,000 annual turnover (Art. 16). Law No. 157 of 2025 (in force 18 July 2025) amended the VAT law: per secondary reports, construction/contracting services moved from 5% to the general 14% rate, VAT extended to crude oil and certain advertising services, and table-tax changes for cigarettes/alcohol and administrative buildings; further Ministerial Decrees 417 and 418 of 2025.",
+ "unverified": [
+  "Changes made by Law No. 157 of 2025 were not read in an official text (consolidated FRA PDF predates it); in particular whether the 5% machinery rate survives unchanged",
+  "Registration threshold EGP 500,000 not re-checked in the fetched PDF"
+ ]
+}

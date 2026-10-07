@@ -1,0 +1,23 @@
+{
+ "code": "AM",
+ "has_vat": true,
+ "tax_name": "Ավելացված արժեքի հարկ (ԱԱՀ) / Value added tax",
+ "standard_rate": "20",
+ "valid_from": "2018-01-01",
+ "legal_ref": "Tax Code of the Republic of Armenia HO-165-N (04.10.2016, in force 01.01.2018), Article 63(1)",
+ "quote": "VAT against the tax base of transactions and operations considered to be the object of VAT taxation as prescribed by Article 60 of the Code shall be calculated at the rate of 20%, except for the transactions and operations prescribed by Articles 64 and 65 of the Code. (Art. 63(1), official English translation)",
+ "source_url": "https://www.arlis.am/hy/acts/216349/download/act",
+ "source_title": "ARLIS (Armenian Legal Information System) — Tax Code of the Republic of Armenia HO-165-N, official translation, consolidated version published 11.11.2025",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "0",
+   "scope": "exports and other zero-rated transactions under Art. 65"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Single positive rate of 20%; exemptions under Art. 64. Where VAT is not separately stated (Art. 63(2)) it is computed at the 16.67% tax-inclusive fraction. VAT registration threshold: AMD 115 million annual turnover (Art. 61/62). Amending law HO-200-N (adopted 06.05.2026, in force 01.07.2026) amends Art. 62 but not the Art. 63 rate.",
+ "unverified": [
+  "valid_from 2018-01-01 is the commencement of the current Tax Code; the 20% rate already applied under the earlier Law on VAT (its start date not checked)"
+ ]
+}

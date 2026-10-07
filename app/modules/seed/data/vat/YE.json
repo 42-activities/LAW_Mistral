@@ -1,0 +1,20 @@
+{
+ "code": "YE",
+ "has_vat": true,
+ "tax_name": "General Sales Tax (GST) / الضريبة العامة على المبيعات — a VAT-type general sales tax with input-tax deduction",
+ "standard_rate": "5",
+ "valid_from": null,
+ "legal_ref": "General Sales Tax Law No. 19 of 2001 and amendments (incl. Law No. 7 of 2020 issued in Sana'a)",
+ "quote": "\"Standard rate 5% … The general rate is 5%, although a 10% rate applies to some telecommunications and mobile communications products or services.\" (Deloitte, Yemen Highlights 2023)",
+ "source_url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2024/dttl-tax-yemenhighlights-2023.pdf",
+ "source_title": "Deloitte – Yemen Highlights 2023 (secondary). Official Tax Authority site tax.gov.ye (sales tax page https://tax.gov.ye/salestaxes/) lists the GST law, ministerial decisions and guides, but the guides are scanned images and the rate was not found in them",
+ "secondary": true,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Yemen levies a general sales tax under Law 19/2001, not a tax called VAT. It is a multi-stage tax on goods and services with deduction/refund of input tax (the tax authority's registrant rights guide refers to refund of 'الرصيد المتبقي من الضريبة على المدخلات المدفوعة القابلة للخصم' and of tax on exports), so recorded as has_vat true. Higher 10% rate on certain telecom/mobile services (secondary). Exemptions under Art. 40(b) include wheat and flour, rice, medicines, raw gold and, from Law 7/2020, pharma inputs, renewable-energy equipment, solar/electric vehicles. Registration threshold YER 50 million per year (secondary). Administration is split by the conflict: tax.gov.ye is run by the Sana'a-based authority (Law 7/2020 was issued by the Supreme Political Council), while the internationally recognised government operates from Aden; rates and enforcement may differ between areas.",
+ "unverified": [
+  "5% general rate and 10% telecom rate not confirmed in an official text (law text not available on tax.gov.ye; guides are images)",
+  "Date from which 5% applies (GST law in force from 2005 per ministerial decision 75/2005 on opening balances) not confirmed",
+  "Possible divergent rates between Sana'a and Aden administrations"
+ ]
+}

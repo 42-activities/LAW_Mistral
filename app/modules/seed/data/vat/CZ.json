@@ -1,0 +1,27 @@
+{
+ "code": "CZ",
+ "has_vat": true,
+ "tax_name": "Daň z přidané hodnoty (DPH)",
+ "standard_rate": "21",
+ "valid_from": "2013-01-01",
+ "legal_ref": "Zákon č. 235/2004 Sb., o dani z přidané hodnoty, § 47; 21% introduced by zákon č. 500/2012 Sb. (účinnost 1. 1. 2013)",
+ "quote": "S účinností od 1. ledna 2013 se u zdanitelného plnění nebo u přijaté úplaty uplatňuje: základní sazba daně ve výši 21 %, nebo snížená sazba daně ve výši 15 %. — From 1 January 2013 the basic rate is 21% (reduced 15%). [GFŘ 2024: 'Základní sazba daně zůstává i nadále ve výši 21 %' — basic rate remains 21%]",
+ "source_url": "https://mf.gov.cz/cs/dane-a-ucetnictvi/dane/danova-a-celni-legislativa/2013/informace-mf-dph-1-1-2013-11053",
+ "source_title": "Ministerstvo financí ČR — Informace MF o změnách v oblasti DPH s účinností od 1. 1. 2013; plus GFŘ 'Informace ke změnám sazeb DPH od 1. 1. 2024' (financnisprava.gov.cz)",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "12",
+   "scope": "single reduced rate from 2024-01-01 (zákon 349/2023 Sb. merged 15% and 10%): food, selected non-alcoholic drinks, water, medicines, medical aids, accommodation, restaurant services (excl. alcohol), public passenger transport, cultural/sport admissions, social housing, district heating, periodicals"
+  },
+  {
+   "rate": "0",
+   "scope": "books (exempt with right of deduction from 2024), exports and intra-EU supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Reduced-rate merger: from 2024-01-01 the 15% and 10% rates were replaced by a single 12% rate (zákon č. 349/2023 Sb., GFŘ information č.j. 916/24/7100-30116-050822). TEDB cross-check: 21% standard, 12% reduced — consistent.",
+ "unverified": [
+  "consolidated § 47 text not read on e-Sbírka (JavaScript app); rate confirmed via MF/GFŘ publications"
+ ]
+}

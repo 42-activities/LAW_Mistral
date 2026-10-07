@@ -1,0 +1,16 @@
+{
+ "code": "BA",
+ "has_vat": true,
+ "tax_name": "Porez na dodanu vrijednost (PDV) / Порез на додату вриједност",
+ "standard_rate": "17",
+ "valid_from": "2006-01-01",
+ "legal_ref": "Zakon o porezu na dodanu vrijednost (Službeni glasnik BiH 9/05, 35/05, 100/08, 33/17, 46/23, 80/23, 20/25), član 23; application date per Zakon o izmjenama i dopunama 35/05",
+ "quote": "Standardna stopa PDV-a na oporezivi promet dobara i usluga i uvoz dobara u Bosnu i Hercegovinu iznosi 17%. — The standard VAT rate on taxable supplies and imports into BiH is 17%. (35/05: \"...primjenjuje se od 01.01.2006\")",
+ "source_url": "https://www.uino.gov.ba/portal/wp-content/uploads/PROPISI/2_Porezi/1_PDV/1_Zakon_o_PDV/B/B-1-Zakon_o_PDV-b.pdf",
+ "source_title": "Uprava za indirektno oporezivanje BiH — Zakon o PDV-u (Sl. glasnik BiH 9/05); amendments 35/05, 33/17, 46/23, 80/23, 20/25 also from uino.gov.ba propisi/porezi",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Single-rate system: 17% is the only positive rate; exports and certain supplies are exempt with credit. Indirect taxes are levied at state level (Indirect Taxation Authority) for both entities (FBiH, RS) and Brčko District. Registration threshold raised from KM 50,000 to KM 100,000 (Art. 57(1), amended by Sl. glasnik BiH 80/23). Amendment 20/25 introduced a VAT refund for first-home buyers (Art. 54a); no rate changes in amendments through 20/25.",
+ "unverified": []
+}

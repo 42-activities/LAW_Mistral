@@ -1,0 +1,18 @@
+{
+ "code": "KW",
+ "has_vat": false,
+ "tax_name": "None (Value Added Tax not introduced)",
+ "standard_rate": null,
+ "valid_from": null,
+ "legal_ref": "No VAT law enacted; GCC Unified VAT Agreement signed but not ratified/implemented domestically",
+ "quote": "Ministry of Finance tax services list only: \"ضريبة الشركات والمؤسسات\" (tax on companies and establishments) and \"الضريبة التكميلية على مجموعة الكيانات متعددة الجنسيات\" (domestic minimum top-up tax on multinational groups) — no VAT or sales tax appears among the taxes administered.",
+ "source_url": "https://web.archive.org/web/2026id_/https://www.mof.gov.kw/MOFServices/CompServ1.aspx",
+ "source_title": "Ministry of Finance Kuwait – Company tax services page (Wayback Machine copy, 2026; mof.gov.kw refused connections from here)",
+ "secondary": false,
+ "reduced_rates": [],
+ "future_changes": [],
+ "notes": "Kuwait has not introduced VAT or any general sales tax. It signed the GCC Unified VAT Agreement (5% framework) but no domestic VAT law has been passed by the National Assembly; the 2017-era plan to introduce VAT was repeatedly postponed. Taxes in force: corporate income tax on foreign bodies corporate (15%), Zakat and National Labour Support Tax on Kuwaiti listed companies, and the Domestic Minimum Top-up Tax on multinational groups (Decree-Law 157/2024, from 1 Jan 2025). Customs duty (generally 5% under the GCC Common Customs Law) applies on imports.",
+ "unverified": [
+  "No explicit official statement 'Kuwait has not applied VAT' was retrievable: mof.gov.kw refused connections; position inferred from the absence of VAT among MOF-administered taxes and from no VAT law existing. Press reports (2026) say the 2026-2030 fiscal plan does not include VAT."
+ ]
+}

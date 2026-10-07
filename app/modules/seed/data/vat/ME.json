@@ -1,0 +1,32 @@
+{
+ "code": "ME",
+ "has_vat": true,
+ "tax_name": "Porez na dodatu vrijednost (PDV)",
+ "standard_rate": "21",
+ "valid_from": "2018-01-01",
+ "legal_ref": "Zakon o porezu na dodatu vrijednost (Sl. list RCG 65/01 ... Sl. list CG 50/17 ... 94/24), čl. 24; čl. 71c (dodat Zakonom o izmjenama i dopunama, Sl. list CG 50/17)",
+ "quote": "PDV se obračunava i plaća po opštoj stopi od 21% od svakog prometa proizvoda, usluga i uvoza proizvoda ... (čl. 24) / \"Član 71c: PDV se obračunava i plaća po opštoj stopi od 21% od 1. januara 2018. godine.\" — VAT is charged at the general rate of 21% from 1 January 2018.",
+ "source_url": "https://zakoni.skupstina.me/zakoni/web/dokumenta/zakoni-i-drugi-akti/217/1497-9618-16-3-17-3-5.pdf",
+ "source_title": "Skupština Crne Gore — Zakon o izmjenama i dopunama Zakona o porezu na dodatu vrijednost (2017, Sl. list CG 50/17), čl. 3 and 5; consolidated text 2022 on gov.me (https://biznis-api.gov.me/media/files/1655794165-zakon-o-porezu-na-dodatu-vrijednost.pdf), čl. 24",
+ "secondary": false,
+ "reduced_rates": [
+  {
+   "rate": "15",
+   "scope": "from 1 Jan 2025 (Sl. list CG 94/24): accommodation in hotels and similar, restaurant/catering food and non-alcoholic drinks (excl. alcohol, sugared drinks, coffee), books, certain copyrights, sports facility use, solar panels"
+  },
+  {
+   "rate": "7",
+   "scope": "basic foodstuffs, medicines, orthotic/prosthetic and medical devices, textbooks, drinking water, newspapers/periodicals, public transport, funeral services (čl. 24a)"
+  },
+  {
+   "rate": "0",
+   "scope": "exports and other zero-rated supplies"
+  }
+ ],
+ "future_changes": [],
+ "notes": "Rate history: 17% → 19% (1 July 2013) → 21% (1 Jan 2018). 2024 amendments (Sl. list CG 88/24 and 94/24) split the reduced rate into 7% and a new 15% rate applicable from 1 January 2025. Note the Government's general PDV info page on gov.me still mentions only 21%/7%/0% (outdated).",
+ "unverified": [
+  "15% reduced rate and its scope/1 Jan 2025 start: confirmed only from KPMG Montenegro tax news (Oct 2024) — official text of Sl. list CG 94/24 not retrieved",
+  "Registration threshold (EUR 30,000) not checked"
+ ]
+}
