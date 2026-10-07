@@ -53,6 +53,22 @@ def test_current_tiers_keeps_latest_and_skips_uncapped():
     assert sorted(t["max_rate"] for t in tiers) == ["15", "5"]
 
 
+def test_future_treaty_tier_does_not_hide_todays_rate(s, tmp_path):
+    later = {"category": "DIVIDEND", "article": "Art 10(2)", "valid_from": "2099-01-01",
+             "max_rate": "7", "exclusive": False, "quote": "new treaty"}
+    tiers = current_tiers(BASE["rates"] + [later], today=D)
+    general = sorted((t["valid_from"], t["_end"]) for t in tiers
+                     if t["category"] == "DIVIDEND" and t.get("ownership_threshold") is None)
+    assert general[-1] == ("2099-01-01", None) and general[0][1] == "2099-01-01"
+    _file(tmp_path, "CH-IL.json", {**BASE, "rates": BASE["rates"] + [later]})
+    seed_treaty_rates(s, tmp_path)
+    s.flush()
+    engine = WithholdingEngine(s)
+    assert str(engine.compute("CH", "IL", "DIVIDEND", D, Decimal("5"), 400).final_rate) == "15.000"
+    future = engine.compute("CH", "IL", "DIVIDEND", date(2099, 6, 1), Decimal("5"), 400)
+    assert str(future.final_rate) == "7.000"
+
+
 def test_loader_seeds_tiers_and_ppt(s, tmp_path):
     _file(tmp_path, "CH-IL.json", BASE)
     _file(tmp_path, "CH-XX.json", {**BASE, "b": "XX"})  # unknown jurisdiction: skipped

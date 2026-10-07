@@ -2,9 +2,9 @@
 
 One JSON file per treaty pair under `data/treaty_rates/<HUB>/`, produced by the research
 agents described in docs/superpowers/plans/treaty-map/. A file is loaded only when the treaty
-has an entry-into-force date and at least one rate; per (category, threshold, direction) only
-the tier in force today is kept, so protocol histories never overlap. All evidence is
-`unreviewed` until a named reviewer confirms it (spec §10).
+has an entry-into-force date and at least one rate; per (category, threshold, direction) the
+tier in force today and any later-starting tiers are kept, end-dated so they never overlap.
+All evidence is `unreviewed` until a named reviewer confirms it (spec §10).
 """
 
 import json
@@ -42,23 +42,34 @@ def _rate(r: dict[str, Any]) -> float:
     return 0.0 if r.get("exclusive") else float(r["max_rate"])
 
 
-def current_tiers(rates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Latest tier per (category, ownership threshold, source State)."""
-    latest: dict[tuple[str, str | None, str | None], dict[str, Any]] = {}
+def current_tiers(
+    rates: list[dict[str, Any]], today: date | None = None
+) -> list[dict[str, Any]]:
+    """Per (category, ownership threshold, source State): the tier in force today plus any tier
+    that starts later (a new treaty or protocol already in force but applying from a later date).
+    Each kept tier carries ``_end`` — the next tier's start — so periods never overlap."""
+    today = today or date.today()
+    by_key: dict[tuple[str, str | None, str | None], dict[str, dict[str, Any]]] = {}
     for r in rates:
         if r.get("category") not in CATEGORIES or not r.get("valid_from"):
             continue
         if r.get("max_rate") is None and not r.get("exclusive"):
             continue
         key = (r["category"], r.get("ownership_threshold"), r.get("source_state"))
-        cur = latest.get(key)
+        starts = by_key.setdefault(key, {})
+        cur = starts.get(r["valid_from"])
         # Same key and start: the extra tier is conditional (e.g. "profits taxed at the full
         # rate") — keep the higher, conservative rate.
-        if cur is None or r["valid_from"] > cur["valid_from"] or (
-            r["valid_from"] == cur["valid_from"] and _rate(r) > _rate(cur)
-        ):
-            latest[key] = r
-    return list(latest.values())
+        if cur is None or _rate(r) > _rate(cur):
+            starts[r["valid_from"]] = r
+    out = []
+    for starts in by_key.values():
+        chain = [starts[k] for k in sorted(starts)]
+        past = [i for i, r in enumerate(chain) if date.fromisoformat(r["valid_from"]) <= today]
+        chain = chain[past[-1]:] if past else chain
+        for i, r in enumerate(chain):
+            out.append({**r, "_end": chain[i + 1]["valid_from"] if i + 1 < len(chain) else None})
+    return out
 
 
 def _cut(text: str, n: int) -> str:
@@ -143,7 +154,8 @@ def _insert_new(
             ownership_threshold=None if threshold is None else Decimal(threshold),
             min_holding_days=r.get("min_holding_days"),
             source_jurisdiction_id=None if src_state is None else src_state.id,
-            source_evidence_id=ev_id, valid_period=period(_d(r["valid_from"]) or in_force),
+            source_evidence_id=ev_id,
+            valid_period=period(_d(r["valid_from"]) or in_force, _d(r.get("_end"))),
         ))
     if with_ppt:
         sd.s.add(MliApplication(treaty_id=t.id, ppt_applies=True, source_evidence_id=ids[-1],
@@ -189,7 +201,7 @@ def _drop_stale_rates(
     want = {
         (r["category"], _dec(r.get("ownership_threshold")), src_id(r.get("source_state")),
          None if r.get("exclusive") else _dec(r.get("max_rate")), bool(r.get("exclusive")),
-         r.get("min_holding_days"), _d(r["valid_from"]))
+         r.get("min_holding_days"), _d(r["valid_from"]), _d(r.get("_end")))
         for r in tiers
     }
     rows = session.execute(
@@ -200,7 +212,7 @@ def _drop_stale_rates(
     have = {
         (code, r.ownership_threshold, r.source_jurisdiction_id,
          None if r.exclusive_residence_taxation else r.max_rate, r.exclusive_residence_taxation,
-         r.min_holding_days, r.valid_period.lower)
+         r.min_holding_days, r.valid_period.lower, r.valid_period.upper)
         for r, code in rows
     }
     if have != want:
@@ -247,6 +259,7 @@ def load_file(
             ownership_threshold=r.get("ownership_threshold"),
             min_holding_days=r.get("min_holding_days"),
             source=repo.get_by_code(source) if source else None,
+            end=_d(r.get("_end")),
         )
     ppt = data.get("ppt") or {}
     if ppt.get("applies") and ppt.get("from"):
